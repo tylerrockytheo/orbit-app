@@ -1,0 +1,28 @@
+/* Orbit live content experiment: public Hacker News stories, directly linked and dated. */
+(()=>{"use strict";
+const endpoint="https://hacker-news.firebaseio.com/v0/";
+const categories={AI:/\b(ai|artificial intelligence|llm|language model|openai|anthropic|gemini|robot|machine learning|neural|agent)\b/i,Technology:/\b(software|hardware|computer|chip|browser|android|iphone|programming|javascript|python|github|linux|security|tech)\b/i,Gaming:/\b(game|gaming|unity|unreal|steam|indie)\b/i,Music:/\b(music|audio|song|recording|synth|spotify)\b/i,Business:/\b(startup|business|sales|marketing|founder|company)\b/i};
+let stories=[],loading=false,failed=false,last=0;
+const escape=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=s=>{try{const u=new URL(s);return ["https:","http:"].includes(u.protocol)?u.href:null}catch{return null}};
+const matches=s=>Object.entries(categories).filter(([_,re])=>re.test(s.title)).map(([cat])=>cat);
+const preferences=()=>{try{return JSON.parse(localStorage.getItem("orbit_interests")||"[]")}catch{return []}};
+const saved=()=>{try{return JSON.parse(localStorage.getItem("orbit_live_saved")||"[]")}catch{return []}};
+const time=secs=>new Date(secs*1000).toLocaleString(undefined,{day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit"});
+function renderLive(){const main=document.getElementById("main");if(!main||!["Home","World","Explore","Saved"].includes(window.tab))return;
+const existing=document.getElementById("orbit-live");if(existing)existing.remove();
+const section=document.createElement("section");section.id="orbit-live";
+const current=window.tab;
+let list=stories.filter(s=>current!=="Saved"||saved().includes(s.id));
+if(current==="World")list=list.filter(s=>s.tags.includes("AI")||s.tags.includes("Technology"));
+if(current==="Home"){const prefs=preferences();list=list.slice().sort((a,b)=>{const score=x=>x.tags.reduce((n,t)=>n+(prefs.includes(t)?3:0),0);return score(b)-score(a)||b.time-a.time})}
+if(current==="Explore")list=list.slice().reverse();
+const top='<div class="intro" style="display:flex;justify-content:space-between;align-items:center"><span>'+(current==="Saved"?"Saved live stories":"Live stories")+'</span><button id="orbit-refresh" style="font-size:13px;color:var(--accent)">↻ Refresh</button></div>';
+let body=loading?'<div class="panel">Loading current stories…</div>':failed?'<div class="panel">Live stories could not load. Check your connection and tap Refresh.</div>':list.length?list.slice(0,16).map(s=>{const url=safeUrl(s.url)||"https://news.ycombinator.com/item?id="+s.id;const isSaved=saved().includes(s.id);return '<article class="post"><div class="posthead"><div class="avatar">↗</div><div><strong>'+escape(s.tags[0]||"Technology & ideas")+'</strong><div class="small">Hacker News · '+escape(time(s.time))+'</div></div></div><div class="body"><h2>'+escape(s.title)+'</h2><p>Original article · '+escape(new URL(url).hostname)+'</p><a class="source" href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">Read the original story ↗</a></div><div class="actions"><button data-live-save="'+s.id+'">'+(isSaved?"▣ Saved":"▢ Save")+'</button><button data-live-share="'+s.id+'">↗ Share</button></div></article>'}).join(""):'<div class="panel">No matching live stories right now.</div>';
+section.innerHTML=top+body;const anchor=main.querySelector(".intro");if(anchor)anchor.insertAdjacentElement("afterend",section);else main.prepend(section);
+}
+async function load(force=false){if(loading||(!force&&Date.now()-last<180000&&stories.length))return;loading=true;failed=false;renderLive();try{const response=await fetch(endpoint+"topstories.json");if(!response.ok)throw Error("HTTP "+response.status);const ids=(await response.json()).slice(0,55);const entries=await Promise.all(ids.map(async id=>{try{const r=await fetch(endpoint+"item/"+id+".json");return r.ok?await r.json():null}catch{return null}}));stories=entries.filter(s=>s&&s.type==="story"&&!s.deleted&&!s.dead&&s.title).map(s=>({...s,tags:matches(s)}));last=Date.now()}catch(e){failed=true;console.warn("Orbit live feed unavailable",e)}finally{loading=false;renderLive()}}
+const oldRender=window.render;if(typeof oldRender==="function"){window.render=function(){oldRender();renderLive();if(!stories.length&&!loading)load()}}
+document.addEventListener("click",async e=>{const refresh=e.target.closest("#orbit-refresh");if(refresh){load(true);return}const save=e.target.closest("[data-live-save]");if(save){const id=Number(save.dataset.liveSave);const list=saved();const next=list.includes(id)?list.filter(x=>x!==id):[...list,id];localStorage.setItem("orbit_live_saved",JSON.stringify(next));renderLive();return}const share=e.target.closest("[data-live-share]");if(share){const s=stories.find(x=>x.id===Number(share.dataset.liveShare));if(!s)return;const url=safeUrl(s.url)||"https://news.ycombinator.com/item?id="+s.id;try{if(navigator.share)await navigator.share({title:s.title,url});else await navigator.clipboard.writeText(url)}catch{}}});
+const observer=new MutationObserver(()=>{const main=document.getElementById("main");if(main&&!document.getElementById("orbit-live")&&["Home","World","Explore","Saved"].includes(window.tab))renderLive()});observer.observe(document.getElementById("main"),{childList:true});load();
+})();
