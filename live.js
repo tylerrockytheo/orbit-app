@@ -9,10 +9,10 @@ const matches=s=>Object.entries(categories).filter(([_,re])=>re.test(s.title)).m
 const preferences=()=>{try{return JSON.parse(localStorage.getItem("orbit_interests")||"[]")}catch{return []}};
 const saved=()=>{try{return JSON.parse(localStorage.getItem("orbit_live_saved")||"[]")}catch{return []}};
 const time=secs=>new Date(secs*1000).toLocaleString(undefined,{day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit"});
-function renderLive(){const main=document.getElementById("main");if(!main||!["Home","World","Explore","Saved"].includes(window.tab))return;
+function renderLive(){const main=document.getElementById("main");if(!main||!["Home","World","Explore","Saved"].includes((document.querySelector('.nav button.active')?.dataset.tab||'Home')))return;
 const existing=document.getElementById("orbit-live");if(existing)existing.remove();
 const section=document.createElement("section");section.id="orbit-live";
-const current=window.tab;
+const current=(document.querySelector('.nav button.active')?.dataset.tab||'Home');
 let list=stories.filter(s=>current!=="Saved"||saved().includes(s.id));
 if(current==="World")list=list.filter(s=>s.tags.includes("AI")||s.tags.includes("Technology"));
 if(current==="Home"){const prefs=preferences();list=list.slice().sort((a,b)=>{const score=x=>x.tags.reduce((n,t)=>n+(prefs.includes(t)?3:0),0);return score(b)-score(a)||b.time-a.time})}
@@ -24,5 +24,5 @@ section.innerHTML=top+body;const anchor=main.querySelector(".intro");if(anchor)a
 async function load(force=false){if(loading||(!force&&Date.now()-last<180000&&stories.length))return;loading=true;failed=false;renderLive();try{const response=await fetch(endpoint+"topstories.json");if(!response.ok)throw Error("HTTP "+response.status);const ids=(await response.json()).slice(0,55);const entries=await Promise.all(ids.map(async id=>{try{const r=await fetch(endpoint+"item/"+id+".json");return r.ok?await r.json():null}catch{return null}}));stories=entries.filter(s=>s&&s.type==="story"&&!s.deleted&&!s.dead&&s.title).map(s=>({...s,tags:matches(s)}));last=Date.now()}catch(e){failed=true;console.warn("Orbit live feed unavailable",e)}finally{loading=false;renderLive()}}
 const oldRender=window.render;if(typeof oldRender==="function"){window.render=function(){oldRender();renderLive();if(!stories.length&&!loading)load()}}
 document.addEventListener("click",async e=>{const refresh=e.target.closest("#orbit-refresh");if(refresh){load(true);return}const save=e.target.closest("[data-live-save]");if(save){const id=Number(save.dataset.liveSave);const list=saved();const next=list.includes(id)?list.filter(x=>x!==id):[...list,id];localStorage.setItem("orbit_live_saved",JSON.stringify(next));renderLive();return}const share=e.target.closest("[data-live-share]");if(share){const s=stories.find(x=>x.id===Number(share.dataset.liveShare));if(!s)return;const url=safeUrl(s.url)||"https://news.ycombinator.com/item?id="+s.id;try{if(navigator.share)await navigator.share({title:s.title,url});else await navigator.clipboard.writeText(url)}catch{}}});
-const observer=new MutationObserver(()=>{const main=document.getElementById("main");if(main&&!document.getElementById("orbit-live")&&["Home","World","Explore","Saved"].includes(window.tab))renderLive()});observer.observe(document.getElementById("main"),{childList:true});load();
+const observer=new MutationObserver(()=>{const main=document.getElementById("main");if(main&&!document.getElementById("orbit-live")&&["Home","World","Explore","Saved"].includes((document.querySelector('.nav button.active')?.dataset.tab||'Home')))renderLive()});observer.observe(document.getElementById("main"),{childList:true});load();
 })();
