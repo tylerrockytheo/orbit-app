@@ -38,6 +38,16 @@ SOURCES = [
     dict(label='Rick Beato · YouTube', category='Music', channel='UCJquYOG5EL82sKTfH9aMA9Q', cap=8),
     dict(label='TED · YouTube', category='Discover', channel='UCAuUUnT6oDeKwE6v1NGQxug', cap=6),
     dict(label='Wolters World · YouTube', category='Travel', channel='UCFr3sz2t3bDp6Cux08B93KQ', cap=6),
+    # Entertainment-first creator feeds: these supply genuine videos rather than news bulletins.
+    # Channel IDs correspond to the creators' public YouTube channels.
+    dict(label='The Dodo · YouTube', category='Animals', channel='UCINb0wqPz-A0dV9nARjJlOQ', cap=12),
+    dict(label='Dude Perfect · YouTube', category='Comedy', channel='UCRijo3ddMTht_IHyNSNXpNQ', cap=10),
+    dict(label='How Ridiculous · YouTube', category='Comedy', channel='UC5f5IV0Bf79YLp_p9nfInRA', cap=10),
+    dict(label='MrBeast · YouTube', category='Entertainment', channel='UCX6OQ3DkcsbYNE6H8uQQuVA', cap=8),
+    dict(label='MrBeast Gaming · YouTube', category='Gaming', channel='UCIPPMRA040LQr5QPyJEbmXA', cap=8),
+    dict(label='Ryan Trahan · YouTube', category='Entertainment', channel='UCnmGIkw-KdI0W5siakKPKog', cap=8),
+    dict(label='Mark Rober · YouTube', category='Discover', channel='UCY1kMZp36IQSyNx_9h4mpCg', cap=8),
+    dict(label='TeamFourStar · YouTube', category='Anime', channel='UCsvazPPlhZlch0-Z3wPByeg', cap=8),
 ]
 for s in SOURCES:
     if 'channel' in s:
@@ -165,7 +175,7 @@ def extract_items(xml: bytes, source: dict) -> list[dict]:
             summary = None
         stable = hashlib.sha256((source['label'] + '|' + url).encode()).hexdigest()[:18]
         category = source['category']
-        if category == 'Gaming' and re.search(r'\b(gameplay|video game|game|gaming|indie|unreal|steam|playstation|xbox|nintendo|switch)\b', title, re.I) is None:
+        if source['label'] == 'IGN · YouTube' and category == 'Gaming' and re.search(r'\b(gameplay|video game|game|gaming|indie|unreal|steam|playstation|xbox|nintendo|switch|vr|mod|ps5)\b', title, re.I) is None:
             # Official gaming channel posts also include film; don't falsely classify them as gaming.
             category = 'Entertainment'
         if re.search(r'\b(cancer|clinical|medicine|patient|disease|health|exercise|hospital|treatment)\b', title, re.I) and category == 'Science':
@@ -282,7 +292,7 @@ def collect(fetcher=fetch_source) -> dict:
         if old and not post.get('image_url'):
             post['image_url'] = old.get('image_url')
         posts_by_id[post['id']] = post
-    posts = sorted(posts_by_id.values(), key=lambda p: p.get('published_at') or '', reverse=True)[:220]
+    posts = sorted(posts_by_id.values(), key=lambda p: p.get('published_at') or '', reverse=True)[:320]
     return {'schema_version': 2, 'generated_at': NOW.isoformat().replace('+00:00','Z'), 'posts': posts, 'sources': stats}
 
 
