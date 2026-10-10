@@ -47,7 +47,7 @@ const ctx={
   requestAnimationFrame:cb=>cb(),
   IntersectionObserver:class {observe(){} disconnect(){}},
   fetch:async()=>({ok:true,json:async()=>({posts:examplePosts,generated_at:new Date().toISOString()})}),
-  URL,AbortController,Date,console,setTimeout,clearTimeout,Math,JSON,
+  URL,AbortController,Date,console,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:()=>{},Math,JSON,
 };
 const code=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8');
 new vm.Script(code,{filename:'app.js'}).runInNewContext(ctx);
