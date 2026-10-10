@@ -702,12 +702,6 @@ function syncReelSoundIcon(){
 }
 function soundNotice(){
   syncReelSoundIcon();
-  const control=document.getElementById('reels-sound');
-  if(control){
-    control.textContent=reelSoundOn?'🔊':'🔇';
-    control.setAttribute('aria-label','Turn sound '+(reelSoundOn?'off':'on'));
-    control.setAttribute('aria-pressed',String(reelSoundOn));
-  }
   const notice=document.getElementById('reels-audio-indicator');
   if(!notice)return;
   notice.textContent=reelSoundOn?'🔊 Sound on':'🔇 Sound off';
@@ -755,7 +749,7 @@ function tapReel(index){
   }
   const player=reelYoutubePlayers.get(index);
   const playback=reelPlaybackStates.get(index)||{};
-  let muted=playback.muted===true||!reelSoundOn||(!reelUserConfirmedSound&&reelSoundOn);
+  let muted=playback.muted===true||!reelSoundOn;
   if(clip.platform==='youtube'){
     try{if(typeof player?.isMuted==='function')muted=Boolean(player.isMuted())}catch{}
   }
@@ -986,7 +980,9 @@ function feedSound(id){
   if(!frame)return;
   // Unlike the old disabled one-shot label, this remains available to retry.
   // Queue the request when the YouTube API is still loading.
-  feedSoundWanted=!feedSoundWanted;feedSoundVerified=false;
+  // A second tap before sound is confirmed must RETRY unmute, not mute again.
+  const enable=!feedSoundWanted||!feedSoundVerified;
+  feedSoundWanted=enable;feedSoundVerified=false;
   if(!feedSoundWanted){
     try{if(feedPlayer)feedPlayer.mute();else sendYoutubeCommand(frame,'mute')}catch{}
     updateFeedSoundButton(id,'🔇 Sound off');return;
