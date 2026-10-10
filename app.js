@@ -249,6 +249,12 @@ function resetReelPlayer(index){
 function startReel(id,mutedPlayback=!reelSoundOn){
   const clips=reelItems(),index=clips.findIndex(p=>p.id===id);
   if(index<0||tab!=='Reels')return;
+  // A direct tap can arrive before IntersectionObserver marks the visible Reel active.
+  if(reelActiveIndex!==index){
+    const previous=reelActiveIndex;
+    reelActiveIndex=index;
+    if(previous>=0)resetReelPlayer(previous);
+  }
   const p=clips[index];
   const media=document.getElementById('reel-media-'+index);
   if(!media||media.querySelector('iframe'))return;
