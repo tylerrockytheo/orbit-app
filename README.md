@@ -26,6 +26,15 @@ A private personalised feed. **Not** a social network: Likes are private recomme
 - Save posts, filter topics, navigate tabs, and share a post without changing the recipient's feed unless they explicitly answer Yes/No/Maybe. Shared links need a post still present in current feed; durable sharing is a production TODO.
 - Follows the device's light/dark setting.
 
+## Reliable content and personalised recommendations
+
+- Expanded attributed RSS news and discoveries from **Polygon Gaming, PC Gamer, Rock Paper Shotgun, Variety Film/TV/Music, Hollywood Reporter and NME** in addition to existing BBC, NASA, anime, travel and creator feeds. Source URLs are public syndication feeds; some may fail transiently, and a failed source never creates fake content.
+- Content ingestion reserves up to **160 playable videos** and **180 article posts** so fast-moving article publishers cannot displace the video catalog.
+- **YouTube RSS intermittently returns HTTP 404** for active channels. Orbit retains previously retrieved videos and offers an optional **official YouTube Data API** fallback using the private `YOUTUBE_API_KEY` GitHub Actions secret. No API key is shipped to the website.
+- To activate the fallback: in [Google Cloud Console](https://console.cloud.google.com/apis/library/youtube.googleapis.com), enable **YouTube Data API v3** for a Google Cloud project. Create a key in **APIs & Services → Credentials**, restrict it to the YouTube Data API, and save it under GitHub repository **Settings → Secrets and variables → Actions → New repository secret** with the exact name `YOUTUBE_API_KEY`. Never paste this key into a public chat, repository file, or Orbit's front-end. The read-only playlist-items calls use Google API quota; monitor the project's quota and any billing settings. The fallback works only after you provide the secret.
+- User likes/less-like signals remain local and private. **Recent explicit feedback gets more weight** than old feedback, related creator/topic preferences are preferred, and the **Options** menu explains why each post is recommended. The algorithm never pulls private conversation history automatically.
+- The playback experience and light/dark UI remain independent of the source provider. Instagram/TikTok/Facebook do not offer an unrestricted general feed API here; the app currently imports public permitted permalinks rather than scraping them.
+
 ## Playback controls and multiple platforms
 
 - **Normal feed:** Longer editorial videos, trailers and explainers autoplay **muted** when sufficiently visible and stop offscreen. Fun, short creator clips are separated into Reels (the Home horizontal Reels shelf provides previews). Tap **Sound** once on a playing card to request audio; it queues the unmute until the YouTube player is ready and does not disable the button or falsely claim success before the player reports unmuted. A second tap before confirmation retries instead of muting again. Browser autoplay policies can still require user interaction and may block audible autoplay.
