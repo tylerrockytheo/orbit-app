@@ -30,6 +30,8 @@ jobs:
       - name: Test parser and fallback
         run: python -m unittest discover -s tests -v
       - name: Retrieve public articles and official video feeds
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scripts/build_feed.py
       - name: Commit refreshed feed JSON
         run: |
