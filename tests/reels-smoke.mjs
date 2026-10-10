@@ -12,6 +12,7 @@ const listeners = new Map(),nodes=new Map(),storage=new Map(),soundCommands=[];
 function node(id){
   if(!nodes.has(id)) nodes.set(id,{
     id,innerHTML:'',textContent:'',hidden:true,style:{},clientHeight:800,scrollTop:0,
+    setAttribute(name,value){this[name]=value},removeAttribute(name){delete this[name]},
     classList:{toggle(){},add(){},remove(){}},
     querySelector(selector){
       if(selector==='iframe' && this.innerHTML.includes('class="reel-frame"')){
@@ -30,6 +31,8 @@ function node(id){
 const doc={
   body:{style:{},classList:{toggle(){},add(){},remove(){}}},
   getElementById:node,
+  head:{appendChild(script){script.onerror?.()}},
+  createElement(){return {}},
   querySelector(){return null},
   querySelectorAll(){return []},
   addEventListener(type,handler){listeners.set(type,handler)}
