@@ -8,12 +8,21 @@ const examplePosts = [
   {id:'clip2',title:'Indie game VR gameplay #gaming',category:'Gaming',source_url:'https://www.youtube.com/watch?v=lmnopqrstuv',source_name:'Game Channel',video_id:'lmnopqrstuv',image_url:'https://i.ytimg.com/vi/lmnopqrstuv/hqdefault.jpg',published_at:'2026-10-09T12:01:00Z'},
   {id:'story',title:'A verified science article',category:'Science',source_url:'https://example.com/article',source_name:'Publisher',summary:'A sourced summary.',published_at:'2026-10-09T12:02:00Z'},
 ];
-const listeners = new Map(),nodes=new Map(),storage=new Map();
+const listeners = new Map(),nodes=new Map(),storage=new Map(),soundCommands=[];
 function node(id){
   if(!nodes.has(id)) nodes.set(id,{
     id,innerHTML:'',textContent:'',hidden:true,style:{},clientHeight:800,scrollTop:0,
     classList:{toggle(){},add(){},remove(){}},
-    querySelector(){return null},querySelectorAll(){return []},
+    querySelector(selector){
+      if(selector==='iframe' && this.innerHTML.includes('class="reel-frame"')){
+        if(!this._frame || this._frameMarkup!==this.innerHTML){
+          this._frameMarkup=this.innerHTML;
+          this._frame={contentWindow:{postMessage(message){soundCommands.push(JSON.parse(message))}}};
+        }
+        return this._frame;
+      }
+      return null;
+    },querySelectorAll(){return []},
     replaceChildren(){},scrollTo({top}){this.scrollTop=top}
   });
   return nodes.get(id);
@@ -53,6 +62,20 @@ assert.ok(clip1Match,'music clip should be in the Reels list');
 const musicIndex=Number(clip1Match[1]);
 await click({reelPlay:'rss:clip1'});
 assert.match(node('reel-media-'+musicIndex).innerHTML,/youtube-nocookie.com\/embed\/abcdefghijk/);
+assert.match(node('app').innerHTML,/data-reels-audio-tap/);
+const beforeMute=node('reel-media-'+musicIndex).innerHTML;
+await click({reelsAudioTap:String(musicIndex)});
+assert.equal(storage.get('orbit_reel_sound_v1'),'false');
+assert.equal(node('reel-media-'+musicIndex).innerHTML,beforeMute,'mute must not reload or pause iframe');
+assert.ok(soundCommands.some(c=>c.func==='mute'),'mute command must reach active YouTube iframe');
+await click({reelsAudioTap:String(musicIndex)});
+assert.equal(storage.get('orbit_reel_sound_v1'),'true');
+assert.equal(node('reel-media-'+musicIndex).innerHTML,beforeMute,'unmute must not reload or pause iframe');
+assert.ok(soundCommands.some(c=>c.func==='unMute'),'unmute command must reach active YouTube iframe');
+await click({reelsSound:''});
+assert.equal(storage.get('orbit_reel_sound_v1'),'false','header button shares the same sound state');
+await click({reelsSound:''});
+assert.equal(storage.get('orbit_reel_sound_v1'),'true');
 // A like is private feedback; it must NOT also save a video.
 await click({like:'rss:clip1'});
 assert.ok(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1']);
@@ -67,4 +90,4 @@ assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
 await click({reelsClose:''});
 assert.match(node('app').innerHTML,/class="reels-shelf"/);
 assert.ok(!node('app').innerHTML.includes('reels-scroll'));
-console.log('Orbit Reels smoke tests passed: discovery, playback, private Like, unlike, independent Save, Next and exit');
+console.log('Orbit Reels smoke tests passed: private Likes, Save, Reels, next, full-screen audio tap mute/unmute without reload');
