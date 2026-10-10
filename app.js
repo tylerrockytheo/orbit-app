@@ -107,7 +107,7 @@ function showLessLike(p){
   toast('We’ll recommend less content like this');
 }
 
-function interestScore(p){let n=+(weights[p.category]||0)+interestFeedbackScore(p);const low=p.title.toLowerCase();if(/dragon ball|goku|vegeta/i.test(low))n+=+(weights['Dragon Ball']||0)+12;if(/anime|manga/i.test(low))n+=+(weights.Anime||0);if(/\bai\b|robot|openai|google deepmind|machine learning|gemini|\bllm\b/i.test(low))n+=+(weights['AI & Tech']||0)*.45;if(/fitness|muscle|training|bodybuild/i.test(low))n+=+(weights.Fitness||0);if(bookmarks[p.id])n+=4;return n}
+function interestScore(p){let n=+(weights[p.category]||0)+interestFeedbackScore(p);const low=p.title.toLowerCase();if(/dragon ball|goku|vegeta/i.test(low))n+=+(weights['Dragon Ball']||0)+12;if(/anime|manga/i.test(low))n+=+(weights.Anime||0);if(/\bai\b|robot|openai|google deepmind|machine learning|gemini|\bllm\b/i.test(low))n+=+(weights['AI & Tech']||0)*.45;if(/fitness|muscle|training|bodybuild/i.test(low))n+=+(weights.Fitness||0);return n}
 function mix(items){const byCategory=new Map();for(const item of items){const group=byCategory.get(item.category)||[];group.push(item);byCategory.set(item.category,group)}for(const group of byCategory.values())group.sort((a,b)=>interestScore(b)-interestScore(a)||new Date(b.published_at||0)-new Date(a.published_at||0));const result=[];let last='';while(result.length<items.length){const groups=[...byCategory].filter(([,arr])=>arr.length);if(!groups.length)break;groups.sort((a,b)=>{const na=interestScore(a[1][0])+(a[1][0].media_type==='video'?3:0)-(a[0]===last?22:0)-result.filter(p=>p.category===a[0]).length*2;const nb=interestScore(b[1][0])+(b[1][0].media_type==='video'?3:0)-(b[0]===last?22:0)-result.filter(p=>p.category===b[0]).length*2;return nb-na});const selected=groups[0];result.push(selected[1].shift());last=selected[0]}return result}
 function selection(){let items=posts.filter(p=>!muted.has(p.category));if(tab==='Saved')return Object.values(bookmarks).sort((a,b)=>new Date(b.saved_at)-new Date(a.saved_at));if(tab==='World')items=items.filter(p=>['World','Science','Health','Health & Science','Business','Politics','AI & Tech','Technology'].includes(p.category));if(tab==='Explore'){if(filter==='Videos')items=items.filter(p=>p.media_type==='video');else if(filter!=='All')items=items.filter(p=>p.category===filter);return items.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0))}if(tab==='Search')return items.filter(p=>(p.title+' '+(p.summary||'')+' '+p.category).toLowerCase().includes(searchTerm.toLowerCase()));return mix(items)}
 function imageCard(p){const img=p.image_url?'<img class="post-img" loading="lazy" src="'+escape(p.image_url)+'" alt="" onerror="this.closest(\'.media-wrap\').style.display=\'none\'">':'';if(p.video_id)return '<div class="media-wrap" id="media-'+escape(p.id)+'"><button type="button" class="video-cover" data-play="'+escape(p.id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button></div>';return img?'<div class="media-wrap">'+img+'</div>':''}
@@ -136,7 +136,7 @@ function card(p){
     +'<div class="post-meta"><div class="source-avatar">'+escape(p.source_name.charAt(0).toUpperCase())+'</div>'
     +'<div class="source-meta"><span class="source-name">'+escape(p.source_name)+'</span>'
     +'<div class="source-subline">'+escape(p.category)+' · '+escape(elapsed(p.published_at))+(p.media_type==='video'?' · Video':'')+'</div></div>'
-    +'<button type="button" class="dots" data-options="'+escape(p.id)+'" aria-label="Post options">'+svg('More')+'</button></div>'
+    +(p.shared?'':'<button type="button" class="dots" data-options="'+escape(p.id)+'" aria-label="Post options">'+svg('More')+'</button>')+'</div>'
     +(graphic?storyArtwork(p):'')
     +'<div class="post-copy">'+(graphic?'':'<h2>'+escape(p.title)+'</h2>')+excerpt+'</div>'
     +(graphic?'':imageCard(p))
@@ -144,7 +144,7 @@ function card(p){
     +'<a class="source-link" href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">'+(p.video_id?'Watch on YouTube':'Read source')+' ↗</a></div>'
     +'<div class="action-row">'+(p.shared?'':'<button type="button" data-like="'+escape(p.id)+'" class="'+(likes[p.id]?'liked':'')+'" aria-pressed="'+String(!!likes[p.id])+'" aria-label="'+(likes[p.id]?'Unlike this post':'Like this post')+'">'+svg('Like')+'<span>'+(likes[p.id]?'Liked':'Like')+'</span></button>')+'<button type="button" data-save="'+escape(p.id)+'" class="'+(saved?'active':'')+'">'+svg('Saved')+(saved?'Saved':'Save')+'</button>'
     +'<button type="button" data-share="'+escape(p.id)+'">'+svg('Share')+'Share</button>'
-    +'<button type="button" data-options="'+escape(p.id)+'">'+svg('More')+'Options</button></div></article>';
+    +(p.shared?'':'<button type="button" data-options="'+escape(p.id)+'">'+svg('More')+'Options</button>')+'</div></article>';
 }
 function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><p>'+escape(msg)+'</p></div>'}
 
