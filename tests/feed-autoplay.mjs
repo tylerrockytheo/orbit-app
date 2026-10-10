@@ -2,13 +2,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 
-const eventHandlers=new Map(),nodes=new Map(),ioInstances=[];
+const eventHandlers=new Map(),nodes=new Map(),ioInstances=[],playerCommands=[];
 function node(id){
  if(!nodes.has(id))nodes.set(id,{
    id,innerHTML:'',textContent:'',hidden:true,value:'',style:{},dataset:{},clientHeight:700,scrollTop:0,
    classList:{toggle(){},add(){},remove(){}},
    setAttribute(){},removeAttribute(){},replaceChildren(){},
-   querySelector(tag){if(tag==='iframe'&&this.innerHTML.includes('class="video-frame"'))return {src:'stub'};return null},
+   querySelector(tag){if(tag==='iframe'&&this.innerHTML.includes('class="video-frame"'))return {src:'stub',contentWindow:{postMessage(message){playerCommands.push(JSON.parse(message))}}};return null},
    querySelectorAll(){return []},scrollTo(){}
  });
  return nodes.get(id);
@@ -53,6 +53,13 @@ observer.callback([{target:videoHolder,isIntersecting:true,intersectionRatio:.9}
 assert.match(videoHolder.innerHTML,/autoplay=1/);
 assert.match(videoHolder.innerHTML,/mute=1/,'auto play must start muted');
 assert.match(videoHolder.innerHTML,/data-feed-sound/);
+const beforeSound=videoHolder.innerHTML;
+await eventHandlers.get('click')({target:{closest(){return {dataset:{feedSound:'rss:clip1'}}}}});
+await eventHandlers.get('click')({target:{closest(){return {dataset:{feedSound:'rss:clip1'}}}}});
+assert.equal(videoHolder.innerHTML,beforeSound,'sound taps should not reload inline player');
+assert.equal(playerCommands.filter(m=>m.func==='unMute').length,2,'second tap should RETRY an unconfirmed unmute, not mute');
+assert.equal(playerCommands.filter(m=>m.func==='mute').length,0,'do not mute when audio was never confirmed');
+
 observer.callback([{target:videoHolder,isIntersecting:false,intersectionRatio:0}]);
 assert.doesNotMatch(videoHolder.innerHTML,/video-frame/,'offscreen video must stop');
 assert.match(videoHolder.innerHTML,/data-play="rss:clip1"/,'offscreen cover restored');
