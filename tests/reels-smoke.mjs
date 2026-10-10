@@ -97,7 +97,11 @@ assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
 await click({like:'rss:clip1'}); // unlike does not remove the bookmark
 assert.equal(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1'],undefined);
 assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
+const firstClipId=node('app').innerHTML.match(/data-reel-index="0" data-reel-id="([^"]+)"/)?.[1];
 await click({reelsClose:''});
 assert.match(node('app').innerHTML,/class="reels-shelf"/);
 assert.ok(!node('app').innerHTML.includes('reels-scroll'));
+await click({tab:'Reels'});
+const secondClipId=node('app').innerHTML.match(/data-reel-index="0" data-reel-id="([^"]+)"/)?.[1];
+assert.notEqual(secondClipId,firstClipId,'reopening Reels should prefer unseen videos');
 console.log('Orbit Reels smoke tests passed: private Likes, Save, Reels, next, full-screen audio tap mute/unmute without reload');
