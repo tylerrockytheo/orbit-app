@@ -374,7 +374,7 @@ function reelView(){
   const clips=activeReelQueue;
   if(!clips.length)return '<div class="reels-empty"><button type="button" data-reels-close>← Back</button><h2>No videos yet</h2><p>New videos will appear when our sources update.</p></div>';
   return '<section class="reels-view" aria-label="Swipe through recommended videos">'
-    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><button type="button" class="reels-provider-button" data-player-controls aria-pressed="false">Player</button><button type="button" class="reels-sound" id="reels-sound" data-reels-sound aria-label="Turn sound '+(reelSoundOn?'off':'on')+'" aria-pressed="'+String(reelSoundOn)+'">'+(reelSoundOn?'🔊':'🔇')+'</button><span class="reels-count" id="reels-status" aria-live="polite">✦ Personalised</span></div>'
+    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><button type="button" class="reels-refresh" data-reels-refresh aria-label="Refresh Reels">↻</button><button type="button" class="reels-provider-button" data-player-controls aria-pressed="false">Player</button><button type="button" class="reels-sound" id="reels-sound" data-reels-sound aria-label="Turn sound '+(reelSoundOn?'off':'on')+'" aria-pressed="'+String(reelSoundOn)+'">'+(reelSoundOn?'🔊':'🔇')+'</button><span class="reels-count" id="reels-status" aria-live="polite">✦ Personalised</span></div>'
     +'<div class="reels-audio-indicator" id="reels-audio-indicator" aria-hidden="true"></div>'
     +'<div class="reels-scroll" id="reels-scroll" aria-label="Swipe up for more videos">'
     +clips.map((p,i)=>reelCard(p,i)).join('')
@@ -770,6 +770,51 @@ function stopReels(){
   reelBaseIndex=0;
   reelRefillPromise=null;
 }
+/* A TikTok-style refresh loads new catalog data without navigating to Home.
+   The catalog is publisher RSS metadata, so refreshing cannot invent uploads. */
+async function refreshReels(){
+  if(tab!=='Reels'||reelsRefreshing)return;
+  reelsRefreshing=true;
+  const button=document.querySelector('[data-reels-refresh]');
+  if(button){button.disabled=true;button.textContent='↻';button.classList.add('is-refreshing')}
+  const status=document.getElementById('reels-status');
+  if(status)status.textContent='↻ Checking new clips';
+  const previousCount=new Set(posts.filter(hasPlayableClip).map(clipIdentity));
+  let loaded=false,added=0;
+  try{
+    for(const url of [RAW+'?refresh='+Date.now(),STATIC+'?refresh='+Date.now()]){
+      try{
+        const data=await fetchJson(url,8500);
+        if(!data.posts?.length)continue;
+        const updated=data.posts.map(row=>normalise(row,'rss')).filter(Boolean);
+        const known=new Map(posts.map(p=>[p.id,p]));
+        for(const p of updated)known.set(p.id,p);
+        posts=[...known.values()];
+        mergeImportedClips();
+        added=posts.filter(p=>hasPlayableClip(p)&&!previousCount.has(clipIdentity(p))).length;
+        loaded=true;break;
+      }catch(err){console.debug('Refreshing Reels catalog failed',err)}
+    }
+    const unseen=rankReelCandidates(new Set(recentWatched),[],1);
+    if(unseen.length){
+      const hadPlaying=reelsStarted;
+      stopReels();
+      activeReelQueue=null;
+      reelsStarted=hadPlaying;
+      render(); // Remains on Reels, resets to newest recommendation at top.
+      const nextStatus=document.getElementById('reels-status');
+      if(nextStatus)nextStatus.textContent=added?'✦ '+added+' new clips':'✦ Refreshed for you';
+    }else{
+      const nextStatus=document.getElementById('reels-status');
+      if(nextStatus)nextStatus.textContent=loaded?'✓ Caught up · no unseen videos':'Offline · current clips retained';
+    }
+  }finally{
+    reelsRefreshing=false;
+    const current=document.querySelector('[data-reels-refresh]');
+    if(current){current.disabled=false;current.classList.remove('is-refreshing')}
+  }
+}
+
 function reelJump(index){
   const scroller=document.getElementById('reels-scroll');
   if(!scroller)return;
@@ -886,13 +931,13 @@ function playing(id){activateFeedVideo(id,false)}
 async function fetchJson(url,ms=11000){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),ms);try{const r=await fetch(url,{signal:controller.signal,cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);const body=await r.json();if(!Array.isArray(body.posts))throw new Error('Invalid feed');return body}finally{clearTimeout(timer)}}
 async function fetchFeed(force=false){loading=true;render();let data=null,origin='';const cacheBuster='?v='+Math.floor(Date.now()/(force?60000:3600000));
 for(const [url,source] of [[RAW+cacheBuster,'GitHub'],[STATIC+cacheBuster,'GitHub Pages'],[API,'Cloudflare']]){try{const result=await fetchJson(url);if(result.posts.length){data=result;origin=source;break}}catch(e){console.info('Feed source unavailable',source,e.message)}}
-if(data){const prefix=origin==='Cloudflare'?'cf':'rss';posts=data.posts.map(p=>normalise(p,prefix)).filter(Boolean);mergeImportedClips();updatedAt=data.generated_at||'';const media=posts.filter(p=>p.media_type==='video').length;feedStatus=origin==='Cloudflare'?'Limited feed · wider sources updating soon':posts.length+' fresh posts · '+media+' videos';}else{feedStatus='Couldn’t load live stories';posts=[];mergeImportedClips()}loading=false;render();const shared=new URL(location.href).searchParams.get('post');if(shared)sharedPost(shared)}
-function changeTab(t){pauseFeedAutoplay();if(tab==='Reels'&&t!=='Reels'){stopReels();activeReelQueue=null}if(t==='Reels'&&tab!=='Reels'){activeReelQueue=null;reelsReturnTab=tab==='Search'?'Home':tab}tab=t;filter='All';render();if(t!=='Reels')window.scrollTo({top:0,behavior:'instant'})}
+if(data){const prefix=origin==='Cloudflare'?'cf':'rss';posts=data.posts.map(p=>normalise(p,prefix)).filter(Boolean);mergeImportedClips();updatedAt=data.generated_at||'';const media=posts.filter(p=>p.media_type==='video').length;feedStatus=origin==='Cloudflare'?'Limited feed · wider sources updating soon':posts.length+' fresh posts · '+media+' videos';}else{feedStatus='Couldn’t load live stories';posts=[];mergeImportedClips()}loading=false;if(tab==='Reels'){stopReels();activeReelQueue=null}render();const shared=new URL(location.href).searchParams.get('post');if(shared)sharedPost(shared)}
+function changeTab(t){store('orbit_last_active_tab_v1',t==='Reels'?'Reels':'Home');pauseFeedAutoplay();if(tab==='Reels'&&t!=='Reels'){stopReels();activeReelQueue=null}if(t==='Reels'&&tab!=='Reels'){activeReelQueue=null;reelsReturnTab=tab==='Search'?'Home':tab}tab=t;filter='All';render();if(t!=='Reels')window.scrollTo({top:0,behavior:'instant'})}
 document.addEventListener('input',e=>{if(e.target.matches('[data-reel-seek]')){reelScrubbing=true;const input=e.target;const card=input.closest('.reel');const index=Number(input.dataset.reelSeek);const player=reelYoutubePlayers.get(index);const duration=reelItems()[index]?.platform==='tiktok'?Number(reelExternalMetrics.get(index)?.duration||0):Number(player?.getDuration?.()||0);if(duration>0)card?.querySelector('[data-played-time]')?.replaceChildren(document.createTextNode(formatVideoTime(duration*Number(input.value)/1000)));return}if(e.target.matches('[data-weight]')){const k=e.target.dataset.weight;weights[k]=Number(e.target.value);document.getElementById('val-'+slug(k)).textContent=weights[k];persist()}if(e.target.id==='search-input'){searchTerm=e.target.value;document.getElementById('results').innerHTML=cardsOrEmpty(selection())}});
 document.addEventListener('change',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false;updateReelProgress()}});
 document.addEventListener('pointerup',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false}});
 const slug=s=>s.replace(/[^A-Za-z0-9]/g,'-');
-document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='add-clip'){addPublicClip();return}if(d.removeClip!==undefined){importedClips.splice(Number(d.removeClip),1);store('orbit_imported_clips_v1',importedClips);posts=posts.filter(p=>!p.id.startsWith('local:'));mergeImportedClips();render();return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.playerControls!==undefined){toggleOfficialControls();return}if(d.reelsAudioTap!==undefined){tapReel(Number(d.reelsAudioTap));return}if(d.reelsSound!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){startReel(Number(d.reelPlay),false);return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.feedSound){feedSound(d.feedSound);return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
+document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='add-clip'){addPublicClip();return}if(d.removeClip!==undefined){importedClips.splice(Number(d.removeClip),1);store('orbit_imported_clips_v1',importedClips);posts=posts.filter(p=>!p.id.startsWith('local:'));mergeImportedClips();render();return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsRefresh!==undefined){await refreshReels();return}if(d.playerControls!==undefined){toggleOfficialControls();return}if(d.reelsAudioTap!==undefined){tapReel(Number(d.reelsAudioTap));return}if(d.reelsSound!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){startReel(Number(d.reelPlay),false);return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.feedSound){feedSound(d.feedSound);return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
 
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!overlay.hidden){closeOverlay();return}
@@ -903,5 +948,18 @@ document.addEventListener('keydown',e=>{
 });
 
 window.addEventListener('popstate',()=>{const id=new URL(location.href).searchParams.get('post');if(id)sharedPost(id);else if(!overlay.hidden)closeOverlay()});
-changeTab('Home');fetchFeed();
+document.addEventListener('touchstart',event=>{
+ if(tab!=='Reels'||!event.target.closest?.('#reels-scroll')){reelPullStart=null;return}
+ const scroll=document.getElementById('reels-scroll'),touch=event.touches?.[0];
+ reelPullStart=scroll&&scroll.scrollTop<=8&&touch?{x:touch.clientX,y:touch.clientY}:null;
+},{passive:true});
+document.addEventListener('touchend',event=>{
+ if(!reelPullStart||tab!=='Reels')return;
+ const touch=event.changedTouches?.[0],start=reelPullStart;reelPullStart=null;
+ if(!touch)return;
+ const scroll=document.getElementById('reels-scroll');
+ if(scroll&&scroll.scrollTop<=12&&touch.clientY-start.y>105&&Math.abs(touch.clientX-start.x)<75)refreshReels();
+},{passive:true});
+const initialTab=read('orbit_last_active_tab_v1','Home')==='Reels'?'Reels':'Home';
+changeTab(initialTab);fetchFeed();
 })();
