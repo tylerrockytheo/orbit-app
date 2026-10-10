@@ -25,7 +25,53 @@ let toastTimer;
 function toast(message){const el=document.getElementById('toast');el.textContent=message;el.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.hidden=true,2600)}
 function persist(){store('orbit_weights_v2',weights);store('orbit_muted_topics_v2',[...muted]);store('orbit_bookmarks_v2',bookmarks);store('orbit_tentative_v2',[...tentative]);store('orbit_likes_v1',likes);store('orbit_less_v1',lessLiked)}
 function validPost(p){return p&&typeof p.title==='string'&&typeof p.source_url==='string'&&safeLink(p.source_url)&&typeof p.category==='string'&&p.id!==undefined}
-function normalise(p,source){if(!validPost(p))return null;const category=String(p.category||'Discover');const id=String(p.id);const videoId=/^[A-Za-z0-9_-]{11}$/.test(p.video_id||'')?p.video_id:null;return {id:source+':'+id,title:String(p.title).slice(0,230),category,summary:typeof p.summary==='string'?p.summary.slice(0,440):null,summary_status:String(p.summary_status||'unavailable'),source_url:safeLink(p.source_url),source_name:String(p.source_name||new URL(p.source_url).hostname).slice(0,90),published_at:p.published_at||null,image_url:imageLink(p.image_url)|| (videoId?'https://i.ytimg.com/vi/'+videoId+'/hqdefault.jpg':null),media_type:videoId?'video':'article',video_id:videoId,topics:[category]}}
+/* Provider-specific public permalinks only. Never rehost downloaded video. */
+function parseClipUrl(value){
+  let u;try{u=new URL(String(value||'').trim())}catch{return null}
+  if(u.protocol!=='https:')return null;
+  const host=u.hostname.toLowerCase().replace(/^www\./,'');
+  const path=u.pathname;
+  let match;
+  if(host==='tiktok.com'||host==='m.tiktok.com'){
+    match=path.match(/^\/@([^/]+)\/video\/(\d+)(?:\/|$)/);
+    if(match)return {platform:'tiktok',external_id:match[2],creator:'@'+match[1],url:'https://www.tiktok.com/@'+match[1]+'/video/'+match[2]};
+  }
+  if(host==='instagram.com'){
+    match=path.match(/^\/(?:reel|reels)\/([\w-]+)(?:\/|$)/);
+    if(match)return {platform:'instagram',external_id:match[1],creator:'Instagram creator',url:'https://www.instagram.com/reel/'+match[1]+'/'};
+  }
+  if(['facebook.com','m.facebook.com','web.facebook.com'].includes(host)){
+    match=path.match(/^\/(?:reel|reels)\/(\d+)(?:\/|$)/);
+    if(!match)match=path.match(/^\/[^?#]*?videos\/(?:[\w.-]+\/)?(\d+)(?:\/|$)/);
+    if(match)return {platform:'facebook',external_id:match[1],creator:'Facebook creator',url:'https://www.facebook.com/reel/'+match[1]};
+  }
+  if(['youtube.com','m.youtube.com','youtu.be'].includes(host)){
+    const id=host==='youtu.be'?path.split('/')[1]:(path.match(/^\/shorts\/([\w-]{11})(?:\/|$)/)?.[1]||u.searchParams.get('v'));
+    if(id&&/^[A-Za-z0-9_-]{11}$/.test(id))
+      return {platform:'youtube',external_id:id,creator:'YouTube creator',url:'https://www.youtube.com/watch?v='+id};
+  }
+  return null;
+}
+function clipIdentity(p){return (p.platform||'youtube')+':'+(p.external_id||p.video_id||p.id)}
+function hasPlayableClip(p){return Boolean(p&&['youtube','tiktok','instagram','facebook'].includes(p.platform)&&p.external_id)}
+function providerName(p){return ({youtube:'YouTube',tiktok:'TikTok',instagram:'Instagram',facebook:'Facebook'})[p.platform]||'Video'}
+function normalise(p,source){
+  if(!validPost(p))return null;
+  const parsed=parseClipUrl(p.source_url);
+  const platform=p.platform||parsed?.platform||(/^[A-Za-z0-9_-]{11}$/.test(String(p.video_id||''))?'youtube':null);
+  const external_id=String(p.external_id||parsed?.external_id||(platform==='youtube'?p.video_id:'')||'');
+  const videoId=platform==='youtube'&&/^[A-Za-z0-9_-]{11}$/.test(external_id)?external_id:null;
+  const isVideo=platform==='youtube'?Boolean(videoId):Boolean(platform&&external_id);
+  const category=String(p.category||'Discover');
+  return {id:source+':'+String(p.id),title:String(p.title).slice(0,230),category,
+    summary:typeof p.summary==='string'?p.summary.slice(0,440):null,
+    summary_status:String(p.summary_status||'unavailable'),source_url:safeLink(p.source_url),
+    source_name:String(p.source_name||new URL(p.source_url).hostname).slice(0,90),
+    published_at:p.published_at||null,
+    image_url:imageLink(p.image_url)||(videoId?'https://i.ytimg.com/vi/'+videoId+'/hqdefault.jpg':null),
+    media_type:isVideo?'video':'article',video_id:videoId,platform:isVideo?platform:null,external_id:isVideo?external_id:null,
+    topics:[category]};
+}
 function date(s){if(!s)return 'Recent';const d=new Date(s);if(isNaN(d))return 'Recent';return d.toLocaleDateString(undefined,{day:'numeric',month:'short'})}
 const elapsed=(s)=>{const t=s?new Date(s).getTime():0;const h=(Date.now()-t)/3600000;return !t||h<0?'Recent':h<1?'Just now':h<24?Math.floor(h)+'h ago':date(s)};
 
@@ -154,7 +200,7 @@ function reelItems(){return tab==='Reels'&&activeReelQueue?activeReelQueue:rankR
 // Rank unseen videos *when needed*, not just once when opening Reels.
 // Explicit likes and "less like this" feedback affect the next recommendations.
 function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
-  const candidates=posts.filter(p=>p.video_id&&!muted.has(p.category)&&!excluded.has(p.video_id));
+  const candidates=posts.filter(p=>hasPlayableClip(p)&&!muted.has(p.category)&&!excluded.has(clipIdentity(p)));
 
   if(!candidates.length)return [];
   const basePriorities={
@@ -240,7 +286,7 @@ function reelView(){
   if(!activeReelQueue){
     const all=rankReelCandidates();
     const first=(requestedReel&&all.find(p=>p.id===requestedReel))||all[0];
-    const other=first?all.filter(p=>p.video_id!==first.video_id).slice(0,REEL_AHEAD):[];
+    const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD):[];
     activeReelQueue=first?[first,...other]:[];
     reelBaseIndex=0;requestedReel=null;
   }
@@ -264,17 +310,17 @@ function ensureReelBuffer(){
   const target=Math.max(REEL_AHEAD+1,reelActiveIndex+REEL_AHEAD+1);
   let attempts=0;
   while(activeReelQueue.length<target&&attempts++<REEL_AHEAD+3){
-    const reserved=new Set(activeReelQueue.map(p=>p.video_id));
+    const reserved=new Set(activeReelQueue.map(clipIdentity));
     const recent=activeReelQueue.slice(-REEL_RECENT_EXCLUDE);
     let candidates=rankReelCandidates(reserved,recent,1);
     let replay=false;
     if(!candidates.length){
       // Exhausted the unique catalog: refresh sources, then cycle older clips.
       maybeRefreshReelCatalog();
-      const lastFew=new Set(recent.map(p=>p.video_id));
+      const lastFew=new Set(recent.map(clipIdentity));
       candidates=rankReelCandidates(lastFew,recent,1);
       if(!candidates.length&&activeReelQueue.length>1){
-        candidates=rankReelCandidates(new Set([activeReelQueue.at(-1).video_id]),recent,1);
+        candidates=rankReelCandidates(new Set([clipIdentity(activeReelQueue.at(-1))]),recent,1);
       }
       replay=true;
     }
@@ -384,7 +430,7 @@ function setActiveReel(index){
   reelActiveIndex=index;
   if(previous>=0)resetReelPlayer(previous);  // removes iframe so sound cannot continue
   reelNativeControls=false;updatePlayerControlMode();
-  reelSeen.add(clips[index].video_id);
+  reelSeen.add(clipIdentity(clips[index]));
   if(reelsStarted)startReel(index,!reelSoundOn);
   ensureReelBuffer();
   trimReelDOM();
