@@ -335,7 +335,17 @@ function soundNotice(){
   reelSoundNoticeTimer=setTimeout(()=>notice.classList.remove('visible'),900);
 }
 function toggleReelSound(){
-  reelSoundOn=!reelSoundOn;
+  // An autoplayed YouTube iframe can be muted by Android even if Orbit prefers sound on.
+  // Ask the actual player first so the first tap resumes audio in that situation.
+  let actualMuted=null;
+  const player=reelYoutubePlayers.get(reelActiveIndex);
+  try{
+    if(player&&typeof player.isMuted==='function'){
+      const state=player.isMuted();
+      if(typeof state==='boolean')actualMuted=state;
+    }
+  }catch(e){console.debug('Could not read YouTube mute state',e)}
+  reelSoundOn=actualMuted===null?!reelSoundOn:actualMuted;
   store('orbit_reel_sound_v1',reelSoundOn);
   soundNotice();
   // Muting/unmuting leaves playback and the video iframe untouched.
