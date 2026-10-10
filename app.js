@@ -19,6 +19,8 @@ if(!likes||typeof likes!=='object'||Array.isArray(likes))likes={};
 if(!lessLiked||typeof lessLiked!=='object'||Array.isArray(lessLiked))lessLiked={};
 let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null, activeReelQueue=null, reelBaseIndex=0, reelRefreshAt=0, reelRefreshTimer=null, reelRefillPromise=null, reelSeen=new Set(), reelSoundOn=read('orbit_reel_sound_v1',true)!==false;
 let reelSoundNoticeTimer=null,ytApiPromise=null,reelProgressTimer=null,reelScrubbing=false,reelNativeControls=false;
+let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatched))recentWatched=[];
+const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
 const app=document.getElementById('app'),nav=document.getElementById('navigation'),overlay=document.getElementById('overlay');
@@ -288,8 +290,9 @@ function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
       score-=recentCats.filter(x=>x===p.category).length*17;
       score-=recentSources.filter(x=>x===p.source_name).length*24;
       if(['AI & Tech','Technology','Business'].includes(p.category)&&countTech>=techMax)score-=110;
-      // Stable tie-breaker prevents one publisher always appearing first.
-      score+=(p.id.length%9)*.04;
+      const recentIndex=recentWatched.indexOf(clipIdentity(p));
+      if(recentIndex>=0)score-=Math.max(12,65-recentIndex*.6);
+      score+=Math.random()*16;
       if(score>best){best=score;selected=i}
     }
     const [pick]=newFirst.splice(selected,1);
@@ -321,10 +324,10 @@ function reelPoster(p,index){
     +'<span class="reel-poster__play">'+svg('Play')+'</span></button>';
 }
 function reelCard(p,i){
-  return '<article class="reel" data-reel-index="'+i+'" data-reel-id="'+escape(p.id)+'" aria-label="Video '+(i+1)+': '+escape(p.title)+'">'
+  return '<article class="reel" data-provider="'+escape(p.platform||'youtube')+'" data-reel-index="'+i+'" data-reel-id="'+escape(p.id)+'" aria-label="Video '+(i+1)+': '+escape(p.title)+'">'
     +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p,i)+'</div>'
     +'<div class="reel-shade" aria-hidden="true"></div>'
-    +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Toggle sound without pausing video" tabindex="-1"></button>'
+    +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Unmute or pause video" tabindex="-1"></button>'
     +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':'')+escape(p.category)+' · '+escape(providerName(p))+'</div>'
     +'<strong class="reel-creator">'+escape(p.source_name)+'</strong>'
     +'<h2>'+escape(p.title)+'</h2>'
@@ -341,7 +344,9 @@ function reelCard(p,i){
 }
 function reelView(){
   if(!activeReelQueue){
-    const all=rankReelCandidates();
+    const unseen=rankReelCandidates(new Set(recentWatched));
+    const backups=rankReelCandidates(new Set(unseen.map(clipIdentity)));
+    const all=unseen.concat(backups);
     const first=(requestedReel&&all.find(p=>p.id===requestedReel))||all[0];
     const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD):[];
     activeReelQueue=first?[first,...other]:[];
@@ -500,6 +505,9 @@ function setActiveReel(index){
   if(previous>=0)resetReelPlayer(previous);  // removes iframe so sound cannot continue
   reelNativeControls=false;updatePlayerControlMode();
   reelSeen.add(clipIdentity(clips[index]));
+  const key=clipIdentity(clips[index]);
+  recentWatched=[key,...recentWatched.filter(x=>x!==key)].slice(0,100);
+  store('orbit_watched_reels_v1',recentWatched);
   if(reelsStarted)startReel(index,!reelSoundOn);
   ensureReelBuffer();
   trimReelDOM();
