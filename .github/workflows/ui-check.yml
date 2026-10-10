@@ -7,6 +7,7 @@ on:
       - 'styles.css'
       - 'index.html'
       - 'tests/reels-smoke.mjs'
+      - 'tests/providers-smoke.mjs'
       - '.github/workflows/ui-check.yml'
   pull_request:
     paths:
@@ -14,6 +15,7 @@ on:
       - 'styles.css'
       - 'index.html'
       - 'tests/reels-smoke.mjs'
+      - 'tests/providers-smoke.mjs'
 permissions:
   contents: read
 jobs:
@@ -26,3 +28,5 @@ jobs:
         run: node --check app.js
       - name: Verify Reels interactions
         run: node tests/reels-smoke.mjs
+      - name: Verify cross-platform providers
+        run: node tests/providers-smoke.mjs
