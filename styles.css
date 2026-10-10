@@ -171,3 +171,16 @@ body.reels-mode{background:#05060a;overflow:hidden}
 .reel.native-controls .reel-media{z-index:4}
 .reel.native-controls .reel-frame{pointer-events:auto!important}
 @media(max-height:680px){.reel-caption{bottom:calc(52px + env(safe-area-inset-bottom))}.reel-actions{bottom:calc(51px + env(safe-area-inset-bottom))}}
+
+/* Provider-aware playback UI. Native provider controls remain reachable. */
+.reels-provider-button{pointer-events:auto;color:#fff;border:1px solid #ffffff4d;border-radius:18px;background:#0008;padding:7px 10px;font-size:12px;font-weight:800;white-space:nowrap;flex:none}
+.reels-provider-button[aria-pressed=true]{background:#fff;color:#10131d}
+.reel-provider-poster{height:100%;width:100%;display:flex;align-items:center;justify-content:center;gap:18px;flex-direction:column;background:radial-gradient(circle at 30% 20%,#2e3c66,#151722 58%,#070a13);color:white}
+.reel-provider-poster b{font-size:28px;font-weight:850}
+.reel-provider-poster span{font-size:55px;opacity:.7}
+.reels-tile__fallback{position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(155deg,#34598b,#1e234f);font-weight:780;color:#fff}
+.clip-imported{margin-top:15px}
+.clip-imported__row{border-top:1px solid var(--border);padding:9px 0;display:flex;align-items:center;gap:8px;justify-content:space-between;font-size:12px;color:var(--muted)}
+.clip-imported__row span{min-width:0;overflow-wrap:anywhere}
+.clip-imported__row button{border:1px solid var(--border);border-radius:8px;padding:6px 9px;background:var(--subtle);color:var(--text);flex:none;font-size:12px}
+@media(max-width:440px){.reels-top b span,.reels-count{display:none}.reels-top{gap:9px}.reels-provider-button{padding:7px 9px}}
