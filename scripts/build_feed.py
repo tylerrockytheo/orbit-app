@@ -460,7 +460,12 @@ def collect(fetcher=fetch_source) -> dict:
         if old and not post.get('image_url'):
             post['image_url'] = old.get('image_url')
         posts_by_id[post['id']] = post
-    posts = sorted(posts_by_id.values(), key=lambda p: p.get('published_at') or '', reverse=True)[:320]
+    # Reserve capacity for creator videos so a high-volume news day cannot
+    # silently squeeze the entire entertainment catalog out of the feed.
+    recent = sorted(posts_by_id.values(), key=lambda p: p.get('published_at') or '', reverse=True)
+    videos = [p for p in recent if p.get('media_type') == 'video'][:160]
+    articles = [p for p in recent if p.get('media_type') != 'video'][:180]
+    posts = sorted(videos + articles, key=lambda p: p.get('published_at') or '', reverse=True)
     return {'schema_version': 2, 'generated_at': NOW.isoformat().replace('+00:00','Z'), 'posts': posts, 'sources': stats}
 
 
