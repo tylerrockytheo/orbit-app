@@ -37,7 +37,7 @@ const context={
  history:{replaceState(){}},navigator:{share:async()=>{},clipboard:{writeText:async()=>{}}},
  localStorage:{getItem:()=>null,setItem(){}},
  fetch:async()=>({ok:true,json:async()=>({posts:[
-  {id:'clip1',title:'Funny Short',category:'Comedy',source_name:'Creator',source_url:'https://www.youtube.com/watch?v=abcdefghijk',video_id:'abcdefghijk',published_at:'2026-10-10T00:00:00Z'}
+  {id:'clip1',title:'Official Film Trailer',category:'Entertainment',source_name:'Creator',source_url:'https://www.youtube.com/watch?v=abcdefghijk',video_id:'abcdefghijk',published_at:'2026-10-10T00:00:00Z'}
  ]})}),
  URL,AbortController,Date,console,Math,JSON,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:()=>{},requestAnimationFrame:fn=>fn(),IntersectionObserver:IO
 };
