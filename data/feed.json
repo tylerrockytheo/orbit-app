@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T01:39:31.856364Z",
+  "generated_at": "2026-10-10T01:49:46.361563Z",
   "posts": [
     {
       "id": "f305fa5e4f994f6723",
@@ -1954,8 +1954,8 @@
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
@@ -1979,8 +1979,8 @@
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
@@ -1999,13 +1999,13 @@
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 1,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 2,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
