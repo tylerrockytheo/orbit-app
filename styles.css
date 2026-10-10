@@ -155,3 +155,19 @@ body.reels-mode{background:#05060a;overflow:hidden}
 }
 .reels-audio-indicator.visible{opacity:1;transform:translate(-50%,-50%) scale(1)}
 @media(prefers-reduced-motion:reduce){.reels-audio-indicator{transition:none}}
+
+/* Video scrubbing is independent of sound toggling and doesn't seek through ads. */
+.reel-progress{position:absolute;z-index:8;left:12px;right:12px;bottom:calc(5px + env(safe-area-inset-bottom));height:30px;display:flex;gap:8px;align-items:center;padding:0 3px;color:#fff;background:linear-gradient(transparent,#0009);border-radius:6px}
+.reel-progress__time{font-size:10px;font-variant-numeric:tabular-nums;min-width:29px;opacity:.88;text-shadow:0 1px 5px #000}
+.reel-progress input[type=range]{flex:1;min-width:0;width:100%;height:29px;margin:0;accent-color:#fff;background:transparent;touch-action:none;cursor:pointer}
+.reel-progress input[type=range]:disabled{opacity:.3;cursor:not-allowed}
+.reel-progress input[type=range]::-webkit-slider-runnable-track{height:3px;border-radius:3px;background:#ffffffb2}
+.reel-progress input[type=range]::-webkit-slider-thumb{margin-top:-5px}
+.reel-caption{bottom:calc(62px + env(safe-area-inset-bottom))}
+.reel-actions{bottom:calc(67px + env(safe-area-inset-bottom))}
+.reel.native-controls .reel-tap-surface,.reel.native-controls .reel-caption,
+.reel.native-controls .reel-actions,.reel.native-controls .reel-progress,
+.reel.native-controls .reel-shade{display:none!important}
+.reel.native-controls .reel-media{z-index:4}
+.reel.native-controls .reel-frame{pointer-events:auto!important}
+@media(max-height:680px){.reel-caption{bottom:calc(52px + env(safe-area-inset-bottom))}.reel-actions{bottom:calc(51px + env(safe-area-inset-bottom))}}
