@@ -99,9 +99,9 @@ class FeedTests(unittest.TestCase):
         source = {'label': 'Dude Perfect · YouTube', 'category': 'Comedy',
                   'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCRijo3ddMTht_IHyNSNXpNQ',
                   'channel': 'UCRijo3ddMTht_IHyNSNXpNQ', 'cap': 3}
-        with patch.dict('os.environ', {'YOUTUBE_API_KEY': 'private-placeholder'}), \\
-             patch('build_feed.urllib.request.urlopen', side_effect=HTTPError(source['url'], 404, 'No feed', {}, None)), \\
-             patch('build_feed.youtube_api_fallback', return_value=[{'video_id': 'abcdefghijk'}]) as fallback:
+        with (patch.dict('os.environ', {'YOUTUBE_API_KEY': 'private-placeholder'}),
+              patch('build_feed.urllib.request.urlopen', side_effect=HTTPError(source['url'], 404, 'No feed', {}, None)),
+              patch('build_feed.youtube_api_fallback', return_value=[{'video_id': 'abcdefghijk'}]) as fallback):
             name, videos, error = build_feed.fetch_source(source)
         self.assertEqual(name, source['label'])
         self.assertEqual(videos[0]['video_id'], 'abcdefghijk')
