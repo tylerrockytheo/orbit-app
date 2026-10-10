@@ -762,8 +762,11 @@ function mountReels(){
   cards.forEach(card=>reelsObserver.observe(card));
   const target=0;
   setActiveReel(target);
+  clearInterval(reelRefreshTimer);
+  reelRefreshTimer=setInterval(()=>{if(tab==='Reels')maybeRefreshReelCatalog()},90000);
 }
 function stopReels(){
+  clearInterval(reelRefreshTimer);reelRefreshTimer=null;
   if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
   document.querySelectorAll('.reel[data-playing]').forEach(card=>card.removeAttribute('data-playing'));
