@@ -24,6 +24,7 @@ function node(id){
       }
       return null;
     },querySelectorAll(){return []},
+    insertAdjacentHTML(position,html){this.innerHTML+=html},
     replaceChildren(){},scrollTo({top}){this.scrollTop=top}
   });
   return nodes.get(id);
@@ -58,12 +59,13 @@ function click(dataset){return listeners.get('click')({target:{closest(){return 
 await click({tab:'Reels'});
 assert.match(node('app').innerHTML,/id="reels-scroll"/);
 assert.equal((node('app').innerHTML.match(/class="reel" /g)||[]).length,2);
-assert.match(node('app').innerHTML,/data-reel-play="rss:clip1"/);
+assert.match(node('app').innerHTML,/data-reel-play="\d+"/);
+assert.doesNotMatch(node('app').innerHTML,/\b\d+\s*\/\s*\d+\b/,'Reels should not display a fixed playlist count');
 const reelHtml=node('app').innerHTML;
 const clip1Match=reelHtml.match(/data-reel-index="(\d+)" data-reel-id="rss:clip1"/);
 assert.ok(clip1Match,'music clip should be in the Reels list');
 const musicIndex=Number(clip1Match[1]);
-await click({reelPlay:'rss:clip1'});
+await click({reelPlay:String(musicIndex)});
 assert.match(node('reel-media-'+musicIndex).innerHTML,/youtube-nocookie.com\/embed\/abcdefghijk/);
 assert.match(node('app').innerHTML,/data-reels-audio-tap/);
 const beforeMute=node('reel-media-'+musicIndex).innerHTML;
@@ -82,9 +84,11 @@ assert.equal(storage.get('orbit_reel_sound_v1'),'true');
 // A like is private feedback; it must NOT also save a video.
 await click({like:'rss:clip1'});
 assert.ok(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1']);
+assert.match(node('reels-status').textContent,/Updated for you/,'Like should refresh upcoming Reels immediately');
 assert.deepEqual(JSON.parse(storage.get('orbit_bookmarks_v2')||'{}'),{});
-await click({reelsNext:'0'});
-assert.equal(node('reels-scroll').scrollTop,800);
+await click({reelsNext:String(musicIndex)});
+assert.equal(node('reels-scroll').scrollTop,(musicIndex+1)*800);
+assert.match(node('reels-scroll').innerHTML,/data-reel-index=/,'Reels should append more videos instead of ending');
 await click({save:'rss:clip1'});
 assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
 await click({like:'rss:clip1'}); // unlike does not remove the bookmark
