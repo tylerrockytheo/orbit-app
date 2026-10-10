@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T05:42:43.130143Z",
+  "generated_at": "2026-10-10T05:43:43.270917Z",
   "posts": [
     {
       "id": "169303b8c3c20d1d00",
@@ -403,6 +403,22 @@
       ]
     },
     {
+      "id": "6b620a0a947b54dc1a",
+      "title": "2026's OLED monitors can nearly recreate the sublime clarity of a '90s CRT, but Windows will have to change before we can achieve true nirvana",
+      "category": "Gaming",
+      "summary": "All you need is a ridiculously fast monitor and endless patience for tinkering to get a glimpse of how good retro games looked in motion back in the '90s.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/hardware/gaming-monitors/2026s-oled-monitors-can-nearly-recreate-the-sublime-clarity-of-a-90s-crt-but-windows-will-have-to-change-before-we-can-achieve-true-nirvana/",
+      "published_at": "2026-10-10T00:20:52Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/AHRTYTZLDgBW6HQ7rRKHBL-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "646bc88413ba0ebc18",
       "title": "Roseanne Barr’s Self-Produced TV Series Now Courting Distributors, Co-Creator Says",
       "category": "Entertainment",
@@ -448,6 +464,22 @@
       "video_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "36e7f277aa54f80926",
+      "title": "'Overcooked broke you apart and Stage Fright is there to put you back together'",
+      "category": "Gaming",
+      "summary": "Developers of the stressful cooking game series talk to PC Gamer about their more 'positive' co-op adventure.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/adventure/overcooked-broke-you-apart-and-stage-fright-is-there-to-put-you-back-together/",
+      "published_at": "2026-10-09T23:43:13Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/zfk4j5M3dpoHuYLwTAqciY-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -915,6 +947,22 @@
       ]
     },
     {
+      "id": "b6b4d9447e7dd106d6",
+      "title": "Cyberpunk 2077 is being made into a movie, even though we've already got the perfect cyberpunk movie starring Keanu Reeves as a guy named Johnny",
+      "category": "Gaming",
+      "summary": "Remember Johnny Mnemonic? If you haven't seen it, it's time.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/movies-tv/cyberpunk-2077-is-being-made-into-a-movie-even-though-weve-already-got-the-perfect-cyberpunk-movie-starring-keanu-reeves-as-a-guy-named-johnny/",
+      "published_at": "2026-10-09T21:54:26Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/No8Ri3Mas5vWZ4zzXoY3fB-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "d6267340f4856dac7d",
       "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
       "category": "World",
@@ -1139,6 +1187,22 @@
       ]
     },
     {
+      "id": "1047e7bb29ca8ad980",
+      "title": "Don't worry, Valve: I've got your next Deadlock character concepts sorted",
+      "category": "Gaming",
+      "summary": "The Cursed Apple is ready for Humpty Dumpty and the Loch Ness Monster's Precocious Preteen Child.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/moba/dont-worry-valve-ive-got-your-next-deadlock-character-concepts-sorted/",
+      "published_at": "2026-10-09T19:41:12Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/mASQpZYrbEUNuiCoJuNnAX-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "4cccf75a5f97313354",
       "title": "'People don't think recycling at work is part of their job description'",
       "category": "Science",
@@ -1280,6 +1344,22 @@
       "video_id": null,
       "topics": [
         "Music"
+      ]
+    },
+    {
+      "id": "c049c699a54ea7ae09",
+      "title": "Leisure Suit Larry is about to take his final bow",
+      "category": "Gaming",
+      "summary": "The Wet Dreams games have been marked down dramatically ahead of their final removal from sale.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/adventure/leisure-suit-larry-is-about-to-take-his-final-bow/",
+      "published_at": "2026-10-09T18:20:12Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Rbv3DNDF77zRkvNUsX3X5n-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -1507,6 +1587,22 @@
       ]
     },
     {
+      "id": "540b33889771f9deb8",
+      "title": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/grand-theft-auto/i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-imports-most-of-doom-2/",
+      "published_at": "2026-10-09T17:00:00Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/J4nVUYPeqpXTrJjXg3gKeL-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "e9180d835a4a9fc1b4",
       "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
       "category": "Science",
@@ -1600,6 +1696,22 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "c2cc036ebfc4384f5b",
+      "title": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+      "category": "Gaming",
+      "summary": "\"We're looking at how we can help the win rate of a certain team.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/fps/wardogs-will-bribe-players-with-cash-and-xp-to-pick-blue-team-in-season-2/",
+      "published_at": "2026-10-09T16:29:00Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/quGfuiKE7kHW9W8XDcB8yS-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -3170,8 +3282,8 @@
     },
     {
       "name": "PC Gamer",
-      "items": 0,
-      "error": "ValueError: feed exceeds 1MiB"
+      "items": 7,
+      "error": null
     },
     {
       "name": "Rock Paper Shotgun",
