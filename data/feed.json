@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T00:51:45.438273Z",
+  "generated_at": "2026-10-10T01:39:31.856364Z",
   "posts": [
     {
       "id": "f305fa5e4f994f6723",
@@ -512,6 +512,22 @@
       "video_id": null,
       "topics": [
         "Travel"
+      ]
+    },
+    {
+      "id": "84252b046937810536",
+      "title": "4 Levels of Satisfying Crunches",
+      "category": "Discover",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=5N17EbYJBwQ",
+      "published_at": "2026-10-09T17:56:55Z",
+      "image_url": "https://i.ytimg.com/vi/5N17EbYJBwQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "5N17EbYJBwQ",
+      "topics": [
+        "Discover"
       ]
     },
     {
@@ -1043,22 +1059,6 @@
       ]
     },
     {
-      "id": "018d08ea1204be29e1",
-      "title": "Get Ready to Enjoy the Premiere of the \"Dragon Ball Super: Beerus\" Anime even more! Here is a Roundup of All the Information Released So Far! - DRAGON BALL OFFICIAL SITE",
-      "category": "Dragon Ball",
-      "summary": "Get Ready to Enjoy the Premiere of the \"Dragon Ball Super: Beerus\" Anime even more! Here is a Roundup of All the Information Released So Far! DRAGON BALL OFFICIAL SITE",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Google News · Dragon Ball",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsempQWWphWUVURzlRbmFXUGhDbWxxMllwLVBTRGpWWHlkQnNfQjhsWTBPb2d1eUFIQzRoTmxyODVpdUZyMHJmQUdqbFBRcWg1R0xwQ3hyWVBsVDQwaDlLejN5Zw?oc=5",
-      "published_at": "2026-10-09T09:04:51Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Dragon Ball"
-      ]
-    },
-    {
       "id": "07269809ff6cafe3ef",
       "title": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize",
       "category": "World",
@@ -1072,22 +1072,6 @@
       "video_id": null,
       "topics": [
         "World"
-      ]
-    },
-    {
-      "id": "d397375de53a247865",
-      "title": "3,000 people gathered at the \"Dragon Ball Super: Beerus SPECIAL PANEL\" at \"New York Comic-Con 2026\"! - DRAGON BALL OFFICIAL SITE",
-      "category": "Dragon Ball",
-      "summary": "3,000 people gathered at the \"Dragon Ball Super: Beerus SPECIAL PANEL\" at \"New York Comic-Con 2026\"! DRAGON BALL OFFICIAL SITE",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Google News · Dragon Ball",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40UGJ1Wl9lOFUydGVTZ1h6ZjB0X04xalhLTF9kSHdvX01CajlXZ2MzRjNsdmIxdDd0ZEN5WVJEanV0Tm9JUmNybmU1MUNsQWg0YmFRSlJQeC1BOUx5Y3M3THJKVQ?oc=5",
-      "published_at": "2026-10-09T05:49:15Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Dragon Ball"
       ]
     },
     {
@@ -1152,6 +1136,40 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "da381be53d263aeb96",
+      "title": "Dragon Ball Super: Beerus — premiere guide for October 11",
+      "category": "Dragon Ball",
+      "summary": "The official Dragon Ball site has published a guide to the anime premiere, with the Japanese broadcast schedule, streaming information, trailers and theme music.",
+      "summary_status": "curated_from_official",
+      "source_name": "Dragon Ball Official",
+      "source_url": "https://en.dragon-ball-official.com/news/01_4487.html",
+      "published_at": "2026-10-09T00:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Dragon Ball",
+        "Anime"
+      ]
+    },
+    {
+      "id": "99df2d77ede5050376",
+      "title": "Dragon Ball Super: Beerus panel draws 3,000 fans at New York Comic Con",
+      "category": "Dragon Ball",
+      "summary": "According to the official series report, fans attended a screening of the first episode alongside a panel featuring English dub cast members.",
+      "summary_status": "curated_from_official",
+      "source_name": "Dragon Ball Official",
+      "source_url": "https://en.dragon-ball-official.com/news/01_4509.html",
+      "published_at": "2026-10-09T00:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Dragon Ball",
+        "Anime"
       ]
     },
     {
@@ -1251,19 +1269,19 @@
       ]
     },
     {
-      "id": "3a58636c015c0ffa48",
-      "title": "[Toriyama Archives] Updated Every Other Day and Available for 24 Hours Only! 10/09/2026 - DRAGON BALL OFFICIAL SITE",
-      "category": "Dragon Ball",
-      "summary": "[Toriyama Archives] Updated Every Other Day and Available for 24 Hours Only! 10/09/2026 DRAGON BALL OFFICIAL SITE",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Google News · Dragon Ball",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03dWhzMm83UDBTdGM1a2M4Qk5MV0ZZdEQwYzV0TnZIX1I2TXNvY05uVzZIdzNrSmJBUFBwYlAwWUh0enoxRUkwTXowX3FtMU4tRzdEeG8yNUFsOHdadVRRS2JnOA?oc=5",
-      "published_at": "2026-10-08T22:01:46Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
+      "id": "4d3e78891c444bdb35",
+      "title": "Don’t Break The Streak 🤯",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=zYkIj3soZAs",
+      "published_at": "2026-10-08T21:47:18Z",
+      "image_url": "https://i.ytimg.com/vi/zYkIj3soZAs/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "zYkIj3soZAs",
       "topics": [
-        "Dragon Ball"
+        "Comedy"
       ]
     },
     {
@@ -1328,6 +1346,22 @@
       "video_id": null,
       "topics": [
         "Science"
+      ]
+    },
+    {
+      "id": "693e75bf4ce184c449",
+      "title": "running with Grayson 🥹",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=RnSYku72hEI",
+      "published_at": "2026-10-08T18:56:53Z",
+      "image_url": "https://i.ytimg.com/vi/RnSYku72hEI/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "RnSYku72hEI",
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -1507,22 +1541,6 @@
       ]
     },
     {
-      "id": "8f4223b204743c8568",
-      "title": "Just Before Broadcast! Massive Rollout of \"Dragon Ball Super: Beerus\" Super Serge Ads Begins! - DRAGON BALL OFFICIAL SITE",
-      "category": "Dragon Ball",
-      "summary": "Just Before Broadcast! Massive Rollout of \"Dragon Ball Super: Beerus\" Super Serge Ads Begins! DRAGON BALL OFFICIAL SITE",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Google News · Dragon Ball",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seExEQ2Q1ZTI4WkZtTUZjbkhqRmdXMlo2cE4wcWJEX3RuZkVYX1h4Nkk0TGNhVkxRdTlYMVh0Zk5MNGZsN3JhaENGbFF3RnNfUExkNmozd1FOS1FKbjA1cG5Gcw?oc=5",
-      "published_at": "2026-10-08T10:34:44Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Dragon Ball"
-      ]
-    },
-    {
       "id": "c51639dd32f7d67fe5",
       "title": "Real-time golf swing coaching with Gemini 3.8 Live",
       "category": "AI & Tech",
@@ -1536,6 +1554,22 @@
       "video_id": "7Ol-0Iq0JMA",
       "topics": [
         "AI & Tech"
+      ]
+    },
+    {
+      "id": "66ffdb0a022f9907cd",
+      "title": "Don't Break The Glass! 🏈",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=cXahuUOIkjQ",
+      "published_at": "2026-10-07T22:02:04Z",
+      "image_url": "https://i.ytimg.com/vi/cXahuUOIkjQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "cXahuUOIkjQ",
+      "topics": [
+        "Comedy"
       ]
     },
     {
@@ -1603,19 +1637,36 @@
       ]
     },
     {
-      "id": "5bbba8a8db7875f9d0",
-      "title": "[Toriyama Archives] Updated Every Other Day - Available for 24 Hours Only! 10/07/2026 - DRAGON BALL OFFICIAL SITE",
+      "id": "7d6f42b05b50655a91",
+      "title": "Dragon Ball Super: Beerus launches promotional campaign",
       "category": "Dragon Ball",
-      "summary": "[Toriyama Archives] Updated Every Other Day - Available for 24 Hours Only! 10/07/2026 DRAGON BALL OFFICIAL SITE",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Google News · Dragon Ball",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oREZCMlNINWhqamI4RHE4MWJ2aG5FenNFVHpFWW5BX2lDTWZIWUxXem1HRXE5aWFOR0FqVkxodVpXaWhhLXVHZVlNc3M5ZjZ6d3FmX2VZdTQ4VTNFS3p5aUF3WQ?oc=5",
-      "published_at": "2026-10-06T22:27:16Z",
+      "summary": "The official site reports themed advertising across several Japanese cities, New York and Los Angeles ahead of the series premiere.",
+      "summary_status": "curated_from_official",
+      "source_name": "Dragon Ball Official",
+      "source_url": "https://en.dragon-ball-official.com/news/01_4488.html",
+      "published_at": "2026-10-07T00:00:00Z",
       "image_url": null,
       "media_type": "article",
       "video_id": null,
       "topics": [
-        "Dragon Ball"
+        "Dragon Ball",
+        "Anime"
+      ]
+    },
+    {
+      "id": "86e2b085786c7398c5",
+      "title": "That Was NOT the Plan 😭",
+      "category": "Comedy",
+      "summary": "Thanks to Segway for making this video possible!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=HIyNacZ39vU",
+      "published_at": "2026-10-06T20:59:10Z",
+      "image_url": "https://i.ytimg.com/vi/HIyNacZ39vU/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "HIyNacZ39vU",
+      "topics": [
+        "Comedy"
       ]
     },
     {
@@ -1648,6 +1699,22 @@
       "video_id": "VjrjTlfzkZQ",
       "topics": [
         "Music"
+      ]
+    },
+    {
+      "id": "3da01591a3f796263b",
+      "title": "HOW MANY BOUNCES?",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=YWGqDIorMFs",
+      "published_at": "2026-10-05T23:13:13Z",
+      "image_url": "https://i.ytimg.com/vi/YWGqDIorMFs/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "YWGqDIorMFs",
+      "topics": [
+        "Comedy"
       ]
     },
     {
@@ -1699,6 +1766,38 @@
       ]
     },
     {
+      "id": "2f20a4d576feeab856",
+      "title": "Rocket League in Real Life",
+      "category": "Comedy",
+      "summary": "Welcome to Rocket League IRL! We brought the legendary video game to real life for this EPIC battle, featuring Rocket League soccer, golf, hockey and archery tag! From PS5 to real life - thanks to @PlayStation for helping us take the unforgettable world of Rocket League IRL.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=teW7A5EoP_o",
+      "published_at": "2026-10-03T14:00:10Z",
+      "image_url": "https://i.ytimg.com/vi/teW7A5EoP_o/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "teW7A5EoP_o",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "71d093a0e1e2871244",
+      "title": "3 Second v. 3 Day Trickshots",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=EM9wox54F2g",
+      "published_at": "2026-10-02T22:31:35Z",
+      "image_url": "https://i.ytimg.com/vi/EM9wox54F2g/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "EM9wox54F2g",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
       "id": "de2c188f501fed97c5",
       "title": "Josh Homme on QOTSA guitar tuning #guitar #joshhomme #shorts",
       "category": "Music",
@@ -1712,6 +1811,103 @@
       "video_id": "pn0DUVb34uw",
       "topics": [
         "Music"
+      ]
+    },
+    {
+      "id": "f58b328feb4f01411c",
+      "title": "Playing Sports By Their Literal Names 🤣",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=u6RTMCclpSQ",
+      "published_at": "2026-10-01T21:17:12Z",
+      "image_url": "https://i.ytimg.com/vi/u6RTMCclpSQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "u6RTMCclpSQ",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "52f5362c3566e03ad3",
+      "title": "Hitting Faster & Faster Targets",
+      "category": "Comedy",
+      "summary": "Browse, compare, and lock in your perfect set of wheels on @AutoTrader #ATBuyOnline #Autotrader",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=HKdAMTdCcwA",
+      "published_at": "2026-09-30T21:10:30Z",
+      "image_url": "https://i.ytimg.com/vi/HKdAMTdCcwA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "HKdAMTdCcwA",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "54ca92500fb020c65c",
+      "title": "You Have Spiders on Your Face RIGHT NOW!",
+      "category": "Discover",
+      "summary": "My friends @frida just released a new line of hygiene products to keep you clean & make those spiders' jobs just a little bit easier! #ad",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=tbWTiZlwJ3M",
+      "published_at": "2026-09-30T13:00:14Z",
+      "image_url": "https://i.ytimg.com/vi/tbWTiZlwJ3M/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "tbWTiZlwJ3M",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "444d512eafec89a915",
+      "title": "Paper Rip Trick @zackdfilms",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=ZHBb9zqtldU",
+      "published_at": "2026-09-29T23:34:29Z",
+      "image_url": "https://i.ytimg.com/vi/ZHBb9zqtldU/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "ZHBb9zqtldU",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "5dae408152c53c4a1b",
+      "title": "POOL FIGHT!",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=gFD4baxxS6M",
+      "published_at": "2026-09-28T22:30:05Z",
+      "image_url": "https://i.ytimg.com/vi/gFD4baxxS6M/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "gFD4baxxS6M",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "67b5fb837452ac9acd",
+      "title": "Watch the official Dragon Ball Super: Beerus Super Surge trailer",
+      "category": "Dragon Ball",
+      "summary": "The official Dragon Ball site links this trailer as part of its September announcement for the anime.",
+      "summary_status": "curated_from_official",
+      "source_name": "Dragon Ball Official · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=CFgEL7ei8VE",
+      "published_at": "2026-09-02T00:00:00Z",
+      "image_url": "https://i.ytimg.com/vi/CFgEL7ei8VE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "CFgEL7ei8VE",
+      "topics": [
+        "Dragon Ball",
+        "Anime"
       ]
     }
   ],
@@ -1752,14 +1948,9 @@
       "error": null
     },
     {
-      "name": "Google News · Dragon Ball",
-      "items": 8,
-      "error": null
-    },
-    {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
@@ -1768,17 +1959,62 @@
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "The Dodo · YouTube",
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Dude Perfect · YouTube",
+      "items": 10,
+      "error": null
+    },
+    {
+      "name": "How Ridiculous · YouTube",
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "MrBeast · YouTube",
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "MrBeast Gaming · YouTube",
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Ryan Trahan · YouTube",
+      "items": 1,
+      "error": null
+    },
+    {
+      "name": "Mark Rober · YouTube",
+      "items": 2,
+      "error": null
+    },
+    {
+      "name": "TeamFourStar · YouTube",
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Dragon Ball Official (curated)",
+      "items": 4,
       "error": null
     }
   ]
