@@ -158,9 +158,14 @@ function feedbackProfile(){
     const categories={},creators={},tags={};
     for(const entry of Object.values(records)){
       if(!entry||!entry.category)continue;
-      categories[entry.category]=(categories[entry.category]||0)+1;
-      if(entry.source_name)creators[entry.source_name]=(creators[entry.source_name]||0)+1;
-      for(const tag of entry.tags||postTags(entry))tags[tag]=(tags[tag]||0)+1;
+      // A recent Like has more influence than one from months ago, but older
+      // signals fade rather than disappear. This uses only explicit feedback.
+      const at=Date.parse(entry.liked_at||entry.at||'');
+      const days=Number.isFinite(at)?Math.max(0,(Date.now()-at)/86400000):45;
+      const strength=Math.max(.35,1.7*Math.exp(-days/45));
+      categories[entry.category]=(categories[entry.category]||0)+strength;
+      if(entry.source_name)creators[entry.source_name]=(creators[entry.source_name]||0)+strength;
+      for(const tag of entry.tags||postTags(entry))tags[tag]=(tags[tag]||0)+strength;
     }
     return {categories,creators,tags};
   };
@@ -177,6 +182,18 @@ function interestFeedbackScore(p){
   };
   return from(feedback.positive)-from(feedback.negative)*1.2;
 }
+function recommendationReason(p){
+  const top=feedback.positive;
+  const creator=top.creators[p.source_name]||0;
+  const category=top.categories[p.category]||0;
+  const matched=postTags(p).filter(t=>(top.tags[t]||0)>0);
+  if(creator>0)return 'You previously liked '+p.source_name+' content';
+  if(matched.length)return 'Matches topics you liked: '+matched.slice(0,2).join(', ');
+  if(category>0)return 'You liked other '+p.category+' posts';
+  if(postFreshness(p)>=65)return 'Recent '+p.category+' content to explore';
+  return 'A new '+p.category+' recommendation based on your chosen interests';
+}
+
 function updateLikeButtons(id){
   document.querySelectorAll('button[data-like]').forEach(button=>{
     if(button.dataset.like!==id)return;
@@ -893,7 +910,7 @@ function closeOverlay(){overlay.hidden=true;overlay.innerHTML='';document.body.s
 function item(id){return posts.find(p=>p.id===id)||bookmarks[id]||null}
 function sharedPost(id){const p=item(id);if(!p){openOverlay(empty('This post is not available','It may have been removed or moved out of Orbit’s current feed.'));return}openOverlay(card({...p,shared:true})+'<div class="feedback"><h3>Want more like this?</h3><p class="small">Opening a shared post never changes your feed. Only your answer can affect recommendations.</p><div class="feedback-actions"><button class="primary-btn" data-shared-answer="yes" data-topic="'+escape(p.category)+'">Yes</button><button class="secondary-btn" data-shared-answer="no" data-topic="'+escape(p.category)+'">No</button><button class="secondary-btn" data-shared-answer="maybe" data-topic="'+escape(p.category)+'">Maybe</button></div></div><div class="guest-promo"><b>Your internet, your way.</b><p>Orbit is a private personalised feed. You can browse this post without an account. App Store downloads are not available during this web preview.</p><button class="secondary-btn" data-close>Explore Orbit</button></div>')}
 async function sharePost(p){const url=new URL(location.origin+location.pathname);url.searchParams.set('post',p.id);const value=url.href;try{if(navigator.share)await navigator.share({title:p.title,url:value});else if(navigator.clipboard){await navigator.clipboard.writeText(value);toast('Post link copied')}else window.prompt('Copy this post link',value)}catch(e){if(e.name!=='AbortError')toast('Unable to share right now')}}
-function openOptions(p){openOverlay('<section class="panel"><h2>'+escape(p.category)+'</h2><p>Control your personal feed. Your feedback is private.</p><div class="inline-actions"><button class="secondary-btn" data-less-like="'+escape(p.id)+'">Less like this post</button><button class="secondary-btn" data-hide-topic="'+escape(p.category)+'">Hide '+escape(p.category)+'</button><button class="secondary-btn" data-close>Cancel</button></div></section>')}
+function openOptions(p){openOverlay('<section class="panel"><h2>'+escape(p.category)+'</h2><p><strong>Why this?</strong> '+escape(recommendationReason(p))+'.</p><p>These suggestions learn from your private Likes. They are not public reactions.</p><div class="inline-actions"><button class="secondary-btn" data-less-like="'+escape(p.id)+'">Less like this post</button><button class="secondary-btn" data-hide-topic="'+escape(p.category)+'">Hide '+escape(p.category)+'</button><button class="secondary-btn" data-close>Cancel</button></div></section>')}
 /* Feed videos autoplay MUTED in view, like Facebook.
    Only one provider player is active; leaving the viewport restores its cover.
    Mobile browser/creator embed restrictions can still prevent autoplay. */
