@@ -362,9 +362,8 @@ function reelView(){
     const unseen=rankReelCandidates(new Set(recentWatched));
     const all=reelReplayMode?rankReelCandidates():unseen;
     const previousFirst=read('orbit_last_opened_reel_v1','');
-    const first=(requestedReel&&all.find(p=>p.id===requestedReel))
-      ||all.find(p=>clipIdentity(p)!==previousFirst)
-      ||all[0];
+    const explicitlyRequested=requestedReel&&posts.find(p=>p.id===requestedReel&&hasPlayableClip(p));
+    const first=explicitlyRequested||all.find(p=>clipIdentity(p)!==previousFirst)||all[0];
     if(first)store('orbit_last_opened_reel_v1',clipIdentity(first));
     const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD).map(p=>recentWatched.includes(clipIdentity(p))?{...p,replayed:true}:p):[];
     activeReelQueue=first?[recentWatched.includes(clipIdentity(first))?{...first,replayed:true}:first,...other]:[];
