@@ -10,6 +10,7 @@ on:
       - 'tests/providers-smoke.mjs'
       - 'tests/seek-smoke.mjs'
       - 'tests/feed-autoplay.mjs'
+      - 'tests/freshness-smoke.mjs'
       - '.github/workflows/ui-check.yml'
   pull_request:
     paths:
@@ -20,6 +21,7 @@ on:
       - 'tests/providers-smoke.mjs'
       - 'tests/seek-smoke.mjs'
       - 'tests/feed-autoplay.mjs'
+      - 'tests/freshness-smoke.mjs'
 permissions:
   contents: read
 jobs:
@@ -38,3 +40,5 @@ jobs:
         run: node tests/seek-smoke.mjs
       - name: Verify scrolling feed video autoplay
         run: node tests/feed-autoplay.mjs
+      - name: Verify freshness and in-place Reels refresh
+        run: node tests/freshness-smoke.mjs
