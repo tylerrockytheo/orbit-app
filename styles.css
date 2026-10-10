@@ -115,3 +115,20 @@ body.reels-mode{background:#05060a;overflow:hidden}
 }
 @media(max-width:365px){.bottom-nav svg{width:22px;height:22px}.bottom-nav button{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.reels-scroll{scroll-behavior:auto}.reels-tile,.reel{transition:none}}
+
+/* Private Likes: no public counters or social interactions. */
+.action-row button.liked{color:#e6406d}
+.action-row button.liked .icon,.reel-actions button.liked .icon{fill:currentColor;stroke:currentColor}
+.action-row button .icon{flex:none}
+.action-row button{min-width:0;gap:5px;font-size:13px}
+.action-row button.liked span{font-weight:800}
+.reel-actions button.liked{color:#ff709b}
+.reel-actions button.liked span{font-weight:800}
+.reel-actions{gap:6px;bottom:calc(28px + env(safe-area-inset-bottom))}
+.reel-actions button{min-height:47px;min-width:56px;padding:5px 3px}
+.reel-actions button .icon{width:21px;height:21px}
+@media(max-height:680px){
+  .reel-actions{bottom:calc(13px + env(safe-area-inset-bottom));gap:4px}
+  .reel-actions button{min-height:43px}
+  .reel-caption{bottom:calc(17px + env(safe-area-inset-bottom))}
+}
