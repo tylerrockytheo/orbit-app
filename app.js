@@ -18,7 +18,7 @@ if(!likes||typeof likes!=='object'||Array.isArray(likes))likes={};
 if(!lessLiked||typeof lessLiked!=='object'||Array.isArray(lessLiked))lessLiked={};
 let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null, activeReelQueue=null, reelBaseIndex=0, reelRefreshAt=0, reelRefreshTimer=null, reelRefillPromise=null, reelSeen=new Set(), reelSoundOn=read('orbit_reel_sound_v1',true)!==false;
 let reelSoundNoticeTimer=null,ytApiPromise=null,reelProgressTimer=null,reelScrubbing=false,reelNativeControls=false;
-const reelYoutubePlayers=new Map();
+const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
 const app=document.getElementById('app'),nav=document.getElementById('navigation'),overlay=document.getElementById('overlay');
 let toastTimer;
@@ -398,7 +398,7 @@ function resetReelPlayer(index){
   const p=reelItems()[index];
   const media=document.getElementById('reel-media-'+index);
   if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p,index);
-  reelYoutubePlayers.delete(index);
+  reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
 }
 function startReel(index,mutedPlayback=!reelSoundOn){
@@ -487,20 +487,39 @@ function sendYoutubeCommand(frame,func,args=[]){
     frame.contentWindow.postMessage(JSON.stringify({event:'command',func,args}),'https://www.youtube-nocookie.com');
   }catch(e){console.debug('YouTube sound command unavailable',e)}
 }
-function applyReelVolume(index){
-  const player=reelYoutubePlayers.get(index);
+function sendTikTokCommand(index,type,value){
+  const clip=reelItems()[index],frame=document.getElementById('reel-media-'+index)?.querySelector('iframe');
+  if(clip?.platform!=='tiktok'||!frame?.contentWindow)return false;
+  try{frame.contentWindow.postMessage({'x-tiktok-player':true,type,value},'https://www.tiktok.com');return true}catch{return false}
+}
+window.addEventListener('message',event=>{
+  if(event.origin!=='https://www.tiktok.com')return;
+  const index=reelActiveIndex,p=reelItems()[index];
   const frame=document.getElementById('reel-media-'+index)?.querySelector('iframe');
+  if(p?.platform!=='tiktok'||!frame||event.source!==frame.contentWindow)return;
+  const data=event.data;
+  if(!data||data['x-tiktok-player']!==true)return;
+  if(data.type==='onPlayerReady'&&!reelSoundOn)sendTikTokCommand(index,'mute');
+  if(data.type==='onCurrentTime'&&data.value){
+    const {currentTime,duration}=data.value;
+    if(Number.isFinite(Number(duration))&&Number(duration)>0)
+      reelExternalMetrics.set(index,{duration:Number(duration),current:Number(currentTime)||0});
+    updateReelProgress();
+  }
+});
+
+function applyReelVolume(index){
+  const clip=reelItems()[index];
+  if(clip?.platform==='tiktok'){sendTikTokCommand(index,reelSoundOn?'unMute':'mute');return}
+  if(clip?.platform!=='youtube')return;
+  const player=reelYoutubePlayers.get(index),frame=document.getElementById('reel-media-'+index)?.querySelector('iframe');
   if(!frame)return;
   try{
-    if(player){
-      if(reelSoundOn){player.unMute();player.setVolume(100)}
-      else player.mute();
-    }else{
-      sendYoutubeCommand(frame,reelSoundOn?'unMute':'mute');
-      if(reelSoundOn)sendYoutubeCommand(frame,'setVolume',[100]);
-    }
+    if(player){if(reelSoundOn){player.unMute();player.setVolume(100)}else player.mute()}
+    else{sendYoutubeCommand(frame,reelSoundOn?'unMute':'mute');if(reelSoundOn)sendYoutubeCommand(frame,'setVolume',[100])}
   }catch(e){console.debug('Could not update sound',e)}
 }
+
 function formatVideoTime(seconds){
   seconds=Math.max(0,Math.floor(Number(seconds)||0));
   const mins=Math.floor(seconds/60),hrs=Math.floor(mins/60);
@@ -513,7 +532,11 @@ function updateReelProgress(){
   const input=card?.querySelector('[data-reel-seek]');
   if(!input)return;
   let duration=0,current=0;
-  try{duration=Number(player?.getDuration?.()||0);current=Number(player?.getCurrentTime?.()||0)}catch{}
+  if(reelItems()[reelActiveIndex]?.platform==='tiktok'){
+    const m=reelExternalMetrics.get(reelActiveIndex);duration=Number(m?.duration||0);current=Number(m?.current||0);
+  }else{
+    try{duration=Number(player?.getDuration?.()||0);current=Number(player?.getCurrentTime?.()||0)}catch{}
+  }
   const valid=Number.isFinite(duration)&&duration>0;
   input.disabled=!valid;
   if(!valid)return;
@@ -533,10 +556,13 @@ function seekReel(input){
   if(!Number.isInteger(index)||index!==reelActiveIndex||input.disabled)return false;
   const player=reelYoutubePlayers.get(index);
   try{
-    const duration=Number(player?.getDuration?.()||0);
+    const provider=reelItems()[index]?.platform;
+    const duration=provider==='tiktok'?Number(reelExternalMetrics.get(index)?.duration||0):Number(player?.getDuration?.()||0);
     if(!Number.isFinite(duration)||duration<=0)return false;
-    player.seekTo(duration*Number(input.value)/1000,true);
-    return true;
+    const seconds=duration*Number(input.value)/1000;
+    if(provider==='tiktok')return sendTikTokCommand(index,'seekTo',seconds);
+    if(provider==='youtube'&&player?.seekTo){player.seekTo(seconds,true);return true}
+    return false;
   }catch(e){console.debug('Video seek unavailable',e);return false}
 }
 function updatePlayerControlMode(){
@@ -546,7 +572,7 @@ function updatePlayerControlMode(){
 function toggleOfficialControls(){
   reelNativeControls=!reelNativeControls;
   updatePlayerControlMode();
-  toast(reelNativeControls?'YouTube controls accessible · use Skip Ad if offered':'Orbit controls restored');
+  toast(reelNativeControls?'Provider controls available · skip ads only if the provider offers it':'Orbit controls restored');
 }
 
 function soundNotice(){
@@ -600,7 +626,7 @@ function stopReels(){
   if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
   document.querySelectorAll('.reel[data-playing]').forEach(card=>card.removeAttribute('data-playing'));
-  reelYoutubePlayers.clear();
+  reelYoutubePlayers.clear();reelExternalMetrics.clear();
   clearTimeout(reelSoundNoticeTimer);
   stopProgressTimer();
   reelNativeControls=false;
@@ -657,7 +683,7 @@ async function fetchFeed(force=false){loading=true;render();let data=null,origin
 for(const [url,source] of [[RAW+cacheBuster,'GitHub'],[STATIC+cacheBuster,'GitHub Pages'],[API,'Cloudflare']]){try{const result=await fetchJson(url);if(result.posts.length){data=result;origin=source;break}}catch(e){console.info('Feed source unavailable',source,e.message)}}
 if(data){const prefix=origin==='Cloudflare'?'cf':'rss';posts=data.posts.map(p=>normalise(p,prefix)).filter(Boolean);updatedAt=data.generated_at||'';const media=posts.filter(p=>p.media_type==='video').length;feedStatus=origin==='Cloudflare'?'Limited feed · wider sources updating soon':posts.length+' fresh posts · '+media+' videos';}else{feedStatus='Couldn’t load live stories';posts=[]}loading=false;render();const shared=new URL(location.href).searchParams.get('post');if(shared)sharedPost(shared)}
 function changeTab(t){if(tab==='Reels'&&t!=='Reels'){stopReels();activeReelQueue=null}if(t==='Reels'&&tab!=='Reels'){activeReelQueue=null;reelsReturnTab=tab==='Search'?'Home':tab}tab=t;filter='All';render();if(t!=='Reels')window.scrollTo({top:0,behavior:'instant'})}
-document.addEventListener('input',e=>{if(e.target.matches('[data-reel-seek]')){reelScrubbing=true;const input=e.target;const card=input.closest('.reel');const player=reelYoutubePlayers.get(Number(input.dataset.reelSeek));const duration=Number(player?.getDuration?.()||0);if(duration>0)card?.querySelector('[data-played-time]')?.replaceChildren(document.createTextNode(formatVideoTime(duration*Number(input.value)/1000)));return}if(e.target.matches('[data-weight]')){const k=e.target.dataset.weight;weights[k]=Number(e.target.value);document.getElementById('val-'+slug(k)).textContent=weights[k];persist()}if(e.target.id==='search-input'){searchTerm=e.target.value;document.getElementById('results').innerHTML=cardsOrEmpty(selection())}});
+document.addEventListener('input',e=>{if(e.target.matches('[data-reel-seek]')){reelScrubbing=true;const input=e.target;const card=input.closest('.reel');const index=Number(input.dataset.reelSeek);const player=reelYoutubePlayers.get(index);const duration=reelItems()[index]?.platform==='tiktok'?Number(reelExternalMetrics.get(index)?.duration||0):Number(player?.getDuration?.()||0);if(duration>0)card?.querySelector('[data-played-time]')?.replaceChildren(document.createTextNode(formatVideoTime(duration*Number(input.value)/1000)));return}if(e.target.matches('[data-weight]')){const k=e.target.dataset.weight;weights[k]=Number(e.target.value);document.getElementById('val-'+slug(k)).textContent=weights[k];persist()}if(e.target.id==='search-input'){searchTerm=e.target.value;document.getElementById('results').innerHTML=cardsOrEmpty(selection())}});
 document.addEventListener('change',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false;updateReelProgress()}});
 document.addEventListener('pointerup',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false}});
 const slug=s=>s.replace(/[^A-Za-z0-9]/g,'-');
