@@ -16,11 +16,13 @@ import os
 import re
 import time
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'feed.json'
+APPROVED = ROOT / 'data' / 'approved-clips.json'
 NOW = dt.datetime.now(dt.timezone.utc)
 MAX_AGE_DAYS = 14
 MAX_VIDEO_AGE_DAYS = 120  # Videos remain entertaining after a news headline expires.
@@ -249,6 +251,88 @@ def official_dragon_ball_posts() -> list[dict]:
         })
     return result
 
+def approved_public_clips() -> list[dict]:
+    """Optional creator-approved/public video permalinks, never scraped streams.
+
+    A maintained list of explicitly selected public posts is not a public search
+    API. User-submitted clips remain in browser localStorage and are not uploaded.
+    """
+    try:
+        entries = json.loads(APPROVED.read_text(encoding='utf-8')).get('posts', [])
+    except (FileNotFoundError, ValueError, OSError):
+        return []
+    if not isinstance(entries, list):
+        return []
+    result = []
+    seen = set()
+    for item in entries[:100]:
+        if not isinstance(item, dict):
+            continue
+        raw = str(item.get('source_url') or '').strip()
+        try:
+            url = urllib.parse.urlparse(raw)
+        except ValueError:
+            continue
+        if url.scheme != 'https' or url.username or url.password:
+            continue
+        host = (url.hostname or '').lower().removeprefix('www.')
+        platform, clip_id, canonical, thumb = None, None, None, None
+        m = None
+        if host in {'tiktok.com', 'm.tiktok.com'}:
+            m = re.fullmatch(r'/@([\w.]+)/video/(\d+)/?', url.path)
+            if m:
+                platform, clip_id = 'tiktok', m.group(2)
+                canonical = f'https://www.tiktok.com/@{m.group(1)}/video/{clip_id}'
+        elif host == 'instagram.com':
+            m = re.fullmatch(r'/(?:reel|reels)/([\w-]+)/?', url.path)
+            if m:
+                platform, clip_id = 'instagram', m.group(1)
+                canonical = f'https://www.instagram.com/reel/{clip_id}/'
+        elif host in {'facebook.com', 'm.facebook.com'}:
+            m = re.fullmatch(r'/(?:reel|reels)/(\d+)/?', url.path)
+            if m:
+                platform, clip_id = 'facebook', m.group(1)
+                canonical = f'https://www.facebook.com/reel/{clip_id}'
+        elif host in {'youtube.com', 'youtu.be', 'm.youtube.com'}:
+            video = (url.path.strip('/') if host == 'youtu.be'
+                     else re.fullmatch(r'/shorts/([\w-]{11})/?', url.path))
+            clip_id = (video if isinstance(video, str) else video.group(1) if video
+                       else urllib.parse.parse_qs(url.query).get('v', [''])[0])
+            if re.fullmatch(r'[\w-]{11}', str(clip_id)):
+                platform, canonical = 'youtube', f'https://www.youtube.com/watch?v={clip_id}'
+                thumb = f'https://i.ytimg.com/vi/{clip_id}/hqdefault.jpg'
+        if not platform or not clip_id or canonical in seen:
+            continue
+        seen.add(canonical)
+        category = str(item.get('category') or 'Entertainment').strip()
+        if category not in {'Dragon Ball','Anime','Gaming','Music','Comedy','Animals',
+                            'Fitness','Travel','Entertainment','Discover','AI & Tech'}:
+            category = 'Entertainment'
+        title = clean(str(item.get('title') or ''))[:220]
+        if not title:
+            title = {'tiktok':'TikTok video','instagram':'Instagram Reel',
+                     'facebook':'Facebook Reel','youtube':'YouTube Short'}[platform]
+        source_name = clean(str(item.get('source_name') or platform.title()))[:90]
+        note = clean(str(item.get('description') or ''))[:330]
+        result.append({
+            'id': hashlib.sha256(('approved|' + canonical).encode()).hexdigest()[:18],
+            'title': title,
+            'category': category,
+            'summary': note or None,
+            'summary_status': 'curated_reference' if note else 'unavailable',
+            'source_name': source_name,
+            'source_url': canonical,
+            'published_at': datetime_iso(item.get('published_at')),
+            'image_url': valid_http(item.get('image_url'), True) or thumb,
+            'media_type': 'video',
+            'video_id': clip_id if platform == 'youtube' else None,
+            'platform': platform,
+            'external_id': clip_id,
+            'topics': [category],
+        })
+    return result
+
+
 def load_previous() -> list[dict]:
     try:
         return json.loads(OUT.read_text(encoding='utf-8')).get('posts', [])
@@ -283,6 +367,9 @@ def collect(fetcher=fetch_source) -> dict:
             fetched.extend(items)
     fetched.extend(official_dragon_ball_posts())
     stats.append({'name': 'Dragon Ball Official (curated)', 'items': len(official_dragon_ball_posts()), 'error': None})
+    approved = approved_public_clips()
+    fetched.extend(approved)
+    stats.append({'name': 'Approved public cross-platform clips', 'items': len(approved), 'error': None})
     if not fetched and not previous:
         raise RuntimeError('No public feeds responded and no prior data available; refusing empty deployment')
     posts_by_id = {p['id']: p for p in previous}
