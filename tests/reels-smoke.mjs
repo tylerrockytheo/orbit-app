@@ -82,13 +82,16 @@ assert.equal(storage.get('orbit_reel_sound_v1'),'false','header button shares th
 await click({reelsSound:''});
 assert.equal(storage.get('orbit_reel_sound_v1'),'true');
 // A like is private feedback; it must NOT also save a video.
+const iframeBeforeLike=node('reel-media-'+musicIndex).innerHTML;
 await click({like:'rss:clip1'});
+assert.equal(node('reel-media-'+musicIndex).innerHTML,iframeBeforeLike,'liking must never restart the video being watched');
 assert.ok(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1']);
 assert.match(node('reels-status').textContent,/Updated for you/,'Like should refresh upcoming Reels immediately');
 assert.deepEqual(JSON.parse(storage.get('orbit_bookmarks_v2')||'{}'),{});
 await click({reelsNext:String(musicIndex)});
 assert.equal(node('reels-scroll').scrollTop,(musicIndex+1)*800);
 assert.match(node('reels-scroll').innerHTML,/data-reel-index=/,'Reels should append more videos instead of ending');
+assert.match(node('reels-scroll').innerHTML,/Previously shown/,'after exhausting available videos, label replays rather than inventing fresh posts');
 await click({save:'rss:clip1'});
 assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
 await click({like:'rss:clip1'}); // unlike does not remove the bookmark
