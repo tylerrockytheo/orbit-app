@@ -204,3 +204,18 @@ body.reels-mode{background:#05060a;overflow:hidden}
   .reel[data-provider="youtube"] .reel-actions{top:calc(93px + env(safe-area-inset-top));gap:2px}
   .reel[data-provider="youtube"] .reel-actions button{min-height:42px}
 }
+
+/* V20: Reels refresh and clearer publisher ad controls. */
+.reels-refresh{pointer-events:auto;display:grid;place-items:center;width:36px;height:36px;color:#fff;background:#0008;border:1px solid #ffffff45;border-radius:50%;font-size:25px;line-height:1;flex:none}
+.reels-refresh.is-refreshing{animation:orbit-refresh .8s linear infinite;opacity:.7}
+@keyframes orbit-refresh{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.reels-refresh.is-refreshing{animation:none}}
+/* Don't darken or hide ad/skip UI behind an opaque Orbit gradient. */
+.reel[data-provider="youtube"][data-playing="true"] .reel-shade{background:transparent!important}
+.reel[data-provider="youtube"] .reel-caption{text-shadow:0 1px 9px #000,0 1px 4px #000;background:linear-gradient(90deg,#0006,transparent);border-radius:10px;padding:6px 8px;left:12px}
+.reel[data-provider="youtube"] .reel-actions{top:calc(100px + env(safe-area-inset-top));bottom:auto;right:7px;gap:5px}
+.reel[data-provider="youtube"] .reel-actions button{background:#0007;backdrop-filter:blur(2px)}
+/* Reserve the whole right side for native skip controls except for deliberate Orbit buttons.
+   Provider buttons are visually translucent and do not obstruct the lower-right ad area. */
+.reel[data-provider="youtube"] .reel-tap-surface{right:clamp(125px,32vw,190px)}
+@media(max-width:390px){.reels-top{gap:6px;padding-left:8px;padding-right:8px}.reels-refresh{width:31px;height:31px;font-size:22px}}
