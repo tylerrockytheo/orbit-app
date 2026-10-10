@@ -153,7 +153,7 @@ function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><
 function reelItems(){return tab==='Reels'&&activeReelQueue?activeReelQueue:rankReelCandidates()}
 // Rank unseen videos *when needed*, not just once when opening Reels.
 // Explicit likes and "less like this" feedback affect the next recommendations.
-function rankReelCandidates(excluded=new Set(),recent=[]){
+function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
   const candidates=posts.filter(p=>p.video_id&&!muted.has(p.category)&&!excluded.has(p.video_id));
 
   if(!candidates.length)return [];
@@ -168,7 +168,7 @@ function rankReelCandidates(excluded=new Set(),recent=[]){
   const shortHint=/#(?:shorts?|reels?|vr|gaming|anime|spiderman|marvel|fitness|music|funny|cats?|dogs?|dragonball)\b/i;
   const newFirst=[...candidates];
   const ordered=[],recentCats=recent.map(p=>p.category).slice(-4),recentSources=recent.map(p=>p.source_name).slice(-5);
-  while(newFirst.length){
+  while(newFirst.length&&ordered.length<limit){
     const feedbackTech=feedback.positive.categories['AI & Tech']||0;
     const techMax=feedbackTech>=4?5:feedbackTech>=2?3:1;
     const countTech=ordered.slice(-9).filter(p=>['AI & Tech','Technology','Business'].includes(p.category)).length;
@@ -264,15 +264,15 @@ function ensureReelBuffer(){
   while(activeReelQueue.length<target&&attempts++<REEL_AHEAD+3){
     const reserved=new Set(activeReelQueue.map(p=>p.video_id));
     const recent=activeReelQueue.slice(-REEL_RECENT_EXCLUDE);
-    let candidates=rankReelCandidates(reserved,recent);
+    let candidates=rankReelCandidates(reserved,recent,1);
     let replay=false;
     if(!candidates.length){
       // Exhausted the unique catalog: refresh sources, then cycle older clips.
       maybeRefreshReelCatalog();
       const lastFew=new Set(recent.map(p=>p.video_id));
-      candidates=rankReelCandidates(lastFew,recent);
+      candidates=rankReelCandidates(lastFew,recent,1);
       if(!candidates.length&&activeReelQueue.length>1){
-        candidates=rankReelCandidates(new Set([activeReelQueue.at(-1).video_id]),recent);
+        candidates=rankReelCandidates(new Set([activeReelQueue.at(-1).video_id]),recent,1);
       }
       replay=true;
     }
