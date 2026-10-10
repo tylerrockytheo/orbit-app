@@ -69,7 +69,8 @@ function localClipPost(raw){
     title:raw.title&&String(raw.title).trim()?String(raw.title).trim().slice(0,130):(parsed.platform==='tiktok'?'TikTok video':parsed.platform==='instagram'?'Instagram Reel':parsed.platform==='facebook'?'Facebook Reel':'YouTube Short'),
     category:allowed,source_url:parsed.url,
     source_name:parsed.creator==='Instagram creator'||parsed.creator==='Facebook creator'||parsed.creator==='YouTube creator'?providerName(parsed):providerName(parsed)+' · '+parsed.creator,
-    published_at:raw.added_at||new Date().toISOString(),
+    // Import date isn't a verified upload date: never mislabel an old video as 'posted today'.
+    published_at:raw.published_at||null,
     summary:null,summary_status:'local_import',
     platform:parsed.platform,external_id:parsed.external_id
   },'local');
@@ -343,7 +344,7 @@ function reelCard(p,i){
     +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p,i)+'</div>'
     +'<div class="reel-shade" aria-hidden="true"></div>'
     +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Unmute or pause video" tabindex="-1"></button>'
-    +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':'')+escape(p.category)+' · '+escape(providerName(p))+'</div>'
+    +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':postFreshness(p)>=100?'Today · ':'')+escape(p.category)+' · '+escape(providerName(p))+'</div>'
     +'<strong class="reel-creator">'+escape(p.source_name)+'</strong>'
     +'<h2>'+escape(p.title)+'</h2>'
     +'<a href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">Watch original ↗</a></div>'
