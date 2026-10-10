@@ -1,5 +1,7 @@
 import sys
 import unittest
+import tempfile
+import json
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -42,6 +44,29 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(result[0]['video_id'], 'abc123ABC-0')
         self.assertEqual(result[0]['source_url'], 'https://www.youtube.com/watch?v=abc123ABC-0')
         self.assertIn('i.ytimg.com', result[0]['image_url'])
+
+    def test_approved_public_clips_are_whitelisted_and_never_rehosted(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "approved-clips.json"
+            path.write_text(json.dumps({"posts": [
+                {"source_url": "https://www.tiktok.com/@demo/video/6718335390845095173", "category": "Comedy"},
+                {"source_url": "https://www.instagram.com/reel/CABC123_-/", "category": "Entertainment"},
+                {"source_url": "https://www.facebook.com/reel/123456789012345", "category": "Gaming"},
+                {"source_url": "https://www.youtube.com/shorts/abcdefghijk", "category": "Music"},
+                {"source_url": "https://unsafe.example/reel/123456789012345", "category": "Comedy"},
+                {"source_url": "http://www.tiktok.com/@demo/video/6718335390845095173", "category": "Comedy"}
+            ]}), encoding="utf-8")
+            previous = build_feed.APPROVED
+            try:
+                build_feed.APPROVED = path
+                clips = build_feed.approved_public_clips()
+            finally:
+                build_feed.APPROVED = previous
+            self.assertEqual(len(clips), 4)
+            self.assertEqual({c["platform"] for c in clips}, {"youtube","instagram","tiktok","facebook"})
+            self.assertTrue(all(c["source_url"].startswith("https://") for c in clips))
+            self.assertTrue(all(c["media_type"] == "video" for c in clips))
+            self.assertEqual([c["video_id"] for c in clips if c["platform"] == "tiktok"], [None])
 
     def test_fallback_previous_feed_on_provider_fail(self):
         p = build_feed.OUT
