@@ -35,6 +35,16 @@ SOURCES = [
     dict(label='NASA', category='Science', url='https://www.nasa.gov/feed/', cap=9),
     dict(label='Atlas Obscura', category='Travel', url='https://www.atlasobscura.com/feeds/latest', cap=8),
     dict(label='Anime News Network', category='Anime', url='https://www.animenewsnetwork.com/all/rss.xml', cap=12),
+    # Broader, independently published entertainment/gaming/music coverage.
+    # RSS gives articles and original links; it does not manufacture playable Shorts.
+    dict(label='Polygon Gaming', category='Gaming', url='https://www.polygon.com/rss/gaming/index.xml', cap=9),
+    dict(label='PC Gamer', category='Gaming', url='https://www.pcgamer.com/rss/', cap=7),
+    dict(label='Rock Paper Shotgun', category='Gaming', url='https://www.rockpapershotgun.com/feed/', cap=7),
+    dict(label='Variety Film', category='Entertainment', url='https://variety.com/v/film/feed/', cap=8),
+    dict(label='Variety TV', category='Entertainment', url='https://variety.com/v/tv/feed/', cap=7),
+    dict(label='Variety Music', category='Music', url='https://variety.com/v/music/feed/', cap=9),
+    dict(label='Hollywood Reporter', category='Entertainment', url='https://www.hollywoodreporter.com/feed/', cap=7),
+    dict(label='NME Music', category='Music', url='https://www.nme.com/feed', cap=7),
     # Google News returns individual article cards, not generic search links.
     dict(label='IGN · YouTube', category='Gaming', channel='UCKy1dAqELo0zrOtPkf0eTMw', cap=8),
     dict(label='Google Developers · YouTube', category='AI & Tech', channel='UC_x5XG1OV2P6uZZ5FSM9Ttw', cap=7),
