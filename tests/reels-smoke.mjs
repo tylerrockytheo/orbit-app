@@ -15,7 +15,7 @@ function node(id){
     setAttribute(name,value){this[name]=value},removeAttribute(name){delete this[name]},
     classList:{toggle(){},add(){},remove(){}},
     querySelector(selector){
-      if(selector==='iframe' && this.innerHTML.includes('class="reel-frame"')){
+      if(selector==='iframe' && this.innerHTML.includes('class="reel-frame')){
         if(!this._frame || this._frameMarkup!==this.innerHTML){
           this._frameMarkup=this.innerHTML;
           this._frame={contentWindow:{postMessage(message){soundCommands.push(JSON.parse(message))}}};
