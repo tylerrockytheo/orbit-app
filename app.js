@@ -257,12 +257,12 @@ function reelView(){
 function resetReelPlayer(index){
   const p=reelItems()[index];
   const media=document.getElementById('reel-media-'+index);
-  if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p);
+  if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p,index);
   reelYoutubePlayers.delete(index);
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
 }
-function startReel(id,mutedPlayback=!reelSoundOn){
-  const clips=reelItems(),index=clips.findIndex(p=>p.id===id);
+function startReel(index,mutedPlayback=!reelSoundOn){
+  const clips=reelItems();
   if(index<0||tab!=='Reels')return;
   // A direct tap can arrive before IntersectionObserver marks the visible Reel active.
   if(reelActiveIndex!==index){
@@ -286,8 +286,10 @@ function setActiveReel(index){
   const previous=reelActiveIndex;
   reelActiveIndex=index;
   if(previous>=0)resetReelPlayer(previous);  // removes iframe so sound cannot continue
-  document.getElementById('reels-count')?.replaceChildren(document.createTextNode((index+1)+' / '+clips.length));
-  if(reelsStarted)startReel(clips[index].id,!reelSoundOn);
+  reelSeen.add(clips[index].video_id);
+  if(reelsStarted)startReel(index,!reelSoundOn);
+  ensureReelBuffer();
+  maybeRefreshReelCatalog();
 }
 // The official YouTube IFrame Player API changes mute state without reloading or pausing a video.
 function youtubeApi(){
@@ -385,12 +387,9 @@ function mountReels(){
     }
   },{root:scroll,threshold:[0,.65,.9]});
   cards.forEach(card=>reelsObserver.observe(card));
-  const target=requestedReel?clipsIndex(requestedReel):0;
-  requestedReel=null;
-  if(target>0)scroll.scrollTop=target*scroll.clientHeight;
-  setActiveReel(Math.max(target,0));
+  const target=0;
+  setActiveReel(target);
 }
-function clipsIndex(id){return reelItems().findIndex(p=>p.id===id)}
 function stopReels(){
   if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
@@ -399,13 +398,16 @@ function stopReels(){
   clearTimeout(reelSoundNoticeTimer);
   reelsStarted=false;
   reelActiveIndex=-1;
+  reelSeen.clear();
+  reelRefillPromise=null;
 }
 function reelJump(index){
   const scroller=document.getElementById('reels-scroll');
   if(!scroller)return;
-  const target=Math.max(0,Math.min(reelItems().length-1,index));
-  scroller.scrollTo({top:target*scroller.clientHeight,behavior:'smooth'});
-  if(target===reelActiveIndex&&target===reelItems().length-1)toast('You’re all caught up');
+  ensureReelBuffer();
+  const target=Math.max(reelBaseIndex,Math.min(reelItems().length-1,index));
+  scroller.scrollTo({top:(target-reelBaseIndex)*scroller.clientHeight,behavior:'smooth'});
+  if(target===reelActiveIndex&&target===reelItems().length-1)maybeRefreshReelCatalog();
 }
 function updateReelSave(id){
   document.querySelectorAll('.reel-actions button[data-save]').forEach(b=>{
@@ -448,7 +450,7 @@ if(data){const prefix=origin==='Cloudflare'?'cf':'rss';posts=data.posts.map(p=>n
 function changeTab(t){if(tab==='Reels'&&t!=='Reels'){stopReels();activeReelQueue=null}if(t==='Reels'&&tab!=='Reels'){activeReelQueue=null;reelsReturnTab=tab==='Search'?'Home':tab}tab=t;filter='All';render();if(t!=='Reels')window.scrollTo({top:0,behavior:'instant'})}
 document.addEventListener('input',e=>{if(e.target.matches('[data-weight]')){const k=e.target.dataset.weight;weights[k]=Number(e.target.value);document.getElementById('val-'+slug(k)).textContent=weights[k];persist()}if(e.target.id==='search-input'){searchTerm=e.target.value;document.getElementById('results').innerHTML=cardsOrEmpty(selection())}});
 const slug=s=>s.replace(/[^A-Za-z0-9]/g,'-');
-document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsSound!==undefined||d.reelsAudioTap!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay){startReel(d.reelPlay,false);return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
+document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsSound!==undefined||d.reelsAudioTap!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){startReel(Number(d.reelPlay),false);return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
 
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!overlay.hidden){closeOverlay();return}
