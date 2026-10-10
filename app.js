@@ -16,7 +16,7 @@ let weights={...DEFAULT_WEIGHTS,...read('orbit_weights_v2',{})},muted=new Set(re
 let likes=read('orbit_likes_v1',{}),lessLiked=read('orbit_less_v1',{});
 if(!likes||typeof likes!=='object'||Array.isArray(likes))likes={};
 if(!lessLiked||typeof lessLiked!=='object'||Array.isArray(lessLiked))lessLiked={};
-let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null, activeReelQueue=null, reelSoundOn=read('orbit_reel_sound_v1',true)!==false;
+let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null, activeReelQueue=null, reelBaseIndex=0, reelRefreshAt=0, reelRefreshTimer=null, reelRefillPromise=null, reelSeen=new Set(), reelSoundOn=read('orbit_reel_sound_v1',true)!==false;
 let reelSoundNoticeTimer=null,ytApiPromise=null;
 const reelYoutubePlayers=new Map();
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
@@ -153,9 +153,12 @@ function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><
 /* Reels: a private, vertically swiped video feed using real creator videos.
    Playback is initiated by a tap; subsequent clips try muted autoplay.
    YouTube's own embedding permissions and mobile autoplay rules still apply. */
-function reelItems(){
-  if(tab==='Reels'&&activeReelQueue)return activeReelQueue; // freeze ordering while watching
-  const candidates=posts.filter(p=>p.video_id&&!muted.has(p.category));
+function reelItems(){return tab==='Reels'&&activeReelQueue?activeReelQueue:rankReelCandidates()}
+// Rank unseen videos *when needed*, not just once when opening Reels.
+// Explicit likes and "less like this" feedback affect the next recommendations.
+function rankReelCandidates(excluded=new Set(),recent=[]){
+  const candidates=posts.filter(p=>p.video_id&&!muted.has(p.category)&&!excluded.has(p.video_id));
+
   if(!candidates.length)return [];
   const basePriorities={
     'Dragon Ball':48,Comedy:43,Animals:41,Anime:39,Gaming:37,
@@ -167,7 +170,7 @@ function reelItems(){
   const fun=/\b(funny|prank|laugh|hilarious|challenge|trick shot|fails?|bloopers?|comedy|parody|gameplay|memes?|#shorts?|#reels?|animals?|kitten|puppy|spider.man|stunt|crazy|epic|cosplay|live performance|behind the scenes)\b/i;
   const shortHint=/#(?:shorts?|reels?|vr|gaming|anime|spiderman|marvel|fitness|music|funny|cats?|dogs?|dragonball)\b/i;
   const newFirst=[...candidates];
-  const ordered=[],recentCats=[],recentSources=[];
+  const ordered=[],recentCats=recent.map(p=>p.category).slice(-4),recentSources=recent.map(p=>p.source_name).slice(-5);
   while(newFirst.length){
     const feedbackTech=feedback.positive.categories['AI & Tech']||0;
     const techMax=feedbackTech>=4?5:feedbackTech>=2?3:1;
