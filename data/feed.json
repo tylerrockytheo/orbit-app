@@ -1,7 +1,359 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T05:45:03.393206Z",
+  "generated_at": "2026-10-10T10:39:23.239376Z",
   "posts": [
+    {
+      "id": "423f39dd528998ce09",
+      "title": "Netflix’s ‘The Blue Road’ Director Han Jun-hee on Why Playing It Safe Is the Real Risk",
+      "category": "Entertainment",
+      "summary": "When Han Jun-hee binge-watched “House of Cards,” the series struck him as a game changer. It left him with one ambition: to make a story no one had told before, but that many people would watch.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/festivals/netflixs-the-blue-road-director-han-jun-hee-1236907368/",
+      "published_at": "2026-10-10T10:27:27Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Blue-Road1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "510da6c766ed42d505",
+      "title": "AI Can Cut Film Budgets by Up to 40%, Says ‘The Outlaws’ Director Kang Yoon-sung, as Netflix Reveals Use on 300 Titles: ‘A Human Touch Is Absolutely Essential’",
+      "category": "Entertainment",
+      "summary": "Netflix has used AI in one form or another on some 300 of its titles, Lee Sung-gyun, the streamer’s senior director of APAC production, told an audience at the Busan International Film Festival. On the same panel, “The Outlaws” director Kang Yoon-sung said AI workflows could take 30% to 40% off a feature film’s production […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/festivals/netflix-ai-300-titles-kang-yoon-sung-40-percent-budget-busan-1236907359/",
+      "published_at": "2026-10-10T10:09:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Creative-Asia-AI-panel.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d3321ffe5c05fe9cae",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "category": "World",
+      "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T10:06:23Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d64/live/61119c60-c483-11f1-9323-b15f40d5009a.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "cd96bd843b94c950ac",
+      "title": "Radiohead’s Thom Yorke shares most important piece of advice given to him by R.E.M.’s Michael Stipe",
+      "category": "Music",
+      "summary": "The pair became close when Radiohead supported R.E.M. on their 1995 ‘Monster’ tour The post Radiohead’s Thom Yorke shares most important piece of advice given to him by R.E.M.’s Michael Stipe appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/radiohead-thom-yorke-important-advice-rem-michael-stipe-3972855?utm_source=rss&utm_medium=rss&utm_campaign=radiohead-thom-yorke-important-advice-rem-michael-stipe",
+      "published_at": "2026-10-10T10:04:55Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Stephane_Cardinale_Corbis_Jed_Cullen_Dave_Benett.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "9f2e0b6851a7e015b5",
+      "title": "Persona’s Horrifying Dong Monster Will Haunt My Nightmares Forever",
+      "category": "Gaming",
+      "summary": "For decades, Atlus’s Shin Megami Tensei and Persona series have featured a horrifying demon peen inspired by Buddhist folklore",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/persona-atlus-scariest-mara/",
+      "published_at": "2026-10-10T10:00:15Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/persona-3-reload-makoto.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "9bb281cb5e10d14e51",
+      "title": "Halo officially returns in 2 weeks with new release",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/halo-novel-release-date/",
+      "published_at": "2026-10-10T10:00:15Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/assets_2026_06_1780857686_3b-hce_energy_sword_no_logo_3840x2180.png",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "ed86a50042f4267364",
+      "title": "Busan Market Chief Ellen Y.D. Kim Plots Year-Round ACFM 365 Platform, Warns Public Funding Has Stalled",
+      "category": "Entertainment",
+      "summary": "The Asian Contents & Film Market (ACFM) should grow beyond its four days in Busan into a platform that runs all year, director Ellen Y.D. Kim tells Variety. She adds that public money for the market has not grown alongside it. Kim calls the idea ACFM 365. It would be a permanent database and matchmaking […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/busan-market-chief-ellen-kim-year-round-acfm-365-platform-1236907349/",
+      "published_at": "2026-10-10T09:38:32Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/09/Ellen-YD-Kim.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e006a58f4837659850",
+      "title": "How drones are hunting fires hidden beneath the Cairngorms",
+      "category": "Science",
+      "summary": "Dramatic flames from the huge Cairngorms wildfire in July have disappeared - but hot spots can continue to burn beneath the earth.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwm24n9v8rdeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T09:31:14Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9e6/live/0f446750-c48d-11f1-a915-a1cdb09cbaf6.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "5cbf354da8d0c2884d",
+      "title": "‘Bedford Park’ Star Moon Choi Charts Her Own Path Between Korea and Hollywood",
+      "category": "Entertainment",
+      "summary": "The rising Korean actress brings her acclaimed American indie romance with Son Sukku to Busan, where she’s also serving on the festival’s main competition jury led by Chinese filmmaking legend Zhang Yimou.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/bedford-park-moon-choi-korea-hollywood-1236726874/",
+      "published_at": "2026-10-10T09:28:15Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d9552a89736320784c",
+      "title": "Olivia Rodrigo shares how she spent “exorbitant amount of money” on iconic piece of The White Stripes clothing",
+      "category": "Music",
+      "summary": "The singer bought the white dress worn by Meg White on the cover of 2003’s ‘Elephant’ The post Olivia Rodrigo shares how she spent “exorbitant amount of money” on iconic piece of The White Stripes clothing appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/olivia-rodrigo-exorbitant-money-iconic-piece-white-stripes-clothing-3972851?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-exorbitant-money-iconic-piece-white-stripes-clothing",
+      "published_at": "2026-10-10T09:22:57Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/olivia_rodrigo_jack_white.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "36ac7bbf5a19d9e432",
+      "title": "A year of ceasefire in Gaza through the lens of NPR's reporter",
+      "category": "World",
+      "summary": "It has been one year since Hamas released the remaining Israeli hostages and President Trump promised an end to the war, but Palestinians say the past 12 months have been a ceasefire in name only.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/sections/the-picture-show/2026/10/10/nx-s1-5991619/gaza-ceasefire-israel-life",
+      "published_at": "2026-10-10T09:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "019111a2626b3bb091",
+      "title": "Millennium Family TV Anime Casts Taihi Kimura",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/millennium-family-tv-anime-casts-taihi-kimura/.242683",
+      "published_at": "2026-10-10T09:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "62fc017f7e48e69fcb",
+      "title": "India cracks down on youth protests as anger grows against Modi and election chief",
+      "category": "World",
+      "summary": "Indian authorities have launched a major security crackdown in New Delhi, detaining thousands of protesters who intended to hold a mass demonstration against Prime Minister Narendra Modi's government.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+      "published_at": "2026-10-10T08:31:28Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "f789f2e2cf5fa17b32",
+      "title": "Hurricane Isaias downgraded after making landfall in Florida",
+      "category": "World",
+      "summary": "Hundreds of thousands of households are without power in Florida and Alabama as Isaias continues its path across south-eastern US.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T08:29:59Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5b0c40ffb9f826f5f6",
+      "title": "Hurricane Isaias downgraded after making landfall in Florida",
+      "category": "Science",
+      "summary": "Hundreds of thousands of households are without power in Florida and Alabama as Isaias continues its path across south-eastern US.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T08:29:59Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "d51bde52f4152f1da8",
+      "title": "The Chemical Brothers, Ellie Goulding, Adéla lead latest wave of line-up for Open’er 2027",
+      "category": "Music",
+      "summary": "Tom Rowlands and Ed Simons will return 25 years after headlining the festival’s inaugural edition The post The Chemical Brothers, Ellie Goulding, Adéla lead latest wave of line-up for Open’er 2027 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/chemical-brothers-ellie-goulding-adela-line-up-opener-2027-3972847?utm_source=rss&utm_medium=rss&utm_campaign=chemical-brothers-ellie-goulding-adela-line-up-opener-2027",
+      "published_at": "2026-10-10T08:29:16Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/opener_stage_2026.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "0b842704b24db460bf",
+      "title": "Art Garfunkel postpones UK tour after being diagnosed with respiratory infection",
+      "category": "Music",
+      "summary": "“My heart is broken that I must postpone these performances” The post Art Garfunkel postpones UK tour after being diagnosed with respiratory infection appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/art-garfunkel-postpones-uk-tour-diagnosed-respiratory-infection-3972843?utm_source=rss&utm_medium=rss&utm_campaign=art-garfunkel-postpones-uk-tour-diagnosed-respiratory-infection",
+      "published_at": "2026-10-10T07:42:01Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/art_garfunkel_2026.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "6c44deab4a28b3b491",
+      "title": "What are we all playing this weekend?",
+      "category": "Gaming",
+      "summary": "The descent into autumn continues: this week I slept with an extra blanket on the bed. I'm not into swapping the duvet out for the winter tog yet, I'll be holding off on that until at least December, but the laying of the first blanket is a true marker of autumn's arrival. Read more",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-403",
+      "published_at": "2026-10-10T07:00:00Z",
+      "image_url": "https://assetsio.gnwcdn.com/weekend-laundry.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "055dc12859bd19916e",
+      "title": "Vietnamese Supernatural Horror ‘Bloodline: The Curse Within’ Heads to Busan Market With Mockingbird Pictures (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Vietnamese supernatural horror film “Bloodline: The Curse Within” will be introduced to international buyers by Mockingbird Pictures at the Asian Contents & Film Market (ACFM), the market of the Busan International Film Festival.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/vietnamese-supernatural-horror-bloodline-the-curse-within-busan-market-1236907324/",
+      "published_at": "2026-10-10T05:59:30Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Bloodline-The-Curse-Within.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "38f26a12711c0d0f40",
+      "title": "Movistar Plus Drives Into YA Comedy, Smart Social Issue Genre",
+      "category": "Entertainment",
+      "summary": "Over the last two years, no Spanish company has helped drive Spanish content onto the world stage more than Movistar Plus, the biggest Spanish pay TV/SVOD operator.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/movistar-plus-victoria-martin-isabel-pena-arte-france-1236893803/",
+      "published_at": "2026-10-10T05:50:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/Copia-de-MATAR-A-UN-OSO_T1_STILL_06_1.217.0.jpeg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e7f0910c5da2d9b540",
+      "title": "Netflix Says 67% of Surveyed Members Want to Visit Korea as Busan’s Creative Asia Puts Locations in Focus",
+      "category": "Entertainment",
+      "summary": "Netflix research found that 67% of surveyed members internationally expressed interest in visiting South Korea. For the streamer’s Sung Q Lee, the pull lies in the stories set there, rather than the scenery alone.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/markets-festivals/netflix-busan-surveyed-members-want-visit-korea-1236907318/",
+      "published_at": "2026-10-10T05:47:32Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Netflix-Busan-locations-panel-Creative-Asia.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2daffc6f253ada1a6e",
+      "title": "Spain’s TV Powerhouses Forge New Partnerships as Series Biz Evolves",
+      "category": "Entertainment",
+      "summary": "Spain’s TV industry is shifting gears as international buyers grow more selective, prompting its leading operators to rethink their series business. Pay TV operator Movistar Plus is scaling up in Spanish originals.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/markets-festivals/spain-tv-series-licensing-coproductions-1236893852/",
+      "published_at": "2026-10-10T05:45:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/LEAD-ARTICLE-A-LA-DERIVA-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "169303b8c3c20d1d00",
       "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
@@ -27,7 +379,7 @@
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-10T04:38:20Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f173/live/ee0a99e0-c461-11f1-98eb-5dd4f1288128.jpg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg",
       "media_type": "article",
       "video_id": null,
       "topics": [
@@ -259,35 +611,35 @@
       ]
     },
     {
-      "id": "f789f2e2cf5fa17b32",
-      "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
-      "category": "World",
-      "summary": "The storm took direct aim at Florida and is expected to impact Alabama, Georgia, and Louisiana.",
+      "id": "e1d06fbcbb74dbe3ec",
+      "title": "US country music star Ella Langley cancels show due to 'security threat'",
+      "category": "Entertainment",
+      "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
       "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T01:58:56Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T02:02:54Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab10/live/c3d14350-b6a0-11f1-bc1f-3f186ca4140c.jpg",
       "media_type": "article",
       "video_id": null,
       "topics": [
-        "World"
+        "Entertainment"
       ]
     },
     {
-      "id": "5b0c40ffb9f826f5f6",
-      "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
-      "category": "Science",
-      "summary": "The storm took direct aim at Florida and is expected to impact Alabama, Georgia, and Louisiana.",
+      "id": "ac77ab18cdbec842ec",
+      "title": "Sonic Racing: CrossWorlds - Official Year Two DLC Overview",
+      "category": "Entertainment",
+      "summary": "Take a look at the Year Two DLC Overview for Sonic Racing: CrossWorlds, the hit action arcade racing game developed by SEGA.",
       "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T01:58:56Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
-      "media_type": "article",
-      "video_id": null,
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=nLsuAzEUk-k",
+      "published_at": "2026-10-10T02:00:02Z",
+      "image_url": "https://i.ytimg.com/vi/nLsuAzEUk-k/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "nLsuAzEUk-k",
       "topics": [
-        "Science"
+        "Entertainment"
       ]
     },
     {
@@ -320,6 +672,22 @@
       "video_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "d56f3b31814950463e",
+      "title": "Star Wars: Galactic Racer - Official Game Tactics Overview",
+      "category": "Gaming",
+      "summary": "Don't miss the Game Tactics Overview Video for Star Wars: Galactic Racer, the hit roguelike arcade racing game developed by Fuse Games. Players can hear straight from the development team about how to break through the opposition with key tactics to gain the edge in any given race.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=mXL26RHJK6A",
+      "published_at": "2026-10-10T01:00:19Z",
+      "image_url": "https://i.ytimg.com/vi/mXL26RHJK6A/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "mXL26RHJK6A",
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -437,7 +805,7 @@
     {
       "id": "0993fa572c941a13cb",
       "title": "Bloodaxe - Official Teaser Trailer (2027) Xavier Molyneux, Jessica Madsen",
-      "category": "Gaming",
+      "category": "Entertainment",
       "summary": "Take a look at the Official Teaser Trailer for Bloodaxe, an historical action drama distributed by Prime Video. Witness the tale of history’s most famous Norse raiders in Bloodaxe, premiering on January 20, 2027, on Prime Video.",
       "summary_status": "publisher_excerpt",
       "source_name": "IGN · YouTube",
@@ -447,7 +815,7 @@
       "media_type": "video",
       "video_id": "HL1yJc5KA2Q",
       "topics": [
-        "Gaming"
+        "Entertainment"
       ]
     },
     {
@@ -576,6 +944,22 @@
       "video_id": null,
       "topics": [
         "Music"
+      ]
+    },
+    {
+      "id": "20e2e3d8c79a5a0a74",
+      "title": "Ashe was too scared to cancel her wedding - the story became a hit song",
+      "category": "Entertainment",
+      "summary": "US singer-songwriter Ashe reveals the story behind her international smash hit, Stop The Wedding.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx30en32gd39o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-09T23:01:22Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6f1/live/a7071220-c304-11f1-9955-5d2e13ff2bea.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -725,7 +1109,7 @@
     {
       "id": "dd3523b849d24c73b4",
       "title": "RuneScape Reignited - Official Announcement Trailer",
-      "category": "Gaming",
+      "category": "Entertainment",
       "summary": "Check out the announcement trailer for RuneScape Reignited! 25 years in the making, RuneScape Reignited launches December 2, marking a defining moment for the game — inviting players old and new to return together, rediscover RuneScape and experience it as it was always meant to be.",
       "summary_status": "publisher_excerpt",
       "source_name": "IGN · YouTube",
@@ -735,13 +1119,13 @@
       "media_type": "video",
       "video_id": "YRLA-1Bo6Ic",
       "topics": [
-        "Gaming"
+        "Entertainment"
       ]
     },
     {
       "id": "a016854c7ede505ffb",
       "title": "RuneScape - Official 4th MMO Teaser Trailer",
-      "category": "Gaming",
+      "category": "Entertainment",
       "summary": "Take a first glimpse of an ambitious new chapter for RuneScape: a fourth RuneScape MMO, built for a new generation of players.",
       "summary_status": "publisher_excerpt",
       "source_name": "IGN · YouTube",
@@ -751,7 +1135,7 @@
       "media_type": "video",
       "video_id": "qMcF3wEdprs",
       "topics": [
-        "Gaming"
+        "Entertainment"
       ]
     },
     {
@@ -859,7 +1243,7 @@
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-09T22:30:22Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9075/live/94a528a0-c422-11f1-9462-0fb8e72a616b.jpg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/200a/live/11ffab00-c472-11f1-9fee-49b2288eef07.jpg",
       "media_type": "article",
       "video_id": null,
       "topics": [
@@ -880,6 +1264,22 @@
       "video_id": null,
       "topics": [
         "Gaming"
+      ]
+    },
+    {
+      "id": "3a1ec8b37b862d75ee",
+      "title": "Kuwabara's Awakening #yuyuhakusho #anime #parody",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=NRQlhU4Cyaw",
+      "published_at": "2026-10-09T22:00:17Z",
+      "image_url": "https://i.ytimg.com/vi/NRQlhU4Cyaw/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "NRQlhU4Cyaw",
+      "topics": [
+        "Anime"
       ]
     },
     {
@@ -932,9 +1332,9 @@
     },
     {
       "id": "78975340541c2de3cc",
-      "title": "Three men found guilty of murdering two Australian surfer brothers and US friend",
+      "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
       "category": "World",
-      "summary": "The bodies of Jake and Callum Robinson and their friend Carter Rhoad were found at the bottom of a well.",
+      "summary": "Jake and Callum Robinson and their friend Carter Rhoad were on a surf trip when they were killed in an apparent botched robbery.",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
@@ -964,7 +1364,7 @@
     },
     {
       "id": "d6267340f4856dac7d",
-      "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+      "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
       "category": "World",
       "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
       "summary_status": "publisher_excerpt",
@@ -1776,6 +2176,22 @@
       "video_id": "7sKHiuE7J-Y",
       "topics": [
         "AI & Tech"
+      ]
+    },
+    {
+      "id": "f14928ba2a336f5912",
+      "title": "Giving $10,000 To A Random Subscriber",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=aNI2jv7lBPQ",
+      "published_at": "2026-10-09T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/aNI2jv7lBPQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "aNI2jv7lBPQ",
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -2917,6 +3333,22 @@
       ]
     },
     {
+      "id": "e30c374dd197eedbcd",
+      "title": "Shorin's New Diss Track #yuyuhakusho #parody #abridgedseries",
+      "category": "Anime",
+      "summary": "Kuwabara takes a swing at the big leagues...it doesn't go well. Wanna see all videos early?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=T5N8ZaY536Q",
+      "published_at": "2026-10-07T22:00:20Z",
+      "image_url": "https://i.ytimg.com/vi/T5N8ZaY536Q/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "T5N8ZaY536Q",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
       "id": "d3f82df6932488653b",
       "title": "Sometimes common ground starts with what both sides can’t afford to lose. #TEDTalks",
       "category": "Discover",
@@ -2934,7 +3366,7 @@
     },
     {
       "id": "08ee089c2abfef37c0",
-      "title": "Everything In Its Wrong Place... The Death of Musical Color",
+      "title": "Did Radiohead Write The Last Important Song?",
       "category": "Music",
       "summary": "In this episode, I discuss the trend of disappearing color in all aspects of modern society, from movies and television, to automobiles, to music, to culture itself.",
       "summary_status": "publisher_excerpt",
@@ -3046,6 +3478,22 @@
       ]
     },
     {
+      "id": "6339800c1121b64e3d",
+      "title": "Dimwit #yuyuhakusho #parody #abridgedseries",
+      "category": "Anime",
+      "summary": "What nickname would you give to our plucky protagonist?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=kmwLf6cOVL0",
+      "published_at": "2026-10-05T22:30:39Z",
+      "image_url": "https://i.ytimg.com/vi/kmwLf6cOVL0/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "kmwLf6cOVL0",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
       "id": "e7e1595bf49447569e",
       "title": "How to Use Tech to Outsmart Dictators | Leopoldo López | TED",
       "category": "Discover",
@@ -3078,6 +3526,22 @@
       ]
     },
     {
+      "id": "980f6e7f0a7e09b566",
+      "title": "OH NO HE'S A DRAGONBALL! #yuyuhakusho #parody #abridgedseries",
+      "category": "Anime",
+      "summary": "Did Kazemaru steal a technique from a totally difference universe?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=_pcvJFXk9QM",
+      "published_at": "2026-10-04T22:00:11Z",
+      "image_url": "https://i.ytimg.com/vi/_pcvJFXk9QM/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "_pcvJFXk9QM",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
       "id": "3fb0fa112eb6303e79",
       "title": "Sheryl Crow on writing “My Favorite Mistake” #sherylcrow #song #shorts",
       "category": "Music",
@@ -3091,6 +3555,38 @@
       "video_id": "Kh6gZMLPx_o",
       "topics": [
         "Music"
+      ]
+    },
+    {
+      "id": "f282ca47b72c9dfc06",
+      "title": "Enter: The Genkai Tournament! #anime #yuyuhakusho #parody",
+      "category": "Anime",
+      "summary": "Do you think you have what it takes to fight in the Genkai Tournament? ...or at least make it to the front gate?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=K7x2Cxw8Amg",
+      "published_at": "2026-10-03T23:00:08Z",
+      "image_url": "https://i.ytimg.com/vi/K7x2Cxw8Amg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "K7x2Cxw8Amg",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "1c47b685e4f03274ff",
+      "title": "Eat Everything In A Grocery Store, Win $1,000,000",
+      "category": "Entertainment",
+      "summary": "I trapped 4 strangers in an entire supermarket and the only way out is eating everything inside The guys wore Fitbit Air to track their health and fitness throughout their entire time in the store. See what they achieved during the Google Health Awards.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=plN7JMbadRg",
+      "published_at": "2026-10-03T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/plN7JMbadRg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "plN7JMbadRg",
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -3142,6 +3638,22 @@
       ]
     },
     {
+      "id": "e20e2c1261a999c9cd",
+      "title": "Yu Yu Hakusho Abridged: Genkai Tournament | Toonami Abridged",
+      "category": "Anime",
+      "summary": "🎃 Enjoy exclusive Japanese Halloween treats with TokyoTreat! https://team.tokyotreat.com/fourstar-TT2609 Use code “TEAMFOURSTAR” to save $5 OFF your first order, or sign up for a multi-month plan to receive a limited-time gift!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=vGx9j2gd5RU",
+      "published_at": "2026-10-02T17:00:19Z",
+      "image_url": "https://i.ytimg.com/vi/vGx9j2gd5RU/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "vGx9j2gd5RU",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
       "id": "f58b328feb4f01411c",
       "title": "Playing Sports By Their Literal Names 🤣",
       "category": "Comedy",
@@ -3155,6 +3667,22 @@
       "video_id": "u6RTMCclpSQ",
       "topics": [
         "Comedy"
+      ]
+    },
+    {
+      "id": "5c1f7592d1ada0c95a",
+      "title": "First To Mine A Diamond, Keeps It!",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=3yEnPrLt8e4",
+      "published_at": "2026-10-01T16:00:00Z",
+      "image_url": "https://i.ytimg.com/vi/3yEnPrLt8e4/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "3yEnPrLt8e4",
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -3222,6 +3750,278 @@
       ]
     },
     {
+      "id": "47266bf149516a97ea",
+      "title": "What’s Inside My Briefcase?",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=CEJXqm2eiJ0",
+      "published_at": "2026-09-27T16:00:14Z",
+      "image_url": "https://i.ytimg.com/vi/CEJXqm2eiJ0/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "CEJXqm2eiJ0",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "79277020d54819f483",
+      "title": "I Found My 13 Year Old Minecraft World",
+      "category": "Gaming",
+      "summary": "I finally made the Minecraft world I always wanted to make, 13 years later Check out our new MrBeast Lab MEGA Mutators at Walmart!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=PyLGTmWz37U",
+      "published_at": "2026-09-26T16:00:04Z",
+      "image_url": "https://i.ytimg.com/vi/PyLGTmWz37U/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "PyLGTmWz37U",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "7221e590f572a439fa",
+      "title": "Can We Catch An Aerobie Across A 222m Canyon!",
+      "category": "Comedy",
+      "summary": "Get an Aerobie Pro Ring ➤ https://www.amazon.com/stores/Aerobie/page/89BE359A-A509-42B2-845F-46C8E9C8B7D8?lp_asin=B08H5S9K72&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto Check out Seth's FPV work ➤ https://www.instagram.com/sethmoore.mp4 A huge thanks to Semonkong Lodge for hosting us and helping to pull off these crazy…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=XmkoPheiyC0",
+      "published_at": "2026-09-25T22:00:13Z",
+      "image_url": "https://i.ytimg.com/vi/XmkoPheiyC0/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "XmkoPheiyC0",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "0430e2e658167474bd",
+      "title": "I Built A City To Save Kids From Illegal Labor",
+      "category": "Entertainment",
+      "summary": "Huge thanks to the 1 Billion Followers Summit, Mohammed Bin Rashid Global Initiatives, and the Varkey Foundation; the partners who believed in this vision and helped make this village a reality.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=v9QtM6qnG50",
+      "published_at": "2026-09-19T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/v9QtM6qnG50/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "v9QtM6qnG50",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e068de52395a27863f",
+      "title": "update",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=TTY6zULI8JQ",
+      "published_at": "2026-09-19T14:52:37Z",
+      "image_url": "https://i.ytimg.com/vi/TTY6zULI8JQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "TTY6zULI8JQ",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "20eede3cafae2659b4",
+      "title": "Last Cheater Standing Wins $10,000",
+      "category": "Discover",
+      "summary": "Shoutout to our friends at Onshape, whose CAD software makes it possible to do what we do every single day! Try them out for Free – Engineers Get Up to 6 Months Pro: http://onshape.pro/MarkRober Remember - cheaters never prosper (unless you're really good at it) & no spoilers in the comments!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=_L1Rim7-IPo",
+      "published_at": "2026-09-19T13:00:35Z",
+      "image_url": "https://i.ytimg.com/vi/_L1Rim7-IPo/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "_L1Rim7-IPo",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "0c5b2f53a83bc2983a",
+      "title": "Can We Build an Entire Village?",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=T_SMf9j50uc",
+      "published_at": "2026-09-18T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/T_SMf9j50uc/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "T_SMf9j50uc",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "92bb89acf79c7c5307",
+      "title": "Chivalry or Engineering?",
+      "category": "Discover",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=NUVkpWAD548",
+      "published_at": "2026-09-18T13:00:02Z",
+      "image_url": "https://i.ytimg.com/vi/NUVkpWAD548/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "NUVkpWAD548",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "52175c954eda709888",
+      "title": "Safety Never Takes a Holiday",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=K04qWmhLsMY",
+      "published_at": "2026-09-18T01:00:06Z",
+      "image_url": "https://i.ytimg.com/vi/K04qWmhLsMY/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "K04qWmhLsMY",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "d21b541070f1952247",
+      "title": "GOODBYE BALL 😂☄️",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=BtEv9y32-BM",
+      "published_at": "2026-09-14T03:14:18Z",
+      "image_url": "https://i.ytimg.com/vi/BtEv9y32-BM/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "BtEv9y32-BM",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "6a1d5218ef0d27efd8",
+      "title": "I Survived 100 Days on One Block",
+      "category": "Gaming",
+      "summary": "I am terrified of heights but I did this for you guys lol Starforge Systems offers the best PCs in the universe at https://starforgepc.com/MrBeast starforgepartner Normally 100 day challenges take 17 hours, but as it was extremely hot that day, we decided to shorten the length of the days and only give ourselves 13 hours to…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=kJu5VMN3yow",
+      "published_at": "2026-09-12T16:00:25Z",
+      "image_url": "https://i.ytimg.com/vi/kJu5VMN3yow/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "kJu5VMN3yow",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "64d5ae442c8d1a23f9",
+      "title": "How Many Countries Can I Visit in 7 Days?",
+      "category": "Entertainment",
+      "summary": "we're cooked start your Shopify trial - https://www.shopify.com/ryan",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=1w3XaMSIeR8",
+      "published_at": "2026-09-12T15:00:22Z",
+      "image_url": "https://i.ytimg.com/vi/1w3XaMSIeR8/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "1w3XaMSIeR8",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e74a0270d94c8455b6",
+      "title": "Giant Chain Whip Vs Bulletproof Glass",
+      "category": "Comedy",
+      "summary": "Start your Shopify journey with a free trial ➤ https://shopify.com/howridiculous Rexy Clothing ➤ https://rexyclothing.com Business/Licensing Inquiries ➤ https://howridiculous.org/ Memberships ➤ Exclusive Badges and Emotes + Rexy Clothing discount code!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=GTIwyWvTlm8",
+      "published_at": "2026-09-11T21:00:16Z",
+      "image_url": "https://i.ytimg.com/vi/GTIwyWvTlm8/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "GTIwyWvTlm8",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "cb7f9aed42d17ab573",
+      "title": "7 hours of Moon Ball fun/pain @TheWabobaTeam",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=Lsxz0Bdu61g",
+      "published_at": "2026-09-09T01:30:18Z",
+      "image_url": "https://i.ytimg.com/vi/Lsxz0Bdu61g/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "Lsxz0Bdu61g",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "2dfd0a5170f8d4bdb9",
+      "title": "surprising Yousif for his birthday 🎁",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=4VwbYrqJfzg",
+      "published_at": "2026-09-05T16:28:02Z",
+      "image_url": "https://i.ytimg.com/vi/4VwbYrqJfzg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "4VwbYrqJfzg",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "70b21558f5818486fe",
+      "title": "I Survived The Most Extreme Places On Earth",
+      "category": "Entertainment",
+      "summary": "We raced through some of the most extreme places on Earth to see who could make it to the finish line first! Gemini helped us plan, problem-solve, and take on challenges along the way.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=gTKS8SAwUzE",
+      "published_at": "2026-09-05T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/gTKS8SAwUzE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "gTKS8SAwUzE",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "17eefbb6072608a1d7",
+      "title": "Tire Vs FPV Drone",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=uY75RHSs7Nk",
+      "published_at": "2026-09-02T02:22:58Z",
+      "image_url": "https://i.ytimg.com/vi/uY75RHSs7Nk/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "uY75RHSs7Nk",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
       "id": "67b5fb837452ac9acd",
       "title": "Watch the official Dragon Ball Super: Beerus Super Surge trailer",
       "category": "Dragon Ball",
@@ -3236,6 +4036,342 @@
       "topics": [
         "Dragon Ball",
         "Anime"
+      ]
+    },
+    {
+      "id": "1260fc88ce82ce6995",
+      "title": "World's Largest Minecraft Build!",
+      "category": "Gaming",
+      "summary": "i've never seen Minecraft look like this lol My NEW MrBeast Lab MEGA Swarms are out NOW! Find them at Walmart, Target, Amazon, and MrBeast.store in the US, Smyths in the UK & Europe, and Big W in Australia.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=Dy06SXknr_g",
+      "published_at": "2026-08-29T16:00:00Z",
+      "image_url": "https://i.ytimg.com/vi/Dy06SXknr_g/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "Dy06SXknr_g",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "dfa9bff024e79fbf16",
+      "title": "Why Do People Pass Out On Roller Coasters?",
+      "category": "Discover",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=67LFeTgFv3Y",
+      "published_at": "2026-08-28T13:00:36Z",
+      "image_url": "https://i.ytimg.com/vi/67LFeTgFv3Y/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "67LFeTgFv3Y",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "ab130fdee263f2acc4",
+      "title": "Longest Frisbee Throw Ever?",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=lAa7QX8m2FA",
+      "published_at": "2026-08-28T02:55:57Z",
+      "image_url": "https://i.ytimg.com/vi/lAa7QX8m2FA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "lAa7QX8m2FA",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "73ec81cbf046510d51",
+      "title": "Random Things Vs Mountain! Longest Throw Wins",
+      "category": "Comedy",
+      "summary": "Get an exclusive 15% discount on Saily data plans! Use code howridiculous at checkout. Download Saily app or go to https://saily.com/howridiculous Rexy Clothing Lesotho Range ➤ https://rexyclothing.com/collections/lesotho-range ➤ Why is the drone spinning so much?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=gYKKCAkrMYs",
+      "published_at": "2026-08-27T21:00:09Z",
+      "image_url": "https://i.ytimg.com/vi/gYKKCAkrMYs/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "gYKKCAkrMYs",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "3c5655dd0e30a78e29",
+      "title": "World’s Largest Tennis Match",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=5mU6SRS2Bxo",
+      "published_at": "2026-08-23T16:00:04Z",
+      "image_url": "https://i.ytimg.com/vi/5mU6SRS2Bxo/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "5mU6SRS2Bxo",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f473b07043ef667935",
+      "title": "Escape 100 Cops, Win $500,000",
+      "category": "Entertainment",
+      "summary": "is it possible to escape 100 cops? Sponsored by Call of Duty: Mobile Download it for FREE today:https://codmatvi.onelink.me/jYL7/91xx2x6j COD Point Rush Event Details: COD Point Rush runs through September 9, 2026 (UTC). Void where prohibited.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=Qtl8lJwbd4g",
+      "published_at": "2026-08-22T16:00:05Z",
+      "image_url": "https://i.ytimg.com/vi/Qtl8lJwbd4g/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "Qtl8lJwbd4g",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "911c17d82d87844378",
+      "title": "Tires Vs Mountain! Closest To The Pin Wins",
+      "category": "Comedy",
+      "summary": "DADDY DAY DEAL ➤ https://rexyclothing.com ➤ Why is the drone spinning so much? (explained by Editor Jack) When things roll/fly down mountains, they're moving fast. Too fast for a traditional (DJI Mavic, etc) drone to keep up.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=MiHPitIzIYA",
+      "published_at": "2026-08-21T22:00:13Z",
+      "image_url": "https://i.ytimg.com/vi/MiHPitIzIYA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "MiHPitIzIYA",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "fb1032716d28672265",
+      "title": "MOON JELLYFISH",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=3PJfwveUdgs",
+      "published_at": "2026-08-17T04:39:59Z",
+      "image_url": "https://i.ytimg.com/vi/3PJfwveUdgs/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "3PJfwveUdgs",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "567e500ed3d2205435",
+      "title": "Whatever You Hide As, You Keep!",
+      "category": "Gaming",
+      "summary": "imagine winning a car by playing Meccha Chameleon lol Find the new Feastables Milk Chocolate and Peanut Butter Cup snack-size bags at Walmart, Target, and Kroger 👉 https://feastables.com/pages/find-a-store SUB TO ALL CHANNELS www.youtube.com/@UCX6OQ3DkcsbYNE6H8uQQuVA www.youtube.com/@UC4-79UOlP48-QNGgCko5p2g…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=gVE2t-LRK-s",
+      "published_at": "2026-08-15T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/gVE2t-LRK-s/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "gVE2t-LRK-s",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e392f71f3f698dc174",
+      "title": "Why the Moon Never Changes",
+      "category": "Discover",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=KLJxCWeYGoE",
+      "published_at": "2026-08-14T13:00:38Z",
+      "image_url": "https://i.ytimg.com/vi/KLJxCWeYGoE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "KLJxCWeYGoE",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "59a65d76790b9efef7",
+      "title": "$100 Slime Challenge",
+      "category": "Discover",
+      "summary": "Pick up your CrunchLabs Slime Prank Lab from Walmart, Target, or Amazon today.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=KwqeKTM9M_8",
+      "published_at": "2026-08-12T17:16:31Z",
+      "image_url": "https://i.ytimg.com/vi/KwqeKTM9M_8/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "KwqeKTM9M_8",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "d9008eb52686b5c357",
+      "title": "Surprising my old teacher",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=_IvIVI8PIRI",
+      "published_at": "2026-08-08T17:49:18Z",
+      "image_url": "https://i.ytimg.com/vi/_IvIVI8PIRI/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "_IvIVI8PIRI",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "0fd2a0712c22b376e7",
+      "title": "dinner",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=mDz5MgFZUMo",
+      "published_at": "2026-08-07T15:00:29Z",
+      "image_url": "https://i.ytimg.com/vi/mDz5MgFZUMo/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "mDz5MgFZUMo",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3a14014b226a25669e",
+      "title": "Exploring My Abandoned Minecraft Server",
+      "category": "Gaming",
+      "summary": "I can't believe a random video 6 years ago started all this I want to make it clear that I don't own this Minecraft server anymore, it's now in the hands of the community. So be warned that if you go on this server, you may see profanity or other things that I have no control over.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=PRp5Y543LN0",
+      "published_at": "2026-08-01T16:00:03Z",
+      "image_url": "https://i.ytimg.com/vi/PRp5Y543LN0/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "PRp5Y543LN0",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "eb189511d48109db3c",
+      "title": "Lowest Heart Rate Wins!",
+      "category": "Discover",
+      "summary": "Thanks for playing, @dudeperfect @PrestonYT & @BriannaPlayz!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Mark Rober · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=0BAkKJ_3Tic",
+      "published_at": "2026-07-30T13:00:33Z",
+      "image_url": "https://i.ytimg.com/vi/0BAkKJ_3Tic/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "0BAkKJ_3Tic",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "73283a764524381afd",
+      "title": "Testing Mark Rober’s “Jelly Bean Guessing Game HACK”",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=uugVAg1LI68",
+      "published_at": "2026-07-29T22:49:54Z",
+      "image_url": "https://i.ytimg.com/vi/uugVAg1LI68/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "uugVAg1LI68",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d5c9e06b6d407f5da1",
+      "title": "Pranking SIDEMEN in America 🇺🇸😂",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Ryan Trahan · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=gye8x0Jr0Uo",
+      "published_at": "2026-07-26T22:48:40Z",
+      "image_url": "https://i.ytimg.com/vi/gye8x0Jr0Uo/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "gye8x0Jr0Uo",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5f5f3b475ab4668fe7",
+      "title": "The Greatest Story Ever Yu Yu Hakutold #yuyuhakusho #parody",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=zd3rqLZxfXE",
+      "published_at": "2026-07-15T16:00:06Z",
+      "image_url": "https://i.ytimg.com/vi/zd3rqLZxfXE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "zd3rqLZxfXE",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "06e3dfa2162be339d3",
+      "title": "My JAGAN Eye #yuyuhakusho #parody",
+      "category": "Anime",
+      "summary": "What would you be willing to trade to obtain a JAGAN eye?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=uSxn1vF_LCg",
+      "published_at": "2026-07-13T16:00:37Z",
+      "image_url": "https://i.ytimg.com/vi/uSxn1vF_LCg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "uSxn1vF_LCg",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "0459d882deaef666bd",
+      "title": "10 YouTubers vs 2 Secret Traitors",
+      "category": "Gaming",
+      "summary": "I can't believe how this ended Go get yourself some Feastables peanut butter cups 👉 https://feastables.com/pages/find-a-store SUB TO ALL CHANNELS www.youtube.com/@UCX6OQ3DkcsbYNE6H8uQQuVA www.youtube.com/@UC4-79UOlP48-QNGgCko5p2g www.youtube.com/@UCIPPMRA040LQr5QPyJEbmXA www.youtube.com/@UCUaT_39o1x6qWjz7K2pWcgw…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=nH9R0Jpqeqc",
+      "published_at": "2026-07-04T16:00:41Z",
+      "image_url": "https://i.ytimg.com/vi/nH9R0Jpqeqc/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "nH9R0Jpqeqc",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "1b7fda6628a437e9fb",
+      "title": "If You Build It, I'll Buy It!",
+      "category": "Gaming",
+      "summary": "imagine winning a house just by playing minecraft lol Next time you’re roasting s’mores, pick up Feastables! You can find our products at Albertsons, Walmart, or Target :) https://feastables.com/pages/find-a-store Shoutout to the builders, go check them out!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "MrBeast Gaming · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=wZW016nna48",
+      "published_at": "2026-06-20T16:00:01Z",
+      "image_url": "https://i.ytimg.com/vi/wZW016nna48/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "wZW016nna48",
+      "topics": [
+        "Gaming"
       ]
     }
   ],
@@ -3317,68 +4453,68 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 7,
+      "error": null
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "TED · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 6,
+      "error": null
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 6,
+      "error": null
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 12,
+      "error": null
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 10,
+      "error": null
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 10,
+      "error": null
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Dragon Ball Official (curated)",
