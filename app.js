@@ -3,26 +3,109 @@
 const API='https://orbit-api.tyler-r-theo.workers.dev/feed';
 const STATIC='./data/feed.json';
 const RAW='https://raw.githubusercontent.com/tylerrockytheo/orbit-app/main/data/feed.json';
-const DEFAULT_TOPICS=['Dragon Ball','Anime','AI & Tech','Gaming','Music','Fitness','Travel','World','Science','Business','Entertainment','Discover'];
-const DEFAULT_WEIGHTS={'Dragon Ball':19,'Anime':11,'AI & Tech':19,'Gaming':13,'Music':13,'Fitness':10,'Travel':9,'World':8,'Science':10,'Business':12,'Entertainment':8,'Discover':8};
-const icons={Reels:'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="m10 8 6 4-6 4z" fill="currentColor" stroke="none"/>',Home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/>',World:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-6 6-6 12 0 18m0-18c6 6 6 12 0 18"/>',Explore:'<circle cx="12" cy="12" r="9"/><path d="m15.8 8.2-2.7 4.9-4.9 2.7 2.7-4.9z"/>',Saved:'<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V21l-7-4-7 4z"/>',You:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',Search:'<circle cx="10.5" cy="10.5" r="7"/><path d="m16 16 5 5"/>',More:'<circle cx="4" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="20" cy="12" r="1"/>',Share:'<path d="M12 16V3m0 0-4 4m4-4 4 4M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>',Play:'<path d="m8 5 12 7-12 7z"/>',Close:'<path d="m5 5 14 14M19 5 5 19"/>'};
+const DEFAULT_TOPICS=['Dragon Ball','Anime','AI & Tech','Gaming','Music','Comedy','Animals','Fitness','Travel','World','Science','Business','Entertainment','Discover'];
+const DEFAULT_WEIGHTS={'Dragon Ball':19,'Anime':15,'AI & Tech':14,'Gaming':17,'Music':15,'Comedy':19,'Animals':10,'Fitness':10,'Travel':9,'World':8,'Science':10,'Business':10,'Entertainment':20,'Discover':15};
+const icons={Like:'<path d="M20.8 5.8a5.3 5.3 0 0 0-7.5 0L12 7.1l-1.3-1.3a5.3 5.3 0 0 0-7.5 7.5L12 22l8.8-8.7a5.3 5.3 0 0 0 0-7.5z"/>',Reels:'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="m10 8 6 4-6 4z" fill="currentColor" stroke="none"/>',Home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/>',World:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-6 6-6 12 0 18m0-18c6 6 6 12 0 18"/>',Explore:'<circle cx="12" cy="12" r="9"/><path d="m15.8 8.2-2.7 4.9-4.9 2.7 2.7-4.9z"/>',Saved:'<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V21l-7-4-7 4z"/>',You:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',Search:'<circle cx="10.5" cy="10.5" r="7"/><path d="m16 16 5 5"/>',More:'<circle cx="4" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="20" cy="12" r="1"/>',Share:'<path d="M12 16V3m0 0-4 4m4-4 4 4M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>',Play:'<path d="m8 5 12 7-12 7z"/>',Close:'<path d="m5 5 14 14M19 5 5 19"/>'};
 const svg=(name)=>'<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">'+(icons[name]||icons.Explore)+'</svg>';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeLink=(s)=>{try{const u=new URL(s);return ['http:','https:'].includes(u.protocol)?u.href:null}catch{return null}};
 const imageLink=(s)=>{const u=safeLink(s);return u&&u.startsWith('https://')?u:null};
 const store=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
 const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}};
-let weights=read('orbit_weights_v2',DEFAULT_WEIGHTS),muted=new Set(read('orbit_muted_topics_v2',[])),bookmarks=read('orbit_bookmarks_v2',{}),tentative=new Set(read('orbit_tentative_v2',[]));
+let weights={...DEFAULT_WEIGHTS,...read('orbit_weights_v2',{})},muted=new Set(read('orbit_muted_topics_v2',[])),bookmarks=read('orbit_bookmarks_v2',{}),tentative=new Set(read('orbit_tentative_v2',[]));
+let likes=read('orbit_likes_v1',{}),lessLiked=read('orbit_less_v1',{});
+if(!likes||typeof likes!=='object'||Array.isArray(likes))likes={};
+if(!lessLiked||typeof lessLiked!=='object'||Array.isArray(lessLiked))lessLiked={};
 let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null;
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
 const app=document.getElementById('app'),nav=document.getElementById('navigation'),overlay=document.getElementById('overlay');
 let toastTimer;
 function toast(message){const el=document.getElementById('toast');el.textContent=message;el.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.hidden=true,2600)}
-function persist(){store('orbit_weights_v2',weights);store('orbit_muted_topics_v2',[...muted]);store('orbit_bookmarks_v2',bookmarks);store('orbit_tentative_v2',[...tentative])}
+function persist(){store('orbit_weights_v2',weights);store('orbit_muted_topics_v2',[...muted]);store('orbit_bookmarks_v2',bookmarks);store('orbit_tentative_v2',[...tentative]);store('orbit_likes_v1',likes);store('orbit_less_v1',lessLiked)}
 function validPost(p){return p&&typeof p.title==='string'&&typeof p.source_url==='string'&&safeLink(p.source_url)&&typeof p.category==='string'&&p.id!==undefined}
 function normalise(p,source){if(!validPost(p))return null;const category=String(p.category||'Discover');const id=String(p.id);const videoId=/^[A-Za-z0-9_-]{11}$/.test(p.video_id||'')?p.video_id:null;return {id:source+':'+id,title:String(p.title).slice(0,230),category,summary:typeof p.summary==='string'?p.summary.slice(0,440):null,summary_status:String(p.summary_status||'unavailable'),source_url:safeLink(p.source_url),source_name:String(p.source_name||new URL(p.source_url).hostname).slice(0,90),published_at:p.published_at||null,image_url:imageLink(p.image_url)|| (videoId?'https://i.ytimg.com/vi/'+videoId+'/hqdefault.jpg':null),media_type:videoId?'video':'article',video_id:videoId,topics:[category]}}
 function date(s){if(!s)return 'Recent';const d=new Date(s);if(isNaN(d))return 'Recent';return d.toLocaleDateString(undefined,{day:'numeric',month:'short'})}
 const elapsed=(s)=>{const t=s?new Date(s).getTime():0;const h=(Date.now()-t)/3600000;return !t||h<0?'Recent':h<1?'Just now':h<24?Math.floor(h)+'h ago':date(s)};
+
+/* Likes are private preferences stored on this device; no public counts or accounts.
+   This deliberately learns only from explicit actions, never from passive views or shared links. */
+const INTEREST_TAGS={
+ 'Dragon Ball':/dragon ball|goku|vegeta|beerus|toriyama/i,
+ 'Anime':/anime|manga|solo leveling|naruto|one piece|cosplay|crunchyroll/i,
+ 'Marvel':/marvel|spider.man|deadpool|wolverine|avengers|visionquest|mcu/i,
+ 'Gaming':/gameplay|game dev|gaming|video game|steam|nintendo|playstation|xbox|minecraft|vr mod|fortnite/i,
+ 'VR':/virtual reality|\bvr\b|quest 3|immersive game/i,
+ 'Comedy':/funny|hilarious|comedy|prank|fails?|laugh|parody|meme|challenge|skit|joke|trick shots?/i,
+ 'Animals':/animals?|dogs?|cats?|pupp(y|ies)|kitten|wildlife|pets?/i,
+ 'Music':/music|band|song|guitar|drums|studio|mixing|vocal|album|producer/i,
+ 'Travel':/travel|holiday|island|thailand|japan|trip|adventure/i,
+ 'Fitness':/fitness|workout|gym|lifting|strength|muscle|bodybuilding/i,
+ 'AI':/\bai\b|artificial intelligence|gemini|llm|openai|robots?|model/i,
+ 'Science':/science|physics|experiment|engineering|space|nasa|rocket/i,
+ 'Entertainment':/entertainment|trailer|movie|film|behind the scenes/i,
+ 'Challenges':/challenge|trick shot|last to leave|survive|24 hours|world record/i
+};
+function postTags(p){
+  const title=String(p.title||'');
+  return Object.entries(INTEREST_TAGS).filter(([,pattern])=>pattern.test(title)).map(([tag])=>tag);
+}
+function feedbackProfile(){
+  const build=(records)=>{
+    const categories={},creators={},tags={};
+    for(const entry of Object.values(records)){
+      if(!entry||!entry.category)continue;
+      categories[entry.category]=(categories[entry.category]||0)+1;
+      if(entry.source_name)creators[entry.source_name]=(creators[entry.source_name]||0)+1;
+      for(const tag of entry.tags||postTags(entry))tags[tag]=(tags[tag]||0)+1;
+    }
+    return {categories,creators,tags};
+  };
+  return {positive:build(likes),negative:build(lessLiked)};
+}
+let feedback=feedbackProfile();
+function interestFeedbackScore(p){
+  const tags=postTags(p);
+  const from=part=>{
+    const byCategory=Math.min(36,(part.categories[p.category]||0)*10);
+    const byCreator=Math.min(22,(part.creators[p.source_name]||0)*8);
+    const byTags=Math.min(42,tags.reduce((sum,t)=>sum+(part.tags[t]||0)*9,0));
+    return byCategory+byCreator+byTags;
+  };
+  return from(feedback.positive)-from(feedback.negative)*1.2;
+}
+function updateLikeButtons(id){
+  document.querySelectorAll('button[data-like]').forEach(button=>{
+    if(button.dataset.like!==id)return;
+    const active=!!likes[id];button.classList.toggle('liked',active);
+    button.setAttribute('aria-pressed',String(active));
+    const isReel=!!button.closest?.('.reel-actions');
+    button.innerHTML=svg('Like')+'<span>'+(active?'Liked':'Like')+'</span>';
+    button.setAttribute('aria-label',active?'Unlike this post':'Like this post');
+  });
+}
+function toggleLike(id){
+  const p=item(id);if(!p)return;
+  if(likes[id])delete likes[id];
+  else{
+    likes[id]={id:p.id,category:p.category,source_name:p.source_name,title:p.title,tags:postTags(p),liked_at:new Date().toISOString()};
+    const ids=Object.keys(likes);if(ids.length>250)delete likes[ids[0]];
+    delete lessLiked[id];
+  }
+  feedback=feedbackProfile();persist();updateLikeButtons(id);
+  toast(likes[id]?'Liked · your feed will adapt':'Like removed');
+}
+function showLessLike(p){
+  if(!p)return;
+  lessLiked[p.id]={id:p.id,category:p.category,source_name:p.source_name,title:p.title,tags:postTags(p),at:new Date().toISOString()};
+  const ids=Object.keys(lessLiked);if(ids.length>150)delete lessLiked[ids[0]];
+  delete likes[p.id];feedback=feedbackProfile();persist();
+  if(tab==='Reels'){
+    const next=reelActiveIndex+1;
+    changeTab('Reels');reelJump(next);
+  }else render();
+  toast('We’ll recommend less content like this');
+}
+
 function interestScore(p){let n=+(weights[p.category]||0);const low=p.title.toLowerCase();if(/dragon ball|goku|vegeta/i.test(low))n+=+(weights['Dragon Ball']||0)+12;if(/anime|manga/i.test(low))n+=+(weights.Anime||0);if(/\bai\b|robot|openai|google deepmind|machine learning|gemini|\bllm\b/i.test(low))n+=+(weights['AI & Tech']||0)*.45;if(/fitness|muscle|training|bodybuild/i.test(low))n+=+(weights.Fitness||0);if(bookmarks[p.id])n+=4;return n}
 function mix(items){const byCategory=new Map();for(const item of items){const group=byCategory.get(item.category)||[];group.push(item);byCategory.set(item.category,group)}for(const group of byCategory.values())group.sort((a,b)=>interestScore(b)-interestScore(a)||new Date(b.published_at||0)-new Date(a.published_at||0));const result=[];let last='';while(result.length<items.length){const groups=[...byCategory].filter(([,arr])=>arr.length);if(!groups.length)break;groups.sort((a,b)=>{const na=interestScore(a[1][0])+(a[1][0].media_type==='video'?3:0)-(a[0]===last?22:0)-result.filter(p=>p.category===a[0]).length*2;const nb=interestScore(b[1][0])+(b[1][0].media_type==='video'?3:0)-(b[0]===last?22:0)-result.filter(p=>p.category===b[0]).length*2;return nb-na});const selected=groups[0];result.push(selected[1].shift());last=selected[0]}return result}
 function selection(){let items=posts.filter(p=>!muted.has(p.category));if(tab==='Saved')return Object.values(bookmarks).sort((a,b)=>new Date(b.saved_at)-new Date(a.saved_at));if(tab==='World')items=items.filter(p=>['World','Science','Health','Health & Science','Business','Politics','AI & Tech','Technology'].includes(p.category));if(tab==='Explore'){if(filter==='Videos')items=items.filter(p=>p.media_type==='video');else if(filter!=='All')items=items.filter(p=>p.category===filter);return items.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0))}if(tab==='Search')return items.filter(p=>(p.title+' '+(p.summary||'')+' '+p.category).toLowerCase().includes(searchTerm.toLowerCase()));return mix(items)}
