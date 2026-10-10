@@ -102,11 +102,7 @@ function showLessLike(p){
   lessLiked[p.id]={id:p.id,category:p.category,source_name:p.source_name,title:p.title,tags:postTags(p),at:new Date().toISOString()};
   const ids=Object.keys(lessLiked);if(ids.length>150)delete lessLiked[ids[0]];
   delete likes[p.id];feedback=feedbackProfile();persist();
-  if(tab==='Reels'){
-    const current=Math.max(0,reelActiveIndex);
-    stopReels();activeReelQueue=null;render();
-    requestAnimationFrame(()=>reelJump(Math.min(current,reelItems().length-1)));
-  }else render();
+  if(tab==='Reels')refreshUpcomingReels();else render();
   toast('We’ll recommend less content like this');
 }
 
@@ -226,7 +222,7 @@ function reelCard(p,i){
     +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p,i)+'</div>'
     +'<div class="reel-shade" aria-hidden="true"></div>'
     +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Toggle sound without pausing video" tabindex="-1"></button>'
-    +'<div class="reel-caption"><div class="reel-tag">'+escape(p.category)+' · YouTube</div>'
+    +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':'')+escape(p.category)+' · YouTube</div>'
     +'<strong class="reel-creator">'+escape(p.source_name)+'</strong>'
     +'<h2>'+escape(p.title)+'</h2>'
     +'<a href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">Watch original ↗</a></div>'
@@ -288,6 +284,23 @@ function ensureReelBuffer(){
     const node=scroller.querySelector('[data-reel-index="'+index+'"]');
     if(node)reelsObserver?.observe(node);
   }
+}
+/* Keep the browser light even through hundreds of swipes. Keep ~12 previous
+   Reels available for backscroll; discard older DOM, not their preference data. */
+function trimReelDOM(){
+  const scroll=document.getElementById('reels-scroll');
+  if(!scroll||reelActiveIndex-reelBaseIndex<=24)return;
+  const cutoff=reelActiveIndex-12;
+  const height=scroll.clientHeight||1;
+  const oldTop=scroll.scrollTop;
+  for(const card of [...scroll.querySelectorAll('.reel')]){
+    const index=Number(card.dataset.reelIndex);
+    if(index<cutoff){reelsObserver?.unobserve?.(card);card.remove()}
+  }
+  const removed=cutoff-reelBaseIndex;
+  reelBaseIndex=cutoff;
+  // Scroller disables automatic anchoring so this one adjustment preserves position.
+  scroll.scrollTop=Math.max(0,oldTop-removed*height);
 }
 /* A Like refreshes only FUTURE clips. Never replace the visible player. */
 function refreshUpcomingReels(){
@@ -368,6 +381,7 @@ function setActiveReel(index){
   reelSeen.add(clips[index].video_id);
   if(reelsStarted)startReel(index,!reelSoundOn);
   ensureReelBuffer();
+  trimReelDOM();
   maybeRefreshReelCatalog();
 }
 // The official YouTube IFrame Player API changes mute state without reloading or pausing a video.
@@ -478,6 +492,7 @@ function stopReels(){
   reelsStarted=false;
   reelActiveIndex=-1;
   reelSeen.clear();
+  reelBaseIndex=0;
   reelRefillPromise=null;
 }
 function reelJump(index){
