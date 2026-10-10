@@ -47,13 +47,24 @@ await click({tab:'Reels'});
 assert.match(node('app').innerHTML,/id="reels-scroll"/);
 assert.equal((node('app').innerHTML.match(/class="reel" /g)||[]).length,2);
 assert.match(node('app').innerHTML,/data-reel-play="rss:clip1"/);
+const reelHtml=node('app').innerHTML;
+const clip1Match=reelHtml.match(/data-reel-index="(\d+)" data-reel-id="rss:clip1"/);
+assert.ok(clip1Match,'music clip should be in the Reels list');
+const musicIndex=Number(clip1Match[1]);
 await click({reelPlay:'rss:clip1'});
-assert.match(node('reel-media-0').innerHTML,/youtube-nocookie.com\/embed\/abcdefghijk/);
+assert.match(node('reel-media-'+musicIndex).innerHTML,/youtube-nocookie.com\/embed\/abcdefghijk/);
+// A like is private feedback; it must NOT also save a video.
+await click({like:'rss:clip1'});
+assert.ok(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1']);
+assert.equal(storage.get('orbit_bookmarks_v2'),undefined);
 await click({reelsNext:'0'});
 assert.equal(node('reels-scroll').scrollTop,800);
 await click({save:'rss:clip1'});
 assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
+await click({like:'rss:clip1'}); // unlike does not remove the bookmark
+assert.equal(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1'],undefined);
+assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
 await click({reelsClose:''});
 assert.match(node('app').innerHTML,/class="reels-shelf"/);
 assert.ok(!node('app').innerHTML.includes('reels-scroll'));
-console.log('Orbit Reels smoke tests passed: discovery, navigation, playback, next, save, exit');
+console.log('Orbit Reels smoke tests passed: discovery, playback, private Like, unlike, independent Save, Next and exit');
