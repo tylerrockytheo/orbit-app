@@ -271,10 +271,12 @@ def fetch_source(source: dict) -> tuple[str, list[dict], str | None]:
     try:
         req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept': 'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*'})
         with urllib.request.urlopen(req, timeout=13) as resp:
-            # 1 MiB cap protects the workflow from feeds with enormous posts.
-            raw = resp.read(1_000_001)
-            if len(raw) > 1_000_000:
-                raise ValueError('feed exceeds 1MiB')
+            # Some legitimate gaming RSS feeds embed more artwork in XML.
+            # Allow a larger but still bounded payload only for those sources.
+            limit = 4_000_000 if source['label'] == 'PC Gamer' else 1_000_000
+            raw = resp.read(limit + 1)
+            if len(raw) > limit:
+                raise ValueError('feed exceeds size limit')
         items = extract_items(raw, source)
         return source['label'], items, None
     except Exception as e:
