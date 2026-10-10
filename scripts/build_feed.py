@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'feed.json'
 NOW = dt.datetime.now(dt.timezone.utc)
 MAX_AGE_DAYS = 14
+MAX_VIDEO_AGE_DAYS = 120  # Videos remain entertaining after a news headline expires.
 SOURCES = [
     # News: each source has a known category. No inference about political allegiance.
     dict(label='BBC World', category='World', url='https://feeds.bbci.co.uk/news/world/rss.xml', cap=12),
@@ -165,7 +166,7 @@ def extract_items(xml: bytes, source: dict) -> list[dict]:
         if published:
             try:
                 age = (NOW - dt.datetime.fromisoformat(published.replace('Z','+00:00'))).total_seconds()/86400
-                if age > MAX_AGE_DAYS or age < -2:
+                if age > (MAX_VIDEO_AGE_DAYS if is_video else MAX_AGE_DAYS) or age < -2:
                     continue
             except ValueError:
                 pass
@@ -256,7 +257,8 @@ def load_previous() -> list[dict]:
 
 
 def keep_previous(posts: list[dict]) -> list[dict]:
-    cutoff = NOW - dt.timedelta(days=MAX_AGE_DAYS)
+    cutoff_news = NOW - dt.timedelta(days=MAX_AGE_DAYS)
+    cutoff_video = NOW - dt.timedelta(days=MAX_VIDEO_AGE_DAYS)
     result = []
     for post in posts:
         if str(post.get('source_name', '')).startswith('Google News · Dragon Ball'):
@@ -265,7 +267,7 @@ def keep_previous(posts: list[dict]) -> list[dict]:
             when = dt.datetime.fromisoformat(post['published_at'].replace('Z', '+00:00'))
         except (ValueError, KeyError, TypeError, AttributeError):
             continue
-        if when >= cutoff:
+        if when >= (cutoff_video if post.get('video_id') else cutoff_news):
             result.append(post)
     return result
 
