@@ -219,3 +219,11 @@ body.reels-mode{background:#05060a;overflow:hidden}
    Provider buttons are visually translucent and do not obstruct the lower-right ad area. */
 .reel[data-provider="youtube"] .reel-tap-surface{right:clamp(125px,32vw,190px)}
 @media(max-width:390px){.reels-top{gap:6px;padding-left:8px;padding-right:8px}.reels-refresh{width:31px;height:31px;font-size:22px}}
+
+/* Honest caught-up state: old videos replay only when someone asks. */
+.reels-empty{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;min-height:100dvh;padding:80px 25px;color:#fff;text-align:center}
+.reels-empty h2{font-size:23px;margin:0}
+.reels-empty p{margin:0;max-width:300px;line-height:1.5;color:#ffffffa9}
+.reels-empty__actions{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:15px}
+.reels-empty__actions button{min-width:190px;border-radius:24px;padding:12px 18px;background:#fff;color:#111827;font-weight:800}
+.reels-empty__actions button+button{background:#ffffff17;color:#fff;border:1px solid #ffffff65}
