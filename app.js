@@ -775,7 +775,7 @@ function updateReelSave(id){
   });
 }
 
-function render(){document.body.classList.toggle('reels-mode',tab==='Reels');nav.innerHTML=['Home','World','Reels','Explore','Saved','You'].map(t=>'<button type="button" data-tab="'+t+'" '+(t===tab?'aria-current="page"':'')+'>'+svg(t)+'<span>'+t+'</span></button>').join('');document.getElementById('search-btn').innerHTML=svg('Search');document.getElementById('settings-btn').innerHTML=svg('You');
+function render(){if(tab!=='Reels')pauseFeedAutoplay();document.body.classList.toggle('reels-mode',tab==='Reels');nav.innerHTML=['Home','World','Reels','Explore','Saved','You'].map(t=>'<button type="button" data-tab="'+t+'" '+(t===tab?'aria-current="page"':'')+'>'+svg(t)+'<span>'+t+'</span></button>').join('');document.getElementById('search-btn').innerHTML=svg('Search');document.getElementById('settings-btn').innerHTML=svg('You');
 if(tab==='Reels'){pauseFeedAutoplay();app.innerHTML=reelView();requestAnimationFrame(mountReels);return}
 if(tab==='You'){app.innerHTML=profile();return}
 if(tab==='Search'){app.innerHTML='<section class="section-head"><h1>Search Orbit</h1></section><div class="panel"><input id="search-input" type="search" placeholder="Search stories and videos" value="'+escape(searchTerm)+'" autocomplete="off" style="width:100%;padding:12px;border:1px solid var(--border);border-radius:9px;background:var(--subtle);color:var(--text)"></div><div id="results">'+cardsOrEmpty(selection())+'</div>';return}
