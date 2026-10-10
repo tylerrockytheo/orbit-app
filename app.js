@@ -26,8 +26,41 @@ function interestScore(p){let n=+(weights[p.category]||0);const low=p.title.toLo
 function mix(items){const byCategory=new Map();for(const item of items){const group=byCategory.get(item.category)||[];group.push(item);byCategory.set(item.category,group)}for(const group of byCategory.values())group.sort((a,b)=>interestScore(b)-interestScore(a)||new Date(b.published_at||0)-new Date(a.published_at||0));const result=[];let last='';while(result.length<items.length){const groups=[...byCategory].filter(([,arr])=>arr.length);if(!groups.length)break;groups.sort((a,b)=>{const na=interestScore(a[1][0])+(a[1][0].media_type==='video'?3:0)-(a[0]===last?22:0)-result.filter(p=>p.category===a[0]).length*2;const nb=interestScore(b[1][0])+(b[1][0].media_type==='video'?3:0)-(b[0]===last?22:0)-result.filter(p=>p.category===b[0]).length*2;return nb-na});const selected=groups[0];result.push(selected[1].shift());last=selected[0]}return result}
 function selection(){let items=posts.filter(p=>!muted.has(p.category));if(tab==='Saved')return Object.values(bookmarks).sort((a,b)=>new Date(b.saved_at)-new Date(a.saved_at));if(tab==='World')items=items.filter(p=>['World','Science','Health','Health & Science','Business','Politics','AI & Tech','Technology'].includes(p.category));if(tab==='Explore'){if(filter==='Videos')items=items.filter(p=>p.media_type==='video');else if(filter!=='All')items=items.filter(p=>p.category===filter);return items.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0))}if(tab==='Search')return items.filter(p=>(p.title+' '+(p.summary||'')+' '+p.category).toLowerCase().includes(searchTerm.toLowerCase()));return mix(items)}
 function imageCard(p){const img=p.image_url?'<img class="post-img" loading="lazy" src="'+escape(p.image_url)+'" alt="" onerror="this.closest(\'.media-wrap\').style.display=\'none\'">':'';if(p.video_id)return '<div class="media-wrap" id="media-'+escape(p.id)+'"><button type="button" class="video-cover" data-play="'+escape(p.id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button></div>';return img?'<div class="media-wrap">'+img+'</div>':''}
-function card(p){const missing=!p.summary;const excerpt=p.summary?'<p>'+escape(p.summary)+'</p>':(p.video_id?'':'<p class="missing">Source description unavailable — read the original for details.</p>');const saved=!!bookmarks[p.id];const noPersonal=!!p.shared;
-return '<article class="post" data-post="'+escape(p.id)+'"><div class="post-meta"><div class="source-avatar">'+escape(p.source_name.charAt(0).toUpperCase())+'</div><div class="source-meta"><span class="source-name">'+escape(p.source_name)+'</span><div class="source-subline">'+escape(p.category)+' · '+escape(elapsed(p.published_at))+(p.media_type==='video'?' · Video':'')+'</div></div><button type="button" class="dots" data-options="'+escape(p.id)+'" aria-label="Post options">'+svg('More')+'</button></div><div class="post-copy"><h2>'+escape(p.title)+'</h2>'+excerpt+'</div>'+imageCard(p)+'<div class="post-footer"><span>'+ (p.summary_status==='publisher_excerpt'?'Publisher excerpt':p.summary_status==='publisher_description'?'Publisher description':p.summary_status==='curated_from_official'?'Official source brief':'Original source') +'</span><a class="source-link" href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">'+(p.video_id?'Watch on YouTube':'Read source')+' ↗</a></div><div class="action-row"><button type="button" data-save="'+escape(p.id)+'" class="'+(saved?'active':'')+'">'+svg('Saved')+(saved?'Saved':'Save')+'</button><button type="button" data-share="'+escape(p.id)+'">'+svg('Share')+'Share</button><button type="button" data-options="'+escape(p.id)+'">'+svg('More')+'Options</button></div></article>'}
+const storyThemes={
+  'Dragon Ball':'sunset','Anime':'sunset','Gaming':'violet','Music':'plum',
+  'AI & Tech':'electric','AI':'electric','Technology':'electric',
+  'World':'ocean','Politics':'ocean','Science':'aqua','Health':'aqua',
+  'Health & Science':'aqua','Business':'navy','Travel':'tropical',
+  'Fitness':'forest','Entertainment':'coral','Discover':'indigo'
+};
+function storyArtwork(p){
+  const theme=storyThemes[p.category]||'indigo';
+  return '<div class="story-art story-art--'+theme+'">'
+    +'<span class="story-art__orbit" aria-hidden="true"></span>'
+    +'<div class="story-art__content">'
+    +'<div class="story-art__topic"><span class="story-art__spark" aria-hidden="true">✦</span>'+escape(p.category)+'</div>'
+    +'<h2>'+escape(p.title)+'</h2>'
+    +'<div class="story-art__finish" aria-hidden="true"><span></span><i></i></div>'
+    +'</div></div>';
+}
+function card(p){
+  const graphic=!p.image_url&&!p.video_id;
+  const excerpt=p.summary?'<p>'+escape(p.summary)+'</p>':(p.video_id?'':'<p class="missing">Source description unavailable — read the original for details.</p>');
+  const saved=!!bookmarks[p.id];
+  return '<article class="post'+(graphic?' post--graphic':'')+'" data-post="'+escape(p.id)+'">'
+    +'<div class="post-meta"><div class="source-avatar">'+escape(p.source_name.charAt(0).toUpperCase())+'</div>'
+    +'<div class="source-meta"><span class="source-name">'+escape(p.source_name)+'</span>'
+    +'<div class="source-subline">'+escape(p.category)+' · '+escape(elapsed(p.published_at))+(p.media_type==='video'?' · Video':'')+'</div></div>'
+    +'<button type="button" class="dots" data-options="'+escape(p.id)+'" aria-label="Post options">'+svg('More')+'</button></div>'
+    +(graphic?storyArtwork(p):'')
+    +'<div class="post-copy">'+(graphic?'':'<h2>'+escape(p.title)+'</h2>')+excerpt+'</div>'
+    +(graphic?'':imageCard(p))
+    +'<div class="post-footer"><span>'+(p.summary_status==='publisher_excerpt'?'Publisher excerpt':p.summary_status==='publisher_description'?'Publisher description':p.summary_status==='curated_from_official'?'Official source brief':'Original source')+'</span>'
+    +'<a class="source-link" href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">'+(p.video_id?'Watch on YouTube':'Read source')+' ↗</a></div>'
+    +'<div class="action-row"><button type="button" data-save="'+escape(p.id)+'" class="'+(saved?'active':'')+'">'+svg('Saved')+(saved?'Saved':'Save')+'</button>'
+    +'<button type="button" data-share="'+escape(p.id)+'">'+svg('Share')+'Share</button>'
+    +'<button type="button" data-options="'+escape(p.id)+'">'+svg('More')+'Options</button></div></article>';
+}
 function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><p>'+escape(msg)+'</p></div>'}
 function render(){nav.innerHTML=['Home','World','Explore','Saved','You'].map(t=>'<button type="button" data-tab="'+t+'" '+(t===tab?'aria-current="page"':'')+'>'+svg(t)+'<span>'+t+'</span></button>').join('');document.getElementById('search-btn').innerHTML=svg('Search');document.getElementById('settings-btn').innerHTML=svg('You');
 if(tab==='You'){app.innerHTML=profile();return}
