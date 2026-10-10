@@ -20,6 +20,7 @@ if(!lessLiked||typeof lessLiked!=='object'||Array.isArray(lessLiked))lessLiked={
 let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null, activeReelQueue=null, reelBaseIndex=0, reelRefreshAt=0, reelRefreshTimer=null, reelRefillPromise=null, reelSeen=new Set(), reelSoundOn=read('orbit_reel_sound_v1',true)!==false;
 let reelSoundNoticeTimer=null,ytApiPromise=null,reelProgressTimer=null,reelScrubbing=false,reelNativeControls=false;
 let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatched))recentWatched=[];
+let reelsRefreshing=false,reelPullStart=null;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let feedVideoObserver=null,feedActiveVideo=null,feedPlayer=null;
@@ -204,7 +205,7 @@ function showLessLike(p){
   toast('We’ll recommend less content like this');
 }
 
-function interestScore(p){let n=+(weights[p.category]||0)+interestFeedbackScore(p);const low=p.title.toLowerCase();if(/dragon ball|goku|vegeta/i.test(low))n+=+(weights['Dragon Ball']||0)+12;if(/anime|manga/i.test(low))n+=+(weights.Anime||0);if(/\bai\b|robot|openai|google deepmind|machine learning|gemini|\bllm\b/i.test(low))n+=+(weights['AI & Tech']||0)*.45;if(/fitness|muscle|training|bodybuild/i.test(low))n+=+(weights.Fitness||0);return n}
+function interestScore(p){let n=+(weights[p.category]||0)+interestFeedbackScore(p)+postFreshness(p)*.5;const low=p.title.toLowerCase();if(/dragon ball|goku|vegeta/i.test(low))n+=+(weights['Dragon Ball']||0)+12;if(/anime|manga/i.test(low))n+=+(weights.Anime||0);if(/\bai\b|robot|openai|google deepmind|machine learning|gemini|\bllm\b/i.test(low))n+=+(weights['AI & Tech']||0)*.45;if(/fitness|muscle|training|bodybuild/i.test(low))n+=+(weights.Fitness||0);return n}
 function mix(items){const byCategory=new Map();for(const item of items){const group=byCategory.get(item.category)||[];group.push(item);byCategory.set(item.category,group)}for(const group of byCategory.values())group.sort((a,b)=>interestScore(b)-interestScore(a)||new Date(b.published_at||0)-new Date(a.published_at||0));const result=[];let last='';while(result.length<items.length){const groups=[...byCategory].filter(([,arr])=>arr.length);if(!groups.length)break;groups.sort((a,b)=>{const na=interestScore(a[1][0])+(a[1][0].media_type==='video'?3:0)-(a[0]===last?22:0)-result.filter(p=>p.category===a[0]).length*2;const nb=interestScore(b[1][0])+(b[1][0].media_type==='video'?3:0)-(b[0]===last?22:0)-result.filter(p=>p.category===b[0]).length*2;return nb-na});const selected=groups[0];result.push(selected[1].shift());last=selected[0]}return result}
 function selection(){let items=posts.filter(p=>!muted.has(p.category));if(tab==='Saved')return Object.values(bookmarks).sort((a,b)=>new Date(b.saved_at)-new Date(a.saved_at));if(tab==='World')items=items.filter(p=>['World','Science','Health','Health & Science','Business','Politics','AI & Tech','Technology'].includes(p.category));if(tab==='Explore'){if(filter==='Videos')items=items.filter(p=>p.media_type==='video');else if(filter!=='All')items=items.filter(p=>p.category===filter);return items.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0))}if(tab==='Search')return items.filter(p=>(p.title+' '+(p.summary||'')+' '+p.category).toLowerCase().includes(searchTerm.toLowerCase()));return mix(items)}
 function imageCard(p){
@@ -260,6 +261,18 @@ function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><
 function reelItems(){return tab==='Reels'&&activeReelQueue?activeReelQueue:rankReelCandidates()}
 // Rank unseen videos *when needed*, not just once when opening Reels.
 // Explicit likes and "less like this" feedback affect the next recommendations.
+function postFreshness(p){
+  const parsed=Date.parse(p?.published_at||'');
+  if(!Number.isFinite(parsed))return -110;
+  const now=Date.now(),age=now-parsed;
+  if(age< -3600000)return -110; // bad future timestamps must never be called fresh
+  const days=Math.max(0,age/86400000);
+  if(new Date(parsed).toDateString()===new Date(now).toDateString())return 105;
+  if(days<=2)return 65;
+  if(days<=7)return 20;
+  if(days<=14)return 0;
+  return -Math.min(130,Math.floor(days-14)*2.5);
+}
 function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
   const candidates=posts.filter(p=>hasPlayableClip(p)&&!muted.has(p.category)&&!excluded.has(clipIdentity(p)));
 
@@ -282,7 +295,7 @@ function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
     let best=-Infinity,selected=0;
     for(let i=0;i<newFirst.length;i++){
       const p=newFirst[i],title=p.title;
-      let score=(basePriorities[p.category]??18)+interestScore(p)*.85;
+      let score=(basePriorities[p.category]??18)+interestScore(p)*.85+postFreshness(p);
       if(fun.test(title))score+=14;
       if(shortHint.test(title))score+=14;
       if(newsy.test(title))score-=32;
@@ -293,7 +306,7 @@ function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
       score-=recentSources.filter(x=>x===p.source_name).length*24;
       if(['AI & Tech','Technology','Business'].includes(p.category)&&countTech>=techMax)score-=110;
       const recentIndex=recentWatched.indexOf(clipIdentity(p));
-      if(recentIndex>=0)score-=Math.max(12,65-recentIndex*.6);
+      if(recentIndex>=0)score-=160+Math.max(0,90-recentIndex*.2);
       score+=Math.random()*16;
       if(score>best){best=score;selected=i}
     }
@@ -347,15 +360,15 @@ function reelCard(p,i){
 function reelView(){
   if(!activeReelQueue){
     const unseen=rankReelCandidates(new Set(recentWatched));
-    const backups=rankReelCandidates(new Set(unseen.map(clipIdentity)));
-    const all=unseen.concat(backups);
+    const backups=unseen.length?[]:rankReelCandidates();
+    const all=unseen.length?unseen:backups;
     const previousFirst=read('orbit_last_opened_reel_v1','');
     const first=(requestedReel&&all.find(p=>p.id===requestedReel))
       ||all.find(p=>clipIdentity(p)!==previousFirst)
       ||all[0];
     if(first)store('orbit_last_opened_reel_v1',clipIdentity(first));
-    const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD):[];
-    activeReelQueue=first?[first,...other]:[];
+    const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD).map(p=>recentWatched.includes(clipIdentity(p))?{...p,replayed:true}:p):[];
+    activeReelQueue=first?[recentWatched.includes(clipIdentity(first))?{...first,replayed:true}:first,...other]:[];
     reelBaseIndex=0;requestedReel=null;
   }
   const clips=activeReelQueue;
@@ -381,19 +394,14 @@ function ensureReelBuffer(){
     const reserved=new Set(activeReelQueue.map(clipIdentity));
     const recent=activeReelQueue.slice(-REEL_RECENT_EXCLUDE);
     let candidates=rankReelCandidates(reserved,recent,1);
-    let replay=false;
     if(!candidates.length){
-      // Exhausted the unique catalog: refresh sources, then cycle older clips.
       maybeRefreshReelCatalog();
-      const lastFew=new Set(recent.map(clipIdentity));
-      candidates=rankReelCandidates(lastFew,recent,1);
-      if(!candidates.length&&activeReelQueue.length>1){
-        candidates=rankReelCandidates(new Set([clipIdentity(activeReelQueue.at(-1))]),recent,1);
-      }
-      replay=true;
+      const status=document.getElementById('reels-status');
+      if(status)status.textContent='✓ Caught up · Refresh for new clips';
+      break; // never silently cycle old reels as if they were new
     }
     if(!candidates.length)break;
-    const p=replay?{...candidates[0],replayed:true}:candidates[0];
+    const p=candidates[0];
     const index=activeReelQueue.length;
     activeReelQueue.push(p);
     scroller.insertAdjacentHTML('beforeend',reelCard(p,index));
@@ -512,7 +520,7 @@ function setActiveReel(index){
   reelNativeControls=false;updatePlayerControlMode();
   reelSeen.add(clipIdentity(clips[index]));
   const key=clipIdentity(clips[index]);
-  recentWatched=[key,...recentWatched.filter(x=>x!==key)].slice(0,100);
+  recentWatched=[key,...recentWatched.filter(x=>x!==key)].slice(0,500);
   store('orbit_watched_reels_v1',recentWatched);
   if(reelsStarted)startReel(index,!reelSoundOn);
   ensureReelBuffer();
