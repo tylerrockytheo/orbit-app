@@ -1,7 +1,87 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T01:49:46.361563Z",
+  "generated_at": "2026-10-10T03:42:36.437525Z",
   "posts": [
+    {
+      "id": "169303b8c3c20d1d00",
+      "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+      "category": "World",
+      "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T03:29:50Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d433/live/d30d8e00-c3d4-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "fa3b12699e302cf6d9",
+      "title": "Tom Cruise, Alejandro González Iñárritu Enjoy MAPPA Anniversary Exhibit",
+      "category": "Anime",
+      "summary": "Jujutsu Kaisen/Yuri!!! on Ice designer presents Digger star & director with art of Cruise",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-09/tom-cruise-alejandro-gonzalez-inarritu-enjoy-mappa-anniversary-exhibit/.242675",
+      "published_at": "2026-10-10T03:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "406b0f77eb17fa3e50",
+      "title": "Billy Bat Manga Wins Harvey Award",
+      "category": "Anime",
+      "summary": "Series had competed against Land, My Gorilla Family, Miss Ruki , more works for Best Manga award",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-09/billy-bat-manga-wins-harvey-award/.242681",
+      "published_at": "2026-10-10T02:51:40Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "f789f2e2cf5fa17b32",
+      "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+      "category": "World",
+      "summary": "The storm took direct aim at Florida and is expected to impact Alabama, Georgia, and Louisiana.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T01:58:56Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5b0c40ffb9f826f5f6",
+      "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+      "category": "Science",
+      "summary": "The storm took direct aim at Florida and is expected to impact Alabama, Georgia, and Louisiana.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T01:58:56Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
     {
       "id": "f305fa5e4f994f6723",
       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
@@ -64,22 +144,6 @@
       "video_id": "YexI232fprw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "169303b8c3c20d1d00",
-      "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
-      "category": "World",
-      "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T23:02:07Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d433/live/d30d8e00-c3d4-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -267,7 +331,7 @@
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-09T21:55:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e22e/live/e2e67670-c5f1-11f0-9f1e-75cdd6519717.png",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
       "media_type": "article",
       "video_id": null,
       "topics": [
@@ -339,6 +403,22 @@
       ]
     },
     {
+      "id": "2eacd9a8ee5cd5e88c",
+      "title": "Mama Rottie Living In A Tent Finally Gets Her 7 Puppies To Safety | The Dodo",
+      "category": "Animals",
+      "summary": "All seven of her babies are finally safe 🥹❤️ Darcy was living in a tent with seven puppies when Laurette and Lauren stepped in to help. Once her whole family was safe, the scared mama could finally relax, and her transformation into the sweetest lap dog began.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=h7rL5lj5J5o",
+      "published_at": "2026-10-09T21:00:22Z",
+      "image_url": "https://i.ytimg.com/vi/h7rL5lj5J5o/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "h7rL5lj5J5o",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
       "id": "5200f5e4a7e981661c",
       "title": "North American Anime, Manga Releases, October 4-10",
       "category": "Anime",
@@ -352,6 +432,22 @@
       "video_id": null,
       "topics": [
         "Anime"
+      ]
+    },
+    {
+      "id": "a5e9a6ff8142619ce4",
+      "title": "Bella Poarch Meets Her Total Opposite On Her Dodo Dream Date | The Dodo",
+      "category": "Animals",
+      "summary": "@bellapoarch is an introvert, but Spritz has enough personality for both of them ❤️ Bella Poarch is happiest keeping things low-key, but her Dodo Dream Date Spritz has other plans. The adoptable pup’s nonstop energy brings out Bella’s playful side as they get to know each other.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=pPw0ttryIC4",
+      "published_at": "2026-10-09T20:00:19Z",
+      "image_url": "https://i.ytimg.com/vi/pPw0ttryIC4/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "pPw0ttryIC4",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -499,6 +595,22 @@
       ]
     },
     {
+      "id": "251506efd162c9018e",
+      "title": "Bella Poarch On The Conversations She Has When She’s Home Alone | The Dodo",
+      "category": "Animals",
+      "summary": "@bellapoarch is way more talkative when no one else is around 👀 Bella Poarch might seem quiet and introverted, but at home, it’s a different story. She tells us about the conversations she has with her three cats and the imaginary friends who even inspired one of her songs.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=inXNYDaFgpo",
+      "published_at": "2026-10-09T18:00:24Z",
+      "image_url": "https://i.ytimg.com/vi/inXNYDaFgpo/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "inXNYDaFgpo",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
       "id": "044d636493bd0040dd",
       "title": "High Shoals Falls in Hiawassee, Georgia",
       "category": "Travel",
@@ -560,6 +672,22 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "b2ec88825cda91f1d3",
+      "title": "Adult Pittie Tied To A Tree Next To Freeway Finally Learns To Play | The Dodo",
+      "category": "Animals",
+      "summary": "Soon he was learning how to play with a little help from his dog friends ❤️ After Marshall was found tied to a tree next to a freeway, Lisa from Frankie Lola and Friends took him in and helped him slowly come out of his shell.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=JBYEFERaiJE",
+      "published_at": "2026-10-09T17:00:09Z",
+      "image_url": "https://i.ytimg.com/vi/JBYEFERaiJE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "JBYEFERaiJE",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -656,6 +784,22 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "3b898196df6815e856",
+      "title": "Bella Poarch Reveals The Side Only Her Pets See On Her Dodo Dream Date | The Dodo",
+      "category": "Animals",
+      "summary": "@bellapoarch’s pets know the real her 🥹❤️ Bella Poarch is naturally introverted, but around her pets, she never stops talking.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=MS8jDuBSJMA",
+      "published_at": "2026-10-09T16:00:22Z",
+      "image_url": "https://i.ytimg.com/vi/MS8jDuBSJMA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "MS8jDuBSJMA",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -867,6 +1011,22 @@
       ]
     },
     {
+      "id": "487b95f266d160fa5d",
+      "title": "Bella Poarch Reveals The Side Only Her Pets See On Her Dodo Dream Date | The Dodo",
+      "category": "Animals",
+      "summary": "@bellapoarch’s pets know the real her 🥹❤️ Bella Poarch is naturally introverted, but around her pets, she never stops talking.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=aQQHNlj0m2U",
+      "published_at": "2026-10-09T13:00:25Z",
+      "image_url": "https://i.ytimg.com/vi/aQQHNlj0m2U/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "aQQHNlj0m2U",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
       "id": "4189e25c32e00383f6",
       "title": "Subtlety is Key: An Interview with Taihi Kimura, the Japanese Voice of Kagurabachi Anime's Chihiro Rokuhira",
       "category": "Anime",
@@ -992,6 +1152,22 @@
       "video_id": null,
       "topics": [
         "Anime"
+      ]
+    },
+    {
+      "id": "97db5862c5d4c0aaec",
+      "title": "Two Lost German Shepherds Show Up And Choose Their Own Family | The Dodo",
+      "category": "Animals",
+      "summary": "She was ready to adopt them both when a message suddenly came in 🥹 Madison tells Dodo editor Brielle how two German shepherds suddenly appeared outside her house with no humans anywhere in sight.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=U53-KV-_hBg",
+      "published_at": "2026-10-09T11:00:23Z",
+      "image_url": "https://i.ytimg.com/vi/U53-KV-_hBg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "U53-KV-_hBg",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -1285,6 +1461,22 @@
       ]
     },
     {
+      "id": "84f3945128b3987280",
+      "title": "Puppy Abandoned At KFC Gets The Sweetest Second Chance | The Dodo",
+      "category": "Animals",
+      "summary": "From shivering in a KFC bathroom to conquering the stairs at home 🥹🧡 Drum my was tiny, emaciated and shivering when he was rescued from a KFC bathroom. Spencer from Stray Rescue of St.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=GJ89neYRUZQ",
+      "published_at": "2026-10-08T21:00:13Z",
+      "image_url": "https://i.ytimg.com/vi/GJ89neYRUZQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "GJ89neYRUZQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
       "id": "f950c0021ebb14eb09",
       "title": "Outspoken Indian actor Nana Patekar dies suddenly at 75",
       "category": "Entertainment",
@@ -1314,6 +1506,22 @@
       "video_id": null,
       "topics": [
         "Science"
+      ]
+    },
+    {
+      "id": "1e06e7f270b8cbf47c",
+      "title": "Daisy Edgar-Jones & George MacKay Try Their Best Accents On The Tiniest Rescue Dog | The Dodo",
+      "category": "Animals",
+      "summary": "The voices you’ll do for a dog this cute 😂🥹 With an Irish mum and Scottish dad, Daisy Edgar-Jones knows her way around an accent. But tiny rescue pup Dash brings out a whole new range of voices during her Dodo Dream Date with George MacKay, and pretty soon neither of them is speaking in their normal voice...",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=BxHZ5To4YOs",
+      "published_at": "2026-10-08T20:00:03Z",
+      "image_url": "https://i.ytimg.com/vi/BxHZ5To4YOs/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "BxHZ5To4YOs",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -1429,6 +1637,38 @@
       ]
     },
     {
+      "id": "ff9610d95118ab7116",
+      "title": "Vienna was supposed to be helping 😂 | The Dodo",
+      "category": "Animals",
+      "summary": "Daisy Edgar-Jones and George MacKay enlist their canine co-star Vienna to help put together a care package for rescue dog Dash. But Vienna has other priorities, mostly involving croissants, cake and anything happening anywhere except the task at hand. Croissants, cake and a little Jane Austen romance?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=9cRJLgzdk8Q",
+      "published_at": "2026-10-08T18:00:33Z",
+      "image_url": "https://i.ytimg.com/vi/9cRJLgzdk8Q/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "9cRJLgzdk8Q",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "11dd73ff122bdb0883",
+      "title": "Emaciated Foster Dog Becomes The Biggest Velcro Dog | The Dodo",
+      "category": "Animals",
+      "summary": "After everything she’d been through, all she wanted was to be close ❤️ Dodo editor Monica talked to Isabel about fostering one of the most emaciated dogs she’d ever seen, only to watch her become the ultimate velcro dog.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=XfDTVD5I4zI",
+      "published_at": "2026-10-08T17:00:24Z",
+      "image_url": "https://i.ytimg.com/vi/XfDTVD5I4zI/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "XfDTVD5I4zI",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
       "id": "325c33bebddcf4b330",
       "title": "Seville - Quick Travel Tips",
       "category": "Travel",
@@ -1474,6 +1714,22 @@
       "video_id": "XnIXupxiRo4",
       "topics": [
         "AI & Tech"
+      ]
+    },
+    {
+      "id": "6bd4fdfefad9725c1d",
+      "title": "Dog “Corncobs” His Cat Sister Every Chance He Gets | The Dodo",
+      "category": "Animals",
+      "summary": "Jolene has somehow decided this is acceptable behavior 😭 Jocko loves his cat sister Jolene so much that he regularly “corncobs” her, nibbling away like she’s an actual ear of corn.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=gyIYTSTyvlE",
+      "published_at": "2026-10-08T15:00:36Z",
+      "image_url": "https://i.ytimg.com/vi/gyIYTSTyvlE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "gyIYTSTyvlE",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -1974,13 +2230,13 @@
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 12,
+      "error": null
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 10,
+      "error": null
     },
     {
       "name": "How Ridiculous · YouTube",
@@ -2015,6 +2271,11 @@
     {
       "name": "Dragon Ball Official (curated)",
       "items": 4,
+      "error": null
+    },
+    {
+      "name": "Approved public cross-platform clips",
+      "items": 0,
       "error": null
     }
   ]
