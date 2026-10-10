@@ -647,6 +647,13 @@ function soundNotice(){
   reelSoundNoticeTimer=setTimeout(()=>notice.classList.remove('visible'),900);
 }
 function toggleReelSound(){
+  const active=reelItems()[reelActiveIndex];
+  if(active&&['instagram','facebook'].includes(active.platform)){
+    reelNativeControls=true;
+    updatePlayerControlMode();
+    toast('Use '+providerName(active)+' player controls to change sound');
+    return;
+  }
   // An autoplayed YouTube iframe can be muted by Android even if Orbit prefers sound on.
   // Ask the actual player first so the first tap resumes audio in that situation.
   let actualMuted=null;
