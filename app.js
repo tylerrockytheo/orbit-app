@@ -243,6 +243,8 @@ function resetReelPlayer(index){
   const p=reelItems()[index];
   const media=document.getElementById('reel-media-'+index);
   if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p);
+  reelYoutubePlayers.delete(index);
+  document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
 }
 function startReel(id,mutedPlayback=!reelSoundOn){
   const clips=reelItems(),index=clips.findIndex(p=>p.id===id);
@@ -290,7 +292,7 @@ function attachYoutubePlayer(index,frame){
     if(!api||tab!=='Reels'||index!==reelActiveIndex||current!==frame)return;
     try{
       const player=new api.Player(frame,{events:{onReady(event){
-        if(tab!=='Reels'||index!==reelActiveIndex)return;
+        if(tab!=='Reels'||index!==reelActiveIndex||document.getElementById('reel-media-'+index)?.querySelector('iframe')!==frame)return;
         reelYoutubePlayers.set(index,event.target);
         applyReelVolume(index);
       }}});
@@ -361,6 +363,9 @@ function clipsIndex(id){return reelItems().findIndex(p=>p.id===id)}
 function stopReels(){
   if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
+  document.querySelectorAll('.reel[data-playing]').forEach(card=>card.removeAttribute('data-playing'));
+  reelYoutubePlayers.clear();
+  clearTimeout(reelSoundNoticeTimer);
   reelsStarted=false;
   reelActiveIndex=-1;
 }
