@@ -1,7 +1,103 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T04:11:12.228842Z",
+  "generated_at": "2026-10-10T05:40:29.978976Z",
   "posts": [
+    {
+      "id": "169303b8c3c20d1d00",
+      "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+      "category": "World",
+      "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T05:25:12Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d433/live/d30d8e00-c3d4-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "f305fa5e4f994f6723",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "category": "World",
+      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T04:38:20Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f173/live/ee0a99e0-c461-11f1-98eb-5dd4f1288128.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "83c1d73267cc5cc2b2",
+      "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+      "category": "World",
+      "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T04:34:55Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "81fb240508f0fecf8f",
+      "title": "'I am the only one who is not attacked in the world filled with zombies' TV Anime's Main Promo Video Previews Theme Songs",
+      "category": "Anime",
+      "summary": "Rikako Ito, Marie Miyake join cast; RetBear, Itsuka▶ perform theme songs",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/i-am-the-only-one-who-is-not-attacked-in-the-world-filled-with-zombies-tv-anime-main-promo-video-/.242682",
+      "published_at": "2026-10-10T04:09:11Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "acc20cf23a6330f21c",
+      "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
+      "category": "World",
+      "summary": "The US president told a rally he had \"never heard of\" the winner, former International Criminal Court judge Navi Pillay.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T04:07:11Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/528b/live/a76ba860-c459-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "8cb9a668b21495ee69",
+      "title": "APOD: 2026 October 10 – Lunar Farside",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 10… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+      "published_at": "2026-10-10T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
     {
       "id": "93f02fa723426ab7fd",
       "title": "To Love-ru's Kentaro Yabuki Draws Nami Card for One Piece Card Game",
@@ -19,19 +115,51 @@
       ]
     },
     {
-      "id": "169303b8c3c20d1d00",
-      "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
-      "category": "World",
-      "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
+      "id": "dd8c5f6dceb9b32d89",
+      "title": "Vietnamese Horror ‘Arithmadtic’ Leads Bee Entertainment’s Busan Market Slate, With New Film From ‘The Corpse’ Director",
+      "category": "Entertainment",
+      "summary": "Psychological horror “Arithmadtic,” set in an elite international school, leads a genre-heavy slate that Vietnam’s Bee Entertainment is presenting to buyers at Busan’s Asian Contents & Film Market (ACFM).",
       "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T03:29:50Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d433/live/d30d8e00-c3d4-11f1-9a39-31b474234113.jpg",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/vietnamese-horror-arithmadtic-bee-entertainment-busan-market-slate-1236907315/",
+      "published_at": "2026-10-10T03:41:52Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Arithmadtic.jpg",
       "media_type": "article",
       "video_id": null,
       "topics": [
-        "World"
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "798dc675307388dde0",
+      "title": "Cambodian Remake of Korean Mother-Daughter Drama ‘Wedding Dress’ Leads Abnormal Studios’ Busan Market Slate (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "A Phnom Penh-set reworking of Kwon Hyung-jin’s 2010 South Korean drama “Wedding Dress” is the lead title for Malaysia’s Abnormal Studios at this year’s Asian Contents & Film Market in Busan, where the company is selling the film ahead of its local release. The new version centers on Dalin, a single mother who designs bridal […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/cambodian-wedding-dress-remake-abnormal-studios-busan-slate-1236907311/",
+      "published_at": "2026-10-10T03:18:34Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Wedding-Dress.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f5ea6021f1f03a729a",
+      "title": "Pokémon Go Zorua Community Day event guide",
+      "category": "Gaming",
+      "summary": "Zorua Community Day takes place on Oct. 10. Here's how to find a shiny and make the most of the Community Day's bonuses.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pokemon-go-zorua-community-day-event-shiny-zoroark-moveset/",
+      "published_at": "2026-10-10T03:13:52Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/jlee_261009_1001_pogo_zorua_cd.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -67,6 +195,70 @@
       ]
     },
     {
+      "id": "ee6cd66134de4e33b8",
+      "title": "‘Exorcism of God’ Director Alejandro Hidalgo to Helm Malaysian Hungry Ghost Festival Horror ‘The Hungry One’ (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Alejandro Hidalgo, director of “The Exorcism of God,” is set to make “The Hungry One,” a supernatural horror film unfolding over Malaysia’s Hungry Ghost Festival.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/exorcism-of-god-alejandro-hidalgo-malaysia-horror-hungry-one-1236907302/",
+      "published_at": "2026-10-10T02:44:33Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Hungry-One-poster.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "08bb031bec45f8ecc9",
+      "title": "Michael Douglas Tells Bill Maher About Smuggling Marijuana in Suitcases, Slams ‘Nepo Baby’ Label",
+      "category": "Entertainment",
+      "summary": "On Friday night, Michael Douglas stopped by “Real Time with Bill Maher” to promote his mammoth memoir “One Helluva Ride,” chronicling the acclaimed actor and producer’s rise through the Hollywood ranks, from winning the Best Picture Oscar for producing “One Flew Over the Cuckoo’s Nest” to winning the Best Actor Oscar for “Wall…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/michael-douglas-bill-maher-real-time-smuggling-marijuana-nepo-baby-1236907300/",
+      "published_at": "2026-10-10T02:38:20Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2298962143.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3eafd8d3372356d14d",
+      "title": "Edward Zhang, Casper Van Dien, Jeff Fahey Star in China-U.S. WWII Spy Series ‘Operation Doolittle,’ Heading to Busan Market (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "World War II espionage drama “Operation Doolittle,” a China-U.S. co-production starring Edward Zhang, Casper Van Dien and Jeff Fahey, is heading to the Busan International Film Festival’s Asian Contents & Film Market, where Cappu Films is presenting it to buyers as worldwide sales agent.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/markets-festivals/wwii-spy-series-operation-doolittle-busan-market-1236907242/",
+      "published_at": "2026-10-10T02:28:21Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Operation-Dolittle.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fb71681972a3dc1a6c",
+      "title": "US country music star Ella Langley cancels show due to 'security threat'",
+      "category": "World",
+      "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T02:02:54Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab10/live/c3d14350-b6a0-11f1-bc1f-3f186ca4140c.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
       "id": "f789f2e2cf5fa17b32",
       "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
       "category": "World",
@@ -99,19 +291,131 @@
       ]
     },
     {
-      "id": "f305fa5e4f994f6723",
-      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "category": "World",
-      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+      "id": "b7a9f82950dc0f666b",
+      "title": "Pokémon Winds and Waves' Water Starter Breaks a Series Curse",
+      "category": "Gaming",
+      "summary": "Nintendo and Game Freak's 10th Gen Pokémon starters are led by Browt, Pombon, and Gecqua, the breakout water starter of Winds and Waves",
       "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T00:45:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pokemon-winds-waves-water-starter-series-curse/",
+      "published_at": "2026-10-10T01:20:15Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/poke-mon-presents-_-2-27-2026-23-35-screenshot.png",
       "media_type": "article",
       "video_id": null,
       "topics": [
-        "World"
+        "Gaming"
+      ]
+    },
+    {
+      "id": "1ce8f6b5fad60b3423",
+      "title": "BlumFest Haunts New York Comic Con 2026: All the Highlights From Blumhouse Atomic Monster",
+      "category": "Entertainment",
+      "summary": "Craig Zobel was unveiled as the director for the adaptation of James Tynion IV and Werther Dell’Edera’s 'Something is Killing the Children,' while Curry Barker, Mike Flanagan, James Wan, Chiwetel Ejiofor, David Harbour, LaKeith Stanfield and Kristen Bell made appearances.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/blumfest-new-york-comic-con-2026-highlights-1236726806/",
+      "published_at": "2026-10-10T01:14:29Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4bc1aaea1f9bf160ff",
+      "title": "‘14th’ Review: Ava DuVernay’s Powerful Sequel to ‘13th’ Turns a Constitutional Amendment into Living History",
+      "category": "Entertainment",
+      "summary": "The movie, I’m pleased to report, exerts the same kind of historical/topical force that \"13th\" did. DuVernay, while she works in an extremely accessible and mainstream way, has a singular gift for making the nuances of history come alive. \"14th\" is steeped in history, but it’s not a dry lecture.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/14th-review-ava-duvernay-nyff-1236904880/",
+      "published_at": "2026-10-10T01:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/07/B0002289.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ec1497497cad57c929",
+      "title": "‘14th’ Review: Ava DuVernay Delivers Another Essential and Compelling Constitutional Deep Dive for Netflix",
+      "category": "Entertainment",
+      "summary": "Premiering at the New York Film Festival, the filmmaker's follow-up to her '13th' tackles birthright citizenship, the Equal Protection Clause and the undoing of the gains of Reconstruction.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/14th-review-ava-duvernay-netflix-documentary-1236726558/",
+      "published_at": "2026-10-10T01:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "09d3d725c6fbf062ad",
+      "title": "Danny Trejo Speaks Out About His Role in Daily Wire ‘Pawn Shop’ Movie: ‘I Am Not Pro-ICE. I Am Pro-Immigrant.’",
+      "category": "Entertainment",
+      "summary": "Danny Trejo has issued his first statement since facing backlash for starring in the pro-ICE Daily Wire movie “Pawn Shop” from Ben Shapiro’s production company. “I am a proud Mexican who has always been and will always be a supporter of my community. I am also obviously pro-immigrant. I am not pro-ICE,” the “Spy Kids” […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/danny-trejo-daily-wire-pawn-shop-not-pro-ice-1236907272/",
+      "published_at": "2026-10-10T00:36:12Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/2231570902.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f141f3515ebfee46c6",
+      "title": "MTG Officially Reveals 4 Epic New Marvel Commander Decks Coming in 2027",
+      "category": "Gaming",
+      "summary": "Head to Asgard or Doctor Strange’s wizarding school",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/magic-the-gathering-marvel-darkhold-destiny-commander-decks/",
+      "published_at": "2026-10-10T00:30:16Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/moon-knight-battles-mindless-ones-in-art-from-darkhold-destiny.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "656e4ccca99325f5a8",
+      "title": "Magic: The Gathering Reveals New ‘Darkhold Destiny’ Marvel Set, ‘Avengers: Doomsday’ Theater-Only Card Giveaway",
+      "category": "Entertainment",
+      "summary": "Magic: The Gathering has unveiled its next Marvel-themed set and announced a special collaboration with the upcoming theatrical release of “Avengers: Doomsday.” Titled “Darkhold Destiny,” the set is focused on “the mystical, the mythical and the mighty” magical characters from the Marvel universe, including Doctor Strange,…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/gaming/news/magic-the-gathering-marvel-darkhold-destiny-doomsday-cards-1236906955/",
+      "published_at": "2026-10-10T00:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Magic-The-Gathering-Darkhold-Destiny.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "646bc88413ba0ebc18",
+      "title": "Roseanne Barr’s Self-Produced TV Series Now Courting Distributors, Co-Creator Says",
+      "category": "Entertainment",
+      "summary": "Allan Stephan, a ‘Roseanne’ veteran who wrote 'Meemaw’ with the former sitcom star, says representatives for the show are in talks with a few platforms.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/roseanne-barrs-indie-tv-series-distributors-co-creator-1236726679/",
+      "published_at": "2026-10-10T00:09:26Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -128,6 +432,38 @@
       "video_id": "HL1yJc5KA2Q",
       "topics": [
         "Gaming"
+      ]
+    },
+    {
+      "id": "682abebee13560e2f3",
+      "title": "Bill Burr on ‘The Social Reckoning,’ Sparring With Jeremy Strong as Mark Zuckerberg and Why Tech CEOs are ‘Leading Us to Ruin’",
+      "category": "Entertainment",
+      "summary": "Over three decades in stand-up comedy, Bill Burr has gained a reputation for saying, with gruff conviction and political fire, the thing on everyone’s mind. In Aaron Sorkin’s new film “The Social Reckoning,” Burr gets to aim that unfiltered attitude at Mark Zuckerberg.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/bill-burr-the-social-reckoning-zuckerberg-1236907159/",
+      "published_at": "2026-10-09T23:45:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDSORE_SP013-e1791584119615.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8ec0eecf2d12e4d7ae",
+      "title": "Jason Blum on How ‘Other Mommy’ Got That Controversial Title, Kristen Bell Joins ‘Violent Night 2’ and More From Blumhouse at NYCC",
+      "category": "Entertainment",
+      "summary": "Jason Blum and James Wan aren’t paying much attention to the bad reviews (but massive box office success!) for “Other Mommy.” Instead, the horror maestros spent Friday night looking ahead at what’s next, unveiling Blumhouse Atomic Monster’s upcoming slate of films during the 90-minute presentation at New York Comic Con.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/other-mommy-blair-witch-paranormal-activity-blumhouse-nycc-1236907220/",
+      "published_at": "2026-10-09T23:42:14Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDOTMO_UV002.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -163,6 +499,54 @@
       ]
     },
     {
+      "id": "747d2580a4cd692918",
+      "title": "Iliza Shlesinger and Mira Sorvino to Receive Top Honors at San Diego International Film Festival",
+      "category": "Entertainment",
+      "summary": "The pair, set to receive Virtuoso and Trailblazer awards, will be feted at the Night of the Stars tribute at La Jolla's Conrad Prebys Performing Arts Center on Oct. 13.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/san-diego-film-festival-2026-honorees-iliza-mira-sorvino-1236726731/",
+      "published_at": "2026-10-09T23:07:46Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5b58585046e6251650",
+      "title": "LaKeith Stanfield, Ben Mendelsohn to Star in ‘Molepeople’ for Atomic Monster, Paramount Primal (Exclusive)",
+      "category": "Entertainment",
+      "summary": "Paramount has set an August 2027 release for the horror thriller, which hails from director Rob Savage.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/lakeith-stanfield-ben-mendelsohn-molepeople-1236726689/",
+      "published_at": "2026-10-09T23:04:03Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1929 on October 10",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1929 on October 10 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-09T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "049726ef0843ffb569",
       "title": "Street Fighter - Official 'Why Hand Drawn' Behind the Scenes Clip (2026)",
       "category": "Entertainment",
@@ -176,6 +560,22 @@
       "video_id": "13p_17CvZZ4",
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 10",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1217 The post ‘Connections’ answers and hints for today, October 10 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-09T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -195,6 +595,70 @@
       ]
     },
     {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 10",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 10 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-09T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 10",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 10 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-09T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "fec3895be5bbad33d5",
+      "title": "‘Below’ Creator Breaks Down the Finale’s Last Shot, Josh Hartnett’s Accent and Season 2 Clues",
+      "category": "Entertainment",
+      "summary": "SPOILER ALERT: This article contains spoilers for the first season of “Below,” now streaming on Netflix. Netflix’s new mystery series “Below” has arrived, and audiences are being transported to the beautiful and dangerous Newfoundland town of Snook’s Arm. Josh Hartnett stars as fisherman Calvin Penney, who, alongside Dr.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/features/below-ending-explained-icebergs-josh-hartnett-accent-season-2-1236906748/",
+      "published_at": "2026-10-09T23:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/TCDBELO_ZX008.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8e1fac8d99408bf225",
+      "title": "Square Enix's Forgotten Loot-Shooter Was Years Ahead of Its Time",
+      "category": "Gaming",
+      "summary": "Outriders, the 2021 loot-shooter published by Square Enix, set the standard for multiplayer shooter. Then everyone moved on.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/outridrers-retrospective-review-square-enix/",
+      "published_at": "2026-10-09T22:58:06Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/outriders_launch_8.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "2f9178875b352f4533",
       "title": "Screams, haunting scenes and deadly hide-and-seek, as Celebrity Traitors heats up",
       "category": "Entertainment",
@@ -203,7 +667,23 @@
       "source_name": "BBC Entertainment",
       "source_url": "https://www.bbc.co.uk/news/articles/cwr5y3m59027o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-09T22:51:57Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a98/live/4fdebb20-c42f-11f1-bc2e-018d645d8d21.jpg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5fe/live/863eca10-c46c-11f1-85a0-5d7be70ae17d.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "851b013d9449435fa4",
+      "title": "Israeli Americans Protest ‘NAZA’ Los Angeles Screening as Doc Releases Theatrically in U.S.",
+      "category": "Entertainment",
+      "summary": "The September premiere of 'NAZA' at the New York Film Festival was also met with protestors organized by the Israeli-American Council (IAC).",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/israeli-americans-protest-naza-los-angeles-screening-1236726709/",
+      "published_at": "2026-10-09T22:48:31Z",
+      "image_url": null,
       "media_type": "article",
       "video_id": null,
       "topics": [
@@ -243,6 +723,22 @@
       ]
     },
     {
+      "id": "0c34b43b2d4ef98d83",
+      "title": "Lisa and Director Sue Kim on Documenting the Star’s Break From the K-pop System in ‘Always Lalisa’",
+      "category": "Entertainment",
+      "summary": "From a fortune teller's advice to a Coachella solo slot and a standout role in 'White Lotus,' 'Always Lalisa' chronicles the K-pop idol's most unguarded year yet: \"I'm just so proud of myself.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-features/lisa-sue-kim-always-lalisa-interview-1236699144/",
+      "published_at": "2026-10-09T22:45:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
       "id": "5549fffb99ffb89895",
       "title": "The Exorcist: Martyrs - Exclusive Trailer Breakdown with Director Mike Flanagan",
       "category": "Gaming",
@@ -275,6 +771,22 @@
       ]
     },
     {
+      "id": "27ff3a198b2be5bf95",
+      "title": "Marathon Is the Scariest Horror Game of 2026",
+      "category": "Gaming",
+      "summary": "Player ambushes, powerful NPC enemy robots, and the fear of losing loot makes Marathon terrifying.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/marathon-scariest-horror-game/",
+      "published_at": "2026-10-09T22:40:48Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/2025_dec_marathon_press_kit_compressed_001.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "6e4965b3330b1f5442",
       "title": "The Exorcist: Martyrs - Official Trailer (2027) Scarlett Johansson, Jacobi Jupe, Sasha Calle",
       "category": "Gaming",
@@ -291,6 +803,22 @@
       ]
     },
     {
+      "id": "4b7a67f7526fb6e6f4",
+      "title": "Adéla Brings Sass, Vocals and Razor-Sharp Moves to Los Angeles’ Fonda Theatre",
+      "category": "Music",
+      "summary": "Amid the first of two sold-out nights at Los Angeles’ Fonda Theatre on Thursday night, Adéla paused to shout out Katseye members Lara Raj and Megan Skindiel, who were watching in the balcony alongside Saint Satine’s Emily Kelavos. “I moved out here a couple of years ago; I moved here for the show that I […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/adela-brings-sass-vocals-razor-sharp-moves-la-fonda-theatre-1236907126/",
+      "published_at": "2026-10-09T22:34:05Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MAB_4221.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "9cce701e4aea800d6b",
       "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
       "category": "World",
@@ -304,6 +832,38 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "877f615b6a38eeb37f",
+      "title": "GTA 6's Nudity Sure Sounds Hopelessly Outdated",
+      "category": "Gaming",
+      "summary": "GTA 6's nude leaks suggest Rockstar isn't treating the crime game with the maturity and sense of realism that it promised",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/gta-6-nudity-jason-lucia-sounds-hopelessly-outdated/",
+      "published_at": "2026-10-09T22:19:54Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/gta-6-fashion-jason.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "ca1f76f377ac190bfd",
+      "title": "The 7 Best Racing Games Like Star Wars: Galactic Racer",
+      "category": "Gaming",
+      "summary": "Check out other classics of sci-fi racing like F-Zero and Wipeout, plus earlier games from the developers like Burnout and Need for Speed",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-racing-games-like-star-wars-galactic-racer/",
+      "published_at": "2026-10-09T22:00:16Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/star-wars-galactic-racer-story-trailer-screenshot.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -451,6 +1011,102 @@
       ]
     },
     {
+      "id": "de78f834d96029d516",
+      "title": "Danielle Ponder Meshes Old-School Soul With Future Sounds on the Dazzling ‘Everything Has Changed’: Album Review",
+      "category": "Music",
+      "summary": "There have been many innovative R&B albums made over the past decade, but few have meshed futurism and tradition in quite the way that Danielle Ponder does on her second full-length, “Everything Has Changed.” She possesses a glass-shatteredly powerful, church-reared soul shouter voice, but uses its power sparingly, moving…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/reviews/danielle-ponder-everything-has-changed-album-review-1236907098/",
+      "published_at": "2026-10-09T20:50:39Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/albumcovertreatment-15-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "3da61d957c3c79fd1d",
+      "title": "‘Newlyweds’ Showrunner Gail Lerner Fired From NBC Sitcom Ahead of Premiere: ‘I’m So Sad’",
+      "category": "Entertainment",
+      "summary": "Gail Lerner announced on Friday that she was fired from “Newlyweds,” the upcoming NBC sitcom that she co-created and on which she was to serve as showrunner. “Here’s the good news: I couldn’t be more proud of the new sitcom Newlyweds that I created with the singular Jamie Lee Curtis,” Lerner wrote in part on […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/newlyweds-showrunner-gail-lerner-fired-nbc-1236907069/",
+      "published_at": "2026-10-09T20:43:22Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/05/Newlyweds.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "14bfc518932e499c54",
+      "title": "Shari Redstone-Backed Sipur Studios Opens London Office, Sets Out International Strategy Including Boarding Olivier Dahan’s ‘Nana’ (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "After Shari Redstone sold Paramount Global to David Ellison’s Skydance in 2024, she chose something unexpected for her next act: Sipur, a growing film and TV studio based out of Israel.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/sipur-studios-london-olivier-dahan-nana-1236902209/",
+      "published_at": "2026-10-09T20:41:13Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Ludovic-Attal-Emilio-Schenker-Sipur.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4fa2ef013ac1a655fe",
+      "title": "When is the point of no return in Fire Emblem Fortune's Weave",
+      "category": "Gaming",
+      "summary": "Fire Emblem Fortune's Weave's has two points of no return, one of which is the cutoff for recruiting new characters.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-point-of-no-return-recruitment-cutoff/",
+      "published_at": "2026-10-09T20:37:14Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/fire-emblem-fortunes-weave-point-of-no-return.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "6464ed6fc797162fb9",
+      "title": "Trump Taps ‘Devoted Fan’ Katie Zacharia, a Fox News and CNN Commentator, as White House Press Secretary",
+      "category": "Entertainment",
+      "summary": "President Donald Trump announced that he’s picked Katie Zacharia, a conservative commentator who has regularly appeared on Fox News, CNN and Newsmax, to be the new White House press secretary. She takes over the role from Karoline Leavitt, who is joining Fox News as a contributor.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/trump-katie-zacharia-white-house-press-secretary-fox-news-1236906962/",
+      "published_at": "2026-10-09T20:12:21Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Katie-Zacharia.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c95bd3cd44e4c9be3b",
+      "title": "Best gifts for each character in Fire Emblem: Fortune's Weave",
+      "category": "Gaming",
+      "summary": "Our Fire Emblem Fortune's Weave gift guide lists the best gifts for every character",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-best-gifts-each-character/",
+      "published_at": "2026-10-09T20:02:41Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/fire-emblem-fortunes-weave-gifts.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "a5e9a6ff8142619ce4",
       "title": "Bella Poarch Meets Her Total Opposite On Her Dodo Dream Date | The Dodo",
       "category": "Animals",
@@ -531,6 +1187,22 @@
       ]
     },
     {
+      "id": "2a46d9a150ee9754af",
+      "title": "‘WandaVision’ Creator Jac Schaeffer to Develop ‘Stargate’ Series at Amazon (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Jac Schaeffer is developing a new “Stargate” TV series for Amazon MGM Studios, Variety has learned exclusively from sources. The project falls under Schaeffer’s overall deal with Amazon MGM, which was announced earlier this year. According to sources, a writers’ room is expected to open in the near future.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/wandavision-jac-schaeffer-stargate-series-amazon-1236906795/",
+      "published_at": "2026-10-09T19:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Stargate-Jac-Schaeffer.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
       "id": "35febd059b3b80c244",
       "title": "Ize Press Announces Print Editions of Regas, Eat Before You Go Webtoons",
       "category": "Anime",
@@ -576,6 +1248,38 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "8c677e402573aedb63",
+      "title": "Remi Wolf on the Meaning Behind Her New Album ‘Mud,’ Her ‘Off Campus’ Cameo and Friendship with Hayley Williams",
+      "category": "Music",
+      "summary": "Remi Wolf hasn’t landed a spot on “Survivor,” one of her favorite shows she’s always wanted to be on, so she instead put her mental fortitude to the test by rolling around in a makeshift mud pit. She quickly realized she’s “never gonna make it on that show if I can’t handle this in such […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/remi-wolf-mud-off-campus-hayley-willians-1236906301/",
+      "published_at": "2026-10-09T18:32:30Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Remi-Wolf-press-photo.png",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "31f17970f74d364dc7",
+      "title": "Journey Drummer Deen Castronovo Leaves Concert After Two Songs and Is Hospitalized, as Show Eventually Resumes With Drum Tech",
+      "category": "Music",
+      "summary": "A Journey concert in Tulsa, Oklahoma had an unnerving moment Thursday night when longtime drummer Deen Castronovo had to be helped off the stage after the group had performed just two songs, leading to a substantial pause before the show resumed with a quickly drafted substitute.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/journey-drummer-deen-castronovo-leaves-concert-hospitalized-1236906851/",
+      "published_at": "2026-10-09T18:26:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1247424881.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -643,6 +1347,22 @@
       ]
     },
     {
+      "id": "8831b1775bffe8af1f",
+      "title": "Laika Submits Original Song From ‘Wildwood’ for Oscars, ‘The Better Part of Bravery,’ Performed by The Decemberists (EXCLUSIVE)",
+      "category": "Music",
+      "summary": "Laika will submit “The Better Part of Bravery” from the animated feature “Wildwood” for consideration in the original song category at the Academy Awards, Variety has learned. The song is performed by The Decemberists and plays at the end of the film.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/artisans/awards/laika-wildwood-oscars-decemberists-better-part-of-bravery-1236906575/",
+      "published_at": "2026-10-09T18:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/wildwoodtospict.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "84252b046937810536",
       "title": "4 Levels of Satisfying Crunches",
       "category": "Discover",
@@ -672,6 +1392,70 @@
       "video_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "c160a82920ef845298",
+      "title": "Interpol’s Paul Banks is readying an album with a new band he formed with Liars’ Aaron Hemphill in Berlin",
+      "category": "Music",
+      "summary": "\"It’s been a big part of my music journey in Berlin\" The post Interpol’s Paul Banks is readying an album with a new band he formed with Liars’ Aaron Hemphill in Berlin appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/interpols-paul-banks-is-readying-an-album-with-a-new-band-he-formed-with-liars-aaron-hemphill-in-berlin-3972835?utm_source=rss&utm_medium=rss&utm_campaign=interpols-paul-banks-is-readying-an-album-with-a-new-band-he-formed-with-liars-aaron-hemphill-in-berlin",
+      "published_at": "2026-10-09T17:33:14Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/2026_paulbanks_aaronhemphill_getty_2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "d118a207bed4d9f04a",
+      "title": "Music Industry Moves: Believe Names Adriana Sein President of Americas; Guy Moot Joins NMPA Board",
+      "category": "Music",
+      "summary": "France-based music company Believe has named Adriana Sein to the newly created role of President, Americas.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/thomas-rhett-label-partnership-hybe-blue-highway-1236899774/",
+      "published_at": "2026-10-09T17:20:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/1f21836c-a850-42f7-b7a2-1b1849e4b1f5-e1791567545383.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "bb9aad324a56632c8c",
+      "title": "Air Supply Rocks on With World Tours, a New Album and a Star on the Hollywood Walk of Fame: ‘The Term Soft Rock Makes Me Sick’",
+      "category": "Music",
+      "summary": "When it comes to Russell Hitchcock and Graham Russell — partners behind the 50-year-plus hit machine Air Supply — the only four-letter word in their vocabulary is “soft.” Sure, British-born songwriter-harmonist Russell and Australian vocalist Hitchcock sing luscious love songs like “Every Woman in the World” and “Even the…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/focus/air-supply-hollywood-walk-fame-1236906736/",
+      "published_at": "2026-10-09T17:18:10Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/HR-GettyImages-2263812087.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2ab8415360a2d4914f",
+      "title": "\"It's not in the top five reference points\": Afterworld isn't just a Fallout grand strategy game, say Paradox, it owes a lot more to the Bronze Age",
+      "category": "Gaming",
+      "summary": "When Paradox announced their post-apocalyptic North American grand strategy game Afterworld , I made the obvious comparison to Fallout . For this I should be chained to the fender of a war rig and pelted with scoops of radioactive dogfood, while being slowly driven through a pack of three-headed coyotes.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/its-not-in-the-top-five-reference-points-afterworld-isnt-just-a-fallout-grand-strategy-game-says-paradox-it-owes-a-lot-more-to-the-bronze-age",
+      "published_at": "2026-10-09T17:15:00Z",
+      "image_url": "https://assetsio.gnwcdn.com/afterworldcavalry.png?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -771,6 +1555,22 @@
       ]
     },
     {
+      "id": "c1ceecc494e7a76e55",
+      "title": "Embrace your jobbing musician soul with a new Cyberpunk 2077 quest mod that comes with the option of playing all the wrong chords for Master of Puppets",
+      "category": "Gaming",
+      "summary": "Cyberpunk 2077 quest mods are still a relative rarity and the latest's aimed at folks who don't think getting to play that one gig with Samurai during the main story's enough jammin' in front of a crowd.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/embrace-your-jobbing-musician-soul-with-a-new-cyberpunk-2077-quest-mod-that-comes-with-the-option-of-playing-all-the-wrong-chords-for-master-of-puppets",
+      "published_at": "2026-10-09T16:38:11Z",
+      "image_url": "https://assetsio.gnwcdn.com/cyberpunk-2077-guitar-gigs-mod-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "02cbc4be19a10e89cd",
       "title": "How An Indie Rock Icon Became Pop's Biggest Songwriter",
       "category": "Music",
@@ -803,6 +1603,22 @@
       ]
     },
     {
+      "id": "6137c6ac44b46dc59c",
+      "title": "Thom Yorke says he wishes he hadn’t written Radiohead’s ‘High And Dry’",
+      "category": "Music",
+      "summary": "'The Bends' track was a huge hit for the band in 1995 The post Thom Yorke says he wishes he hadn’t written Radiohead’s ‘High And Dry’ appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/thom-yorke-says-he-wishes-he-hadnt-written-radioheads-high-and-dry-3972822?utm_source=rss&utm_medium=rss&utm_campaign=thom-yorke-says-he-wishes-he-hadnt-written-radioheads-high-and-dry",
+      "published_at": "2026-10-09T16:12:21Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/2026_thomyorke_getty_2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "3b898196df6815e856",
       "title": "Bella Poarch Reveals The Side Only Her Pets See On Her Dodo Dream Date | The Dodo",
       "category": "Animals",
@@ -816,6 +1632,22 @@
       "video_id": "MS8jDuBSJMA",
       "topics": [
         "Animals"
+      ]
+    },
+    {
+      "id": "b319b4daa7c7ca8e89",
+      "title": "Wardogs season 2 deepens the sandbox shooter's capitalist hell by letting you bet cash on your own performance",
+      "category": "Gaming",
+      "summary": "\"The race is not always to the swift nor the battle to the strong,\" wrote the late author Damon Runyon, \"but that's the way to bet.\" As someone neither swift nor strong, this does not bode well for my chances in Wardogs season 2, which sees the early access sandbox shooter adding – among many other things – a gambling system.…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/wardogs-season-2-deepens-the-sandbox-shooters-capitalist-hell-by-letting-you-bet-cash-on-your-own-performance",
+      "published_at": "2026-10-09T16:00:21Z",
+      "image_url": "https://assetsio.gnwcdn.com/Wardogs-season-2-vendor.png?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -883,6 +1715,22 @@
       ]
     },
     {
+      "id": "260dfba5e4fa2549ee",
+      "title": "Fontaines D.C. announce intimate London Roundhouse show next week to raise money for mental health charity CALM",
+      "category": "Music",
+      "summary": "CALM CEO Simon Gunning said that the gig will both be a “unique shared experience for fans” and raise money that “will undoubtedly save lives” The post Fontaines D.C. announce intimate London Roundhouse show next week to raise money for mental health charity CALM appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm-3972825?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-d-c-announce-intimate-london-roundhouse-show-next-week-to-raise-money-for-mental-health-charity-calm",
+      "published_at": "2026-10-09T15:46:32Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/fontaines-calm@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "b06a1dad4d52e2f1fe",
       "title": "Prize-winning image which sparked backlash was AI-generated, Nikon rules",
       "category": "Science",
@@ -896,6 +1744,22 @@
       "video_id": null,
       "topics": [
         "Science"
+      ]
+    },
+    {
+      "id": "b2b111df103fc6ec0c",
+      "title": "The Galaxies Showcase returns on October 15, with announcements from ZA/UM, Embark Studios, and Frontier Developments",
+      "category": "Gaming",
+      "summary": "I'm sure you already had it marked in your calendars, but it is that time of year again when the Galaxies Showcase takes one more spin around the internet.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/the-galaxies-showcase-returns-on-october-15-with-announcements-from-zaum-embark-studios-and-frontier-developments",
+      "published_at": "2026-10-09T15:32:11Z",
+      "image_url": "https://assetsio.gnwcdn.com/galaxies-showcase_CQlcBit.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -915,6 +1779,38 @@
       ]
     },
     {
+      "id": "050d7fef7cb9bf3767",
+      "title": "Classic Moments With Dolly Parton, Remembered by the Actors Portraying Her in the Broadway Musical, ‘A True Original’: ‘I’m Jezebel, and God Loves Me Anyway!’",
+      "category": "Music",
+      "summary": "For actors, portraying a real-life person is a huge challenge. But portraying a real-life singer-songwriter-actress-icon like Dolly Parton when she’s standing right in front of you is a whole other realm.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/legit/news/dolly-parton-remembered-actors-broadway-musical-1236906569/",
+      "published_at": "2026-10-09T15:05:55Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/Dolly-Parton.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "55afc72906e17ddc3f",
+      "title": "“We're not getting any younger, and the world seems to be ending\": Amanita reveal Machinarium 2, sequel to 2009's prettiest robot adventure",
+      "category": "Gaming",
+      "summary": "The dashing Da Vincis of Amanita Design have announced Machinarium 2 , a sequel to the 2009 puzzle adventure young master John Walker called \"a sort of beauty that games are almost never graced with\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/were-not-getting-any-younger-and-the-world-seems-to-be-ending-amanita-reveal-machinarium-2-sequel-to-2009s-prettiest-robot-adventure",
+      "published_at": "2026-10-09T15:05:20Z",
+      "image_url": "https://assetsio.gnwcdn.com/Machinarium2_screenshot_01.png?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
       "id": "84efa2343cab0fdac3",
       "title": "How to Clean Up the World’s Dirtiest Industry | Joojin Kim | TED",
       "category": "Discover",
@@ -928,6 +1824,22 @@
       "video_id": "wsstlwuE5XY",
       "topics": [
         "Discover"
+      ]
+    },
+    {
+      "id": "7de48ac11bf8b156ab",
+      "title": "Troye Sivan Is at His Best on ‘She’s the Best,’ a Weird, Wild Exploration of Desire: Album Review",
+      "category": "Music",
+      "summary": "Ahead of his third album, 2023’s “Something to Give Each Other,” Troye Sivan teased the era as a dance-pop fantasia with singles “Rush” and “Got Me Started.” It was his post-pandemic record, one that promised to capture the crackle of electricity that came with no longer being on lockdown, finally free to connect with others.…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/album-reviews/troye-sivan-shes-the-best-album-review-1236905931/",
+      "published_at": "2026-10-09T15:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/troye2-e1791485467725.png",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -960,6 +1872,22 @@
       "video_id": null,
       "topics": [
         "Science"
+      ]
+    },
+    {
+      "id": "81b64411a65835aad6",
+      "title": "Draw maps of a vampiric lighthouse that defies logic in This Is Not For You, the latest horror game inspired by House of Leaves",
+      "category": "Gaming",
+      "summary": "This Is Not For You is, in fact, for some very specific kinds of people. It is for people who love drawing maps, and it is for people who love having their blood sucked by a non-Euclidean lighthouse. Somebody plot that on a Venn diagram for me.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/draw-maps-of-a-vampiric-lighthouse-that-defies-logic-in-this-is-not-for-you-the-latest-horror-game-inspired-by-house-of-leaves",
+      "published_at": "2026-10-09T14:10:53Z",
+      "image_url": "https://assetsio.gnwcdn.com/this-is-not-for-you.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -1248,6 +2176,22 @@
       "video_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "38449113d98980010e",
+      "title": "Forza Horizon 6's first major expansion will pull up in January, now Playground Games just need to offer any kind of hint whatsoever as to what it'll look like",
+      "category": "Gaming",
+      "summary": "Forza Horizon 6 has, as is standard for the live-service racing series, settled into a steady rhythm of revolving weekly to-do lists and a gradual drip feed of fresh cars since it came out in May.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/forza-horizon-6s-first-major-expansion-will-pull-up-in-january-now-playground-games-just-need-to-offer-any-kind-of-hint-whatsoever-as-to-what-itll-look-like",
+      "published_at": "2026-10-09T10:00:00Z",
+      "image_url": "https://assetsio.gnwcdn.com/forza-horizon-6-first-expansion-out-january-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -2220,6 +3164,46 @@
       "error": null
     },
     {
+      "name": "Polygon Gaming",
+      "items": 9,
+      "error": null
+    },
+    {
+      "name": "PC Gamer",
+      "items": 0,
+      "error": "ValueError: feed exceeds 1MiB"
+    },
+    {
+      "name": "Rock Paper Shotgun",
+      "items": 7,
+      "error": null
+    },
+    {
+      "name": "Variety Film",
+      "items": 8,
+      "error": null
+    },
+    {
+      "name": "Variety TV",
+      "items": 7,
+      "error": null
+    },
+    {
+      "name": "Variety Music",
+      "items": 9,
+      "error": null
+    },
+    {
+      "name": "Hollywood Reporter",
+      "items": 7,
+      "error": null
+    },
+    {
+      "name": "NME Music",
+      "items": 7,
+      "error": null
+    },
+    {
       "name": "IGN · YouTube",
       "items": 0,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -2236,8 +3220,8 @@
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
