@@ -349,7 +349,11 @@ function reelView(){
     const unseen=rankReelCandidates(new Set(recentWatched));
     const backups=rankReelCandidates(new Set(unseen.map(clipIdentity)));
     const all=unseen.concat(backups);
-    const first=(requestedReel&&all.find(p=>p.id===requestedReel))||all[0];
+    const previousFirst=read('orbit_last_opened_reel_v1','');
+    const first=(requestedReel&&all.find(p=>p.id===requestedReel))
+      ||all.find(p=>clipIdentity(p)!==previousFirst)
+      ||all[0];
+    if(first)store('orbit_last_opened_reel_v1',clipIdentity(first));
     const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD):[];
     activeReelQueue=first?[first,...other]:[];
     reelBaseIndex=0;requestedReel=null;
