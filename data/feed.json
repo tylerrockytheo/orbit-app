@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T03:42:36.437525Z",
+  "generated_at": "2026-10-10T03:42:59.690819Z",
   "posts": [
     {
       "id": "169303b8c3c20d1d00",
@@ -2226,17 +2226,17 @@
     {
       "name": "Wolters World · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
@@ -2266,7 +2266,7 @@
     {
       "name": "TeamFourStar · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Dragon Ball Official (curated)",
