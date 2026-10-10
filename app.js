@@ -250,7 +250,7 @@ function reelShelf(){
     +'<div class="reels-shelf__head"><div><h2>Reels for you</h2><p>Videos picked for your interests</p></div>'
     +'<button type="button" class="reels-shelf__all" data-open-reels>See all →</button></div>'
     +'<div class="reels-shelf__scroller">'+clips.map(p=>'<button type="button" class="reels-tile" data-open-reels="'+escape(p.id)+'" aria-label="Watch '+escape(p.title)+'">'
-    +'<img src="'+escape(p.image_url||'https://i.ytimg.com/vi/'+p.video_id+'/hqdefault.jpg')+'" alt="" loading="lazy">'
+    +(p.image_url?'<img src="'+escape(p.image_url)+'" alt="" loading="lazy">':'<div class="reels-tile__fallback">'+escape(providerName(p))+'</div>')
     +'<span class="reels-tile__play">'+svg('Play')+'</span>'
     +'<span class="reels-tile__shade"><b>'+escape(p.title)+'</b><small>'+escape(p.category)+'</small></span></button>').join('')
     +'</div></section>';
@@ -259,8 +259,8 @@ function reelShelf(){
 const REEL_AHEAD=4;
 const REEL_RECENT_EXCLUDE=7;
 function reelPoster(p,index){
-  return '<button type="button" class="reel-poster" data-reel-play="'+index+'" aria-label="Play '+escape(p.title)+'">'
-    +'<img src="'+escape(p.image_url||'https://i.ytimg.com/vi/'+p.video_id+'/hqdefault.jpg')+'" alt="" loading="lazy">'
+  const image=p.image_url?'<img src="'+escape(p.image_url)+'" alt="" loading="lazy">':'<div class="reel-provider-poster" aria-hidden="true"><b>'+escape(providerName(p))+'</b><span>▶</span></div>';
+  return '<button type="button" class="reel-poster" data-reel-play="'+index+'" aria-label="Play '+escape(p.title)+'">'+image
     +'<span class="reel-poster__play">'+svg('Play')+'</span></button>';
 }
 function reelCard(p,i){
@@ -268,7 +268,7 @@ function reelCard(p,i){
     +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p,i)+'</div>'
     +'<div class="reel-shade" aria-hidden="true"></div>'
     +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Toggle sound without pausing video" tabindex="-1"></button>'
-    +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':'')+escape(p.category)+' · YouTube</div>'
+    +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':'')+escape(p.category)+' · '+escape(providerName(p))+'</div>'
     +'<strong class="reel-creator">'+escape(p.source_name)+'</strong>'
     +'<h2>'+escape(p.title)+'</h2>'
     +'<a href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">Watch original ↗</a></div>'
@@ -414,10 +414,22 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   const media=document.getElementById('reel-media-'+index);
   if(!media||media.querySelector('iframe'))return;
   const origin=encodeURIComponent(location.origin);
-  media.innerHTML='<iframe class="reel-frame" src="https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&rel=0&enablejsapi=1&mute='+(mutedPlayback?'1':'0')+'&origin='+origin+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+  let src='';
+  if(p.platform==='youtube'){
+    src='https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&rel=0&controls=1&enablejsapi=1&mute='+(mutedPlayback?'1':'0')+'&origin='+origin;
+  }else if(p.platform==='tiktok'){
+    src='https://www.tiktok.com/player/v1/'+encodeURIComponent(p.external_id)+'?autoplay=1&controls=1&loop=0&description=0&rel=0';
+  }else if(p.platform==='instagram'){
+    src='https://www.instagram.com/reel/'+encodeURIComponent(p.external_id)+'/embed/';
+  }else if(p.platform==='facebook'){
+    src='https://www.facebook.com/plugins/video.php?href='+encodeURIComponent(p.source_url)+'&show_text=false&autoplay=true&width=400';
+  }
+  if(!src)return;
+  media.innerHTML='<iframe class="reel-frame reel-frame--'+p.platform+'" src="'+escape(src)+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
-  if(frame)attachYoutubePlayer(index,frame);
+  if(frame&&p.platform==='youtube')attachYoutubePlayer(index,frame);
+  if(frame&&p.platform==='tiktok')applyReelVolume(index);
   reelNativeControls=false;
   updatePlayerControlMode();
   startProgressTimer();
