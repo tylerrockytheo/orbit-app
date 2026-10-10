@@ -16,7 +16,7 @@ let weights={...DEFAULT_WEIGHTS,...read('orbit_weights_v2',{})},muted=new Set(re
 let likes=read('orbit_likes_v1',{}),lessLiked=read('orbit_less_v1',{});
 if(!likes||typeof likes!=='object'||Array.isArray(likes))likes={};
 if(!lessLiked||typeof lessLiked!=='object'||Array.isArray(lessLiked))lessLiked={};
-let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null;
+let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null, activeReelQueue=null;
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
 const app=document.getElementById('app'),nav=document.getElementById('navigation'),overlay=document.getElementById('overlay');
 let toastTimer;
@@ -100,8 +100,9 @@ function showLessLike(p){
   const ids=Object.keys(lessLiked);if(ids.length>150)delete lessLiked[ids[0]];
   delete likes[p.id];feedback=feedbackProfile();persist();
   if(tab==='Reels'){
-    const next=reelActiveIndex+1;
-    changeTab('Reels');reelJump(next);
+    const current=Math.max(0,reelActiveIndex);
+    stopReels();activeReelQueue=null;render();
+    requestAnimationFrame(()=>reelJump(Math.min(current,reelItems().length-1)));
   }else render();
   toast('We’ll recommend less content like this');
 }
@@ -151,14 +152,48 @@ function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><
    Playback is initiated by a tap; subsequent clips try muted autoplay.
    YouTube's own embedding permissions and mobile autoplay rules still apply. */
 function reelItems(){
+  if(tab==='Reels'&&activeReelQueue)return activeReelQueue; // freeze ordering while watching
   const candidates=posts.filter(p=>p.video_id&&!muted.has(p.category));
   if(!candidates.length)return [];
-  const shortHint=p=>/(?:#shorts?\b|#reels?\b|#(?:spiderman|marvel|gaming|anime|music|vr|fitness|dragonball)\b)/i.test(p.title);
-  const sorted=mix(candidates);
-  // Soft boost for clip-like titles, without claiming their duration is verified.
-  const top=sorted.filter(p=>shortHint(p));
-  const rest=sorted.filter(p=>!shortHint(p));
-  return mix(top).concat(mix(rest));
+  const basePriorities={
+    'Dragon Ball':48,Comedy:43,Animals:41,Anime:39,Gaming:37,
+    Entertainment:37,Music:35,Fitness:27,Travel:25,Discover:25,
+    Science:12,'Health & Science':4,'AI & Tech':-18,
+    Technology:-20,World:-30,Business:-23
+  };
+  const newsy=/\b(latest news|announces?|launches?|press release|breaking|quarterly|earnings|revenue|funding|product update|release notes?|investors?|AI model|news roundup|tech news|deep dive into|developer keynote|how to use gemini|feature update)\b/i;
+  const fun=/\b(funny|prank|laugh|hilarious|challenge|trick shot|fails?|bloopers?|comedy|parody|gameplay|memes?|#shorts?|#reels?|animals?|kitten|puppy|spider.man|stunt|crazy|epic|cosplay|live performance|behind the scenes)\b/i;
+  const shortHint=/#(?:shorts?|reels?|vr|gaming|anime|spiderman|marvel|fitness|music|funny|cats?|dogs?|dragonball)\b/i;
+  const newFirst=[...candidates];
+  const ordered=[],recentCats=[],recentSources=[];
+  while(newFirst.length){
+    const feedbackTech=feedback.positive.categories['AI & Tech']||0;
+    const techMax=feedbackTech>=4?5:feedbackTech>=2?3:1;
+    const countTech=ordered.slice(-9).filter(p=>['AI & Tech','Technology','Business'].includes(p.category)).length;
+    let best=-Infinity,selected=0;
+    for(let i=0;i<newFirst.length;i++){
+      const p=newFirst[i],title=p.title;
+      let score=(basePriorities[p.category]??18)+interestScore(p)*.85;
+      if(fun.test(title))score+=14;
+      if(shortHint.test(title))score+=14;
+      if(newsy.test(title))score-=32;
+      if(/Google Developers|TED · YouTube/i.test(p.source_name))score-=27;
+      if(/Official Teaser Trailer|Official Trailer/i.test(title))score-=7;
+      // Prevent one prolific channel dominating consecutive clips.
+      score-=recentCats.filter(x=>x===p.category).length*17;
+      score-=recentSources.filter(x=>x===p.source_name).length*24;
+      if(['AI & Tech','Technology','Business'].includes(p.category)&&countTech>=techMax)score-=110;
+      // Stable tie-breaker prevents one publisher always appearing first.
+      score+=(p.id.length%9)*.04;
+      if(score>best){best=score;selected=i}
+    }
+    const [pick]=newFirst.splice(selected,1);
+    ordered.push(pick);
+    recentCats.push(pick.category);recentSources.push(pick.source_name);
+    if(recentCats.length>4)recentCats.shift();
+    if(recentSources.length>5)recentSources.shift();
+  }
+  return ordered;
 }
 function reelShelf(){
   const clips=reelItems().slice(0,9);
@@ -178,7 +213,8 @@ function reelPoster(p){
     +'<span class="reel-poster__play">'+svg('Play')+'</span></button>';
 }
 function reelView(){
-  const clips=reelItems();
+  const clips=activeReelQueue||reelItems();
+  activeReelQueue=clips;
   if(!clips.length)return '<div class="reels-empty"><button type="button" data-reels-close>← Back</button><h2>No videos yet</h2><p>Refresh Home later for new clips and creator videos.</p></div>';
   return '<section class="reels-view" aria-label="Swipe through videos">'
     +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><span class="reels-count" id="reels-count">1 / '+clips.length+'</span></div>'
@@ -293,10 +329,10 @@ async function fetchJson(url,ms=11000){const controller=new AbortController();co
 async function fetchFeed(force=false){loading=true;render();let data=null,origin='';const cacheBuster='?v='+Math.floor(Date.now()/(force?60000:3600000));
 for(const [url,source] of [[RAW+cacheBuster,'GitHub'],[STATIC+cacheBuster,'GitHub Pages'],[API,'Cloudflare']]){try{const result=await fetchJson(url);if(result.posts.length){data=result;origin=source;break}}catch(e){console.info('Feed source unavailable',source,e.message)}}
 if(data){const prefix=origin==='Cloudflare'?'cf':'rss';posts=data.posts.map(p=>normalise(p,prefix)).filter(Boolean);updatedAt=data.generated_at||'';const media=posts.filter(p=>p.media_type==='video').length;feedStatus=origin==='Cloudflare'?'Limited feed · wider sources updating soon':posts.length+' fresh posts · '+media+' videos';}else{feedStatus='Couldn’t load live stories';posts=[]}loading=false;render();const shared=new URL(location.href).searchParams.get('post');if(shared)sharedPost(shared)}
-function changeTab(t){if(tab==='Reels'&&t!=='Reels')stopReels();if(t==='Reels'&&tab!=='Reels')reelsReturnTab=tab==='Search'?'Home':tab;tab=t;filter='All';render();if(t!=='Reels')window.scrollTo({top:0,behavior:'instant'})}
+function changeTab(t){if(tab==='Reels'&&t!=='Reels'){stopReels();activeReelQueue=null}if(t==='Reels'&&tab!=='Reels'){activeReelQueue=null;reelsReturnTab=tab==='Search'?'Home':tab}tab=t;filter='All';render();if(t!=='Reels')window.scrollTo({top:0,behavior:'instant'})}
 document.addEventListener('input',e=>{if(e.target.matches('[data-weight]')){const k=e.target.dataset.weight;weights[k]=Number(e.target.value);document.getElementById('val-'+slug(k)).textContent=weights[k];persist()}if(e.target.id==='search-input'){searchTerm=e.target.value;document.getElementById('results').innerHTML=cardsOrEmpty(selection())}});
 const slug=s=>s.replace(/[^A-Za-z0-9]/g,'-');
-document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay){startReel(d.reelPlay,false);return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
+document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay){startReel(d.reelPlay,false);return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
 
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!overlay.hidden){closeOverlay();return}
