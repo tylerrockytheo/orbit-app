@@ -26,6 +26,7 @@ const played={replaceChildren(...x){this.value=x[0]?.textContent}};
 const duration={replaceChildren(...x){this.value=x[0]?.textContent}};
 const article={
  dataset:{reelIndex:'0'},
+ setAttribute(){},removeAttribute(){},
  classList:{toggle(name,on){if(on)reelClasses.add(name);else reelClasses.delete(name)}},
  querySelector(sel){
    if(sel==='[data-reel-seek]')return slider;
