@@ -1,7 +1,487 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T19:59:22.818917Z",
+  "generated_at": "2026-10-10T23:24:54.080405Z",
   "posts": [
+    {
+      "id": "93194cf4ab04da5b96",
+      "title": "‘Memories of a Dead End’ Director Choi Hyunyoung Confronts the Lies That Follow Tragedy in Subway Disaster Drama ‘All’s Well That Ends Well’ at Busan Asian Project Market",
+      "category": "Entertainment",
+      "summary": "A teenage ballerina hailed for sacrificing herself to rescue others in a subway disaster becomes the center of a spiraling web of lies in “All’s Well That Ends Well,” the new project from “Memories of a Dead End” director Choi Hyunyoung. The project is part of the Asian Project Market, which runs within the Busan […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/subway-tragedy-drama-busan-asian-project-market-1236907802/",
+      "published_at": "2026-10-10T23:23:06Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Alls-Well-That-Ends-Well-poster.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "10565ce03f697c3ac3",
+      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+      "category": "World",
+      "summary": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T23:19:55Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a454/live/61dbc890-c4e3-11f1-a793-e9d00826e617.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5b619ee3b53507e8d1",
+      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+      "category": "Science",
+      "summary": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T23:19:55Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a454/live/61dbc890-c4e3-11f1-a793-e9d00826e617.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "da567e2e9c2dca9d81",
+      "title": "Joseph Gordon-Levitt Says Instead of Being Afraid of AI, “We Should Be Concerned About the People Building AI”",
+      "category": "Entertainment",
+      "summary": "\"These models are being trained to hijack your intimacy, to make friends with you, to get you to fall in love with it,\" the actor said of technology's training.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/joseph-gordon-levitt-concern-people-building-ai-1236727031/",
+      "published_at": "2026-10-10T22:48:07Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "11f56c5727f95679a2",
+      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+      "category": "World",
+      "summary": "Another 309 people are injured in the attack on the airport, which come days after Yemen's Houthis said they had struck it.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T22:40:56Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32eb/live/ede92230-c4f0-11f1-b35a-c3ed8feab55e.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "3440686153a877eb7a",
+      "title": "Naruto Mobile Game to Get Worldwide Release; Naruto Card Game Reveals Demo, Release Dates",
+      "category": "Anime",
+      "summary": "Studio Pierrot produces trailer for card game, launching officially in June 2027",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/naruto-mobile-game-to-get-worldwide-release-naruto-card-game-reveals-demo-release-dates/.242694",
+      "published_at": "2026-10-10T22:37:38Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "6073478c88f8920f0f",
+      "title": "‘Other Mommy’ Star Arabella Olivia Clark on Working With Jessica Chastain and Being Mentored by Mckenna Grace",
+      "category": "Entertainment",
+      "summary": "Arabella Olivia Clark is proud to scare you. The 10-year-old actress joined Variety over Zoom from her Los Angeles hotel room the morning after the premiere of “Other Mommy, wearing a jacket with her character’s name, Bela, printed on the front.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/other-mommy-arabella-olivia-jessica-chastain-mckenna-grace-1236907732/",
+      "published_at": "2026-10-10T22:32:28Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDOTMO_UV016_f2a990.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ea7df8d516bde82f7e",
+      "title": "Squadron 42 has a Steam page",
+      "category": "Gaming",
+      "summary": "Star Citizen's singleplayer mode gets a new trailer and more signs of life.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/fps/squadron-42-has-a-steam-page/",
+      "published_at": "2026-10-10T22:25:54Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Dnbw6BBDfDTWeGQ7qtaLae-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "7078962c964adf276d",
+      "title": "Masashi Kishimoto to Launch New Naruto Manga",
+      "category": "Anime",
+      "summary": "More details to be revealed at Jump Festa '27 event on December 19-20",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/masashi-kishimoto-to-launch-new-naruto-manga/.242695",
+      "published_at": "2026-10-10T22:25:07Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "f67ad67a1494f83596",
+      "title": "Naruto Gets Crossover Anime With Ninku Franchise",
+      "category": "Anime",
+      "summary": "Boruto, Ninku director Noriyuki Abe directs crossover series",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/naruto-gets-crossover-anime-with-ninku-franchise/.242693",
+      "published_at": "2026-10-10T22:15:19Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "4d3586f4da6e8721f2",
+      "title": "New ‘Naruto’ Anime Series and ‘Shadow Rising’ Manga Revealed",
+      "category": "Entertainment",
+      "summary": "Big news for “Naruto” fans: the franchise is getting a new anime TV series and author Masashi Kishimoto is releasing another “Naruto” manga titled “Shadow Rising.” The new anime series will be a crossover with the popular manga “NINKŪ” and will be supervised by both Kishimoto and “NINKŪ” creator Koji Kiriyama.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/tv/news/naruto-new-anime-series-shadow-rising-manga-1236907767/",
+      "published_at": "2026-10-10T22:08:18Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/06/Naruto-the-Movie.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "22c13b3f3de5a50cb0",
+      "title": "New ‘Naruto’ Anime Series and ‘Shadow Rising’ Manga Revealed",
+      "category": "Entertainment",
+      "summary": "Big news for “Naruto” fans: the franchise is getting a new anime TV series and author Masashi Kishimoto is releasing another “Naruto” manga titled “Shadow Rising.” The new anime series will be a crossover with the popular manga “NINKŪ” and will be supervised by both Kishimoto and “NINKŪ” creator Koji Kiriyama.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/naruto-new-anime-series-shadow-rising-manga-1236907767/",
+      "published_at": "2026-10-10T22:08:18Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/06/Naruto-the-Movie.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "614f47b8a5affdaa33",
+      "title": "‘The Furious’ Star Xie Miao to Headline U.S.-Set Martial Arts Crime Thriller for Stars Collective (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Chinese martial arts star Xie Miao (“The Furious,” the “Eye for an Eye” series) is set to lead an English-language action crime thriller set in the U.S., which Los Angeles-based Stars Collective has in development.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/the-furious-xie-miao-martial-arts-crime-thriller-1236907398/",
+      "published_at": "2026-10-10T22:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Xie-Ma.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d83da69e2a7569ead0",
+      "title": "Chris Rock Takes a Scalpel to L.A. in ‘Misty Green,’ Makes a Star of Rosalind Eleazar",
+      "category": "Entertainment",
+      "summary": "With its U.S. premiere at the New York Film Festival, the ‘Slow Horses’ actor delivers a stunning lead performance in the comedian’s fourth film as director.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/misty-green-chris-rock-rosalind-eleazar-nyff-1236727022/",
+      "published_at": "2026-10-10T21:57:20Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e4d73b41485ed22b73",
+      "title": "Gargantuan cop immersive sim Militsioner now has an acrophobia-inducing demo, and yes, I did somehow manage to fail the tutorial",
+      "category": "Gaming",
+      "summary": "Excitedly, I boot up the new demo for Militsioner , a game I've had a watchful eye on since its announcement. A phone rings, it's my lawyer. I don't know why I've been arrested, but with the shattering of my balcony window I quickly know one thing: there's a giant motherf**king cop that won't let me leave this town.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/gargantuan-cop-immersive-sim-militsioner-now-has-an-acrophobia-inducing-demo-and-yes-i-did-somehow-manage-to-fail-the-tutorial",
+      "published_at": "2026-10-10T21:55:00Z",
+      "image_url": "https://assetsio.gnwcdn.com/militsioner_EraHzTo.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e3f942acc20bbe5281",
+      "title": "Bayeux Tapestry's London tour spurs enthusiasts to Battle of Hastings reenactment",
+      "category": "World",
+      "summary": "A reenactment of the Battle of Hastings, which took place almost a millennium ago, is drawing crowds of enthusiasts in the UK.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/10/nx-s1-5993847/bayeux-tapestrys-london-tour-spurs-enthusiasts-to-battle-of-hastings-re-enactment",
+      "published_at": "2026-10-10T21:40:58Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "31e9cbb5fe7bdd4b58",
+      "title": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
+      "category": "World",
+      "summary": "The surge in attacks, including against other Saudi airports, military facilities and oil infrastructure, has come in the week since a Saudi-led coalition launched a major military offensive against the Houthis.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack",
+      "published_at": "2026-10-10T21:32:53Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "f4cdbc36ce35c3baec",
+      "title": "Protests against voter roll revisions rock capital of world's largest democracy",
+      "category": "World",
+      "summary": "Parts of the capital city of India, the world's largest democracy, are on lockdown. Protests over sweeping revisions to the voter rolls were met with a massive police crackdown.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/10/nx-s1-5995118/protests-against-voter-roll-revisions-rock-capital-of-worlds-largest-democracy",
+      "published_at": "2026-10-10T21:19:57Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5d702ed735ae3bee08",
+      "title": "‘Ibuku’ Review: Dreamlike Indonesian Drama Is a Compelling Tale of Parental Redemption",
+      "category": "Entertainment",
+      "summary": "The fraught relationship between an estranged mother and daughter takes centre stage in “Ibuku,” the fourth film from Indonesian writer-director Eddie Cahyono.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/ibuku-review-1236907736/",
+      "published_at": "2026-10-10T21:02:58Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/Ibuku.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9aecf3f44c21e3f00f",
+      "title": "Matthew Lillard Says He Thought ‘Scream’ Was ‘Lame’ and ‘Nobody’ Would See the Movie Before It Became a Hit: ‘Here We Are 30 Years Later’",
+      "category": "Entertainment",
+      "summary": "Matthew Lillard might best be known for his appearances throughout the uber-popular “Scream” franchise, but when he filmed the original installment, he didn’t think it would become the cult classic its regarded as today. “I was in the back of a car, driving home from work one night, at like six in the morning, covered […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/matthew-lillard-thought-scream-was-lame-nobody-would-see-it-1236907741/",
+      "published_at": "2026-10-10T20:54:30Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MSDSCRE_EC011.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "b5f192cad039ac8e49",
+      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+      "category": "World",
+      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T20:51:12Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ce/live/569e8e50-c49c-11f1-869c-8f95c437952a.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5780f06f1239c240c1",
+      "title": "‘Project Hail Mary’ Composer Daniel Pemberton, ‘KPop Demon Hunters’ Songwriter EJAE Triumph at World Soundtrack Awards",
+      "category": "Entertainment",
+      "summary": "Daniel Pemberton was named Film Composer of the Year at the World Soundtrack Awards on Saturday, capping a prolific run that includes “Project Hail Mary,” “The Drama,” “The Bad Guys 2” and “Masters of the Universe.” The British composer has now won three times at the Ghent-based ceremony, taking the top prize in 2021 and […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/",
+      "published_at": "2026-10-10T20:40:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4928136d1d8dac0a11",
+      "title": "‘Project Hail Mary’ Composer Daniel Pemberton, ‘KPop Demon Hunters’ Songwriter EJAE Triumph at World Soundtrack Awards",
+      "category": "Entertainment",
+      "summary": "Daniel Pemberton was named Film Composer of the Year at the World Soundtrack Awards on Saturday, capping a prolific run that includes “Project Hail Mary,” “The Drama,” “The Bad Guys 2” and “Masters of the Universe.” The British composer has now won three times at the Ghent-based ceremony, taking the top prize in 2021 and […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/",
+      "published_at": "2026-10-10T20:40:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f9ff0c429e138878f4",
+      "title": "‘Project Hail Mary’ Composer Daniel Pemberton, ‘KPop Demon Hunters’ Songwriter EJAE Triumph at World Soundtrack Awards",
+      "category": "Music",
+      "summary": "Daniel Pemberton was named Film Composer of the Year at the World Soundtrack Awards on Saturday, capping a prolific run that includes “Project Hail Mary,” “The Drama,” “The Bad Guys 2” and “Masters of the Universe.” The British composer has now won three times at the Ghent-based ceremony, taking the top prize in 2021 and […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/",
+      "published_at": "2026-10-10T20:40:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "5a6a2ad9fd6da36128",
+      "title": "Ava DuVernay Sounds the Alarm Over the “Erosion of Democracy” at ’14th’ World Premiere: “We Need to Fight”",
+      "category": "Entertainment",
+      "summary": "The Netflix documentary about the significance of and challenges to the 14th Amendment to the U.S. Constitution was the closing night screening at the 2026 New York Film Festival.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-need-to-fight-democracy-14th-premiere-1236726993/",
+      "published_at": "2026-10-10T20:31:10Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "76c8da9b35bc28cd51",
+      "title": "Anime Series ‘Sentinel 6’ in Development With NBA and NFL Pros Michael Carter-Williams and Jamaal Williams as EPs",
+      "category": "Entertainment",
+      "summary": "Influencer King Vader is among the voice cast, with LeSean Thomas of ‘Bass x Machina’ and ‘The Boondocks’ credited as the pilot writer and a consulting producer on the Afro-futurist sci-fi adventure.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/anime-sentinel-6-king-vader-lesean-thomas-nfl-nba-veterans-1236726994/",
+      "published_at": "2026-10-10T20:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6d82ba7e69654c480a",
+      "title": "Oh lord, now those GTA 6 leakers are saying if enough of you give them money they'll leak a playable build of the game",
+      "category": "Gaming",
+      "summary": "You can wait another month and some change to play GTA 6 , right? I mean, everyone reading this who has a console, anyway, still no bloomin' sight of a PC release date.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/oh-lord-now-those-gta-6-leakers-are-saying-if-enough-of-you-give-them-money-theyll-leak-a-playable-build-of-the-game",
+      "published_at": "2026-10-10T20:24:35Z",
+      "image_url": "https://assetsio.gnwcdn.com/gta-6-grand-theft-auto-6-main-characters-hot-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "243dd8e6cdb4efe81b",
+      "title": "‘Star Trek: Starfleet Academy’ Season 2 Adds Bill Nighy, Rosemarie DeWitt in Guest Roles",
+      "category": "Entertainment",
+      "summary": "Bill Nighy and Rosemarie DeWitt are set to guest star in “Star Trek: Starfleet Academy” Season 2. The announcement was revealed during the “Star Trek” panel at New York Comic-Con on Saturday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/starfleet-academy-season-2-bill-nighy-rosemarie-dewitt-1236907534/",
+      "published_at": "2026-10-10T20:15:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Bill-Nighy-Rosemarie-DeWitt-Starfleet-Academy.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1dfc8ba136c2ce3a61",
+      "title": "‘Star Trek: Starfleet Academy’ Season 2 to Premiere March 2027, Bill Nighy and Rosemarie DeWitt to Guest Star",
+      "category": "Entertainment",
+      "summary": "The news was shared on a Paramount+ panel at New York Comic Con on Saturday, which also featured a conversation with William Shatner and Ben Stiller.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/star-trek-starfleet-academy-season-2-premiere-bill-nighy-1236726989/",
+      "published_at": "2026-10-10T20:15:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "86f7bba5ee6a0cbe3f",
+      "title": "Where to Watch WWE Money in the Bank 2026 Online",
+      "category": "Entertainment",
+      "summary": "This year's wrestling event is held at New Orleans' Smoothie King Center on Saturday, Oct. 10.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-wwe-money-in-the-bank-2026-streaming-free-1236726980/",
+      "published_at": "2026-10-10T20:10:03Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "5ecceacaa654471c2c",
       "title": "Joseph Gordon-Levitt Says A.I. Is Being Trained to ‘Hijack Your Intimacy’: ‘We Should Be Concerned’",
@@ -83,38 +563,6 @@
       ]
     },
     {
-      "id": "10565ce03f697c3ac3",
-      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-      "category": "World",
-      "summary": "Isaias made landfall in Florida on late Friday before being downgraded to a post-tropical cyclone.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T19:08:17Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfd2/live/7e8f55f0-c4df-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "5b619ee3b53507e8d1",
-      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-      "category": "Science",
-      "summary": "Isaias made landfall in Florida on late Friday before being downgraded to a post-tropical cyclone.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T19:08:17Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfd2/live/7e8f55f0-c4df-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
       "id": "8d9501dec95a1d72d0",
       "title": "Alabama vs. Georgia: Where to Watch the SEC Game Online",
       "category": "Entertainment",
@@ -144,22 +592,6 @@
       "video_id": null,
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "11f56c5727f95679a2",
-      "title": "Several injured in attack on airport in Saudi capital Riyadh",
-      "category": "World",
-      "summary": "The US embassy says it is \"aware of attacks on King Khalid International Airport\", which come days after Yemen's Houthis said they had struck it.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T18:37:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/882f/live/23bf5530-c4c1-11f1-9ce9-55293bd7f0d9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -912,22 +1344,6 @@
       "video_id": null,
       "topics": [
         "Science"
-      ]
-    },
-    {
-      "id": "b5f192cad039ac8e49",
-      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
-      "category": "World",
-      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T14:16:50Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ce/live/569e8e50-c49c-11f1-869c-8f95c437952a.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -2963,54 +3379,6 @@
       ]
     },
     {
-      "id": "4fa2ef013ac1a655fe",
-      "title": "When is the point of no return in Fire Emblem Fortune's Weave",
-      "category": "Gaming",
-      "summary": "Fire Emblem Fortune's Weave's has two points of no return, one of which is the cutoff for recruiting new characters.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-point-of-no-return-recruitment-cutoff/",
-      "published_at": "2026-10-09T20:37:14Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/fire-emblem-fortunes-weave-point-of-no-return.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6464ed6fc797162fb9",
-      "title": "Trump Taps ‘Devoted Fan’ Katie Zacharia, a Fox News and CNN Commentator, as White House Press Secretary",
-      "category": "Entertainment",
-      "summary": "President Donald Trump announced that he’s picked Katie Zacharia, a conservative commentator who has regularly appeared on Fox News, CNN and Newsmax, to be the new White House press secretary. She takes over the role from Karoline Leavitt, who is joining Fox News as a contributor.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/trump-katie-zacharia-white-house-press-secretary-fox-news-1236906962/",
-      "published_at": "2026-10-09T20:12:21Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Katie-Zacharia.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c95bd3cd44e4c9be3b",
-      "title": "Best gifts for each character in Fire Emblem: Fortune's Weave",
-      "category": "Gaming",
-      "summary": "Our Fire Emblem Fortune's Weave gift guide lists the best gifts for every character",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-best-gifts-each-character/",
-      "published_at": "2026-10-09T20:02:41Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/fire-emblem-fortunes-weave-gifts.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "a5e9a6ff8142619ce4",
       "title": "Bella Poarch Meets Her Total Opposite On Her Dodo Dream Date | The Dodo",
       "category": "Animals",
@@ -3024,54 +3392,6 @@
       "video_id": "pPw0ttryIC4",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "bb9cd9429d440edda3",
-      "title": "Wood Street Steps in Philadelphia, Pennsylvania",
-      "category": "Travel",
-      "summary": "The Wood Street Steps are the last surviving examples of 10 or more stairways Philadelphia founder William Penn commissioned along the original Delaware Riverbank. Why are they important? Penn felt all citizens should have public access to the river wharves. Some early wealthy Quakers, who owned land there, disagreed.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Atlas Obscura",
-      "source_url": "https://www.atlasobscura.com/places/the-william-penn-wood-street-steps",
-      "published_at": "2026-10-09T20:00:00Z",
-      "image_url": "https://img.atlasobscura.com/yK4lNv_lSnfXanbCzweofQdnZqClBMU0L50jtRo-Hxg/rs:fill:300:200:1/g:ce/c:1481:987:nowe:319:236/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xOGU3/YzUzMy0wOThiLTQ3/NDItYWE2YS1lMjBi/OTE2MWM3OTc0M2Rm/ZWY3MjVlNGVjZDhj/MWFfZTdlYmMxOGUt/Njg2Yy00OTk1LTkx/YzQtMTc3ODE2OTVh/MzI3MmUzODc2YzY1/YjFjMDI4ZTY4X0lN/R180NjgwIFdvb2Qg/U3RyZWV0IFN0ZXBz/LmpwZWc.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "1047e7bb29ca8ad980",
-      "title": "Don't worry, Valve: I've got your next Deadlock character concepts sorted",
-      "category": "Gaming",
-      "summary": "The Cursed Apple is ready for Humpty Dumpty and the Loch Ness Monster's Precocious Preteen Child.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/moba/dont-worry-valve-ive-got-your-next-deadlock-character-concepts-sorted/",
-      "published_at": "2026-10-09T19:41:12Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/mASQpZYrbEUNuiCoJuNnAX-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "4cccf75a5f97313354",
-      "title": "'People don't think recycling at work is part of their job description'",
-      "category": "Science",
-      "summary": "Unclear labelling as well as a lack of recycling facilities at work or in public-facing businesses is an issue.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqe8rn65yj2ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T19:11:27Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/ed655970-c3c2-11f1-8fc5-335d62f6730b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -3107,150 +3427,6 @@
       ]
     },
     {
-      "id": "2a46d9a150ee9754af",
-      "title": "‘WandaVision’ Creator Jac Schaeffer to Develop ‘Stargate’ Series at Amazon (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Jac Schaeffer is developing a new “Stargate” TV series for Amazon MGM Studios, Variety has learned exclusively from sources. The project falls under Schaeffer’s overall deal with Amazon MGM, which was announced earlier this year. According to sources, a writers’ room is expected to open in the near future.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/wandavision-jac-schaeffer-stargate-series-amazon-1236906795/",
-      "published_at": "2026-10-09T19:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Stargate-Jac-Schaeffer.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "35febd059b3b80c244",
-      "title": "Ize Press Announces Print Editions of Regas, Eat Before You Go Webtoons",
-      "category": "Anime",
-      "summary": "Regas BL series centers on crown prince whose power comes at the cost of his sanity; Eat Before You Go follows hero who returns to earth after defeating demon lord",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-09/ize-press-announces-print-editions-of-regas-eat-before-you-go-webtoons/.242614",
-      "published_at": "2026-10-09T18:45:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "e6b6aca6c3e693b7e8",
-      "title": "Yen Press Licenses Fate/strange Fake, Kino's Journey, Spice and Wolf Diner: Gourmet Exploration, More Manga/Novels",
-      "category": "Anime",
-      "summary": "Also: The Girls Adrift Among the Stars , Dungeon Master: Creating a Hot Spring Dungeon , more",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-09/yen-press-licenses-fate-strange-fake-kino-journey-spice-and-wolf-diner-gourmet-exploration-more-/.242640",
-      "published_at": "2026-10-09T18:45:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "3dc7104e747f2a786d",
-      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "category": "World",
-      "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T18:40:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70c6/live/7c05c3c0-c401-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "8c677e402573aedb63",
-      "title": "Remi Wolf on the Meaning Behind Her New Album ‘Mud,’ Her ‘Off Campus’ Cameo and Friendship with Hayley Williams",
-      "category": "Music",
-      "summary": "Remi Wolf hasn’t landed a spot on “Survivor,” one of her favorite shows she’s always wanted to be on, so she instead put her mental fortitude to the test by rolling around in a makeshift mud pit. She quickly realized she’s “never gonna make it on that show if I can’t handle this in such […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/remi-wolf-mud-off-campus-hayley-willians-1236906301/",
-      "published_at": "2026-10-09T18:32:30Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Remi-Wolf-press-photo.png",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "31f17970f74d364dc7",
-      "title": "Journey Drummer Deen Castronovo Leaves Concert After Two Songs and Is Hospitalized, as Show Eventually Resumes With Drum Tech",
-      "category": "Music",
-      "summary": "A Journey concert in Tulsa, Oklahoma had an unnerving moment Thursday night when longtime drummer Deen Castronovo had to be helped off the stage after the group had performed just two songs, leading to a substantial pause before the show resumed with a quickly drafted substitute.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/journey-drummer-deen-castronovo-leaves-concert-hospitalized-1236906851/",
-      "published_at": "2026-10-09T18:26:19Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1247424881.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "c049c699a54ea7ae09",
-      "title": "Leisure Suit Larry is about to take his final bow",
-      "category": "Gaming",
-      "summary": "The Wet Dreams games have been marked down dramatically ahead of their final removal from sale.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/adventure/leisure-suit-larry-is-about-to-take-his-final-bow/",
-      "published_at": "2026-10-09T18:20:12Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Rbv3DNDF77zRkvNUsX3X5n-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "32c99bd8775416032a",
-      "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
-      "category": "Science",
-      "summary": "NASA is advancing American leadership in space by taking the next step toward a future where commercial space stations lead the way in low Earth orbit. On Friday, the agency released its final Request for Proposals inviting industry to submit plans for the next generation of commercial space stations.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
-      "published_at": "2026-10-09T18:11:44Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "0d7ed2479e80103987",
-      "title": "Hollywood actor Luke Evans on 'joyous' four months filming in rainy Wales",
-      "category": "Entertainment",
-      "summary": "His family were on the set, and he even managed to get some relatives a cameo in the final episode.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqde873038pwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T18:02:29Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ff2/live/a2a9a270-bc14-11f1-a524-3125ac41b7f5.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "251506efd162c9018e",
       "title": "Bella Poarch On The Conversations She Has When She’s Home Alone | The Dodo",
       "category": "Animals",
@@ -3267,38 +3443,6 @@
       ]
     },
     {
-      "id": "044d636493bd0040dd",
-      "title": "High Shoals Falls in Hiawassee, Georgia",
-      "category": "Travel",
-      "summary": "High Shoals Falls is a secluded waterfall. To get there you must access the trailhead on Indian Grave Gap Rd in Hiawassee, Ga. The drive up the mountain is exhilarating. Once you reach the trailhead, you begin descending the mountain.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Atlas Obscura",
-      "source_url": "https://www.atlasobscura.com/places/high-shoals-falls",
-      "published_at": "2026-10-09T18:00:00Z",
-      "image_url": "https://img.atlasobscura.com/QFag0m9aB-gW4nI4THOHypG_xmQybe7ey0pvLvA1mbQ/rs:fill:300:200:1/g:ce/c:1533:1022:nowe:0:520/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wYTlh/MGJiYi02MjhlLTQ0/ZjYtOTBlZS1mM2Yy/Yzc3ZGY2OWI5Nzll/OGM5YTg3OGE5MTdl/MDhfSU1HXzI4ODQu/SlBFRw.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "8831b1775bffe8af1f",
-      "title": "Laika Submits Original Song From ‘Wildwood’ for Oscars, ‘The Better Part of Bravery,’ Performed by The Decemberists (EXCLUSIVE)",
-      "category": "Music",
-      "summary": "Laika will submit “The Better Part of Bravery” from the animated feature “Wildwood” for consideration in the original song category at the Academy Awards, Variety has learned. The song is performed by The Decemberists and plays at the end of the film.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/artisans/awards/laika-wildwood-oscars-decemberists-better-part-of-bravery-1236906575/",
-      "published_at": "2026-10-09T18:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/wildwoodtospict.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "84252b046937810536",
       "title": "4 Levels of Satisfying Crunches",
       "category": "Discover",
@@ -3312,102 +3456,6 @@
       "video_id": "5N17EbYJBwQ",
       "topics": [
         "Discover"
-      ]
-    },
-    {
-      "id": "36baf28f46c1cf4490",
-      "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
-      "category": "World",
-      "summary": "Pillay is recognised for her \"efforts to promote peace and international law\", the Norwegian Nobel Committee says.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T17:37:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de59/live/0e911af0-c3df-11f1-95ba-dba767ffba7e.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "c160a82920ef845298",
-      "title": "Interpol’s Paul Banks is readying an album with a new band he formed with Liars’ Aaron Hemphill in Berlin",
-      "category": "Music",
-      "summary": "\"It’s been a big part of my music journey in Berlin\" The post Interpol’s Paul Banks is readying an album with a new band he formed with Liars’ Aaron Hemphill in Berlin appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/interpols-paul-banks-is-readying-an-album-with-a-new-band-he-formed-with-liars-aaron-hemphill-in-berlin-3972835?utm_source=rss&utm_medium=rss&utm_campaign=interpols-paul-banks-is-readying-an-album-with-a-new-band-he-formed-with-liars-aaron-hemphill-in-berlin",
-      "published_at": "2026-10-09T17:33:14Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/2026_paulbanks_aaronhemphill_getty_2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "d118a207bed4d9f04a",
-      "title": "Music Industry Moves: Believe Names Adriana Sein President of Americas; Guy Moot Joins NMPA Board",
-      "category": "Music",
-      "summary": "France-based music company Believe has named Adriana Sein to the newly created role of President, Americas.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/thomas-rhett-label-partnership-hybe-blue-highway-1236899774/",
-      "published_at": "2026-10-09T17:20:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/1f21836c-a850-42f7-b7a2-1b1849e4b1f5-e1791567545383.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "bb9aad324a56632c8c",
-      "title": "Air Supply Rocks on With World Tours, a New Album and a Star on the Hollywood Walk of Fame: ‘The Term Soft Rock Makes Me Sick’",
-      "category": "Music",
-      "summary": "When it comes to Russell Hitchcock and Graham Russell — partners behind the 50-year-plus hit machine Air Supply — the only four-letter word in their vocabulary is “soft.” Sure, British-born songwriter-harmonist Russell and Australian vocalist Hitchcock sing luscious love songs like “Every Woman in the World” and “Even the…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/focus/air-supply-hollywood-walk-fame-1236906736/",
-      "published_at": "2026-10-09T17:18:10Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/HR-GettyImages-2263812087.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "2ab8415360a2d4914f",
-      "title": "\"It's not in the top five reference points\": Afterworld isn't just a Fallout grand strategy game, say Paradox, it owes a lot more to the Bronze Age",
-      "category": "Gaming",
-      "summary": "When Paradox announced their post-apocalyptic North American grand strategy game Afterworld , I made the obvious comparison to Fallout . For this I should be chained to the fender of a war rig and pelted with scoops of radioactive dogfood, while being slowly driven through a pack of three-headed coyotes.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/its-not-in-the-top-five-reference-points-afterworld-isnt-just-a-fallout-grand-strategy-game-says-paradox-it-owes-a-lot-more-to-the-bronze-age",
-      "published_at": "2026-10-09T17:15:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/afterworldcavalry.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "5ff680c27ae5916d2e",
-      "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
-      "category": "World",
-      "summary": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T17:14:44Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e67c/live/c75f8690-c3fb-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -3440,54 +3488,6 @@
       "video_id": "1YzXD7e6QIA",
       "topics": [
         "Travel"
-      ]
-    },
-    {
-      "id": "540b33889771f9deb8",
-      "title": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/grand-theft-auto/i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-imports-most-of-doom-2/",
-      "published_at": "2026-10-09T17:00:00Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/J4nVUYPeqpXTrJjXg3gKeL-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "e9180d835a4a9fc1b4",
-      "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
-      "category": "Science",
-      "summary": "NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash. When Northrop Grumman 24th cargo resupply mission for NASA undocked from the International Space Station, it carried a fleet of 12 small, experimental capsules designed to […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
-      "published_at": "2026-10-09T16:59:24Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "6a4bad4da93aa96a55",
-      "title": "Isaias becomes major category three storm before landfall",
-      "category": "Science",
-      "summary": "Isaias, the first hurricane of the Atlantic season has been continuing to strengthen and is now a category three 'major' hurricane.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/videos/cmewe552de72o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T16:46:32Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73f6/live/ed683ba0-c3ee-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -4994,8 +4994,8 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
@@ -5004,8 +5004,8 @@
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "TED · YouTube",
@@ -5014,13 +5014,13 @@
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Dude Perfect · YouTube",
@@ -5029,8 +5029,8 @@
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
@@ -5039,23 +5039,23 @@
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Dragon Ball Official (curated)",
