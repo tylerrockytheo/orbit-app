@@ -212,21 +212,17 @@ function reelShelf(){
     +'<span class="reels-tile__shade"><b>'+escape(p.title)+'</b><small>'+escape(p.category)+'</small></span></button>').join('')
     +'</div></section>';
 }
-function reelPoster(p){
-  return '<button type="button" class="reel-poster" data-reel-play="'+escape(p.id)+'" aria-label="Play '+escape(p.title)+'">'
+
+const REEL_AHEAD=4;
+const REEL_RECENT_EXCLUDE=7;
+function reelPoster(p,index){
+  return '<button type="button" class="reel-poster" data-reel-play="'+index+'" aria-label="Play '+escape(p.title)+'">'
     +'<img src="'+escape(p.image_url||'https://i.ytimg.com/vi/'+p.video_id+'/hqdefault.jpg')+'" alt="" loading="lazy">'
     +'<span class="reel-poster__play">'+svg('Play')+'</span></button>';
 }
-function reelView(){
-  const clips=activeReelQueue||reelItems();
-  activeReelQueue=clips;
-  if(!clips.length)return '<div class="reels-empty"><button type="button" data-reels-close>← Back</button><h2>No videos yet</h2><p>Refresh Home later for new clips and creator videos.</p></div>';
-  return '<section class="reels-view" aria-label="Swipe through videos">'
-    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><button type="button" class="reels-sound" id="reels-sound" data-reels-sound aria-label="Turn sound '+(reelSoundOn?'off':'on')+'" aria-pressed="'+String(reelSoundOn)+'">'+(reelSoundOn?'🔊':'🔇')+'</button><span class="reels-count" id="reels-count">1 / '+clips.length+'</span></div>'
-    +'<div class="reels-audio-indicator" id="reels-audio-indicator" aria-hidden="true"></div>'
-    +'<div class="reels-scroll" id="reels-scroll" aria-label="Scroll up for the next video">'
-    +clips.map((p,i)=>'<article class="reel" data-reel-index="'+i+'" data-reel-id="'+escape(p.id)+'" aria-label="Video '+(i+1)+': '+escape(p.title)+'">'
-    +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p)+'</div>'
+function reelCard(p,i){
+  return '<article class="reel" data-reel-index="'+i+'" data-reel-id="'+escape(p.id)+'" aria-label="Video '+(i+1)+': '+escape(p.title)+'">'
+    +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p,i)+'</div>'
     +'<div class="reel-shade" aria-hidden="true"></div>'
     +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Toggle sound without pausing video" tabindex="-1"></button>'
     +'<div class="reel-caption"><div class="reel-tag">'+escape(p.category)+' · YouTube</div>'
@@ -239,7 +235,23 @@ function reelView(){
     +'<button type="button" data-share="'+escape(p.id)+'" aria-label="Share video">'+svg('Share')+'<span>Share</span></button>'
     +'<button type="button" data-options="'+escape(p.id)+'" aria-label="More options">'+svg('More')+'<span>Options</span></button>'
     +'<button type="button" data-reels-next="'+i+'" aria-label="Next video">↓<span>Next</span></button>'
-    +'</div></article>').join('')
+    +'</div></article>';
+}
+function reelView(){
+  if(!activeReelQueue){
+    const all=rankReelCandidates();
+    const first=(requestedReel&&all.find(p=>p.id===requestedReel))||all[0];
+    const other=first?all.filter(p=>p.video_id!==first.video_id).slice(0,REEL_AHEAD):[];
+    activeReelQueue=first?[first,...other]:[];
+    reelBaseIndex=0;requestedReel=null;
+  }
+  const clips=activeReelQueue;
+  if(!clips.length)return '<div class="reels-empty"><button type="button" data-reels-close>← Back</button><h2>No videos yet</h2><p>New videos will appear when our sources update.</p></div>';
+  return '<section class="reels-view" aria-label="Swipe through recommended videos">'
+    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><button type="button" class="reels-sound" id="reels-sound" data-reels-sound aria-label="Turn sound '+(reelSoundOn?'off':'on')+'" aria-pressed="'+String(reelSoundOn)+'">'+(reelSoundOn?'🔊':'🔇')+'</button><span class="reels-count" id="reels-status" aria-live="polite">✦ Personalised</span></div>'
+    +'<div class="reels-audio-indicator" id="reels-audio-indicator" aria-hidden="true"></div>'
+    +'<div class="reels-scroll" id="reels-scroll" aria-label="Swipe up for more videos">'
+    +clips.map((p,i)=>reelCard(p,i)).join('')
     +'</div></section>';
 }
 function resetReelPlayer(index){
