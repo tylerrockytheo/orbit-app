@@ -45,15 +45,18 @@ const document={
 };
 class PlayerMock{
  constructor(frame,config){
-   this.frame=frame;
+   this.frame=frame;this.muted=false;this.playing=true;
    Promise.resolve().then(()=>config.events.onReady({target:this}));
  }
  getCurrentTime(){return 30}
  getDuration(){return 120}
- isMuted(){return false}
+ getPlayerState(){return this.playing?1:2}
+ isMuted(){return this.muted}
  seekTo(seconds,allowed){actions.push({type:'seek',seconds,allowed})}
- mute(){actions.push({type:'mute'})}
- unMute(){actions.push({type:'unmute'})}
+ mute(){this.muted=true;actions.push({type:'mute'})}
+ unMute(){this.muted=false;actions.push({type:'unmute'})}
+ pauseVideo(){this.playing=false;actions.push({type:'pause'})}
+ playVideo(){this.playing=true;actions.push({type:'play'})}
  setVolume(value){actions.push({type:'volume',value})}
 }
 const location={origin:'https://orbit.example',pathname:'/orbit/',href:'https://orbit.example/orbit/'};
@@ -81,6 +84,16 @@ slider.value='500';
 await events.get('input')({target:slider});
 await events.get('change')({target:slider});
 assert.ok(actions.some(x=>x.type==='seek'&&x.seconds===60&&x.allowed===true));
+await click({reelsAudioTap:'0'});
+assert.ok(actions.some(x=>x.type==='pause'),'sound-on tap should pause playing video');
+await click({reelsAudioTap:'0'});
+assert.ok(actions.some(x=>x.type==='play'),'second tap should resume');
+await click({reelsSound:''});
+assert.equal(actions.at(-1).type,'mute','only speaker should mute');
+const pauseCount=actions.filter(x=>x.type==='pause').length;
+await click({reelsAudioTap:'0'});
+assert.equal(actions.filter(x=>x.type==='pause').length,pauseCount,'muted tap must not pause');
+assert.ok(actions.some(x=>x.type==='unmute'),'muted tap should unmute');
 await click({playerControls:''});
 assert.ok(reelClasses.has('native-controls'),'native player mode should expose YouTube skip-ad controls');
 await click({playerControls:''});
