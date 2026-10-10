@@ -210,6 +210,62 @@ def extract_items(xml: bytes, source: dict) -> list[dict]:
     return records
 
 
+def youtube_api_fallback(source: dict, key: str, opener=urllib.request.urlopen) -> list[dict]:
+    """Optional official YouTube Data API fallback when a public channel feed 404s.
+
+    Requires YOUTUBE_API_KEY as a private GitHub Actions secret. We retrieve
+    channel upload playlist items (read-only), not search/scraping/downloads.
+    """
+    channel = str(source.get('channel') or '')
+    if not re.fullmatch(r'UC[A-Za-z0-9_-]{22}', channel) or not key:
+        return []
+    playlist = 'UU' + channel[2:]
+    params = urllib.parse.urlencode({
+        'part': 'snippet,contentDetails',
+        'playlistId': playlist,
+        'maxResults': min(40, max(8, int(source.get('cap', 8)))),
+        'key': key,
+    })
+    url = 'https://www.googleapis.com/youtube/v3/playlistItems?' + params
+    request = urllib.request.Request(url, headers={'Accept': 'application/json'})
+    with opener(request, timeout=12) as response:
+        data = json.loads(response.read(1_000_000))
+    rows = []
+    for entry in data.get('items', [])[:source.get('cap', 8)]:
+        snippet = entry.get('snippet') or {}
+        details = entry.get('contentDetails') or {}
+        vid = str(details.get('videoId') or (snippet.get('resourceId') or {}).get('videoId') or '')
+        title = clean(snippet.get('title'))[:220]
+        if not re.fullmatch(r'[A-Za-z0-9_-]{11}', vid) or not title or title.casefold() in {'private video','deleted video'}:
+            continue
+        published = datetime_iso(details.get('videoPublishedAt') or snippet.get('publishedAt'))
+        if published:
+            try:
+                age = (NOW - dt.datetime.fromisoformat(published.replace('Z', '+00:00'))).total_seconds() / 86400
+                if age > MAX_VIDEO_AGE_DAYS or age < -2:
+                    continue
+            except ValueError:
+                continue
+        link = 'https://www.youtube.com/watch?v=' + vid
+        summary = description(snippet.get('description'))
+        thumbs = snippet.get('thumbnails') or {}
+        thumb = (thumbs.get('high') or thumbs.get('medium') or thumbs.get('default') or {}).get('url')
+        category = source['category']
+        if source['label'] == 'IGN · YouTube' and category == 'Gaming' and not re.search(
+            r'\b(gameplay|video game|game|gaming|indie|unreal|steam|playstation|xbox|nintendo|switch|vr|mod|ps5)\b',
+            title, re.I):
+            category = 'Entertainment'
+        rows.append({
+            'id': hashlib.sha256((source['label'] + '|' + link).encode()).hexdigest()[:18],
+            'title': title, 'category': category, 'summary': summary,
+            'summary_status': 'publisher_excerpt' if summary else 'unavailable',
+            'source_name': source['label'], 'source_url': link, 'published_at': published,
+            'image_url': valid_http(thumb, True) or f'https://i.ytimg.com/vi/{vid}/hqdefault.jpg',
+            'media_type': 'video', 'video_id': vid, 'topics': [category]
+        })
+    return rows
+
+
 def fetch_source(source: dict) -> tuple[str, list[dict], str | None]:
     url = source['url']
     try:
@@ -222,6 +278,17 @@ def fetch_source(source: dict) -> tuple[str, list[dict], str | None]:
         items = extract_items(raw, source)
         return source['label'], items, None
     except Exception as e:
+        if 'channel' in source:
+            key = os.getenv('YOUTUBE_API_KEY', '').strip()
+            if key:
+                try:
+                    items = youtube_api_fallback(source, key)
+                    if items:
+                        return source['label'], items, None
+                    return source['label'], [], 'YouTube RSS failed; official API returned no uploads'
+                except Exception as api_error:
+                    # Never log a URL containing the secret API key.
+                    return source['label'], [], f'YouTube RSS failed; API error: {type(api_error).__name__}'
         return source['label'], [], f'{type(e).__name__}: {str(e)[:120]}'
 
 
