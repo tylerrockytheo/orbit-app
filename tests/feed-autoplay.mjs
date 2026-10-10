@@ -8,7 +8,7 @@ function node(id){
    id,innerHTML:'',textContent:'',hidden:true,value:'',style:{},dataset:{},clientHeight:700,scrollTop:0,
    classList:{toggle(){},add(){},remove(){}},
    setAttribute(){},removeAttribute(){},replaceChildren(){},
-   querySelector(tag){if(tag==='iframe'&&this.innerHTML.includes('class="video-frame"'))return {src:'stub',contentWindow:{postMessage(message){playerCommands.push(JSON.parse(message))}}};return null},
+   querySelector(tag){if(tag==='iframe'&&this.innerHTML.includes('class="video-frame'))return {src:'stub',contentWindow:{postMessage(message){playerCommands.push(JSON.parse(message))}}};return null},
    querySelectorAll(){return []},scrollTo(){}
  });
  return nodes.get(id);
