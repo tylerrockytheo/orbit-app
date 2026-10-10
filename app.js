@@ -94,7 +94,8 @@ function toggleLike(id){
     delete lessLiked[id];
   }
   feedback=feedbackProfile();persist();updateLikeButtons(id);
-  toast(likes[id]?'Liked · your feed will adapt':'Like removed');
+  if(tab==='Reels')refreshUpcomingReels();
+  toast(likes[id]?'Liked · next Reels updated':'Like removed · next Reels updated');
 }
 function showLessLike(p){
   if(!p)return;
@@ -254,6 +255,84 @@ function reelView(){
     +clips.map((p,i)=>reelCard(p,i)).join('')
     +'</div></section>';
 }
+
+/* Keep a small look-ahead, then score each NEW slot against the latest Likes.
+   Unlike an immutable playlist, upcoming items can be replaced without touching
+   the current iframe, playback position, or previous clips. */
+function ensureReelBuffer(){
+  if(tab!=='Reels'||!activeReelQueue)return;
+  const scroller=document.getElementById('reels-scroll');
+  if(!scroller)return;
+  const target=Math.max(REEL_AHEAD+1,reelActiveIndex+REEL_AHEAD+1);
+  let attempts=0;
+  while(activeReelQueue.length<target&&attempts++<REEL_AHEAD+3){
+    const reserved=new Set(activeReelQueue.map(p=>p.video_id));
+    const recent=activeReelQueue.slice(-REEL_RECENT_EXCLUDE);
+    let candidates=rankReelCandidates(reserved,recent);
+    let replay=false;
+    if(!candidates.length){
+      // Exhausted the unique catalog: refresh sources, then cycle older clips.
+      maybeRefreshReelCatalog();
+      const lastFew=new Set(recent.map(p=>p.video_id));
+      candidates=rankReelCandidates(lastFew,recent);
+      if(!candidates.length&&activeReelQueue.length>1){
+        candidates=rankReelCandidates(new Set([activeReelQueue.at(-1).video_id]),recent);
+      }
+      replay=true;
+    }
+    if(!candidates.length)break;
+    const p=replay?{...candidates[0],replayed:true}:candidates[0];
+    const index=activeReelQueue.length;
+    activeReelQueue.push(p);
+    scroller.insertAdjacentHTML('beforeend',reelCard(p,index));
+    const node=scroller.querySelector('[data-reel-index="'+index+'"]');
+    if(node)reelsObserver?.observe(node);
+  }
+}
+/* A Like refreshes only FUTURE clips. Never replace the visible player. */
+function refreshUpcomingReels(){
+  if(tab!=='Reels'||!activeReelQueue||reelActiveIndex<0)return;
+  const scroll=document.getElementById('reels-scroll');
+  if(!scroll)return;
+  for(const node of [...scroll.querySelectorAll('.reel')]){
+    if(Number(node.dataset.reelIndex)>reelActiveIndex){
+      reelsObserver?.unobserve?.(node);node.remove();
+    }
+  }
+  activeReelQueue.length=reelActiveIndex+1;
+  ensureReelBuffer();
+  const status=document.getElementById('reels-status');
+  if(status)status.textContent='✦ Updated for you';
+}
+/* Refresh the provider catalog while the viewer stays open.
+   Github Actions updates the underlying RSS data approximately hourly.
+   This request only picks up newly published items; it cannot manufacture new videos. */
+async function maybeRefreshReelCatalog(){
+  if(tab!=='Reels'||Date.now()-reelRefreshAt<90000||reelRefillPromise)return;
+  reelRefreshAt=Date.now();
+  reelRefillPromise=(async()=>{
+    let result=null;
+    for(const url of [RAW+'?reels='+Date.now(),STATIC+'?reels='+Date.now()]){
+      try{result=await fetchJson(url,8500);if(result.posts.length)break}catch(e){console.debug('Reels catalog still cached',e)}
+    }
+    if(!result||!Array.isArray(result.posts))return;
+    const known=new Set(posts.map(p=>p.id));
+    let added=0;
+    for(const row of result.posts){
+      const p=normalise(row,'rss');
+      if(p&&!known.has(p.id)){
+        posts.push(p);known.add(p.id);if(p.video_id)added++;
+      }
+    }
+    if(added&&tab==='Reels'){
+      refreshUpcomingReels();
+      const status=document.getElementById('reels-status');
+      if(status)status.textContent='✦ New videos';
+    }
+  })().catch(err=>console.debug('Reels refresh unavailable',err)).finally(()=>{reelRefillPromise=null});
+  return reelRefillPromise;
+}
+
 function resetReelPlayer(index){
   const p=reelItems()[index];
   const media=document.getElementById('reel-media-'+index);
