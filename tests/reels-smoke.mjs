@@ -99,7 +99,7 @@ assert.equal(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1'],undefined);
 assert.ok(JSON.parse(storage.get('orbit_bookmarks_v2'))['rss:clip1']);
 await click({reelsRefresh:''});
 assert.ok(node('app').innerHTML.includes('reels-scroll')||node('app').innerHTML.includes('caught up'),'refresh must not navigate to Home');
-assert.equal(storage.get('orbit_last_active_tab_v1'),'Reels');
+assert.equal(JSON.parse(storage.get('orbit_last_active_tab_v1')),'Reels');
 const firstClipId=node('app').innerHTML.match(/data-reel-index="0" data-reel-id="([^"]+)"/)?.[1];
 await click({reelsClose:''});
 assert.match(node('app').innerHTML,/class="reels-shelf"/);
