@@ -208,7 +208,7 @@ function showLessLike(p){
 
 function interestScore(p){let n=+(weights[p.category]||0)+interestFeedbackScore(p)+postFreshness(p)*.5;const low=p.title.toLowerCase();if(/dragon ball|goku|vegeta/i.test(low))n+=+(weights['Dragon Ball']||0)+12;if(/anime|manga/i.test(low))n+=+(weights.Anime||0);if(/\bai\b|robot|openai|google deepmind|machine learning|gemini|\bllm\b/i.test(low))n+=+(weights['AI & Tech']||0)*.45;if(/fitness|muscle|training|bodybuild/i.test(low))n+=+(weights.Fitness||0);return n}
 function mix(items){const byCategory=new Map();for(const item of items){const group=byCategory.get(item.category)||[];group.push(item);byCategory.set(item.category,group)}for(const group of byCategory.values())group.sort((a,b)=>interestScore(b)-interestScore(a)||new Date(b.published_at||0)-new Date(a.published_at||0));const result=[];let last='';while(result.length<items.length){const groups=[...byCategory].filter(([,arr])=>arr.length);if(!groups.length)break;groups.sort((a,b)=>{const na=interestScore(a[1][0])+(a[1][0].media_type==='video'?3:0)-(a[0]===last?22:0)-result.filter(p=>p.category===a[0]).length*2;const nb=interestScore(b[1][0])+(b[1][0].media_type==='video'?3:0)-(b[0]===last?22:0)-result.filter(p=>p.category===b[0]).length*2;return nb-na});const selected=groups[0];result.push(selected[1].shift());last=selected[0]}return result}
-function selection(){let items=posts.filter(p=>!muted.has(p.category));if(tab==='Saved')return Object.values(bookmarks).sort((a,b)=>new Date(b.saved_at)-new Date(a.saved_at));if(tab==='World')items=items.filter(p=>['World','Science','Health','Health & Science','Business','Politics','AI & Tech','Technology'].includes(p.category));if(tab==='Explore'){if(filter==='Videos')items=items.filter(p=>p.media_type==='video');else if(filter!=='All')items=items.filter(p=>p.category===filter);return items.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0))}if(tab==='Search')return items.filter(p=>(p.title+' '+(p.summary||'')+' '+p.category).toLowerCase().includes(searchTerm.toLowerCase()));return mix(items)}
+function selection(){let items=posts.filter(p=>!muted.has(p.category));if(tab==='Home'||tab==='World')items=items.filter(p=>!isReelClip(p));if(tab==='Saved')return Object.values(bookmarks).sort((a,b)=>new Date(b.saved_at)-new Date(a.saved_at));if(tab==='World')items=items.filter(p=>['World','Science','Health','Health & Science','Business','Politics','AI & Tech','Technology'].includes(p.category));if(tab==='Explore'){if(filter==='Videos')items=items.filter(p=>p.media_type==='video');else if(filter!=='All')items=items.filter(p=>p.category===filter);return items.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0))}if(tab==='Search')return items.filter(p=>(p.title+' '+(p.summary||'')+' '+p.category).toLowerCase().includes(searchTerm.toLowerCase()));return mix(items)}
 function imageCard(p){
   const img=p.image_url?'<img class="post-img" loading="lazy" src="'+escape(p.image_url)+'" alt="" onerror="this.closest(\'.media-wrap\').style.display=\'none\'">':'';
   if(hasPlayableClip(p)&&p.platform!=='youtube'){
@@ -259,6 +259,18 @@ function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><
 /* Reels: a private, vertically swiped video feed using real creator videos.
    Playback is initiated by a tap; subsequent clips try muted autoplay.
    YouTube's own embedding permissions and mobile autoplay rules still apply. */
+/* Keep the regular feed editorial: premieres, trailers and explainers live
+   alongside articles; casual shorts and creator clips live in Reels. */
+function isFeatureVideo(p){
+  if(!hasPlayableClip(p))return false;
+  if(p.platform!=='youtube')return false;
+  const title=String(p.title||'');
+  if(/#shorts?\b|#reels?\b|#tiktok\b/i.test(title))return false;
+  return /official (?:teaser|trailer)|\btrailer\b|\bfeaturette\b|behind.the.scenes|\bbreakdown\b|\bdocumentary\b|\breview\b|\binterview\b|\btutorial\b|\bfull (?:video|episode)\b|\bhow to\b/i.test(title)
+    || /Google Developers|TED · YouTube/i.test(p.source_name);
+}
+function isReelClip(p){return hasPlayableClip(p)&&!isFeatureVideo(p)}
+
 function reelItems(){return tab==='Reels'&&activeReelQueue?activeReelQueue:rankReelCandidates()}
 // Rank unseen videos *when needed*, not just once when opening Reels.
 // Explicit likes and "less like this" feedback affect the next recommendations.
@@ -275,7 +287,7 @@ function postFreshness(p){
   return -Math.min(130,Math.floor(days-14)*2.5);
 }
 function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
-  const candidates=posts.filter(p=>hasPlayableClip(p)&&!muted.has(p.category)&&!excluded.has(clipIdentity(p)));
+  const candidates=posts.filter(p=>isReelClip(p)&&!muted.has(p.category)&&!excluded.has(clipIdentity(p)));
 
   if(!candidates.length)return [];
   const basePriorities={
@@ -320,7 +332,7 @@ function rankReelCandidates(excluded=new Set(),recent=[],limit=Infinity){
   return ordered;
 }
 function reelShelf(){
-  const clips=reelItems().slice(0,9);
+  const clips=rankReelCandidates(new Set(recentWatched)).slice(0,9);
   if(!clips.length)return '';
   return '<section class="reels-shelf" aria-label="Video discoveries">'
     +'<div class="reels-shelf__head"><div><h2>Reels for you</h2><p>Videos picked for your interests</p></div>'
