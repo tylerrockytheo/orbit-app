@@ -33,7 +33,6 @@ SOURCES = [
     dict(label='Atlas Obscura', category='Travel', url='https://www.atlasobscura.com/feeds/latest', cap=8),
     dict(label='Anime News Network', category='Anime', url='https://www.animenewsnetwork.com/all/rss.xml', cap=12),
     # Google News returns individual article cards, not generic search links.
-    dict(label='Google News · Dragon Ball', category='Dragon Ball', url='https://news.google.com/rss/search?q=site%3Aen.dragon-ball-official.com%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen', cap=8),
     dict(label='IGN · YouTube', category='Gaming', channel='UCKy1dAqELo0zrOtPkf0eTMw', cap=8),
     dict(label='Google Developers · YouTube', category='AI & Tech', channel='UC_x5XG1OV2P6uZZ5FSM9Ttw', cap=7),
     dict(label='Rick Beato · YouTube', category='Music', channel='UCJquYOG5EL82sKTfH9aMA9Q', cap=8),
@@ -166,9 +165,11 @@ def extract_items(xml: bytes, source: dict) -> list[dict]:
             summary = None
         stable = hashlib.sha256((source['label'] + '|' + url).encode()).hexdigest()[:18]
         category = source['category']
-        if category == 'Gaming' and re.search(r'\b(trailer|gameplay|review|games|gaming|indie|unreal|steam)\b', title, re.I) is None:
+        if category == 'Gaming' and re.search(r'\b(gameplay|video game|game|gaming|indie|unreal|steam|playstation|xbox|nintendo|switch)\b', title, re.I) is None:
             # Official gaming channel posts also include film; don't falsely classify them as gaming.
             category = 'Entertainment'
+        if re.search(r'\b(cancer|clinical|medicine|patient|disease|health|exercise|hospital|treatment)\b', title, re.I) and category == 'Science':
+            category = 'Health & Science'
         records.append({
             'id': stable,
             'title': title[:220],
@@ -201,6 +202,42 @@ def fetch_source(source: dict) -> tuple[str, list[dict], str | None]:
         return source['label'], [], f'{type(e).__name__}: {str(e)[:120]}'
 
 
+
+
+def official_dragon_ball_posts() -> list[dict]:
+    """A few directly verified official sources until an approved official syndication feed exists.
+
+    These are editorially selected links, not scraped articles or live publisher feeds.
+    Do not alter the original publication dates when regenerating the feed.
+    """
+    items = [
+        ('Dragon Ball Super: Beerus — premiere guide for October 11',
+         'The official Dragon Ball site has published a guide to the anime premiere, with the Japanese broadcast schedule, streaming information, trailers and theme music.',
+         'https://en.dragon-ball-official.com/news/01_4487.html', '2026-10-09T00:00:00Z', None),
+        ('Dragon Ball Super: Beerus panel draws 3,000 fans at New York Comic Con',
+         'According to the official series report, fans attended a screening of the first episode alongside a panel featuring English dub cast members.',
+         'https://en.dragon-ball-official.com/news/01_4509.html', '2026-10-09T00:00:00Z', None),
+        ('Dragon Ball Super: Beerus launches promotional campaign',
+         'The official site reports themed advertising across several Japanese cities, New York and Los Angeles ahead of the series premiere.',
+         'https://en.dragon-ball-official.com/news/01_4488.html', '2026-10-07T00:00:00Z', None),
+        ('Watch the official Dragon Ball Super: Beerus Super Surge trailer',
+         'The official Dragon Ball site links this trailer as part of its September announcement for the anime.',
+         'https://www.youtube.com/watch?v=CFgEL7ei8VE', '2026-09-02T00:00:00Z', 'CFgEL7ei8VE'),
+    ]
+    result = []
+    for title, summary, url, published, video_id in items:
+        result.append({
+            'id': hashlib.sha256(('curated-official|' + url).encode()).hexdigest()[:18],
+            'title': title, 'category': 'Dragon Ball', 'summary': summary,
+            'summary_status': 'curated_from_official',
+            'source_name': 'Dragon Ball Official' if not video_id else 'Dragon Ball Official · YouTube',
+            'source_url': url, 'published_at': published,
+            'image_url': f'https://i.ytimg.com/vi/{video_id}/hqdefault.jpg' if video_id else None,
+            'media_type': 'video' if video_id else 'article', 'video_id': video_id,
+            'topics': ['Dragon Ball', 'Anime'],
+        })
+    return result
+
 def load_previous() -> list[dict]:
     try:
         return json.loads(OUT.read_text(encoding='utf-8')).get('posts', [])
@@ -212,6 +249,8 @@ def keep_previous(posts: list[dict]) -> list[dict]:
     cutoff = NOW - dt.timedelta(days=MAX_AGE_DAYS)
     result = []
     for post in posts:
+        if str(post.get('source_name', '')).startswith('Google News · Dragon Ball'):
+            continue  # older syndication links included merch/game posts
         try:
             when = dt.datetime.fromisoformat(post['published_at'].replace('Z', '+00:00'))
         except (ValueError, KeyError, TypeError, AttributeError):
@@ -230,6 +269,8 @@ def collect(fetcher=fetch_source) -> dict:
             stats.append({'name': name, 'items': len(items), 'error': error})
             logging.info('%s: %s records%s', name, len(items), ' (%s)' % error if error else '')
             fetched.extend(items)
+    fetched.extend(official_dragon_ball_posts())
+    stats.append({'name': 'Dragon Ball Official (curated)', 'items': len(official_dragon_ball_posts()), 'error': None})
     if not fetched and not previous:
         raise RuntimeError('No public feeds responded and no prior data available; refusing empty deployment')
     posts_by_id = {p['id']: p for p in previous}
