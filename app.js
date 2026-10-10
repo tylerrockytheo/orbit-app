@@ -5,7 +5,7 @@ const STATIC='./data/feed.json';
 const RAW='https://raw.githubusercontent.com/tylerrockytheo/orbit-app/main/data/feed.json';
 const DEFAULT_TOPICS=['Dragon Ball','Anime','AI & Tech','Gaming','Music','Fitness','Travel','World','Science','Business','Entertainment','Discover'];
 const DEFAULT_WEIGHTS={'Dragon Ball':19,'Anime':11,'AI & Tech':19,'Gaming':13,'Music':13,'Fitness':10,'Travel':9,'World':8,'Science':10,'Business':12,'Entertainment':8,'Discover':8};
-const icons={Home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/>',World:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-6 6-6 12 0 18m0-18c6 6 6 12 0 18"/>',Explore:'<circle cx="12" cy="12" r="9"/><path d="m15.8 8.2-2.7 4.9-4.9 2.7 2.7-4.9z"/>',Saved:'<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V21l-7-4-7 4z"/>',You:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',Search:'<circle cx="10.5" cy="10.5" r="7"/><path d="m16 16 5 5"/>',More:'<circle cx="4" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="20" cy="12" r="1"/>',Share:'<path d="M12 16V3m0 0-4 4m4-4 4 4M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>',Play:'<path d="m8 5 12 7-12 7z"/>',Close:'<path d="m5 5 14 14M19 5 5 19"/>'};
+const icons={Reels:'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="m10 8 6 4-6 4z" fill="currentColor" stroke="none"/>',Home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/>',World:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-6 6-6 12 0 18m0-18c6 6 6 12 0 18"/>',Explore:'<circle cx="12" cy="12" r="9"/><path d="m15.8 8.2-2.7 4.9-4.9 2.7 2.7-4.9z"/>',Saved:'<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V21l-7-4-7 4z"/>',You:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',Search:'<circle cx="10.5" cy="10.5" r="7"/><path d="m16 16 5 5"/>',More:'<circle cx="4" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="20" cy="12" r="1"/>',Share:'<path d="M12 16V3m0 0-4 4m4-4 4 4M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>',Play:'<path d="m8 5 12 7-12 7z"/>',Close:'<path d="m5 5 14 14M19 5 5 19"/>'};
 const svg=(name)=>'<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">'+(icons[name]||icons.Explore)+'</svg>';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeLink=(s)=>{try{const u=new URL(s);return ['http:','https:'].includes(u.protocol)?u.href:null}catch{return null}};
@@ -13,6 +13,7 @@ const imageLink=(s)=>{const u=safeLink(s);return u&&u.startsWith('https://')?u:n
 const store=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
 const read=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}};
 let weights=read('orbit_weights_v2',DEFAULT_WEIGHTS),muted=new Set(read('orbit_muted_topics_v2',[])),bookmarks=read('orbit_bookmarks_v2',{}),tentative=new Set(read('orbit_tentative_v2',[]));
+let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver=null, requestedReel=null;
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
 const app=document.getElementById('app'),nav=document.getElementById('navigation'),overlay=document.getElementById('overlay');
 let toastTimer;
@@ -62,6 +63,123 @@ function card(p){
     +'<button type="button" data-options="'+escape(p.id)+'">'+svg('More')+'Options</button></div></article>';
 }
 function empty(title,msg){return '<div class="empty"><h2>'+escape(title)+'</h2><p>'+escape(msg)+'</p></div>'}
+
+/* Reels: a private, vertically swiped video feed using real creator videos.
+   Playback is initiated by a tap; subsequent clips try muted autoplay.
+   YouTube's own embedding permissions and mobile autoplay rules still apply. */
+function reelItems(){
+  const candidates=posts.filter(p=>p.video_id&&!muted.has(p.category));
+  if(!candidates.length)return [];
+  const shortHint=p=>/(?:#shorts?\b|#reels?\b|#(?:spiderman|marvel|gaming|anime|music|vr|fitness|dragonball)\b)/i.test(p.title);
+  const sorted=mix(candidates);
+  // Soft boost for clip-like titles, without claiming their duration is verified.
+  const top=sorted.filter(p=>shortHint(p));
+  const rest=sorted.filter(p=>!shortHint(p));
+  return mix(top).concat(mix(rest));
+}
+function reelShelf(){
+  const clips=reelItems().slice(0,9);
+  if(!clips.length)return '';
+  return '<section class="reels-shelf" aria-label="Video discoveries">'
+    +'<div class="reels-shelf__head"><div><h2>Reels for you</h2><p>Videos picked for your interests</p></div>'
+    +'<button type="button" class="reels-shelf__all" data-open-reels>See all →</button></div>'
+    +'<div class="reels-shelf__scroller">'+clips.map(p=>'<button type="button" class="reels-tile" data-open-reels="'+escape(p.id)+'" aria-label="Watch '+escape(p.title)+'">'
+    +'<img src="'+escape(p.image_url||'https://i.ytimg.com/vi/'+p.video_id+'/hqdefault.jpg')+'" alt="" loading="lazy">'
+    +'<span class="reels-tile__play">'+svg('Play')+'</span>'
+    +'<span class="reels-tile__shade"><b>'+escape(p.title)+'</b><small>'+escape(p.category)+'</small></span></button>').join('')
+    +'</div></section>';
+}
+function reelPoster(p){
+  return '<button type="button" class="reel-poster" data-reel-play="'+escape(p.id)+'" aria-label="Play '+escape(p.title)+'">'
+    +'<img src="'+escape(p.image_url||'https://i.ytimg.com/vi/'+p.video_id+'/hqdefault.jpg')+'" alt="" loading="lazy">'
+    +'<span class="reel-poster__play">'+svg('Play')+'</span></button>';
+}
+function reelView(){
+  const clips=reelItems();
+  if(!clips.length)return '<div class="reels-empty"><button type="button" data-reels-close>← Back</button><h2>No videos yet</h2><p>Refresh Home later for new clips and creator videos.</p></div>';
+  return '<section class="reels-view" aria-label="Swipe through videos">'
+    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><span class="reels-count" id="reels-count">1 / '+clips.length+'</span></div>'
+    +'<div class="reels-scroll" id="reels-scroll" aria-label="Scroll up for the next video">'
+    +clips.map((p,i)=>'<article class="reel" data-reel-index="'+i+'" data-reel-id="'+escape(p.id)+'" aria-label="Video '+(i+1)+': '+escape(p.title)+'">'
+    +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p)+'</div>'
+    +'<div class="reel-shade" aria-hidden="true"></div>'
+    +'<div class="reel-caption"><div class="reel-tag">'+escape(p.category)+' · YouTube</div>'
+    +'<strong class="reel-creator">'+escape(p.source_name)+'</strong>'
+    +'<h2>'+escape(p.title)+'</h2>'
+    +'<a href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">Watch original ↗</a></div>'
+    +'<div class="reel-actions">'
+    +'<button type="button" data-save="'+escape(p.id)+'" class="'+(bookmarks[p.id]?'active':'')+'" aria-label="'+(bookmarks[p.id]?'Remove saved video':'Save video')+'">'+svg('Saved')+'<span>'+(bookmarks[p.id]?'Saved':'Save')+'</span></button>'
+    +'<button type="button" data-share="'+escape(p.id)+'" aria-label="Share video">'+svg('Share')+'<span>Share</span></button>'
+    +'<button type="button" data-options="'+escape(p.id)+'" aria-label="More options">'+svg('More')+'<span>Options</span></button>'
+    +'<button type="button" data-reels-next="'+i+'" aria-label="Next video">↓<span>Next</span></button>'
+    +'</div></article>').join('')
+    +'</div></section>';
+}
+function resetReelPlayer(index){
+  const p=reelItems()[index];
+  const media=document.getElementById('reel-media-'+index);
+  if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p);
+}
+function startReel(id,mutedPlayback=false){
+  const clips=reelItems(),index=clips.findIndex(p=>p.id===id);
+  if(index<0||tab!=='Reels')return;
+  const p=clips[index];
+  const media=document.getElementById('reel-media-'+index);
+  if(!media||media.querySelector('iframe'))return;
+  const origin=encodeURIComponent(location.origin);
+  media.innerHTML='<iframe class="reel-frame" src="https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&rel=0&enablejsapi=1&mute='+(mutedPlayback?'1':'0')+'&origin='+origin+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+  reelsStarted=true;
+}
+function setActiveReel(index){
+  const clips=reelItems();
+  if(index<0||index>=clips.length||index===reelActiveIndex)return;
+  const previous=reelActiveIndex;
+  reelActiveIndex=index;
+  if(previous>=0)resetReelPlayer(previous);  // removes iframe so sound cannot continue
+  document.getElementById('reels-count')?.replaceChildren(document.createTextNode((index+1)+' / '+clips.length));
+  if(reelsStarted)startReel(clips[index].id,true);
+}
+function mountReels(){
+  if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
+  const scroll=document.getElementById('reels-scroll');
+  if(!scroll)return;
+  const cards=[...scroll.querySelectorAll('.reel')];
+  if(!cards.length)return;
+  reelActiveIndex=-1;
+  reelsObserver=new IntersectionObserver(entries=>{
+    for(const entry of entries){
+      if(entry.isIntersecting&&entry.intersectionRatio>=.65)setActiveReel(Number(entry.target.dataset.reelIndex));
+    }
+  },{root:scroll,threshold:[0,.65,.9]});
+  cards.forEach(card=>reelsObserver.observe(card));
+  const target=requestedReel?clipsIndex(requestedReel):0;
+  requestedReel=null;
+  if(target>0)scroll.scrollTop=target*scroll.clientHeight;
+  setActiveReel(Math.max(target,0));
+}
+function clipsIndex(id){return reelItems().findIndex(p=>p.id===id)}
+function stopReels(){
+  if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
+  document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
+  reelsStarted=false;
+  reelActiveIndex=-1;
+}
+function reelJump(index){
+  const scroller=document.getElementById('reels-scroll');
+  if(!scroller)return;
+  const target=Math.max(0,Math.min(reelItems().length-1,index));
+  scroller.scrollTo({top:target*scroller.clientHeight,behavior:'smooth'});
+  if(target===reelActiveIndex&&target===reelItems().length-1)toast('You’re all caught up');
+}
+function updateReelSave(id){
+  document.querySelectorAll('.reel-actions button[data-save]').forEach(b=>{
+    if(b.dataset.save!==id)return;
+    b.classList.toggle('active',!!bookmarks[id]);
+    b.innerHTML=svg('Saved')+'<span>'+(bookmarks[id]?'Saved':'Save')+'</span>';
+    b.setAttribute('aria-label',bookmarks[id]?'Remove saved video':'Save video');
+  });
+}
+
 function render(){nav.innerHTML=['Home','World','Explore','Saved','You'].map(t=>'<button type="button" data-tab="'+t+'" '+(t===tab?'aria-current="page"':'')+'>'+svg(t)+'<span>'+t+'</span></button>').join('');document.getElementById('search-btn').innerHTML=svg('Search');document.getElementById('settings-btn').innerHTML=svg('You');
 if(tab==='You'){app.innerHTML=profile();return}
 if(tab==='Search'){app.innerHTML='<section class="section-head"><h1>Search Orbit</h1></section><div class="panel"><input id="search-input" type="search" placeholder="Search stories and videos" value="'+escape(searchTerm)+'" autocomplete="off" style="width:100%;padding:12px;border:1px solid var(--border);border-radius:9px;background:var(--subtle);color:var(--text)"></div><div id="results">'+cardsOrEmpty(selection())+'</div>';return}
