@@ -760,6 +760,7 @@ function tapReel(index){
     reelPlaybackStates.set(index,{...playback,muted:false});
     return;
   }
+  reelUserConfirmedSound=true; // a user tap while audible confirms this Reel has sound
   let paused=playback.paused===true;
   if(clip.platform==='youtube'){
     try{const state=player?.getPlayerState?.();if(state===1)paused=false;else if(state===2)paused=true}catch{}
