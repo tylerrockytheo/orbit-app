@@ -56,7 +56,7 @@ assert.match(node('reel-media-'+musicIndex).innerHTML,/youtube-nocookie.com\/emb
 // A like is private feedback; it must NOT also save a video.
 await click({like:'rss:clip1'});
 assert.ok(JSON.parse(storage.get('orbit_likes_v1'))['rss:clip1']);
-assert.equal(storage.get('orbit_bookmarks_v2'),undefined);
+assert.deepEqual(JSON.parse(storage.get('orbit_bookmarks_v2')||'{}'),{});
 await click({reelsNext:'0'});
 assert.equal(node('reels-scroll').scrollTop,800);
 await click({save:'rss:clip1'});
