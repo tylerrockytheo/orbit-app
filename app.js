@@ -532,6 +532,7 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   media.innerHTML='<iframe class="reel-frame reel-frame--'+p.platform+'" src="'+escape(src)+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
+  reelUserConfirmedSound=false;
   if(frame&&p.platform==='youtube')attachYoutubePlayer(index,frame);
   if(frame&&p.platform==='tiktok')applyReelVolume(index);
   reelNativeControls=false;
@@ -545,7 +546,7 @@ function setActiveReel(index){
   const previous=reelActiveIndex;
   reelActiveIndex=index;
   if(previous>=0)resetReelPlayer(previous);  // removes iframe so sound cannot continue
-  reelNativeControls=false;updatePlayerControlMode();
+  reelNativeControls=false;reelUserConfirmedSound=false;updatePlayerControlMode();
   reelSeen.add(clipIdentity(clips[index]));
   const key=clipIdentity(clips[index]);
   recentWatched=[key,...recentWatched.filter(x=>x!==key)].slice(0,500);
@@ -583,7 +584,7 @@ function attachYoutubePlayer(index,frame){
         reelYoutubePlayers.set(index,event.target);
         try{reelPlaybackStates.set(index,{paused:event.target.getPlayerState?.()===2,muted:Boolean(event.target.isMuted?.())})}catch{}
         applyReelVolume(index);
-        updateReelProgress();
+        updateReelProgress();syncReelSoundIcon();
       },onStateChange(event){
         const prev=reelPlaybackStates.get(index)||{};
         reelPlaybackStates.set(index,{...prev,paused:event.data===2});
@@ -656,6 +657,7 @@ function updateReelProgress(){
   input.value=String(Math.round(Math.min(duration,Math.max(0,current))/duration*1000));
   card.querySelector('[data-played-time]')?.replaceChildren(document.createTextNode(formatVideoTime(current)));
   card.querySelector('[data-duration-time]')?.replaceChildren(document.createTextNode(formatVideoTime(duration)));
+  syncReelSoundIcon();
 }
 function startProgressTimer(){
   stopProgressTimer();
@@ -688,7 +690,18 @@ function toggleOfficialControls(){
   toast(reelNativeControls?'Provider controls available · skip ads only if the provider offers it':'Orbit controls restored');
 }
 
+function syncReelSoundIcon(){
+  const button=document.getElementById('reels-sound');
+  if(!button||tab!=='Reels')return;
+  const player=reelYoutubePlayers.get(reelActiveIndex);
+  let muted=!reelSoundOn;
+  try{if(typeof player?.isMuted==='function')muted=Boolean(player.isMuted())}catch{}
+  button.textContent=muted?'🔇':'🔊';
+  button.setAttribute('aria-label',muted?'Enable sound':'Mute sound');
+  button.setAttribute('aria-pressed',String(!muted));
+}
 function soundNotice(){
+  syncReelSoundIcon();
   const control=document.getElementById('reels-sound');
   if(control){
     control.textContent=reelSoundOn?'🔊':'🔇';
@@ -705,26 +718,23 @@ function soundNotice(){
 function toggleReelSound(){
   const active=reelItems()[reelActiveIndex];
   if(active&&['instagram','facebook'].includes(active.platform)){
-    reelNativeControls=true;
-    updatePlayerControlMode();
+    reelNativeControls=true;updatePlayerControlMode();
     toast('Use '+providerName(active)+' player controls to change sound');
     return;
   }
-  // An autoplayed YouTube iframe can be muted by Android even if Orbit prefers sound on.
-  // Ask the actual player first so the first tap resumes audio in that situation.
-  let actualMuted=null;
   const player=reelYoutubePlayers.get(reelActiveIndex);
-  try{
-    if(player&&typeof player.isMuted==='function'){
-      const state=player.isMuted();
-      if(typeof state==='boolean')actualMuted=state;
-    }
-  }catch(e){console.debug('Could not read YouTube mute state',e)}
-  reelSoundOn=actualMuted===null?!reelSoundOn:actualMuted;
+  let actualMuted=null;
+  try{if(typeof player?.isMuted==='function')actualMuted=Boolean(player.isMuted())}catch{}
+  // Autoplay restrictions can leave a silent iframe even when the UI claims
+  // sound is on. The FIRST user press must request audio, not mute it.
+  if(reelSoundOn&&!reelUserConfirmedSound)reelSoundOn=true;
+  else if(actualMuted===true)reelSoundOn=true;
+  else if(actualMuted===false)reelSoundOn=false;
+  else reelSoundOn=!reelSoundOn;
+  reelUserConfirmedSound=reelSoundOn;
   store('orbit_reel_sound_v1',reelSoundOn);
-  soundNotice();
-  // Muting/unmuting leaves playback and the video iframe untouched.
   applyReelVolume(reelActiveIndex);
+  soundNotice();
 }
 function reelNotice(message){
   const notice=document.getElementById('reels-audio-indicator');
@@ -745,12 +755,12 @@ function tapReel(index){
   }
   const player=reelYoutubePlayers.get(index);
   const playback=reelPlaybackStates.get(index)||{};
-  let muted=playback.muted===true||!reelSoundOn;
+  let muted=playback.muted===true||!reelSoundOn||(!reelUserConfirmedSound&&reelSoundOn);
   if(clip.platform==='youtube'){
     try{if(typeof player?.isMuted==='function')muted=Boolean(player.isMuted())}catch{}
   }
   if(muted){
-    reelSoundOn=true;store('orbit_reel_sound_v1',true);
+    reelSoundOn=true;reelUserConfirmedSound=true;store('orbit_reel_sound_v1',true);
     applyReelVolume(index);
     soundNotice();
     reelPlaybackStates.set(index,{...playback,muted:false});
@@ -794,7 +804,7 @@ function stopReels(){
   reelYoutubePlayers.clear();reelExternalMetrics.clear();reelPlaybackStates.clear();
   clearTimeout(reelSoundNoticeTimer);
   stopProgressTimer();
-  reelNativeControls=false;
+  reelNativeControls=false;reelUserConfirmedSound=false;
   reelsStarted=false;
   reelActiveIndex=-1;
   reelSeen.clear();
