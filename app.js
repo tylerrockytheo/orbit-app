@@ -23,7 +23,8 @@ let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatc
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
-let feedVideoObserver=null,feedActiveVideo=null,feedPlayer=null,feedSoundWanted=false,feedSoundAttemptTimer=null;
+let feedVideoObserver=null,feedActiveVideo=null,feedPlayer=null,feedSoundWanted=false,feedSoundAttemptTimer=null,feedSoundVerified=false;
+let reelUserConfirmedSound=false;
 let feedMixNonce=Number(read('orbit_feed_mix_nonce',0))||0;
 const feedRatios=new Map();
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
@@ -892,7 +893,7 @@ function openOptions(p){openOverlay('<section class="panel"><h2>'+escape(p.categ
    Only one provider player is active; leaving the viewport restores its cover.
    Mobile browser/creator embed restrictions can still prevent autoplay. */
 function restoreFeedVideo(){
-  const id=feedActiveVideo;feedActiveVideo=null;feedPlayer=null;
+  const id=feedActiveVideo;feedActiveVideo=null;feedPlayer=null;feedSoundWanted=false;feedSoundVerified=false;clearTimeout(feedSoundAttemptTimer);feedSoundAttemptTimer=null;
   if(!id)return;
   const p=item(id);
   const holder=document.getElementById('media-'+id);
@@ -911,11 +912,11 @@ function activateFeedVideo(id,muted=true){
   if(feedActiveVideo===id)return;
   restoreFeedVideo();
   const holder=document.getElementById('media-'+id);if(!holder)return;
-  feedActiveVideo=id;
+  feedActiveVideo=id;feedSoundWanted=!muted;feedSoundVerified=false;
   const origin=encodeURIComponent(location.origin);
   const source='https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&controls=1&enablejsapi=1&mute='+(muted?'1':'0')+'&origin='+origin;
   holder.innerHTML='<iframe class="video-frame feed-autoplay-frame" title="'+escape(p.title)+'" src="'+source+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
-    +'<button type="button" class="feed-sound" data-feed-sound="'+escape(id)+'" aria-label="Turn sound on">🔇 Tap for sound</button>';
+    +'<button type="button" class="feed-sound" data-feed-sound="'+escape(id)+'" aria-label="Unmute video">🔇 Sound off</button>';
   const frame=holder.querySelector('iframe');
   if(frame)youtubeApi().then(api=>{
     if(!api||feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
@@ -923,8 +924,12 @@ function activateFeedVideo(id,muted=true){
       new api.Player(frame,{events:{onReady(e){
         if(feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
         feedPlayer=e.target;
-        if(muted){try{e.target.mute();e.target.playVideo()}catch{}}
-      }}});
+        try{
+          if(feedSoundWanted){e.target.unMute();e.target.setVolume(100);e.target.playVideo();verifyFeedSound(id);}
+          else{e.target.mute();e.target.playVideo();}
+        }catch{}
+      },onStateChange(){if(feedSoundWanted)verifyFeedSound(id)}}});
+
     }catch(err){console.debug('Feed video player unavailable',err)}
   }).catch(err=>console.debug('Feed autoplay unavailable',err));
 }
@@ -946,16 +951,42 @@ function mountFeedAutoplay(){
   },{threshold:[0,.3,.55,.75],rootMargin:'-60px 0px -80px 0px'});
   videos.forEach(el=>feedVideoObserver.observe(el));
 }
+function updateFeedSoundButton(id,message){
+  if(id!==feedActiveVideo)return;
+  const button=document.querySelector('[data-feed-sound]');
+  if(!button)return;
+  button.textContent=message;button.disabled=false;
+  button.setAttribute('aria-label',feedSoundWanted?'Mute video':'Unmute video');
+  button.setAttribute('aria-pressed',String(feedSoundVerified));
+}
+function verifyFeedSound(id){
+  clearTimeout(feedSoundAttemptTimer);
+  if(id!==feedActiveVideo||!feedSoundWanted)return;
+  feedSoundAttemptTimer=setTimeout(()=>{
+    if(id!==feedActiveVideo||!feedSoundWanted)return;
+    let muted=true;
+    try{if(feedPlayer&&typeof feedPlayer.isMuted==='function')muted=feedPlayer.isMuted()}catch{}
+    feedSoundVerified=!muted;
+    updateFeedSoundButton(id,muted?'🔊 Tap to enable sound':'🔊 Sound on');
+  },350);
+}
 function feedSound(id){
   if(id!==feedActiveVideo)return;
   const frame=document.getElementById('media-'+id)?.querySelector('iframe');
   if(!frame)return;
+  // Unlike the old disabled one-shot label, this remains available to retry.
+  // Queue the request when the YouTube API is still loading.
+  feedSoundWanted=!feedSoundWanted;feedSoundVerified=false;
+  if(!feedSoundWanted){
+    try{if(feedPlayer)feedPlayer.mute();else sendYoutubeCommand(frame,'mute')}catch{}
+    updateFeedSoundButton(id,'🔇 Sound off');return;
+  }
+  updateFeedSoundButton(id,'🔊 Enabling sound…');
   try{
     if(feedPlayer){feedPlayer.unMute();feedPlayer.setVolume(100);feedPlayer.playVideo()}
-    else sendYoutubeCommand(frame,'unMute');
-    const button=document.querySelector('[data-feed-sound]');
-    if(button){button.textContent='🔊 Sound on';button.setAttribute('aria-label','Sound on');button.disabled=true}
-  }catch(e){console.debug('Feed sound unavailable',e)}
+    else{sendYoutubeCommand(frame,'unMute');sendYoutubeCommand(frame,'setVolume',[100])}
+  }catch(e){console.debug('Feed unmute request unavailable',e)}
+  verifyFeedSound(id);
 }
 function playing(id){activateFeedVideo(id,false)}
 
