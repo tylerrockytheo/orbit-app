@@ -340,7 +340,7 @@ function reelView(){
   const clips=activeReelQueue;
   if(!clips.length)return '<div class="reels-empty"><button type="button" data-reels-close>← Back</button><h2>No videos yet</h2><p>New videos will appear when our sources update.</p></div>';
   return '<section class="reels-view" aria-label="Swipe through recommended videos">'
-    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><button type="button" class="reels-sound" id="reels-sound" data-reels-sound aria-label="Turn sound '+(reelSoundOn?'off':'on')+'" aria-pressed="'+String(reelSoundOn)+'">'+(reelSoundOn?'🔊':'🔇')+'</button><span class="reels-count" id="reels-status" aria-live="polite">✦ Personalised</span></div>'
+    +'<div class="reels-top"><button type="button" class="reels-exit" data-reels-close aria-label="Close reels">'+svg('Close')+'</button><b>Reels <span>For you</span></b><button type="button" class="reels-provider-button" data-player-controls aria-pressed="false">Player</button><button type="button" class="reels-sound" id="reels-sound" data-reels-sound aria-label="Turn sound '+(reelSoundOn?'off':'on')+'" aria-pressed="'+String(reelSoundOn)+'">'+(reelSoundOn?'🔊':'🔇')+'</button><span class="reels-count" id="reels-status" aria-live="polite">✦ Personalised</span></div>'
     +'<div class="reels-audio-indicator" id="reels-audio-indicator" aria-hidden="true"></div>'
     +'<div class="reels-scroll" id="reels-scroll" aria-label="Swipe up for more videos">'
     +clips.map((p,i)=>reelCard(p,i)).join('')
@@ -614,7 +614,7 @@ function seekReel(input){
 }
 function updatePlayerControlMode(){
   document.querySelectorAll('.reel').forEach(card=>card.classList.toggle('native-controls',reelNativeControls&&Number(card.dataset.reelIndex)===reelActiveIndex));
-  document.querySelector('[data-player-controls]')?.setAttribute('aria-pressed',String(reelNativeControls));
+  document.querySelectorAll('[data-player-controls]').forEach(button=>{button.setAttribute('aria-pressed',String(reelNativeControls));if(button.classList?.contains('reels-provider-button'))button.textContent=reelNativeControls?'Done':'Player'})
 }
 function toggleOfficialControls(){
   reelNativeControls=!reelNativeControls;
