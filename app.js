@@ -43,8 +43,9 @@ function parseClipUrl(value){
   }
   if(['facebook.com','m.facebook.com','web.facebook.com'].includes(host)){
     match=path.match(/^\/(?:reel|reels)\/(\d+)(?:\/|$)/);
-    if(!match)match=path.match(/^\/[^?#]*?videos\/(?:[\w.-]+\/)?(\d+)(?:\/|$)/);
     if(match)return {platform:'facebook',external_id:match[1],creator:'Facebook creator',url:'https://www.facebook.com/reel/'+match[1]};
+    match=path.match(/^\/[^?#]*?videos\/(?:[\w.-]+\/)?(\d+)(?:\/|$)/);
+    if(match)return {platform:'facebook',external_id:match[1],creator:'Facebook creator',url:'https://www.facebook.com'+path};
   }
   if(['youtube.com','m.youtube.com','youtu.be'].includes(host)){
     const id=host==='youtu.be'?path.split('/')[1]:(path.match(/^\/shorts\/([\w-]{11})(?:\/|$)/)?.[1]||u.searchParams.get('v'));
