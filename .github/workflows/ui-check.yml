@@ -8,6 +8,7 @@ on:
       - 'index.html'
       - 'tests/reels-smoke.mjs'
       - 'tests/providers-smoke.mjs'
+      - 'tests/seek-smoke.mjs'
       - '.github/workflows/ui-check.yml'
   pull_request:
     paths:
@@ -16,6 +17,7 @@ on:
       - 'index.html'
       - 'tests/reels-smoke.mjs'
       - 'tests/providers-smoke.mjs'
+      - 'tests/seek-smoke.mjs'
 permissions:
   contents: read
 jobs:
@@ -30,3 +32,5 @@ jobs:
         run: node tests/reels-smoke.mjs
       - name: Verify cross-platform providers
         run: node tests/providers-smoke.mjs
+      - name: Verify seeking and native ad controls
+        run: node tests/seek-smoke.mjs
