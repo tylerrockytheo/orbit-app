@@ -231,3 +231,21 @@ body.reels-mode{background:#05060a;overflow:hidden}
 /* Transparent, private recommendation preferences; no public follower or Like counts. */
 .learned-interests{display:flex;flex-wrap:wrap;gap:7px;margin:9px 0 14px}
 .learned-pill{font-size:12px;font-weight:750;color:var(--blue);background:var(--subtle);border:1px solid var(--border);border-radius:16px;padding:6px 11px}
+
+/* V23: Private accounts and optional authorised services. */
+.orbit-account-panel{display:flex;flex-direction:column;gap:10px}
+.orbit-account-panel h2{margin-bottom:0}
+.orbit-account-panel h3{margin:8px 0;font-size:17px}
+.orbit-account-panel label{display:block;font-size:12px;font-weight:750;margin:5px 0 -4px;color:var(--muted)}
+.orbit-account-panel input{
+ display:block;width:100%;min-height:42px;padding:11px 12px;border:1px solid var(--border);
+ border-radius:10px;background:var(--subtle);color:var(--text);font:inherit
+}
+.orbit-account-panel .primary-btn,.orbit-account-panel .secondary-btn{min-height:40px}
+.orbit-account-divider{text-align:center;font-size:12px;color:var(--muted);margin:4px 0}
+.orbit-account-identity{display:flex;flex-direction:column;gap:3px;word-break:break-word}
+.orbit-account-identity strong{font-size:16px}
+.orbit-account-identity span{font-size:12px;color:var(--muted)}
+.orbit-account-youtube{border-top:1px solid var(--border);margin-top:10px;padding-top:12px}
+.orbit-account-notice{font-size:13px;color:var(--blue);margin:6px 0}
+.orbit-account-error{font-size:13px;color:#b82f43;margin:6px 0}
