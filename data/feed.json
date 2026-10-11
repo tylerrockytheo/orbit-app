@@ -1,7 +1,343 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T23:24:54.080405Z",
+  "generated_at": "2026-10-11T02:06:53.672040Z",
   "posts": [
+    {
+      "id": "55b992648741aead3f",
+      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "category": "World",
+      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T01:41:29Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57e8/live/ab163790-c50e-11f1-9f41-61faa76b4354.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "318121a31c946af958",
+      "title": "Japanese Studio Creative Freaks to Lead Production on Sentinel 6 Anime Executive Produced by NBA, NFL Players Michael Carter-Williams, Jamaal Williams",
+      "category": "Anime",
+      "summary": "\"Afro-futurist sci-fi adventure\" series planned to have 11-12 episodes",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/japanese-studio-creative-freaks-to-lead-production-on-sentinel-6-anime-executive-produced-by-nba-/.242697",
+      "published_at": "2026-10-11T01:05:04Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "df9c2c7c3232f0e0e6",
+      "title": "‘The First Taste of Loneliness’ Review: A Sentimental but Affecting Study of Family Life After Bereavement",
+      "category": "Entertainment",
+      "summary": "The most moving scene in “The First Taste of Loneliness” is not, in fact, its most tear-streaked.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/the-first-taste-of-loneliness-review-1236907801/",
+      "published_at": "2026-10-11T00:58:25Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-First-Taste-of-Loneliness.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "efb6d0825b50220982",
+      "title": "Philippines Revamps International Co-Production Fund With Minority and Majority Tracks, Unveiled at Busan Market",
+      "category": "Entertainment",
+      "summary": "The Philippines has revamped its International Co-Production Fund (ICOF) around two tracks, with the amount of cash on offer tied to the size of the Filipino stake in a project. The Film Philippines Office (FPO) unveiled the new framework at the Busan International Film Festival’s Asian Contents & Film Market.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/philippines-revamps-coproduction-fund-minority-majority-tracks-1236907874/",
+      "published_at": "2026-10-11T00:55:58Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/Filipinana_Still_13.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6f0e09e6415e008c76",
+      "title": "Justice Department Investigating TV Networks Over Decision to Suspend Press Pool",
+      "category": "Entertainment",
+      "summary": "\"Group boycotts among commercial competitors can violate the Sherman Act,\" a DOJ spokesperson tells THR.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/politics-news/doj-investigating-tv-networks-decision-suspend-press-pool-1236727085/",
+      "published_at": "2026-10-11T00:54:22Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "161c8150d567808578",
+      "title": "Bill Maher Slams Cornell and the ‘Depravity’ of Fraternities Amid Sexual Assault Lawsuit: ‘I’m Glad to See Them Eating a S— Sandwich’",
+      "category": "Entertainment",
+      "summary": "During Friday night’s episode of “Real Time,” Bill Maher slammed his alma mater, Cornell University, and the “depravity” of fraternities while speaking about the ongoing Cornell 7 lawsuit.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/bill-maher-slams-cornell-sexual-assault-lawsuit-1236907856/",
+      "published_at": "2026-10-11T00:48:12Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2283257506.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ea7735f73ac5e623da",
+      "title": "‘Blade Runner 2099’ Drops New Trailer, Team Teases a Detective Story Set When Replicants Take Over",
+      "category": "Entertainment",
+      "summary": "The limited series cast, showrunner and EPs discussed how the lives of Michelle Yeoh’s dying Replicant and Hunter Schafer's undercover human will intertwine at NYCC on Saturday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/blade-runner-2099-trailer-michelle-yeoh-detective-mystery-1236727086/",
+      "published_at": "2026-10-11T00:47:52Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "babc0031f4b0b66f89",
+      "title": "Australian Dramedy ‘Her Last Laugh,’ With ‘XO, Kitty’ and ‘Mortal Kombat II’ Actors, Heads to Busan Buyers (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Hong Kong-based Cappu Films has taken on sales beyond Australia and New Zealand for “Her Last Laugh,” Joy Hopwood’s Australian dramedy featuring Peter Thurnwald (“XO, Kitty”) and Ana Thu Nguyen (“Mortal Kombat II”).",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/her-last-laugh-australian-dramedy-busan-market-1236907854/",
+      "published_at": "2026-10-11T00:37:34Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Her-Last-Laugh.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "af5d33f9926a4dfd49",
+      "title": "Tribeca Queer Romance ‘Ephemera’ Lands Worldwide Sales Deal With Cappu Films (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Hong Kong’s Cappu Films has taken on worldwide sales for “Ephemera,” Shan Jiang’s queer romance, which had its world premiere in Tribeca’s U.S. narrative competition this year. Cappu is shopping the film at the Busan International Film Festival’s Asian Contents & Film Market.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/tribeca-queer-romance-ephemera-sales-cappu-films-1236907861/",
+      "published_at": "2026-10-11T00:36:23Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Ephemera.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "11f56c5727f95679a2",
+      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+      "category": "World",
+      "summary": "Another 309 people are injured, with the Saudi-led coalition saying the attack by Yemen's Houthis is \"war crime\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T00:21:52Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c68/live/40a0f7d0-c507-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "ac5378a5dafd272d10",
+      "title": "Journalist Massacre Drama ‘Once Upon a Time in the Philippines’ Turns a Bystander Into an Accomplice at Busan Asian Project Market",
+      "category": "Entertainment",
+      "summary": "A young woman pulled into the run-up to a political massacre slides from unwilling witness to accomplice in “Once Upon a Time in the Philippines,” the debut feature from E del Mundo inspired by the 2009 Maguindanao massacre.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/journalist-massacre-drama-once-upon-a-time-in-the-philippines-busan-asian-project-market-1236907843/",
+      "published_at": "2026-10-11T00:16:37Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Once-Upon-a-Time-in-the-Philippines.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "81fd7fb541b4a14c77",
+      "title": "School Bullying Case Upends a Peaceable Father’s Life in Busan Asian Project Market Drama ‘The Family Table’",
+      "category": "Entertainment",
+      "summary": "A mild-mannered father who has always kept the peace takes on the system after his young daughter is bullied at school in “The Family Table,” a Korean drama from director Lee Hanju. The project is part of the Asian Project Market, which runs within the Busan International Film Festival’s Asian Contents & Film Market (ACFM). […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/school-bullying-drama-family-table-busan-asian-project-market-1236907836/",
+      "published_at": "2026-10-11T00:03:54Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Family-Table-concept-art.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "0f0b85fbf6c8291e6f",
+      "title": "‘Young Sheldon’ Star Iain Armitage Says the Show Was a ‘Big Undertaking’ as Co-Star Acknowledges He Could Be ‘Difficult’ to Work With",
+      "category": "Entertainment",
+      "summary": "“Young Sheldon” aired its final episode in May 2024, and now, just over two years later, the cast of the CBS sitcom is getting candid about their experience filming the Sheldon Cooper-focused “Big Bang Theory” prequel and working with star Iain Armitage, who was just eight years old when the series began. In a recently […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/young-sheldon-iain-armitage-show-was-a-big-undertaking-1236907805/",
+      "published_at": "2026-10-10T23:57:03Z",
+      "image_url": "https://variety.com/wp-content/uploads/2019/05/young-sheldon-season-2-ratings.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "68862eb94cc6098c7b",
+      "title": "U.S. DOJ Will Probe TV Networks Over President Trump’s Pool Coverage",
+      "category": "Entertainment",
+      "summary": "The U.S. Department of Justice has told five of the nation’s biggest TV-news outlets that it plans to investigate whether a recent decision to suspend pool coverage of President Trump after he denied White House access to CNN, MS NOW and Politico violated antitrust rules, according to people familiar with the matter.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/justice-department-investigation-tv-networks-trump-pool-1236907815/",
+      "published_at": "2026-10-10T23:55:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/Donald-Trump-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2c3f43bca3eebc3a76",
+      "title": "‘The World of Love’ Producer Kim Sehun Backs Actor-Director Ryu Hyunkyung’s Dark Comedy ‘Dog Fight’ at Busan Asian Project Market",
+      "category": "Entertainment",
+      "summary": "A woman who loses custody of the dog she and her ex-boyfriend brought up together decides to snatch him back in “Dog Fight,” a dark comedy from actor-director Ryu Hyunkyung (“Don’t Go Back”).",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/world-of-love-producer-dog-fight-busan-asian-project-market-1236907823/",
+      "published_at": "2026-10-10T23:53:17Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Dog-Fight-concept-art.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ac750b6cc3b6da5155",
+      "title": "‘Blade Runner 2099’ Trailer: Michelle Yeoh, Hunter Schafer Are Fugitives in Amazon Limited Series",
+      "category": "Entertainment",
+      "summary": "Prime Video premiered a new trailer for “Blade Runner 2099” at New York Comic Con. The limited series is set 50 years after the events of “Blade Runner 2049” in a reborn Los Angeles. Fugitive Cora (Hunter Schafer) takes on a final identity as a Blade Runner and is forced to partner with Olwen (Michelle […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/blade-runner-2099-michelle-yeoh-hunter-schafer-prime-video-1236907138/",
+      "published_at": "2026-10-10T23:45:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/BladeRunner2099.1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f54d5913bdd870fa5b",
+      "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+      "category": "World",
+      "summary": "Saudi authorities say the latest attack on the international airport in the capital, Riyadh, has killed 12 people and injured over 300. Their statement says the dead on Saturday included four Saudi citizens as well as two Bangladeshi nationals, a Palestinian, a U.S. citizen, an Egyptian, a Jordanian, a Syrian and a Sudanese.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+      "published_at": "2026-10-10T23:44:15Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "6cf98e55f3ab34f46a",
+      "title": "Busan-Winning ‘Shape of Momo’ Director Tribeny Rai Turns a Girl’s Death Into a Village Boundary Dispute in Asian Project Market Drama ‘A Chronicle of Minor Things’",
+      "category": "Entertainment",
+      "summary": "Two villages squabble over which of them holds jurisdiction over the spot where a 15-year-old girl died in “A Chronicle of Minor Things,” the new project from “Shape of Momo” director Tribeny Rai.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/shape-of-momo-director-village-drama-busan-asian-project-market-1236907807/",
+      "published_at": "2026-10-10T23:39:07Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/A-Chronice-of-Minor-Things-Poster.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fe0ccc1dad8eb0faed",
+      "title": "One-Punch Man Season 3 Anime's 2nd Part Reveals January 2027 Debut in Video",
+      "category": "Anime",
+      "summary": "JAM Project returns to perform new opening theme",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/one-punch-man-season-3-anime-2nd-part-reveals-january-2027-debut-in-video/.242696",
+      "published_at": "2026-10-10T23:32:53Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "2cc538a67c10e2d066",
+      "title": "GTA 6 leaker threatens to upload a build with 'full story mode'",
+      "category": "Gaming",
+      "summary": "\"Take-Two gets one way out: physical disks and a public apology.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-to-upload-a-build-with-full-story-mode/",
+      "published_at": "2026-10-10T23:32:29Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/fKFHSxwg2x8dXuq8dUfMKh-1920-80.png",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "335f516f22af223862",
+      "title": "Inside the room: What it was like to be with Blackpink's Lisa as race scandal erupted",
+      "category": "Entertainment",
+      "summary": "Film-maker Sue Kim talks about having unprecedented access to K-Pop idol Lisa Manobal at her most candid.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cjzxl56q30k7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T23:31:35Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ce5/live/85c0dd40-c308-11f1-8f04-85217d686658.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "93194cf4ab04da5b96",
       "title": "‘Memories of a Dead End’ Director Choi Hyunyoung Confronts the Lies That Follow Tragedy in Subway Disaster Drama ‘All’s Well That Ends Well’ at Busan Asian Project Market",
@@ -51,6 +387,70 @@
       ]
     },
     {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1930 on October 11",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1930 on October 11 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-10T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 11",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1218 The post ‘Connections’ answers and hints for today, October 11 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-10T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 11",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 11 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-10T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 11",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 11 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-10T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "da567e2e9c2dca9d81",
       "title": "Joseph Gordon-Levitt Says Instead of Being Afraid of AI, “We Should Be Concerned About the People Building AI”",
       "category": "Entertainment",
@@ -64,22 +464,6 @@
       "video_id": null,
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "11f56c5727f95679a2",
-      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
-      "category": "World",
-      "summary": "Another 309 people are injured in the attack on the airport, which come days after Yemen's Houthis said they had struck it.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T22:40:56Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32eb/live/ede92230-c4f0-11f1-b35a-c3ed8feab55e.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -160,6 +544,22 @@
       "video_id": null,
       "topics": [
         "Anime"
+      ]
+    },
+    {
+      "id": "0e9dd62116986d54b3",
+      "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
+      "category": "World",
+      "summary": "A desperate junta is in a war of attrition against ethnic militias and and civilian resistance.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T22:13:08Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6204/live/aaaf6ea0-c21d-11f1-b7d8-6f930589c871.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "topics": [
+        "World"
       ]
     },
     {
@@ -512,22 +912,6 @@
       "video_id": null,
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "55b992648741aead3f",
-      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-      "category": "World",
-      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T19:28:28Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c5/live/3203eb90-c4d2-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -2819,22 +3203,6 @@
       ]
     },
     {
-      "id": "6d9105482cf85b0c99",
-      "title": "Today’s Wordle answer and hints for #1929 on October 10",
-      "category": "Music",
-      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1929 on October 10 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-      "published_at": "2026-10-09T23:01:34Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "20e2e3d8c79a5a0a74",
       "title": "Ashe was too scared to cancel her wedding - the story became a hit song",
       "category": "Entertainment",
@@ -2867,22 +3235,6 @@
       ]
     },
     {
-      "id": "2c5333a2b14994ffbc",
-      "title": "‘Connections’ answers and hints for today, October 10",
-      "category": "Music",
-      "summary": "Here are hints, groups and answers for 'Connections' #1217 The post ‘Connections’ answers and hints for today, October 10 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
-      "published_at": "2026-10-09T23:00:27Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "072b369d49de3e54fd",
       "title": "Order in any language with Gemini 3.5 Live Translate",
       "category": "AI & Tech",
@@ -2899,38 +3251,6 @@
       ]
     },
     {
-      "id": "82c04a1405d8c602dc",
-      "title": "Globle answer today – here’s the answer and hints for October 10",
-      "category": "Music",
-      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 10 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
-      "published_at": "2026-10-09T23:00:17Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "468f1a19c428ae0e24",
-      "title": "Framed answer today – here’s the solution for October 10",
-      "category": "Music",
-      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 10 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
-      "published_at": "2026-10-09T23:00:09Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "fec3895be5bbad33d5",
       "title": "‘Below’ Creator Breaks Down the Finale’s Last Shot, Josh Hartnett’s Accent and Season 2 Clues",
       "category": "Entertainment",
@@ -2940,38 +3260,6 @@
       "source_url": "https://variety.com/2026/tv/features/below-ending-explained-icebergs-josh-hartnett-accent-season-2-1236906748/",
       "published_at": "2026-10-09T23:00:00Z",
       "image_url": "https://variety.com/wp-content/uploads/2026/10/TCDBELO_ZX008.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "8e1fac8d99408bf225",
-      "title": "Square Enix's Forgotten Loot-Shooter Was Years Ahead of Its Time",
-      "category": "Gaming",
-      "summary": "Outriders, the 2021 loot-shooter published by Square Enix, set the standard for multiplayer shooter. Then everyone moved on.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/outridrers-retrospective-review-square-enix/",
-      "published_at": "2026-10-09T22:58:06Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/outriders_launch_8.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "851b013d9449435fa4",
-      "title": "Israeli Americans Protest ‘NAZA’ Los Angeles Screening as Doc Releases Theatrically in U.S.",
-      "category": "Entertainment",
-      "summary": "The September premiere of 'NAZA' at the New York Film Festival was also met with protestors organized by the Israeli-American Council (IAC).",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/israeli-americans-protest-naza-los-angeles-screening-1236726709/",
-      "published_at": "2026-10-09T22:48:31Z",
-      "image_url": null,
       "media_type": "article",
       "video_id": null,
       "topics": [
@@ -3011,22 +3299,6 @@
       ]
     },
     {
-      "id": "0c34b43b2d4ef98d83",
-      "title": "Lisa and Director Sue Kim on Documenting the Star’s Break From the K-pop System in ‘Always Lalisa’",
-      "category": "Entertainment",
-      "summary": "From a fortune teller's advice to a Coachella solo slot and a standout role in 'White Lotus,' 'Always Lalisa' chronicles the K-pop idol's most unguarded year yet: \"I'm just so proud of myself.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/music/music-features/lisa-sue-kim-always-lalisa-interview-1236699144/",
-      "published_at": "2026-10-09T22:45:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "5549fffb99ffb89895",
       "title": "The Exorcist: Martyrs - Exclusive Trailer Breakdown with Director Mike Flanagan",
       "category": "Gaming",
@@ -3038,38 +3310,6 @@
       "image_url": "https://i.ytimg.com/vi/f9BdRx2bUnI/hqdefault.jpg",
       "media_type": "video",
       "video_id": "f9BdRx2bUnI",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "99c883444d1b6151c1",
-      "title": "Commentator Katie Zacharia picked as new White House press secretary",
-      "category": "World",
-      "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T22:41:21Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b258/live/476d9530-c414-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "27ff3a198b2be5bf95",
-      "title": "Marathon Is the Scariest Horror Game of 2026",
-      "category": "Gaming",
-      "summary": "Player ambushes, powerful NPC enemy robots, and the fear of losing loot makes Marathon terrifying.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/marathon-scariest-horror-game/",
-      "published_at": "2026-10-09T22:40:48Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/2025_dec_marathon_press_kit_compressed_001.jpg",
-      "media_type": "article",
-      "video_id": null,
       "topics": [
         "Gaming"
       ]
@@ -3091,54 +3331,6 @@
       ]
     },
     {
-      "id": "4b7a67f7526fb6e6f4",
-      "title": "Adéla Brings Sass, Vocals and Razor-Sharp Moves to Los Angeles’ Fonda Theatre",
-      "category": "Music",
-      "summary": "Amid the first of two sold-out nights at Los Angeles’ Fonda Theatre on Thursday night, Adéla paused to shout out Katseye members Lara Raj and Megan Skindiel, who were watching in the balcony alongside Saint Satine’s Emily Kelavos. “I moved out here a couple of years ago; I moved here for the show that I […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/adela-brings-sass-vocals-razor-sharp-moves-la-fonda-theatre-1236907126/",
-      "published_at": "2026-10-09T22:34:05Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MAB_4221.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "9cce701e4aea800d6b",
-      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-      "category": "World",
-      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T22:30:22Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/200a/live/11ffab00-c472-11f1-9fee-49b2288eef07.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "877f615b6a38eeb37f",
-      "title": "GTA 6's Nudity Sure Sounds Hopelessly Outdated",
-      "category": "Gaming",
-      "summary": "GTA 6's nude leaks suggest Rockstar isn't treating the crime game with the maturity and sense of realism that it promised",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/gta-6-nudity-jason-lucia-sounds-hopelessly-outdated/",
-      "published_at": "2026-10-09T22:19:54Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/gta-6-fashion-jason.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "3a1ec8b37b862d75ee",
       "title": "Kuwabara's Awakening #yuyuhakusho #anime #parody",
       "category": "Anime",
@@ -3150,38 +3342,6 @@
       "image_url": "https://i.ytimg.com/vi/NRQlhU4Cyaw/hqdefault.jpg",
       "media_type": "video",
       "video_id": "NRQlhU4Cyaw",
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "ca1f76f377ac190bfd",
-      "title": "The 7 Best Racing Games Like Star Wars: Galactic Racer",
-      "category": "Gaming",
-      "summary": "Check out other classics of sci-fi racing like F-Zero and Wipeout, plus earlier games from the developers like Burnout and Need for Speed",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/best-racing-games-like-star-wars-galactic-racer/",
-      "published_at": "2026-10-09T22:00:16Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/star-wars-galactic-racer-story-trailer-screenshot.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "4a8ace67a6604857fb",
-      "title": "GROTESQQQUE Anime Film Review",
-      "category": "Anime",
-      "summary": "Atsushi Nishigori’s three-part anthology film crams all his otaku obsessions into a feast of wild eye candy.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/grotesqqque/anime-film/.242677",
-      "published_at": "2026-10-09T22:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
       "topics": [
         "Anime"
       ]
@@ -3203,102 +3363,6 @@
       ]
     },
     {
-      "id": "78975340541c2de3cc",
-      "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
-      "category": "World",
-      "summary": "Jake and Callum Robinson and their friend Carter Rhoad were on a surf trip when they were killed in an apparent botched robbery.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T21:55:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "b6b4d9447e7dd106d6",
-      "title": "Cyberpunk 2077 is being made into a movie, even though we've already got the perfect cyberpunk movie starring Keanu Reeves as a guy named Johnny",
-      "category": "Gaming",
-      "summary": "Remember Johnny Mnemonic? If you haven't seen it, it's time.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/movies-tv/cyberpunk-2077-is-being-made-into-a-movie-even-though-weve-already-got-the-perfect-cyberpunk-movie-starring-keanu-reeves-as-a-guy-named-johnny/",
-      "published_at": "2026-10-09T21:54:26Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/No8Ri3Mas5vWZ4zzXoY3fB-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "d6267340f4856dac7d",
-      "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
-      "category": "World",
-      "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T21:50:47Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf5/live/cc41a870-c40d-11f1-838e-6d1d6d701264.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "726578154c55130263",
-      "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-      "category": "World",
-      "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T21:26:30Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae5/live/091da400-c419-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "5cd0ed554f4fbd54ce",
-      "title": "South African human rights lawyer Navi Pillay wins Nobel Peace Prize",
-      "category": "World",
-      "summary": "South African human rights lawyer Navi Pillay wins the 2026 Nobel Peace Prize for her lifelong defense of human rights and international law.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
-      "published_at": "2026-10-09T21:25:59Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "d3e039191c99de4b17",
-      "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
-      "category": "World",
-      "summary": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow, to combat prices before midterms. He said he struck the deal with Russian President Vladimir Putin in a phone call.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
-      "published_at": "2026-10-09T21:24:13Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "2eacd9a8ee5cd5e88c",
       "title": "Mama Rottie Living In A Tent Finally Gets Her 7 Puppies To Safety | The Dodo",
       "category": "Animals",
@@ -3312,70 +3376,6 @@
       "video_id": "h7rL5lj5J5o",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "5200f5e4a7e981661c",
-      "title": "North American Anime, Manga Releases, October 4-10",
-      "category": "Anime",
-      "summary": "Devil Survivor 2: The Animation anime; The Apothecary Diaries: Xiaolan's Story, My Journey to Her, Blue Lock Full Color Selection manga ship",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-09/north-american-anime-manga-releases-october-4-10/.242519",
-      "published_at": "2026-10-09T21:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "de78f834d96029d516",
-      "title": "Danielle Ponder Meshes Old-School Soul With Future Sounds on the Dazzling ‘Everything Has Changed’: Album Review",
-      "category": "Music",
-      "summary": "There have been many innovative R&B albums made over the past decade, but few have meshed futurism and tradition in quite the way that Danielle Ponder does on her second full-length, “Everything Has Changed.” She possesses a glass-shatteredly powerful, church-reared soul shouter voice, but uses its power sparingly, moving…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/reviews/danielle-ponder-everything-has-changed-album-review-1236907098/",
-      "published_at": "2026-10-09T20:50:39Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/albumcovertreatment-15-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "3da61d957c3c79fd1d",
-      "title": "‘Newlyweds’ Showrunner Gail Lerner Fired From NBC Sitcom Ahead of Premiere: ‘I’m So Sad’",
-      "category": "Entertainment",
-      "summary": "Gail Lerner announced on Friday that she was fired from “Newlyweds,” the upcoming NBC sitcom that she co-created and on which she was to serve as showrunner. “Here’s the good news: I couldn’t be more proud of the new sitcom Newlyweds that I created with the singular Jamie Lee Curtis,” Lerner wrote in part on […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/newlyweds-showrunner-gail-lerner-fired-nbc-1236907069/",
-      "published_at": "2026-10-09T20:43:22Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/05/Newlyweds.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "14bfc518932e499c54",
-      "title": "Shari Redstone-Backed Sipur Studios Opens London Office, Sets Out International Strategy Including Boarding Olivier Dahan’s ‘Nana’ (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "After Shari Redstone sold Paramount Global to David Ellison’s Skydance in 2024, she chose something unexpected for her next act: Sipur, a growing film and TV studio based out of Israel.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/sipur-studios-london-olivier-dahan-nana-1236902209/",
-      "published_at": "2026-10-09T20:41:13Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Ludovic-Attal-Emilio-Schenker-Sipur.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -4999,18 +4999,18 @@
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
@@ -5020,12 +5020,12 @@
     {
       "name": "The Dodo · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
@@ -5034,8 +5034,8 @@
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast Gaming · YouTube",
@@ -5055,7 +5055,7 @@
     {
       "name": "TeamFourStar · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dragon Ball Official (curated)",
