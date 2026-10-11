@@ -1,7 +1,432 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T03:29:37.312796Z",
+  "generated_at": "2026-10-11T08:43:01.884973Z",
   "posts": [
+    {
+      "id": "112f291c8a79abff17",
+      "title": "Geordie Greep cancels five US shows following sexual misconduct allegation",
+      "category": "Music",
+      "summary": "The former Black Midi frontman denied an accusation of rape on stage in Vancouver earlier this week The post Geordie Greep cancels five US shows following sexual misconduct allegation appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/geordie-greep-cancels-five-us-shows-sexual-misconduct-allegation-3972882?utm_source=rss&utm_medium=rss&utm_campaign=geordie-greep-cancels-five-us-shows-sexual-misconduct-allegation",
+      "published_at": "2026-10-11T08:27:57Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/geordie_greep_2026.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "c8f65a9e4e12c0f527",
+      "title": "i☆Ris Voice Actress Idol Unit to Disband at End of 2027",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-11/i-ris-voice-actress-idol-unit-to-disband-at-end-of-2027/.242716",
+      "published_at": "2026-10-11T08:13:58Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "bb442be30a4147a3c0",
+      "title": "Journey Drummer Deen Castronovo Returns to the Stage to Play Full Show, Two Nights After Medical Scare",
+      "category": "Music",
+      "summary": "No one is saying what caused Journey drummer Deen Castronovo to have been assisted off stage after two songs and admitted to a Tulsa hospital Thursday night. What they were saying, though, was that he had recovered from whatever hit him and was ready to resume action. That seemed to hold true Saturday night, as […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/journey-deen-castronovo-drummer-returns-stage-san-antonio-1236908003/",
+      "published_at": "2026-10-11T08:11:26Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1378187352.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "b02ebe3b84c735f083",
+      "title": "Taiwan’s Sole Busan Competition Title ‘To Be Ordinary’ Marks Lee Yun Chan’s Return to Features After Two Decades",
+      "category": "Entertainment",
+      "summary": "Taiwanese director Lee Yun Chan has returned to feature filmmaking after two decades away with “To Be Ordinary,” the only Taiwanese film in competition at the Busan International Film Festival.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/busan-competition-to-be-ordinary-lee-yun-chan-comeback-1236908013/",
+      "published_at": "2026-10-11T07:49:52Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/To-Be-Ordinary-team.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1553309ed3a88f728c",
+      "title": "Frank Carter ejects man from Sex Pistols gig after women-only mosh pit row: “It’s not your lived experience, so just shut the fuck up!”",
+      "category": "Music",
+      "summary": "The singer later said men offended by the idea were “PART OF THE PROBLEM” The post Frank Carter ejects man from Sex Pistols gig after women-only mosh pit row: “It’s not your lived experience, so just shut the fuck up!” appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/frank-carter-ejects-man-sex-pistols-women-only-mosh-pit-row-3972877?utm_source=rss&utm_medium=rss&utm_campaign=frank-carter-ejects-man-sex-pistols-women-only-mosh-pit-row",
+      "published_at": "2026-10-11T07:32:33Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/frank_carter_pistols.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "4f0f736bc93670ea59",
+      "title": "Korean and Italian Producers Sign Co-Production Pact at Busan Market",
+      "category": "Entertainment",
+      "summary": "The Producers Guild of Korea and Italy’s CNA Cinema e Audiovisivo will set up exchange programs and share information on public funding, building on the two countries’ government-level co-production accord.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/korea-italy-producer-groups-coproduction-pact-busan-1236908007/",
+      "published_at": "2026-10-11T07:30:22Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Korea-Italy-treaty.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "cf27bfa0b8339764d5",
+      "title": "Delhi braces for more protests as 'cockroach' group's leaders released",
+      "category": "World",
+      "summary": "Police say they will keep restricting access to the city centre after 7,000 people were detained and released on Saturday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T07:10:49Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a96/live/07c16320-c53c-11f1-ae34-756aa0b18b99.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "a88f4d7315349f2f7a",
+      "title": "Sci-Fi Thriller ‘Overstake’ Gets Generative AI Rebuild, Boarded by Cappu Films at Busan Market (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Hong Kong’s Cappu Films has signed on as worldwide sales agent for “Overstake,” a sci-fi action thriller from writer-director Stas Mareev that pairs a live-action shoot with settings being rebuilt through generative AI.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/sci-fi-thriller-overstake-generative-ai-rebuild-busan-market-1236907993/",
+      "published_at": "2026-10-11T06:31:57Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Overstake.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "dc0e1f787a6ade6895",
+      "title": "Rosalía Performs an Entire Number En Pointe on ‘SNL,’ Then Cools Off With a Nice Shower",
+      "category": "Entertainment",
+      "summary": "To the question of whether Rosalía would be dancing during her “Saturday Night Live” appearance or not, that depends on how you’re looking at it. The acclaimed singer stood in place, perfectly still, during her first number, “Reliquia” — but appeared to be standing en pointe for the entire four-minute performance.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/music/news/rosalia-snl-en-pointe-performance-reliquia-magnolias-1236907983/",
+      "published_at": "2026-10-11T06:23:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/near-full-Screenshot-2026-10-10-at-9.16.48-PM-e1791699723697.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "91a6c610e7d86a80e3",
+      "title": "Rosalía Performs an Entire Number En Pointe on ‘SNL,’ Then Cools Off With a Nice Shower",
+      "category": "Music",
+      "summary": "To the question of whether Rosalía would be dancing during her “Saturday Night Live” appearance or not, that depends on how you’re looking at it. The acclaimed singer stood in place, perfectly still, during her first number, “Reliquia” — but appeared to be standing en pointe for the entire four-minute performance.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/rosalia-snl-en-pointe-performance-reliquia-magnolias-1236907983/",
+      "published_at": "2026-10-11T06:23:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/near-full-Screenshot-2026-10-10-at-9.16.48-PM-e1791699723697.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "281add00c858b899fc",
+      "title": "Naruto's Penultimate Villain Madara Inspires Song by Rapper Eminem",
+      "category": "Anime",
+      "summary": "There is no Divine Tree involved with the new collab with EZ Mil, Hideyoshi, Madara's voice Neil Kaplan",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-11/naruto-penultimate-villain-madara-inspires-song-by-rapper-eminem/.242708",
+      "published_at": "2026-10-11T05:15:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "a8b1dc79bda0876311",
+      "title": "Netflix Has Used AI on About 300 Titles, but “Human Touch Is Critical,” Exec Says in Busan",
+      "category": "Entertainment",
+      "summary": "Netflix’s Asia-Pacific production head Sung Q Lee, ‘The Outlaws’ director Kang Yun-sung and Wētā FX's Kimball Thurston discussed creative possibilities, production savings and the limits of AI at the streamer’s Creative Asia event in Busan.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/business/business-news/netflix-ai-300-titles-busan-film-fest-1236727138/",
+      "published_at": "2026-10-11T05:12:50Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "00a7fceb99a7c8933d",
+      "title": "Yasuki Tanaka's Ghost Fixers Manga Ends in Next Chapter",
+      "category": "Anime",
+      "summary": "Manga from Summer Time Rendering author launched in March 2024.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-11/yasuki-tanaka-ghost-fixers-manga-ends-in-next-chapter/.242710",
+      "published_at": "2026-10-11T05:06:53Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "e28f7bcfb3d4564585",
+      "title": "US justice department investigates TV networks over Trump pool coverage",
+      "category": "World",
+      "summary": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T05:05:43Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dbb/live/9bb34c30-c53a-11f1-ae34-756aa0b18b99.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "6920e2cc6592402e4e",
+      "title": "‘Midday Meal’ Review: Touching Iranian Drama Charts a Teacher’s Desperate Acts to Provide for His School",
+      "category": "Entertainment",
+      "summary": "“Midday Meal” isn’t necessarily about the art of cooking, but it is in part about the rituals of food, rituals which become more precious with scarcity. But more than that, the new film from director Majid Majidi — best known for his 1997 drama “Children of Heaven”, the first Iranian production ever nominated for the […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/midday-meal-review-1236907939/",
+      "published_at": "2026-10-11T04:49:44Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/1788153786.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "40cdc2d4895f4755b2",
+      "title": "‘SNL’ Weekend Update Brutally Mocks Trump for Losing Nobel Peace Prize",
+      "category": "Entertainment",
+      "summary": "Following a clunky cold open, host Shane Gillis’s flop of a monologue and the comic dropping an accidental F-bomb during a Dr. Seuss sketch, audiences were treated to another edition of “Saturday Night Live’s” Weekend Update, featuring Colin Jost and Michael Che.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/snl-weekend-update-mocks-trump-losing-nobel-peace-prize-1236907971/",
+      "published_at": "2026-10-11T04:49:37Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-11-at-12.38.45-AM.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "27ab290e60226da9b3",
+      "title": "‘New Girl’ Stars Reunite — in a Slightly Different Way Than Max Greenfield Claimed",
+      "category": "Entertainment",
+      "summary": "Zooey Deschanel, Max Greenfield, Jake Johnson, Lamorne Morris, Hannah Simone and Damon Wayans Jr. stepped out together as they were honored at the Chrysalis Butterfly Ball on Saturday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/new-girl-stars-reunite-different-way-max-greenfield-claimed-1236727002/",
+      "published_at": "2026-10-11T04:40:12Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "cb1dc8be81eda32632",
+      "title": "Boichi's The Marshal King Manga Ends on October 16",
+      "category": "Anime",
+      "summary": "Manga resumed after 9-month hiatus on September 4",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-11/boichi-the-marshal-king-manga-ends-on-october-16/.242709",
+      "published_at": "2026-10-11T04:24:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "a112dd153e16ad662c",
+      "title": "‘SNL’ Host Shane Gillis Drops Accidental ‘F-Bomb’ During Dr. Seuss Sketch",
+      "category": "Entertainment",
+      "summary": "Shane Gillis accidentally dropped an F-bomb during a Dr. Seuss-inspired sketch during his “SNL” hosting stint. The comedian was playing Zackary, an aggressively protective son who interrupts a reading of “Green Eggs and Ham” to defend his elderly father from the relentless questioning of Sam-I-Am.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/shane-gillis-drops-accidental-f-bomb-snl-dr-seuss-sketch-1236907951/",
+      "published_at": "2026-10-11T04:22:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-11-at-12.09.47-AM.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3d9b704be8f7be4136",
+      "title": "Marvel, Kadokawa Launch 5 New Manga as Part of Partnership",
+      "category": "Anime",
+      "summary": "Manga about Iron Man, Spider-Man, Spider-Gwen, Deadpool, Venom launched on Sunday",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-11/marvel-kadokawa-launch-5-new-manga-as-part-of-partnership/.242704",
+      "published_at": "2026-10-11T04:05:18Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "8902219ea73feece1e",
+      "title": "APOD: 2026 October 11 – Ice Fishing for Cosmic Neutrinos",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 11 – Ice… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/",
+      "published_at": "2026-10-11T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "ab1bab37601c1a6da0",
+      "title": "‘SNL’: Shane Gillis Shares “Gas Station Egg” Nickname From Joe Rogan, Pete Hegseth Celebrates USS Lincoln San Diego Homecoming",
+      "category": "Entertainment",
+      "summary": "Rosalia was the night's musical guest, marking her second time on the show.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/snl-pete-hegseth-lincoln-homecoming-san-diego-shane-gillis-1236727048/",
+      "published_at": "2026-10-11T04:00:45Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "179316085d0624ccd7",
+      "title": "Shane Gillis Bombs ‘SNL’ Monologue (Again): ‘You’re Either Gay or You’re Hitler’",
+      "category": "Entertainment",
+      "summary": "Shane Gillis returned to host “Saturday Night Live” for the third time since his 2019 firing, emerging in a matching black T-shirt and pants for a meandering monologue about needing to lose weight and being miserable (and trying to be unthreatening to women) while hiking. “I tried to go to a public gym. Going to […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/snl-shane-gillis-bombs-monologue-again-hitler-misogyny-1236907937/",
+      "published_at": "2026-10-11T04:00:17Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-11.56.48-PM.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "acc8b41d817ef1862e",
+      "title": "Pete Hegseth Is Unhinged in ‘SNL’ Cold Open Mocking Christa Pike’s Botched Execution and RFK Jr.",
+      "category": "Entertainment",
+      "summary": "Colin Jost returned as an especially rowdy Pete Hegseth in this week’s “Saturday Night Live” cold open, welcoming home sailors aboard the USS Abraham Lincoln after nearly a year at sea. The Oct.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/snl-pete-hegseth-operation-epic-fury-1236907876/",
+      "published_at": "2026-10-11T03:48:56Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-11.39.48-PM.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "b9b262f2e5fdd20049",
+      "title": "‘Treasure Island’ Review: David Oyelowo and Hayley Atwell Can Only Breathe So Much Life Into MGM+’s Handsome but Undercooked Pirate Adventure",
+      "category": "Entertainment",
+      "summary": "Jack Huston and Tom Sweet also star in the reimagining of Robert Louis Stevenson's classic novel, about a young man's ocean-traversing quest for buried treasure.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-reviews/treasure-island-review-david-oyelowo-hayley-atwell-mgm-plus-1236726456/",
+      "published_at": "2026-10-11T03:40:02Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "b56a8aaedf9086c438",
       "title": "Slamdance Alzheimer’s Drama ‘Banr’ From ‘Fox Hunt’ Writer Erica Xia-Hou Heads to Busan Market (EXCLUSIVE)",
@@ -20,6 +445,23 @@
       ]
     },
     {
+      "id": "3a1f6446f10b914459",
+      "title": "Yuriten Exhibit Cancels 10th Anniversary Event After Artists Criticize Its AI Use",
+      "category": "Anime",
+      "summary": "Organizers: Contractor used AI-generated imagery for planned Tokyo event",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-10/yuriten-exhibit-cancels-10th-anniversary-event-after-artists-criticize-its-ai-use/.242698",
+      "published_at": "2026-10-11T03:15:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
       "id": "c75839b6c7727c6ae7",
       "title": "Award-Winning Pakistani Thriller ‘Wakhri’ Rolls Out in France, U.K., Australia and Brazil (EXCLUSIVE)",
       "category": "Entertainment",
@@ -34,6 +476,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "8b1864f2ca61c5d6fe",
+      "title": "The Apothecary Diaries: The Late Lady's Treasure Film Streams Video Highlighting Jinshi, Maomao",
+      "category": "Anime",
+      "summary": "Film to reveal new character videos for next 3 days",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/the-apothecary-diaries-the-late-lady-treasure-film-streams-video-highlighting-jinshi-maomao/.242700",
+      "published_at": "2026-10-11T02:52:56Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
       ]
     },
     {
@@ -611,6 +1070,23 @@
       ]
     },
     {
+      "id": "e014f4c6610034d5e6",
+      "title": "How To Piss Off a Brazilian without mentioning the World Cup",
+      "category": "Travel",
+      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UCFr3sz2t3bDp6Cux08B93KQ/join #brazil #visitbrazil #travel Copyright Mark Wolters 2026 We receive a small percentage of sales from links on our videos from companies such as Amazon, Bookings, Expedia, Get Your Guide, and others.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Wolters World · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=e4KqQFs7o8Y",
+      "published_at": "2026-10-10T22:30:37Z",
+      "image_url": "https://i.ytimg.com/vi/e4KqQFs7o8Y/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "e4KqQFs7o8Y",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
       "id": "ea7df8d516bde82f7e",
       "title": "Squadron 42 has a Steam page",
       "category": "Gaming",
@@ -826,6 +1302,23 @@
       "video_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "5bbd15d761b751d66a",
+      "title": "Woman Goes For A Run And Comes Home With A Dog | The Dodo",
+      "category": "Animals",
+      "summary": "Imagine finding this little ball of fluff in a trash bag 🥺💓 Sawna wasn’t sure she was ready for another dog, but Cedar’s goofy personality and instant bond with Aspen made saying no almost impossible. Before long, he’d made himself part of the family.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=velg1-JTyAA",
+      "published_at": "2026-10-10T21:00:19Z",
+      "image_url": "https://i.ytimg.com/vi/velg1-JTyAA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "velg1-JTyAA",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
       ]
     },
     {
@@ -1304,6 +1797,7 @@
       "image_url": "https://i.ytimg.com/vi/GnlCTqs-Fto/hqdefault.jpg",
       "media_type": "video",
       "video_id": "GnlCTqs-Fto",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
       ]
@@ -1320,6 +1814,7 @@
       "image_url": "https://i.ytimg.com/vi/HkRUXdmg2mE/hqdefault.jpg",
       "media_type": "video",
       "video_id": "HkRUXdmg2mE",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -1403,6 +1898,7 @@
       "image_url": "https://i.ytimg.com/vi/jx6tjJkqQoo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "jx6tjJkqQoo",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -1484,6 +1980,7 @@
       "image_url": "https://i.ytimg.com/vi/HIWwbW1qW1w/hqdefault.jpg",
       "media_type": "video",
       "video_id": "HIWwbW1qW1w",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -1533,6 +2030,7 @@
       "image_url": "https://i.ytimg.com/vi/h8VE9_aHd94/hqdefault.jpg",
       "media_type": "video",
       "video_id": "h8VE9_aHd94",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -1615,6 +2113,7 @@
       "image_url": "https://i.ytimg.com/vi/tiYDuuZOipE/hqdefault.jpg",
       "media_type": "video",
       "video_id": "tiYDuuZOipE",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -1681,6 +2180,7 @@
       "image_url": "https://i.ytimg.com/vi/SU8WsIRIE4M/hqdefault.jpg",
       "media_type": "video",
       "video_id": "SU8WsIRIE4M",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -1697,6 +2197,7 @@
       "image_url": "https://i.ytimg.com/vi/Hgh8L_aNiCA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "Hgh8L_aNiCA",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
       ]
@@ -1713,6 +2214,7 @@
       "image_url": "https://i.ytimg.com/vi/pTHEkEZhMgM/hqdefault.jpg",
       "media_type": "video",
       "video_id": "pTHEkEZhMgM",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -1912,6 +2414,7 @@
       "image_url": "https://i.ytimg.com/vi/5s4MFmi5Drk/hqdefault.jpg",
       "media_type": "video",
       "video_id": "5s4MFmi5Drk",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -2042,6 +2545,7 @@
       "image_url": "https://i.ytimg.com/vi/cherdFoxjWk/hqdefault.jpg",
       "media_type": "video",
       "video_id": "cherdFoxjWk",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -2107,6 +2611,7 @@
       "image_url": "https://i.ytimg.com/vi/vnHu337UaiQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "vnHu337UaiQ",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -2139,6 +2644,7 @@
       "image_url": "https://i.ytimg.com/vi/nbIrUO6egcs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "nbIrUO6egcs",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -2253,6 +2759,7 @@
       "image_url": "https://i.ytimg.com/vi/e_RidLlHWNg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "e_RidLlHWNg",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -2269,6 +2776,7 @@
       "image_url": "https://i.ytimg.com/vi/tBfHI8sNWVU/hqdefault.jpg",
       "media_type": "video",
       "video_id": "tBfHI8sNWVU",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
       ]
@@ -2385,6 +2893,7 @@
       "image_url": "https://i.ytimg.com/vi/QuIrb7lT0Gw/hqdefault.jpg",
       "media_type": "video",
       "video_id": "QuIrb7lT0Gw",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -2401,6 +2910,7 @@
       "image_url": "https://i.ytimg.com/vi/Xh9cZtPoqZs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "Xh9cZtPoqZs",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
       ]
@@ -2814,264 +3324,6 @@
       ]
     },
     {
-      "id": "169303b8c3c20d1d00",
-      "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
-      "category": "World",
-      "summary": "Several trains to Delhi have been cancelled and dozens of metro stations are shut to stop protesters from gathering.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T05:25:12Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d433/live/d30d8e00-c3d4-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "83c1d73267cc5cc2b2",
-      "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
-      "category": "World",
-      "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T04:34:55Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "81fb240508f0fecf8f",
-      "title": "'I am the only one who is not attacked in the world filled with zombies' TV Anime's Main Promo Video Previews Theme Songs",
-      "category": "Anime",
-      "summary": "Rikako Ito, Marie Miyake join cast; RetBear, Itsuka▶ perform theme songs",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/i-am-the-only-one-who-is-not-attacked-in-the-world-filled-with-zombies-tv-anime-main-promo-video-/.242682",
-      "published_at": "2026-10-10T04:09:11Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "acc20cf23a6330f21c",
-      "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
-      "category": "World",
-      "summary": "The US president told a rally he had \"never heard of\" the winner, former International Criminal Court judge Navi Pillay.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T04:07:11Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/528b/live/a76ba860-c459-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "8cb9a668b21495ee69",
-      "title": "APOD: 2026 October 10 – Lunar Farside",
-      "category": "Science",
-      "summary": "APOD Science APOD APOD: 2026 October 10… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
-      "published_at": "2026-10-10T04:05:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "93f02fa723426ab7fd",
-      "title": "To Love-ru's Kentaro Yabuki Draws Nami Card for One Piece Card Game",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-09/to-love-ru-kentaro-yabuki-draws-nami-card-for-one-piece-card-game/.242536",
-      "published_at": "2026-10-10T03:59:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "dd8c5f6dceb9b32d89",
-      "title": "Vietnamese Horror ‘Arithmadtic’ Leads Bee Entertainment’s Busan Market Slate, With New Film From ‘The Corpse’ Director",
-      "category": "Entertainment",
-      "summary": "Psychological horror “Arithmadtic,” set in an elite international school, leads a genre-heavy slate that Vietnam’s Bee Entertainment is presenting to buyers at Busan’s Asian Contents & Film Market (ACFM).",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/markets-festivals/vietnamese-horror-arithmadtic-bee-entertainment-busan-market-slate-1236907315/",
-      "published_at": "2026-10-10T03:41:52Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Arithmadtic.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "798dc675307388dde0",
-      "title": "Cambodian Remake of Korean Mother-Daughter Drama ‘Wedding Dress’ Leads Abnormal Studios’ Busan Market Slate (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "A Phnom Penh-set reworking of Kwon Hyung-jin’s 2010 South Korean drama “Wedding Dress” is the lead title for Malaysia’s Abnormal Studios at this year’s Asian Contents & Film Market in Busan, where the company is selling the film ahead of its local release. The new version centers on Dalin, a single mother who designs bridal […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/markets-festivals/cambodian-wedding-dress-remake-abnormal-studios-busan-slate-1236907311/",
-      "published_at": "2026-10-10T03:18:34Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Wedding-Dress.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f5ea6021f1f03a729a",
-      "title": "Pokémon Go Zorua Community Day event guide",
-      "category": "Gaming",
-      "summary": "Zorua Community Day takes place on Oct. 10. Here's how to find a shiny and make the most of the Community Day's bonuses.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/pokemon-go-zorua-community-day-event-shiny-zoroark-moveset/",
-      "published_at": "2026-10-10T03:13:52Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/jlee_261009_1001_pogo_zorua_cd.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "fa3b12699e302cf6d9",
-      "title": "Tom Cruise, Alejandro González Iñárritu Enjoy MAPPA Anniversary Exhibit",
-      "category": "Anime",
-      "summary": "Jujutsu Kaisen/Yuri!!! on Ice designer presents Digger star & director with art of Cruise",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-09/tom-cruise-alejandro-gonzalez-inarritu-enjoy-mappa-anniversary-exhibit/.242675",
-      "published_at": "2026-10-10T03:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "406b0f77eb17fa3e50",
-      "title": "Billy Bat Manga Wins Harvey Award",
-      "category": "Anime",
-      "summary": "Series had competed against Land, My Gorilla Family, Miss Ruki , more works for Best Manga award",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-09/billy-bat-manga-wins-harvey-award/.242681",
-      "published_at": "2026-10-10T02:51:40Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "ee6cd66134de4e33b8",
-      "title": "‘Exorcism of God’ Director Alejandro Hidalgo to Helm Malaysian Hungry Ghost Festival Horror ‘The Hungry One’ (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Alejandro Hidalgo, director of “The Exorcism of God,” is set to make “The Hungry One,” a supernatural horror film unfolding over Malaysia’s Hungry Ghost Festival.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/markets-festivals/exorcism-of-god-alejandro-hidalgo-malaysia-horror-hungry-one-1236907302/",
-      "published_at": "2026-10-10T02:44:33Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Hungry-One-poster.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "08bb031bec45f8ecc9",
-      "title": "Michael Douglas Tells Bill Maher About Smuggling Marijuana in Suitcases, Slams ‘Nepo Baby’ Label",
-      "category": "Entertainment",
-      "summary": "On Friday night, Michael Douglas stopped by “Real Time with Bill Maher” to promote his mammoth memoir “One Helluva Ride,” chronicling the acclaimed actor and producer’s rise through the Hollywood ranks, from winning the Best Picture Oscar for producing “One Flew Over the Cuckoo’s Nest” to winning the Best Actor Oscar for “Wall…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/michael-douglas-bill-maher-real-time-smuggling-marijuana-nepo-baby-1236907300/",
-      "published_at": "2026-10-10T02:38:20Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2298962143.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "3eafd8d3372356d14d",
-      "title": "Edward Zhang, Casper Van Dien, Jeff Fahey Star in China-U.S. WWII Spy Series ‘Operation Doolittle,’ Heading to Busan Market (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "World War II espionage drama “Operation Doolittle,” a China-U.S. co-production starring Edward Zhang, Casper Van Dien and Jeff Fahey, is heading to the Busan International Film Festival’s Asian Contents & Film Market, where Cappu Films is presenting it to buyers as worldwide sales agent.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/markets-festivals/wwii-spy-series-operation-doolittle-busan-market-1236907242/",
-      "published_at": "2026-10-10T02:28:21Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Operation-Dolittle.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "fb71681972a3dc1a6c",
-      "title": "US country music star Ella Langley cancels show due to 'security threat'",
-      "category": "World",
-      "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T02:02:54Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab10/live/c3d14350-b6a0-11f1-bc1f-3f186ca4140c.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "e1d06fbcbb74dbe3ec",
-      "title": "US country music star Ella Langley cancels show due to 'security threat'",
-      "category": "Entertainment",
-      "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T02:02:54Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab10/live/c3d14350-b6a0-11f1-bc1f-3f186ca4140c.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "ac77ab18cdbec842ec",
       "title": "Sonic Racing: CrossWorlds - Official Year Two DLC Overview",
       "category": "Entertainment",
@@ -3083,38 +3335,7 @@
       "image_url": "https://i.ytimg.com/vi/nLsuAzEUk-k/hqdefault.jpg",
       "media_type": "video",
       "video_id": "nLsuAzEUk-k",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b7a9f82950dc0f666b",
-      "title": "Pokémon Winds and Waves' Water Starter Breaks a Series Curse",
-      "category": "Gaming",
-      "summary": "Nintendo and Game Freak's 10th Gen Pokémon starters are led by Browt, Pombon, and Gecqua, the breakout water starter of Winds and Waves",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/pokemon-winds-waves-water-starter-series-curse/",
-      "published_at": "2026-10-10T01:20:15Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/poke-mon-presents-_-2-27-2026-23-35-screenshot.png",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "1ce8f6b5fad60b3423",
-      "title": "BlumFest Haunts New York Comic Con 2026: All the Highlights From Blumhouse Atomic Monster",
-      "category": "Entertainment",
-      "summary": "Craig Zobel was unveiled as the director for the adaptation of James Tynion IV and Werther Dell’Edera’s 'Something is Killing the Children,' while Curry Barker, Mike Flanagan, James Wan, Chiwetel Ejiofor, David Harbour, LaKeith Stanfield and Kristen Bell made appearances.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/blumfest-new-york-comic-con-2026-highlights-1236726806/",
-      "published_at": "2026-10-10T01:14:29Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
       ]
@@ -3136,118 +3357,6 @@
       ]
     },
     {
-      "id": "4bc1aaea1f9bf160ff",
-      "title": "‘14th’ Review: Ava DuVernay’s Powerful Sequel to ‘13th’ Turns a Constitutional Amendment into Living History",
-      "category": "Entertainment",
-      "summary": "The movie, I’m pleased to report, exerts the same kind of historical/topical force that \"13th\" did. DuVernay, while she works in an extremely accessible and mainstream way, has a singular gift for making the nuances of history come alive. \"14th\" is steeped in history, but it’s not a dry lecture.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/reviews/14th-review-ava-duvernay-nyff-1236904880/",
-      "published_at": "2026-10-10T01:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/07/B0002289.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "ec1497497cad57c929",
-      "title": "‘14th’ Review: Ava DuVernay Delivers Another Essential and Compelling Constitutional Deep Dive for Netflix",
-      "category": "Entertainment",
-      "summary": "Premiering at the New York Film Festival, the filmmaker's follow-up to her '13th' tackles birthright citizenship, the Equal Protection Clause and the undoing of the gains of Reconstruction.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/14th-review-ava-duvernay-netflix-documentary-1236726558/",
-      "published_at": "2026-10-10T01:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "09d3d725c6fbf062ad",
-      "title": "Danny Trejo Speaks Out About His Role in Daily Wire ‘Pawn Shop’ Movie: ‘I Am Not Pro-ICE. I Am Pro-Immigrant.’",
-      "category": "Entertainment",
-      "summary": "Danny Trejo has issued his first statement since facing backlash for starring in the pro-ICE Daily Wire movie “Pawn Shop” from Ben Shapiro’s production company. “I am a proud Mexican who has always been and will always be a supporter of my community. I am also obviously pro-immigrant. I am not pro-ICE,” the “Spy Kids” […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/danny-trejo-daily-wire-pawn-shop-not-pro-ice-1236907272/",
-      "published_at": "2026-10-10T00:36:12Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/2231570902.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f141f3515ebfee46c6",
-      "title": "MTG Officially Reveals 4 Epic New Marvel Commander Decks Coming in 2027",
-      "category": "Gaming",
-      "summary": "Head to Asgard or Doctor Strange’s wizarding school",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/magic-the-gathering-marvel-darkhold-destiny-commander-decks/",
-      "published_at": "2026-10-10T00:30:16Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/moon-knight-battles-mindless-ones-in-art-from-darkhold-destiny.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "656e4ccca99325f5a8",
-      "title": "Magic: The Gathering Reveals New ‘Darkhold Destiny’ Marvel Set, ‘Avengers: Doomsday’ Theater-Only Card Giveaway",
-      "category": "Entertainment",
-      "summary": "Magic: The Gathering has unveiled its next Marvel-themed set and announced a special collaboration with the upcoming theatrical release of “Avengers: Doomsday.” Titled “Darkhold Destiny,” the set is focused on “the mystical, the mythical and the mighty” magical characters from the Marvel universe, including Doctor Strange,…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/gaming/news/magic-the-gathering-marvel-darkhold-destiny-doomsday-cards-1236906955/",
-      "published_at": "2026-10-10T00:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Magic-The-Gathering-Darkhold-Destiny.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6b620a0a947b54dc1a",
-      "title": "2026's OLED monitors can nearly recreate the sublime clarity of a '90s CRT, but Windows will have to change before we can achieve true nirvana",
-      "category": "Gaming",
-      "summary": "All you need is a ridiculously fast monitor and endless patience for tinkering to get a glimpse of how good retro games looked in motion back in the '90s.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/hardware/gaming-monitors/2026s-oled-monitors-can-nearly-recreate-the-sublime-clarity-of-a-90s-crt-but-windows-will-have-to-change-before-we-can-achieve-true-nirvana/",
-      "published_at": "2026-10-10T00:20:52Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/AHRTYTZLDgBW6HQ7rRKHBL-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "646bc88413ba0ebc18",
-      "title": "Roseanne Barr’s Self-Produced TV Series Now Courting Distributors, Co-Creator Says",
-      "category": "Entertainment",
-      "summary": "Allan Stephan, a ‘Roseanne’ veteran who wrote 'Meemaw’ with the former sitcom star, says representatives for the show are in talks with a few platforms.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/roseanne-barrs-indie-tv-series-distributors-co-creator-1236726679/",
-      "published_at": "2026-10-10T00:09:26Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "0993fa572c941a13cb",
       "title": "Bloodaxe - Official Teaser Trailer (2027) Xavier Molyneux, Jessica Madsen",
       "category": "Entertainment",
@@ -3261,38 +3370,6 @@
       "video_id": "HL1yJc5KA2Q",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "682abebee13560e2f3",
-      "title": "Bill Burr on ‘The Social Reckoning,’ Sparring With Jeremy Strong as Mark Zuckerberg and Why Tech CEOs are ‘Leading Us to Ruin’",
-      "category": "Entertainment",
-      "summary": "Over three decades in stand-up comedy, Bill Burr has gained a reputation for saying, with gruff conviction and political fire, the thing on everyone’s mind. In Aaron Sorkin’s new film “The Social Reckoning,” Burr gets to aim that unfiltered attitude at Mark Zuckerberg.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/bill-burr-the-social-reckoning-zuckerberg-1236907159/",
-      "published_at": "2026-10-09T23:45:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDSORE_SP013-e1791584119615.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "36e7f277aa54f80926",
-      "title": "'Overcooked broke you apart and Stage Fright is there to put you back together'",
-      "category": "Gaming",
-      "summary": "Developers of the stressful cooking game series talk to PC Gamer about their more 'positive' co-op adventure.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/adventure/overcooked-broke-you-apart-and-stage-fright-is-there-to-put-you-back-together/",
-      "published_at": "2026-10-09T23:43:13Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/zfk4j5M3dpoHuYLwTAqciY-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -3355,6 +3432,7 @@
       "image_url": "https://i.ytimg.com/vi/IBVmenOroPs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "IBVmenOroPs",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -3435,6 +3513,7 @@
       "image_url": "https://i.ytimg.com/vi/NRQlhU4Cyaw/hqdefault.jpg",
       "media_type": "video",
       "video_id": "NRQlhU4Cyaw",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -3451,6 +3530,7 @@
       "image_url": "https://i.ytimg.com/vi/qgYp6SSUoxk/hqdefault.jpg",
       "media_type": "video",
       "video_id": "qgYp6SSUoxk",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -3467,6 +3547,7 @@
       "image_url": "https://i.ytimg.com/vi/h7rL5lj5J5o/hqdefault.jpg",
       "media_type": "video",
       "video_id": "h7rL5lj5J5o",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3483,6 +3564,7 @@
       "image_url": "https://i.ytimg.com/vi/pPw0ttryIC4/hqdefault.jpg",
       "media_type": "video",
       "video_id": "pPw0ttryIC4",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3499,6 +3581,7 @@
       "image_url": "https://i.ytimg.com/vi/fMgcm9aXZyY/hqdefault.jpg",
       "media_type": "video",
       "video_id": "fMgcm9aXZyY",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -3515,6 +3598,7 @@
       "image_url": "https://i.ytimg.com/vi/f2csKPY5ddc/hqdefault.jpg",
       "media_type": "video",
       "video_id": "f2csKPY5ddc",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
       ]
@@ -3531,6 +3615,7 @@
       "image_url": "https://i.ytimg.com/vi/inXNYDaFgpo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "inXNYDaFgpo",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3547,6 +3632,7 @@
       "image_url": "https://i.ytimg.com/vi/5N17EbYJBwQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "5N17EbYJBwQ",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -3563,6 +3649,7 @@
       "image_url": "https://i.ytimg.com/vi/JBYEFERaiJE/hqdefault.jpg",
       "media_type": "video",
       "video_id": "JBYEFERaiJE",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3579,6 +3666,7 @@
       "image_url": "https://i.ytimg.com/vi/1YzXD7e6QIA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "1YzXD7e6QIA",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
       ]
@@ -3595,6 +3683,7 @@
       "image_url": "https://i.ytimg.com/vi/6Bz7a0d1G1k/hqdefault.jpg",
       "media_type": "video",
       "video_id": "6Bz7a0d1G1k",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -3611,6 +3700,7 @@
       "image_url": "https://i.ytimg.com/vi/MS8jDuBSJMA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "MS8jDuBSJMA",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3627,6 +3717,7 @@
       "image_url": "https://i.ytimg.com/vi/7sKHiuE7J-Y/hqdefault.jpg",
       "media_type": "video",
       "video_id": "7sKHiuE7J-Y",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -3643,6 +3734,7 @@
       "image_url": "https://i.ytimg.com/vi/aNI2jv7lBPQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "aNI2jv7lBPQ",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -3659,6 +3751,7 @@
       "image_url": "https://i.ytimg.com/vi/wsstlwuE5XY/hqdefault.jpg",
       "media_type": "video",
       "video_id": "wsstlwuE5XY",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
       ]
@@ -3675,6 +3768,7 @@
       "image_url": "https://i.ytimg.com/vi/aQQHNlj0m2U/hqdefault.jpg",
       "media_type": "video",
       "video_id": "aQQHNlj0m2U",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3691,6 +3785,7 @@
       "image_url": "https://i.ytimg.com/vi/WpM6p6okF5E/hqdefault.jpg",
       "media_type": "video",
       "video_id": "WpM6p6okF5E",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
       ]
@@ -3707,6 +3802,7 @@
       "image_url": "https://i.ytimg.com/vi/U53-KV-_hBg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "U53-KV-_hBg",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
       ]
@@ -3723,6 +3819,7 @@
       "image_url": "https://i.ytimg.com/vi/fL9OBJO3Gu8/hqdefault.jpg",
       "media_type": "video",
       "video_id": "fL9OBJO3Gu8",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -3739,6 +3836,7 @@
       "image_url": "https://i.ytimg.com/vi/4u6EoZTROxo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "4u6EoZTROxo",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
       ]
@@ -3755,6 +3853,7 @@
       "image_url": "https://i.ytimg.com/vi/zYkIj3soZAs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "zYkIj3soZAs",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -3803,6 +3902,7 @@
       "image_url": "https://i.ytimg.com/vi/RnSYku72hEI/hqdefault.jpg",
       "media_type": "video",
       "video_id": "RnSYku72hEI",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -3867,6 +3967,7 @@
       "image_url": "https://i.ytimg.com/vi/XnIXupxiRo4/hqdefault.jpg",
       "media_type": "video",
       "video_id": "XnIXupxiRo4",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -3899,6 +4000,7 @@
       "image_url": "https://i.ytimg.com/vi/8WWrNbHvd44/hqdefault.jpg",
       "media_type": "video",
       "video_id": "8WWrNbHvd44",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
       ]
@@ -3915,6 +4017,7 @@
       "image_url": "https://i.ytimg.com/vi/2fkJ7-W7oZk/hqdefault.jpg",
       "media_type": "video",
       "video_id": "2fkJ7-W7oZk",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -3947,6 +4050,7 @@
       "image_url": "https://i.ytimg.com/vi/7Ol-0Iq0JMA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "7Ol-0Iq0JMA",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -3963,6 +4067,7 @@
       "image_url": "https://i.ytimg.com/vi/cXahuUOIkjQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "cXahuUOIkjQ",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -3995,6 +4100,7 @@
       "image_url": "https://i.ytimg.com/vi/T5N8ZaY536Q/hqdefault.jpg",
       "media_type": "video",
       "video_id": "T5N8ZaY536Q",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4011,6 +4117,7 @@
       "image_url": "https://i.ytimg.com/vi/gduYQKmz05M/hqdefault.jpg",
       "media_type": "video",
       "video_id": "gduYQKmz05M",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
       ]
@@ -4027,6 +4134,7 @@
       "image_url": "https://i.ytimg.com/vi/pr6T9rQ7w3c/hqdefault.jpg",
       "media_type": "video",
       "video_id": "pr6T9rQ7w3c",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -4043,6 +4151,7 @@
       "image_url": "https://i.ytimg.com/vi/gsjPR_qW618/hqdefault.jpg",
       "media_type": "video",
       "video_id": "gsjPR_qW618",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
       ]
@@ -4059,6 +4168,7 @@
       "image_url": "https://i.ytimg.com/vi/HIyNacZ39vU/hqdefault.jpg",
       "media_type": "video",
       "video_id": "HIyNacZ39vU",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4091,6 +4201,7 @@
       "image_url": "https://i.ytimg.com/vi/VjrjTlfzkZQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "VjrjTlfzkZQ",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -4107,6 +4218,7 @@
       "image_url": "https://i.ytimg.com/vi/YWGqDIorMFs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "YWGqDIorMFs",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4123,6 +4235,7 @@
       "image_url": "https://i.ytimg.com/vi/kmwLf6cOVL0/hqdefault.jpg",
       "media_type": "video",
       "video_id": "kmwLf6cOVL0",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4155,6 +4268,7 @@
       "image_url": "https://i.ytimg.com/vi/c5C-n9LwUOA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "c5C-n9LwUOA",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -4171,6 +4285,7 @@
       "image_url": "https://i.ytimg.com/vi/_pcvJFXk9QM/hqdefault.jpg",
       "media_type": "video",
       "video_id": "_pcvJFXk9QM",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4187,6 +4302,7 @@
       "image_url": "https://i.ytimg.com/vi/Kh6gZMLPx_o/hqdefault.jpg",
       "media_type": "video",
       "video_id": "Kh6gZMLPx_o",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -4203,6 +4319,7 @@
       "image_url": "https://i.ytimg.com/vi/K7x2Cxw8Amg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "K7x2Cxw8Amg",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4219,6 +4336,7 @@
       "image_url": "https://i.ytimg.com/vi/plN7JMbadRg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "plN7JMbadRg",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4235,6 +4353,7 @@
       "image_url": "https://i.ytimg.com/vi/teW7A5EoP_o/hqdefault.jpg",
       "media_type": "video",
       "video_id": "teW7A5EoP_o",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4251,6 +4370,7 @@
       "image_url": "https://i.ytimg.com/vi/EM9wox54F2g/hqdefault.jpg",
       "media_type": "video",
       "video_id": "EM9wox54F2g",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4267,6 +4387,7 @@
       "image_url": "https://i.ytimg.com/vi/pn0DUVb34uw/hqdefault.jpg",
       "media_type": "video",
       "video_id": "pn0DUVb34uw",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
       ]
@@ -4283,6 +4404,7 @@
       "image_url": "https://i.ytimg.com/vi/vGx9j2gd5RU/hqdefault.jpg",
       "media_type": "video",
       "video_id": "vGx9j2gd5RU",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4299,6 +4421,7 @@
       "image_url": "https://i.ytimg.com/vi/u6RTMCclpSQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "u6RTMCclpSQ",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4315,6 +4438,7 @@
       "image_url": "https://i.ytimg.com/vi/3yEnPrLt8e4/hqdefault.jpg",
       "media_type": "video",
       "video_id": "3yEnPrLt8e4",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -4331,6 +4455,7 @@
       "image_url": "https://i.ytimg.com/vi/HKdAMTdCcwA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "HKdAMTdCcwA",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4347,6 +4472,7 @@
       "image_url": "https://i.ytimg.com/vi/tbWTiZlwJ3M/hqdefault.jpg",
       "media_type": "video",
       "video_id": "tbWTiZlwJ3M",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4363,6 +4489,7 @@
       "image_url": "https://i.ytimg.com/vi/ZHBb9zqtldU/hqdefault.jpg",
       "media_type": "video",
       "video_id": "ZHBb9zqtldU",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
       "topics": [
         "Comedy"
       ]
@@ -4395,6 +4522,7 @@
       "image_url": "https://i.ytimg.com/vi/CEJXqm2eiJ0/hqdefault.jpg",
       "media_type": "video",
       "video_id": "CEJXqm2eiJ0",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4411,6 +4539,7 @@
       "image_url": "https://i.ytimg.com/vi/PyLGTmWz37U/hqdefault.jpg",
       "media_type": "video",
       "video_id": "PyLGTmWz37U",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -4444,6 +4573,7 @@
       "image_url": "https://i.ytimg.com/vi/v9QtM6qnG50/hqdefault.jpg",
       "media_type": "video",
       "video_id": "v9QtM6qnG50",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4460,6 +4590,7 @@
       "image_url": "https://i.ytimg.com/vi/TTY6zULI8JQ/hqdefault.jpg",
       "media_type": "video",
       "video_id": "TTY6zULI8JQ",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4476,6 +4607,7 @@
       "image_url": "https://i.ytimg.com/vi/_L1Rim7-IPo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "_L1Rim7-IPo",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4492,6 +4624,7 @@
       "image_url": "https://i.ytimg.com/vi/T_SMf9j50uc/hqdefault.jpg",
       "media_type": "video",
       "video_id": "T_SMf9j50uc",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4508,6 +4641,7 @@
       "image_url": "https://i.ytimg.com/vi/NUVkpWAD548/hqdefault.jpg",
       "media_type": "video",
       "video_id": "NUVkpWAD548",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4558,6 +4692,7 @@
       "image_url": "https://i.ytimg.com/vi/kJu5VMN3yow/hqdefault.jpg",
       "media_type": "video",
       "video_id": "kJu5VMN3yow",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -4574,6 +4709,7 @@
       "image_url": "https://i.ytimg.com/vi/1w3XaMSIeR8/hqdefault.jpg",
       "media_type": "video",
       "video_id": "1w3XaMSIeR8",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4624,6 +4760,7 @@
       "image_url": "https://i.ytimg.com/vi/4VwbYrqJfzg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "4VwbYrqJfzg",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4640,6 +4777,7 @@
       "image_url": "https://i.ytimg.com/vi/gTKS8SAwUzE/hqdefault.jpg",
       "media_type": "video",
       "video_id": "gTKS8SAwUzE",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4690,6 +4828,7 @@
       "image_url": "https://i.ytimg.com/vi/Dy06SXknr_g/hqdefault.jpg",
       "media_type": "video",
       "video_id": "Dy06SXknr_g",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -4706,6 +4845,7 @@
       "image_url": "https://i.ytimg.com/vi/67LFeTgFv3Y/hqdefault.jpg",
       "media_type": "video",
       "video_id": "67LFeTgFv3Y",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4756,6 +4896,7 @@
       "image_url": "https://i.ytimg.com/vi/5mU6SRS2Bxo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "5mU6SRS2Bxo",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4772,6 +4913,7 @@
       "image_url": "https://i.ytimg.com/vi/Qtl8lJwbd4g/hqdefault.jpg",
       "media_type": "video",
       "video_id": "Qtl8lJwbd4g",
+      "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
       ]
@@ -4822,6 +4964,7 @@
       "image_url": "https://i.ytimg.com/vi/gVE2t-LRK-s/hqdefault.jpg",
       "media_type": "video",
       "video_id": "gVE2t-LRK-s",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -4838,6 +4981,7 @@
       "image_url": "https://i.ytimg.com/vi/KLJxCWeYGoE/hqdefault.jpg",
       "media_type": "video",
       "video_id": "KLJxCWeYGoE",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4854,6 +4998,7 @@
       "image_url": "https://i.ytimg.com/vi/KwqeKTM9M_8/hqdefault.jpg",
       "media_type": "video",
       "video_id": "KwqeKTM9M_8",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4870,6 +5015,7 @@
       "image_url": "https://i.ytimg.com/vi/_IvIVI8PIRI/hqdefault.jpg",
       "media_type": "video",
       "video_id": "_IvIVI8PIRI",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4886,6 +5032,7 @@
       "image_url": "https://i.ytimg.com/vi/mDz5MgFZUMo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "mDz5MgFZUMo",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4902,6 +5049,7 @@
       "image_url": "https://i.ytimg.com/vi/PRp5Y543LN0/hqdefault.jpg",
       "media_type": "video",
       "video_id": "PRp5Y543LN0",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -4918,6 +5066,7 @@
       "image_url": "https://i.ytimg.com/vi/0BAkKJ_3Tic/hqdefault.jpg",
       "media_type": "video",
       "video_id": "0BAkKJ_3Tic",
+      "youtube_channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
       "topics": [
         "Discover"
       ]
@@ -4934,6 +5083,7 @@
       "image_url": "https://i.ytimg.com/vi/uugVAg1LI68/hqdefault.jpg",
       "media_type": "video",
       "video_id": "uugVAg1LI68",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4950,6 +5100,7 @@
       "image_url": "https://i.ytimg.com/vi/gye8x0Jr0Uo/hqdefault.jpg",
       "media_type": "video",
       "video_id": "gye8x0Jr0Uo",
+      "youtube_channel_id": "UCnmGIkw-KdI0W5siakKPKog",
       "topics": [
         "Entertainment"
       ]
@@ -4966,6 +5117,7 @@
       "image_url": "https://i.ytimg.com/vi/zd3rqLZxfXE/hqdefault.jpg",
       "media_type": "video",
       "video_id": "zd3rqLZxfXE",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4982,6 +5134,7 @@
       "image_url": "https://i.ytimg.com/vi/uSxn1vF_LCg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "uSxn1vF_LCg",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
       "topics": [
         "Anime"
       ]
@@ -4998,6 +5151,7 @@
       "image_url": "https://i.ytimg.com/vi/nH9R0Jpqeqc/hqdefault.jpg",
       "media_type": "video",
       "video_id": "nH9R0Jpqeqc",
+      "youtube_channel_id": "UCIPPMRA040LQr5QPyJEbmXA",
       "topics": [
         "Gaming"
       ]
@@ -5097,38 +5251,38 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 7,
+      "error": null
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "TED · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 6,
+      "error": null
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 6,
+      "error": null
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 12,
+      "error": null
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 10,
+      "error": null
     },
     {
       "name": "How Ridiculous · YouTube",
@@ -5137,28 +5291,28 @@
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "items": 8,
+      "error": null
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "Dragon Ball Official (curated)",
