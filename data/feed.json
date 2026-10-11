@@ -1,7 +1,500 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T15:06:56.150566Z",
+  "generated_at": "2026-10-11T19:29:56.300578Z",
   "posts": [
+    {
+      "id": "e439f3b833c3388147",
+      "title": "Sally Field Was Like a ‘Mother Figure’ While Filming ‘Mrs. Doubtfire,’ Says Star Matthew Lawrence: ‘We Really Became a Family Unit’",
+      "category": "Entertainment",
+      "summary": "Matthew Lawrence is reflecting on his experience filming “Mrs. Doubtfire,” where he played Sally Field and Robin Williams’ son.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/matthew-lawrence-sally-field-mrs-doubtfire-1236908316/",
+      "published_at": "2026-10-11T19:26:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MSDMRDO_FE010.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8701d31201aa154dc4",
+      "title": "Orangutans released back into Borneo forest after devastating fires",
+      "category": "World",
+      "summary": "Rescuers moved the apes after their habitats were threatened by intense wildfires over the summer.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwvgde0m2d73o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T19:08:04Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e90/live/35c07920-c5a8-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "01371118465cc9fc06",
+      "title": "Orangutans released back into Borneo forest after devastating fires",
+      "category": "Science",
+      "summary": "Rescuers moved the apes after their habitats were threatened by intense wildfires over the summer.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwvgde0m2d73o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T19:08:04Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e90/live/35c07920-c5a8-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "edd6ea8fae18a6ba74",
+      "title": "‘Artemis Fowl’ Animated TV Show Set at Disney",
+      "category": "Entertainment",
+      "summary": "Artemis Fowl is coming to TV. An animated series adaptation of the bestselling book franchise has been greenlit for Disney Channel and Disney+. Author Eoin Colfer announced the news during the “25 Years of Artemis Fowl” panel at New York Comic Con. Colfer will serve as an executive producer of the series, which follows the […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/artemis-fowl-animated-tv-show-disney-1236908229/",
+      "published_at": "2026-10-11T18:45:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Artemis-Fowl-Greenlight-e1791737280374.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "b40ce828f20802da5c",
+      "title": "Tom Cruise’s ‘Digger’ Now Stands to Lose $245 Million After Dropping 60% in Second Weekend",
+      "category": "Entertainment",
+      "summary": "“Digger” will go down in box office history for all the wrong reasons. Tom Cruise and director Alejandro González Iñárritu’s R-rated environmental satire is tracking to lose $245 million in its theatrical run, according to knowledgeable sources.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/box-office/digger-losing-millions-warner-bros-box-office-1236908217/",
+      "published_at": "2026-10-11T18:37:32Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/MCDDIGG_WB025.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "746f081ffcaa2b7403",
+      "title": "‘Carrie’ Star Samantha Sloyan Finds the Love Inside Horror’s Most Nefarious Mother",
+      "category": "Entertainment",
+      "summary": "The 'Midnight Mass' alum explains how Mike Flanagan's Prime Video series rethinks Stephen King‘s notorious religious mother as a woman driven by fierce, frightened love: “She’s a real shoot-first, ask-questions-later kind of lady.”",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/carrie-ending-samantha-sloyan-margaret-white-interview-1236717193/",
+      "published_at": "2026-10-11T18:15:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "80a368b95aeaf7ec84",
+      "title": "‘Musk’ Director Alex Gibney Confirms Universal Wavered in Planning Overseas Release, Says He Tried to Interview Elon Musk: ‘His Response Was Writing “Gibney Is a Douche”’",
+      "category": "Entertainment",
+      "summary": "Alex Gibney, director of the 3-hour-and-45-minute Elon Musk-centered documentary “Musk,” discussed the lengths he went to to interview the tech billionaire for the film and why he believes Universal Pictures hesitated to plan an international release in a new interview with The New York Times.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/musk-director-alex-gibney-universal-overseas-release-elon-musk-1236908243/",
+      "published_at": "2026-10-11T18:04:50Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/03/Elon-Musk.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ea3c411a89768fb071",
+      "title": "Globo Announces BBC Deal on Teen Werewolf-Vampire Thriller ‘Blood Red,’ Highlights Big Telenovelas and Hot Fiction Formats at Mipcom Showcase",
+      "category": "Entertainment",
+      "summary": "Globo has sold to the BBC “Blood Red – Under the Moonlight,” a teen werewolf/vampire love triangle thriller now bound for BBC iPlayer and BBC Three. The biggest new announcement set for a packed Mipcom Globo Showcase on Sunday evening, the BBC deal marks a milestone for Globo streaming service Globoplay, the first time a […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/globo-bbc-deal-blood-red-mipcom-showcase-to-love-is-to-care-1236908256/",
+      "published_at": "2026-10-11T18:01:01Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Blood-Red-Under-the-Moonlight-002.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1ed7ffc51e78cf1191",
+      "title": "How to Start Any Conversation the Right Way | Chris Fenning | TED",
+      "category": "Discover",
+      "summary": "What's your point? Communication expert Chris Fenning reveals how the first 60 seconds can make or break a workplace conversation — and shares a three-step framework to help you get it right.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TED · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=CKAyfGItpgg",
+      "published_at": "2026-10-11T18:00:21Z",
+      "image_url": "https://i.ytimg.com/vi/CKAyfGItpgg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "CKAyfGItpgg",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "f685471e289e6b0d8d",
+      "title": "Robert Pattinson Recalls ‘Primetime’ Script Feeling Like a ‘Grenade’ as A24 Thriller Premieres in London: It Was ‘Original and Funny… and a Little Dangerous’",
+      "category": "Entertainment",
+      "summary": "Robert Pattinson delighted London Film Festival on Sunday night as he introduced his latest film, “Primetime,” to an eager audience at BFI Imax. Sporting a dark grey suit and slicked-back hair, Pattinson explained why he decided to come on board the psychological thriller not only as its lead — he portrays former “To Catch a […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/robert-pattinson-primetime-london-film-festival-premiere-1236907553/",
+      "published_at": "2026-10-11T17:53:54Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/robert-pattinson.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7a562255fd5cf75605",
+      "title": "Poland detains man suspected of planning assassination of PM Tusk",
+      "category": "World",
+      "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T17:27:24Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/187d/live/a4be0650-c592-11f1-9d5a-23156cc094cf.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "617cfac0f90cd08816",
+      "title": "Jimmy Stewart’s Daughter Commends KJ Apa’s Performance in ‘Jimmy’ Biopic: ‘I Don’t See How They Could Have Found Anybody Better’",
+      "category": "Entertainment",
+      "summary": "KJ Apa has earned a stamp of approval from the family of Jimmy Stewart for his portrayal of the actor and military aviator in the forthcoming “Jimmy” biopic, which releases in theaters Nov. 6.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/jimmy-stewart-daughter-praises-kj-apa-jimmy-biopic-1236908245/",
+      "published_at": "2026-10-11T17:23:48Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/KJ-Apa-as-Beloved-Actor-in-JIMMY.-Photo-courtesy-of-Burns-Co.-2026-JIMMY-The-Movie-LLC-All-Rights-Reserved.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "096bdfb64c4acb991e",
+      "title": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
+      "category": "Gaming",
+      "summary": "\"With Drakengard, the first game I was given the opportunity to direct, I was actually able to do almost everything the way I wanted.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/gaming-industry/nier-creator-yoko-taro-says-hes-achieved-his-career-dreams-but-he-continues-working-because-its-good-for-preventing-dementia/",
+      "published_at": "2026-10-11T17:16:19Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/9hH4SdoXa7bk8Q5LcAwiP7-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "d2742528d767859474",
+      "title": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
+      "category": "Gaming",
+      "summary": "Just because I'm sneaking around doesn't mean I don't want to look my best.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-2-0-is-here-and-you-can-finally-turn-those-lights-on-your-backpack-off/",
+      "published_at": "2026-10-11T17:09:57Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/RqU48Ce8fMUZhWnU5CV8bH-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "5badd0ca421b7b5c48",
+      "title": "Europe's Top Tourist Traps Worth Visiting Once!",
+      "category": "Travel",
+      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UCFr3sz2t3bDp6Cux08B93KQ/join #touristtraps #travel #Copyright Mark Wolters 2026 We receive a small percentage of sales from links on our videos from companies such as Amazon, Bookings, Expedia, Get Your Guide, and others.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Wolters World · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=YVlqJWTpjUM",
+      "published_at": "2026-10-11T17:00:40Z",
+      "image_url": "https://i.ytimg.com/vi/YVlqJWTpjUM/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "YVlqJWTpjUM",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "7badaa4abdb60c8d72",
+      "title": "Grandpa Keeps Sweet Tradition Going With Two Very Unimpressed Cats | The Dodo",
+      "category": "Animals",
+      "summary": "Guys. ONE picture. That’s all Grandpa is asking 😭 Grandpa started taking his cat Wolf to flower fields years ago, turning their outings and photos together into a tradition. After Wolf passed away, he carried it on with Chouchou and Miko, although these two are much more interested in bickering than posing.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=o3pdV8lWcCI",
+      "published_at": "2026-10-11T17:00:23Z",
+      "image_url": "https://i.ytimg.com/vi/o3pdV8lWcCI/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "o3pdV8lWcCI",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "8f16a009ba4b705779",
+      "title": "9 Most Haunted Masks in The Legend of Zelda: Majora's Mask, Ranked",
+      "category": "Gaming",
+      "summary": "The Legend of Zelda: Majora's Mask has 24 masks, and plenty come with a previous owner who isn’t coming back. These are the nine most haunted.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/zelda-majoras-masks-scariest-ranked/",
+      "published_at": "2026-10-11T17:00:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19584505/Screenshot__97_.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "5e898502d6e28ab12e",
+      "title": "You Want Those Tattoos From ‘The Bear’? Call Benny Shields",
+      "category": "Entertainment",
+      "summary": "The tattooist‘s onscreen body art for the likes of Ryan Gosling and Jeremy Allen White has made him the industry's go-to needler.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/tattoo-artist-jeremy-allen-white-the-bear-1236723459/",
+      "published_at": "2026-10-11T17:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c9fcaae97cb3557181",
+      "title": "Invincible VS - Official Agent Spider Reveal Trailer",
+      "category": "Entertainment",
+      "summary": "Your vaguely familiar, fully compliant neighborhood Agent Spider is here! Watch the Agent Spider reveal trailer to see this character in action. Agent Spider is the fourth fighter included in the Year 1 Character Pass and is swinging in this winter for Season 3 of Invincible VS.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=ee0BHQXWhMM",
+      "published_at": "2026-10-11T16:53:25Z",
+      "image_url": "https://i.ytimg.com/vi/ee0BHQXWhMM/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "ee0BHQXWhMM",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2a49f7b71f9068f8d6",
+      "title": "Saudi capital airport hit by second Houthi strike in two days",
+      "category": "World",
+      "summary": "The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T16:41:37Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "bf1edeadcfcd0e92da",
+      "title": "Spain Hits Mipcom With Prestige Dramas, Reality Formats, Headed by Can Yaman, ‘Nowhere’ Star Anna Castillo and ‘La Mesias’ Lead Carmen Machi",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/markets-festivals/movistar-plus-mediaset-the-mediapro-studio-atresmedia-rtve-1236893901/",
+      "published_at": "2026-10-11T16:37:06Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MIPCOM-PROFILES-FOREVER-HOME-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "acfb889571e9938932",
+      "title": "‘Social Reckoning’ Goes Dark With $5.5M as ‘Other Mommy’ Delivers at Box Office",
+      "category": "Entertainment",
+      "summary": "Aaron Sorkin's follow-up to 'The Social Network' didn't carry much influence, while Jessica Chastain's horror feature dealt with scathing responses.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/other-mommy-box-office-social-reckoning-opening-1236726908/",
+      "published_at": "2026-10-11T16:19:24Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "da9396e40197a65ece",
+      "title": "Pokémon Horizons: Season 3 - Rising Hope Part 4 Anime Series Review",
+      "category": "Anime",
+      "summary": "What makes this final batch of episodes so strong is that almost everybody gets a moment to shine or a moment of introspection.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/review/pokemon-horizons/season-3-rising-hope-part-4/anime-series/.242251",
+      "published_at": "2026-10-11T16:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "2a10b49862d3b44ab6",
+      "title": "RPGs are simply better when you're an idiot",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/rpg/rpgs-are-simply-better-when-youre-an-idiot/",
+      "published_at": "2026-10-11T16:00:00Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/JJ4uZr5MzpkVGEb7kwppnf-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "b8dd219e34aa5d1a95",
+      "title": "Javier Bardem on Adding Homoeroticism to 007 and Telling Sam Mendes That His ‘Skyfall’ Villain Should Be Someone Who ‘Wants to Have Sex With Bond’",
+      "category": "Entertainment",
+      "summary": "Javier Bardem’s “Skyfall” villain Raoul Silva is widely considered to be one of the best James Bond baddies across the entire franchise, a sadistic and flirtatious cyber-terrorist with bleached-blond locks who gave 007 arguably his most homoerotic scene to date. “We are the last two rats.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/global/javier-bardem-skyfall-villain-wants-to-have-sex-with-bond-1236908082/",
+      "published_at": "2026-10-11T15:39:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2299662006.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "aebc601d4efe64e90d",
+      "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+      "category": "World",
+      "summary": "The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T15:32:23Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b0b/live/ba857dc0-c58c-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "a726227b54730c215e",
+      "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+      "category": "World",
+      "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T15:18:52Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5288/live/10c1e1e0-c585-11f1-80f2-5bd1e5df7ada.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "44133239a8ec99d4a5",
+      "title": "R.L. Stine’s ‘The Babysitter’ Adaptation Coming to Tubi in 2027 (Exclusive)",
+      "category": "Entertainment",
+      "summary": "The movie marks the fourth title adapted in an ongoing partnership between the free streamer and the horror author, following two 'Pumpkinhead' films and the recently announced 'Afraid of Clowns.'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/tubi-the-babysitter-movie-r-l-stine-2027-1236727014/",
+      "published_at": "2026-10-11T15:15:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "02235c644c315b0ef2",
+      "title": "Box Office: ‘The Social Reckoning’ Flops With $5.5 Million Debut, ‘Other Mommy’ Tops Box Office With $27.5 Million",
+      "category": "Entertainment",
+      "summary": "“Other Mommy,” a horror movie starring Jessica Chastain as a double-jointed doppelgänger from hell, scared up $27.5 million in its box office debut. Those ticket sales were enough to lead in North America over this weekend’s other new release, “The Social Reckoning,” which crumbled in fifth place with $5.5 million.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/box-office/social-reckoning-flops-other-mommy-leads-box-office-1236908161/",
+      "published_at": "2026-10-11T15:14:10Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/06/social-reckoning-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "4c27eebe8c5e4c38bc",
       "title": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
@@ -28,7 +521,7 @@
       "source_name": "BBC Science",
       "source_url": "https://www.bbc.co.uk/news/articles/cqx2z2xx0k2lo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-11T14:48:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9024/live/b945e1d0-bffa-11f1-8c3e-3b2eab095459.jpeg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0320/live/b6c07290-c5a4-11f1-9a39-31b474234113.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -479,23 +972,6 @@
       ]
     },
     {
-      "id": "aebc601d4efe64e90d",
-      "title": "Children among 109 dead after boat capsizes off Djibouti, UN says",
-      "category": "World",
-      "summary": "The boat was travelling from Djibouti to Yemen with 350 people on board, when it capsized near the port town of Obock on Thursday night.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T12:08:20Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24cd/live/140fac20-c56b-11f1-bd33-db1f7eaf2b30.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "5ef4c6ce86ec9982e3",
       "title": "Homes and bridges swept away as fresh floods hit Nepal",
       "category": "World",
@@ -548,7 +1024,7 @@
     },
     {
       "id": "76bb3fd22927cd3e9b",
-      "title": "A heroic, 7-day bike ride made this teen a global star. Where is she now?",
+      "title": "She was a global star: Teen bikes 700 miles carrying injured dad. Where is she now?",
       "category": "World",
       "summary": "Her epic ride — carrying her injured dad on her $20 hot pink bicycle — made headlines. Promises were made — financial help, training for a cycling career, even a movie deal. Were any of them kept?",
       "summary_status": "publisher_excerpt",
@@ -1635,9 +2111,9 @@
     },
     {
       "id": "f54d5913bdd870fa5b",
-      "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+      "title": "Passenger terminal at Riyadh airport is struck again, a day after 12 were killed",
       "category": "World",
-      "summary": "Saudi authorities say the latest attack on the international airport in the capital, Riyadh, has killed 12 people and injured over 300. Their statement says the dead on Saturday included four Saudi citizens as well as two Bangladeshi nationals, a Palestinian, a U.S. citizen, an Egyptian, a Jordanian, a Syrian and a Sudanese.",
+      "summary": "A projectile struck a passenger terminal at the international airport in Riyadh on Sunday, a day after a missile hit the same terminal and killed 12 people, officials said.",
       "summary_status": "publisher_excerpt",
       "source_name": "NPR World",
       "source_url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
@@ -2769,22 +3245,6 @@
       ]
     },
     {
-      "id": "acfb889571e9938932",
-      "title": "‘Other Mommy’ Delivering $28M in Box Office Debut as ‘Social Reckoning’ Gets Quiet Start",
-      "category": "Entertainment",
-      "summary": "Jessica Chastain stars in director Rob Savage's horror feature that has been hit with a painful D+ CinemaScore.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/other-mommy-box-office-social-reckoning-opening-1236726908/",
-      "published_at": "2026-10-10T16:27:18Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "93e0072e49d8de6799",
       "title": "Who Made The Shot?",
       "category": "Comedy",
@@ -2885,39 +3345,6 @@
       ]
     },
     {
-      "id": "1819030ec677289470",
-      "title": "Scarlett Johansson, Sam Rockwell and Brad Bird Sing ‘Happy Birthday’ to Composer Michael Giacchino as ‘Ray Gunn’ World Premieres in London",
-      "category": "Entertainment",
-      "summary": "The world premiere of Netflix’s animated feature “Ray Gunn” at the London Film Festival on Saturday coincided with a special day for one of its key creatives. As director Brad Bird noted in the introduction at the Royal Festival Hall, the premiere for the neo-noir sci-fi was also composer Michael Giacchino’s birthday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/festivals/scarlett-johansson-ray-gunn-world-premiere-london-1236907447/",
-      "published_at": "2026-10-10T15:34:41Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2299516031.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f43bb7986b3ef87f0f",
-      "title": "I Have Discovered The Best Game Soundtrack of 2026 and It Is Super Woden: Rally Edge",
-      "category": "Gaming",
-      "summary": "Super Woden: Rally Edge evokes the grubby thrills of the arcade with its banging music.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/super-woden-rally-edge-game-music-best-2026/",
-      "published_at": "2026-10-10T15:31:42Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/superwodenrallyedge_artwork_nologo.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "dfc8cb3f87131be8af",
       "title": "The Witcher 3 Remastered - PC Performance Review",
       "category": "Entertainment",
@@ -2932,56 +3359,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "b41aa6b685fc0cbbe7",
-      "title": "AMC’s ‘Mayfair Witches: Salem Coven’ Gets December Debut as Catherine Zeta-Jones, Carrie-Anne Moss Tease ‘Kill Jackie’ and ‘Yaga’ at NYCC",
-      "category": "Entertainment",
-      "summary": "AMC Global Media teased four series on its Friday afternoon panel, which also featured never-before-seen footage from 'The Walking Dead: Daryl Dixon.'",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/amc-mayfair-witches-season-3-yaga-kill-jackie-teasers-1236726907/",
-      "published_at": "2026-10-10T15:24:27Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "305aa155638f3ad6bd",
-      "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
-      "category": "World",
-      "summary": "Navi Pillay says the Trump administrations' sweeping penalties on the international tribunal were \"unheard of\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T15:23:47Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8690/live/4429a2a0-c4b5-11f1-9ce9-55293bd7f0d9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "69e1063ef96a1075e6",
-      "title": "Japanese Animation TV Ranking, September 21-27",
-      "category": "Anime",
-      "summary": "Detective Conan: The Counterfeit Crime Case of Ultra 30 special earns 8.6% rating",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/japanese-animation-tv-ranking-september-21-27/.242684",
-      "published_at": "2026-10-10T15:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
       ]
     },
     {
@@ -3036,189 +3413,6 @@
       ]
     },
     {
-      "id": "1e006efe0d3d8b06d2",
-      "title": "Grand Theft Ocarina Could Be Gaming's Barbenheimer",
-      "category": "Gaming",
-      "summary": "Nintendo's gamble on the November release date clash between GTA 6 and Zelda: Ocarina of Time for Switch 2 seems to be paying off",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/switchboard-gta-6-zelda-grand-theft-ocarina-barbenheimer/",
-      "published_at": "2026-10-10T15:00:18Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/saturday-night-live-snl-gta-zelda-sketch.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "a7e634a68d215d0193",
-      "title": "Star Citizen Spinoff Squadron 42 Officially Reveals Huge Cast in New Look",
-      "category": "Gaming",
-      "summary": "The 'Star Citizen' spinoff 'Squadron 42' got a new trailer featuring gameplay and cinematics.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/star-citizen-squadron-42-trailer-gameplay-cast/",
-      "published_at": "2026-10-10T15:00:18Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/squadron-42-henry-cavill.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "97d81d38239fec71e7",
-      "title": "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-by-casting-off-modern-convenience-has-horseshoed-back-around-to-being-casual-friendly-again/",
-      "published_at": "2026-10-10T15:00:00Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/sA6dPzNJTJ4jjCswJHsR2g-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "b4466e0ece2d0f8058",
-      "title": "‘The Social Reckoning’ Breakout Portia Doubleday on Playing ‘White Girl Wasted’ Conspiracy Theorist: ‘I Knew People Who Were Radicalized’",
-      "category": "Entertainment",
-      "summary": "SPOILER ALERT: This story contains spoilers for “The Social Reckoning,” now playing in theaters. Aaron Sorkin’s new film “The Social Reckoning” begins with a vignette about the impact of social media that’s as chilling as any statistic about the dangers of social media.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/features/portia-doubleday-social-reckoning-white-girl-wasted-1236904376/",
-      "published_at": "2026-10-10T15:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/portia-doubleday.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "dc755382b070fef555",
-      "title": "Woman injures three people in third Poland school knife attack in a week",
-      "category": "World",
-      "summary": "Polish police had already deployed to schools after a female caretaker was killed and several others injured in two earlier attacks in two days.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T14:58:55Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82b6/live/15d89210-c4b7-11f1-9ce9-55293bd7f0d9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "758a9d67b8cadc9754",
-      "title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
-      "category": "World",
-      "summary": "Eight children are said to be among those killed by the strike, which hit a gathering of displaced people.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T14:49:32Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a17b/live/c6c5e2c0-c4b8-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "6830cf6a24f71e149a",
-      "title": "Kleber Mendonça Filho, Wagner Moura and More Brazilian Academy Members Release Open Letter Expressing ‘Concern’ Over Brazil’s Presidential Elections (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Several Brazilian members of the Academy of Motion Picture Arts and Sciences, including Oscar nominees Kleber Mendonça Filho, Wagner Moura, Emilie Lesclaux, Fernando Meirelles, Alê Abreu and Petra Costa, and Oscar-winning producer Rodrigo Teixeira (“I’m Still Here”), have released an open letter calling international attention…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/kleber-mendonca-filho-wagner-moura-letter-brazil-elections-1236906963/",
-      "published_at": "2026-10-10T14:25:59Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/VARIETY-SIZING-66.png",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f305fa5e4f994f6723",
-      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "category": "World",
-      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T14:24:14Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "164b447ff86d5f0beb",
-      "title": "Magic’s Next Marvel Set Just Revealed a One Ring Replacement That Can Destroy the Whole Table",
-      "category": "Gaming",
-      "summary": "Magic: The Gathering’s Darkhold rivals The One Ring as a powerful draw engine — and its deadly combos can wipe out an entire Commander table.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/mtg-marvel-darkhold-destiny-headliner-card-the-one-ring-replacement/",
-      "published_at": "2026-10-10T14:21:38Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/one-ring-art-34f43b4eff89a67eb4e3f7eda512250fc317d47e.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6e1b6a48422155bab5",
-      "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
-      "category": "Science",
-      "summary": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the agency’s Experience Zone, located at the […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/",
-      "published_at": "2026-10-10T14:18:59Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "ed84ed7f6550530b51",
-      "title": "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/puzzle/triple-a-minesweeper-is-a-gleeful-send-up-of-blockbuster-gamings-worst-habits-from-yellow-paint-to-characters-who-talk-too-much/",
-      "published_at": "2026-10-10T14:07:03Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/DoqhUM5E8hYNYhiPC4ChiK-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "a15dee013dda3d9b83",
       "title": "Enshrouded: Everything Major Added Since Launch",
       "category": "Entertainment",
@@ -3233,120 +3427,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "595844da97a1045419",
-      "title": "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever",
-      "category": "Gaming",
-      "summary": "Revisiting the forgotten fourth state of PC gaming.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/fps/the-advent-of-first-person-shooters-introduced-a-wild-frontier-of-unregulated-video-game-level-packs-and-it-ended-in-a-lawsuit-that-changed-copyright-forever/",
-      "published_at": "2026-10-10T14:00:00Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/qLPx2oUXGMtiS7tpZwsSMk-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "53cec3da608f6a91b3",
-      "title": "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it'",
-      "category": "Gaming",
-      "summary": "It wouldn't be the first cozy game with horrific debts to pay, though.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/life-sim/be-warned-nivalis-nights-may-not-be-the-cozy-game-you-expect-if-you-want-a-cozy-existence-in-this-city-youre-going-to-have-to-earn-it/",
-      "published_at": "2026-10-10T14:00:00Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/As6ae8zVbBiYzVbZJMT7ZV-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6d7b26459a3a52b932",
-      "title": "Brad Bird on Why He Took ‘Ray Gunn’ to Skydance Instead of Pixar: Making Animated Films for Teens and Adults ‘Shouldn’t Be a Controversial Decision’",
-      "category": "Entertainment",
-      "summary": "On a balmy April afternoon at Abbey Road Studios in London, a 74-piece orchestra comprised of violinists, cellists, flautists and even an organ-payer, is packed into Studio One.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/brad-bird-ray-gunn-skydance-pixar-1236907403/",
-      "published_at": "2026-10-10T13:55:11Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Ray-Gunn.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "bc806998a120029416",
-      "title": "Six-Armed, Two-Legged Spider Princess Tale ‘Migali’ Unpacked by Its Director Ahead of MipJunior World Premiere",
-      "category": "Entertainment",
-      "summary": "At MIPJunior, it’s not often that a little creeper gets put out on center-stage. But on Oct. 10, as “Migali” makes its world premiere in front of buyers from all across the globe, a tiny spider princess seems to be set on weaving webs of laughter and fun at the unmissable Cannes children’s TV market. […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/markets-festivals/spider-princess-migali-mipcom-animated-series-1236905328/",
-      "published_at": "2026-10-10T13:45:16Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Migali_head_hearts.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "4a1242627d0830f871",
-      "title": "‘Ray Gunn’ Review: Brad Bird’s Latest Animated Feature Is a Giddy Retro-Futurist Noir With More Energy Than Charm",
-      "category": "Entertainment",
-      "summary": "“Welcome to the future,” we hear several times in “Ray Gunn” — not that the brave new world it presents is all that welcoming. Or, for that matter, particularly brave or new. The good news is we finally have flying cars and superpowered jetpacks; in other respects, though, we haven’t come a long way at […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/reviews/ray-gunn-review-1236907330/",
-      "published_at": "2026-10-10T13:45:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/0105__VHR_0400__main__compositing__v004.0060adjusted-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "8ab9d2e4f69407b579",
-      "title": "‘Ray Gunn’ Review: Sam Rockwell and Scarlett Johansson in Brad Bird’s Forgettable Netflix Animated Neo-Noir",
-      "category": "Entertainment",
-      "summary": "Produced by Skydance Animation's John Lasseter and also starring Tom Waits and Bobby Cannavale, the film follows a golden-hearted private eye hired to wrangle a famously volatile starlet.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/ray-gunn-review-netflix-sam-rockwell-scarlett-johansson-1236721083/",
-      "published_at": "2026-10-10T13:45:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "2406fe1931995f571d",
-      "title": "Hundreds protest over data centre plans",
-      "category": "Science",
-      "summary": "Placard-waving opponents highlight concerns about a data centre development on the local landscape.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm78pwq47vp1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T13:40:03Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e776/live/7a3be9e0-c4a9-11f1-a64c-550be9e3c66b.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
