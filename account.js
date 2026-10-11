@@ -126,17 +126,17 @@
       const document=await sdk.getDoc(path);
       if(auth.currentUser?.uid!==user.uid)return;
       const data=document.exists()?document.data():null;
-      if(data?.preferences){
-        window.dispatchEvent(new CustomEvent('orbit-cloud-prefs',{detail:{prefs:validPrefs(data.preferences)}}));
-      }else{
-        // For a first-time sign-in the current guest preferences seed the cloud.
-        window.dispatchEvent(new CustomEvent('orbit-cloud-needs-seed'));
-      }
       state.channels=Array.isArray(data?.youtubeChannels)?
         data.youtubeChannels.filter(x=>typeof x?.id==='string'&&/^UC[A-Za-z0-9_-]{22}$/.test(x.id))
           .slice(0,500).map(x=>({id:x.id,title:String(x.title||'Channel').slice(0,90)})):[];
       state.youtubeVideos=Array.isArray(data?.youtubeVideos)?data.youtubeVideos.slice(0,45):[];
       state.cloudReady=true;state.error='';
+      if(data?.preferences){
+        window.dispatchEvent(new CustomEvent('orbit-cloud-prefs',{detail:{prefs:validPrefs(data.preferences)}}));
+      }else{
+        // The cloud write is allowed only after the initial read finishes.
+        window.dispatchEvent(new CustomEvent('orbit-cloud-needs-seed'));
+      }
       ytAnnounce();announce();
     }catch(e){
       state.cloudReady=false;
