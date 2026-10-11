@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+    // Absolutely no public accounts or social reads.
+    match /users/{uid}/private/{documentId} {
+      allow get: if isOwner(uid) && documentId == 'preferences';
+      allow list: if false;
+      allow create, update: if isOwner(uid)
+        && documentId == 'preferences'
+        && request.resource.data.keys().hasOnly([
+          'schema', 'preferences', 'youtubeChannels', 'youtubeVideos', 'updatedAt'
+        ])
+        && request.resource.data.schema == 1
+        && (!('youtubeChannels' in request.resource.data)
+            || (request.resource.data.youtubeChannels is list
+                && request.resource.data.youtubeChannels.size() <= 500))
+        && (!('youtubeVideos' in request.resource.data)
+            || (request.resource.data.youtubeVideos is list
+                && request.resource.data.youtubeVideos.size() <= 45))
+        && (!('preferences' in request.resource.data)
+            || (request.resource.data.preferences is map));
+      allow delete: if isOwner(uid) && documentId == 'preferences';
+    }
+    // Default-deny everything else. No public profile/social collections.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
