@@ -1,7 +1,92 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T02:06:53.672040Z",
+  "generated_at": "2026-10-11T03:29:37.312796Z",
   "posts": [
+    {
+      "id": "b56a8aaedf9086c438",
+      "title": "Slamdance Alzheimer’s Drama ‘Banr’ From ‘Fox Hunt’ Writer Erica Xia-Hou Heads to Busan Market (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Hong Kong’s Cappu Films has taken on worldwide sales for “Banr,” Erica Xia-Hou’s Canadian-Chinese drama about a 40-year marriage tested by Alzheimer’s disease.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/slamdance-alzheimers-drama-banr-busan-market-1236907932/",
+      "published_at": "2026-10-11T03:26:36Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Banr.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c75839b6c7727c6ae7",
+      "title": "Award-Winning Pakistani Thriller ‘Wakhri’ Rolls Out in France, U.K., Australia and Brazil (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Iram Parveen Bilal’s award-winning Pakistani thriller “Wakhri” has landed distribution in several international territories. Its theatrical and broadcast releases are rolling out this fall across France, the U.K. and Ireland, Australia and Brazil, and more territories will follow over the coming months.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/global/pakistani-film-wakhri-france-uk-australia-brazil-release-1236907928/",
+      "published_at": "2026-10-11T03:13:05Z",
+      "image_url": "https://variety.com/wp-content/uploads/2023/11/Wakhri.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f7d7234cb316604a7c",
+      "title": "SSS-Class Revival Hunter Anime Reveals 8 More Cast, 2nd Promo Video, Ending Theme Artists",
+      "category": "Anime",
+      "summary": "Toshiki Masuda, Megumi Han, Shunsuke Sakuya, more join cast for January series",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/sss-class-revival-hunter-anime-reveals-8-more-cast-2nd-promo-video-ending-theme-artists/.242701",
+      "published_at": "2026-10-11T02:34:28Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "b9e92cca9e72866563",
+      "title": "Dragon Ball Super: Beerus Also Streams on Hulu in U.S. on October 11",
+      "category": "Anime",
+      "summary": "Crunchyroll to stream anime on October 11, Netflix on October 17",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/dragon-ball-super-beerus-also-streams-on-hulu-in-u.s-on-october-11/.242688",
+      "published_at": "2026-10-11T01:59:33Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "2001135661d56bd2f0",
+      "title": "Blazblue: CentralFiction Fighting Game Gets Release on PS5",
+      "category": "Anime",
+      "summary": "PS5 version will have rollback netcode, cross-play with PC, 4 new text languages",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/blazblue-centralfiction-fighting-game-gets-release-on-ps5/.242699",
+      "published_at": "2026-10-11T01:46:17Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
     {
       "id": "55b992648741aead3f",
       "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
@@ -14,6 +99,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57e8/live/ab163790-c50e-11f1-9f41-61faa76b4354.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -30,6 +116,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -46,6 +133,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/The-First-Taste-of-Loneliness.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -62,6 +150,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/08/Filipinana_Still_13.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -78,6 +167,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -94,6 +184,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2283257506.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -110,6 +201,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -126,6 +218,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/Her-Last-Laugh.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -142,6 +235,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/Ephemera.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -150,7 +244,7 @@
       "id": "11f56c5727f95679a2",
       "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
       "category": "World",
-      "summary": "Another 309 people are injured, with the Saudi-led coalition saying the attack by Yemen's Houthis is \"war crime\".",
+      "summary": "Another 309 people are injured in an attack a Saudi-led military coalition calls a \"war crime\".",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
@@ -158,6 +252,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c68/live/40a0f7d0-c507-11f1-a64c-550be9e3c66b.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -174,6 +269,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/Once-Upon-a-Time-in-the-Philippines.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -190,6 +286,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Family-Table-concept-art.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -206,6 +303,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2019/05/young-sheldon-season-2-ratings.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -222,6 +320,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/09/Donald-Trump-1.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -254,6 +353,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/08/BladeRunner2099.1.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -270,6 +370,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -302,6 +403,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -318,6 +420,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/fKFHSxwg2x8dXuq8dUfMKh-1920-80.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -334,6 +437,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ce5/live/85c0dd40-c308-11f1-8f04-85217d686658.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -366,6 +470,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a454/live/61dbc890-c4e3-11f1-a793-e9d00826e617.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -382,6 +487,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a454/live/61dbc890-c4e3-11f1-a793-e9d00826e617.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Science"
       ]
@@ -398,6 +504,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -414,6 +521,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -430,6 +538,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -446,6 +555,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -462,6 +572,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -478,6 +589,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -510,6 +622,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/Dnbw6BBDfDTWeGQ7qtaLae-1920-80.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -526,6 +639,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -542,6 +656,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -558,6 +673,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6204/live/aaaf6ea0-c21d-11f1-b7d8-6f930589c871.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -590,6 +706,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2025/06/Naruto-the-Movie.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -622,6 +739,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -638,6 +756,7 @@
       "image_url": "https://assetsio.gnwcdn.com/militsioner_EraHzTo.jpg?width=690&quality=85&format=jpg&auto=webp",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -654,6 +773,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -670,6 +790,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -686,6 +807,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -734,6 +856,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ce/live/569e8e50-c49c-11f1-869c-8f95c437952a.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -766,6 +889,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -782,6 +906,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -798,6 +923,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -814,6 +940,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -830,6 +957,7 @@
       "image_url": "https://assetsio.gnwcdn.com/gta-6-grand-theft-auto-6-main-characters-hot-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -846,6 +974,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/10/Bill-Nighy-Rosemarie-DeWitt-Starfleet-Academy.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -862,6 +991,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -926,6 +1056,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -990,6 +1121,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c416/live/81c8f6c0-c4d7-11f1-9a39-31b474234113.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -1022,6 +1154,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/assets/4489221/gamecube-controller-photo_1280.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1038,6 +1171,7 @@
       "image_url": "https://assetsio.gnwcdn.com/nivalis-nights-customers.jpg?width=690&quality=85&format=jpg&auto=webp",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1054,6 +1188,7 @@
       "image_url": "https://variety.com/wp-content/uploads/2026/02/GettyImages-2196630787.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -1086,6 +1221,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/05ed/live/df926130-c4d0-11f1-bc2e-018d645d8d21.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -1118,6 +1254,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -1150,6 +1287,7 @@
       "image_url": "https://assetsio.gnwcdn.com/crimson-desert_jCdGL4m.jpg?width=690&quality=85&format=jpg&auto=webp",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1198,6 +1336,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/final-fantasy-4-key-art.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1214,6 +1353,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/CVxvHF86rVGS2sVUAxYH4F-1920-80.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1246,6 +1386,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/yxRkVfvs6ZvLHLXENChd3m-1920-80.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1278,6 +1419,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11526335/smash_illo.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1358,6 +1500,7 @@
       "image_url": "https://assetsio.gnwcdn.com/medium-rare.jpg?width=690&quality=85&format=jpg&auto=webp",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1406,6 +1549,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -1454,6 +1598,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/superwodenrallyedge_artwork_nologo.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1502,6 +1647,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8690/live/4429a2a0-c4b5-11f1-9ce9-55293bd7f0d9.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -1518,6 +1664,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Anime"
       ]
@@ -1582,6 +1729,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/saturday-night-live-snl-gta-zelda-sketch.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1598,6 +1746,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/squadron-42-henry-cavill.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1614,6 +1763,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/sA6dPzNJTJ4jjCswJHsR2g-1920-80.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1646,6 +1796,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82b6/live/15d89210-c4b7-11f1-9ce9-55293bd7f0d9.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -1710,6 +1861,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/one-ring-art-34f43b4eff89a67eb4e3f7eda512250fc317d47e.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1726,6 +1878,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Science"
       ]
@@ -1742,6 +1895,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/DoqhUM5E8hYNYhiPC4ChiK-1920-80.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1790,6 +1944,7 @@
       "image_url": "https://cdn.mos.cms.futurecdn.net/As6ae8zVbBiYzVbZJMT7ZV-1920-80.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -1870,6 +2025,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e776/live/7a3be9e0-c4a9-11f1-a64c-550be9e3c66b.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Science"
       ]
@@ -1934,6 +2090,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/steam-neon-alt.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -2030,6 +2187,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ee/live/0a7efdf0-c4b7-11f1-bc2e-018d645d8d21.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -2046,6 +2204,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c29f/live/f2a9f120-c499-11f1-a64c-550be9e3c66b.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -2126,6 +2285,7 @@
       "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/star-wars-galactic-racer-droid.png",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -2142,6 +2302,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9eb/live/6c458470-c4a1-11f1-8fc0-0b58d7e26e4c.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Science"
       ]
@@ -2158,6 +2319,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b8f/live/377c04f0-c46d-11f1-85a0-5d7be70ae17d.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -2174,6 +2336,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -2302,6 +2465,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2026/10/rolling_stones_2026.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -2350,6 +2514,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d64/live/61119c60-c483-11f1-9323-b15f40d5009a.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -2366,6 +2531,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Stephane_Cardinale_Corbis_Jed_Cullen_Dave_Benett.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -2430,6 +2596,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9e6/live/0f446750-c48d-11f1-a915-a1cdb09cbaf6.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Science"
       ]
@@ -2462,6 +2629,7 @@
       "image_url": "https://www.nme.com/wp-content/uploads/2026/10/olivia_rodrigo_jack_white.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Music"
       ]
@@ -2478,6 +2646,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -2510,6 +2679,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "World"
       ]
@@ -2574,6 +2744,7 @@
       "image_url": "https://assetsio.gnwcdn.com/weekend-laundry.jpg?width=690&quality=85&format=jpg&auto=webp",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Gaming"
       ]
@@ -2718,6 +2889,7 @@
       "image_url": null,
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Science"
       ]
@@ -2894,6 +3066,7 @@
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab10/live/c3d14350-b6a0-11f1-bc1f-3f186ca4140c.jpg",
       "media_type": "article",
       "video_id": null,
+      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -3123,22 +3296,6 @@
       ]
     },
     {
-      "id": "8ec0eecf2d12e4d7ae",
-      "title": "Jason Blum on How ‘Other Mommy’ Got That Controversial Title, Kristen Bell Joins ‘Violent Night 2’ and More From Blumhouse at NYCC",
-      "category": "Entertainment",
-      "summary": "Jason Blum and James Wan aren’t paying much attention to the bad reviews (but massive box office success!) for “Other Mommy.” Instead, the horror maestros spent Friday night looking ahead at what’s next, unveiling Blumhouse Atomic Monster’s upcoming slate of films during the 90-minute presentation at New York Comic Con.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/other-mommy-blair-witch-paranormal-activity-blumhouse-nycc-1236907220/",
-      "published_at": "2026-10-09T23:42:14Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDOTMO_UV002.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "92461693755b680118",
       "title": "Try not to do too many backflips with this Spider-Man VR mod. #spiderman #vr #mod #gaming #ign",
       "category": "Gaming",
@@ -3166,54 +3323,6 @@
       "image_url": "https://i.ytimg.com/vi/YexI232fprw/hqdefault.jpg",
       "media_type": "video",
       "video_id": "YexI232fprw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "747d2580a4cd692918",
-      "title": "Iliza Shlesinger and Mira Sorvino to Receive Top Honors at San Diego International Film Festival",
-      "category": "Entertainment",
-      "summary": "The pair, set to receive Virtuoso and Trailblazer awards, will be feted at the Night of the Stars tribute at La Jolla's Conrad Prebys Performing Arts Center on Oct. 13.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/san-diego-film-festival-2026-honorees-iliza-mira-sorvino-1236726731/",
-      "published_at": "2026-10-09T23:07:46Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5b58585046e6251650",
-      "title": "LaKeith Stanfield, Ben Mendelsohn to Star in ‘Molepeople’ for Atomic Monster, Paramount Primal (Exclusive)",
-      "category": "Entertainment",
-      "summary": "Paramount has set an August 2027 release for the horror thriller, which hails from director Rob Savage.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/lakeith-stanfield-ben-mendelsohn-molepeople-1236726689/",
-      "published_at": "2026-10-09T23:04:03Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "20e2e3d8c79a5a0a74",
-      "title": "Ashe was too scared to cancel her wedding - the story became a hit song",
-      "category": "Entertainment",
-      "summary": "The US singer-songwriter reveals the story behind her international smash hit, Stop The Wedding.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cx30en32gd39o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T23:01:22Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6f1/live/a7071220-c304-11f1-9955-5d2e13ff2bea.jpg",
-      "media_type": "article",
-      "video_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -3248,22 +3357,6 @@
       "video_id": "IBVmenOroPs",
       "topics": [
         "AI & Tech"
-      ]
-    },
-    {
-      "id": "fec3895be5bbad33d5",
-      "title": "‘Below’ Creator Breaks Down the Finale’s Last Shot, Josh Hartnett’s Accent and Season 2 Clues",
-      "category": "Entertainment",
-      "summary": "SPOILER ALERT: This article contains spoilers for the first season of “Below,” now streaming on Netflix. Netflix’s new mystery series “Below” has arrived, and audiences are being transported to the beautiful and dangerous Newfoundland town of Snook’s Arm. Josh Hartnett stars as fisherman Calvin Penney, who, alongside Dr.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/features/below-ending-explained-icebergs-josh-hartnett-accent-season-2-1236906748/",
-      "published_at": "2026-10-09T23:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/TCDBELO_ZX008.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -4334,6 +4427,7 @@
       "image_url": "https://i.ytimg.com/vi/XmkoPheiyC0/hqdefault.jpg",
       "media_type": "video",
       "video_id": "XmkoPheiyC0",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4430,6 +4524,7 @@
       "image_url": "https://i.ytimg.com/vi/K04qWmhLsMY/hqdefault.jpg",
       "media_type": "video",
       "video_id": "K04qWmhLsMY",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4446,6 +4541,7 @@
       "image_url": "https://i.ytimg.com/vi/BtEv9y32-BM/hqdefault.jpg",
       "media_type": "video",
       "video_id": "BtEv9y32-BM",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4494,6 +4590,7 @@
       "image_url": "https://i.ytimg.com/vi/GTIwyWvTlm8/hqdefault.jpg",
       "media_type": "video",
       "video_id": "GTIwyWvTlm8",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4510,6 +4607,7 @@
       "image_url": "https://i.ytimg.com/vi/Lsxz0Bdu61g/hqdefault.jpg",
       "media_type": "video",
       "video_id": "Lsxz0Bdu61g",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4558,6 +4656,7 @@
       "image_url": "https://i.ytimg.com/vi/uY75RHSs7Nk/hqdefault.jpg",
       "media_type": "video",
       "video_id": "uY75RHSs7Nk",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4623,6 +4722,7 @@
       "image_url": "https://i.ytimg.com/vi/lAa7QX8m2FA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "lAa7QX8m2FA",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4639,6 +4739,7 @@
       "image_url": "https://i.ytimg.com/vi/gYKKCAkrMYs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "gYKKCAkrMYs",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4687,6 +4788,7 @@
       "image_url": "https://i.ytimg.com/vi/MiHPitIzIYA/hqdefault.jpg",
       "media_type": "video",
       "video_id": "MiHPitIzIYA",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -4703,6 +4805,7 @@
       "image_url": "https://i.ytimg.com/vi/3PJfwveUdgs/hqdefault.jpg",
       "media_type": "video",
       "video_id": "3PJfwveUdgs",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
       "topics": [
         "Comedy"
       ]
@@ -5029,13 +5132,13 @@
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 10,
+      "error": null
     },
     {
       "name": "MrBeast · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "MrBeast Gaming · YouTube",
