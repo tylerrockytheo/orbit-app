@@ -11,7 +11,7 @@
   const googleClientId=typeof cfg.youtubeOAuthClientId==='string'?cfg.youtubeOAuthClientId.trim():'';
   const state={
     configured,ready:false,loading:configured,busy:false,user:null,email:'',name:'',
-    channels:[],youtubeToken:null,youtubeLinked:false,
+    channels:[],youtubeVideos:[],youtubeToken:null,youtubeLinked:false,
     cloudReady:false,error:'',notice:'',lastSync:null
   };
   let sdk=null,auth=null,db=null,writeTimer=null,queuedPrefs=null,syncInProgress=false;
@@ -21,7 +21,8 @@
   }
   function ytAnnounce(){
     window.dispatchEvent(new CustomEvent('orbit-youtube-changed',{detail:{
-      channels:state.channels.map(x=>({id:x.id,title:x.title}))
+      channels:state.channels.map(x=>({id:x.id,title:x.title})),
+      videos:state.youtubeVideos.map(x=>({...x}))
     }}));
   }
   function explain(e){
@@ -72,7 +73,7 @@
           (state.channels.length?'Refresh YouTube subscriptions':'Connect YouTube')+'</button>';
       }
       if(state.channels.length){
-        content+='<p class="small">'+state.channels.length+' channels imported. Access tokens are not saved.</p>'+
+        content+='<p class="small">'+state.channels.length+' subscribed channels and '+state.youtubeVideos.length+' recent videos imported. Access tokens are not saved.</p>'+
           '<div class="learned-interests">'+state.channels.slice(0,8).map(x=>'<span class="learned-pill">'+esc(x.title)+'</span>').join('')+'</div>'+
           '<button type="button" class="secondary-btn" data-account-action="youtube-disconnect">Remove imported subscriptions</button>';
       }
@@ -119,7 +120,7 @@
   }
   async function readCloud(user){
     state.cloudReady=false;
-    state.channels=[];ytAnnounce();
+    state.channels=[];state.youtubeVideos=[];ytAnnounce();
     const path=sdk.doc(db,'users',user.uid,'private','preferences');
     try{
       const document=await sdk.getDoc(path);
@@ -134,6 +135,7 @@
       state.channels=Array.isArray(data?.youtubeChannels)?
         data.youtubeChannels.filter(x=>typeof x?.id==='string'&&/^UC[A-Za-z0-9_-]{22}$/.test(x.id))
           .slice(0,500).map(x=>({id:x.id,title:String(x.title||'Channel').slice(0,90)})):[];
+      state.youtubeVideos=Array.isArray(data?.youtubeVideos)?data.youtubeVideos.slice(0,45):[];
       state.cloudReady=true;state.error='';
       ytAnnounce();announce();
     }catch(e){
@@ -161,7 +163,7 @@
         state.ready=true;state.loading=false;
         state.cloudReady=false;
         if(user)await readCloud(user);
-        else{state.channels=[];state.youtubeToken=null;ytAnnounce()}
+        else{state.channels=[];state.youtubeVideos=[];state.youtubeToken=null;ytAnnounce()}
         announce();
       },e=>{state.loading=false;state.ready=true;change(explain(e),true)});
     }catch(e){state.loading=false;state.ready=true;change('Account service could not load: '+explain(e),true)}
@@ -190,13 +192,13 @@
     clearTimeout(writeTimer);
     await savePrefsNow();
     if(auth)await sdk.signOut(auth);
-    state.youtubeToken=null;state.channels=[];ytAnnounce();
+    state.youtubeToken=null;state.channels=[];state.youtubeVideos=[];ytAnnounce();
     change('Signed out. Guest preferences remain on this device.');
   }
   async function syncYoutube(){
     if(!state.user||!db||!state.cloudReady)return;
     await sdk.setDoc(sdk.doc(db,'users',state.user.uid,'private','preferences'),{
-      schema:1,youtubeChannels:state.channels.map(x=>({id:x.id,title:x.title})),
+      schema:1,youtubeChannels:state.channels.map(x=>({id:x.id,title:x.title})),youtubeVideos:state.youtubeVideos.slice(0,45),
       updatedAt:sdk.serverTimestamp()
     },{merge:true});
   }
@@ -214,6 +216,47 @@
       document.head.appendChild(script);
     });
     return gisPromise;
+  }
+  async function latestYouTubeUploads(channels,token){
+    // PlaylistItems reads are low-quota, unlike expensive YouTube search queries.
+    // Cap to 12 subscriptions and 2 recent public uploads per creator per import.
+    const selected=channels.slice(0,12);
+    const groups=await Promise.allSettled(selected.map(async ch=>{
+      const url=new URL('https://www.googleapis.com/youtube/v3/playlistItems');
+      url.searchParams.set('part','snippet,contentDetails');
+      url.searchParams.set('playlistId','UU'+ch.id.slice(2));
+      url.searchParams.set('maxResults','4');
+      const response=await fetch(url.toString(),{
+        headers:{Authorization:'Bearer '+token,Accept:'application/json'},cache:'no-store'
+      });
+      if(!response.ok)return [];
+      const data=await response.json();
+      return (data.items||[]).map(item=>{
+        const details=item.contentDetails||{},snippet=item.snippet||{};
+        const vid=details.videoId||snippet.resourceId?.videoId;
+        const published=details.videoPublishedAt||snippet.publishedAt;
+        if(!/^[A-Za-z0-9_-]{11}$/.test(String(vid||'')))return null;
+        if(!Number.isFinite(Date.parse(published||''))||Date.now()-Date.parse(published)>120*86400000)return null;
+        const title=String(snippet.title||'').slice(0,180);
+        if(!title||/^(private|deleted) video$/i.test(title))return null;
+        return {
+          id:'subscriptions:'+vid,title,category:'Discover',
+          source_name:ch.title,source_url:'https://www.youtube.com/watch?v='+vid,
+          published_at:published,summary:null,summary_status:'unavailable',
+          media_type:'video',video_id:vid,youtube_channel_id:ch.id,
+          image_url:'https://i.ytimg.com/vi/'+vid+'/hqdefault.jpg'
+        };
+      }).filter(Boolean).slice(0,2);
+    }));
+    const out=[],seen=new Set();
+    for(const result of groups){
+      if(result.status!=='fulfilled')continue;
+      for(const row of result.value){
+        if(seen.has(row.video_id))continue;
+        seen.add(row.video_id);out.push(row);
+      }
+    }
+    return out.slice(0,30);
   }
   async function importYouTube(token){
     const channels=[],seen=new Set();
@@ -244,10 +287,11 @@
       count++;
     }while(page&&count<10);
     state.channels=channels;
+    state.youtubeVideos=await latestYouTubeUploads(channels,token).catch(()=>[]);
     state.youtubeLinked=true;
     ytAnnounce();
     await syncYoutube();
-    change(channels.length+' subscribed channels imported privately.');
+    change(channels.length+' subscribed channels imported, with '+state.youtubeVideos.length+' recent videos available in your private feed.');
   }
   function connectYoutube(){
     if(!state.user||!state.cloudReady){change('Sign in to Orbit before importing YouTube subscriptions.',true);return}
@@ -276,7 +320,7 @@
   async function disconnectYoutube(){
     if(state.busy)return;
     const token=state.youtubeToken;
-    state.youtubeToken=null;state.channels=[];state.youtubeLinked=false;
+    state.youtubeToken=null;state.channels=[];state.youtubeVideos=[];state.youtubeLinked=false;
     ytAnnounce();
     try{
       if(token&&window.google?.accounts?.oauth2?.revoke)
@@ -298,6 +342,7 @@
     panel:accountView,
     saveLocal,
     channels:()=>state.channels.map(x=>({...x})),
+    videos:()=>state.youtubeVideos.map(x=>({...x})),
     status:()=>({configured:state.configured,ready:state.ready,signedIn:!!state.user,cloudReady:state.cloudReady}),
     // The public API intentionally exposes no access tokens or credentials.
   };
