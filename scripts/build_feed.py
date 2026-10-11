@@ -205,6 +205,7 @@ def extract_items(xml: bytes, source: dict) -> list[dict]:
             'image_url': image,
             'media_type': 'video' if video_id else 'article',
             'video_id': video_id,
+            'youtube_channel_id': source.get('channel') if video_id else None,
             'topics': [category],
         })
     return records
@@ -261,7 +262,7 @@ def youtube_api_fallback(source: dict, key: str, opener=urllib.request.urlopen) 
             'summary_status': 'publisher_excerpt' if summary else 'unavailable',
             'source_name': source['label'], 'source_url': link, 'published_at': published,
             'image_url': valid_http(thumb, True) or f'https://i.ytimg.com/vi/{vid}/hqdefault.jpg',
-            'media_type': 'video', 'video_id': vid, 'topics': [category]
+            'media_type': 'video', 'video_id': vid, 'youtube_channel_id': channel, 'topics': [category]
         })
     return rows
 
