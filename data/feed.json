@@ -1,7 +1,415 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T23:06:16.037651Z",
+  "generated_at": "2026-10-12T02:18:06.849426Z",
   "posts": [
+    {
+      "id": "2e8b98e3f73a639cb1",
+      "title": "‘The Riverbank,’ ‘Elza’ Top Rio Film Festival Awards as ‘On Behalf of My Son,’ ‘The French Teacher’ and ‘London’ Scoop Key Prizes",
+      "category": "Entertainment",
+      "summary": "Enock Carvalho and Matheus Farias’ Locarno-winning “The Riverbank” has taken Best Fiction Feature Film at this year’s Rio Film Festival, with Eryk Rocha’s “Elza” scoring Best Documentary Feature Film. The awards were handed out tonight at an imposing ceremony at Rio de Janeiro’s legendary Odeon cinema.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/global/the-riverbank-elza-top-rio-film-festival-awards-1236908331/",
+      "published_at": "2026-10-12T02:01:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/07/VARIETY-SIZING-2026-07-29T123642.469.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "25ea960da75f2599ce",
+      "title": "‘Bedford Park’ Star and Busan Juror Moon Choi on Locking Away Her Trophies and Plotting a Screen Version of a Molière-Winning Play",
+      "category": "Entertainment",
+      "summary": "For several years after the biggest run of her career, Moon Choi, known in Korea as Choi Hee-seo, kept her trophies out of sight. The haul was substantial. Her turn as Japanese anarchist Kaneko Fumiko in “Anarchist from Colony” swept Korea’s new actress prizes, and her lead role in independent feature “Our Body,” which bowed […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/moon-choi-bedford-park-busan-jury-french-play-1236908627/",
+      "published_at": "2026-10-12T01:49:16Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Moon-Choi.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8d7ee5ea9508408303",
+      "title": "5 Exciting Games Stuck In Development For More Than 10 Years",
+      "category": "Gaming",
+      "summary": "Some games have been trapped in development hell for over a decade. Here are 5 exciting games that have been stuck in development hell as of 2026.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/games-development-hell-2026/",
+      "published_at": "2026-10-12T01:46:49Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/games-in-development-hell-beyond-good-and-evil-2-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "ce6b122be3dfcbfe25",
+      "title": "See where ‘Mr Brightside’ lands in Brandon Flowers’ blind-ranking of five Killers songs",
+      "category": "Music",
+      "summary": "The Killers frontman will kick off a solo tour across the UK and Ireland this week The post See where ‘Mr Brightside’ lands in Brandon Flowers’ blind-ranking of five Killers songs appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/features/brandon-flowers-blind-rank-the-killers-songs-mr-brightside-interview-3972904?utm_source=rss&utm_medium=rss&utm_campaign=brandon-flowers-blind-rank-the-killers-songs-mr-brightside-interview",
+      "published_at": "2026-10-12T01:41:55Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/09/The-Killers-Brandon-Flowers.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "ba96330ff3bd195bcf",
+      "title": "How Busan Title ‘Selvi’ Turns a Nurse’s Working Hours Into an Endurance Test",
+      "category": "Entertainment",
+      "summary": "A homecare nurse whose working day stretches from 12 hours to 72 sits at the center of “Selvi,” the first feature from Tamil filmmaker Sailesh Rathnakumar, which premieres in the Busan International Film Festival’s Vision–Asia section. Anjali Patil plays the title role and produces through her banner Anahat Films.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/busan-selvi-turns-nurse-working-hours-endurance-test-1236908624/",
+      "published_at": "2026-10-12T01:34:17Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/03/Selvi.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f02873ed759dbb246d",
+      "title": "8 Best Cyberpunk 2077 Replacement Games",
+      "category": "Gaming",
+      "summary": "Looking for your next Night City-inspired adventure? These eight games share Cyberpunk 2077’s messy choices, augmented anti-heroes, or overall mood.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-games-like-cyberpunk-2077/",
+      "published_at": "2026-10-12T01:29:05Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/cyberpunk-alone.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "3bd2c31d6f689b3d7d",
+      "title": "Box Office Boom for China’s Women Directors Feeds New Parallax Films Pickups From Shao Yihui, Yin Lichuan and Yang Lina (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Three filmmakers at the forefront of China’s women-led cinema boom – Shao Yihui, Yang Lina and Yin Lichuan – have new titles on the slate of sales agent Parallax Films, which is shopping them to buyers at the Asian Contents & Film Market (ACFM) in Busan. In the short “Winning at Sleep,” Shao turns her […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/chinese-women-directors-parallax-films-slate-busan-market-1236908619/",
+      "published_at": "2026-10-12T01:21:54Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Its-OK.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "dfccf660ce5216f59a",
+      "title": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/rpg/seamless-landing-mod-looks-set-to-bring-starfield-another-step-closer-to-no-mans-sky/",
+      "published_at": "2026-10-12T01:12:23Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/B5LXsF9nAw3tBvZgxqhaZj-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "afa59ce34e0b4c5e60",
+      "title": "Locarno Title ‘Rapture’ Director Dominic Sangma Confronts Unregulated Stone Mining in Busan Asian Project Market Drama ‘Veil of Dust’",
+      "category": "Entertainment",
+      "summary": "A villager maimed by a mining blast and his wife’s fight for compensation open up a story of exploitation, complicity and indigenous belief in “Veil of Dust,” the new project from “Rapture” director Dominic Sangma.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/stone-mining-drama-veil-dust-busan-asian-project-market-1236908610/",
+      "published_at": "2026-10-12T01:10:45Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Veil-of-Dust-concept-image.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "0afc3652a160436e84",
+      "title": "Kelly Clarkson Responds After New York Store Denies She Got the ‘Pretty Woman’ Treatment: “You’re a Liar”",
+      "category": "Entertainment",
+      "summary": "\"It’s not that hard to be kind,\" she wrote after Art of Play shot down her version of events. \"I never blast people but you my friend were an exception. Your store is really cool. Unfortunately, you aren’t.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/kelly-clarkson-new-york-store-pretty-woman-treatment-liar-1236727429/",
+      "published_at": "2026-10-12T01:02:33Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "a78aa28e3b7573e600",
+      "title": "Nintendo Should Add Wii to Switch Online Just For These 12 Classic Games",
+      "category": "Gaming",
+      "summary": "Nintendo could really make our day by launching a Wii channel on Switch Online and including these 12 classic games.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/nintendo-switch-online-missing-wii-games/",
+      "published_at": "2026-10-12T01:00:16Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/punch-out-wii-cropped-cover-art.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "986111f2acb6dc269a",
+      "title": "‘The Sea Speaks His Name’ Review: Absorbing Indonesian Political Thriller Is an Ode to Disappeared Activists",
+      "category": "Entertainment",
+      "summary": "In an age where some call themselves activists merely through social media posting, stories of the dangers, consequences and occasional, very hard-won rewards of boots-on-the-ground political activism have additional potency.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/the-sea-speaks-his-name-review-1236908499/",
+      "published_at": "2026-10-12T00:55:39Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/12/The-Sea-Speaks-His-Name.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "77905e64f8122cffbe",
+      "title": "11 Replay Ideas to Make Stardew Valley Feel New Again",
+      "category": "Gaming",
+      "summary": "Stardew Valley begs to be replayed, though after hundreds of hours, what comes next? Here are the best Stardew Valley replay ideas and challenge runs.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/stardew-valley-challenge-runs-replay-ideas/",
+      "published_at": "2026-10-12T00:55:00Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/stardew-field.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e4c6aacf4d7bf23952",
+      "title": "Sylvia Chang Backs Malaysian Grief Drama ‘One Fine Day,’ About a Family Undone by Their Daughter’s Murder, at Busan Asian Project Market",
+      "category": "Entertainment",
+      "summary": "A family torn apart by the unsolved murder of their young daughter tries to keep living day to day in “One Fine Day,” a Malaysian drama from director Tan Seng Kiat with Asian film icon Sylvia Chang aboard as executive producer. The project is part of the Asian Project Market, which runs within the Busan […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/sylvia-chang-one-fine-day-busan-asian-project-market-1236908599/",
+      "published_at": "2026-10-12T00:52:12Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/One-Fine-Day-team.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c5abf9ab1acfdd4866",
+      "title": "Polygamy, Ghosts and Grief Collide in ‘Marlina’ Director Mouly Surya’s Busan Asian Project Market Drama ‘The Wife Who Can See Dead People (Or Jinn)’",
+      "category": "Entertainment",
+      "summary": "A young bride who sees ghosts joins a polygamous Muslim household and forms a bond with one of her husband’s other wives in “The Wife Who Can See Dead People (Or Jinn),” the new project from Indonesian director Mouly Surya (“Marlina the Murderer in Four Acts”). The project is part of the Asian Project Market, […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/mouly-surya-polygamy-ghost-drama-busan-asian-project-market-1236908594/",
+      "published_at": "2026-10-12T00:39:58Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Wife-Who-Can-See-Dead-People-Or-Jinn.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "631b504a87de7566c5",
+      "title": "Kino's Journey Light Novel Duo Launch New Supernatural Novel Series",
+      "category": "Anime",
+      "summary": "Writer Keiichi Sigsawa, illustrator Kouhaku Kuroboshi to launch Drifted ~John Smith no Edo Hyōryū Kitan~ on November 10",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-11/kino-journey-light-novel-duo-launch-new-supernatural-novel-series/.242715",
+      "published_at": "2026-10-12T00:30:52Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "f0fa8b316d24ab8cfc",
+      "title": "Creator Dhar Mann on Partnering With Hollywood Studios and His Vision for Creator City in Los Angeles",
+      "category": "Entertainment",
+      "summary": "At content showcase Mipcom on Sunday, creator Dhar Mann – who has 170 million followers on YouTube – spoke about his partnerships with Hollywood studios, how he intends to launch one new series every single month on his YouTube channel, and his vision for Creator City in Los Angeles.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/digital/global/dhar-mann-hollywood-studios-creator-city-1236908547/",
+      "published_at": "2026-10-12T00:20:13Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Dhar-Mann.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9f23927589f9858b8c",
+      "title": "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/gaming-industry/events-conferences/the-shortlist-for-2026s-golden-joystick-awards-is-out-including-pc-game-of-the-year-and-you-can-vote-now/",
+      "published_at": "2026-10-12T00:00:19Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/cYSYZj6b4eSgeFbyX8CSNE-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "63cfaa94cb3f8d3546",
+      "title": "John Cena Says ‘I Understand’ Why ‘Peacemaker’ Isn’t James Gunn’s Main Focus Compared to Other ‘Valuable’ DC Studios IP",
+      "category": "Entertainment",
+      "summary": "John Cena, who starred as the patriotic mercenary Christopher Smith in James Gunn’s “Peacemaker,” recently said that he understands why the show is no longer a top priority for Gunn, who served as the TV series’ writer, creator and showrunner.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/john-cena-peacemaker-tv-show-james-gunn-main-focus-1236908539/",
+      "published_at": "2026-10-11T23:58:29Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/10/GettyImages-2230007687.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "83afb5591cb60c6ee0",
+      "title": "Watch: Endangered orangutans released back into the wild after Borneo fires",
+      "category": "Science",
+      "summary": "The critically endangered apes were rescued from intense wildfires that destroyed their habitat in August and September.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T23:48:25Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/911a/live/4f78adc0-c5d9-11f1-8047-553502192765.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "651c05cc1c2654e4b4",
+      "title": "Jake Johnson Teases New Project With ‘New Girl’ Co-Star Damon Wayans Jr.",
+      "category": "Entertainment",
+      "summary": "The duo have teamed up for a Hulu pilot inspired by Jim Carrey movie 'The Cable Guy.'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/jake-johnson-new-project-new-girl-damon-wayans-jr-1236727360/",
+      "published_at": "2026-10-11T23:23:19Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "46af060ff01a589f9f",
+      "title": "PvP pinball is such a good idea I can't believe I haven't played it before",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/pvp-pinball-is-such-a-good-idea-i-cant-believe-i-havent-played-it-before/",
+      "published_at": "2026-10-11T23:19:02Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/oUQC3yTAHcWxDuxNoe833F-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "9b06b91b4c4de38eb0",
+      "title": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
+      "category": "Science",
+      "summary": "Many farmers in states that backed the president say they are being hit from all sides, with the crucial midterm elections just weeks away.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6d7q5z17gp5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T23:13:51Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef78/live/3cd40f10-c34b-11f1-9ef0-9f3abff8feb9.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "bcee1dca8b6e1c592c",
+      "title": "Sacha Baron Cohen and 300 Ali G Look-Alikes Descend on London Ahead of New Movie ‘Who Iz I?’",
+      "category": "Entertainment",
+      "summary": "Amazon MGM Studios is set to release the star's comedy 'Ali G: Who Iz I?' in theaters for one week on Oct. 23.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/sacha-baron-cohen-ali-g-look-alikes-london-who-iz-i-amazon-1236727280/",
+      "published_at": "2026-10-11T23:12:36Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "62a4a15c620df47d84",
       "title": "Fontaines D.C. – ‘Dopamine Chamber’ review: a doom-ridden escape from the band of the decade",
@@ -12,6 +420,74 @@
       "source_url": "https://www.nme.com/reviews/album/fontaines-d-c-dopamine-chamber-album-review-3972863?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-d-c-dopamine-chamber-album-review",
       "published_at": "2026-10-11T23:01:59Z",
       "image_url": "https://www.nme.com/wp-content/uploads/2026/10/fontaines_dopamine_Ewen_Spencer_1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1931 on October 12",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1931 on October 12 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-11T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 12",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1219 The post ‘Connections’ answers and hints for today, October 12 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-11T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 12",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 12 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-11T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 12",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 12 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-11T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -108,7 +584,7 @@
       "id": "694a94166e6478bc0c",
       "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
       "category": "World",
-      "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+      "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
@@ -2533,74 +3009,6 @@
       ]
     },
     {
-      "id": "6d9105482cf85b0c99",
-      "title": "Today’s Wordle answer and hints for #1930 on October 11",
-      "category": "Music",
-      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1930 on October 11 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-      "published_at": "2026-10-10T23:01:34Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "2c5333a2b14994ffbc",
-      "title": "‘Connections’ answers and hints for today, October 11",
-      "category": "Music",
-      "summary": "Here are hints, groups and answers for 'Connections' #1218 The post ‘Connections’ answers and hints for today, October 11 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
-      "published_at": "2026-10-10T23:00:27Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "82c04a1405d8c602dc",
-      "title": "Globle answer today – here’s the answer and hints for October 11",
-      "category": "Music",
-      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 11 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
-      "published_at": "2026-10-10T23:00:17Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "468f1a19c428ae0e24",
-      "title": "Framed answer today – here’s the solution for October 11",
-      "category": "Music",
-      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 11 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
-      "published_at": "2026-10-10T23:00:09Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "da567e2e9c2dca9d81",
       "title": "Joseph Gordon-Levitt Says Instead of Being Afraid of AI, “We Should Be Concerned About the People Building AI”",
       "category": "Entertainment",
@@ -2853,39 +3261,6 @@
       ]
     },
     {
-      "id": "f4cdbc36ce35c3baec",
-      "title": "Protests against voter roll revisions rock capital of world's largest democracy",
-      "category": "World",
-      "summary": "Parts of the capital city of India, the world's largest democracy, are on lockdown. Protests over sweeping revisions to the voter rolls were met with a massive police crackdown.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/10/nx-s1-5995118/protests-against-voter-roll-revisions-rock-capital-of-worlds-largest-democracy",
-      "published_at": "2026-10-10T21:19:57Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "5d702ed735ae3bee08",
-      "title": "‘Ibuku’ Review: Dreamlike Indonesian Drama Is a Compelling Tale of Parental Redemption",
-      "category": "Entertainment",
-      "summary": "The fraught relationship between an estranged mother and daughter takes centre stage in “Ibuku,” the fourth film from Indonesian writer-director Eddie Cahyono.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/reviews/ibuku-review-1236907736/",
-      "published_at": "2026-10-10T21:02:58Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/Ibuku.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "5bbd15d761b751d66a",
       "title": "Woman Goes For A Run And Comes Home With A Dog | The Dodo",
       "category": "Animals",
@@ -2900,371 +3275,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "9aecf3f44c21e3f00f",
-      "title": "Matthew Lillard Says He Thought ‘Scream’ Was ‘Lame’ and ‘Nobody’ Would See the Movie Before It Became a Hit: ‘Here We Are 30 Years Later’",
-      "category": "Entertainment",
-      "summary": "Matthew Lillard might best be known for his appearances throughout the uber-popular “Scream” franchise, but when he filmed the original installment, he didn’t think it would become the cult classic its regarded as today. “I was in the back of a car, driving home from work one night, at like six in the morning, covered […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/matthew-lillard-thought-scream-was-lame-nobody-would-see-it-1236907741/",
-      "published_at": "2026-10-10T20:54:30Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MSDSCRE_EC011.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b5f192cad039ac8e49",
-      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
-      "category": "World",
-      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T20:51:12Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ce/live/569e8e50-c49c-11f1-869c-8f95c437952a.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "5780f06f1239c240c1",
-      "title": "‘Project Hail Mary’ Composer Daniel Pemberton, ‘KPop Demon Hunters’ Songwriter EJAE Triumph at World Soundtrack Awards",
-      "category": "Entertainment",
-      "summary": "Daniel Pemberton was named Film Composer of the Year at the World Soundtrack Awards on Saturday, capping a prolific run that includes “Project Hail Mary,” “The Drama,” “The Bad Guys 2” and “Masters of the Universe.” The British composer has now won three times at the Ghent-based ceremony, taking the top prize in 2021 and […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/",
-      "published_at": "2026-10-10T20:40:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "4928136d1d8dac0a11",
-      "title": "‘Project Hail Mary’ Composer Daniel Pemberton, ‘KPop Demon Hunters’ Songwriter EJAE Triumph at World Soundtrack Awards",
-      "category": "Entertainment",
-      "summary": "Daniel Pemberton was named Film Composer of the Year at the World Soundtrack Awards on Saturday, capping a prolific run that includes “Project Hail Mary,” “The Drama,” “The Bad Guys 2” and “Masters of the Universe.” The British composer has now won three times at the Ghent-based ceremony, taking the top prize in 2021 and […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/",
-      "published_at": "2026-10-10T20:40:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f9ff0c429e138878f4",
-      "title": "‘Project Hail Mary’ Composer Daniel Pemberton, ‘KPop Demon Hunters’ Songwriter EJAE Triumph at World Soundtrack Awards",
-      "category": "Music",
-      "summary": "Daniel Pemberton was named Film Composer of the Year at the World Soundtrack Awards on Saturday, capping a prolific run that includes “Project Hail Mary,” “The Drama,” “The Bad Guys 2” and “Masters of the Universe.” The British composer has now won three times at the Ghent-based ceremony, taking the top prize in 2021 and […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/",
-      "published_at": "2026-10-10T20:40:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-09-Oct-2026-09-30-AM-4416.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "5a6a2ad9fd6da36128",
-      "title": "Ava DuVernay Sounds the Alarm Over the “Erosion of Democracy” at ’14th’ World Premiere: “We Need to Fight”",
-      "category": "Entertainment",
-      "summary": "The Netflix documentary about the significance of and challenges to the 14th Amendment to the U.S. Constitution was the closing night screening at the 2026 New York Film Festival.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-need-to-fight-democracy-14th-premiere-1236726993/",
-      "published_at": "2026-10-10T20:31:10Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "76c8da9b35bc28cd51",
-      "title": "Anime Series ‘Sentinel 6’ in Development With NBA and NFL Pros Michael Carter-Williams and Jamaal Williams as EPs",
-      "category": "Entertainment",
-      "summary": "Influencer King Vader is among the voice cast, with LeSean Thomas of ‘Bass x Machina’ and ‘The Boondocks’ credited as the pilot writer and a consulting producer on the Afro-futurist sci-fi adventure.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/anime-sentinel-6-king-vader-lesean-thomas-nfl-nba-veterans-1236726994/",
-      "published_at": "2026-10-10T20:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6d82ba7e69654c480a",
-      "title": "Oh lord, now those GTA 6 leakers are saying if enough of you give them money they'll leak a playable build of the game",
-      "category": "Gaming",
-      "summary": "You can wait another month and some change to play GTA 6 , right? I mean, everyone reading this who has a console, anyway, still no bloomin' sight of a PC release date.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/oh-lord-now-those-gta-6-leakers-are-saying-if-enough-of-you-give-them-money-theyll-leak-a-playable-build-of-the-game",
-      "published_at": "2026-10-10T20:24:35Z",
-      "image_url": "https://assetsio.gnwcdn.com/gta-6-grand-theft-auto-6-main-characters-hot-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "243dd8e6cdb4efe81b",
-      "title": "‘Star Trek: Starfleet Academy’ Season 2 Adds Bill Nighy, Rosemarie DeWitt in Guest Roles",
-      "category": "Entertainment",
-      "summary": "Bill Nighy and Rosemarie DeWitt are set to guest star in “Star Trek: Starfleet Academy” Season 2. The announcement was revealed during the “Star Trek” panel at New York Comic-Con on Saturday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/starfleet-academy-season-2-bill-nighy-rosemarie-dewitt-1236907534/",
-      "published_at": "2026-10-10T20:15:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Bill-Nighy-Rosemarie-DeWitt-Starfleet-Academy.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "1dfc8ba136c2ce3a61",
-      "title": "‘Star Trek: Starfleet Academy’ Season 2 to Premiere March 2027, Bill Nighy and Rosemarie DeWitt to Guest Star",
-      "category": "Entertainment",
-      "summary": "The news was shared on a Paramount+ panel at New York Comic Con on Saturday, which also featured a conversation with William Shatner and Ben Stiller.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/star-trek-starfleet-academy-season-2-premiere-bill-nighy-1236726989/",
-      "published_at": "2026-10-10T20:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "86f7bba5ee6a0cbe3f",
-      "title": "Where to Watch WWE Money in the Bank 2026 Online",
-      "category": "Entertainment",
-      "summary": "This year's wrestling event is held at New Orleans' Smoothie King Center on Saturday, Oct. 10.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-wwe-money-in-the-bank-2026-streaming-free-1236726980/",
-      "published_at": "2026-10-10T20:10:03Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5ecceacaa654471c2c",
-      "title": "Joseph Gordon-Levitt Says A.I. Is Being Trained to ‘Hijack Your Intimacy’: ‘We Should Be Concerned’",
-      "category": "Entertainment",
-      "summary": "Joseph Gordon-Levitt, who has added United Nations’ global advocate of human-centric digital governance to his resumé, has warned the public to be “concerned about the people building A.I.” and how the technology is being trained to “hijack your intimacy” in a vlog-style video interview with The New York Times published on…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/joseph-gordon-levitt-a-i-worries-decline-of-democracy-1236907684/",
-      "published_at": "2026-10-10T19:53:07Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2259365140.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "d556fb5ceb6225f039",
-      "title": "‘Tenzing’ Review: A Remarkable Adventure That Puts the Audience Right Up on Mount Everest, Along with the First Two Men — One a Sherpa, Overlooked by History — to Scale It",
-      "category": "Entertainment",
-      "summary": "\"Tenzing\" earns its inspirational fervor, but the reason it fits into the new wave of mountain-climbing movies is that the director, Jennifer Peedom, an Australian who’s been making documentaries about mountain-climbing for 18 years, has staged the film with a you-are-there authenticity that’s breathtaking but never showy.…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/reviews/tenzing-review-tom-hiddelston-mount-everest-1236907307/",
-      "published_at": "2026-10-10T19:52:45Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/08/Tenzing.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "91da86a22bef2ba4b5",
-      "title": "Japan's Video Game Rankings, September 21-27",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-10/japan-video-game-rankings-september-21-27/.242610",
-      "published_at": "2026-10-10T19:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "68041b47829460ad6e",
-      "title": "Mariska Hargitay on ‘Law & Order: SVU’ Premiere That Seemed to Echo the Cornell Case",
-      "category": "Entertainment",
-      "summary": "The episode is meant to highlight New York's voluntary intoxication loophole, which says that overly intoxicated people can still give consent if they were not forced to drink.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/mariska-hargitay-law-order-svu-premiere-cornell-case-1236726961/",
-      "published_at": "2026-10-10T19:11:06Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "8d9501dec95a1d72d0",
-      "title": "Alabama vs. Georgia: Where to Watch the SEC Game Online",
-      "category": "Entertainment",
-      "summary": "Here's how to livestream the Oct. 10 college football matchup between the Bulldogs and Crimson Tide.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/watch-alabama-vs-georgia-football-game-free-streams-2026-1236726930/",
-      "published_at": "2026-10-10T18:57:04Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "cc010d0595e83e22bc",
-      "title": "Oscars: U.K. Selects Iran Doc ‘Rehearsals for a Revolution’ as Best International Feature Entry",
-      "category": "Entertainment",
-      "summary": "Pegah Ahangarani's film was made in the U.K. and won the L’Oeil d’Or for best documentary at this year’s Cannes Film Festival.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/oscars-uk-rehearsals-for-a-revolution-international-feature-1236726918/",
-      "published_at": "2026-10-10T18:41:19Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b90b6aeb8c7a2d47bc",
-      "title": "Expedition hopes to find aviator Amelia Earhart's plane on remote island",
-      "category": "World",
-      "summary": "The team en route to the suspected crash site aim finally to solve the mystery of her 1937 disappearance.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c3y0e871rk4vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T18:22:29Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c416/live/81c8f6c0-c4d7-11f1-9a39-31b474234113.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "043324bcebcf41f3e7",
-      "title": "‘Dungeon Crawler Carl’ Live-Action TV Series to Begin Shooting in 2027, More Details Coming ‘Very Soon’",
-      "category": "Entertainment",
-      "summary": "Peacock’s “Dungeon Crawler Carl” live-action TV series will begin shooting next year, author Matt Dinniman and Universal TV execs revealed Saturday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/dungeon-crawler-carl-tv-series-filming-2027-release-date-1236907644/",
-      "published_at": "2026-10-10T18:16:11Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/04/dungeon-crawler-carl.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "9fa0dddfb508c5e7f6",
-      "title": "10 Essential GameCube Games Still Missing From Switch Online",
-      "category": "Gaming",
-      "summary": "The GameCube library on Switch Online is off to a fine start, but 10 additions would make it much better.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/best-gamecube-games-missing-nintendo-switch-online/",
-      "published_at": "2026-10-10T18:00:17Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/assets/4489221/gamecube-controller-photo_1280.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "e96a2fe21fb6f42cd8",
-      "title": "Nivalis Nights might not have any combat, \"but that doesn't mean it's a cosy game,\" so says its lead writer",
-      "category": "Gaming",
-      "summary": "Discourse notwithstanding, there is a time and a place for cosiness in games. It's nice to chill out sometimes! I can admit that. I also just prefer a bit of friction in a game, something to put the edge on occasionally, even if there is cosiness to be found within it.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/nivalis-nights-might-not-have-any-combat-but-that-doesnt-mean-its-a-cosy-game-so-says-its-lead-writer",
-      "published_at": "2026-10-10T17:53:51Z",
-      "image_url": "https://assetsio.gnwcdn.com/nivalis-nights-customers.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "950fefe0987f623fe3",
-      "title": "Barry Manilow Makes Early Exit From Second Night of Vegas Residency Comeback, Cancels Saturday Night Show",
-      "category": "Music",
-      "summary": "Following a long-anticipated return to the stage Thursday night, Barry Manilow put an early halt to Friday’s concert and has canceled his Saturday show at the International Theater at the Westgate Las Vegas Resort & Casino.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/barry-manilow-cancels-las-vegas-shows-1236907619/",
-      "published_at": "2026-10-10T17:50:37Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/02/GettyImages-2196630787.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -5505,7 +5515,7 @@
     {
       "name": "Wolters World · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
@@ -5520,12 +5530,12 @@
     {
       "name": "How Ridiculous · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "MrBeast Gaming · YouTube",
@@ -5540,7 +5550,7 @@
     {
       "name": "Mark Rober · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "TeamFourStar · YouTube",
