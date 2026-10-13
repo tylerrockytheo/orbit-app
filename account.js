@@ -169,8 +169,11 @@
     }catch(e){state.loading=false;state.ready=true;change('Account service could not load: '+explain(e),true)}
   }
   async function doLogin(action){
-    if(!sdk||!auth)return;
-    if(state.busy)return;
+    if(!sdk||!auth||state.busy)return;
+    // Capture typed credentials BEFORE announcing a state change: announcing
+    // redraws the You tab, which otherwise clears the email/password inputs.
+    const email=action==='google'?'':document.getElementById('orbit-auth-email')?.value?.trim();
+    const pass=action==='google'?'':document.getElementById('orbit-auth-password')?.value||'';
     state.busy=true;state.error='';
     announce();
     try{
@@ -178,8 +181,6 @@
         const provider=new sdk.GoogleAuthProvider();
         await sdk.signInWithPopup(auth,provider);
       }else{
-        const email=document.getElementById('orbit-auth-email')?.value?.trim();
-        const pass=document.getElementById('orbit-auth-password')?.value||'';
         if(!email||!pass)throw Error('Enter your email and password first.');
         if(action==='email-signup')await sdk.createUserWithEmailAndPassword(auth,email,pass);
         else await sdk.signInWithEmailAndPassword(auth,email,pass);
