@@ -146,7 +146,7 @@
   async function init(){
     if(!configured){state.ready=true;announce();return}
     try{
-      const version='12.2.1';
+      const version='13.0.0';
       const [appSdk,authSdk,firestoreSdk]=await Promise.all([
         import('https://www.gstatic.com/firebasejs/'+version+'/firebase-app.js'),
         import('https://www.gstatic.com/firebasejs/'+version+'/firebase-auth.js'),
