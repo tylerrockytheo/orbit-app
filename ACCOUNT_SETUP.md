@@ -1,5 +1,13 @@
 # Orbit private accounts — one-time developer setup
 
+## Activation status (14 October 2026)
+
+- ✅ Firebase Web App created for project `orbit-6e517`.
+- ✅ Public Web App SDK identifiers connected in `orbit-config.js`, with the frontend loading Firebase SDK 13.0.0. Firebase Web App configuration is public; no account passwords, service-account keys or OAuth secrets were committed.
+- ⏳ **Not verified in Firebase Console:** Authentication Google/Email providers, authorised website domain, creation of Cloud Firestore, and publication of the owner-only security rules in `firestore.rules`. These must be completed before live sign-in and syncing can be considered ready.
+- ⏳ Optional YouTube subscriptions connection still needs an OAuth Web Client ID and Google consent setup. This is separate from basic Orbit login.
+
+
 Regular Orbit users will **never** need to configure Firebase, OAuth clients, APIs or GitHub. These steps are exclusively for Orbit's developer/owner. Until completed, the new account panel explains that guest mode is available and sign-in is not yet active.
 
 ## 1. Make a Firebase project (Spark/free tier is enough for prototype)
@@ -9,7 +17,7 @@ Regular Orbit users will **never** need to configure Firebase, OAuth clients, AP
 3. Under **Authentication → Sign-in method**, enable **Google** and **Email/Password**. Do not enable anonymous sign-in unless intentionally wanted.
 4. Under **Authentication → Settings → Authorized domains**, add `tylerrockytheo.github.io` (no `https://`, slash or repo path). Add any future real Orbit domain separately.
 5. Enable **Cloud Firestore**. Choose production/locked mode initially. Paste the contents of this repository's **firestore.rules** into the Firestore Rules editor and **Publish** them **before** allowing sign-in. The data path is `users/{uid}/private/preferences` and reads/writes require the matching authenticated UID. The app has no public profile, user directory or social data.
-6. Edit `orbit-config.js` in the GitHub repository. Change `firebase: null` to the Firebase **Web App SDK configuration**:
+6. **Completed:** `orbit-config.js` in the GitHub repository now contains the Firebase **Web App SDK configuration** for the Orbit project:
    ```js
    firebase: {
      apiKey: "FIREBASE_PUBLIC_WEB_API_KEY",
@@ -19,7 +27,7 @@ Regular Orbit users will **never** need to configure Firebase, OAuth clients, AP
    },
    ```
    These are browser-side Firebase **public project identifiers**, not admin/service-account credentials. Do not upload a Firebase service-account key, private key or any Google OAuth client secret.
-7. Wait for GitHub Pages deployment. Open Orbit in Chrome on your phone and check **You → Your private account → Continue with Google** (or create an email/password account).
+7. Wait for the GitHub Pages deployment. Open Orbit in Chrome on your phone and check **You → Your private account → Continue with Google** (or create an email/password account).
 8. Confirm Likes sync to a second browser when signed into the same account. Confirm they are **not accessible** to a different signed-in account. Never temporarily open Firestore rules to all users to diagnose problems.
 
 Google popup sign-in may be blocked inside some in-app browsers. Open the Orbit link in Chrome (or migrate the app to Firebase Hosting/custom-domain auth as part of the production release). GitHub Pages stays the host for this prototype.
