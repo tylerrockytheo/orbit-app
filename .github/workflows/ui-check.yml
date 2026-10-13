@@ -7,6 +7,7 @@ on:
       - 'account.js'
       - 'orbit-config.js'
       - 'tests/account-smoke.mjs'
+      - 'tests/firebase-config-smoke.mjs'
       - 'styles.css'
       - 'index.html'
       - 'tests/reels-smoke.mjs'
@@ -21,6 +22,7 @@ on:
       - 'account.js'
       - 'orbit-config.js'
       - 'tests/account-smoke.mjs'
+      - 'tests/firebase-config-smoke.mjs'
       - 'styles.css'
       - 'index.html'
       - 'tests/reels-smoke.mjs'
@@ -40,6 +42,8 @@ jobs:
         run: node --check app.js && node --check account.js && node --check orbit-config.js
       - name: Verify guest mode and account safety
         run: node tests/account-smoke.mjs
+      - name: Verify connected public Firebase configuration
+        run: node tests/firebase-config-smoke.mjs
       - name: Verify Reels interactions
         run: node tests/reels-smoke.mjs
       - name: Verify cross-platform providers
