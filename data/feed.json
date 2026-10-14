@@ -1,7 +1,381 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T00:21:36.243562Z",
+  "generated_at": "2026-10-14T05:04:16.472159Z",
   "posts": [
+    {
+      "id": "f56fd11aeee02c54b6",
+      "title": "More tea? How Scotland's crops of the future could be set to change",
+      "category": "Science",
+      "summary": "Experts are examining the ways Scotland's farmers might diversify and adapt to a changing climate.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cxdd80z9yjpqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T05:02:27Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9915/live/320124f0-c17b-11f1-bed0-05ebd781c53c.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "51b077d2ab8dde4060",
+      "title": "World's oldest shipwreck found off coast of Turkey",
+      "category": "Science",
+      "summary": "Archaeologists say the wreck is up to 4,700 years old, dating to the Early Bronze Age.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T05:00:35Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19d5/live/72e7aa00-c71d-11f1-a82f-35874a3aae81.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "2be90d0b184dd08bc1",
+      "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+      "category": "World",
+      "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T04:36:06Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10cd/live/79669050-c74d-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "2a4ad750d625a794db",
+      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+      "category": "World",
+      "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T04:20:17Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "3cc63a59bd65cb2e9c",
+      "title": "Russia arrests Japanese journalist on alleged espionage",
+      "category": "World",
+      "summary": "The Hokkaido Shimbun journalist is accused of collecting information on Moscow's defence capabilities for Tokyo.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T04:10:49Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c43/live/65eee660-c781-11f1-b999-873e5cdc91d4.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "9b4ea73a2d6565ab7e",
+      "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
+      "category": "Science",
+      "summary": "What a cosmic coincidence! In today’s image, Mars joins the Beehive cluster below an auroral curtain and above a horizon of happy little trees near Lansjärv, Sweden.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+      "published_at": "2026-10-14T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "29c40050159565e9a8",
+      "title": "Hurricane Simon Lurks Off the Mexican Coast",
+      "category": "Science",
+      "summary": "Though it remained offshore, the storm lashed coastal areas with high winds and flooding—and produced remarkable rippling patterns in the upper atmosphere.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/hurricane-simon-lurks-off-the-mexican-coast/",
+      "published_at": "2026-10-14T04:01:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "438082c522bec72435",
+      "title": "Judge Extends Block on Trump’s White House Ban on CNN, MS NOW and Politico",
+      "category": "Entertainment",
+      "summary": "Following President Donald Trump’s White House ban on CNN, MS NOW and Politico last month, a federal judge has once again blocked him from doing so. U.S. District Judge Timothy J. Kelly wrote in the ruling issued Tuesday evening that the outlets are “likely to succeed not only on their due process claim, but also […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/judge-blocks-trump-administrations-ban-cnn-ms-now-politico-1236910947/",
+      "published_at": "2026-10-14T03:59:35Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2280583841.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6696a1d60a3f091c3e",
+      "title": "Dan Doh!! Artist Daichi Banjou Discusses Struggle with Cancer",
+      "category": "Anime",
+      "summary": "Gundam Aggressor creator: “My PET scan detected several cancerous recurrences after my surgery (T^T)”",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-13/dan-doh-artist-daichi-banjou-discusses-struggle-with-cancer/.242674",
+      "published_at": "2026-10-14T03:59:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "13b0e22e20b549ab32",
+      "title": "Ben Affleck Calls Filming ‘Justice League’ a “Low Point” in His Career: “About as Gross as It Gets”",
+      "category": "Entertainment",
+      "summary": "The actor played Bruce Wayne/Batman in the 2017 superhero pic, which underwent extensive reshoots, ultimately changing director Zack Snyder’s creative vision for the film.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/ben-affleck-calls-justice-league-low-point-career-1236729523/",
+      "published_at": "2026-10-14T03:49:22Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "24f40577b7d54e2b73",
+      "title": "Martha Plimpton Slams Shane Gillis’ ‘Really F—g Stupid’ ‘SNL’ Monologue: ‘He Deserves a Spanking From His Mom’",
+      "category": "Entertainment",
+      "summary": "Martha Plimpton has joined the list of stars speaking out over Shane Gillis’ poorly received “Saturday Night Live” opening monologue. “There’s this Shane Gillis guy who I’ve never heard of who said some really fucking stupid shit on live on air on ‘SNL’ on Saturday,” the “Goonies” star said in a video posted to her […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/shane-gillis-snl-monologue-martha-plimpton-lorne-michaels-1236910915/",
+      "published_at": "2026-10-14T03:16:21Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/netflix-is-a-joke-festival-presents-the-roast-of-kevin-hart-1000x667-3.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e569c76a99d93708b7",
+      "title": "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/software/platforms/steam-now-has-a-maddening-bouncing-logo-screensaver-and-im-pretty-sure-it-doesnt-touch-the-corners/",
+      "published_at": "2026-10-14T03:08:04Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/AdLTMA8g9nsKdT8AkDMon7-1920-80.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "8b115c67812ddabe81",
+      "title": "Two Internet Sensations Collide: Lola Blankets Gets a LoveShackFancy Makeover",
+      "category": "Entertainment",
+      "summary": "Hollywood's favorite faux fur throw gets a dose of whimsy in a limited-release collab that's unmistakably Lola Blankets x LoveShackFancy.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/shopping/lola-blankets-loveshackfancy-release-date-price-buy-2026-1236729455/",
+      "published_at": "2026-10-14T02:50:44Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2bf7d9935025de52ec",
+      "title": "‘All About Corinne’ Review: Isabelle Huppert Stalks Sandrine Kiberlain in a Witty, Deliciously Acted French Industry Satire",
+      "category": "Entertainment",
+      "summary": "As one of the select few French actresses who has earned definite-article status in her homeland — referred to routinely as La Huppert, alongside the likes of La Binoche and La Deneuve — it’s immediately, amusingly jarring to see Isabelle Huppert cast as a thoroughly indefinite article: a jobbing movie extra whose name nobody…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/all-about-corinne-review-isabelle-huppert-1236908606/",
+      "published_at": "2026-10-14T02:27:56Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/All-About-Corinne.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "837fd313561b935085",
+      "title": "The Apothecary Diaries Film's New Video Unveils Miyuki Sawashiro, Ai Mikami in Cast",
+      "category": "Anime",
+      "summary": "Sawashiro, Mikami join cast as Ruoqing, Yinshan",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-13/the-apothecary-diaries-film-new-video-unveils-miyuki-sawashiro-ai-mikami-in-cast/.242797",
+      "published_at": "2026-10-14T02:21:58Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "7011ab5f548245505a",
+      "title": "Pablo Torre Reveals Art of Play Security Camera Footage, and It Doesn’t Look Great for Kelly Clarkson",
+      "category": "Entertainment",
+      "summary": "Clarkson fans are going to want to look away from a moment like this.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-news/art-of-play-security-footage-kelly-clarkson-viral-visit-1236729466/",
+      "published_at": "2026-10-14T02:19:24Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ef45004359f5875468",
+      "title": "Lena Dunham's Girls to return for limited HBO run",
+      "category": "World",
+      "summary": "Ten years after the series finale, the \"Girls\" are getting back together to explore the \"milestone of turning forty\", HBO says.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9m26xp4zp8jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T02:09:30Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/243d/live/cb0a4af0-c770-11f1-ab87-2bb7c0d2443c.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "988b9646f67c1ed27d",
+      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
+      "category": "World",
+      "summary": "The bank inadequately flagged transactions linked to potential Chinese money laundering networks, the Treasury said.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T02:05:32Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b893/live/c1765210-c764-11f1-b06d-fb50486dda65.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5b9b4435156192d8e3",
+      "title": "Kelly Clarkson vs. Art of Play: Footage Revealed of Singer’s Visit to Brooklyn Novelty Store She Slammed for ‘Pretty Woman’ Treatment",
+      "category": "Music",
+      "summary": "Footage of Kelly Clarkson visiting the Brooklyn novelty store she slammed on Saturday has now been acquired and released by Pablo Torre, the host and executive editor of the investigative podcast, “Pablo Torre Finds Out.” The video offers another perspective to the ongoing drama between Clarkson and Art of Play, the Brooklyn…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/kelly-clarkson-art-of-play-molly-bird-footage-revealed-1236910838/",
+      "published_at": "2026-10-14T02:00:04Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2292781425.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "0b57dc6f0c60f58859",
+      "title": "New Nintendo Release Officially Going Up Against GTA 6 on Nov. 12",
+      "category": "Gaming",
+      "summary": "With GTA 6 almost upon us, most game publishers are smart enough to steer clear. But Nintendo is taking a chance with one familiar franchise.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pikmin-4-switch-2-release/",
+      "published_at": "2026-10-14T01:30:15Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/gta-6-setting-vice-city.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "c6432a933e10a7342b",
+      "title": "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history",
+      "category": "Gaming",
+      "summary": "The Steam Frame has rendered the tethered workhorse obsolete.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/hardware/vr-hardware/valve-is-clearing-out-its-discontinued-index-vr-headsets-if-you-want-a-cheap-piece-of-history/",
+      "published_at": "2026-10-14T00:42:28Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/JARYSgBLBsGsKWxePQJ3EP-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "8ec96bff9e2c6864e4",
+      "title": "Drake Bell Slams SAG-AFTRA After Not Qualifying for Health Insurance: “Do Not Become an Actor”",
+      "category": "Entertainment",
+      "summary": "Bell, who rose to fame on 'Drake & Josh,' has turned his focus to music in recent years.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/drake-bell-slams-sag-aftra-health-insurance-not-qualifying-1236729416/",
+      "published_at": "2026-10-14T00:37:36Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "253f3dece605d17606",
       "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
@@ -72,7 +446,7 @@
     },
     {
       "id": "3a688fae76325da7bd",
-      "title": "Touchdown! ‘Dancing With the Stars’ Throws Its Own Halftime Show for Super Bowl Night: See the Scores, Who Went Home (Updating Live)",
+      "title": "Touchdown! ‘Dancing With the Stars’ Throws Its Own Halftime Show for Super Bowl Night: See the Scores, Who Went Home",
       "category": "Entertainment",
       "summary": "Joe Buck joined as the first guest judge of season 35.",
       "summary_status": "publisher_excerpt",
@@ -207,6 +581,57 @@
       ]
     },
     {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1933 on October 14",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1933 on October 14 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-13T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 14",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1221 The post ‘Connections’ answers and hints for today, October 14 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-13T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 14",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 14 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-13T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "953dd238b2471d2ee4",
       "title": "11 Magic: The Gathering Marvel Cards That Perfectly Capture Their Characters",
       "category": "Gaming",
@@ -221,6 +646,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Gaming"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 14",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 14 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-13T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -275,23 +717,6 @@
       ]
     },
     {
-      "id": "2a4ad750d625a794db",
-      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-      "category": "World",
-      "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T22:29:55Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "31d086e77dd7ff5b76",
       "title": "‘Once Upon in the Middle East’ Review: China’s Oscar Entry Is a Breakneck Blockbuster That Mixes Food Porn With Wartime Devastation",
       "category": "Entertainment",
@@ -323,23 +748,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Gaming"
-      ]
-    },
-    {
-      "id": "2be90d0b184dd08bc1",
-      "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
-      "category": "World",
-      "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T22:14:33Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10cd/live/79669050-c74d-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -391,23 +799,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Anime"
-      ]
-    },
-    {
-      "id": "f56fd11aeee02c54b6",
-      "title": "More tea? How Scotland's crops of the future could be set to change",
-      "category": "Science",
-      "summary": "Experts are examining the ways Scotland's farmers might diversify and adapt to a changing climate.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cxdd80z9yjpqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T21:57:25Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9915/live/320124f0-c17b-11f1-bed0-05ebd781c53c.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -3097,159 +3488,6 @@
       ]
     },
     {
-      "id": "53e93eb4de09ff5549",
-      "title": "Talent Agency Intention Announces Dissolution on March 31, 2027",
-      "category": "Anime",
-      "summary": "Company to end operation due to owner Kenichi Suzumura's adjustment disorder",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-13/talent-agency-intention-announces-dissolution-on-march-31-2027/.242785",
-      "published_at": "2026-10-13T14:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "f382cf0d411b5a6fd1",
-      "title": "Rosé to Perform at LACMA’s Art+Film Gala",
-      "category": "Music",
-      "summary": "Rosé is set to perform at this year’s LACMA Art+Film Gala. The Los Angeles County Museum of Art event takes place Nov. 7. The evening, as previously announced, will honor “Dune” filmmaker Denis Villeneuve and artist Vija Celmins.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/columns/rose-lacmas-art-film-gala-2026-1236909498/",
-      "published_at": "2026-10-13T14:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/photo-by-Kenneth-Cappello-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "bc57ffcb838b71a51b",
-      "title": "RimWorld drops Unity for its own in-house engine, says your saves still work, so do most mods, and the whole thing runs twice as fast",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/gaming-industry/game-development/rimworld-drops-unity-for-its-own-in-house-engine-says-your-saves-still-work-so-do-most-mods-and-the-whole-thing-runs-twice-as-fast/",
-      "published_at": "2026-10-13T13:58:15Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/869mjkNH6axrLNPgTSgZLj-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "722715279a3cdb53e1",
-      "title": "'To The Skies' quest walkthrough in Arc Raiders",
-      "category": "Gaming",
-      "summary": "A guide explaining how to complete the \"To The Skies\" quest in Arc Raiders, including where to find a gondola prototype.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/arc-raiders-to-the-skies-quest-walkthrough-gondola-prototype-locations/",
-      "published_at": "2026-10-13T13:54:44Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/arc-raiders-to-the-skies-header.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "a3e955c8a5612c71dd",
-      "title": "Sony Reveals Gorgeous New Playstation 5 Hardware",
-      "category": "Gaming",
-      "summary": "Sony has unveiled a sleek Midnight Black PlayStation 5, but it's exclusive to Japan",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/playstation-5-midnight-black-japan-exclusive-console-controller-revealed/",
-      "published_at": "2026-10-13T13:50:46Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/midnight-black-ps5-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "7a5cd1581743ec1c29",
-      "title": "Dwarf Fortress creator Tarn Adams is as tired of genAI in the industry as anyone else, and is pretty set on never using it",
-      "category": "Gaming",
-      "summary": "Another day of news, another day in which I find something genAI - related to write about while sighing.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/dwarf-fortress-creator-tarn-adams-is-as-tired-of-genai-in-the-industry-as-anyone-else-and-is-pretty-set-on-never-using-it",
-      "published_at": "2026-10-13T13:42:44Z",
-      "image_url": "https://assetsio.gnwcdn.com/Tarn-Adams.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "a608fcd88f235097e8",
-      "title": "Ex-president named leader of new DR Congo rebel coalition",
-      "category": "World",
-      "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T13:40:45Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88a7/live/427486f0-c6d6-11f1-a5d8-e9a78c0fd632.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "d85e3c725ac6f95096",
-      "title": "Hungarian MPs scrap Orbán's anti-LGBTQ measures",
-      "category": "World",
-      "summary": "LGBTQ and human rights activists warmly welcomed the move, but call for changes to other Orbán-era laws.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6vg9nj4l322o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T13:23:45Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67e8/live/05d40160-c705-11f1-9783-ed95709f9dec.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ea773ecf7a44cd14f2",
-      "title": "Red Riding Hood: A Detective Story's First Episode Asks “What Does Murder in a Children's Story Look Like?”",
-      "category": "Anime",
-      "summary": "What would happen if Little Red Riding Hood was accused of murder?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/convention/2026/all-the-news-and-reviews-from-new-york-comic-con/red-riding-hood-a-detective-story-first-episode-asks-what-does-murder-in-a-children-story-look-like/.242703",
-      "published_at": "2026-10-13T13:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
       "id": "8a3c1592426ec914d9",
       "title": "Jess Taylor’s 10-Year Friendship With A Donkey Started By Climbing A Wall | The Dodo",
       "category": "Animals",
@@ -3267,142 +3505,6 @@
       ]
     },
     {
-      "id": "61572be4403eec9baf",
-      "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
-      "category": "Science",
-      "summary": "A commercial lander that will be at the forefront of NASA’s efforts to establish a Moon Base, humanity’s first lunar outpost, has passed a series of critical tests at the agency’s Jet Propulsion Laboratory in Southern California.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
-      "published_at": "2026-10-13T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "c6e7fe6ae92237a63a",
-      "title": "The Coppersmith's Bride Manga Ends in 3 Chapters",
-      "category": "Anime",
-      "summary": "namo launched manga in May 2020, published in English by J-Novel Club",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-13/the-coppersmith-bride-manga-ends-in-3-chapters/.242760",
-      "published_at": "2026-10-13T12:57:08Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "842db56518f98ef289",
-      "title": "Planet Zoo 2 review: Superstar animals and frustrating micromanagement",
-      "category": "Gaming",
-      "summary": "The animals are as beautiful as ever, but they're trapped in a cage of rote micromanagement.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/sim/planet-zoo-2-review/",
-      "published_at": "2026-10-13T12:43:34Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/ZgY2RYhCnHgVgGZZCh7Eqg-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "5f7891b6af054156fa",
-      "title": "The Heroic Tale of the Villainous Prince's Hirosaki Launches New Manga",
-      "category": "Anime",
-      "summary": "Saijaku Maō no Shinimodori Saiseitan manga launched on October 7",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-13/the-heroic-tale-of-the-villainous-prince-hirosaki-launches-new-manga/.242759",
-      "published_at": "2026-10-13T12:42:09Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "4ae1bcec9394c553d5",
-      "title": "Harry Styles pays tribute to Oscar Belgal after ICE shooting: “Remember to just look after each other”",
-      "category": "Music",
-      "summary": "“It’s up to us to make the world a place that we want to see and give to our children” The post Harry Styles pays tribute to Oscar Belgal after ICE shooting: “Remember to just look after each other” appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/harry-styles-pays-tribute-to-oscar-belgal-after-ice-shooting-look-after-each-other-3973044?utm_source=rss&utm_medium=rss&utm_campaign=harry-styles-pays-tribute-to-oscar-belgal-after-ice-shooting-look-after-each-other",
-      "published_at": "2026-10-13T12:34:22Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/harry-styles@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "8e68d5d31251fd8268",
-      "title": "SSS-Class Revival Hunter Was The Worst Premiere I Saw at NYCC 2026",
-      "category": "Anime",
-      "summary": "There is a right way to do edgy, over-the-top power fantasies but this definitely isn't it.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/convention/2026/all-the-news-and-reviews-from-new-york-comic-con/sss-class-revival-hunter-was-the-worst-premiere-i-saw-at-nycc/.242758",
-      "published_at": "2026-10-13T12:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "f9af3607fe4d17de2c",
-      "title": "BBC FM radio transmissions suspended in Afghanistan",
-      "category": "Entertainment",
-      "summary": "BBC programming is still reaching audiences on shortwave, medium wave, via satellite and online.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm8ezp4g7p6po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T12:13:57Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4599/live/7e414580-c71a-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "d9c5442ff5029e6fe8",
-      "title": "Watch: Emergency calls from botched Christa Pike execution released",
-      "category": "World",
-      "summary": "A series of calls, obtained by the Associated Press, reveal emergency services were delayed in reaching Pike.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/videos/cqpvgrkp0xpyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T12:03:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec29/live/389f0120-c6de-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "647b43bf67223a6d28",
       "title": "What is with the guys trying to sell you stuff in Lisbon?",
       "category": "Travel",
@@ -3417,108 +3519,6 @@
       "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
-      ]
-    },
-    {
-      "id": "d69f5431d998d58589",
-      "title": "Tekken 8 finally gives a first look at upcoming guest Yujiro Hanma from Baki, and he looks just as grotesque as you'd expect",
-      "category": "Gaming",
-      "summary": "The main selling point of Tekken 8 's Season 3 DLC pass, alongside veterans Kunimitsu, Bob and Roger Jr, is Yujiro Hanma, the main antagonist of fighting manga Baki and father of its eponymous protagonist.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/tekken-8-finally-gives-a-first-look-at-upcoming-guest-yujiro-hanma-from-baki-and-he-looks-just-as-grotesque-as-youd-expect",
-      "published_at": "2026-10-13T11:58:24Z",
-      "image_url": "https://assetsio.gnwcdn.com/Yujiro.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "254dba8d40661f4345",
-      "title": "Fortnite-maker Epic Games confirms 'huge pivot' towards using AI",
-      "category": "Entertainment",
-      "summary": "The US firm's boss responds to critics, saying \"much of the room wants it to be 2016, but it's not\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cvj6j812dg4no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T11:42:11Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4415/live/d40ba720-1c9e-11f1-bcb6-d5b9a36c13b4.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "bababcb5dc91163697",
-      "title": "Watch Lana Del Rey debut ‘White Feather Hawk Tail Deer Hunter’ from ‘Stove’ at Singapore Grand Prix",
-      "category": "Music",
-      "summary": "The slot marked her first live performance in nearly one year The post Watch Lana Del Rey debut ‘White Feather Hawk Tail Deer Hunter’ from ‘Stove’ at Singapore Grand Prix appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/watch-lana-del-rey-debut-white-feather-hawk-tail-deer-hunter-from-stove-at-singapore-grand-prix-3973041?utm_source=rss&utm_medium=rss&utm_campaign=watch-lana-del-rey-debut-white-feather-hawk-tail-deer-hunter-from-stove-at-singapore-grand-prix",
-      "published_at": "2026-10-13T11:38:51Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2024/08/Reading24_NME_AFORD_LANADELREY-629971.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "2fa1941b479150707f",
-      "title": "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/gaming-industry/game-development/dead-space-creator-says-he-was-forced-to-ship-the-callisto-protocol-by-krafton-we-had-f-cking-covid/",
-      "published_at": "2026-10-13T11:32:01Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/pywHx6NJoTNW3jtD96GwUm-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "dec3e72c10720f6201",
-      "title": "Raye hits back at ticket touts who 'overwhelmed' sign-up for Albert Hall show",
-      "category": "Entertainment",
-      "summary": "The award-winning singer said there were 1.8 million sign-ups for her 5,000-seat Royal Albert Hall show.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/c8vgxpwlx9wko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T11:25:43Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a08/live/000a1cc0-c6e1-11f1-bf38-57dc5cd42af2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "3d1aa3fab7a8944772",
-      "title": "Cut Assassin’s Creed Black Flag Resynced epilogue scene, that could hint at fresh 18th century stabby hijinks, allegedly taken down by Ubisoft following datamine",
-      "category": "Gaming",
-      "summary": "Ubisoft appear to have copyright struck a YouTube video showing off an unused epilogue cutscene datamined from Assassin’s Creed Black Flag Resynced .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/cut-assassins-creed-black-flag-resynced-epilogue-scene-that-could-hint-at-fresh-18th-century-stabby-hijinks-allegedly-taken-down-by-ubisoft-following-datamine",
-      "published_at": "2026-10-13T11:20:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/assassins-creed-black-flag-resynced-update-disappearing-ships-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -5848,7 +5848,7 @@
     {
       "name": "Google Developers · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
@@ -5878,12 +5878,12 @@
     {
       "name": "How Ridiculous · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast Gaming · YouTube",
