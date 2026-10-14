@@ -1,7 +1,517 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-13T21:19:10.151141Z",
+  "generated_at": "2026-10-14T00:21:36.243562Z",
   "posts": [
+    {
+      "id": "253f3dece605d17606",
+      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+      "category": "World",
+      "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T00:17:00Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ccec/live/9e543840-c71b-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "86cdc3262b907d8c98",
+      "title": "Parke Brings Back Its Sold-Out Shrunken Sweatshirt in Fan-Favorite Colorways",
+      "category": "Entertainment",
+      "summary": "The brand's limited-edition launch reissues the cropped version of its signature (always out-of-stock) mockneck and restocks the beloved original in core shades.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/shopping/parke-october-2026-everyday-edit-mockneck-sweatshirt-restock-1236729249/",
+      "published_at": "2026-10-14T00:03:12Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7504d0d1b0bfea2fd9",
+      "title": "5 Forgotten Square Enix RPGs That Deserve a Comeback",
+      "category": "Gaming",
+      "summary": "Not every game can be Final Fantasy or Dragon Quest, but these neglected series deserve a second look from Square Enix",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/forgotten-square-enix-rpgs/",
+      "published_at": "2026-10-14T00:00:16Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/sazhs-chocobo-art-mtg.jpeg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "530645a52109d16dff",
+      "title": "Theo James, Hoyeon, Christian Slater Thriller ‘The Hole’ Lands Summer 2027 Release From Orion (Exclusive)",
+      "category": "Entertainment",
+      "summary": "Yeom Hye-ran also stars in director Kim Jee-woon's feature that adapts Hye-young Pyun's novel.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/the-hole-theo-james-hoyeon-christian-slater-release-orion-1236729322/",
+      "published_at": "2026-10-14T00:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3a688fae76325da7bd",
+      "title": "Touchdown! ‘Dancing With the Stars’ Throws Its Own Halftime Show for Super Bowl Night: See the Scores, Who Went Home (Updating Live)",
+      "category": "Entertainment",
+      "summary": "Joe Buck joined as the first guest judge of season 35.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-super-bowl-week-5-recap-scores-elimination-1236729153/",
+      "published_at": "2026-10-13T23:58:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "11fd406ee89b33a399",
+      "title": "Gales and heavy rain to impact UK as yellow wind warning issued",
+      "category": "Science",
+      "summary": "The Met Office has issued a yellow warning for wind in north-west Scotland on Wednesday with 70mph gusts possible, as Ben Rich explains.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/weather/articles/cxvgdq0jj8d2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:55:49Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a22/live/f73dcdc0-c6e1-11f1-bf38-57dc5cd42af2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "ee8d88fba635cbfe19",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "category": "World",
+      "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:42:22Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8583/live/42414480-c72f-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "074fba8199ab5a5196",
+      "title": "Zimbabwean author denies using AI to write award-winning story",
+      "category": "World",
+      "summary": "Simbarashe Kundizeza was responding to an accusation that has caused an uproar on social media.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm4g1rekpgnjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:31:10Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e42/live/dc1ac240-c723-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "fc02abe6af5ec10346",
+      "title": "Pictured: Winning entries for Wildlife Photographer of the Year 2026",
+      "category": "Science",
+      "summary": "Striking images including an urban coyote and an elephant carrying a dead calf are among this year's winners.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw5y4nv05rp8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:26:54Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39ef/live/bdb3fce0-c6f6-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "a34aa6af9ba5c299a3",
+      "title": "Amy Robach and T.J. Holmes Tie the Knot in Arkansas",
+      "category": "Entertainment",
+      "summary": "The former ABC News anchors wed in a small Arkansas ceremony last month, according to a marriage license.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/amy-robach-tj-holmes-married-arkansas-1236729351/",
+      "published_at": "2026-10-13T23:15:54Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f1e92bec9e563c14bc",
+      "title": "‘Clean Hands’ Review: Zach Braff Is a Cop on a Crusade to Save His Addict Daughter in an Uneasy Fact-Based Crime Drama",
+      "category": "Entertainment",
+      "summary": "When a filmmaker tells a story based on real events, especially ones that are inspiring or heroic, there’s always a risk of hagiography. “Clean Hands” is a movie where the storytellers either take a lot of license with an actual person’s life to add drama, or don’t seem aware just how unflattering their subject’s behavior […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/clean-hands-review-1236910791/",
+      "published_at": "2026-10-13T23:14:27Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Clean-Hands.webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f61c81760f0e66e9fe",
+      "title": "Highdee Kuan on ‘Brothers’ and Getting Her Very Own ‘True Detective’ Moment on the Apple Comedy",
+      "category": "Entertainment",
+      "summary": "The actress plays Woody Harrelson's daughter Olive in the family comedy that stars Harrelson and Matthew McConaughey as heightened versions of themselves.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/highdee-kuan-brothers-interview-1236722976/",
+      "published_at": "2026-10-13T23:10:33Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "953dd238b2471d2ee4",
+      "title": "11 Magic: The Gathering Marvel Cards That Perfectly Capture Their Characters",
+      "category": "Gaming",
+      "summary": "Some of the best cards from Magic's Marvel Super Heroes set perfectly encapsulate their characters on cardboard.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/mtg-best-marvel-card-designs-magic-the-gathering-super-heroes/",
+      "published_at": "2026-10-13T23:00:16Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-mind-stone-art.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "3f3fd26f243db656f8",
+      "title": "‘Tommy & Tuppence’ Stars Josh Dylan and Antonia Thomas on That ‘Intense’ Finale, Why the Detective Duo ‘Keep Missing Each Other’ Romantically and a Potential Season 2",
+      "category": "Entertainment",
+      "summary": "SPOILER ALERT: This story contains spoilers for Episode 6 of “Tommy & Tuppence,” now streaming on BritBox. The finale of “Tommy & Tuppence” finds the Agatha Christie detective duo, played by Josh Dylan and Antonia Thomas, on the verge of a new chapter.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/tommy-tuppence-finale-josh-dylan-antonia-thomas-romance-season-2-1236909902/",
+      "published_at": "2026-10-13T23:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/antonia-thomas-tuppe_6ace084c1c725.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "b7a409a50471a757d2",
+      "title": "Why the ‘Girls’ Revival Is Such an Exciting Idea",
+      "category": "Entertainment",
+      "summary": "The return of “Girls” for a five-episode limited run won’t just be interesting because of how Hannah Horvath has or has not changed. It’ll be a litmus test for how we at home have, as well. After all, Lena Dunham has at times struggled to distinguish herself from her most famous creation. At the height […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/columns/girls-revival-hbo-1236910307/",
+      "published_at": "2026-10-13T22:45:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/07/Girls_ep307__Schafer-Mark-Green-Swimsuit-3-e1752083685703.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "98fddffb43f1823ca1",
+      "title": "QVC Turns 40: Hosts Break Down Shopping Network’s Most-Viral Moments",
+      "category": "Entertainment",
+      "summary": "The Hollywood Reporter grills a quartet of QVC hosts on their biggest on-air fails, flubs and follies.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/qvc-at-40-biggest-viral-fails-oral-history-1236726224/",
+      "published_at": "2026-10-13T22:42:41Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2a4ad750d625a794db",
+      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+      "category": "World",
+      "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T22:29:55Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "31d086e77dd7ff5b76",
+      "title": "‘Once Upon in the Middle East’ Review: China’s Oscar Entry Is a Breakneck Blockbuster That Mixes Food Porn With Wartime Devastation",
+      "category": "Entertainment",
+      "summary": "Not since Zhang Yimou’s 2002 wuxia spectacle “Hero” has China landed an Oscar nomination for Best International Feature — and this dry spell surely won’t be broken with this year’s bombastic submission “Once Upon a Time in the Middle East.” Like most of the country’s entries over the past decade, this blockbuster epic — a […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/once-upon-in-the-middle-east-review-1236910775/",
+      "published_at": "2026-10-13T22:21:27Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/Once-Upon-a-Time-in-the-Middle-East.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e3801efc7f60aef268",
+      "title": "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/third-person-shooter/rockstar-co-founder-dan-houser-says-he-failed-with-max-payne-3-and-im-sorry-danno-but-thats-just-plain-wrong/",
+      "published_at": "2026-10-13T22:19:05Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/EsN23xrJWzjugDeruTfe5R-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "2be90d0b184dd08bc1",
+      "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+      "category": "World",
+      "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T22:14:33Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10cd/live/79669050-c74d-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "0393c176424c7602c0",
+      "title": "Tyler Cameron on ‘DWTS’ and Rebuilding His Career, One House (and One Dance) at a Time",
+      "category": "Entertainment",
+      "summary": "The former 'Bachelorette' star opens up to The Hollywood Reporter about returning to primetime with the ABC reality dance series, building a life with his fiancée, Tate Madden, honoring his late mother on the dance floor and teases his next HGTV series, 'Let's Go Back to Your Place.'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/tyler-cameron-dancing-with-the-stars-hgtv-interview-1236728232/",
+      "published_at": "2026-10-13T22:14:31Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fa9c4d58ff9c735b11",
+      "title": "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!'",
+      "category": "Gaming",
+      "summary": "\"It’s a film about the experience of playing Resident Evil, controller in hand.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/movies-tv/kojima-says-he-was-just-like-bryan-from-the-resident-evil-movie-when-he-played-re1-in-1996-i-kept-getting-game-over-after-game-over-shouting-f/",
+      "published_at": "2026-10-13T22:04:33Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/PWMp9GT2LAGVcd2oj7SeHk-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "76a687243936112cbf",
+      "title": "The Promised Neverland, Blue Box Manga Both Get New Novels",
+      "category": "Anime",
+      "summary": "Nanao writes both Yakusoku no Neverland ~10-nen-me no Okurimono~ , Ao no Hako Epilogue novels for release on December 4",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-13/the-promised-neverland-blue-box-manga-both-get-new-novels/.242767",
+      "published_at": "2026-10-13T22:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "f56fd11aeee02c54b6",
+      "title": "More tea? How Scotland's crops of the future could be set to change",
+      "category": "Science",
+      "summary": "Experts are examining the ways Scotland's farmers might diversify and adapt to a changing climate.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cxdd80z9yjpqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T21:57:25Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9915/live/320124f0-c17b-11f1-bed0-05ebd781c53c.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "9c03b3a4bccf7452d3",
+      "title": "Send in the Clown is a turn-based RPG comedy about fighting one annoying child at a birthday party where there's only one fight in the whole game",
+      "category": "Gaming",
+      "summary": "I generally find it quite frustrating how limited the medium of games insists on being when it comes to engaging in a wide breadth of genres. One particular genre that its filmmaking cousin frequently utilises but is rarely seen within games is comedy.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/send-in-the-clown-is-a-turn-based-rpg-comedy-about-fighting-one-annoying-child-at-a-birthday-party-where-theres-only-one-fight-in-the-whole-game",
+      "published_at": "2026-10-13T21:54:00Z",
+      "image_url": "https://assetsio.gnwcdn.com/send-in-the-clown.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "31e3171c232224056f",
+      "title": "Art of Play in Brooklyn, New York",
+      "category": "Travel",
+      "summary": "A tiny mechanical bird named Molly has become an unlikely celebrity in Brooklyn. She sings, she dances, and she recently found herself at the center of a very public feud.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Atlas Obscura",
+      "source_url": "https://www.atlasobscura.com/places/art-of-play-brooklyn",
+      "published_at": "2026-10-13T21:49:00Z",
+      "image_url": "https://img.atlasobscura.com/qvQowfTFlFCBOGCgZ90sW0W0t0haVFrrxgOGywwSLx0/rs:fill:300:200:1/g:ce/c:600:400:nowe:1349:212/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85MWQ3/N2M0Zi00NWM5LTRh/ODYtOTFiOS1hYjBj/YjYzZDRkM2Y2MDQx/Njc1NGEwNmNkZTE0/YzNfM0ZSUERGOC5q/cGc.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "b0a5cb1542fd698418",
+      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+      "category": "World",
+      "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T21:42:49Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/194/cpsprodpb/59c9/live/4ad4e9c0-c74e-11f1-a64c-550be9e3c66b.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "c5af2ec725d22e4b29",
+      "title": "Fashion-Focused Bless Anime is a Visual Stunner",
+      "category": "Anime",
+      "summary": "A gorgeous prologue sequence uses painted animation à la the Frieren Season 2 ending sequence.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/convention/2026/all-the-news-and-reviews-from-new-york-comic-con/fashion-focused-bless-anime-is-a-visual-stunner/.242790",
+      "published_at": "2026-10-13T21:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "f1d63dbdf73d00411f",
+      "title": "Chuck Lorre Tells All: His 10 Years in Scientology, Clashes With Stars Like Roseanne and Brett Butler, and How ‘The Big Bang Theory’ Cast Shocked Him",
+      "category": "Entertainment",
+      "summary": "Chuck Lorre has been entangled with some of the most notoriously difficult TV comedy stars in modern memory: Roseanne Barr, Brett Butler, Cybill Shepherd and, of course, Charlie Sheen. Of the four, he’s only made up with Sheen — and that rift took years to repair, as their “Two and a Half Men” meltdown was […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/chuck-lorre-scientology-roseanne-brett-butler-big-bang-1236910668/",
+      "published_at": "2026-10-13T21:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Chuck_Lorre_Look3_0393-V3-e1791925117571.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "edd317f0d33fdb925c",
+      "title": "Stephen Amell Says Putting on the ‘Baywatch’ Red Trunks Felt ‘So Familiar’ Because ‘It’s a Superhero Show’",
+      "category": "Entertainment",
+      "summary": "Stephen Amell, star of the upcoming “Baywatch” reboot, first came to public attention as Oliver Queen in DC superhero series “Arrow.” But the actor says his new role isn’t so different. “Once I got on it and I put on the red trunks, I realized, like, why does this feel so familiar?” Amell said of […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/stephen-amell-baywatch-superhero-show-1236910083/",
+      "published_at": "2026-10-13T21:26:52Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Baywatch-Michael-Becker-FOX.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "466b9091a66fd70947",
       "title": "‘Behemoth!’ Wouldn’t Have Been Possible Without ‘Andor’ Success, Says Tony Gilroy",
@@ -142,7 +652,7 @@
       "id": "7baa0d71eb9c3f5077",
       "title": "Black Bear Acquires Love Triangle Comedy Spec From Writing Duo Cassidy Alla and Read Masino (EXCLUSIVE)",
       "category": "Entertainment",
-      "summary": "Black Bear has acquired the rights to a comedy spec script from up-and-coming writing duo Cassiy Alla and Read Masino, Variety can reveal exclusively According to an official logline, the untitled film “tells the story of when a mother and daughter inadvertently start dating the same man; the whole family – each at their own […]",
+      "summary": "Black Bear has acquired the rights to a comedy spec script from up-and-coming writing duo Cassidy Alla and Read Masino, Variety can reveal exclusively According to an official logline, the untitled film “tells the story of when a mother and daughter inadvertently start dating the same man; the whole family – each at their own…",
       "summary_status": "publisher_excerpt",
       "source_name": "Variety Film",
       "source_url": "https://variety.com/2026/film/news/black-bear-comedy-spec-cassidy-alla-read-masino-1236910490/",
@@ -221,23 +731,6 @@
       "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
-      ]
-    },
-    {
-      "id": "253f3dece605d17606",
-      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-      "category": "World",
-      "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T20:46:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ccec/live/9e543840-c71b-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -428,23 +921,6 @@
       ]
     },
     {
-      "id": "2a4ad750d625a794db",
-      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-      "category": "World",
-      "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T20:02:15Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "1750539ca05135b3ec",
       "title": "Send In The Clown - Official Gameplay Overview Trailer | IGN Fall Fan Fest 2026",
       "category": "Gaming",
@@ -601,7 +1077,7 @@
       "id": "5f6c77850f90291bed",
       "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
       "category": "World",
-      "summary": "Guilfoyle the allegations of improper conduct are \"false\" and being ambassador was the \"honour of a lifetime\".",
+      "summary": "Guilfoyle said the allegations of improper conduct were false and that being ambassador was the \"honour of a lifetime\".",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
@@ -1496,6 +1972,40 @@
       "youtube_channel_id": null,
       "topics": [
         "Music"
+      ]
+    },
+    {
+      "id": "199a245ce9cac7eb21",
+      "title": "How to complete An Unheard Farewell in Valor Mortis",
+      "category": "Gaming",
+      "summary": "Find the missing scouts for the Adjutant Sous-Officier.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/action/valor-mortis-an-unheard-farewell-walkthrough/",
+      "published_at": "2026-10-13T17:00:00Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/KnKggkKmKDdJsm8A5wgfQJ-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "c4182f3902e218e0c8",
+      "title": "How to complete The Emissary in Valor Mortis",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/action/valor-mortis-the-emissary-walkthrough/",
+      "published_at": "2026-10-13T17:00:00Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/uzkASnQXzVtg263PAx9Qhm-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
       ]
     },
     {
@@ -3012,142 +3522,6 @@
       ]
     },
     {
-      "id": "fd364f692bc61bf975",
-      "title": "Super El Niño sets another record as it strengthens to 'unprecedented levels'",
-      "category": "World",
-      "summary": "El Niño has continued to strengthen, with several key measures now in record territory. Simon King explores how it compares to previous events.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T11:18:44Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8099/live/0fddd740-c6f5-11f1-bc1b-8dfa7c975faa.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "b559d2d67b6ec769b8",
-      "title": "Super El Niño sets another record as it strengthens to 'unprecedented levels'",
-      "category": "Science",
-      "summary": "El Niño has continued to strengthen, with several key measures now in record territory. Simon King explores how it compares to previous events.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T11:18:44Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8099/live/0fddd740-c6f5-11f1-bc1b-8dfa7c975faa.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "c8b34e1ca9daecc84b",
-      "title": "‘Doom’s Mick Gordon confirms plans for two-year world soundtrack tour",
-      "category": "Music",
-      "summary": "He’s currently scheduled to play Manchester’s RADAR Festival next summer The post ‘Doom’s Mick Gordon confirms plans for two-year world soundtrack tour appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/doom-mick-gordon-two-year-world-soundtrack-tour-dates-3973035?utm_source=rss&utm_medium=rss&utm_campaign=doom-mick-gordon-two-year-world-soundtrack-tour-dates",
-      "published_at": "2026-10-13T11:17:33Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Doom-Eternal-screenshot.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "c6789b04743893be8e",
-      "title": "Dragon Ball Super's NYCC Panel Brings the Show's Voice Actors and a (Not Exactly) New Episode",
-      "category": "Anime",
-      "summary": "Dragon Ball Super: Beerus is basically a recut of the original Dragon Ball Super series with better animation.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/convention/2026/all-the-news-and-reviews-from-new-york-comic-con/dragon-ball-super-nycc-panel-brings-the-show-voice-actors-and-a-new-episode/.242707",
-      "published_at": "2026-10-13T11:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "48163fb629252524ce",
-      "title": "Raye Royal Albert Hall show “overwhelmed by scalpers using AI bots” after receiving nearly 2million sign-ups",
-      "category": "Music",
-      "summary": "“I’m not sure what the future holds for ticketing, I do know this experience has really opened my eyes” The post Raye Royal Albert Hall show “overwhelmed by scalpers using AI bots” after receiving nearly 2million sign-ups appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/raye-royal-albert-hall-show-overwhelmed-by-scalpers-using-ai-bots-after-receiving-nearly-2million-sign-ups-3973034?utm_source=rss&utm_medium=rss&utm_campaign=raye-royal-albert-hall-show-overwhelmed-by-scalpers-using-ai-bots-after-receiving-nearly-2million-sign-ups",
-      "published_at": "2026-10-13T11:13:34Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/09/NMEAR_NME-READING-2026-RAYE-LIVE-20-CREDIT-ANDY-FORD@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "3ee9bec8646d3991ce",
-      "title": "Behold, the $3,000 keyboard that is also actually a powerful AI PC I would hate to spill my coffee on",
-      "category": "Gaming",
-      "summary": "I'll be saving my pennies for something—anything—else, personally.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/hardware/behold-the-usd3-000-keyboard-that-is-also-actually-a-powerful-ai-pc-i-would-hate-to-spill-my-coffee-on/",
-      "published_at": "2026-10-13T11:12:30Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/eXGy5QU2CvtncrdkHNPP9A-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "c6951a36c21eb342eb",
-      "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
-      "category": "Science",
-      "summary": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds of supplies and hardware, bound for the International Space Station.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
-      "published_at": "2026-10-13T11:12:18Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "9e8995022b68c2fff3",
-      "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
-      "category": "World",
-      "summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
-      "published_at": "2026-10-13T11:08:14Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "41b2cf6678f8ad524c",
       "title": "Wild Serval Kittens Found After Fire Make An Incredible Comeback | The Dodo",
       "category": "Animals",
@@ -3162,278 +3536,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "435661d0ac856a1d1b",
-      "title": "Voice Actor Manaka Iwami Announces Marriage, Birth of 1st Child",
-      "category": "Anime",
-      "summary": "Voice of Oshi no Ko's Akane Kurokawa married partner outside industry",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-13/voice-actor-manaka-iwami-announces-marriage-birth-of-1st-child/.242781",
-      "published_at": "2026-10-13T11:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "f397c5d561995d8904",
-      "title": "Pakistan imposes emergency rule in former prime minister's stronghold",
-      "category": "World",
-      "summary": "Pakistan has imposed emergency rule in the province governed by the political party of imprisoned former prime minister Imran Khan.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
-      "published_at": "2026-10-13T10:51:33Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "e730206cd6d438ad16",
-      "title": "Marvel Tōkon: Fighting Souls to add Jane Foster's Thor, Venom and Jubilee - following Phoenix Cyclops - in its Year One DLC pass",
-      "category": "Gaming",
-      "summary": "Following the announcement of Phoenix Cyclops as the game's first DLC character back in July (who'll finally be joining the roster on November 2nd), Arc System Works have ripped the plaster off and revealed all the other new fighters set for Marvel Tōkon: Fighting Souls ' Year One phase.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/marvel-tokon-fighting-souls-to-add-jane-fosters-thor-venom-and-jubilee-following-phoenix-cyclops-in-its-year-one-dlc-pass",
-      "published_at": "2026-10-13T10:47:35Z",
-      "image_url": "https://assetsio.gnwcdn.com/Marvel-Tokon-DLC.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "e4760be0294efe81e3",
-      "title": "‘The Walking Dead’s Chandler Riggs has made his own ‘Resident Evil’ film",
-      "category": "Music",
-      "summary": "The unofficial live-action short adapts parts of ‘Resident Evil 7: Biohazard’ The post ‘The Walking Dead’s Chandler Riggs has made his own ‘Resident Evil’ film appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/the-walking-dead-chandler-riggs-resident-evil-film-biohazard-3973028?utm_source=rss&utm_medium=rss&utm_campaign=the-walking-dead-chandler-riggs-resident-evil-film-biohazard",
-      "published_at": "2026-10-13T10:31:57Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Resident-Evil-7-Biohazard.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "25014c2cbd62423628",
-      "title": "Castlevania: Belmont’s Curse review - a fantastic action game, a less than stellar Metroidvania",
-      "category": "Gaming",
-      "summary": "Rose Belmont is not her father. Rose is something new: the next generation of the legendary vampire hunters spending her life trying to step out of Trevor's shadow, to be seen as the self-reliant woman she is. Any monster that faces her is surprised to see a young girl, not the grizzled old man they've grown used to.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/castlevania-belmonts-curse-review-a-fantastic-action-game-a-less-than-stellar-metroidvania",
-      "published_at": "2026-10-13T10:03:04Z",
-      "image_url": "https://assetsio.gnwcdn.com/rose-belmont.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "77e68c273071ed19aa",
-      "title": "Trump's diesel deal with Putin angers Europe",
-      "category": "World",
-      "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-      "published_at": "2026-10-13T08:44:19Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "62272d3a5b27e79de6",
-      "title": "How NATO plans to combat potential attacks on the alliance from Russia",
-      "category": "World",
-      "summary": "NPR's Steve Inskeep speaks with former U.S. Assistant Secretary for European Affairs Dan Hamilton about NATO's detailed plans to counter any possible Russian attack on the alliance.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/13/nx-s1-5998721/how-nato-plans-to-combat-potential-attacks-on-the-alliance-from-russia",
-      "published_at": "2026-10-13T08:44:14Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "1cba67ef7c6b086063",
-      "title": "Breaking Bad actor RJ Mitte dies aged 34",
-      "category": "World",
-      "summary": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T08:03:34Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5ed/live/d6c542f0-c702-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "654fe8e2f21b88dbbf",
-      "title": "Breaking Bad actor RJ Mitte dies aged 34",
-      "category": "Entertainment",
-      "summary": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T08:03:34Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5ed/live/d6c542f0-c702-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b8f3857bd6adcf90b2",
-      "title": "Nieve Ella – ‘How Long Will It Take?’ review: coming to terms with the messiness of growing up",
-      "category": "Music",
-      "summary": "With her debut album, the former NME Cover star throws caution to the wind by using her intense emotions to create her most ambitious work yet The post Nieve Ella – ‘How Long Will It Take?’ review: coming to terms with the messiness of growing up appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/reviews/album/nieve-ella-how-long-will-it-take-review-3972997?utm_source=rss&utm_medium=rss&utm_campaign=nieve-ella-how-long-will-it-take-review",
-      "published_at": "2026-10-13T08:00:11Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/07/nieve-ella-press@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "9dc87876f2420df336",
-      "title": "For Troye Sivan, the dancefloor is a healing space",
-      "category": "Music",
-      "summary": "Australia’s premier pop boy tells NME about how he’s searching for meaning under the strobe lights, avoiding the cringe of sharing too much and reconnecting with his inner child with his fourth album The post For Troye Sivan, the dancefloor is a healing space appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/features/music-interviews/troye-sivan-shes-the-best-interview-3972979?utm_source=rss&utm_medium=rss&utm_campaign=troye-sivan-shes-the-best-interview",
-      "published_at": "2026-10-13T08:00:03Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Troye-Sivan-credit-Marcus-Cooper.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "844aeaa2108ce001a2",
-      "title": "Whistleblowing Portal Launches in U.K. for Entertainment Industry Workers to Report Abuse, Harassment and Discrimination",
-      "category": "Entertainment",
-      "summary": "Workers across the U.K.’s film, TV, music and theater sectors are now able to report whistleblowing concerns, including those relating to harassment and abuse, following the launch of a new portal by the Creative Industries Independent Standards Authority (CIISA).",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/whistleblowing-service-launches-in-uk-for-film-tv-workers-1236909610/",
-      "published_at": "2026-10-13T08:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2282285120.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "731612d1f2d5838045",
-      "title": "India 'cockroach' leaders detained after entering barricaded protest site",
-      "category": "World",
-      "summary": "Protesters climbed over barricades in central Delhi to demand the election chief resign over revised voter lists.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqz0v11n2vj5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T07:31:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d729/live/cad81e00-c6d9-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "902befaa7a2d1cd798",
-      "title": "‘God of War’s’ Bruno Velazquez, ‘Mandalorian & Grogu’s’ Hal Hickel Detail Cinema-Gaming Crossover at View Conference",
-      "category": "Entertainment",
-      "summary": "James Cameron’s “Avatar” technology helped shape the look of Sony Santa Monica Studio’s “God of War” games, game director Bruno Velazquez revealed at View Conference in Turin on Monday during a discussion of how increasingly intertwined filmmaking and video game production have become.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/artisans/global/god-of-war-mandalorian-grogu-cinema-gaming-view-1236909776/",
-      "published_at": "2026-10-13T07:15:33Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/View-Conference-cinema-games-panel.-12.10.2026.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "59a8b9db974bbe5e38",
-      "title": "‘God of War’s’ Bruno Velazquez, ‘Mandalorian & Grogu’s’ Hal Hickel Detail Cinema-Gaming Crossover at View Conference",
-      "category": "Entertainment",
-      "summary": "James Cameron’s “Avatar” technology helped shape the look of Sony Santa Monica Studio’s “God of War” games, game director Bruno Velazquez revealed at View Conference in Turin on Monday during a discussion of how increasingly intertwined filmmaking and video game production have become.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/artisans/global/god-of-war-mandalorian-grogu-cinema-gaming-view-1236909776/",
-      "published_at": "2026-10-13T07:15:33Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/View-Conference-cinema-games-panel.-12.10.2026.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "46002b8180fe903ebe",
-      "title": "Castlevania: Belmont’s Curse Is a Near-Perfect Metroidvania",
-      "category": "Gaming",
-      "summary": "'Castlevania: Belmont's Curse' lives up to this series' lofty legacy with outstanding platforming, world design, and ambiance.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/castlevania-belmonts-curse-review/",
-      "published_at": "2026-10-13T07:01:16Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/castlevania-belmonts-curse-screenshot-3.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -3454,91 +3556,6 @@
       ]
     },
     {
-      "id": "4a2df7ce0dad0485f7",
-      "title": "‘Tyson’ Review: Netflix’s Docuseries Tells Mike Tyson’s Story as Only Mike Tyson Could, and Already Has Several Times",
-      "category": "Entertainment",
-      "summary": "Floyd Russ' four-part project follows the boxer from rough childhood to athletic stardom to decades of self-inflicted adversity.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-reviews/tyson-review-netflix-mike-tyson-documentary-1236728369/",
-      "published_at": "2026-10-13T07:01:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "a9053e2718d786ce4d",
-      "title": "‘Bloodsuckers’ Team Reunites on ‘Body in the Closet’ on Warner Bros. Title With Comedian Axel Åhman Eyed for the Lead Role (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Axel Åhman is set to star in the upcoming series “Body in the Closet” produced for Warner Bros. International Television Production Finland. He’ll play Staffan, an audience services employee at a theatre. A country boy, he has found his way into a big-city cultural institution and knows its history by heart. He also has a […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/comedian-axel-ahman-body-in-the-closet-bloodsuckers-1236908857/",
-      "published_at": "2026-10-13T05:54:10Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-12-Oct-2026-11-32-AM-1653_f254a9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "abf0fb59a10d1c18d9",
-      "title": "DNA and vehicle-tracking help French investigators recover stolen Renoirs",
-      "category": "World",
-      "summary": "DNA left on a protective painting cover helped investigators recover two stolen Renoirs and uncover what they suspected were preparations for another art heist, a French prosecutor said Monday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/13/g-s1-147818/france-stolen-renoirs-recovered",
-      "published_at": "2026-10-13T05:42:28Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "8db124b83bcaf2b4cf",
-      "title": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
-      "category": "World",
-      "summary": "In his first interview since being forced from his post, Gen Syrskyi speaks about Ukraine's future in the war.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T05:02:34Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6198/live/a36bbf70-c6d4-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "01123452d9e970a37a",
-      "title": "US actress Selma Blair accused of assault after incident with flight attendants",
-      "category": "Entertainment",
-      "summary": "The Legally Blonde star is investigated by the FBI following an alleged altercation on a flight from LA to New York.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw80z7edrk80o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T04:52:28Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1cb/live/862b16a0-c6bf-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "d458dca82d399c72ba",
       "title": "Ace Combat 8: Wings of Theve Review",
       "category": "Entertainment",
@@ -3551,23 +3568,6 @@
       "media_type": "video",
       "video_id": "Ov41LU0jVyY",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "cf2c6622992b2f59c2",
-      "title": "Toni Collette’s Directorial Debut ‘The Best Of’ Among 75 Projects Backed by Screen Australia",
-      "category": "Entertainment",
-      "summary": "Toni Collette will make her feature directing debut with “The Best Of,” her screen version of Graeme Simsion’s bestselling novel, which is one of 75 projects sharing more than AUD16.9 million ($11.7 million) in production and development money from Screen Australia.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/toni-collette-directorial-debut-75-projects-screen-australia-1236909731/",
-      "published_at": "2026-10-13T04:21:46Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/P103GD0C.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -5842,43 +5842,43 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "MrBeast · YouTube",
@@ -5887,23 +5887,23 @@
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dragon Ball Official (curated)",
