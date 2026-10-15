@@ -853,6 +853,9 @@ function toggleReelSound(){
   else if(actualMuted===false)reelSoundOn=false;
   else reelSoundOn=!reelSoundOn;
   reelUserConfirmedSound=reelSoundOn;
+  if(reelSoundOn)reelAudioUnlocked=true;
+  const previous=reelPlaybackStates.get(reelActiveIndex)||{};
+  reelPlaybackStates.set(reelActiveIndex,{...previous,muted:!reelSoundOn});
   store('orbit_reel_sound_v1',reelSoundOn);
   applyReelVolume(reelActiveIndex);
   soundNotice();
@@ -881,13 +884,15 @@ function tapReel(index){
     try{if(typeof player?.isMuted==='function')muted=Boolean(player.isMuted())}catch{}
   }
   if(muted){
-    reelSoundOn=true;reelUserConfirmedSound=true;store('orbit_reel_sound_v1',true);
+    reelSoundOn=true;reelUserConfirmedSound=true;reelAudioUnlocked=true;store('orbit_reel_sound_v1',true);
     applyReelVolume(index);
     soundNotice();
     reelPlaybackStates.set(index,{...playback,muted:false});
+    try{if(player?.playVideo)player.playVideo();else sendYoutubeCommand(document.getElementById('reel-media-'+index)?.querySelector('iframe'),'playVideo')}catch{}
+    hideReelPlayFallback(index);
     return;
   }
-  reelUserConfirmedSound=true; // a user tap while audible confirms this Reel has sound
+  reelUserConfirmedSound=true;reelAudioUnlocked=true; // an audible tap confirms sound permission
   let paused=playback.paused===true;
   if(clip.platform==='youtube'){
     try{const state=player?.getPlayerState?.();if(state===1)paused=false;else if(state===2)paused=true}catch{}
