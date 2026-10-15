@@ -655,6 +655,7 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   if(frame&&p.platform==='tiktok')applyReelVolume(index);
   reelNativeControls=false;
   updatePlayerControlMode();
+  syncReelSoundIcon(); // reflect the actual muted autoplay before player API is ready
   startProgressTimer();
   reelsStarted=true;
 }
