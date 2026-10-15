@@ -24,7 +24,7 @@ let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let feedVideoObserver=null,feedActiveVideo=null,feedPlayer=null,feedSoundWanted=false,feedSoundAttemptTimer=null,feedSoundVerified=false;
-let reelUserConfirmedSound=false;
+let reelUserConfirmedSound=false,reelAudioUnlocked=false;
 let feedMixNonce=Number(read('orbit_feed_mix_nonce',0))||0;
 const feedRatios=new Map();
 let tab='Home',filter='All',posts=[],loading=true,feedStatus='',updatedAt='',importCandidates=[],searchTerm='';
@@ -442,7 +442,7 @@ function reelCard(p,i){
     +'<button type="button" data-save="'+escape(p.id)+'" class="'+(bookmarks[p.id]?'active':'')+'" aria-label="'+(bookmarks[p.id]?'Remove saved video':'Save video')+'">'+svg('Saved')+'<span>'+(bookmarks[p.id]?'Saved':'Save')+'</span></button>'
     +'<button type="button" data-share="'+escape(p.id)+'" aria-label="Share video">'+svg('Share')+'<span>Share</span></button>'
     +'<button type="button" data-options="'+escape(p.id)+'" aria-label="More options">'+svg('More')+'<span>Options</span></button>'
-    +'<button type="button" data-player-controls aria-label="Toggle official player controls">◫<span>Player</span></button>'
+    +'<button type="button" data-orbit-fullscreen aria-label="Expand Orbit Reels fullscreen">⛶<span>Full</span></button>'
     +'<button type="button" data-reels-next="'+i+'" aria-label="Next video">↓<span>Next</span></button>'
     +'</div></article>';
 }
@@ -587,7 +587,7 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   const origin=encodeURIComponent(location.origin);
   let src='';
   if(p.platform==='youtube'){
-    src='https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&rel=0&controls=1&enablejsapi=1&mute='+(mutedPlayback?'1':'0')+'&origin='+origin;
+    src='https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&fs=0&rel=0&controls=1&enablejsapi=1&mute='+(mutedPlayback?'1':'0')+'&origin='+origin;
   }else if(p.platform==='tiktok'){
     src='https://www.tiktok.com/player/v1/'+encodeURIComponent(p.external_id)+'?autoplay=1&controls=1&loop=0&description=0&rel=0';
   }else if(p.platform==='instagram'){
@@ -596,7 +596,9 @@ function startReel(index,mutedPlayback=!reelSoundOn){
     src='https://www.facebook.com/plugins/video.php?href='+encodeURIComponent(p.source_url)+'&show_text=false&autoplay=true&width=400';
   }
   if(!src)return;
-  media.innerHTML='<iframe class="reel-frame reel-frame--'+p.platform+'" src="'+escape(src)+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+  // YouTube/TikTok must never hijack Android's native fullscreen viewer. Orbit owns fullscreen.
+  media.innerHTML='<iframe class="reel-frame reel-frame--'+p.platform+'" src="'+escape(src)+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture"></iframe>';
+  reelPlaybackStates.set(index,{paused:false,muted:Boolean(mutedPlayback),autoplayMuted:Boolean(mutedPlayback)});
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
   reelUserConfirmedSound=false;
@@ -618,7 +620,9 @@ function setActiveReel(index){
   const key=clipIdentity(clips[index]);
   recentWatched=[key,...recentWatched.filter(x=>x!==key)].slice(0,500);
   store('orbit_watched_reels_v1',recentWatched);
-  if(reelsStarted)startReel(index,!reelSoundOn);
+  // Start the first Reel automatically too. Android allows muted inline autoplay;
+  // unmuted autoplay after a prior user sound gesture is best-effort.
+  startReel(index,!(reelSoundOn&&reelAudioUnlocked));
   ensureReelBuffer();
   trimReelDOM();
   maybeRefreshReelCatalog();
@@ -651,6 +655,9 @@ function attachYoutubePlayer(index,frame){
         reelYoutubePlayers.set(index,event.target);
         try{reelPlaybackStates.set(index,{paused:event.target.getPlayerState?.()===2,muted:Boolean(event.target.isMuted?.())})}catch{}
         applyReelVolume(index);
+        // Ask the official player to start as soon as it becomes ready, while muted
+        // until the browser has received a user gesture authorising sound.
+        try{event.target.playVideo?.()}catch(e){console.debug('Autoplay blocked; tap to start',e)}
         updateReelProgress();syncReelSoundIcon();
       },onStateChange(event){
         const prev=reelPlaybackStates.get(index)||{};
@@ -691,13 +698,14 @@ window.addEventListener('message',event=>{
 
 function applyReelVolume(index){
   const clip=reelItems()[index];
-  if(clip?.platform==='tiktok'){sendTikTokCommand(index,reelSoundOn?'unMute':'mute');return}
+  if(clip?.platform==='tiktok'){sendTikTokCommand(index,reelSoundOn&&reelAudioUnlocked?'unMute':'mute');return}
   if(clip?.platform!=='youtube')return;
   const player=reelYoutubePlayers.get(index),frame=document.getElementById('reel-media-'+index)?.querySelector('iframe');
   if(!frame)return;
   try{
-    if(player){if(reelSoundOn){player.unMute();player.setVolume(100)}else player.mute()}
-    else{sendYoutubeCommand(frame,reelSoundOn?'unMute':'mute');if(reelSoundOn)sendYoutubeCommand(frame,'setVolume',[100])}
+    const wantSound=reelSoundOn&&reelAudioUnlocked;
+    if(player){if(wantSound){player.unMute();player.setVolume(100)}else player.mute()}
+    else{sendYoutubeCommand(frame,wantSound?'unMute':'mute');if(wantSound)sendYoutubeCommand(frame,'setVolume',[100])}
   }catch(e){console.debug('Could not update sound',e)}
 }
 
@@ -761,7 +769,7 @@ function syncReelSoundIcon(){
   const button=document.getElementById('reels-sound');
   if(!button||tab!=='Reels')return;
   const player=reelYoutubePlayers.get(reelActiveIndex);
-  let muted=!reelSoundOn;
+  let muted=reelPlaybackStates.get(reelActiveIndex)?.muted??(!reelSoundOn||!reelAudioUnlocked);
   try{if(typeof player?.isMuted==='function')muted=Boolean(player.isMuted())}catch{}
   button.textContent=muted?'🔇':'🔊';
   button.setAttribute('aria-label',muted?'Enable sound':'Mute sound');
@@ -866,7 +874,7 @@ function stopReels(){
   reelYoutubePlayers.clear();reelExternalMetrics.clear();reelPlaybackStates.clear();
   clearTimeout(reelSoundNoticeTimer);
   stopProgressTimer();
-  reelNativeControls=false;reelUserConfirmedSound=false;
+  reelNativeControls=false;reelUserConfirmedSound=false;reelAudioUnlocked=false;
   reelsStarted=false;
   reelActiveIndex=-1;
   reelSeen.clear();
