@@ -120,7 +120,7 @@ assert.ok(node('app').innerHTML.includes('reels-scroll')||node('app').innerHTML.
 assert.equal(JSON.parse(storage.get('orbit_last_active_tab_v1')),'Reels');
 const firstClipId=node('app').innerHTML.match(/data-reel-index="0" data-reel-id="([^"]+)"/)?.[1];
 await click({reelsClose:''});
-assert.match(node('app').innerHTML,/class="reels-shelf"/);
+assert.match(node('app').innerHTML,/<h1>For you<\/h1>/,'closing Reels returns to the Home feed');
 assert.ok(!node('app').innerHTML.includes('reels-scroll'));
 await click({tab:'Reels'});
 const secondClipId=node('app').innerHTML.match(/data-reel-index="0" data-reel-id="([^"]+)"/)?.[1];
