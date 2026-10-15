@@ -249,3 +249,28 @@ body.reels-mode{background:#05060a;overflow:hidden}
 .orbit-account-youtube{border-top:1px solid var(--border);margin-top:10px;padding-top:12px}
 .orbit-account-notice{font-size:13px;color:var(--blue);margin:6px 0}
 .orbit-account-error{font-size:13px;color:#b82f43;margin:6px 0}
+
+/* V25: Orbit owns portrait fullscreen, not YouTube's cross-origin viewer.
+   A browser-blocked autoplay shows a compact, first-party Play fallback. */
+.reels-view:fullscreen,.reels-view:-webkit-full-screen{
+  inset:0;width:100%;height:100dvh;max-width:none;
+  background:#07090f;
+}
+.reel-start-fallback{
+  position:absolute;z-index:9;top:49%;left:50%;
+  transform:translate(-50%,-50%);
+  border:1px solid #ffffff6b;border-radius:30px;
+  padding:14px 22px;min-width:142px;
+  color:white;font-size:16px;font-weight:800;
+  background:#111827e6;box-shadow:0 8px 30px #0009;
+  touch-action:manipulation;
+}
+.reel-start-fallback[hidden],.reel.native-controls .reel-start-fallback{display:none!important}
+.reel-actions button[data-orbit-fullscreen]{
+  font-size:22px;font-weight:650;
+}
+.reel-actions button[data-orbit-fullscreen] span{font-size:10px}
+@media(min-width:720px){
+  .reels-view:fullscreen .reels-scroll,.reels-view:fullscreen .reels-top,
+  .reels-view:fullscreen .reel{max-width:480px}
+}
