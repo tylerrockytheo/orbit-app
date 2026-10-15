@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-const events=new Map(),nodes=new Map(),actions=[],tags=new Map();
+const events=new Map(),nodes=new Map(),actions=[],tags=new Map(),players=[];
 function fake(id){
  if(!nodes.has(id))nodes.set(id,{
    id,innerHTML:'',textContent:'',style:{},dataset:{},
@@ -17,6 +17,8 @@ function fake(id){
    },querySelectorAll(){return []},scrollTo({top}){this.scrollTop=top}
  });return nodes.get(id)
 }
+const fallbackButton={hidden:true};
+let fullscreenNode;
 const reelClasses=new Set(),slider={
  dataset:{reelSeek:'0'},value:'0',disabled:true,
  matches(sel){return sel==='[data-reel-seek]'},
@@ -39,13 +41,16 @@ const document={
  body:{style:{},classList:{toggle(){}}},head:{appendChild(){}},createElement(){return {}},
  createTextNode(text){return {textContent:String(text)}},
  getElementById:fake,
- querySelector(sel){if(sel.includes('data-reel-index="0"'))return article;return null},
+ querySelector(sel){if(sel==='.reels-view')return fullscreenNode;if(sel.includes('.reel-start-fallback'))return fallbackButton;if(sel.includes('data-reel-index="0"'))return article;return null},
  querySelectorAll(sel){if(sel==='.reel')return [article];return []},
+ fullscreenElement:null,
+ async exitFullscreen(){this.fullscreenElement=null;events.get('fullscreenchange')?.()},
  addEventListener(type,callback){events.set(type,callback)}
 };
+fullscreenNode={async requestFullscreen(){document.fullscreenElement=this;events.get('fullscreenchange')?.()},classList:{contains:()=>true}};
 class PlayerMock{
  constructor(frame,config){
-   this.frame=frame;this.muted=false;this.playing=true;
+   this.frame=frame;this.muted=false;this.playing=true;this.events=config.events;players.push(this);
    Promise.resolve().then(()=>config.events.onReady({target:this}));
  }
  getCurrentTime(){return 30}
@@ -76,8 +81,22 @@ await new Promise(r=>setTimeout(r,25));
 const click=(dataset)=>events.get('click')({target:{closest(){return {dataset}}}});
 await click({tab:'Reels'});
 assert.match(fake('app').innerHTML,/data-reel-seek/);
+assert.match(fake('app').innerHTML,/data-orbit-fullscreen/,'Orbit fullscreen is separate from YouTube');
 await click({reelPlay:'0'});
 await new Promise(r=>setTimeout(r,5));
+const frameMarkup=fake('reel-media-0').innerHTML;
+assert.match(frameMarkup,/fs=0/,'native YouTube fullscreen must be off');
+assert.doesNotMatch(frameMarkup,/allowfullscreen/,'iframe must not have provider fullscreen permission');
+assert.ok(players.length,'YouTube API player should be attached to Reel');
+players[0].events.onAutoplayBlocked?.();
+assert.equal(fallbackButton.hidden,false,'browser-blocked autoplay should offer an Orbit Play button');
+players[0].events.onStateChange?.({data:1});
+assert.equal(fallbackButton.hidden,true,'fallback disappears as soon as video is playing');
+await click({orbitFullscreen:''});
+assert.equal(document.fullscreenElement,fullscreenNode,'fullscreen should expand Orbit, not YouTube iframe');
+await click({orbitFullscreen:''});
+assert.equal(document.fullscreenElement,null,'Orbit fullscreen should close via its own button');
+
 assert.equal(slider.disabled,false,'timeline enables when video duration is available');
 assert.equal(slider.value,'250','timeline displays current progress');
 slider.value='500';
