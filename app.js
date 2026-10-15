@@ -848,10 +848,12 @@ function toggleReelSound(){
   try{if(typeof player?.isMuted==='function')actualMuted=Boolean(player.isMuted())}catch{}
   // Autoplay restrictions can leave a silent iframe even when the UI claims
   // sound is on. The FIRST user press must request audio, not mute it.
-  if(reelSoundOn&&!reelUserConfirmedSound)reelSoundOn=true;
-  else if(actualMuted===true)reelSoundOn=true;
-  else if(actualMuted===false)reelSoundOn=false;
-  else reelSoundOn=!reelSoundOn;
+  if(reelSoundOn&&!reelAudioUnlocked)reelSoundOn=true;
+  else if(actualMuted!==null)reelSoundOn=actualMuted;
+  else{
+    const latest=reelPlaybackStates.get(reelActiveIndex);
+    reelSoundOn=typeof latest?.muted==='boolean'?latest.muted:!reelSoundOn;
+  }
   reelUserConfirmedSound=reelSoundOn;
   if(reelSoundOn)reelAudioUnlocked=true;
   const previous=reelPlaybackStates.get(reelActiveIndex)||{};
