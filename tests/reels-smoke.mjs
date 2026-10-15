@@ -23,7 +23,13 @@ function node(id){
         return this._frame;
       }
       return null;
-    },querySelectorAll(){return []},
+    },querySelectorAll(selector){
+      if(id==='reels-scroll'&&selector==='.reel'){
+        return [...node('app').innerHTML.matchAll(/data-reel-index="(\d+)"/g)]
+          .map(m=>({dataset:{reelIndex:m[1]},remove(){}}));
+      }
+      return [];
+    },
     insertAdjacentHTML(position,html){this.innerHTML+=html},
     replaceChildren(){},scrollTo({top}){this.scrollTop=top}
   });
