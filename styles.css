@@ -341,3 +341,25 @@ body.feed-immersive-mode{overflow:hidden!important}
 @media(prefers-reduced-motion:reduce){
   .reel[data-video-ready="true"] .reel-frame{transition:none}
 }
+
+/* V29 — unobtrusive, actionable YouTube buffering state.
+   Provider ads and their Skip controls remain fully provider-owned. */
+.reel-loading{
+  position:absolute;top:34%;left:clamp(12px,5vw,24px);z-index:8;
+  display:flex;align-items:flex-start;flex-direction:column;gap:9px;
+  max-width:min(225px,53vw);pointer-events:none;
+}
+.reel-loading[hidden],.reel-loading button[hidden]{display:none!important}
+.reel-loading-text{
+  display:inline-block;border:1px solid #ffffff53;border-radius:19px;
+  padding:9px 13px;background:#10131bdb;color:#fff;
+  font-size:12px;font-weight:750;text-shadow:0 1px 5px #0009;
+  box-shadow:0 4px 16px #0006;backdrop-filter:blur(4px)
+}
+.reel-loading button{
+  pointer-events:auto;touch-action:manipulation;
+  border:1px solid #ffffff60;border-radius:19px;
+  padding:9px 14px;color:#151922;background:#fff;
+  font-size:13px;font-weight:850;box-shadow:0 4px 16px #0007
+}
+.reel.native-controls .reel-loading{display:none!important}
