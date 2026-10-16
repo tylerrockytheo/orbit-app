@@ -397,3 +397,5 @@ body{font-family:'Segoe UI',system-ui,sans-serif;letter-spacing:-.15px}
 @media(min-width:720px){#app{padding-top:10px}.post,.panel,.reels-shelf,.daily-brief{margin-left:0;margin-right:0}.discovery-home{padding-left:10px;padding-right:10px}.bottom-nav{border-radius:14px 14px 0 0}}
 @media(prefers-color-scheme:dark){:root{--bg:#111b17;--card:#192420;--text:#e5e9df;--muted:#a0b0a5;--border:#33463b;--blue:#a5d2b9;--subtle:#22342b;--chip:#2b4033;--media:#13211a;--accent:#f29173}.topbar{background:#192420}.primary-btn,.space-tabs button[aria-pressed=true]{background:#a5d2b9;color:#15291e}.story-art h2{color:var(--text)}.tag,.interests button.selected{color:var(--blue)}.source-avatar{color:var(--blue)}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+@media(prefers-color-scheme:dark){.pill[aria-pressed=true]{color:#15291e}}

@@ -15,7 +15,7 @@ The previous conversation's full screen proposal was unavailable through context
 
 ## Validation
 
-All existing JavaScript smoke suites and eight Python feed tests passed locally. New tests exercise review-before-save, cancellation, drafts, guest/shared-post paths, blocked storage, safe escaping and real preference scoring. Local rendered browser QA was unavailable because the browser binary could not be downloaded. A cloud browser opened the existing V29 site but took over ten minutes; post-update visual/Android playback verification remains outstanding unless recorded below.
+All existing JavaScript smoke suites and eight Python feed tests passed locally. New tests exercise review-before-save, cancellation, drafts, guest/shared-post paths, blocked storage, safe escaping and real preference scoring. Local rendered browser QA was unavailable because the browser binary could not be downloaded. Cloud browser initialization took over ten minutes, but subsequent checks succeeded: rendered V30 onboarding, Music/Gaming/Travel selections, optional subtopics, reading mix, final save, Home rendering, topic filtering and attributed story opening. Desktop light-theme screenshots were reviewed. Physical Android playback and rendered mobile/dark-mode QA remain outstanding. A viewer Save-label issue found during review was fixed in the final follow-up.
 
 ## Remaining work
 
