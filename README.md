@@ -8,6 +8,17 @@ A private personalised feed. **Not** a social network: Likes are private recomme
 - News: GitHub Actions collects open RSS/Atom metadata approximately hourly into `data/feed.json` (public repo). The browser fetches the latest committed data via GitHub raw, with a Pages mirror and the existing Cloudflare Worker as fallbacks.
 - Backend: Cloudflare Worker `https://orbit-api.tyler-r-theo.workers.dev/feed` remains a fallback while the static content pipeline matures.
 
+## V31 — website summaries throughout Home
+
+V30 changed presentation without protecting the main feed's content mix. Strong video Likes could still bury website articles. V31 fixes the feed composition itself.
+
+- **All** now interleaves two article posts with each video when both formats are available; **More videos** uses one article per two videos, and **More stories** uses three articles per video. This operates after personalised ranking, so older video-heavy profiles also benefit. A depleted source pool is never padded with invented stories or repeated posts.
+- Website posts show the actual publisher excerpt directly in the feed, a linked headline, domain, optional source thumbnail and **Read article** action. They use the same private Like, Save and Share controls as video posts. These are publisher summaries, not newly generated AI summaries or independent verification.
+- **All / Stories / Videos** gives an immediate format choice on Home. Topic controls and hidden-topic exclusions still apply.
+- Source diversity is considered within each format, and duplicate article URLs with common RSS/tracking parameters are collapsed. A non-empty video-only response no longer stops the loader from trying another source for website articles.
+- The slogan, Reading Room section, decorative article graphics and serif/green/terracotta treatment have been removed. Home starts with compact controls and posts; the optional Reels shelf follows six posts.
+- Added `node tests/feed-mix.mjs`: it reproduces an IGN-heavy history, then verifies article presence, format controls, fallback enrichment, missing-source behavior, hidden topics, safe rendering and duplicate removal. Existing playback and onboarding checks remain in CI.
+
 ## V30 — a more personal Orbit
 
 - New optional four-step setup: broad interests → optional finer interests → story/video and discovery mix → review and explicit save. Music, Gaming and Travel are examples alongside the wider topic catalog. Fresh guests see setup; returning users and shared-post visitors keep their current route. Reopen it from **You → Personalise my Orbit** or **Home → Make it yours**.
