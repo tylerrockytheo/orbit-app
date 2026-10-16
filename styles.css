@@ -187,7 +187,7 @@ body.reels-mode{background:#05060a;overflow:hidden}
 
 /* V19: Facebook-style muted inline feed autoplay, one video at a time. */
 .feed-autoplay-frame{width:100%;aspect-ratio:16/9;display:block;border:0;background:#000}
-.feed-sound{position:absolute;right:10px;bottom:12px;z-index:2;background:#17191dd9;color:#fff;border:1px solid #ffffff47;border-radius:18px;padding:9px 12px;font-size:12px;font-weight:760;box-shadow:0 2px 14px #0005}
+.feed-sound{position:absolute;left:10px;bottom:12px;z-index:4;background:#17191dd9;color:#fff;border:1px solid #ffffff47;border-radius:18px;padding:9px 12px;font-size:12px;font-weight:760;box-shadow:0 2px 14px #0005}
 .feed-sound:disabled{opacity:.65}
 .post .video-cover:focus-visible,.feed-sound:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 /* Allow YouTube's own ad Skip button on the right of the embedded player
@@ -274,3 +274,13 @@ body.reels-mode{background:#05060a;overflow:hidden}
   .reels-view:fullscreen .reels-scroll,.reels-view:fullscreen .reels-top,
   .reels-view:fullscreen .reel{max-width:480px}
 }
+
+/* V27 — feed playback status. Avoid masking YouTube's lower-right ad skip button.
+   The native embed still owns its own ad and buffering states. */
+.feed-playback-hint{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  z-index:3;pointer-events:none;max-width:75%;text-align:center}
+.feed-playback-hint[hidden]{display:none!important}
+.feed-playback-hint button{border:1px solid #ffffff63;background:#10131ce8;color:#fff;
+  font-weight:750;font-size:12px;padding:10px 15px;border-radius:28px;white-space:normal;
+  box-shadow:0 4px 16px #0008;pointer-events:auto;touch-action:manipulation}
+.feed-playback-hint button:disabled{opacity:.67;pointer-events:none}
