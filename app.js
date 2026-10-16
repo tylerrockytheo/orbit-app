@@ -21,6 +21,7 @@ let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver
 let reelSoundNoticeTimer=null,ytApiPromise=null,reelProgressTimer=null,reelScrubbing=false,reelNativeControls=false;
 let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatched))recentWatched=[];
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
+let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let reelResumePositions=read('orbit_reel_positions_v1',{});
@@ -960,7 +961,7 @@ function reelNotice(message){
   reelSoundNoticeTimer=setTimeout(()=>notice.classList.remove('visible'),850);
 }
 function tapReel(index){
-  if(tab!=='Reels'||index!==reelActiveIndex)return;
+  if(tab!=='Reels'||index!==reelActiveIndex||Date.now()<reelSuppressTapUntil)return;
   const clip=reelItems()[index];
   if(!clip)return;
   if(clip.platform==='instagram'||clip.platform==='facebook'){
@@ -1004,10 +1005,11 @@ function mountReels(){
   if(!cards.length)return;
   reelActiveIndex=-1;
   reelsObserver=new IntersectionObserver(entries=>{
+    if(reelGesture||reelScrollSettling)return;
     for(const entry of entries){
-      if(entry.isIntersecting&&entry.intersectionRatio>=.65)setActiveReel(Number(entry.target.dataset.reelIndex));
+      if(entry.isIntersecting&&entry.intersectionRatio>=.85)setActiveReel(Number(entry.target.dataset.reelIndex));
     }
-  },{root:scroll,threshold:[0,.65,.9]});
+  },{root:scroll,threshold:[0,.65,.85]});
   cards.forEach(card=>reelsObserver.observe(card));
   const target=0;
   setActiveReel(target);
@@ -1037,6 +1039,8 @@ function stopReels(){
   reelsStarted=false;
   reelActiveIndex=-1;
   reelSeen.clear();
+  reelGesture=null;reelScrollSettling=false;
+  clearTimeout(reelSnapTimer);reelSnapTimer=null;
   reelBaseIndex=0;
   reelRefillPromise=null;
 }
@@ -1087,14 +1091,100 @@ async function refreshReels(){
   }
 }
 
-function reelJump(index){
+/* One controlled Reel per swipe: no mandatory scroll snap or rubber band.
+   Finger movement scrolls the view, then a quick settle lands on one card. */
+function reelScrollTo(index,smooth=true){
   const scroller=document.getElementById('reels-scroll');
   if(!scroller)return;
+  const top=Math.max(0,(index-reelBaseIndex)*(scroller.clientHeight||1));
+  if(typeof scroller.scrollTo==='function')
+    scroller.scrollTo({top,behavior:smooth?'smooth':'instant'});
+  else scroller.scrollTop=top;
+}
+function reelJump(index){
+  const scroller=document.getElementById('reels-scroll');
+  if(!scroller||tab!=='Reels')return;
   ensureReelBuffer();
   const target=Math.max(reelBaseIndex,Math.min(reelItems().length-1,index));
-  scroller.scrollTo({top:(target-reelBaseIndex)*scroller.clientHeight,behavior:'smooth'});
-  if(target===reelActiveIndex&&target===reelItems().length-1)maybeRefreshReelCatalog();
+  clearTimeout(reelSnapTimer);
+  reelScrollSettling=true;
+  if(target!==reelActiveIndex)setActiveReel(target);
+  reelScrollTo(target,true);
+  reelSnapTimer=setTimeout(()=>{reelScrollSettling=false},230);
+  if(target===reelItems().length-1)maybeRefreshReelCatalog();
 }
+function reelGestureStart(event){
+  if(tab!=='Reels'||event.touches?.length!==1)return;
+  const el=event.target;
+  if(!el?.closest?.('#reels-scroll')||
+     el.closest?.('.reel-actions,.reels-top,.reel-progress,.reel-caption a,.reel-start-fallback,input,textarea,select'))
+    return;
+  const scroller=document.getElementById('reels-scroll'),touch=event.touches[0];
+  if(!scroller)return;
+  clearTimeout(reelSnapTimer);
+  reelScrollSettling=true;
+  reelGesture={
+    startX:touch.clientX,startY:touch.clientY,
+    startTop:scroller.scrollTop,startAt:Date.now(),
+    baseIndex:reelActiveIndex,dragging:false
+  };
+}
+function reelGestureMove(event){
+  if(tab!=='Reels'||!reelGesture||event.touches?.length!==1)return;
+  const touch=event.touches[0],g=reelGesture;
+  const dy=touch.clientY-g.startY,dx=touch.clientX-g.startX;
+  if(!g.dragging&&Math.abs(dx)>Math.abs(dy)*1.5&&Math.abs(dx)>12){
+    reelGesture=null;reelScrollSettling=false;return;
+  }
+  if(Math.abs(dy)<7&&!g.dragging)return;
+  g.dragging=true;
+  // Prevent Android's browser bounce, scoped only to the Reels scroller.
+  event.preventDefault?.();
+  const scroller=document.getElementById('reels-scroll');
+  if(!scroller)return;
+  const max=Math.max(0,(reelItems().length-1-reelBaseIndex)*(scroller.clientHeight||1));
+  scroller.scrollTop=Math.max(0,Math.min(max,g.startTop-dy));
+}
+function reelGestureEnd(event){
+  const g=reelGesture;reelGesture=null;
+  if(!g||tab!=='Reels')return;
+  const touch=event.changedTouches?.[0],scroller=document.getElementById('reels-scroll');
+  if(!touch||!scroller){reelScrollSettling=false;return}
+  const dy=touch.clientY-g.startY,dx=touch.clientX-g.startX;
+  if(!g.dragging||Math.abs(dx)>Math.abs(dy)*1.5){
+    reelScrollSettling=false;return;
+  }
+  reelSuppressTapUntil=Date.now()+240;
+  const duration=Math.max(1,Date.now()-g.startAt);
+  const fast=Math.abs(dy)/duration>.35;
+  const threshold=Math.min(100,(scroller.clientHeight||700)*.14);
+  let target=g.baseIndex;
+  if(Math.abs(dy)>threshold||(fast&&Math.abs(dy)>27))
+    target+=dy<0?1:-1;
+  if(target<reelBaseIndex&&g.baseIndex===reelBaseIndex&&dy>108&&Math.abs(dx)<80){
+    reelScrollTo(g.baseIndex,true);reelScrollSettling=false;
+    refreshReels(); // pull down at the beginning refreshes without leaving Reels
+    return;
+  }
+  reelJump(Math.max(reelBaseIndex,target));
+}
+document.addEventListener('touchstart',reelGestureStart,{passive:true});
+document.addEventListener('touchmove',reelGestureMove,{passive:false});
+document.addEventListener('touchend',reelGestureEnd,{passive:true});
+document.addEventListener('touchcancel',()=>{reelGesture=null;reelScrollSettling=false},{passive:true});
+document.addEventListener('wheel',event=>{
+  if(tab!=='Reels'||!event.target.closest?.('#reels-scroll')||event.target.closest?.('.reel-progress'))return;
+  event.preventDefault?.();
+  if(Math.abs(event.deltaY)<7||Date.now()-reelWheelLast<260)return;
+  reelWheelLast=Date.now();
+  reelJump(reelActiveIndex+(event.deltaY>0?1:-1));
+},{passive:false});
+document.addEventListener('keydown',event=>{
+  if(tab!=='Reels'||event.target.closest?.('input,textarea,select'))return;
+  if(event.key==='ArrowDown'||event.key==='PageDown'){event.preventDefault?.();reelJump(reelActiveIndex+1)}
+  if(event.key==='ArrowUp'||event.key==='PageUp'){event.preventDefault?.();reelJump(reelActiveIndex-1)}
+});
+
 function updateReelSave(id){
   document.querySelectorAll('.reel-actions button[data-save]').forEach(b=>{
     if(b.dataset.save!==id)return;
@@ -1462,18 +1552,6 @@ document.addEventListener('keydown',e=>{
 });
 
 window.addEventListener('popstate',()=>{const id=new URL(location.href).searchParams.get('post');if(id)sharedPost(id);else if(!overlay.hidden)closeOverlay()});
-document.addEventListener('touchstart',event=>{
- if(tab!=='Reels'||!event.target.closest?.('#reels-scroll')){reelPullStart=null;return}
- const scroll=document.getElementById('reels-scroll'),touch=event.touches?.[0];
- reelPullStart=scroll&&scroll.scrollTop<=8&&touch?{x:touch.clientX,y:touch.clientY}:null;
-},{passive:true});
-document.addEventListener('touchend',event=>{
- if(!reelPullStart||tab!=='Reels')return;
- const touch=event.changedTouches?.[0],start=reelPullStart;reelPullStart=null;
- if(!touch)return;
- const scroll=document.getElementById('reels-scroll');
- if(scroll&&scroll.scrollTop<=12&&touch.clientY-start.y>105&&Math.abs(touch.clientX-start.x)<75)refreshReels();
-},{passive:true});
 const initialTab=read('orbit_last_active_tab_v1','Home')==='Reels'?'Reels':'Home';
 window.addEventListener('orbit-account-changed',()=>{if(tab==='You')render()});
 window.addEventListener('orbit-cloud-prefs',e=>applyCloudPreferences(e.detail?.prefs));
