@@ -1060,32 +1060,93 @@ function startFeedWatchdog(id){
     updateFeedPlaybackHint(id,'slow');
   },9000);
 }
+// Reuse a bounded set of paused iframe players as the user scrolls back.
+// Reconstructing a YouTube iframe loses playback time and can trigger a new ad.
+// Provider-selected advertising itself cannot be disabled by Orbit.
+const FEED_PLAYER_CACHE_LIMIT=5;
+const feedSessions=new Map();
+const feedPlaybackPositions=new Map();
+let feedFullscreenFallbackId=null;
+function feedCoverMarkup(id){
+  const p=item(id);if(!p)return '';
+  const image=p.image_url?'<img class="post-img" loading="lazy" src="'+escape(p.image_url)+'" alt="">':'';
+  return '<button type="button" class="video-cover" data-play="'+escape(id)+'" aria-label="Play video: '+escape(p.title)+'">'+image+'<span class="play-icon">'+svg('Play')+'</span></button>'+
+    '<button type="button" class="feed-expand" data-feed-fullscreen="'+escape(id)+'" aria-label="Fullscreen video">⛶</button>';
+}
+function removeFeedSession(id){
+  const entry=feedSessions.get(id);
+  if(!entry)return;
+  feedSessions.delete(id);
+  clearTimeout(entry.soundTimer);
+  try{
+    const time=Number(entry.player?.getCurrentTime?.());
+    if(Number.isFinite(time)&&time>2)feedPlaybackPositions.set(entry.videoId,time);
+    entry.player?.destroy?.();
+  }catch(e){console.debug('Video cleanup deferred',e)}
+  const holder=document.getElementById('media-'+id);
+  if(holder)holder.innerHTML=feedCoverMarkup(id);
+}
+function trimFeedSessions(){
+  while(feedSessions.size>FEED_PLAYER_CACHE_LIMIT){
+    const oldest=[...feedSessions.values()]
+      .filter(entry=>entry.id!==feedActiveVideo&&entry.id!==feedFullscreenFallbackId)
+      .sort((a,b)=>a.lastUsed-b.lastUsed)[0];
+    if(!oldest)break;
+    removeFeedSession(oldest.id);
+  }
+}
+function clearFeedFullscreenFallback(){
+  if(!feedFullscreenFallbackId)return;
+  document.getElementById('media-'+feedFullscreenFallbackId)?.classList?.remove?.('feed-immersive-fullscreen');
+  document.body.classList?.remove?.('feed-immersive-mode');
+  feedFullscreenFallbackId=null;
+}
 function restoreFeedVideo(){
+  clearFeedWatchdog();
+  clearTimeout(feedSoundAttemptTimer);feedSoundAttemptTimer=null;
+  clearFeedFullscreenFallback();
+  const full=document.fullscreenElement;
+  if(full?.classList?.contains?.('media-wrap'))
+    Promise.resolve(document.exitFullscreen?.()).catch(()=>{});
+  for(const id of [...feedSessions.keys()])removeFeedSession(id);
+  feedActiveVideo=null;feedPlayer=null;feedSoundWanted=false;
+  feedSoundVerified=false;feedSuspended=false;feedIsPlaying=false;
+}
+function parkFeedVideo(){
   const id=feedActiveVideo;
-  feedActiveVideo=null;feedSuspended=false;feedIsPlaying=false;
-  clearFeedWatchdog();clearTimeout(feedSoundAttemptTimer);feedSoundAttemptTimer=null;
-  // Keep the user's confirmed sound preference for other videos in this
-  // browsing session; only per-video state is reset.
-  feedSoundWanted=false;feedSoundVerified=false;
-  const player=feedPlayer;feedPlayer=null;
-  try{player?.destroy?.()}catch(e){console.debug('Video cleanup deferred',e)}
   if(!id)return;
-  const p=item(id),holder=document.getElementById('media-'+id);
-  if(!p||!holder)return;
-  const img=p.image_url?'<img class="post-img" loading="lazy" src="'+escape(p.image_url)+'" alt="">':'';
-  holder.innerHTML='<button type="button" class="video-cover" data-play="'+escape(id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button>';
+  const session=feedSessions.get(id);
+  if(session){
+    session.soundWanted=feedSoundWanted;
+    session.soundVerified=feedSoundVerified;
+    session.suspended=true;session.lastUsed=Date.now();
+    try{
+      const seconds=Number(session.player?.getCurrentTime?.());
+      if(Number.isFinite(seconds)&&seconds>2)feedPlaybackPositions.set(session.videoId,seconds);
+    }catch{}
+    const frame=document.getElementById('media-'+id)?.querySelector('iframe');
+    try{if(session.player?.pauseVideo)session.player.pauseVideo();else sendYoutubeCommand(frame,'pauseVideo')}catch(e){console.debug('Pause offscreen unavailable',e)}
+  }
+  clearFeedWatchdog();clearTimeout(feedSoundAttemptTimer);feedSoundAttemptTimer=null;
+  updateFeedPlaybackHint(id,'paused-offscreen');
+  feedActiveVideo=null;feedPlayer=null;feedSoundWanted=false;feedSoundVerified=false;
+  feedIsPlaying=false;feedSuspended=false;
 }
 function suspendFeedVideo(){
   if(!feedActiveVideo||feedSuspended)return;
-  feedSuspended=true;
+  feedSuspended=true;feedIsPlaying=false;
+  const session=feedSessions.get(feedActiveVideo);
+  if(session){session.suspended=true;session.lastUsed=Date.now()}
   clearFeedWatchdog();
   const frame=document.getElementById('media-'+feedActiveVideo)?.querySelector('iframe');
   try{if(feedPlayer?.pauseVideo)feedPlayer.pauseVideo();else sendYoutubeCommand(frame,'pauseVideo')}catch(e){console.debug('Pause offscreen unavailable',e)}
   updateFeedPlaybackHint(feedActiveVideo,'paused-offscreen');
 }
 function resumeFeedVideo(id){
-  if(id!==feedActiveVideo||!feedSuspended)return;
+  if(id!==feedActiveVideo)return;
   feedSuspended=false;feedIsPlaying=false;
+  const session=feedSessions.get(id);
+  if(session){session.suspended=false;session.lastUsed=Date.now()}
   updateFeedPlaybackHint(id,'loading');
   const frame=document.getElementById('media-'+id)?.querySelector('iframe');
   try{if(feedPlayer?.playVideo)feedPlayer.playVideo();else sendYoutubeCommand(frame,'playVideo')}catch(e){console.debug('Resume unavailable',e)}
@@ -1094,7 +1155,7 @@ function resumeFeedVideo(id){
 function pauseFeedAutoplay(){
   feedVideoObserver?.disconnect();feedVideoObserver=null;
   feedRatios.clear();
-  restoreFeedVideo();
+  restoreFeedVideo(); // Rerender/navigation replaces the cards; scrolling does not.
 }
 function activateFeedVideo(id,muted=!feedAudioUnlocked){
   if(tab==='Reels'||!overlay.hidden)return;
@@ -1103,66 +1164,79 @@ function activateFeedVideo(id,muted=!feedAudioUnlocked){
     if(feedSuspended)resumeFeedVideo(id);
     return;
   }
-  restoreFeedVideo();
+  parkFeedVideo();
   const holder=document.getElementById('media-'+id);if(!holder)return;
-  feedActiveVideo=id;feedSoundWanted=!muted;feedSoundVerified=false;
-  feedSuspended=false;feedIsPlaying=false;
+  const cached=feedSessions.get(id);
+  if(cached&&holder.querySelector('iframe')){
+    feedActiveVideo=id;feedPlayer=cached.player||null;
+    feedSoundWanted=cached.soundWanted;feedSoundVerified=cached.soundVerified;
+    feedSuspended=true;feedIsPlaying=false;
+    resumeFeedVideo(id); // Same iframe: no new ad request or lost position from Orbit.
+    return;
+  }
+  if(cached)removeFeedSession(id);
+  feedActiveVideo=id;feedPlayer=null;feedSoundWanted=!muted;
+  feedSoundVerified=false;feedSuspended=false;feedIsPlaying=false;
   const origin=encodeURIComponent(location.origin);
   const source='https://www.youtube-nocookie.com/embed/'+p.video_id+
-    '?autoplay=1&playsinline=1&controls=1&enablejsapi=1&mute='+(muted?'1':'0')+'&origin='+origin;
-  holder.innerHTML='<iframe class="video-frame feed-autoplay-frame" title="'+escape(p.title)+'" src="'+source+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
-    +'<div class="feed-playback-hint"><button type="button" data-feed-retry="'+escape(id)+'" disabled>Loading video…</button></div>'
-    +'<button type="button" class="feed-sound" data-feed-sound="'+escape(id)+'" aria-label="'+(muted?'Unmute video':'Enable sound')+'">'+(muted?'🔇 Sound off':'🔊 Enabling sound…')+'</button>';
-  startFeedWatchdog(id);
+    '?autoplay=1&playsinline=1&fs=0&controls=1&enablejsapi=1&mute='+(muted?'1':'0')+'&origin='+origin;
+  holder.innerHTML='<iframe class="video-frame feed-autoplay-frame" title="'+escape(p.title)+'" src="'+source+
+    '" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe>'+
+    '<div class="feed-playback-hint"><button type="button" data-feed-retry="'+escape(id)+'" disabled>Loading video…</button></div>'+
+    '<button type="button" class="feed-sound" data-feed-sound="'+escape(id)+'" aria-label="'+(muted?'Unmute video':'Enable sound')+'">'+
+    (muted?'🔇 Sound off':'🔊 Enabling sound…')+'</button>'+
+    '<button type="button" class="feed-expand" data-feed-fullscreen="'+escape(id)+'" aria-label="Fullscreen video">⛶</button>';
   const frame=holder.querySelector('iframe');
+  const entry={id,videoId:p.video_id,frame,player:null,suspended:false,soundWanted:!muted,
+    soundVerified:false,lastUsed:Date.now(),soundTimer:null};
+  feedSessions.set(id,entry);
+  trimFeedSessions();
+  startFeedWatchdog(id);
   if(frame)youtubeApi().then(api=>{
-    if(!api||feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
+    if(!api||feedSessions.get(id)!==entry||holder.querySelector('iframe')!==frame)return;
     try{
       new api.Player(frame,{events:{
         onReady(e){
-          if(feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
-          feedPlayer=e.target;
+          if(feedSessions.get(id)!==entry||holder.querySelector('iframe')!==frame)return;
+          entry.player=e.target;
+          if(feedActiveVideo===id)feedPlayer=e.target;
           try{
-            if(feedSoundWanted){e.target.unMute();e.target.setVolume(100);verifyFeedSound(id)}
-            else e.target.mute();
-            if(!feedSuspended)e.target.playVideo();
-            else e.target.pauseVideo();
+            if(!entry.suspended&&feedActiveVideo===id){
+              if(entry.soundWanted){e.target.unMute();e.target.setVolume(100);verifyFeedSound(id)}
+              else e.target.mute();
+              const resumeAt=feedPlaybackPositions.get(entry.videoId);
+              if(Number.isFinite(resumeAt)&&resumeAt>2) e.target.seekTo(resumeAt,true);
+              e.target.playVideo();
+            }else{e.target.mute();e.target.pauseVideo()}
           }catch(err){console.debug('Embedded video not ready to play',err)}
         },
         onStateChange(e){
-          if(feedActiveVideo!==id)return;
-          // 1 = playing; 0 = ended; 3 = buffering; 5 = cued.
+          if(feedSessions.get(id)!==entry||feedActiveVideo!==id)return;
           if(e.data===1){
             feedIsPlaying=true;clearFeedWatchdog();
             updateFeedPlaybackHint(id,'playing');
             if(feedSoundWanted)verifyFeedSound(id);
           }else if(e.data===0){
-            feedIsPlaying=false;clearFeedWatchdog();
-            updateFeedPlaybackHint(id,'ended');
+            feedIsPlaying=false;clearFeedWatchdog();updateFeedPlaybackHint(id,'ended');
           }else if(e.data===3||e.data===5){
             feedIsPlaying=false;startFeedWatchdog(id);
           }
         },
         onAutoplayBlocked(){
           if(feedActiveVideo!==id||feedSuspended)return;
-          // Audible autoplay can be blocked even after a prior gesture.
-          // A muted retry preserves the browser's permitted playback path.
-          feedSoundVerified=false;
+          feedSoundVerified=false;entry.soundVerified=false;
           if(feedSoundWanted){
-            try{feedPlayer?.mute?.();feedPlayer?.playVideo?.()}catch{}
+            try{entry.player?.mute?.();entry.player?.playVideo?.()}catch{}
             updateFeedSoundButton(id,'🔇 Tap for sound');
           }
-          feedSoundWanted=false;
+          feedSoundWanted=false;entry.soundWanted=false;
           updateFeedPlaybackHint(id,'blocked');
         },
-        onError(){
-          if(feedActiveVideo===id)updateFeedPlaybackHint(id,'blocked');
-        }
+        onError(){if(feedActiveVideo===id)updateFeedPlaybackHint(id,'blocked')}
       }});
     }catch(err){console.debug('Feed video API unavailable',err);updateFeedPlaybackHint(id,'slow')}
   }).catch(err=>{console.debug('Feed autoplay unavailable',err);updateFeedPlaybackHint(id,'slow')});
 }
-
 function mountFeedAutoplay(){
   feedVideoObserver?.disconnect();feedRatios.clear();
   if(loading||tab==='Reels'||tab==='You'||tab==='Search'||!overlay.hidden)return;
