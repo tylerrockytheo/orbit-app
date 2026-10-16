@@ -23,7 +23,7 @@ let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatc
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
 let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0,reelPrewarmTimer=null,reelGestureScroller=null;
 const reelPlaybackStates=new Map();
-const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
+const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map(),reelPendingSeeks=new Map();
 let reelResumePositions=read('orbit_reel_positions_v1',{});
 if(!reelResumePositions||typeof reelResumePositions!=='object'||Array.isArray(reelResumePositions))reelResumePositions={};
 let reelLastSavedAt=0;
@@ -648,13 +648,25 @@ function savedReelTime(index){
   const seconds=Number(record.time||0);
   return Number.isFinite(seconds)&&seconds>=1?seconds:0;
 }
-function resumeReelAtSavedTime(index,player){
-  const time=savedReelTime(index);
-  if(!time||!player?.seekTo)return;
+function tryReelPendingSeek(index,player){
+  const seconds=reelPendingSeeks.get(index);
+  if(!seconds||!player?.seekTo)return false;
   try{
     const duration=Number(player.getDuration?.()||0);
-    if(duration>0&&time<duration-1.5)player.seekTo(time,true);
-  }catch(e){console.debug('Reel resume not yet ready',e)}
+    // YouTube frequently reports zero duration until playback begins.
+    // Defer rather than losing the timestamp or repeatedly seeking.
+    if(!Number.isFinite(duration)||duration<=0)return false;
+    reelPendingSeeks.delete(index);
+    if(seconds>=duration-1.5)return false;
+    player.seekTo(seconds,true);
+    return true;
+  }catch(e){console.debug('Reel resume waiting for playback',e);return false}
+}
+function resumeReelAtSavedTime(index,player){
+  const seconds=savedReelTime(index);
+  if(!seconds||!player?.seekTo)return;
+  reelPendingSeeks.set(index,seconds);
+  tryReelPendingSeek(index,player);
 }
 function suspendReelPlayer(index){
   if(index<0)return;
@@ -699,7 +711,7 @@ function resetReelPlayer(index){
   if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p,index);
   media?.removeAttribute('data-prewarmed');
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-video-ready');
-  reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);reelPlaybackStates.delete(index);
+  reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);reelPlaybackStates.delete(index);reelPendingSeeks.delete(index);
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
 }
 function reelEmbedMarkup(p,autoplay,mutedPlayback){
@@ -856,6 +868,7 @@ function attachYoutubePlayer(index,frame){
           try{event.target.pauseVideo?.()}catch{}
         }
         if(event.data===1&&index===reelActiveIndex){
+          tryReelPendingSeek(index,event.target);
           document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-video-ready','true');
           hideReelPlayFallback(index);
         }
@@ -1095,7 +1108,7 @@ function stopReels(){
   }
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
   document.querySelectorAll('.reel[data-playing]').forEach(card=>card.removeAttribute('data-playing'));
-  reelYoutubePlayers.clear();reelExternalMetrics.clear();reelPlaybackStates.clear();
+  reelYoutubePlayers.clear();reelExternalMetrics.clear();reelPlaybackStates.clear();reelPendingSeeks.clear();
   clearTimeout(reelSoundNoticeTimer);
   stopProgressTimer();
   reelNativeControls=false;reelUserConfirmedSound=false;reelAudioUnlocked=false;
