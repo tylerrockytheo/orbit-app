@@ -23,6 +23,10 @@ let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatc
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
+let reelResumePositions=read('orbit_reel_positions_v1',{});
+if(!reelResumePositions||typeof reelResumePositions!=='object'||Array.isArray(reelResumePositions))reelResumePositions={};
+let reelLastSavedAt=0;
+let reelReturnClip=null,reelReturnAt=0;
 let feedVideoObserver=null,feedActiveVideo=null,feedPlayer=null,feedSoundWanted=false,feedSoundAttemptTimer=null,feedSoundVerified=false;
 let feedAudioUnlocked=false,feedSuspended=false,feedWatchdogTimer=null,feedIsPlaying=false;
 let reelUserConfirmedSound=false,reelAudioUnlocked=false;
@@ -516,7 +520,7 @@ function trimReelDOM(){
   const oldTop=scroll.scrollTop;
   for(const card of [...scroll.querySelectorAll('.reel')]){
     const index=Number(card.dataset.reelIndex);
-    if(index<cutoff){reelsObserver?.unobserve?.(card);card.remove()}
+    if(index<cutoff){resetReelPlayer(index);reelsObserver?.unobserve?.(card);card.remove()}
   }
   const removed=cutoff-reelBaseIndex;
   reelBaseIndex=cutoff;
@@ -530,6 +534,7 @@ function refreshUpcomingReels(){
   if(!scroll)return;
   for(const node of [...scroll.querySelectorAll('.reel')]){
     if(Number(node.dataset.reelIndex)>reelActiveIndex){
+      resetReelPlayer(Number(node.dataset.reelIndex));
       reelsObserver?.unobserve?.(node);node.remove();
     }
   }
@@ -615,9 +620,74 @@ document.addEventListener('fullscreenchange',()=>{
   });
 });
 
+/* Keep a bounded, device-local playback bookmark per actual video.
+   These are NOT recommendation Likes or public watch-history signals. */
+function rememberReelTime(index,force=false){
+  const clip=reelItems()[index],player=reelYoutubePlayers.get(index);
+  if(!clip||!player||clip.platform!=='youtube')return;
+  let seconds=0,duration=0;
+  try{seconds=Number(player.getCurrentTime?.()||0);duration=Number(player.getDuration?.()||0)}catch{return}
+  if(!Number.isFinite(seconds)||seconds<0.5)return;
+  const key=clipIdentity(clip);
+  const time=duration>0&&seconds>=duration-1.5?0:Math.round(seconds*10)/10;
+  reelResumePositions[key]={time,at:Date.now()};
+  if(force||Date.now()-reelLastSavedAt>3500){
+    const ordered=Object.entries(reelResumePositions).sort((a,b)=>(b[1]?.at||0)-(a[1]?.at||0));
+    reelResumePositions=Object.fromEntries(ordered.slice(0,150));
+    store('orbit_reel_positions_v1',reelResumePositions);
+    reelLastSavedAt=Date.now();
+  }
+}
+function savedReelTime(index){
+  const clip=reelItems()[index],record=clip?reelResumePositions[clipIdentity(clip)]:null;
+  if(!record||Date.now()-Number(record.at||0)>30*86400000)return 0;
+  const seconds=Number(record.time||0);
+  return Number.isFinite(seconds)&&seconds>=1?seconds:0;
+}
+function resumeReelAtSavedTime(index,player){
+  const time=savedReelTime(index);
+  if(!time||!player?.seekTo)return;
+  try{
+    const duration=Number(player.getDuration?.()||0);
+    if(duration>0&&time<duration-1.5)player.seekTo(time,true);
+  }catch(e){console.debug('Reel resume not yet ready',e)}
+}
+function suspendReelPlayer(index){
+  if(index<0)return;
+  rememberReelTime(index,true);
+  const player=reelYoutubePlayers.get(index);
+  const frame=document.getElementById('reel-media-'+index)?.querySelector('iframe');
+  try{if(player?.pauseVideo)player.pauseVideo();else sendYoutubeCommand(frame,'pauseVideo')}catch{}
+  const prev=reelPlaybackStates.get(index)||{};
+  reelPlaybackStates.set(index,{...prev,paused:true});
+  document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
+}
+function resumeCachedReel(index){
+  const media=document.getElementById('reel-media-'+index),frame=media?.querySelector('iframe');
+  if(!frame)return false;
+  document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
+  applyReelVolume(index);
+  const player=reelYoutubePlayers.get(index);
+  try{if(player?.playVideo)player.playVideo();else sendYoutubeCommand(frame,'playVideo')}catch{}
+  const prev=reelPlaybackStates.get(index)||{};
+  reelPlaybackStates.set(index,{...prev,paused:false});
+  hideReelPlayFallback(index);
+  startProgressTimer();
+  return true;
+}
+function trimReelPlayers(){
+  // Keep immediate neighbours mounted to allow instant back-swipes, never
+  // dozens of heavy YouTube iframes running in the background.
+  for(const card of document.querySelectorAll('.reel[data-playing]')){
+    const index=Number(card.dataset.reelIndex);
+    if(Number.isFinite(index)&&Math.abs(index-reelActiveIndex)>1)resetReelPlayer(index);
+  }
+}
 function resetReelPlayer(index){
-  const p=reelItems()[index];
-  const media=document.getElementById('reel-media-'+index);
+  rememberReelTime(index,true);
+  const p=reelItems()[index],media=document.getElementById('reel-media-'+index);
+  const player=reelYoutubePlayers.get(index);
+  try{player?.destroy?.()}catch{}
   if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p,index);
   reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);reelPlaybackStates.delete(index);
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
@@ -629,11 +699,12 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   if(reelActiveIndex!==index){
     const previous=reelActiveIndex;
     reelActiveIndex=index;
-    if(previous>=0)resetReelPlayer(previous);
+    if(previous>=0)suspendReelPlayer(previous);
   }
   const p=clips[index];
   const media=document.getElementById('reel-media-'+index);
-  if(!media||media.querySelector('iframe'))return;
+  if(!media)return;
+  if(media.querySelector('iframe')){resumeCachedReel(index);return;}
   const origin=encodeURIComponent(location.origin);
   let src='';
   if(p.platform==='youtube'){
@@ -665,7 +736,7 @@ function setActiveReel(index){
   if(index<0||index>=clips.length||index===reelActiveIndex)return;
   const previous=reelActiveIndex;
   reelActiveIndex=index;
-  if(previous>=0)resetReelPlayer(previous);  // removes iframe so sound cannot continue
+  if(previous>=0)suspendReelPlayer(previous); // pause without dropping timestamp or iframe
   reelNativeControls=false;reelUserConfirmedSound=false;updatePlayerControlMode();
   reelSeen.add(clipIdentity(clips[index]));
   const key=clipIdentity(clips[index]);
@@ -674,6 +745,7 @@ function setActiveReel(index){
   // Start the first Reel automatically too. Android allows muted inline autoplay;
   // unmuted autoplay after a prior user sound gesture is best-effort.
   startReel(index,!(reelSoundOn&&reelAudioUnlocked));
+  trimReelPlayers();
   ensureReelBuffer();
   trimReelDOM();
   maybeRefreshReelCatalog();
@@ -706,6 +778,7 @@ function attachYoutubePlayer(index,frame){
         reelYoutubePlayers.set(index,event.target);
         try{reelPlaybackStates.set(index,{paused:event.target.getPlayerState?.()===2,muted:Boolean(event.target.isMuted?.())})}catch{}
         applyReelVolume(index);
+        resumeReelAtSavedTime(index,event.target);
         // Start inline without waiting for a second tap. Android generally
         // allows muted autoplay, but the official API may report blocked autoplay.
         try{event.target.playVideo?.()}catch(e){console.debug('Autoplay blocked; tap to start',e);showReelPlayFallback(index)}
@@ -770,6 +843,7 @@ function formatVideoTime(seconds){
 }
 function updateReelProgress(){
   if(reelScrubbing||tab!=='Reels')return;
+  rememberReelTime(reelActiveIndex);
   const player=reelYoutubePlayers.get(reelActiveIndex);
   const card=document.querySelector('.reel[data-reel-index="'+reelActiveIndex+'"]');
   const input=card?.querySelector('[data-reel-seek]');
@@ -928,10 +1002,19 @@ function mountReels(){
   reelRefreshTimer=setInterval(()=>{if(tab==='Reels')maybeRefreshReelCatalog()},90000);
 }
 function stopReels(){
+  if(reelActiveIndex>=0){
+    rememberReelTime(reelActiveIndex,true);
+    reelReturnClip=clipIdentity(reelItems()[reelActiveIndex]||{});
+    reelReturnAt=Date.now();
+  }
   const view=document.querySelector('.reels-view');
   if(view&&document.fullscreenElement===view){Promise.resolve(document.exitFullscreen?.()).catch(()=>{})}
   clearInterval(reelRefreshTimer);reelRefreshTimer=null;
   if(reelsObserver){reelsObserver.disconnect();reelsObserver=null}
+  for(const card of document.querySelectorAll('.reel[data-playing]')){
+    const index=Number(card.dataset.reelIndex);
+    if(Number.isFinite(index))resetReelPlayer(index);
+  }
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
   document.querySelectorAll('.reel[data-playing]').forEach(card=>card.removeAttribute('data-playing'));
   reelYoutubePlayers.clear();reelExternalMetrics.clear();reelPlaybackStates.clear();
