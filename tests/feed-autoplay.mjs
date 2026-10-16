@@ -6,7 +6,7 @@ const eventHandlers=new Map(),nodes=new Map(),ioInstances=[],playerCommands=[];
 function node(id){
  if(!nodes.has(id))nodes.set(id,{
    id,innerHTML:'',textContent:'',hidden:true,value:'',style:{},dataset:{},clientHeight:700,scrollTop:0,
-   classList:{toggle(){},add(){},remove(){}},
+   classList:{values:new Set(),toggle(name,force){if(force??!this.values.has(name))this.values.add(name);else this.values.delete(name)},add(name){this.values.add(name)},remove(name){this.values.delete(name)},contains(name){return this.values.has(name)}},
    setAttribute(){},removeAttribute(){},replaceChildren(){},
    querySelector(tag){if(tag==='iframe'&&this.innerHTML.includes('class="video-frame'))return {src:'stub',contentWindow:{postMessage(message){playerCommands.push(JSON.parse(message))}}};return null},
    querySelectorAll(){return []},scrollTo(){}
@@ -55,6 +55,16 @@ observer.callback([{target:videoHolder,isIntersecting:true,intersectionRatio:.9}
 assert.match(videoHolder.innerHTML,/autoplay=1/);
 assert.match(videoHolder.innerHTML,/mute=1/,'auto play must start muted');
 assert.match(videoHolder.innerHTML,/data-feed-sound/);
+assert.match(videoHolder.innerHTML,/data-feed-fullscreen/,'main feed should expose Orbit fullscreen');
+assert.match(videoHolder.innerHTML,/fs=0/,'disable YouTube embedded fullscreen');
+assert.doesNotMatch(videoHolder.innerHTML,/allowfullscreen/,'the provider cannot take over fullscreen');
+const style=fs.readFileSync(new URL('../styles.css',import.meta.url),'utf8');
+assert.match(style,/\.feed-sound\{position:absolute;left:10px/,'sound chip should not block right-side Skip Ad');
+await eventHandlers.get('click')({target:{closest(){return {dataset:{feedFullscreen:'rss:clip1'}}}}});
+assert.ok(videoHolder.classList.contains('feed-immersive-fullscreen'),'Orbit fallback fullscreen covers viewport');
+await eventHandlers.get('click')({target:{closest(){return {dataset:{feedFullscreen:'rss:clip1'}}}}});
+assert.ok(!videoHolder.classList.contains('feed-immersive-fullscreen'),'fullscreen button exits without reloading');
+
 const beforeSound=videoHolder.innerHTML;
 await eventHandlers.get('click')({target:{closest(){return {dataset:{feedSound:'rss:clip1'}}}}});
 await eventHandlers.get('click')({target:{closest(){return {dataset:{feedSound:'rss:clip1'}}}}});
@@ -73,4 +83,9 @@ assert.equal(videoHolder.innerHTML,beforeSound,'switching video should park and 
 assert.match(secondVideoHolder.innerHTML,/video-frame/,'the next clip autoplays');
 assert.ok(playerCommands.filter(m=>m.func==='pauseVideo').length>=2,'previous player is paused before the next player starts');
 assert.match(secondVideoHolder.innerHTML,/mute=0/,'once user requested audio, later clips attempt sound when permitted');
-console.log('Feed autoplay tests passed: pause/resume iframe across scrolling, sound intent, and safe switch to another video');
+const parkedHtml=videoHolder.innerHTML;
+observer.callback([{target:secondVideoHolder,isIntersecting:false,intersectionRatio:0},{target:videoHolder,isIntersecting:true,intersectionRatio:.94}]);
+assert.equal(videoHolder.innerHTML,parkedHtml,'scrolling back uses the same iframe, not a fresh embed');
+assert.ok(playerCommands.filter(m=>m.func==='playVideo').length>=2,'backscroll resumes the existing player');
+
+console.log('Feed autoplay tests passed: ad-safe sound, main feed fullscreen, cached video switching and backscroll resume');
