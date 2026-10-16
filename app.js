@@ -687,6 +687,8 @@ function resumeCachedReel(index){
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const cachedCard=document.querySelector('.reel[data-reel-index="'+index+'"]');
   if(cachedCard?.getAttribute?.('data-video-ready')!=='true')watchReelLoading(index);
+  // A prewarmed iframe may have loaded before we became active.
+  if(cachedCard&&reelYoutubePlayers.has(index))cachedCard.setAttribute('data-iframe-loaded','true');
   media?.removeAttribute('data-prewarmed');
   revealReelAfterIframeLoad(index,frame);
   applyReelVolume(index);
@@ -717,6 +719,7 @@ function resetReelPlayer(index){
   hideReelLoading(index);
   media?.removeAttribute('data-prewarmed');
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-video-ready');
+  document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-iframe-loaded');
   reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);reelPlaybackStates.delete(index);reelPendingSeeks.delete(index);
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
 }
@@ -793,7 +796,14 @@ function revealReelAfterIframeLoad(index,frame){
    },{once:true});
    return;
  }
- // Frame HTML loading is NOT evidence of playable video. Do not expose black.
+ // Frame HTML loading is not proof that the actual video has started.
+ // But once its document loads, expose the provider's own ad/skip controls.
+ // The small loading label remains until the video really plays.
+ frame.addEventListener?.('load',()=>{
+   if(tab!=='Reels'||index!==reelActiveIndex)return;
+   if(document.getElementById('reel-media-'+index)?.querySelector('iframe')!==frame)return;
+   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-iframe-loaded','true');
+ },{once:true});
  const fallbackTimer=setTimeout(()=>{
    if(index!==reelActiveIndex||tab!=='Reels')return;
    const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
