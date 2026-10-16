@@ -23,7 +23,7 @@ let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatc
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
 let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0,reelPrewarmTimer=null,reelGestureScroller=null;
 const reelPlaybackStates=new Map();
-const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map(),reelPendingSeeks=new Map();
+const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map(),reelPendingSeeks=new Map(),reelLoadTimers=new Map();
 let reelResumePositions=read('orbit_reel_positions_v1',{});
 if(!reelResumePositions||typeof reelResumePositions!=='object'||Array.isArray(reelResumePositions))reelResumePositions={};
 let reelLastSavedAt=0;
@@ -437,6 +437,7 @@ function reelCard(p,i){
   return '<article class="reel" data-provider="'+escape(p.platform||'youtube')+'" data-reel-index="'+i+'" data-reel-id="'+escape(p.id)+'" aria-label="Video '+(i+1)+': '+escape(p.title)+'">'
     +'<div class="reel-media" id="reel-media-'+i+'">'+reelPoster(p,i)+'</div>'
     +'<button type="button" class="reel-start-fallback" data-reel-start="'+i+'" aria-label="Play this Reel" hidden>▶ Play video</button>'
+    +'<div class="reel-loading" hidden role="status" aria-live="polite"><span class="reel-loading-text">Loading clip…</span><button type="button" data-reels-next="'+i+'" hidden>Next clip →</button></div>'
     +'<div class="reel-shade" aria-hidden="true"></div>'
     +'<button type="button" class="reel-tap-surface" data-reels-audio-tap="'+i+'" aria-label="Unmute or pause video" tabindex="-1"></button>'
     +'<div class="reel-caption"><div class="reel-tag">'+(p.replayed?'↻ Previously shown · ':postFreshness(p)>=100?'Today · ':'')+escape(p.category)+' · '+escape(providerName(p))+'</div>'
@@ -737,19 +738,69 @@ function reelEmbedMarkup(p,autoplay,mutedPlayback){
     '" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" '+
     'allow="autoplay; encrypted-media; picture-in-picture"></iframe>';
 }
-function revealReelAfterIframeLoad(index,frame){
-  // YouTube's iframe API can be unavailable even when the embed itself works.
-  // Do not leave a playing embed permanently hidden behind a thumbnail.
-  setTimeout(()=>{
-    if(tab!=='Reels'||index!==reelActiveIndex)return;
-    const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
-    const current=document.getElementById('reel-media-'+index)?.querySelector('iframe');
-    if(!card||frame!==current)return;
-    const manual=card.querySelector('.reel-start-fallback');
-    if(manual&&manual.hidden===false)return; // autoplay is blocked: show Orbit Play
-    card.setAttribute('data-video-ready','true');
-  },2800);
+function clearReelLoadTimers(index){
+ const timers=reelLoadTimers.get(index);
+ if(timers){for(const timer of timers)clearTimeout(timer);reelLoadTimers.delete(index)}
 }
+function hideReelLoading(index){
+ clearReelLoadTimers(index);
+ const panel=document.querySelector('.reel[data-reel-index="'+index+'"] .reel-loading');
+ if(panel)panel.hidden=true;
+}
+function watchReelLoading(index,buffering=false){
+ clearReelLoadTimers(index);
+ const panel=document.querySelector('.reel[data-reel-index="'+index+'"] .reel-loading');
+ if(!panel||index!==reelActiveIndex||tab!=='Reels')return;
+ panel.hidden=true;
+ const timers=[];
+ timers.push(setTimeout(()=>{
+   if(index!==reelActiveIndex||tab!=='Reels')return;
+   const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
+   if(!buffering&&card?.getAttribute?.('data-video-ready')==='true')return;
+   if(card?.querySelector('.reel-start-fallback')?.hidden===false)return;
+   panel.hidden=false;
+   const message=panel.querySelector('.reel-loading-text');
+   if(message)message.textContent=buffering?'Buffering…':'Connecting…';
+   const button=panel.querySelector('button');
+   if(button)button.hidden=true;
+ },1400));
+ timers.push(setTimeout(()=>{
+   if(index!==reelActiveIndex||tab!=='Reels')return;
+   const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
+   if(!buffering&&card?.getAttribute?.('data-video-ready')==='true')return;
+   if(card?.querySelector('.reel-start-fallback')?.hidden===false)return;
+   panel.hidden=false;
+   const message=panel.querySelector('.reel-loading-text');
+   if(message)message.textContent='Still loading';
+   const button=panel.querySelector('button');
+   if(button)button.hidden=false;
+ },5500));
+ reelLoadTimers.set(index,timers);
+}
+function revealReelAfterIframeLoad(index,frame){
+ const clip=reelItems()[index];
+ if(clip?.platform!=='youtube'){
+   frame.addEventListener?.('load',()=>{
+     if(index===reelActiveIndex&&tab==='Reels'){
+       document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-video-ready','true');
+       hideReelLoading(index);
+     }
+   },{once:true});
+   return;
+ }
+ // Frame HTML loading is NOT evidence of playable video. Do not expose black.
+ setTimeout(()=>{
+   if(index!==reelActiveIndex||tab!=='Reels')return;
+   const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
+   const current=document.getElementById('reel-media-'+index)?.querySelector('iframe');
+   if(!card||current!==frame||card.getAttribute?.('data-video-ready')==='true')return;
+   if(!reelYoutubePlayers.has(index)){
+     hideReelLoading(index);
+     showReelPlayFallback(index);
+   }
+ },6500);
+}
+
 function prewarmNextReel(index){
   if(tab!=='Reels'||index!==reelActiveIndex)return;
   const next=index+1,p=reelItems()[next];
