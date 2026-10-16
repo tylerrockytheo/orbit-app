@@ -11,6 +11,7 @@ on:
       - 'styles.css'
       - 'index.html'
       - 'tests/reels-smoke.mjs'
+      - 'tests/reel-motion.mjs'
       - 'tests/providers-smoke.mjs'
       - 'tests/seek-smoke.mjs'
       - 'tests/feed-autoplay.mjs'
@@ -27,6 +28,7 @@ on:
       - 'styles.css'
       - 'index.html'
       - 'tests/reels-smoke.mjs'
+      - 'tests/reel-motion.mjs'
       - 'tests/providers-smoke.mjs'
       - 'tests/seek-smoke.mjs'
       - 'tests/feed-autoplay.mjs'
@@ -48,6 +50,8 @@ jobs:
         run: node tests/firebase-config-smoke.mjs
       - name: Verify Reels interactions
         run: node tests/reels-smoke.mjs
+      - name: Verify fast swipes and Reel playback continuity
+        run: node tests/reel-motion.mjs
       - name: Verify cross-platform providers
         run: node tests/providers-smoke.mjs
       - name: Verify seeking and native ad controls
