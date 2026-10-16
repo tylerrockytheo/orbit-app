@@ -14,13 +14,14 @@ function node(id){
  return nodes.get(id);
 }
 const videoHolder=node('media-rss:clip1');
+const secondVideoHolder=node('media-rss:clip3');
 const doc={
  body:{style:{},classList:{toggle(){}}},
  head:{appendChild(script){script.onerror?.()}},createElement(){return {}},
  getElementById:node,
  querySelector(){return null},
  querySelectorAll(selector){
-   if(selector==='.post .media-wrap[id^="media-"]'&&node('app').innerHTML.includes('id="media-rss:clip1"'))return [videoHolder];
+   if(selector==='.post .media-wrap[id^="media-"]'&&node('app').innerHTML.includes('id="media-rss:clip1"'))return [videoHolder,secondVideoHolder];
    return [];
  },
  addEventListener(name,fn){eventHandlers.set(name,fn)}
@@ -38,7 +39,8 @@ const context={
  localStorage:{getItem:()=>null,setItem(){}},
  fetch:async()=>({ok:true,json:async()=>({posts:[
   {id:'clip1',title:'Official Film Trailer',category:'Entertainment',source_name:'Creator',source_url:'https://www.youtube.com/watch?v=abcdefghijk',video_id:'abcdefghijk',published_at:'2026-10-10T00:00:00Z'},
-  {id:'clip2',title:'Funny reaction #shorts',category:'Comedy',source_name:'Comic Creator',source_url:'https://www.youtube.com/watch?v=lmnopqrstuv',video_id:'lmnopqrstuv',published_at:'2026-10-10T00:00:01Z'}
+  {id:'clip2',title:'Funny reaction #shorts',category:'Comedy',source_name:'Comic Creator',source_url:'https://www.youtube.com/watch?v=lmnopqrstuv',video_id:'lmnopqrstuv',published_at:'2026-10-10T00:00:01Z'},
+  {id:'clip3',title:'Official Documentary Trailer',category:'Entertainment',source_name:'Doc Creator',source_url:'https://www.youtube.com/watch?v=1234567890a',video_id:'1234567890a',published_at:'2026-10-10T00:00:02Z'}
  ]})}),
  URL,AbortController,Date,console,Math,JSON,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:()=>{},requestAnimationFrame:fn=>fn(),IntersectionObserver:IO
 };
@@ -61,6 +63,13 @@ assert.equal(playerCommands.filter(m=>m.func==='unMute').length,2,'second tap sh
 assert.equal(playerCommands.filter(m=>m.func==='mute').length,0,'do not mute when audio was never confirmed');
 
 observer.callback([{target:videoHolder,isIntersecting:false,intersectionRatio:0}]);
-assert.doesNotMatch(videoHolder.innerHTML,/video-frame/,'offscreen video must stop');
-assert.match(videoHolder.innerHTML,/data-play="rss:clip1"/,'offscreen cover restored');
-console.log('Feed autoplay smoke tests passed: start muted in viewport, stop on scroll away');
+assert.match(videoHolder.innerHTML,/video-frame/,'offscreen video iframe remains in DOM to avoid replaying advertisements');
+assert.ok(playerCommands.some(m=>m.func==='pauseVideo'),'offscreen player must be paused');
+observer.callback([{target:videoHolder,isIntersecting:true,intersectionRatio:.92}]);
+assert.equal(videoHolder.innerHTML,beforeSound,'returning to the same clip must not replace the iframe');
+assert.ok(playerCommands.some(m=>m.func==='playVideo'),'previous player resumes on re-entry');
+observer.callback([{target:videoHolder,isIntersecting:false,intersectionRatio:0},{target:secondVideoHolder,isIntersecting:true,intersectionRatio:.91}]);
+assert.match(videoHolder.innerHTML,/data-play="rss:clip1"/,'opening a DIFFERENT video releases the previous iframe');
+assert.match(secondVideoHolder.innerHTML,/video-frame/,'the next clip autoplays');
+assert.match(secondVideoHolder.innerHTML,/mute=0/,'once user requested audio, later clips attempt sound when permitted');
+console.log('Feed autoplay tests passed: pause/resume iframe across scrolling, sound intent, and safe switch to another video');
