@@ -809,7 +809,12 @@ function revealReelAfterIframeLoad(index,frame){
 function prewarmNextReel(index){
   if(tab!=='Reels'||index!==reelActiveIndex)return;
   const next=index+1,p=reelItems()[next];
-  if(navigator.connection?.saveData)return; // respect reduced data usage
+  const net=navigator.connection;
+  // Avoid competing with the video the user is ACTUALLY watching.
+  if(net?.saveData||/^(slow-2g|2g)$/.test(net?.effectiveType||'')||
+     (Number.isFinite(net?.downlink)&&net.downlink<1.5))return;
+  const currentPlayer=reelYoutubePlayers.get(index);
+  try{if(currentPlayer?.getPlayerState?.()!==1)return}catch{return}
   if(!p||p.platform!=='youtube')return;
   const media=document.getElementById('reel-media-'+next);
   if(!media||media.querySelector('iframe'))return;
@@ -823,7 +828,9 @@ function prewarmNextReel(index){
 }
 function scheduleReelPrewarm(index){
   clearTimeout(reelPrewarmTimer);
-  reelPrewarmTimer=setTimeout(()=>prewarmNextReel(index),220);
+  // Warm the next PLAYER once this clip is already playing; do not let a
+  // speculative iframe steal bandwidth while the current video is buffering.
+  reelPrewarmTimer=setTimeout(()=>prewarmNextReel(index),650);
 }
 
 function startReel(index,mutedPlayback=!reelSoundOn){
@@ -925,12 +932,16 @@ function attachYoutubePlayer(index,frame){
           try{event.target.pauseVideo?.()}catch{}
         }
         if(event.data===1&&index===reelActiveIndex){
+          scheduleReelPrewarm(index);
           hideReelLoading(index);
           tryReelPendingSeek(index,event.target);
           document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-video-ready','true');
           hideReelPlayFallback(index);
         }
-        if(event.data===3&&index===reelActiveIndex)watchReelLoading(index,true);
+        if(event.data===3&&index===reelActiveIndex){
+          clearTimeout(reelPrewarmTimer);
+          watchReelLoading(index,true);
+        }
         if((event.data===2||event.data===0)&&index===reelActiveIndex)hideReelLoading(index);
       },onAutoplayBlocked(){
         if(tab==='Reels'&&index===reelActiveIndex){hideReelLoading(index);showReelPlayFallback(index)}
@@ -1239,7 +1250,7 @@ function reelScrollTo(index,smooth=true){
     scroller.scrollTo({top,behavior:smooth?'smooth':'instant'});
   else scroller.scrollTop=top;
 }
-function reelJump(index){
+function reelJump(index,smooth=true){
   const scroller=document.getElementById('reels-scroll');
   if(!scroller||tab!=='Reels')return;
   ensureReelBuffer();
@@ -1247,8 +1258,8 @@ function reelJump(index){
   clearTimeout(reelSnapTimer);
   reelScrollSettling=true;
   if(target!==reelActiveIndex)setActiveReel(target);
-  reelScrollTo(target,true);
-  reelSnapTimer=setTimeout(()=>{reelScrollSettling=false},230);
+  reelScrollTo(target,smooth);
+  reelSnapTimer=setTimeout(()=>{reelScrollSettling=false},smooth?230:95);
   if(target===reelItems().length-1)maybeRefreshReelCatalog();
 }
 function reelGestureStart(event){
@@ -1304,7 +1315,7 @@ function reelGestureEnd(event){
     refreshReels(); // pull down at the beginning refreshes without leaving Reels
     return;
   }
-  reelJump(Math.max(reelBaseIndex,target));
+  reelJump(Math.max(reelBaseIndex,target),!fast);
 }
 function reelGestureCancel(){reelGesture=null;reelScrollSettling=false}
 function reelWheel(event){
