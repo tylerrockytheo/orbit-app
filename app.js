@@ -24,6 +24,7 @@ let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let feedVideoObserver=null,feedActiveVideo=null,feedPlayer=null,feedSoundWanted=false,feedSoundAttemptTimer=null,feedSoundVerified=false;
+let feedAudioUnlocked=false,feedSuspended=false,feedWatchdogTimer=null,feedIsPlaying=false;
 let reelUserConfirmedSound=false,reelAudioUnlocked=false;
 let feedMixNonce=Number(read('orbit_feed_mix_nonce',0))||0;
 const feedRatios=new Map();
@@ -1034,47 +1035,134 @@ function openOptions(p){openOverlay('<section class="panel"><h2>'+escape(p.categ
 /* Feed videos autoplay MUTED in view, like Facebook.
    Only one provider player is active; leaving the viewport restores its cover.
    Mobile browser/creator embed restrictions can still prevent autoplay. */
-function restoreFeedVideo(){
-  const id=feedActiveVideo;feedActiveVideo=null;feedPlayer=null;feedSoundWanted=false;feedSoundVerified=false;clearTimeout(feedSoundAttemptTimer);feedSoundAttemptTimer=null;
-  if(!id)return;
-  const p=item(id);
+function clearFeedWatchdog(){
+  clearTimeout(feedWatchdogTimer);feedWatchdogTimer=null;
+}
+function updateFeedPlaybackHint(id,mode){
+  if(id!==feedActiveVideo)return;
   const holder=document.getElementById('media-'+id);
+  const hint=holder?.querySelector('.feed-playback-hint');
+  if(!hint)return;
+  if(mode==='playing'||mode==='paused-offscreen'){hint.hidden=true;return}
+  hint.hidden=false;
+  const button=hint.querySelector('button');
+  if(!button)return;
+  if(mode==='slow'){button.textContent='Taking a moment… Tap to retry';button.disabled=false}
+  else if(mode==='blocked'){button.textContent='▶ Tap to play';button.disabled=false}
+  else if(mode==='ended'){button.textContent='↻ Replay video';button.disabled=false}
+  else {button.textContent='Loading video…';button.disabled=true}
+}
+function startFeedWatchdog(id){
+  clearFeedWatchdog();
+  if(id!==feedActiveVideo||feedSuspended||feedIsPlaying)return;
+  feedWatchdogTimer=setTimeout(()=>{
+    if(id!==feedActiveVideo||feedSuspended||feedIsPlaying)return;
+    updateFeedPlaybackHint(id,'slow');
+  },9000);
+}
+function restoreFeedVideo(){
+  const id=feedActiveVideo;
+  feedActiveVideo=null;feedSuspended=false;feedIsPlaying=false;
+  clearFeedWatchdog();clearTimeout(feedSoundAttemptTimer);feedSoundAttemptTimer=null;
+  // Keep the user's confirmed sound preference for other videos in this
+  // browsing session; only per-video state is reset.
+  feedSoundWanted=false;feedSoundVerified=false;
+  const player=feedPlayer;feedPlayer=null;
+  try{player?.destroy?.()}catch(e){console.debug('Video cleanup deferred',e)}
+  if(!id)return;
+  const p=item(id),holder=document.getElementById('media-'+id);
   if(!p||!holder)return;
   const img=p.image_url?'<img class="post-img" loading="lazy" src="'+escape(p.image_url)+'" alt="">':'';
   holder.innerHTML='<button type="button" class="video-cover" data-play="'+escape(id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button>';
+}
+function suspendFeedVideo(){
+  if(!feedActiveVideo||feedSuspended)return;
+  feedSuspended=true;
+  clearFeedWatchdog();
+  const frame=document.getElementById('media-'+feedActiveVideo)?.querySelector('iframe');
+  try{if(feedPlayer?.pauseVideo)feedPlayer.pauseVideo();else sendYoutubeCommand(frame,'pauseVideo')}catch(e){console.debug('Pause offscreen unavailable',e)}
+  updateFeedPlaybackHint(feedActiveVideo,'paused-offscreen');
+}
+function resumeFeedVideo(id){
+  if(id!==feedActiveVideo||!feedSuspended)return;
+  feedSuspended=false;feedIsPlaying=false;
+  updateFeedPlaybackHint(id,'loading');
+  const frame=document.getElementById('media-'+id)?.querySelector('iframe');
+  try{if(feedPlayer?.playVideo)feedPlayer.playVideo();else sendYoutubeCommand(frame,'playVideo')}catch(e){console.debug('Resume unavailable',e)}
+  startFeedWatchdog(id);
 }
 function pauseFeedAutoplay(){
   feedVideoObserver?.disconnect();feedVideoObserver=null;
   feedRatios.clear();
   restoreFeedVideo();
 }
-function activateFeedVideo(id,muted=true){
+function activateFeedVideo(id,muted=!feedAudioUnlocked){
   if(tab==='Reels'||!overlay.hidden)return;
   const p=item(id);if(!p?.video_id)return;
-  if(feedActiveVideo===id)return;
+  if(feedActiveVideo===id){
+    if(feedSuspended)resumeFeedVideo(id);
+    return;
+  }
   restoreFeedVideo();
   const holder=document.getElementById('media-'+id);if(!holder)return;
   feedActiveVideo=id;feedSoundWanted=!muted;feedSoundVerified=false;
+  feedSuspended=false;feedIsPlaying=false;
   const origin=encodeURIComponent(location.origin);
-  const source='https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&controls=1&enablejsapi=1&mute='+(muted?'1':'0')+'&origin='+origin;
+  const source='https://www.youtube-nocookie.com/embed/'+p.video_id+
+    '?autoplay=1&playsinline=1&controls=1&enablejsapi=1&mute='+(muted?'1':'0')+'&origin='+origin;
   holder.innerHTML='<iframe class="video-frame feed-autoplay-frame" title="'+escape(p.title)+'" src="'+source+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
-    +'<button type="button" class="feed-sound" data-feed-sound="'+escape(id)+'" aria-label="Unmute video">🔇 Sound off</button>';
+    +'<div class="feed-playback-hint"><button type="button" data-feed-retry="'+escape(id)+'" disabled>Loading video…</button></div>'
+    +'<button type="button" class="feed-sound" data-feed-sound="'+escape(id)+'" aria-label="'+(muted?'Unmute video':'Enable sound')+'">'+(muted?'🔇 Sound off':'🔊 Enabling sound…')+'</button>';
+  startFeedWatchdog(id);
   const frame=holder.querySelector('iframe');
   if(frame)youtubeApi().then(api=>{
     if(!api||feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
     try{
-      new api.Player(frame,{events:{onReady(e){
-        if(feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
-        feedPlayer=e.target;
-        try{
-          if(feedSoundWanted){e.target.unMute();e.target.setVolume(100);e.target.playVideo();verifyFeedSound(id);}
-          else{e.target.mute();e.target.playVideo();}
-        }catch{}
-      },onStateChange(){if(feedSoundWanted)verifyFeedSound(id)}}});
-
-    }catch(err){console.debug('Feed video player unavailable',err)}
-  }).catch(err=>console.debug('Feed autoplay unavailable',err));
+      new api.Player(frame,{events:{
+        onReady(e){
+          if(feedActiveVideo!==id||holder.querySelector('iframe')!==frame)return;
+          feedPlayer=e.target;
+          try{
+            if(feedSoundWanted){e.target.unMute();e.target.setVolume(100);verifyFeedSound(id)}
+            else e.target.mute();
+            if(!feedSuspended)e.target.playVideo();
+            else e.target.pauseVideo();
+          }catch(err){console.debug('Embedded video not ready to play',err)}
+        },
+        onStateChange(e){
+          if(feedActiveVideo!==id)return;
+          // 1 = playing; 0 = ended; 3 = buffering; 5 = cued.
+          if(e.data===1){
+            feedIsPlaying=true;clearFeedWatchdog();
+            updateFeedPlaybackHint(id,'playing');
+            if(feedSoundWanted)verifyFeedSound(id);
+          }else if(e.data===0){
+            feedIsPlaying=false;clearFeedWatchdog();
+            updateFeedPlaybackHint(id,'ended');
+          }else if(e.data===3||e.data===5){
+            feedIsPlaying=false;startFeedWatchdog(id);
+          }
+        },
+        onAutoplayBlocked(){
+          if(feedActiveVideo!==id||feedSuspended)return;
+          // Audible autoplay can be blocked even after a prior gesture.
+          // A muted retry preserves the browser's permitted playback path.
+          feedSoundVerified=false;
+          if(feedSoundWanted){
+            try{feedPlayer?.mute?.();feedPlayer?.playVideo?.()}catch{}
+            updateFeedSoundButton(id,'🔇 Tap for sound');
+          }
+          feedSoundWanted=false;
+          updateFeedPlaybackHint(id,'blocked');
+        },
+        onError(){
+          if(feedActiveVideo===id)updateFeedPlaybackHint(id,'blocked');
+        }
+      }});
+    }catch(err){console.debug('Feed video API unavailable',err);updateFeedPlaybackHint(id,'slow')}
+  }).catch(err=>{console.debug('Feed autoplay unavailable',err);updateFeedPlaybackHint(id,'slow')});
 }
+
 function mountFeedAutoplay(){
   feedVideoObserver?.disconnect();feedRatios.clear();
   if(loading||tab==='Reels'||tab==='You'||tab==='Search'||!overlay.hidden)return;
@@ -1088,8 +1176,8 @@ function mountFeedAutoplay(){
       else feedRatios.delete(id);
     }
     const current=[...feedRatios].sort((a,b)=>b[1]-a[1])[0]?.[0];
-    if(current&&current!==feedActiveVideo)activateFeedVideo(current,true);
-    else if(!current)restoreFeedVideo();
+    if(current)activateFeedVideo(current,!feedAudioUnlocked);
+    else suspendFeedVideo();
   },{threshold:[0,.3,.55,.75],rootMargin:'-60px 0px -80px 0px'});
   videos.forEach(el=>feedVideoObserver.observe(el));
 }
@@ -1132,7 +1220,18 @@ function feedSound(id){
   }catch(e){console.debug('Feed unmute request unavailable',e)}
   verifyFeedSound(id);
 }
-function playing(id){activateFeedVideo(id,false)}
+function playing(id){feedAudioUnlocked=true;activateFeedVideo(id,false)}
+function retryFeedVideo(id){
+  if(id!==feedActiveVideo)return;
+  feedIsPlaying=false;feedSuspended=false;
+  updateFeedPlaybackHint(id,'loading');
+  const frame=document.getElementById('media-'+id)?.querySelector('iframe');
+  try{
+    if(feedPlayer?.playVideo)feedPlayer.playVideo();
+    else sendYoutubeCommand(frame,'playVideo');
+  }catch(e){console.debug('Retry play unavailable',e)}
+  startFeedWatchdog(id);
+}
 
 async function fetchJson(url,ms=11000){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),ms);try{const r=await fetch(url,{signal:controller.signal,cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);const body=await r.json();if(!Array.isArray(body.posts))throw new Error('Invalid feed');return body}finally{clearTimeout(timer)}}
 async function fetchFeed(force=false){const previousIds=new Set(posts.map(p=>p.id));loading=true;render();let data=null,origin='';const cacheBuster='?v='+Math.floor(Date.now()/(force?60000:3600000));
@@ -1143,7 +1242,7 @@ document.addEventListener('input',e=>{if(e.target.matches('[data-reel-seek]')){r
 document.addEventListener('change',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false;updateReelProgress()}});
 document.addEventListener('pointerup',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false}});
 const slug=s=>s.replace(/[^A-Za-z0-9]/g,'-');
-document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='add-clip'){addPublicClip();return}if(d.removeClip!==undefined){importedClips.splice(Number(d.removeClip),1);persist();posts=posts.filter(p=>!p.id.startsWith('local:'));mergeImportedClips();mergeYouTubeUploads();render();return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsRefresh!==undefined){await refreshReels();return}if(d.reelsReplay!==undefined){reelReplayMode=true;stopReels();activeReelQueue=null;render();return}if(d.playerControls!==undefined){toggleOfficialControls();return}if(d.orbitFullscreen!==undefined){await toggleOrbitFullscreen();return}if(d.reelStart!==undefined){playReelFromGesture(Number(d.reelStart));return}if(d.reelsAudioTap!==undefined){tapReel(Number(d.reelsAudioTap));return}if(d.reelsSound!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){playReelFromGesture(Number(d.reelPlay));return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){feedMixNonce+=1;store('orbit_feed_mix_nonce',feedMixNonce);await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.feedSound){feedSound(d.feedSound);return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
+document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='add-clip'){addPublicClip();return}if(d.removeClip!==undefined){importedClips.splice(Number(d.removeClip),1);persist();posts=posts.filter(p=>!p.id.startsWith('local:'));mergeImportedClips();mergeYouTubeUploads();render();return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsRefresh!==undefined){await refreshReels();return}if(d.reelsReplay!==undefined){reelReplayMode=true;stopReels();activeReelQueue=null;render();return}if(d.playerControls!==undefined){toggleOfficialControls();return}if(d.orbitFullscreen!==undefined){await toggleOrbitFullscreen();return}if(d.reelStart!==undefined){playReelFromGesture(Number(d.reelStart));return}if(d.reelsAudioTap!==undefined){tapReel(Number(d.reelsAudioTap));return}if(d.reelsSound!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){playReelFromGesture(Number(d.reelPlay));return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){feedMixNonce+=1;store('orbit_feed_mix_nonce',feedMixNonce);await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.feedSound){feedSound(d.feedSound);return}if(d.feedRetry){retryFeedVideo(d.feedRetry);return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
 
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!overlay.hidden){closeOverlay();return}
