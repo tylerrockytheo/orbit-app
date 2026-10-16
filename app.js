@@ -1208,6 +1208,7 @@ function feedSound(id){
   // Queue the request when the YouTube API is still loading.
   // A second tap before sound is confirmed must RETRY unmute, not mute again.
   const enable=!feedSoundWanted||!feedSoundVerified;
+  if(enable)feedAudioUnlocked=true; // an explicit tap may unlock future audible autoplay
   feedSoundWanted=enable;feedSoundVerified=false;
   if(!feedSoundWanted){
     try{if(feedPlayer)feedPlayer.mute();else sendYoutubeCommand(frame,'mute')}catch{}
