@@ -396,7 +396,7 @@ body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-seri
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
 /* V32 · article imagery belongs to the post, with varied stable layouts. */
-.article-photo{display:block;background:var(--media);color:inherit;overflow:hidden;text-decoration:none;aspect-ratio:16/10}
+.article-photo{display:block;width:100%;background:var(--media);color:inherit;overflow:hidden;text-decoration:none;aspect-ratio:16/10}
 .article-photo img{display:block;width:100%;height:100%;object-fit:cover}
 .article-photo[hidden]{display:none!important}
 .article-style--photo-first .article-photo{margin:0 0 16px}
