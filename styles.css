@@ -311,3 +311,33 @@ body.reels-mode{background:#05060a;overflow:hidden}
 .media-wrap:fullscreen .feed-sound,
 .media-wrap.feed-immersive-fullscreen .feed-sound{left:12px;right:auto;bottom:calc(18px + env(safe-area-inset-bottom))}
 body.feed-immersive-mode{overflow:hidden!important}
+
+/* V28 — decisive vertical flicks instead of Chrome's double scroll-snap bounce.
+   This applies ONLY in Reels. The main Home/World feed keeps native scrolling. */
+.reels-scroll{
+  overflow-y:hidden!important;
+  scroll-snap-type:none!important;
+  overscroll-behavior-y:none!important;
+  overscroll-behavior-x:none!important;
+  touch-action:none!important;
+  scroll-behavior:auto;
+  -webkit-overflow-scrolling:auto;
+}
+.reel{
+  scroll-snap-align:none!important;
+  scroll-snap-stop:normal!important;
+  overscroll-behavior:none;
+}
+.reel-tap-surface{touch-action:none!important}
+.reel[data-provider="youtube"] .reel-tap-surface{right:clamp(88px,18vw,120px)!important}
+/* A prewarmed video loads invisibly behind the next card's cover, avoiding
+   a black flash and network start-up when the user swipes up. */
+.reel-media[data-prewarmed="true"] .reel-frame{opacity:0;pointer-events:none!important}
+.reel[data-playing="true"]:not([data-video-ready="true"]) .reel-frame{opacity:0;pointer-events:none!important}
+.reel[data-video-ready="true"] .reel-frame{opacity:1;transition:opacity .15s ease-out}
+.reel[data-video-ready="true"] .reel-poster{visibility:hidden;pointer-events:none}
+.reel[data-playing="true"] .reel-poster__play{display:none}
+.reel[data-playing="true"] .reel-poster img{filter:brightness(.78)}
+@media(prefers-reduced-motion:reduce){
+  .reel[data-video-ready="true"] .reel-frame{transition:none}
+}
