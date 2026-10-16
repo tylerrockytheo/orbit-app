@@ -96,7 +96,7 @@ const sandbox={
  setTimeout,clearTimeout,setInterval:()=>1,clearInterval:noop
 };
 const script=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8')
- .replace(/\}\)\(\);\s*$/, 'globalThis.__motion={reelJump,rememberReelTime,savedReelTime,active:()=>reelActiveIndex,positions:()=>reelResumePositions,players:()=>reelYoutubePlayers};})();');
+ .replace(/\}\)\(\);\s*$/, 'globalThis.__motion={reelJump,rememberReelTime,savedReelTime,active:()=>reelActiveIndex,positions:()=>reelResumePositions,players:()=>reelYoutubePlayers,clip:index=>reelItems()[index]};})();');
 const context=vm.createContext(sandbox);
 new vm.Script(script,{filename:'app.js'}).runInContext(context);
 await new Promise(resolve=>setTimeout(resolve,30));
@@ -106,6 +106,7 @@ await new Promise(resolve=>setTimeout(resolve,5));
 assert.equal(context.__motion.active(),0,'first Reel automatically activates');
 assert.equal(players.length,1,'only one YouTube player loads initially');
 const first=players[0];
+const firstKey='youtube:'+context.__motion.clip(0).video_id;
 first.time=19.4;
 const swipeTarget={closest:selector=>selector==='#reels-scroll'?node('reels-scroll'):null};
 function touch(type,y,which='touches'){
@@ -122,9 +123,9 @@ await new Promise(resolve=>setTimeout(resolve,5));
 assert.equal(context.__motion.active(),1,'one upward flick advances exactly one Reel');
 assert.equal(first.paused,true,'previous Reel pauses immediately');
 assert.equal(first.destroyed,undefined,'previous Reel stays cached');
-assert.ok(context.__motion.positions()['youtube:abcdefghijk'].time>=19,
+assert.ok(context.__motion.positions()[firstKey]?.time>=19,
   'previous video playback position is saved');
-assert.match(storage.get('orbit_reel_positions_v1'),/abcdefghijk/);
+assert.ok(storage.get('orbit_reel_positions_v1')?.includes(firstKey),'resume metadata should be stored under actual video ID');
 const firstIframe=node('reel-media-0').innerHTML;
 const beforePlayers=players.length;
 touch('touchstart',250);
