@@ -12,7 +12,8 @@ async function boot(responses,mix='balanced',muted=[]){
  const likes=Object.fromEntries(Array.from({length:80},(_,i)=>['like'+i,{category:i%2?'Gaming':'Entertainment',source_name:'IGN · YouTube',title:'Official gaming trailer',liked_at:now}]));
  const saved={'orbit_likes_v1':likes,'orbit_muted_topics_v2':muted};
  const loc={href:'https://orbit.example/',origin:'https://orbit.example',pathname:'/'};
- const context={document:{body:{style:{},classList:{toggle:noop}},getElementById:el,querySelectorAll:()=>[],addEventListener:(t,f)=>handlers.set(t,f)},window:{scrollTo:noop,addEventListener:noop,OrbitDiscovery:{mixMode:()=>mix}},location:loc,localStorage:{getItem:k=>JSON.stringify(saved[k]??null),setItem:noop},fetch:async url=>{calls.push(url);const posts=responses(url);if(posts===null)throw Error('Unavailable');return {ok:true,json:async()=>({posts,generated_at:now})}},requestAnimationFrame:noop,console,URL,Date,Math,JSON,AbortController,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:noop};
+ const testMath=Object.create(Math);testMath.random=()=>0.5;
+ const context={document:{body:{style:{},classList:{toggle:noop}},getElementById:el,querySelectorAll:()=>[],addEventListener:(t,f)=>handlers.set(t,f)},window:{scrollTo:noop,addEventListener:noop,OrbitDiscovery:{mixMode:()=>mix}},location:loc,localStorage:{getItem:k=>JSON.stringify(saved[k]??null),setItem:noop},fetch:async url=>{calls.push(url);const posts=responses(url);if(posts===null)throw Error('Unavailable');return {ok:true,json:async()=>({posts,generated_at:now})}},requestAnimationFrame:noop,console,URL,Date,Math:testMath,JSON,AbortController,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:noop};
  vm.createContext(context);new vm.Script(source).runInContext(context);await new Promise(r=>setTimeout(r,30));
  return {api:context.feedTest,nodes,calls,click:dataset=>handlers.get('click')({target:{closest:()=>({dataset})}})};
 }
@@ -31,4 +32,14 @@ const onlyVideos=await boot(()=>videos);assert.equal(onlyVideos.api.selection().
 const hidden=await boot(()=>[...videos,...stories],'balanced',['Music']);assert.ok(hidden.api.selection().every(p=>p.category!=='Music'),'format balancing respects hidden topics');
 const duplicates=await boot(()=>[...stories,{...stories[0],id:'duplicate',source_url:stories[0].source_url+'?utm_source=second-feed'}]);assert.equal(duplicates.api.selection().filter(p=>p.title==='Website story 0').length,1,'same story from multiple feeds appears once');
 const unsafe=mixed.api.card({...chosen[0],title:'<script>bad</script>',summary:'<img onerror=bad()>',source_name:'<iframe>'});assert.doesNotMatch(unsafe,/<script>|<iframe>|<img onerror/,'publisher text must be escaped');
+const photoStyles=new Set();
+for(const p of stories){
+ const photoPost={...p,image_url:'https://images.example/'+p.id+'.jpg'};
+ const html=mixed.api.card(photoPost),layout=html.match(/data-article-style="([^"]+)"/)[1];photoStyles.add(layout);
+ assert.equal(mixed.api.card(photoPost).match(/data-article-style="([^"]+)"/)[1],layout,'ordinary rerenders keep the same layout');
+ assert.match(html,/class="article-photo"/,'publisher image must be part of the post');
+ assert.doesNotMatch(html,/<a class="web-preview[^>]*>[^<]*<img/,'source link must not be the only place the image appears');
+}
+assert.equal(photoStyles.size,3,'photo posts use multiple layouts');
+for(const p of stories){const html=mixed.api.card(p);assert.match(html,/data-article-style="(?:text|headline)"/,'posts without publisher imagery use honest text layouts');assert.doesNotMatch(html,/class="article-photo"/,'no fabricated image for a source without one')}
 console.log('Feed mix tests passed: inline summaries, video-heavy history, format controls, fallback enrichment, missing stories, hidden topics and deduplication');

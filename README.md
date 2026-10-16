@@ -8,6 +8,12 @@ A private personalised feed. **Not** a social network: Likes are private recomme
 - News: GitHub Actions collects open RSS/Atom metadata approximately hourly into `data/feed.json` (public repo). The browser fetches the latest committed data via GitHub raw, with a Pages mirror and the existing Cloudflare Worker as fallbacks.
 - Backend: Cloudflare Worker `https://orbit-api.tyler-r-theo.workers.dev/feed` remains a fallback while the static content pipeline matures.
 
+## V32 — varied article posts
+
+Website imagery now appears in the post itself rather than as a small thumbnail inside the source link. Photo posts vary between image-first, text-first with a full-width image, and a large side-photo layout. Sources without images get one of two text layouts; no picture or pull quote is invented. All layouts keep the publisher excerpt, attribution, original link and private actions.
+
+Layout selection varies across posts and browser sessions, and an explicit Home refresh can remix it. Each post keeps its layout during ordinary scrolling, Likes, Saves and navigation within the session. Failed images collapse cleanly, and video playback and the V31 mixed-content ordering are unchanged.
+
 ## V31 — website summaries throughout Home
 
 V30 changed presentation without protecting the main feed's content mix. Strong video Likes could still bury website articles. V31 fixes the feed composition itself.

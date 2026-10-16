@@ -339,16 +339,35 @@ function imageCard(p){
   if(p.video_id)return '<div class="media-wrap" id="media-'+escape(p.id)+'"><button type="button" class="video-cover" data-play="'+escape(p.id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button><button type="button" class="feed-expand" data-feed-fullscreen="'+escape(p.id)+'" aria-label="Fullscreen video">⛶</button></div>';
   return img?'<div class="media-wrap">'+img+'</div>':'';
 }
+// Pick once per post/session; explicit refresh can vary the mix, ordinary rerenders cannot.
+const articleLayoutSeed=Math.floor(Math.random()*0x7fffffff);
+function articleLayout(p){
+ const choices=p.image_url?['photo-first','photo-after','side-photo']:['text','headline'];
+ let h=2166136261;const key=postIdentity(p)+':'+articleLayoutSeed+':'+feedMixNonce;
+ for(let i=0;i<key.length;i++)h=Math.imul(h^key.charCodeAt(i),16777619);
+ return choices[(h>>>0)%choices.length];
+}
+function articleBody(p,layout){
+ const url=escape(p.source_url),title=escape(p.title);
+ const heading='<h2><a href="'+url+'" target="_blank" rel="noopener noreferrer">'+title+'</a></h2>';
+ const excerpt=p.summary?'<p>'+escape(p.summary)+'</p>':'<p class="missing">No summary supplied. Read the original story for details.</p>';
+ const photo=p.image_url?'<a class="article-photo" href="'+url+'" target="_blank" rel="noopener noreferrer" aria-label="Read article: '+title+'"><img src="'+escape(p.image_url)+'" alt="" loading="lazy" decoding="async" onerror="this.closest(\'.article-photo\').hidden=true;this.closest(\'.post\').classList.add(\'post--image-missing\')"></a>':'';
+ const copy='<div class="post-copy">'+heading+excerpt+'</div>';
+ if(layout==='photo-first')return '<div class="article-story">'+photo+copy+'</div>';
+ if(layout==='photo-after')return '<div class="article-story">'+copy+photo+'</div>';
+ if(layout==='side-photo')return '<div class="article-story article-story--side"><div class="post-copy">'+heading+'</div>'+photo+'</div><div class="post-copy post-copy--summary">'+excerpt+'</div>';
+ return '<div class="article-story">'+copy+'</div>';
+}
 function card(p){
- const article=!hasPlayableClip(p),saved=!!bookmarks[p.id];
+ const article=!hasPlayableClip(p),saved=!!bookmarks[p.id],layout=article?articleLayout(p):null;
  const sourceLabel=({publisher_excerpt:'Publisher summary',publisher_description:'Publisher description',curated_from_official:'Official source brief'})[p.summary_status]||'Original source';
  const excerpt=p.summary?'<p>'+escape(p.summary)+'</p>':(article?'<p class="missing">No summary supplied. Read the original story for details.</p>':'');
  const domain=new URL(p.source_url).hostname.replace(/^www\./,'');
- const website=article?'<a class="web-preview" href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">'+(p.image_url?'<img src="'+escape(p.image_url)+'" alt="" loading="lazy" onerror="this.hidden=true">':'')+'<span><small>'+escape(domain)+'</small><b>Read article <span aria-hidden="true">↗</span></b></span></a>':'';
- return '<article class="post '+(article?'post--article':'post--video')+'" data-post="'+escape(p.id)+'" data-content-type="'+(article?'article':'video')+'">'
+ const website=article?'<a class="web-preview web-preview--source" href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer"><small>'+escape(domain)+'</small><b>Read article <span aria-hidden="true">↗</span></b></a>':'';
+ return '<article class="post '+(article?'post--article article-style--'+layout:'post--video')+'"'+(article?' data-article-style="'+layout+'"':'')+' data-post="'+escape(p.id)+'" data-content-type="'+(article?'article':'video')+'">'
  +'<div class="post-meta"><div class="source-avatar">'+escape(p.source_name.charAt(0).toUpperCase())+'</div><div class="source-meta"><span class="source-name">'+escape(p.source_name)+'</span><div class="source-subline">'+escape(p.category)+' · '+escape(elapsed(p.published_at))+' · '+(article?'Story':'Video')+'</div></div>'
  +(p.shared?'':'<button type="button" class="dots" data-options="'+escape(p.id)+'" aria-label="Post options">'+svg('More')+'</button>')+'</div>'
- +'<div class="post-copy"><h2>'+(article?'<a href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">'+escape(p.title)+'</a>':escape(p.title))+'</h2>'+excerpt+'</div>'
+ +(article?articleBody(p,layout):'<div class="post-copy"><h2>'+escape(p.title)+'</h2>'+excerpt+'</div>')
  +(article?website:imageCard(p))
  +'<div class="post-footer"><span>'+sourceLabel+'</span>'+(article?'':'<a class="source-link" href="'+escape(p.source_url)+'" target="_blank" rel="noopener noreferrer">Watch on '+escape(providerName(p))+' ↗</a>')+'</div>'
  +'<div class="action-row">'+(p.shared?'':'<button type="button" data-like="'+escape(p.id)+'" class="'+(likes[p.id]?'liked':'')+'" aria-pressed="'+String(!!likes[p.id])+'" aria-label="'+(likes[p.id]?'Unlike this post':'Like this post')+'">'+svg('Like')+'<span>'+(likes[p.id]?'Liked':'Like')+'</span></button>')
