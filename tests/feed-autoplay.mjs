@@ -69,7 +69,8 @@ observer.callback([{target:videoHolder,isIntersecting:true,intersectionRatio:.92
 assert.equal(videoHolder.innerHTML,beforeSound,'returning to the same clip must not replace the iframe');
 assert.ok(playerCommands.some(m=>m.func==='playVideo'),'previous player resumes on re-entry');
 observer.callback([{target:videoHolder,isIntersecting:false,intersectionRatio:0},{target:secondVideoHolder,isIntersecting:true,intersectionRatio:.91}]);
-assert.match(videoHolder.innerHTML,/data-play="rss:clip1"/,'opening a DIFFERENT video releases the previous iframe');
+assert.equal(videoHolder.innerHTML,beforeSound,'switching video should park and cache the previous iframe');
 assert.match(secondVideoHolder.innerHTML,/video-frame/,'the next clip autoplays');
+assert.ok(playerCommands.filter(m=>m.func==='pauseVideo').length>=2,'previous player is paused before the next player starts');
 assert.match(secondVideoHolder.innerHTML,/mute=0/,'once user requested audio, later clips attempt sound when permitted');
 console.log('Feed autoplay tests passed: pause/resume iframe across scrolling, sound intent, and safe switch to another video');
