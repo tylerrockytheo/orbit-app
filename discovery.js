@@ -56,7 +56,7 @@ document.addEventListener('click',e=>{
 window.OrbitDiscovery={home,settings,score,start,mixMode:()=>prefs?.mix||'balanced',isOpen:()=>!!dialog};
 window.OrbitFeed.refresh();
 // Shared-post guests and returning users keep their route; onboarding is voluntary.
-if(!prefs?.complete&&!read(DRAFT)&&!new URL(location.href).searchParams.has('post')){
+if(!window.OrbitBeta?.isOpen?.()&&!prefs?.complete&&!read(DRAFT)&&!new URL(location.href).searchParams.has('post')){
  const hasPreferences=['orbit_weights_v2','orbit_likes_v1','orbit_bookmarks_v2'].some(k=>{const v=read(k);return v&&Object.keys(v).length});
  if(!hasPreferences)start();
 }

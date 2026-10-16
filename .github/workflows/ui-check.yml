@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'discovery.js'
+      - 'beta.js'
+      - 'tests/beta-smoke.mjs'
       - 'tests/discovery-smoke.mjs'
       - 'tests/feed-mix.mjs'
       - 'app.js'
@@ -24,6 +26,8 @@ on:
   pull_request:
     paths:
       - 'discovery.js'
+      - 'beta.js'
+      - 'tests/beta-smoke.mjs'
       - 'tests/discovery-smoke.mjs'
       - 'tests/feed-mix.mjs'
       - 'app.js'
@@ -49,7 +53,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify JavaScript syntax
-        run: node --check app.js && node --check discovery.js && node --check account.js && node --check orbit-config.js
+        run: node --check app.js && node --check discovery.js && node --check beta.js && node --check account.js && node --check orbit-config.js
+      - name: Verify tester entry and private feedback sharing
+        run: node tests/beta-smoke.mjs
       - name: Verify mixed Home feed and website summaries
         run: node tests/feed-mix.mjs
       - name: Verify private onboarding and discovery

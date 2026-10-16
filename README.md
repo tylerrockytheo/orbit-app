@@ -1,12 +1,20 @@
 # Orbit — media-first mobile prototype
 
-A private personalised feed. **Not** a social network: Likes are private recommendation signals; there are no public like counts, follows, comments, accounts or public profiles.
+A private personalised feed. Likes are private recommendation signals; there are no public like counts, follows, comments or public profiles. Accounts are optional.
 
 ## Live deployment
 
 - Front end: GitHub Pages `https://tylerrockytheo.github.io/orbit-app/`
 - News: GitHub Actions collects open RSS/Atom metadata approximately hourly into `data/feed.json` (public repo). The browser fetches the latest committed data via GitHub raw, with a Pages mirror and the existing Cloudflare Worker as fallbacks.
 - Backend: Cloudflare Worker `https://orbit-api.tyler-r-theo.workers.dev/feed` remains a fallback while the static content pipeline matures.
+
+## V34 — first tester round
+
+Invite testers with `https://tylerrockytheo.github.io/orbit-app/?test=1`. First-time invitees see a brief introduction, honest feature limits, optional interest setup and a guest browse path. Normal visits and shared-post routes retain their existing behaviour. Feedback is reachable from the header and You.
+
+The feedback form asks about repeat use, the reason, actual return visits, alternatives and blockers. Drafts stay local when browser storage is available; preview, native Share and Copy make delivery explicit. **There is no automatic collection, analytics upload or central inbox.** Testers send the report back to their inviter. No identity, account details, interests, viewed posts or imported chats are appended. Drafts can be cleared; cancellation and blocked storage retain answers in memory for the current page.
+
+See [TESTING.md](TESTING.md) for the invitation, three-day test, private results template and proposed continue/pause rules. Browser smoke checks cover onboarding isolation, validation, escaping, drafts, preview-before-share and copy/cancel behaviour.
 
 ## V33 — varied video posts
 
