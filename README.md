@@ -8,6 +8,12 @@ A private personalised feed. **Not** a social network: Likes are private recomme
 - News: GitHub Actions collects open RSS/Atom metadata approximately hourly into `data/feed.json` (public repo). The browser fetches the latest committed data via GitHub raw, with a Pages mirror and the existing Cloudflare Worker as fallbacks.
 - Backend: Cloudflare Worker `https://orbit-api.tyler-r-theo.workers.dev/feed` remains a fallback while the static content pipeline matures.
 
+## V33 — varied video posts
+
+Video posts now mix classic widescreen, video-first, square and portrait (4:5) layouts. Square and portrait thumbnail previews use centre crops. The live YouTube player stays complete and fits inside those frames, with a soft thumbnail backdrop around it; the provider's video, captions, advertising and controls are not cropped out.
+
+Framed cards offer **Original ratio** to switch to the usual widescreen shape, and a button to return to the square/portrait layout. This changes framing in place: the same iframe keeps playing, without a new source URL or lost playback position. Per-post framing choices and random layouts stay stable through ordinary rerenders within the session. Native fullscreen still shows the original player.
+
 ## V32 — varied article posts
 
 Website imagery now appears in the post itself rather than as a small thumbnail inside the source link. Photo posts vary between image-first, text-first with a full-width image, and a large side-photo layout. Sources without images get one of two text layouts; no picture or pull quote is invented. All layouts keep the publisher excerpt, attribution, original link and private actions.

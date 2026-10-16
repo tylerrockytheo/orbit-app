@@ -1,14 +1,14 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-const source=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8').replace(/\}\)\(\);\s*$/, 'globalThis.feedTest={selection,card};})();');
+const source=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8').replace(/\}\)\(\);\s*$/, 'globalThis.feedTest={selection,card,videoLayout,toggleVideoFraming};})();');
 const now=new Date().toISOString();
 const videos=Array.from({length:100},(_,i)=>({id:'v'+i,title:'Official gaming trailer '+i,category:i%2?'Gaming':'Entertainment',source_name:'IGN · YouTube',source_url:'https://www.youtube.com/watch?v='+String(i).padStart(11,'0'),video_id:String(i).padStart(11,'0'),published_at:now}));
 const stories=Array.from({length:36},(_,i)=>({id:'s'+i,title:'Website story '+i,category:['Gaming','Music','Travel'][i%3],source_name:['PC Gamer','Music Magazine','Travel Journal'][i%3],source_url:'https://publisher'+i%3+'.example/story/'+i,summary:'A genuine publisher description explaining the story and its main point. This is an article, with an original source link.',summary_status:'publisher_excerpt',published_at:now}));
 async function boot(responses,mix='balanced',muted=[]){
  const nodes=new Map(),handlers=new Map(),calls=[];
  const noop=()=>{};
- const el=id=>{if(!nodes.has(id))nodes.set(id,{id,innerHTML:'',textContent:'',hidden:true,style:{},classList:{toggle:noop},querySelector:()=>null,querySelectorAll:()=>[]});return nodes.get(id)};
+ const el=id=>{if(!nodes.has(id))nodes.set(id,{id,innerHTML:'',textContent:'',hidden:true,style:{},dataset:{},classList:{toggle:noop},querySelector:()=>null,querySelectorAll:()=>[]});return nodes.get(id)};
  const likes=Object.fromEntries(Array.from({length:80},(_,i)=>['like'+i,{category:i%2?'Gaming':'Entertainment',source_name:'IGN · YouTube',title:'Official gaming trailer',liked_at:now}]));
  const saved={'orbit_likes_v1':likes,'orbit_muted_topics_v2':muted};
  const loc={href:'https://orbit.example/',origin:'https://orbit.example',pathname:'/'};
@@ -32,6 +32,18 @@ const onlyVideos=await boot(()=>videos);assert.equal(onlyVideos.api.selection().
 const hidden=await boot(()=>[...videos,...stories],'balanced',['Music']);assert.ok(hidden.api.selection().every(p=>p.category!=='Music'),'format balancing respects hidden topics');
 const duplicates=await boot(()=>[...stories,{...stories[0],id:'duplicate',source_url:stories[0].source_url+'?utm_source=second-feed'}]);assert.equal(duplicates.api.selection().filter(p=>p.title==='Website story 0').length,1,'same story from multiple feeds appears once');
 const unsafe=mixed.api.card({...chosen[0],title:'<script>bad</script>',summary:'<img onerror=bad()>',source_name:'<iframe>'});assert.doesNotMatch(unsafe,/<script>|<iframe>|<img onerror/,'publisher text must be escaped');
+const videoStyles=new Set(chosen.filter(p=>p.media_type==='video').map(p=>mixed.api.videoLayout(p)));
+assert.equal(videoStyles.size,4,'video posts mix wide, cinema, square and portrait layouts');
+const framed=chosen.find(p=>['square','portrait'].includes(mixed.api.videoLayout(p))&&p.media_type==='video');
+const initialVideoCard=mixed.api.card(framed),videoStyle=mixed.api.videoLayout(framed);
+assert.match(initialVideoCard,/data-video-fit-toggle=/,'framed videos offer original-ratio control');
+assert.equal(mixed.api.videoLayout(framed),videoStyle,'video layout stays stable across rerenders');
+// A ratio change must never replace a playing iframe or request a new ad session.
+const mediaNode=mixed.nodes.get('media-'+framed.id)||{innerHTML:'active-iframe',dataset:{}};
+mediaNode.innerHTML='active-iframe';mixed.nodes.set('media-'+framed.id,mediaNode);
+mixed.api.toggleVideoFraming(framed.id);assert.equal(mediaNode.dataset.videoFit,'original');assert.equal(mediaNode.innerHTML,'active-iframe');
+assert.match(mixed.api.card(framed),/data-video-fit="original"/,'chosen fit persists after a Save or tab rerender');
+mixed.api.toggleVideoFraming(framed.id);assert.equal(mediaNode.dataset.videoFit,'framed');assert.equal(mediaNode.innerHTML,'active-iframe');
 const photoStyles=new Set();
 for(const p of stories){
  const photoPost={...p,image_url:'https://images.example/'+p.id+'.jpg'};

@@ -418,3 +418,22 @@ body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-seri
 .web-preview--source>b{white-space:nowrap;color:var(--text);font-size:12px;font-weight:650}
 .web-preview--source>b>span{color:var(--blue)}
 @media(max-width:390px){.article-story--side{gap:12px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.article-story--side h2{font-size:18px}.article-style--headline h2{font-size:23px}}
+
+/* V33 · varied video cards. Only previews crop; the complete provider player fits. */
+.post--video .media-wrap{min-height:200px}
+.post--video .feed-autoplay-frame{min-height:200px}
+.video-style--cinema>.post-copy,.video-style--square>.post-copy,.video-style--portrait>.post-copy{padding-top:16px}
+.media-wrap--framed{isolation:isolate;aspect-ratio:1/1;width:100%;max-width:560px;margin:0 auto;background:#15171c}
+.media-wrap--framed[data-video-layout=portrait]{aspect-ratio:4/5;max-width:460px}
+.media-wrap--framed[data-video-fit=original]{aspect-ratio:16/9;max-width:none}
+.feed-video-backdrop{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden;opacity:.32}
+.feed-video-backdrop img{display:block;width:100%;height:100%;object-fit:cover;filter:blur(22px);transform:scale(1.15)}
+.media-wrap--framed .video-cover{height:100%;position:absolute;inset:0}
+.media-wrap--framed .post-img{width:100%;height:100%;max-height:none;aspect-ratio:auto;object-fit:cover;object-position:center}
+.media-wrap--framed .feed-autoplay-frame{position:absolute;top:50%;transform:translateY(-50%);width:100%;height:auto;min-height:200px;aspect-ratio:16/9;z-index:1}
+.video-tools{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;padding:4px 16px 0;color:var(--muted)}
+.video-tools small{font-size:11px}.video-tools button{background:transparent;border:0;color:var(--blue);font-size:12px;font-weight:650;min-height:40px;padding:8px 0 8px 10px}
+.media-wrap--framed:fullscreen,.media-wrap--framed:-webkit-full-screen,.media-wrap--framed.feed-immersive-fullscreen{aspect-ratio:auto}
+.media-wrap--framed:fullscreen .feed-autoplay-frame,.media-wrap--framed:-webkit-full-screen .feed-autoplay-frame,.media-wrap--framed.feed-immersive-fullscreen .feed-autoplay-frame{position:relative;top:auto;transform:none;min-height:0}
+.media-wrap--framed:fullscreen .feed-video-backdrop,.media-wrap--framed.feed-immersive-fullscreen .feed-video-backdrop{display:none}
+@media(max-width:600px){.media-wrap--framed{max-width:none}.media-wrap--framed[data-video-layout=portrait]{max-width:460px}}
