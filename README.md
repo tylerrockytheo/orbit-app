@@ -8,6 +8,20 @@ A private personalised feed. **Not** a social network: Likes are private recomme
 - News: GitHub Actions collects open RSS/Atom metadata approximately hourly into `data/feed.json` (public repo). The browser fetches the latest committed data via GitHub raw, with a Pages mirror and the existing Cloudflare Worker as fallbacks.
 - Backend: Cloudflare Worker `https://orbit-api.tyler-r-theo.workers.dev/feed` remains a fallback while the static content pipeline matures.
 
+## V30 — a more personal Orbit
+
+- New optional four-step setup: broad interests → optional finer interests → story/video and discovery mix → review and explicit save. Music, Gaming and Travel are examples alongside the wider topic catalog. Fresh guests see setup; returning users and shared-post visitors keep their current route. Reopen it from **You → Personalise my Orbit** or **Home → Make it yours**.
+- Drafts survive closing/reloading setup; dismissing never applies draft choices. Saving updates topic priorities and ranking. New guests start with neutral topic weights, rather than Tyler-specific defaults. Existing saved weights, Likes, bookmarks and playback positions are preserved until deliberately edited.
+- Reading/video mix, familiarity and finer interests actually contribute to ranking; they do not promise content the current source catalog lacks. **Explore** still exposes all available formats and topics. Explicit feedback remains the learning signal, rather than passive watch tracking.
+- **The Reading Room** surfaces three attributed article picks on Home. Tapping one opens the existing story viewer with publisher excerpt, original-source link, private Like, Save and Share. Topic spaces narrow Home to a chosen interest.
+- Warm paper, forest-green ink, vermilion accents and editorial serif headlines replace the earlier Facebook-style chrome. Light/dark follows the device, and reduced-motion preferences are respected. Existing V29 provider playback logic remains intact.
+- Setup drafts, finer interests, reading/video mix and discovery preference remain browser-local. On explicit sign-in, topic priorities follow the existing account-sync path. No automatic private-chat import, analytics or new third-party login has been added.
+- Run `node tests/discovery-smoke.mjs` alongside the existing frontend checks. CI runs the new test and syntax validation.
+
+### Remaining integration boundaries
+
+YouTube subscription OAuth still has no client ID in the current configuration. Spotify/library imports, automatic Steam-library imports, live travel offers, AI-generated source-grounded posts and native/app-store delivery are **not connected** by this release. They require separate provider/application configuration, supported permissions or backend work. No paid API or subscription has been enabled. The existing RSS content, reviewed AI-profile import, optional configured Firebase account module and local public-clip imports remain available. Provider advertising is controlled by the original platforms.
+
 ## Main improvements
 
 - Real posts, no placeholder anime characters or generic topic cards.

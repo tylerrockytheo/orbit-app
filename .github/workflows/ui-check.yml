@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
     paths:
+      - 'discovery.js'
+      - 'tests/discovery-smoke.mjs'
       - 'app.js'
       - 'account.js'
       - 'orbit-config.js'
@@ -20,6 +22,8 @@ on:
       - '.github/workflows/ui-check.yml'
   pull_request:
     paths:
+      - 'discovery.js'
+      - 'tests/discovery-smoke.mjs'
       - 'app.js'
       - 'account.js'
       - 'orbit-config.js'
@@ -43,7 +47,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify JavaScript syntax
-        run: node --check app.js && node --check account.js && node --check orbit-config.js
+        run: node --check app.js && node --check discovery.js && node --check account.js && node --check orbit-config.js
+      - name: Verify private onboarding and discovery
+        run: node tests/discovery-smoke.mjs
       - name: Verify guest mode and account safety
         run: node tests/account-smoke.mjs
       - name: Verify connected public Firebase configuration

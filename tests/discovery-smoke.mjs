@@ -1,0 +1,40 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+
+function harness(initial={},href='https://orbit.example/',blocked=false){
+ const storage=new Map(Object.entries(initial).map(([k,v])=>[k,JSON.stringify(v)]));const listeners=[];let dialog=null,applied=null,filter=null,paused=0;
+ const noop=()=>{};const makeNode=()=>({innerHTML:'',scrollTop:0,setAttribute:noop,focus:noop,querySelector:()=>null,querySelectorAll:()=>[],addEventListener:noop,showModal:noop,close:noop,contains:()=>true,getAttribute:()=>null,remove(){dialog=null}});
+ const document={activeElement:{focus:noop},body:{classList:{add:noop,remove:noop},appendChild(n){dialog=n}},createElement:makeNode,getElementById:()=>null,addEventListener(type,handler){if(type==='click')listeners.push(handler)}};
+ const window={OrbitFeed:{preferences:()=>({weights:{Music:10,Gaming:10,Travel:10},muted:[]}),pause:()=>paused++,refresh:noop,applyTopics(t){applied=[...t]},filter(t){filter=t},open:noop}};
+ const ctx=vm.createContext({document,window,location:{href},localStorage:{getItem:k=>storage.get(k)||null,setItem(k,v){if(blocked)throw Error('Storage blocked');storage.set(k,v)},removeItem:k=>storage.delete(k)},URL,Date,console,setTimeout:()=>1});
+ new vm.Script(fs.readFileSync(new URL('../discovery.js',import.meta.url),'utf8')).runInContext(ctx);
+ return {api:window.OrbitDiscovery,storage,get html(){return dialog?.innerHTML||''},get applied(){return applied},get filter(){return filter},get paused(){return paused},click(dataset){const b={dataset,getAttribute:()=>null};for(const f of listeners)f({target:{closest:()=>b}})}};
+}
+const app=harness();
+assert.equal(app.api.isOpen(),true,'fresh guests get optional setup');
+assert.equal(app.paused,1,'setup pauses existing media');
+assert.match(app.html,/What pulls you in/);
+for(const topic of ['Music','Gaming','Travel'])app.click({setupTopic:topic});
+assert.equal(app.applied,null,'draft choices must not update live feed');
+app.click({setupNext:''});assert.match(app.html,/Music production/);app.click({setupDetail:'Guitar'});
+app.click({setupNext:''});app.click({setupMix:'read'});app.click({setupDiscovery:'adventurous'});
+app.click({setupNext:''});assert.match(app.html,/This is your Orbit/);
+assert.equal(app.storage.has('orbit_discovery_v1'),false,'review is not consent to save');
+app.click({setupBack:''});app.click({setupNext:''});app.click({setupNext:''});
+assert.deepEqual(app.applied,['Music','Gaming','Travel']);assert.equal(app.filter,'All');assert.equal(app.api.isOpen(),false);
+const saved=JSON.parse(app.storage.get('orbit_discovery_v1'));
+assert.equal(saved.complete,true);assert.deepEqual(saved.details,['Guitar']);
+const article={category:'Music',media_type:'article',title:'A guitar lesson'};
+const video={...article,media_type:'video'};
+assert.ok(app.api.score(article)>app.api.score(video),'more stories must affect ranking');
+assert.ok(app.api.score(article)>app.api.score({...article,title:'A music story'}),'finer interests must affect ranking');
+assert.ok(app.api.score({category:'Science',media_type:'article',title:'A discovery'})>0,'adventurous mix includes unfamiliar topics');
+assert.match(app.api.home([{id:'a',...article,source_name:'Publisher'}],'All'),/THE READING ROOM/);
+assert.match(app.api.home([{id:'b',...article,title:'<img onerror=alert(1)>',source_name:'<script>'}],'All'),/&lt;img/,'publisher titles must be escaped');
+const returning=harness({'orbit_discovery_v1':saved});assert.equal(returning.api.isOpen(),false,'returning users are not interrupted');
+returning.api.start();returning.click({setupTopic:'Music'});returning.click({setupDismiss:''});assert.equal(returning.applied,null,'cancelled edits preserve live preferences');assert.equal(JSON.parse(returning.storage.get('orbit_discovery_v1')).topics.includes('Music'),true);
+const shared=harness({},'https://orbit.example/?post=a');assert.equal(shared.api.isOpen(),false,'shared posts bypass onboarding');
+const legacy=harness({'orbit_weights_v2':{Music:20}});assert.equal(legacy.api.isOpen(),false,'existing profiles keep their feed');
+const denied=harness({},'https://orbit.example/',true);denied.click({setupNext:''});denied.click({setupNext:''});denied.click({setupNext:''});denied.click({setupNext:''});assert.equal(denied.applied,null,'failed storage cannot claim successful saving');assert.equal(denied.api.isOpen(),true);
+console.log('Discovery tests passed: review-before-save, cancellation, private storage, ranking, escaping, guests and shared links');
