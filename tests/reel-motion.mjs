@@ -15,8 +15,14 @@ function classList(){const set=new Set();return {add:v=>set.add(v),remove:v=>set
 function card(index){
  if(!cards.has(index))cards.set(index,{
    dataset:{reelIndex:String(index)},attrs:new Set(),classList:classList(),
+   loading:{
+     hidden:true,button:{hidden:true},text:{textContent:''},
+     querySelector(sel){return sel==='button'?this.button:sel==='.reel-loading-text'?this.text:null}
+   },
    setAttribute(name){this.attrs.add(name)},removeAttribute(name){this.attrs.delete(name)},
-   querySelector(){return null},remove(){this.removed=true}
+   getAttribute(name){return this.attrs.has(name)?'true':null},
+   querySelector(sel){return sel==='.reel-loading'?this.loading:sel==='.reel-start-fallback'?{hidden:true}:null},
+   remove(){this.removed=true}
  });
  return cards.get(index);
 }
@@ -57,7 +63,9 @@ const doc={
  querySelector(selector){
    if(selector==='.reels-view')return {classList:classList()};
    const m=selector.match(/\.reel\[data-reel-index="(\d+)"\]/);
-   return m?card(Number(m[1])):null;
+   if(!m)return null;
+   const actual=card(Number(m[1]));
+   return selector.endsWith(' .reel-loading')?actual.loading:actual;
  },
  querySelectorAll(selector){
    if(selector==='.reel')return [0,1,2].map(card);
@@ -100,7 +108,7 @@ const sandbox={
  setTimeout,clearTimeout,setInterval:()=>1,clearInterval:noop
 };
 const script=fs.readFileSync(new URL('../app.js',import.meta.url),'utf8')
- .replace(/\}\)\(\);\s*$/, 'globalThis.__motion={reelJump,rememberReelTime,savedReelTime,active:()=>reelActiveIndex,positions:()=>reelResumePositions,players:()=>reelYoutubePlayers,clip:index=>reelItems()[index]};})();');
+ .replace(/\}\)\(\);\s*$/, 'globalThis.__motion={reelJump,rememberReelTime,savedReelTime,resumeReelAtSavedTime,tryReelPendingSeek,pending:()=>reelPendingSeeks,active:()=>reelActiveIndex,positions:()=>reelResumePositions,players:()=>reelYoutubePlayers,clip:index=>reelItems()[index]};})();');
 const context=vm.createContext(sandbox);
 new vm.Script(script,{filename:'app.js'}).runInContext(context);
 await new Promise(resolve=>setTimeout(resolve,30));
@@ -110,6 +118,12 @@ await new Promise(resolve=>setTimeout(resolve,5));
 assert.equal(context.__motion.active(),0,'first Reel automatically activates');
 assert.equal(players.length,1,'only one YouTube player loads initially');
 const first=players[0];
+first.events.onStateChange({data:3,target:first});
+await new Promise(resolve=>setTimeout(resolve,1500));
+assert.equal(card(0).loading.hidden,false,'buffering should show a light indicator after a short delay');
+assert.match(card(0).loading.text.textContent,/Buffering/);
+first.events.onStateChange({data:1,target:first});
+assert.equal(card(0).loading.hidden,true,'video resumes without leaving a blocking loader');
 const firstKey='youtube:'+context.__motion.clip(0).video_id;
 first.time=19.4;
 const swipeTarget={closest:selector=>selector==='#reels-scroll'?node('reels-scroll'):null};
@@ -173,6 +187,15 @@ assert.equal(context.__motion.clip(0).video_id,firstKey.slice('youtube:'.length)
 const reentered=players.at(-1);
 assert.ok(reentered.seekCount>=1,'reopening Reel should seek to the saved timestamp');
 assert.ok(Math.abs(reentered.time-33.6)<.2,'Reel resumes from where the user exited');
+const lateSeek={duration:0,positions:[],getDuration(){return this.duration},
+  seekTo(time){this.positions.push(time)}};
+context.__motion.resumeReelAtSavedTime(0,lateSeek);
+assert.equal(context.__motion.pending().has(0),true,'seek waits until YouTube knows the video duration');
+lateSeek.duration=60;
+assert.equal(context.__motion.tryReelPendingSeek(0,lateSeek),true);
+assert.ok(Math.abs(lateSeek.positions[0]-33.6)<.2,'deferred seek restores saved timestamp after player becomes ready');
+assert.equal(context.__motion.pending().has(0),false,'deferred seek must happen only once');
+
 
 assert.ok(fs.readFileSync(new URL('../styles.css',import.meta.url),'utf8').includes('scroll-snap-type:none!important'),
  'native mandatory scroll snap must be disabled inside Reels');
