@@ -163,7 +163,17 @@ const rebuilt=players.at(-1);
 assert.notEqual(rebuilt,first,'player was recreated only after moving beyond cache window');
 assert.ok(rebuilt.seekCount>=1,'recreated player must seek back to saved playback time');
 assert.ok(Math.abs(rebuilt.time-27.2)<.2,'restored playback timestamp matches prior position');
+rebuilt.time=33.6;
+await click({tab:'Home'});
+await new Promise(resolve=>setTimeout(resolve,5));
+await click({tab:'Reels'});
+await new Promise(resolve=>setTimeout(resolve,5));
+assert.equal(context.__motion.clip(0).video_id,firstKey.slice('youtube:'.length),
+  'reopening Reels shortly afterwards should return to the last clip');
+const reentered=players.at(-1);
+assert.ok(reentered.seekCount>=1,'reopening Reel should seek to the saved timestamp');
+assert.ok(Math.abs(reentered.time-33.6)<.2,'Reel resumes from where the user exited');
 
 assert.ok(fs.readFileSync(new URL('../styles.css',import.meta.url),'utf8').includes('scroll-snap-type:none!important'),
  'native mandatory scroll snap must be disabled inside Reels');
-console.log('Reel motion tests passed: finger-following swipe, bounded adjacent players, saved positions and restoration after iframe eviction');
+console.log('Reel motion tests passed: rapid swipes, adjacent player reuse, saved timestamps, cache eviction and reopen continuity');
