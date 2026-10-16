@@ -21,7 +21,7 @@ let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver
 let reelSoundNoticeTimer=null,ytApiPromise=null,reelProgressTimer=null,reelScrubbing=false,reelNativeControls=false;
 let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatched))recentWatched=[];
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
-let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0;
+let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0,reelPrewarmTimer=null;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let reelResumePositions=read('orbit_reel_positions_v1',{});
@@ -670,6 +670,7 @@ function resumeCachedReel(index){
   const media=document.getElementById('reel-media-'+index),frame=media?.querySelector('iframe');
   if(!frame)return false;
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
+  media?.removeAttribute('data-prewarmed');
   applyReelVolume(index);
   const player=reelYoutubePlayers.get(index);
   try{if(player?.playVideo)player.playVideo();else sendYoutubeCommand(frame,'playVideo')}catch{}
@@ -695,9 +696,53 @@ function resetReelPlayer(index){
   const player=reelYoutubePlayers.get(index);
   try{player?.destroy?.()}catch{}
   if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p,index);
+  media?.removeAttribute('data-prewarmed');
+  document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-video-ready');
   reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);reelPlaybackStates.delete(index);
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-playing');
 }
+function reelEmbedMarkup(p,autoplay,mutedPlayback){
+  const origin=encodeURIComponent(location.origin);
+  let src='';
+  if(p.platform==='youtube'){
+    src='https://www.youtube-nocookie.com/embed/'+p.video_id+
+      '?autoplay='+(autoplay?'1':'0')+'&playsinline=1&fs=0&rel=0&controls=1&enablejsapi=1&mute='+
+      (mutedPlayback?'1':'0')+'&origin='+origin;
+  }else if(p.platform==='tiktok'){
+    src='https://www.tiktok.com/player/v1/'+encodeURIComponent(p.external_id)+
+      '?autoplay='+(autoplay?'1':'0')+'&controls=1&loop=0&description=0&rel=0';
+  }else if(p.platform==='instagram'){
+    src='https://www.instagram.com/reel/'+encodeURIComponent(p.external_id)+'/embed/';
+  }else if(p.platform==='facebook'){
+    src='https://www.facebook.com/plugins/video.php?href='+encodeURIComponent(p.source_url)+
+      '&show_text=false&autoplay='+String(autoplay)+'&width=400';
+  }
+  if(!src)return '';
+  // Only Orbit's portrait viewer may request fullscreen. Never grant the
+  // cross-origin YouTube iframe native fullscreen permissions.
+  return '<iframe class="reel-frame reel-frame--'+p.platform+'" src="'+escape(src)+
+    '" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" '+
+    'allow="autoplay; encrypted-media; picture-in-picture"></iframe>';
+}
+function prewarmNextReel(index){
+  if(tab!=='Reels'||index!==reelActiveIndex)return;
+  const next=index+1,p=reelItems()[next];
+  if(!p||p.platform!=='youtube')return;
+  const media=document.getElementById('reel-media-'+next);
+  if(!media||media.querySelector('iframe'))return;
+  const markup=reelEmbedMarkup(p,false,true);
+  if(!markup)return;
+  media.innerHTML+=markup; // the poster stays visible until the next Reel starts
+  media.setAttribute('data-prewarmed','true');
+  reelPlaybackStates.set(next,{paused:true,muted:true});
+  const frame=media.querySelector('iframe');
+  if(frame)attachYoutubePlayer(next,frame);
+}
+function scheduleReelPrewarm(index){
+  clearTimeout(reelPrewarmTimer);
+  reelPrewarmTimer=setTimeout(()=>prewarmNextReel(index),220);
+}
+
 function startReel(index,mutedPlayback=!reelSoundOn){
   const clips=reelItems();
   if(index<0||index>=clips.length||tab!=='Reels')return;
@@ -711,20 +756,13 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   const media=document.getElementById('reel-media-'+index);
   if(!media)return;
   if(media.querySelector('iframe')){resumeCachedReel(index);return;}
-  const origin=encodeURIComponent(location.origin);
-  let src='';
-  if(p.platform==='youtube'){
-    src='https://www.youtube-nocookie.com/embed/'+p.video_id+'?autoplay=1&playsinline=1&fs=0&rel=0&controls=1&enablejsapi=1&mute='+(mutedPlayback?'1':'0')+'&origin='+origin;
-  }else if(p.platform==='tiktok'){
-    src='https://www.tiktok.com/player/v1/'+encodeURIComponent(p.external_id)+'?autoplay=1&controls=1&loop=0&description=0&rel=0';
-  }else if(p.platform==='instagram'){
-    src='https://www.instagram.com/reel/'+encodeURIComponent(p.external_id)+'/embed/';
-  }else if(p.platform==='facebook'){
-    src='https://www.facebook.com/plugins/video.php?href='+encodeURIComponent(p.source_url)+'&show_text=false&autoplay=true&width=400';
-  }
-  if(!src)return;
-  // YouTube/TikTok must never hijack Android's native fullscreen viewer. Orbit owns fullscreen.
-  media.innerHTML='<iframe class="reel-frame reel-frame--'+p.platform+'" src="'+escape(src)+'" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture"></iframe>';
+  const markup=reelEmbedMarkup(p,true,mutedPlayback);
+  if(!markup)return;
+  // Retain the thumbnail while the cross-origin player buffers rather than
+  // showing an empty black viewport during fast swipes.
+  media.innerHTML+=markup;
+  const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
+  card?.removeAttribute('data-video-ready');
   reelPlaybackStates.set(index,{paused:false,muted:Boolean(mutedPlayback),autoplayMuted:Boolean(mutedPlayback)});
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
@@ -753,6 +791,7 @@ function setActiveReel(index){
   startReel(index,!(reelSoundOn&&reelAudioUnlocked));
   trimReelPlayers();
   ensureReelBuffer();
+  scheduleReelPrewarm(index);
   trimReelDOM();
   maybeRefreshReelCatalog();
 }
@@ -800,7 +839,10 @@ function attachYoutubePlayer(index,frame){
         if(event.data===1&&index!==reelActiveIndex){
           try{event.target.pauseVideo?.()}catch{}
         }
-        if(event.data===1&&index===reelActiveIndex)hideReelPlayFallback(index);
+        if(event.data===1&&index===reelActiveIndex){
+          document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-video-ready','true');
+          hideReelPlayFallback(index);
+        }
       },onAutoplayBlocked(){
         if(tab==='Reels'&&index===reelActiveIndex)showReelPlayFallback(index);
       }}});
@@ -1041,6 +1083,7 @@ function stopReels(){
   reelSeen.clear();
   reelGesture=null;reelScrollSettling=false;
   clearTimeout(reelSnapTimer);reelSnapTimer=null;
+  clearTimeout(reelPrewarmTimer);reelPrewarmTimer=null;
   reelBaseIndex=0;
   reelRefillPromise=null;
 }
