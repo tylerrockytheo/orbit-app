@@ -40,6 +40,9 @@ function node(id){
       return [];
     },
     insertAdjacentHTML(_where,html){this.innerHTML+=html},
+    handlers:new Map(),
+    addEventListener(type,fn){const group=this.handlers.get(type)||[];group.push(fn);this.handlers.set(type,group)},
+    removeEventListener(type,fn){this.handlers.set(type,(this.handlers.get(type)||[]).filter(x=>x!==fn))},
     scrollTo({top}){this.scrollTop=top}
   };
   nodes.set(id,value);
@@ -66,7 +69,8 @@ const doc={
  }
 };
 function fire(type,event){
- for(const listener of listeners.get(type)||[])listener(event)
+ for(const listener of node('reels-scroll').handlers?.get(type)||[])listener(event);
+ for(const listener of listeners.get(type)||[])listener(event);
 }
 class Player {
  constructor(frame,options){
@@ -138,6 +142,28 @@ assert.equal(players.length,beforePlayers,'returning should not create a new You
 assert.equal(first.time,19.4,'cached video position is unchanged');
 assert.equal(first.paused,false,'cached player resumes');
 assert.equal(node('reels-scroll').scrollTop,0,'snap ends exactly at first card');
+// A fast swipe far enough away releases the old iframe, but position remains
+// saved and is restored when the user returns two or more Reels later.
+first.time=27.2;
+touch('touchstart',640);touch('touchmove',380);touch('touchend',340);
+await new Promise(resolve=>setTimeout(resolve,5));
+assert.equal(context.__motion.active(),1);
+touch('touchstart',640);touch('touchmove',380);touch('touchend',340);
+await new Promise(resolve=>setTimeout(resolve,5));
+assert.equal(context.__motion.active(),2);
+assert.equal(first.destroyed,true,'oldest iframe is disposed after leaving the adjacent cache');
+assert.ok(context.__motion.positions()[firstKey].time>=27,'position survives iframe disposal');
+touch('touchstart',260);touch('touchmove',540);touch('touchend',560);
+await new Promise(resolve=>setTimeout(resolve,5));
+assert.equal(context.__motion.active(),1);
+touch('touchstart',260);touch('touchmove',540);touch('touchend',560);
+await new Promise(resolve=>setTimeout(resolve,5));
+assert.equal(context.__motion.active(),0);
+const rebuilt=players.at(-1);
+assert.notEqual(rebuilt,first,'player was recreated only after moving beyond cache window');
+assert.ok(rebuilt.seekCount>=1,'recreated player must seek back to saved playback time');
+assert.ok(Math.abs(rebuilt.time-27.2)<.2,'restored playback timestamp matches prior position');
+
 assert.ok(fs.readFileSync(new URL('../styles.css',import.meta.url),'utf8').includes('scroll-snap-type:none!important'),
  'native mandatory scroll snap must be disabled inside Reels');
-console.log('Reel motion tests passed: finger-following flicks, one-card navigation, cached iframe and saved playback time');
+console.log('Reel motion tests passed: finger-following swipe, bounded adjacent players, saved positions and restoration after iframe eviction');
