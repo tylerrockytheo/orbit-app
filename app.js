@@ -293,7 +293,7 @@ function imageCard(p){
       +(img||'<span class="provider-clip-icon">'+escape(providerName(p))+'</span>')
       +'<span class="play-icon">'+svg('Play')+'</span></button></div>';
   }
-  if(p.video_id)return '<div class="media-wrap" id="media-'+escape(p.id)+'"><button type="button" class="video-cover" data-play="'+escape(p.id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button></div>';
+  if(p.video_id)return '<div class="media-wrap" id="media-'+escape(p.id)+'"><button type="button" class="video-cover" data-play="'+escape(p.id)+'" aria-label="Play video: '+escape(p.title)+'">'+img+'<span class="play-icon">'+svg('Play')+'</span></button><button type="button" class="feed-expand" data-feed-fullscreen="'+escape(p.id)+'" aria-label="Fullscreen video">⛶</button></div>';
   return img?'<div class="media-wrap">'+img+'</div>':'';
 }
 const storyThemes={
@@ -1249,6 +1249,7 @@ function mountFeedAutoplay(){
       if(entry.isIntersecting&&entry.intersectionRatio>.55)feedRatios.set(id,entry.intersectionRatio);
       else feedRatios.delete(id);
     }
+    if(feedFullscreenFallbackId||document.fullscreenElement?.classList?.contains?.('media-wrap'))return;
     const current=[...feedRatios].sort((a,b)=>b[1]-a[1])[0]?.[0];
     if(current)activateFeedVideo(current,!feedAudioUnlocked);
     else suspendFeedVideo();
@@ -1257,7 +1258,7 @@ function mountFeedAutoplay(){
 }
 function updateFeedSoundButton(id,message){
   if(id!==feedActiveVideo)return;
-  const button=document.querySelector('[data-feed-sound]');
+  const button=document.getElementById('media-'+id)?.querySelector('[data-feed-sound]');
   if(!button)return;
   button.textContent=message;button.disabled=false;
   button.setAttribute('aria-label',feedSoundWanted?'Mute video':'Unmute video');
@@ -1271,6 +1272,7 @@ function verifyFeedSound(id){
     let muted=true;
     try{if(feedPlayer&&typeof feedPlayer.isMuted==='function')muted=feedPlayer.isMuted()}catch{}
     feedSoundVerified=!muted;
+    const session=feedSessions.get(id);if(session)session.soundVerified=!muted;
     updateFeedSoundButton(id,muted?'🔊 Tap to enable sound':'🔊 Sound on');
   },350);
 }
@@ -1284,6 +1286,7 @@ function feedSound(id){
   const enable=!feedSoundWanted||!feedSoundVerified;
   if(enable)feedAudioUnlocked=true; // an explicit tap may unlock future audible autoplay
   feedSoundWanted=enable;feedSoundVerified=false;
+  const session=feedSessions.get(id);if(session){session.soundWanted=enable;session.soundVerified=false}
   if(!feedSoundWanted){
     try{if(feedPlayer)feedPlayer.mute();else sendYoutubeCommand(frame,'mute')}catch{}
     updateFeedSoundButton(id,'🔇 Sound off');return;
@@ -1295,6 +1298,40 @@ function feedSound(id){
   }catch(e){console.debug('Feed unmute request unavailable',e)}
   verifyFeedSound(id);
 }
+function updateFeedFullscreenButton(id){
+  const host=document.getElementById('media-'+id);
+  const button=host?.querySelector('[data-feed-fullscreen]');
+  if(!button)return;
+  const expanded=feedFullscreenFallbackId===id||document.fullscreenElement===host;
+  button.textContent=expanded?'⤢':'⛶';
+  button.setAttribute('aria-label',expanded?'Exit fullscreen video':'Fullscreen video');
+}
+async function toggleFeedFullscreen(id){
+  if(!id||!item(id)?.video_id||tab==='Reels')return;
+  const host=document.getElementById('media-'+id);
+  if(!host)return;
+  if(feedFullscreenFallbackId===id){clearFeedFullscreenFallback();updateFeedFullscreenButton(id);return}
+  if(document.fullscreenElement===host){
+    try{await document.exitFullscreen()}catch(e){console.debug('Exit fullscreen unavailable',e)}
+    updateFeedFullscreenButton(id);return;
+  }
+  if(!feedSessions.has(id))activateFeedVideo(id,!feedAudioUnlocked);
+  if(feedActiveVideo!==id)activateFeedVideo(id,!feedAudioUnlocked);
+  if(document.fullscreenElement&&document.fullscreenElement!==host){
+    toast('Exit the current fullscreen video first');return;
+  }
+  if(typeof host.requestFullscreen==='function'){
+    try{await host.requestFullscreen();updateFeedFullscreenButton(id);return}
+    catch(e){console.debug('Native fullscreen unavailable; using Orbit viewport viewer',e)}
+  }
+  feedFullscreenFallbackId=id;
+  host.classList?.add?.('feed-immersive-fullscreen');
+  document.body.classList?.add?.('feed-immersive-mode');
+  updateFeedFullscreenButton(id);
+}
+document.addEventListener('fullscreenchange',()=>{
+  if(feedActiveVideo)updateFeedFullscreenButton(feedActiveVideo);
+});
 function playing(id){feedAudioUnlocked=true;activateFeedVideo(id,false)}
 function retryFeedVideo(id){
   if(id!==feedActiveVideo)return;
@@ -1317,7 +1354,7 @@ document.addEventListener('input',e=>{if(e.target.matches('[data-reel-seek]')){r
 document.addEventListener('change',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false;updateReelProgress()}});
 document.addEventListener('pointerup',e=>{if(e.target.matches?.('[data-reel-seek]')){seekReel(e.target);reelScrubbing=false}});
 const slug=s=>s.replace(/[^A-Za-z0-9]/g,'-');
-document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='add-clip'){addPublicClip();return}if(d.removeClip!==undefined){importedClips.splice(Number(d.removeClip),1);persist();posts=posts.filter(p=>!p.id.startsWith('local:'));mergeImportedClips();mergeYouTubeUploads();render();return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsRefresh!==undefined){await refreshReels();return}if(d.reelsReplay!==undefined){reelReplayMode=true;stopReels();activeReelQueue=null;render();return}if(d.playerControls!==undefined){toggleOfficialControls();return}if(d.orbitFullscreen!==undefined){await toggleOrbitFullscreen();return}if(d.reelStart!==undefined){playReelFromGesture(Number(d.reelStart));return}if(d.reelsAudioTap!==undefined){tapReel(Number(d.reelsAudioTap));return}if(d.reelsSound!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){playReelFromGesture(Number(d.reelPlay));return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){feedMixNonce+=1;store('orbit_feed_mix_nonce',feedMixNonce);await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.feedSound){feedSound(d.feedSound);return}if(d.feedRetry){retryFeedVideo(d.feedRetry);return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
+document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;if(d.like){toggleLike(d.like);return}if(d.lessLike){const p=item(d.lessLike);closeOverlay();showLessLike(p);return}if(b.id==='add-clip'){addPublicClip();return}if(d.removeClip!==undefined){importedClips.splice(Number(d.removeClip),1);persist();posts=posts.filter(p=>!p.id.startsWith('local:'));mergeImportedClips();mergeYouTubeUploads();render();return}if(b.id==='clear-likes'){if(window.confirm('Clear your private likes? This resets the preferences learned from likes.')){likes={};lessLiked={};feedback=feedbackProfile();persist();render();toast('Like history cleared')}return}if(d.tab){changeTab(d.tab);return}if(d.openReels!==undefined){requestedReel=d.openReels||null;changeTab('Reels');return}if(d.reelsClose!==undefined){changeTab(reelsReturnTab);return}if(d.reelsRefresh!==undefined){await refreshReels();return}if(d.reelsReplay!==undefined){reelReplayMode=true;stopReels();activeReelQueue=null;render();return}if(d.playerControls!==undefined){toggleOfficialControls();return}if(d.orbitFullscreen!==undefined){await toggleOrbitFullscreen();return}if(d.reelStart!==undefined){playReelFromGesture(Number(d.reelStart));return}if(d.reelsAudioTap!==undefined){tapReel(Number(d.reelsAudioTap));return}if(d.reelsSound!==undefined){toggleReelSound();return}if(d.reelsNext!==undefined){reelJump(Number(d.reelsNext)+1);return}if(d.reelPlay!==undefined){playReelFromGesture(Number(d.reelPlay));return}if(b.id==='settings-btn'){changeTab('You');return}if(b.id==='search-btn'){changeTab('Search');document.getElementById('search-input')?.focus();return}if(b.id==='refresh-feed'){feedMixNonce+=1;store('orbit_feed_mix_nonce',feedMixNonce);await fetchFeed(true);return}if(d.filter){filter=d.filter;render();return}if(d.close!==undefined){closeOverlay();return}if(d.save){const p=item(d.save);if(!p)return;if(bookmarks[p.id])delete bookmarks[p.id];else{bookmarks[p.id]={...p,saved_at:new Date().toISOString()};const ids=Object.keys(bookmarks);if(ids.length>100)delete bookmarks[ids[0]]}persist();if(tab==='Reels')updateReelSave(p.id);else render();if(!overlay.hidden&&new URL(location.href).searchParams.has('post'))sharedPost(p.id);toast(bookmarks[p.id]?'Saved':'Removed from saved');return}if(d.share){const p=item(d.share);if(p)await sharePost(p);return}if(d.options){const p=item(d.options);if(p)openOptions(p);return}if(d.hideTopic){muted.add(d.hideTopic);persist();closeOverlay();if(tab==='Reels'){stopReels();activeReelQueue=null}render();toast('Topic hidden. Change this in You.');return}if(d.unmute){muted.delete(d.unmute);persist();render();return}if(d.feedSound){feedSound(d.feedSound);return}if(d.feedFullscreen){await toggleFeedFullscreen(d.feedFullscreen);return}if(d.feedRetry){retryFeedVideo(d.feedRetry);return}if(d.play){playing(d.play);return}if(d.sharedAnswer){if(d.sharedAnswer==='yes'){weights[d.topic]=Math.max(weights[d.topic]||0,16);tentative.delete(d.topic)}if(d.sharedAnswer==='maybe')tentative.add(d.topic);persist();openOverlay('<section class="panel"><h2>Thanks</h2><p>'+(d.sharedAnswer==='yes'?'This topic is now part of your interests.':d.sharedAnswer==='maybe'?'We saved this as a maybe. It will not change your feed yet.':'Your recommendations remain unchanged.')+'</p><button class="primary-btn" data-close>Continue</button></section>');return}if(b.id==='copy-prompt'){try{await navigator.clipboard.writeText(AI_PROMPT);toast('Prompt copied')}catch{window.prompt('Copy this prompt',AI_PROMPT)}return}if(b.id==='review-profile'){showPreview();return}if(b.id==='approve-import'){const selected=importCandidates.filter((p,i)=>document.querySelector('[data-import="'+i+'"]')?.checked);for(const p of selected){weights[p.topic]=p.weight;muted.delete(p.topic)}persist();render();toast('Interests updated on your device');return}if(b.id==='reset-interests'){weights={...DEFAULT_WEIGHTS};muted.clear();persist();render();return}});
 
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!overlay.hidden){closeOverlay();return}
