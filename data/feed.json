@@ -1,7 +1,466 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T20:54:49.168636Z",
+  "generated_at": "2026-10-16T23:26:48.946460Z",
   "posts": [
+    {
+      "id": "516338cb85f737e7c7",
+      "title": "Pope pictured for first time since surgery and cancer diagnosis",
+      "category": "World",
+      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T23:20:37Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b711/live/6c3028b0-c978-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "d867f69eb2d83ef08a",
+      "title": "The Hiring of Peter Rice at Netflix Could Set the Stage for a Corporate Culture Clash About the Future of Movies",
+      "category": "Entertainment",
+      "summary": "The profile of what a Hollywood executive is — the role, the methods, the priorities — is now in the midst of a transformation. The old definition of a successful studio executive was someone who’s commercially victorious, with a track record of great movies. But what we once called a movie executive might now be […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/columns/peter-rice-hired-by-netflix-ted-sarandos-1236914367/",
+      "published_at": "2026-10-16T23:18:36Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-1-9.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e19981fd9d2bbc5adb",
+      "title": "How ‘You Can See Everything’ Exacts Hollywood’s Revenge on Big Tech",
+      "category": "Entertainment",
+      "summary": "Along with 'Artificial,' 'Musk' and 'The Social Reckoning,' the storytellers are finally getting back at the engineers.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/business/digital/you-can-see-everything-fielder-holmes-themes-showtimes-1236734072/",
+      "published_at": "2026-10-16T23:13:36Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "eb45296f37b0888044",
+      "title": "Timothy Busfield Child Sex Abuse Case Dismissed Over Prosecutorial Misconduct",
+      "category": "Entertainment",
+      "summary": "A New Mexico judge says prosecutors failed to act “in a fair and impartial manner” before the grand jury, but refiling remains possible.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/timothy-busfield-child-sex-abuse-case-dismissed-1236734102/",
+      "published_at": "2026-10-16T23:09:09Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "14af3585a274d8ec46",
+      "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+      "category": "World",
+      "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T23:07:38Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "bc2bb09f4b8ba2dea5",
+      "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
+      "category": "World",
+      "summary": "For 15 months, a high-security courtroom in Hamburg has been hearing the case of Christina Block, accused of ordering the abduction of her children.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T23:07:18Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f50/live/e57d8d50-c8c1-11f1-bdfb-e3788aeae9ec.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "165539bdf739aa00dd",
+      "title": "Castlevania Belmont's Curse - Best Weapons Types (And How to Use Them)",
+      "category": "Entertainment",
+      "summary": "There are seven different types of weapons in Castlevania: Belmont's Curse, each with their own pros and cons, and a handful of nuances that you must know in order to bring out the best in them. But which are the best in which situations?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=5hP5zRlDghM",
+      "published_at": "2026-10-16T23:00:20Z",
+      "image_url": "https://i.ytimg.com/vi/5hP5zRlDghM/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "5hP5zRlDghM",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9aaacca86d2ca73d3d",
+      "title": "John Amos’ Daughter Sues Brother for Wrongful Death Over Actor’s Death",
+      "category": "Entertainment",
+      "summary": "Shannon Amos accuses K.C. Amos of exploiting their father while ignoring his medical needs in a plan to gain control of the actor's finances upon his death.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/john-amos-daughter-sues-brother-for-wrongful-death-over-actors-death-1236733965/",
+      "published_at": "2026-10-16T23:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e875c04c0c43aee7d2",
+      "title": "Austin Abrams Still Won’t Admit Which Was Tougher to Shoot, ‘Whalefall’ or ‘Resident Evil’",
+      "category": "Entertainment",
+      "summary": "The actor dives deep into 'Whalefall,' and partakes in a 'Resident Evil' post-mortem speed round.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/whalefall-austin-abrams-resident-evil-1236733923/",
+      "published_at": "2026-10-16T22:48:07Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6ff045b26e9663e323",
+      "title": "Kim Kardashian Wants to Compete on ‘Dancing With the Stars’ Again: “I’d Do It”",
+      "category": "Entertainment",
+      "summary": "The longtime reality star competed on the show's seventh season in 2008 alongside Mark Ballas, and finished in 11th place. So far, 'DWTS' has only had one All-Star season full of returning contestants in 2012.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/kim-kardashian-dancing-with-the-stars-all-stars-return-1236734062/",
+      "published_at": "2026-10-16T22:36:59Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f0b4634765e89c5c11",
+      "title": "When The Boss Has a Second Phase #yuyuhakusho #abridgedseries #parody",
+      "category": "Anime",
+      "summary": "Alt title: Genkai tries really hard to just have Rando and Yusuke kill each other Wanna see all videos early?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TeamFourStar · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=nKk-DHksrbs",
+      "published_at": "2026-10-16T22:30:38Z",
+      "image_url": "https://i.ytimg.com/vi/nKk-DHksrbs/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "nKk-DHksrbs",
+      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "888b7e65d247794bdf",
+      "title": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
+      "category": "Entertainment",
+      "summary": "Round one…fight! “Street Fighter” is back on the big screen for a new take on the popular fighting game video series that started back in arcades in the 1980s and is still popular today.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/lists/street-fighter-cast-video-game-vs-live-action/",
+      "published_at": "2026-10-16T22:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/mcdstfi-pa022-mcdstfi-pa052-mcdstfi-pa023-mcdstfi-pa064-1000x667-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d90d25f078167be72e",
+      "title": "K-pop Entertainment Company Hello82 Aims to Plant a Flag in Festival Market with Inaugural 82World",
+      "category": "Entertainment",
+      "summary": "The two-day, fan-focused festival arrives in Los Angeles this weekend, headlined by the chart-topping boy group ATEEZ.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-features/hello82-kpop-festival-82-world-ateez-p1harmony-1236733943/",
+      "published_at": "2026-10-16T22:15:17Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "987c073bbd5347f9ca",
+      "title": "Hallmark’s Christmas Workshop: On the Set of ‘Holiday Touchdown: A Bears Love Story’",
+      "category": "Entertainment",
+      "summary": "The third movie in a partnership with the NFL is the centerpiece of 2026's 'Countdown to Christmas' opening weekend.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/hallmark-nfl-christmas-movie-bears-love-story-1236734057/",
+      "published_at": "2026-10-16T22:12:49Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "a76a444608accd4bd4",
+      "title": "Elizabeth Holmes’ Partner Billy Evans Admits ‘She Looks Insane’ in ‘You Can See Everything’ Trailer but Defends Making the Doc: ‘Make Up Your Own Mind’",
+      "category": "Entertainment",
+      "summary": "Elizabeth Holmes’ partner Billy Evans appeared on the “All-In” podcast just as Nathan Fielder and Lance Oppenheim’s documentary “You Can See Everything” started its theatrical release to explain why the couple allowed a camera crew inside their home in the days leading up to Holmes going to prison.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/billy-evans-defends-you-can-see-everything-elizabeth-holmes-insane-1236914043/",
+      "published_at": "2026-10-16T22:00:54Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/gettyimages-1248465318_1024-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "57ee8917adcac50609",
+      "title": "8 Call of Duty Games Still Missing from Game Pass",
+      "category": "Gaming",
+      "summary": "Game Pass has a few excellent Call of Duty games available, but some of the best entries from years past are conspicuously absent.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-call-of-duty-games-missing-from-game-pass/",
+      "published_at": "2026-10-16T22:00:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/vs-youtube-modernwarfare4pre-orderbonusinnercircuitm4blueprint-youtube-0-07.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "41d4828a44935ada8f",
+      "title": "Call of Duty Modern Warfare 4 - All Campaign Collectible Locations",
+      "category": "Entertainment",
+      "summary": "Looking for every note and supply cache in Call of Duty: Modern Warfare 4's campaign? Look no further. In this guide we show our suggested path for collecting all 58 Notes and 26 Yellow Crates in the single player story mode of Call of Duty MW4.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=Oio1ttHQ17o",
+      "published_at": "2026-10-16T22:00:10Z",
+      "image_url": "https://i.ytimg.com/vi/Oio1ttHQ17o/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "Oio1ttHQ17o",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6954bf4408de59180e",
+      "title": "Home Run Derby Speedrun",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=XnljGIo9nZ4",
+      "published_at": "2026-10-16T21:54:19Z",
+      "image_url": "https://i.ytimg.com/vi/XnljGIo9nZ4/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "XnljGIo9nZ4",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "411c203ed8bf3a4390",
+      "title": "ID@Xbox x IGN October Showcase 2026",
+      "category": "Gaming",
+      "summary": "The ID@Xbox showcase is back! IGN and Xbox are teaming up to bring you an exclusive look at tons of new and unannounced games from some of the most talented independent studios around the world!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=8S8HwsEIGws",
+      "published_at": "2026-10-16T21:52:16Z",
+      "image_url": "https://i.ytimg.com/vi/8S8HwsEIGws/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "8S8HwsEIGws",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "b0544e454d9312e49e",
+      "title": "Music Industry Moves: My Chemical Romance Signs With Warner Chappell",
+      "category": "Music",
+      "summary": "Warner Chappell Music, the music publishing arm of Warner Music Group, has signed an exclusive worldwide administration agreement with veteran New Jersey rock band My Chemical Romance.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/jesse-jo-stark-wme-1236910696/",
+      "published_at": "2026-10-16T21:35:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/My-Chemical-Romance-2026-e1792187848504.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "c7321a2a2179c93a78",
+      "title": "‘Red Rising’ Movie in the Works at Paramount With ‘Hunger Games’ Director Francis Lawrence",
+      "category": "Entertainment",
+      "summary": "Hail Reaper! The rights to the popular “Red Rising” book series have been picked up at Paramount with “Hunger Games” director Francis Lawrence attached to a movie based on the first novel. Justin Rhodes will write the script, based on the original 2014 novel by author Pierce Brown.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/red-rising-movie-paramount-hunger-games-director-books-1236914459/",
+      "published_at": "2026-10-16T21:34:22Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/red-rising-1000-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e4a285c1072d072880",
+      "title": "Timothy Busfield Indictment on Child Sex Abuse Charges Thrown Out by Judge",
+      "category": "Entertainment",
+      "summary": "A New Mexico judge on Friday threw out an indictment against actor Timothy Busfield, finding that prosecutors failed to act in an impartial manner during the grand jury proceedings. Busfield was indicted in February on charges of groping a 7-year-old boy on the set of “The Cleaning Lady,” a Fox show on which he worked […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/timothy-busfield-indictment-child-sex-abuse-dismissed-1236914433/",
+      "published_at": "2026-10-16T21:16:22Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/02/GettyImages-2256757374.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e3c313484f1cadb0af",
+      "title": "Senior Horse Left To Die Gets The Sweetest Second Chance | The Dodo",
+      "category": "Animals",
+      "summary": "They built her an entire little house so she could sleep standing up ❤️😭 After Mari anthi was abandoned in a field and left to die, Nektarios gave her a second chance at life. Our Dodo producer Anita visited them to see how this sweet senior horse is doing, including the special little house Nektarios built just for her.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=R5uoTyFTtgw",
+      "published_at": "2026-10-16T21:00:31Z",
+      "image_url": "https://i.ytimg.com/vi/R5uoTyFTtgw/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "R5uoTyFTtgw",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "50bb146361e3cfd1ff",
+      "title": "Resident Evil 2 on Switch 2 Is My New Favorite Way to Play Capcom's Horror Masterpiece",
+      "category": "Gaming",
+      "summary": "Resident Evil 2 on Switch 2 runs smoothly and looks great, thanks in part to HDR's effects on colors and lighting",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/resident-evil-2-switch-2-impressions/",
+      "published_at": "2026-10-16T21:00:19Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/resident-evil-2-switch-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e526f057e4ed3a2c6b",
+      "title": "9 Most Perfect Single-Player Zelda Clones Nobody Plays, Ranked",
+      "category": "Gaming",
+      "summary": "From a yoyo adventure to a game where you die every minute, these nine overlooked single-player Zelda-likes are ranked by weirdness.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-zelda-likes-nobody-plays-ranked/",
+      "published_at": "2026-10-16T21:00:19Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/04/ss_04ac7db623d3e88751134eb87f5c465c392fa108.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "4e169a2ad9b716ff23",
+      "title": "Extreme River Racing! Floaties Vs 200m Waterfall",
+      "category": "Comedy",
+      "summary": "Rexy Clothing ➤ https://rexyclothing.com Business/Licensing Inquiries ➤ https://howridiculous.org/ Memberships ➤ Exclusive Badges and Emotes + Rexy Clothing discount code!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "How Ridiculous · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=fGQwYRu6yQY",
+      "published_at": "2026-10-16T21:00:13Z",
+      "image_url": "https://i.ytimg.com/vi/fGQwYRu6yQY/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "fGQwYRu6yQY",
+      "youtube_channel_id": "UC5f5IV0Bf79YLp_p9nfInRA",
+      "topics": [
+        "Comedy"
+      ]
+    },
+    {
+      "id": "5f50ec66f4bb1521a2",
+      "title": "🧰 Builders building with Gemini Audio",
+      "category": "AI & Tech",
+      "summary": "Google DeepMind's Paige Bailey catches up with builders experimenting with our latest models.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Google Developers · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=LJ2v4-FvPcA",
+      "published_at": "2026-10-16T21:00:00Z",
+      "image_url": "https://i.ytimg.com/vi/LJ2v4-FvPcA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "LJ2v4-FvPcA",
+      "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "topics": [
+        "AI & Tech"
+      ]
+    },
     {
       "id": "8d5211a7e71e9bca52",
       "title": "London Film Festival’s Surprise Movie Is… ‘I Play Rocky’",
@@ -1652,23 +2111,6 @@
       ]
     },
     {
-      "id": "516338cb85f737e7c7",
-      "title": "Pope pictured for first time since surgery and cancer diagnosis",
-      "category": "World",
-      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T14:36:39Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b711/live/6c3028b0-c978-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "0d09aeb7870fec55fb",
       "title": "Albanian protests turn violent: What we know",
       "category": "World",
@@ -3199,40 +3641,6 @@
       ]
     },
     {
-      "id": "b322cf7e1e997b2784",
-      "title": "GKIDS Offers CITY the Animation on BD Collector's Edition on December 15",
-      "category": "Anime",
-      "summary": "Release available exclusively on online GKIDS store",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/gkids-offers-city-the-animation-on-bd-collector-edition-on-december-15/.242867",
-      "published_at": "2026-10-16T02:03:46Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "be26484e4cd4ce2d12",
-      "title": "Daisy Edgar-Jones Reveals She Might Be “Slightly Deaf” in One Ear After Filming ‘Twisters’",
-      "category": "Entertainment",
-      "summary": "The actress starred opposite Glen Powell in the 2024 action-adventure thriller.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/daisy-edgar-jones-slightly-deaf-filming-twisters-1236733462/",
-      "published_at": "2026-10-16T01:58:43Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "4dd53e8ad7d673354a",
       "title": "GTA 6's composers have a history with Rockstar",
       "category": "Entertainment",
@@ -3245,57 +3653,6 @@
       "media_type": "video",
       "video_id": "u5sJaD38uTg",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "bcf8af2ced6166ed19",
-      "title": "Why Did Netflix Boot Bela Bajaria?",
-      "category": "Entertainment",
-      "summary": "Fear and loathing are running high as Hollywood processes Thursday’s shock firing of Bela Bajaria from her post as Netflix chief content officer. Yes, the company that popularized the “Keeper Test” is known for abrupt exits. But despite Netflix’s recent stock struggles, many considered Bajaria too big to fail.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/netflix-bela-bajaria-why-did-she-leave-1236913635/",
-      "published_at": "2026-10-16T01:43:38Z",
-      "image_url": "https://variety.com/wp-content/uploads/2024/10/bela-bajaria-pow.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "051d3591657b6b3490",
-      "title": "Why Did Netflix Boot Bela Bajaria?",
-      "category": "Entertainment",
-      "summary": "Fear and loathing are running high as Hollywood processes Thursday’s shock firing of Bela Bajaria from her post as Netflix chief content officer. Yes, the company that popularized the “Keeper Test” is known for abrupt exits. But despite Netflix’s recent stock struggles, many considered Bajaria too big to fail.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/news/netflix-bela-bajaria-why-did-she-leave-1236913635/",
-      "published_at": "2026-10-16T01:43:38Z",
-      "image_url": "https://variety.com/wp-content/uploads/2024/10/bela-bajaria-pow.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c06725a9a3eedd5fbe",
-      "title": "‘SNL’ Star Michael Che Reacts to Shane Gillis’ Controversial Monologue: “That’s Comedy”",
-      "category": "Entertainment",
-      "summary": "Gillis drew heat for a joke he made about women in the gym while recently hosting the NBC sketch comedy program.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/snl-michael-che-reacts-shane-gillis-controversial-monologue-1236733370/",
-      "published_at": "2026-10-16T01:27:19Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -3315,40 +3672,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "4da7f8144dd2bc68e0",
-      "title": "‘DWTS’ Pro Val Chmerkovskiy Apologizes to Carrie Ann Inaba for “Careless” Will Smith Oscars Slap Reference: “I Will Do Better”",
-      "category": "Entertainment",
-      "summary": "The dancer made a post writing, “You almost saw Fresh Prince enter the ballroom last night,\" which prompted the judge to respond with her own social post that read, \"So this is what we are doing now?\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-val-apologizes-carrie-ann-inaba-will-smith-oscars-slap-1236733459/",
-      "published_at": "2026-10-16T01:18:08Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "d08349bc9f112ab13f",
-      "title": "Kodansha USA Licenses Jackpot Girls, Powerless Without You, Occult Times, 7 Other Manga",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/kodansha-usa-licenses-jackpot-girls-powerless-without-you-occult-times-7-other-manga/.242866",
-      "published_at": "2026-10-16T01:14:32Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
       ]
     },
     {
@@ -3386,57 +3709,6 @@
       ]
     },
     {
-      "id": "956d93d4c218fae32c",
-      "title": "‘Street Fighter’ Eyes Box Office Victory as Buzzy Elizabeth Holmes Doc Heads for Strong Launch",
-      "category": "Entertainment",
-      "summary": "'You Can See Everything,' 'Whalefall' and 'Sense and Sensibility' are among the weekend's notable newcomers.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/street-fighter-box-office-whalefall-you-can-see-everything-1236733042/",
-      "published_at": "2026-10-16T00:27:59Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "170874da8d8fe741f6",
-      "title": "Olivia Rodrigo and Chappell Roan Compete on Game Shows Hosted by David Byrne in the Retro Video for ‘Expectations’ Remix",
-      "category": "Music",
-      "summary": "Olivia Rodrigo and Chappell Roan appear on vintage game shows in the retro music video for the “Expectations” remix, featuring appearances from musician David Byrne and producer Dan Nigro.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/olivia-rodrigo-chappell-roan-expectations-video-david-byrne-1236913618/",
-      "published_at": "2026-10-16T00:25:33Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Credit_PhoenixJohnson-e1792109845279.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "00cea36bf5ef9fbbfd",
-      "title": "Ben Affleck Warns ‘Digger’ Box Office Bomb Will Lead to “A Bunch of Sh***y Homogenized Movies”",
-      "category": "Entertainment",
-      "summary": "He argued that criticizing a \"big swing\" movie could result in studios later opting to take a safer approach with future projects.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/ben-affleck-digger-box-office-shitty-homogenized-movies-1236733419/",
-      "published_at": "2026-10-16T00:18:29Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "a4a18396e3faa9549e",
       "title": "Halloween: The Game - Official Eugene and Michelle Reveal Trailer",
       "category": "Gaming",
@@ -3451,142 +3723,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Gaming"
-      ]
-    },
-    {
-      "id": "d2f4524376d0077482",
-      "title": "The 27 Best ‘American Horror Story’ Characters, Ranked",
-      "category": "Entertainment",
-      "summary": "“American Horror Story” has given audiences a lot to chew on over the years: wildly inventive themes, sadistic imagery, over-the-top performances and gleefully macabre mythology.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/lists/american-horror-story-characters-ranked/",
-      "published_at": "2026-10-16T00:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/AmericanHorrorStory-Ranking.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "21837b1d0f179384ef",
-      "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-      "category": "World",
-      "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T23:38:46Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16df/live/2fc36f20-c8bc-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ee7682e210c3559ca1",
-      "title": "Porn showing choking or incest to be banned from early November, government says",
-      "category": "Entertainment",
-      "summary": "The move follows a review into pornography regulation in 2025 by Conservative peer Baroness Gabby Bertin",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmpqgepejr2ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T23:27:57Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee76/live/db556ac0-c8b5-11f1-bdfb-e3788aeae9ec.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "59c0a01120cdcbb099",
-      "title": "Tip-off foiled US teen suspect's plot to attack Hindu temple, police say",
-      "category": "World",
-      "summary": "The alleged plot only failed because the 19-year-old suspect's gun jammed outside the place of worship, say police.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqgm0j4kjvevo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T23:27:21Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/316e/live/9caab030-c88a-11f1-a2e8-f71844f8002e.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "a7226ba42e2966823c",
-      "title": "Living with a stink? Technology might help",
-      "category": "Science",
-      "summary": "Smells from rubbish dumps and industrial facilities are being more carefully monitored.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T23:18:21Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80ac/live/fbba3b20-c652-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "c0cd2fcc3b349cda85",
-      "title": "CAA Co-Chairman Kevin Huvane Dedicates Project Angel Food Van to His Late Father",
-      "category": "Entertainment",
-      "summary": "Patriarch Martin \"Pop\" Huvane was described as a devoted husband, father of six, grandfather and \"proud New Yorker\" who worked for the New York Transit Authority and Encyclopedia Britannica.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/caa-co-chairman-kevin-huvane-project-angel-food-van-donation-1236733389/",
-      "published_at": "2026-10-15T23:18:07Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "12b4e61fa5a9f46543",
-      "title": "Sparks fly at the Celebrity Traitors round table and a 'terrifying' death parade",
-      "category": "Entertainment",
-      "summary": "The celebrities turn on each other at the round table, and have to beat the death walkers for their mission.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq4g17j1ej95o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T23:01:49Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe0d/live/61dbffd0-c93a-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6d9105482cf85b0c99",
-      "title": "Today’s Wordle answer and hints for #1935 on October 16",
-      "category": "Music",
-      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1935 on October 16 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-      "published_at": "2026-10-15T23:01:34Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -5644,142 +5780,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "19146d9e667131c8d4",
-      "title": "Cozy After Dark 2026 | Cozy Games With a Dark Side",
-      "category": "Entertainment",
-      "summary": "Welcome to the first-ever Cozy After Dark Showcase! Cozy on the surface. Creepy underneath.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=CvEgCXixsNw",
-      "published_at": "2026-10-12T19:53:46Z",
-      "image_url": "https://i.ytimg.com/vi/CvEgCXixsNw/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "CvEgCXixsNw",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "174d8c50af47fbadfe",
-      "title": "Up Close with the Avengers: Doomsday Costumes | NYCC 2026",
-      "category": "Entertainment",
-      "summary": "Doomsday is coming! With the release of Avengers: Doomsday getting ever closer, we got to take a closer look at the Costumes from the upcoming film, from the floor of NYCC 2026! With the costumes for Red Guardian and Bob / Sentry of the New Avengers (or New AvengerZ if you prefer..",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=sslUG9iOblU",
-      "published_at": "2026-10-12T19:50:23Z",
-      "image_url": "https://i.ytimg.com/vi/sslUG9iOblU/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "sslUG9iOblU",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "40dc2ab83006a78d99",
-      "title": "Blind Descent - Official Release Date Trailer | IGN Fall Fan Fest 2026",
-      "category": "Entertainment",
-      "summary": "Get a look at the Release Date Trailer for Blind Descent, an open-world survival adventure game developed by Pokuch. Players will explore the great mysteries of Mars alone or with friends in co-op. Craft tools, overcome hazards across the planet, and adapt to ever-changing environments.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=fPtwA2ZbKoA",
-      "published_at": "2026-10-12T19:30:12Z",
-      "image_url": "https://i.ytimg.com/vi/fPtwA2ZbKoA/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "fPtwA2ZbKoA",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "2838eff462c3548ecb",
-      "title": "Anno 117 : Pax Romana - Official Pyramids Trailer | IGN Fall Fan Fest 2026",
-      "category": "Entertainment",
-      "summary": "Discover for the first time the Dawn of the Delta expansion for Anno 117: Pax Romana. Enter the new province of Aegyptus and take on the ambitious project to restore the great Pyramids in Rome’s honor. #Anno17PaxRomana #Gaming #IGNFanFest2026",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=BrNtULqIUgE",
-      "published_at": "2026-10-12T18:00:08Z",
-      "image_url": "https://i.ytimg.com/vi/BrNtULqIUgE/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "BrNtULqIUgE",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "31ef4d5f579c6d1524",
-      "title": "Taylor Momsen destroys a mic with her voice! #taylormomsen #rockmusic #shorts ￼",
-      "category": "Music",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Rick Beato · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=mQpzCDUn-5g",
-      "published_at": "2026-10-12T17:30:27Z",
-      "image_url": "https://i.ytimg.com/vi/mQpzCDUn-5g/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "mQpzCDUn-5g",
-      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "c15240579ee1610055",
-      "title": "Sifu - Official Mobile Launch Trailer",
-      "category": "Entertainment",
-      "summary": "Take a look at the Mobile Launch Trailer for Sifu, the hit third-person action combat game developed by Sloclap. Players will master combat abilities from stage to stage on a road paved by vengeance, and death is far from the end. Fight age in Sifu, available now for iOS and Android. #ign #gaming",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=rBPPryxDXuY",
-      "published_at": "2026-10-12T17:00:39Z",
-      "image_url": "https://i.ytimg.com/vi/rBPPryxDXuY/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "rBPPryxDXuY",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b015c8956c52746d66",
-      "title": "Who Eats at 10pm? Spain! Culture things to know about Spain",
-      "category": "Travel",
-      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UCFr3sz2t3bDp6Cux08B93KQ/join #travel #spain #visitspain Copyright Mark Wolters 2026 We receive a small percentage of sales from links on our videos from companies such as Amazon, Bookings, Expedia, Get Your Guide, and others.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Wolters World · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=FZpULkS1Go4",
-      "published_at": "2026-10-12T17:00:12Z",
-      "image_url": "https://i.ytimg.com/vi/FZpULkS1Go4/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "FZpULkS1Go4",
-      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "13894fe7884fca83d6",
-      "title": "The original cosmic hit #TEDTalks",
-      "category": "Discover",
-      "summary": "What sound came after the Big Bang? Astronomer Mark Whittle takes us back to the infant cosmos, where massive sound waves pulsed through primordial gas in a pattern that's still traceable across the universe today.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "TED · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=eW5Oi91m4SY",
-      "published_at": "2026-10-12T17:00:07Z",
-      "image_url": "https://i.ytimg.com/vi/eW5Oi91m4SY/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "eW5Oi91m4SY",
-      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
-      "topics": [
-        "Discover"
       ]
     }
   ],
