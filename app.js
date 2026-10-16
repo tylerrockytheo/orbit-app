@@ -458,7 +458,10 @@ function reelView(){
     const all=reelReplayMode?rankReelCandidates():unseen;
     const previousFirst=read('orbit_last_opened_reel_v1','');
     const explicitlyRequested=requestedReel&&posts.find(p=>p.id===requestedReel&&hasPlayableClip(p));
-    const first=explicitlyRequested||all.find(p=>clipIdentity(p)!==previousFirst)||all[0];
+    const recentReturn=!requestedReel&&!reelsRefreshing&&reelReturnClip&&
+      Date.now()-reelReturnAt<5*60000?
+      posts.find(p=>isReelClip(p)&&clipIdentity(p)===reelReturnClip):null;
+    const first=explicitlyRequested||recentReturn||all.find(p=>clipIdentity(p)!==previousFirst)||all[0];
     if(first)store('orbit_last_opened_reel_v1',clipIdentity(first));
     const other=first?all.filter(p=>clipIdentity(p)!==clipIdentity(first)).slice(0,REEL_AHEAD).map(p=>recentWatched.includes(clipIdentity(p))?{...p,replayed:true}:p):[];
     activeReelQueue=first?[recentWatched.includes(clipIdentity(first))?{...first,replayed:true}:first,...other]:[];
@@ -676,11 +679,13 @@ function resumeCachedReel(index){
   return true;
 }
 function trimReelPlayers(){
-  // Keep immediate neighbours mounted to allow instant back-swipes, never
-  // dozens of heavy YouTube iframes running in the background.
-  for(const card of document.querySelectorAll('.reel[data-playing]')){
+  // Keep the previous/current (plus one prepared next) but no more than three
+  // expensive cross-origin player iframes resident.
+  for(const card of document.querySelectorAll('.reel')){
     const index=Number(card.dataset.reelIndex);
-    if(Number.isFinite(index)&&Math.abs(index-reelActiveIndex)>1)resetReelPlayer(index);
+    if(Number.isFinite(index)&&Math.abs(index-reelActiveIndex)>1&&
+        document.getElementById('reel-media-'+index)?.querySelector('iframe'))
+      resetReelPlayer(index);
   }
 }
 function resetReelPlayer(index){
@@ -771,22 +776,30 @@ function youtubeApi(){
 function attachYoutubePlayer(index,frame){
   youtubeApi().then(api=>{
     const current=document.getElementById('reel-media-'+index)?.querySelector('iframe');
-    if(!api||tab!=='Reels'||index!==reelActiveIndex||current!==frame)return;
+    if(!api||tab!=='Reels'||current!==frame)return;
     try{
       const player=new api.Player(frame,{events:{onReady(event){
-        if(tab!=='Reels'||index!==reelActiveIndex||document.getElementById('reel-media-'+index)?.querySelector('iframe')!==frame)return;
+        if(tab!=='Reels'||document.getElementById('reel-media-'+index)?.querySelector('iframe')!==frame)return;
         reelYoutubePlayers.set(index,event.target);
-        try{reelPlaybackStates.set(index,{paused:event.target.getPlayerState?.()===2,muted:Boolean(event.target.isMuted?.())})}catch{}
-        applyReelVolume(index);
-        resumeReelAtSavedTime(index,event.target);
-        // Start inline without waiting for a second tap. Android generally
-        // allows muted autoplay, but the official API may report blocked autoplay.
-        try{event.target.playVideo?.()}catch(e){console.debug('Autoplay blocked; tap to start',e);showReelPlayFallback(index)}
-        updateReelProgress();syncReelSoundIcon();
+        const current=index===reelActiveIndex;
+        try{reelPlaybackStates.set(index,{paused:!current,muted:Boolean(event.target.isMuted?.())})}catch{}
+        if(current){
+          applyReelVolume(index);
+          resumeReelAtSavedTime(index,event.target);
+          try{event.target.playVideo?.()}catch(e){console.debug('Autoplay blocked; tap to start',e);showReelPlayFallback(index)}
+          updateReelProgress();syncReelSoundIcon();
+        }else{
+          // A swipe happened before the YouTube API finished attaching.
+          // Leave the player ready but paused; revisiting should be instant.
+          try{event.target.pauseVideo?.()}catch{}
+        }
       },onStateChange(event){
         const prev=reelPlaybackStates.get(index)||{};
         reelPlaybackStates.set(index,{...prev,paused:event.data===2});
-        if(event.data===1)hideReelPlayFallback(index);
+        if(event.data===1&&index!==reelActiveIndex){
+          try{event.target.pauseVideo?.()}catch{}
+        }
+        if(event.data===1&&index===reelActiveIndex)hideReelPlayFallback(index);
       },onAutoplayBlocked(){
         if(tab==='Reels'&&index===reelActiveIndex)showReelPlayFallback(index);
       }}});
@@ -1057,6 +1070,7 @@ async function refreshReels(){
       reelReplayMode=false;
       const hadPlaying=reelsStarted;
       stopReels();
+      reelReturnClip=null;
       activeReelQueue=null;
       reelsStarted=hadPlaying;
       render(); // Remains on Reels, resets to newest recommendation at top.
