@@ -62,7 +62,8 @@ const ctx={
  setInterval:()=>1,clearInterval:()=>{}
 };
 new vm.Script(fs.readFileSync(new URL('../app.js',import.meta.url),'utf8'),{filename:'app.js'}).runInNewContext(ctx);
-await Promise.resolve();await Promise.resolve();
+await new Promise(resolve=>setTimeout(resolve,30));
+assert.ok(ctx.io,'video observer must be initialized after feed loading');
 ctx.io.fn([{target:media,isIntersecting:true,intersectionRatio:.95}]);
 await Promise.resolve();await Promise.resolve();
 assert.ok(players.length===1,'feed must attach one player');
