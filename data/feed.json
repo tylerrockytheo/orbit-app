@@ -1,7 +1,381 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T23:54:14.253479Z",
+  "generated_at": "2026-10-16T04:18:39.429511Z",
   "posts": [
+    {
+      "id": "d26e64143e9899ba29",
+      "title": "Interview: A Deep Dive into the Creation and Philosophy of The Ninth Jedi",
+      "category": "Anime",
+      "summary": "Producer Hitoshi Ito and Directors Kenji Kamiyama and Shunsuke Tada speak on the origins of the color-changing lightsabers, the the \"State of Nothingness,\" and so much more.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interview/2026-09-24/a-deep-dive-into-the-creation-and-philosophy-of-the-ninth-jedi/.241654",
+      "published_at": "2026-10-16T04:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "e07612aa1f28f01dce",
+      "title": "Hands-on with Eternal Anima: A Classic JRPG for the Modern Era",
+      "category": "Anime",
+      "summary": "It's not a new Chrono Trigger but it may be the next best thing.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/convention/2026/tokyo-game-show/hands-on-with-eternal-anima-a-classic-jrpg-for-the-modern-era/.242161",
+      "published_at": "2026-10-16T04:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "ad28c60006c27a3554",
+      "title": "Cynthia Erivo’s ‘Bad Fairies’ Adds Kylie Minogue, Jonathan Groff and Catherine Tate to Voice Cast",
+      "category": "Entertainment",
+      "summary": "“Bad Fairies,” the Warner Bros. Picture Animation and Locksmith Animation musical comedy led by Cynthia Erivo, has added Kylie Minogue, Jonathan Groff and Catherine Tate to its voice cast.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/cynthia-erivo-bad-fairies-kylie-minogue-jonathan-groff-1236913639/",
+      "published_at": "2026-10-16T04:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/split-4-split-a-1000x667-3.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1edac6b3044a3a2135",
+      "title": "Three children and teacher killed in US primary school shooting",
+      "category": "World",
+      "summary": "The suspect was shot dead by a community member who followed him into the Oregon school, police said.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T03:45:09Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff29/live/cc0232d0-c90d-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "a884cf9b28ece44518",
+      "title": "‘Norm: The Tale of Norm Macdonald’ Review: Judd Apatow’s Juicy and Haunting Portrait of a Comedy Star as Troubled as He Was Hilarious",
+      "category": "Entertainment",
+      "summary": "At times, he had a streak of Andy Kaufman’s antisocial hostility in him, as if comedy was his way of testing both himself and the audience, seeing what they would accept, and seeing if he would be accepted.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/norm-the-tale-of-norm-macdonald-review-judd-apatow-1236911273/",
+      "published_at": "2026-10-16T03:43:27Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/Norm__The_Tale_of_Norm_Macdonald_n_00_48_23_20.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e9d16e2512847cfcca",
+      "title": "James McAvoy Reveals Which Film Paid Him “Bonkers” Residuals",
+      "category": "Entertainment",
+      "summary": "On the other hand, the actor also said he sometimes \"gets checks for like 25 cents.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/james-mcavoy-film-split-paid-bonkers-residuals-1236733475/",
+      "published_at": "2026-10-16T03:12:39Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "a65da14600ed5216cd",
+      "title": "Singer Kenshi Yonezu Goes on World Tour in Early 2027",
+      "category": "Anime",
+      "summary": "Tour goes to S. Korea, Singapore, USA, Mexico, Canada, UK, France, Netherlands",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/singer-kenshi-yonezu-goes-on-world-tour-in-early-2027/.242870",
+      "published_at": "2026-10-16T03:05:31Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "9884ec86f5c5f0c31d",
+      "title": "‘Grey’s Anatomy’ Boss Unpacks Season 23 Premiere and Teases Dolly Parton Episode, Texas Spinoff and Whether This Really Could Be the Final Season",
+      "category": "Entertainment",
+      "summary": "SPOILER ALERT: This interview contains major spoilers from “Collide,” the Season 23 premiere of ABC’s “Grey’s Anatomy,” streaming on Hulu. There’s a new sheriff in town at Grey Sloan Memorial Hospital.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/greys-anatomy-season-23-premiere-spinoff-update-final-season-1236911978/",
+      "published_at": "2026-10-16T03:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Greys-Season23-premiere-EllenPompeo.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5642697f2c139107f3",
+      "title": "‘Grey’s Anatomy’ Boss Meg Marinis on Texas Spinoff, Ellen Pompeo and Season 23 Premiere Cliffhangers",
+      "category": "Entertainment",
+      "summary": "The showrunner also talks to THR about keeping TV's reigning medical drama fresh amid competition and after so many years: \"No one has said anything to me about when the last season is going to be.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/greys-anatomy-premiere-season-23-texas-spinoff-ellen-pompeo-1236733218/",
+      "published_at": "2026-10-16T03:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "aebee0e32da710d5e9",
+      "title": "Crunchyroll Streams Dub for The Apothecary Diaries Season 3",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/crunchyroll-streams-dub-for-the-apothecary-diaries-season-3/.242868",
+      "published_at": "2026-10-16T02:44:18Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "b322cf7e1e997b2784",
+      "title": "GKIDS Offers CITY the Animation on BD Collector's Edition on December 15",
+      "category": "Anime",
+      "summary": "Release available exclusively on online GKIDS store",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/gkids-offers-city-the-animation-on-bd-collector-edition-on-december-15/.242867",
+      "published_at": "2026-10-16T02:03:46Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "be26484e4cd4ce2d12",
+      "title": "Daisy Edgar-Jones Reveals She Might Be “Slightly Deaf” in One Ear After Filming ‘Twisters’",
+      "category": "Entertainment",
+      "summary": "The actress starred opposite Glen Powell in the 2024 action-adventure thriller.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/daisy-edgar-jones-slightly-deaf-filming-twisters-1236733462/",
+      "published_at": "2026-10-16T01:58:43Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "bcf8af2ced6166ed19",
+      "title": "Why Did Netflix Boot Bela Bajaria?",
+      "category": "Entertainment",
+      "summary": "Fear and loathing are running high as Hollywood processes Thursday’s shock firing of Bela Bajaria from her post as Netflix chief content officer. Yes, the company that popularized the “Keeper Test” is known for abrupt exits. But despite Netflix’s recent stock struggles, many considered Bajaria too big to fail.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/netflix-bela-bajaria-why-did-she-leave-1236913635/",
+      "published_at": "2026-10-16T01:43:38Z",
+      "image_url": "https://variety.com/wp-content/uploads/2024/10/bela-bajaria-pow.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "051d3591657b6b3490",
+      "title": "Why Did Netflix Boot Bela Bajaria?",
+      "category": "Entertainment",
+      "summary": "Fear and loathing are running high as Hollywood processes Thursday’s shock firing of Bela Bajaria from her post as Netflix chief content officer. Yes, the company that popularized the “Keeper Test” is known for abrupt exits. But despite Netflix’s recent stock struggles, many considered Bajaria too big to fail.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/film/news/netflix-bela-bajaria-why-did-she-leave-1236913635/",
+      "published_at": "2026-10-16T01:43:38Z",
+      "image_url": "https://variety.com/wp-content/uploads/2024/10/bela-bajaria-pow.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "b227bcf00243c9e5ff",
+      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+      "category": "World",
+      "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T01:36:45Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d2/live/c1615dd0-c901-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "c06725a9a3eedd5fbe",
+      "title": "‘SNL’ Star Michael Che Reacts to Shane Gillis’ Controversial Monologue: “That’s Comedy”",
+      "category": "Entertainment",
+      "summary": "Gillis drew heat for a joke he made about women in the gym while recently hosting the NBC sketch comedy program.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/snl-michael-che-reacts-shane-gillis-controversial-monologue-1236733370/",
+      "published_at": "2026-10-16T01:27:19Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4da7f8144dd2bc68e0",
+      "title": "‘DWTS’ Pro Val Chmerkovskiy Apologizes to Carrie Ann Inaba for “Careless” Will Smith Oscars Slap Reference: “I Will Do Better”",
+      "category": "Entertainment",
+      "summary": "The dancer made a post writing, “You almost saw Fresh Prince enter the ballroom last night,\" which prompted the judge to respond with her own social post that read, \"So this is what we are doing now?\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-val-apologizes-carrie-ann-inaba-will-smith-oscars-slap-1236733459/",
+      "published_at": "2026-10-16T01:18:08Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d08349bc9f112ab13f",
+      "title": "Kodansha USA Licenses Jackpot Girls, Powerless Without You, Occult Times, 7 Other Manga",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/kodansha-usa-licenses-jackpot-girls-powerless-without-you-occult-times-7-other-manga/.242866",
+      "published_at": "2026-10-16T01:14:32Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "956d93d4c218fae32c",
+      "title": "‘Street Fighter’ Eyes Box Office Victory as Buzzy Elizabeth Holmes Doc Heads for Strong Launch",
+      "category": "Entertainment",
+      "summary": "'You Can See Everything,' 'Whalefall' and 'Sense and Sensibility' are among the weekend's notable newcomers.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/street-fighter-box-office-whalefall-you-can-see-everything-1236733042/",
+      "published_at": "2026-10-16T00:27:59Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "170874da8d8fe741f6",
+      "title": "Olivia Rodrigo and Chappell Roan Compete on Game Shows Hosted by David Byrne in the Retro Video for ‘Expectations’ Remix",
+      "category": "Music",
+      "summary": "Olivia Rodrigo and Chappell Roan appear on vintage game shows in the retro music video for the “Expectations” remix, featuring appearances from musician David Byrne and producer Dan Nigro.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/olivia-rodrigo-chappell-roan-expectations-video-david-byrne-1236913618/",
+      "published_at": "2026-10-16T00:25:33Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Credit_PhoenixJohnson-e1792109845279.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "00cea36bf5ef9fbbfd",
+      "title": "Ben Affleck Warns ‘Digger’ Box Office Bomb Will Lead to “A Bunch of Sh***y Homogenized Movies”",
+      "category": "Entertainment",
+      "summary": "He argued that criticizing a \"big swing\" movie could result in studios later opting to take a safer approach with future projects.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/ben-affleck-digger-box-office-shitty-homogenized-movies-1236733419/",
+      "published_at": "2026-10-16T00:18:29Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d2f4524376d0077482",
+      "title": "The 27 Best ‘American Horror Story’ Characters, Ranked",
+      "category": "Entertainment",
+      "summary": "“American Horror Story” has given audiences a lot to chew on over the years: wildly inventive themes, sadistic imagery, over-the-top performances and gleefully macabre mythology.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/lists/american-horror-story-characters-ranked/",
+      "published_at": "2026-10-16T00:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/AmericanHorrorStory-Ranking.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "21837b1d0f179384ef",
       "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
@@ -96,12 +470,29 @@
       "source_name": "BBC Entertainment",
       "source_url": "https://www.bbc.co.uk/news/articles/cq4g17j1ej95o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-15T23:01:49Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/718c/live/00b0e6b0-c8e7-11f1-8fce-870ed9afa8a0.jpg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2f9/live/eadcb880-c901-11f1-9943-e1428cb923d3.png",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1935 on October 16",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1935 on October 16 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-15T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -122,6 +513,23 @@
       ]
     },
     {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 16",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1223 The post ‘Connections’ answers and hints for today, October 16 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-15T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "0684fd9e363048c737",
       "title": "📖 Explore custom voice narration with Gemini 3.8 Flash TTS",
       "category": "AI & Tech",
@@ -136,6 +544,40 @@
       "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 16",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 16 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-15T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 16",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 16 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-15T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -539,6 +981,23 @@
       "source_url": "https://variety.com/2026/film/news/denis-villeneuve-james-bond-dune-3-1236913390/",
       "published_at": "2026-10-15T20:34:20Z",
       "image_url": "https://variety.com/wp-content/uploads/2026/03/zendaya-dune-3-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ea2f376574158c1eb6",
+      "title": "Oscars Predictions 2027: Where the Race Stands After ‘Artificial’ NYFF Premiere and Andrew Garfield’s Supporting Actor Push",
+      "category": "Entertainment",
+      "summary": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards editor Clayton Davis.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/lists/2027-oscars-predictions/",
+      "published_at": "2026-10-15T20:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDARTI_EC022.webp",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -3182,57 +3641,6 @@
       ]
     },
     {
-      "id": "b4204b55b3c7628635",
-      "title": "Kei Urana's Gachiakuta Manga Resumes on November 11",
-      "category": "Anime",
-      "summary": "Manga has been on hiatus since August 5 so author could do research",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/kei-urana-gachiakuta-manga-resumes-on-november-11/.242853",
-      "published_at": "2026-10-15T11:08:14Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "4760e2e41e80c8de12",
-      "title": "‘Spider-Man: Brand New Day’ VFX Boss Jerome Chen on Hulk’s Redesign, Finishing 445 Shots in a Week",
-      "category": "Entertainment",
-      "summary": "Marvel and Sony’s “Spider-Man: Brand New Day” involved nearly 2,000 VFX shots and just 24 weeks of post-production, with 445 shots delivered in a single week, overall VFX supervisor Jerome Chen revealed at View Conference in Turin on Wednesday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/spider-man-brand-new-day-vfx-boss-jerome-chen-hulk-1236912828/",
-      "published_at": "2026-10-15T11:01:26Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Chen_2.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "40c03c1c4ba4290c84",
-      "title": "League of Legends Classic will become a thing of the past in January 2027, though it may one day be resurrected as a limited-time event",
-      "category": "Gaming",
-      "summary": "The classic mode rolled out in League of Legends earlier this year will cease to be a permanent addition once the calendar flips over into 2027, ending a fairly brief nostalgia run, devs Riot have announced. The mode, offering a version of the MOBA mirroring its early days, only debuted in July .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/league-of-legends-classic-will-become-a-thing-of-the-past-in-january-2027-though-it-may-one-day-be-resurrected-as-a-limited-time-event",
-      "published_at": "2026-10-15T11:01:24Z",
-      "image_url": "https://assetsio.gnwcdn.com/league-of-legends-classic-going-offline-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "c55b50e2c71a914645",
       "title": "Emaciated Foster Dog Becomes The Biggest Velcro Dog | The Dodo",
       "category": "Animals",
@@ -3247,414 +3655,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "a278dfe347ec635fe0",
-      "title": "Obama says drift towards extremism 'not inevitable'",
-      "category": "World",
-      "summary": "More than 12,000 people filled a major venue in the city to hear the former US president's take on the challenges the world is facing. .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/crwyd7vq3xw1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T10:51:53Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/baf4/live/d48f4dd0-c87b-11f1-bf46-d13a9e06695d.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "595e8e7f731a7841c0",
-      "title": "Big Walk Is Skipping Xbox as Part of the Pro-Palestinian BDS Boycott",
-      "category": "Gaming",
-      "summary": "Developer House House said it won't release the game on Xbox until Microsoft is removed as a priority target by BDS",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/big-walk-skipping-xbox-palestinian-bds-boycott/",
-      "published_at": "2026-10-15T10:51:35Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/big-walk-gesture-gif.gif",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "3acdaa4edb57d38aaf",
-      "title": "MK2 Films Scores Brady Corbet, Kleber Mendonça Filho, Céline Sciamma Shorts (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "LYON, France — Short films by Brady Corbet, Kleber Mendonça Filho and Céline Sciamma are joining the international sales catalogue of Paris-based MK2 Films, which is expanding its collection of lesser-seen works by established filmmakers.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/mk2-brady-corbet-kleber-mendonca-filho-celine-sciamma-1236912755/",
-      "published_at": "2026-10-15T10:27:39Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Celine_2-Lilies-Films.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "a8d14bb85c90ec60ff",
-      "title": "Big Walk devs House House announce support for BDS Microsoft boycott, say the co-op puzzler isn't coming to Xbox",
-      "category": "Gaming",
-      "summary": "House House, creators of breezy co-op puzzle adventure Big Walk , have become the latest high-profile game developers to express support for the BDS (Boycott, Divestment, Sanctions) movement's ongoing Microsoft boycott.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/big-walk-devs-house-house-announce-support-for-bds-microsoft-boycott-say-the-co-op-puzzler-isnt-coming-to-xbox",
-      "published_at": "2026-10-15T10:27:34Z",
-      "image_url": "https://assetsio.gnwcdn.com/Big-Walk-head-maze.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "bf67048d5b82fb60eb",
-      "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
-      "category": "World",
-      "summary": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after Ukrainian President Volodymyr Zelenskyy said that a brief truce spurned by Moscow was over.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-      "published_at": "2026-10-15T10:05:58Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "f2607d697bdf067261",
-      "title": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-      "category": "World",
-      "summary": "Residents have been told to avoid leaving their homes unless absolutely necessary.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T10:05:29Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e0/live/9c970420-c869-11f1-971b-634f423608e9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "4f39731ec2d388d420",
-      "title": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
-      "category": "Science",
-      "summary": "Residents have been told to avoid leaving their homes unless absolutely necessary.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T10:05:29Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e0/live/9c970420-c869-11f1-971b-634f423608e9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "d7c2e15bf7f52bcf46",
-      "title": "Brazil's Congress approves shorter working week in win for Lula",
-      "category": "World",
-      "summary": "Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T10:05:17Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de61/live/a7661b70-c87d-11f1-8101-e3c2ed61ec71.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "6dc4e02476ea4e77b1",
-      "title": "Greetings from Mexico City, where a bullfighting ban doesn't stop this matador training",
-      "category": "World",
-      "summary": "One plays the bull, the other the bullfighter, as a pair practices a dance of death in a sport that's prohibited in the Mexican capital city.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/15/nx-s1-6001550/mexico-city-bullfighting-ban-matador-training",
-      "published_at": "2026-10-15T10:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "83121c9628281d84e1",
-      "title": "I Got a Cheat Skill in Another World 2nd Season Anime Reveals Teaser Video, New, Returning Cast & Staff, January 2027 Debut",
-      "category": "Anime",
-      "summary": "Ikumi Hasegawa, Sora Amamiya join anime's cast",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/i-got-a-cheat-skill-in-another-world-2nd-season-anime-reveals-teaser-video-new-returning-cast-and-/.242845",
-      "published_at": "2026-10-15T09:58:23Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "0d7c891107c33ac0da",
-      "title": "FlyDubai Hijacking Incident Set for Development as an Inspirational Movie by Dori Media Group and India’s Sphereorigin",
-      "category": "Entertainment",
-      "summary": "The harrowing but ultimately hopeful story of the FlyDubai airline hijacking incident last month is being developed as a narrative film by Dori Media Group and India’s Sphereorigin. The Sept.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/flydubai-hijacking-india-machchhar-dori-media-sphereorigin-1236912781/",
-      "published_at": "2026-10-15T09:55:34Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2297491841.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "13b06076836a2e78d5",
-      "title": "Ubisoft reportedly look to cut 100 more jobs by proposing voluntary redundancies at studios including lead Anno devs Ubisoft Mainz",
-      "category": "Gaming",
-      "summary": "Ubisoft have initiated talks over voluntary redundancies at three German studios under their banner, reportedly seeking to cut around 100 workers via the move.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/ubisoft-reportedly-look-to-cut-100-more-jobs-by-proposing-voluntary-redundancies-at-studios-including-lead-anno-devs-ubisoft-mainz",
-      "published_at": "2026-10-15T09:51:03Z",
-      "image_url": "https://assetsio.gnwcdn.com/ubisoft-propose-german-studio-vol-redundancies-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "76945c85b69e0a9863",
-      "title": "‘Normal People’ to be removed from UK book shops over Sally Rooney’s pro-Palestine support",
-      "category": "Music",
-      "summary": "\"A new low in the escalating assault on free speech,” said Palestine Action co-founder Huda Ammori The post ‘Normal People’ to be removed from UK book shops over Sally Rooney’s pro-Palestine support appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/tv/normal-people-removed-uk-book-sally-rooney-pro-palestine-support-action-3973182?utm_source=rss&utm_medium=rss&utm_campaign=normal-people-removed-uk-book-sally-rooney-pro-palestine-support-action",
-      "published_at": "2026-10-15T09:41:21Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Normal_People_Press_2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "0ed3ee57da4ee38c2d",
-      "title": "Geordie Greep responds after alleged victim and ex-bandmate speak out over “sexual assault” claims",
-      "category": "Music",
-      "summary": "“I want to unreservedly apologise for the distress and hurt I caused that night. It was a huge mistake. I feel awful about it” The post Geordie Greep responds after alleged victim and ex-bandmate speak out over “sexual assault” claims appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/geordie-greep-responds-alleged-victim-and-bandmate-speak-out-sexual-assault-claims-3973178?utm_source=rss&utm_medium=rss&utm_campaign=geordie-greep-responds-alleged-victim-and-bandmate-speak-out-sexual-assault-claims",
-      "published_at": "2026-10-15T09:39:53Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/geordie-greep@2000x1270-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "fa99ef61941ffe06ea",
-      "title": "Fire Emblem: Fortune’s Weave DLC Officially Fixes Its Most Controversial Change",
-      "category": "Gaming",
-      "summary": "New weapons, allies, outfits, and routes await players of Fire Emblem: Fortune's Weave.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-dlc-new-routes/",
-      "published_at": "2026-10-15T09:39:02Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/fire-emblem-fortune-s-weave-anatolia.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "9e3cb9d1edf2c7e17f",
-      "title": "Christian Slater, Trine Dyrholm, Dree Hemingway Join Dogma25 Feature ‘Incidents of Intimacy’",
-      "category": "Entertainment",
-      "summary": "Johannes Lilleøre, Julie Agnete Vang, Laura Drasbæk and Michael Moritzen will co-star in the low budget drama, directed by Jesper Just under the strict Dogma \"vow of chastity.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/christian-slater-trine-dyrholm-join-dogma25-feature-1236730700/",
-      "published_at": "2026-10-15T09:38:03Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "336089213d1ad74aaa",
-      "title": "Firefly Wedding TV Anime Casts Kanon Amane",
-      "category": "Anime",
-      "summary": "Amane voices courtesan Yukari in ongoing anime",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/firefly-wedding-tv-anime-casts-kanon-amane/.242849",
-      "published_at": "2026-10-15T09:37:31Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "b1cb617fdebf78320e",
-      "title": "Matsurika Kanriden TV Anime Casts Takuya Satō, Hiyori Kōno",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-15/matsurika-kanriden-tv-anime-casts-takuya-sato-hiyori-kono/.242846",
-      "published_at": "2026-10-15T09:16:18Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "2b02ce3314a2673419",
-      "title": "Pokémon Celebrates the Holidays Early with a Festive Merch Collection",
-      "category": "Gaming",
-      "summary": "The Pokémon Center has released a new collection of seasonal merch, giving fans plenty of time to prepare ahead of the holidays.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/pokemon-seasonal-merch-holiday-2026/",
-      "published_at": "2026-10-15T09:05:38Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/festive-pikachu.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "2db340ead738771ed6",
-      "title": "‘7 Miles Out,’ Starring Lucy Halliday, Tells a Coming-of-Age Story Full of Grief, Music and Friendship",
-      "category": "Entertainment",
-      "summary": "Carol Morley's adaptation of her semi-autobiographical novel about her adolescence near Manchester also stars Gemma Whelan and Aidan Gillen and premieres at the BFI London Film Festival.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/7-miles-out-carol-morley-film-lucy-halliday-grief-music-lff-1236729975/",
-      "published_at": "2026-10-15T09:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "d48bff44930dd04dd0",
-      "title": "Russell Brand accused of being a “ruthless” sexual predator during first day of rape trial",
-      "category": "Music",
-      "summary": "He denies the allegations made by six women The post Russell Brand accused of being a “ruthless” sexual predator during first day of rape trial appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/tv/russell-brand-rape-trial-ruthless-sexual-predator-allegations-deny-3973173?utm_source=rss&utm_medium=rss&utm_campaign=russell-brand-rape-trial-ruthless-sexual-predator-allegations-deny",
-      "published_at": "2026-10-15T08:57:29Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Russell-Brand-stands-trial-for-rape.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "ca0bf7863383586978",
-      "title": "Ukraine says its Starshield access is back",
-      "category": "World",
-      "summary": "Ukraine says its access to SpaceX's Starshield has been restored. It's the system the country uses for its offensive drone attacks on Russia.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-is-back",
-      "published_at": "2026-10-15T08:46:09Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "e73b049d1dddd4ebf4",
-      "title": "Rep. Mike Quigley, D-Ill., on reports Ukraine's Starshield access was restricted",
-      "category": "World",
-      "summary": "NPR's Michel Martin speaks with Democratic Rep. Mike Quigley of Illinois about reports that SpaceX temporarily restricted access to its Starshield in Ukraine, affecting the country's war efforts.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/15/nx-s1-6001653/rep-mike-quigley-d-ill-on-reports-ukraines-starshield-access-was-restricted",
-      "published_at": "2026-10-15T08:46:05Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "2b6d840aa87b5ba95f",
-      "title": "White House defends new press secretary over her legal credentials",
-      "category": "World",
-      "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T08:41:04Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c7f/live/f7333c90-c838-11f1-b2e8-93da8301514e.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -5861,68 +5861,68 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dragon Ball Official (curated)",
