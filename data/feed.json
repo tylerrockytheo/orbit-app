@@ -1,12 +1,556 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T17:56:10.896541Z",
+  "generated_at": "2026-10-16T20:54:49.168636Z",
   "posts": [
     {
-      "id": "6ea09b7896c3746528",
-      "title": "Lumière Award Winners Joel and Ethan Coen Praise Cinema-Going : ‘The Joy of Sitting in a Movie Theater with a Crowd of People, There’s No Substitute for That’",
+      "id": "8d5211a7e71e9bca52",
+      "title": "London Film Festival’s Surprise Movie Is… ‘I Play Rocky’",
       "category": "Entertainment",
-      "summary": "LYON, France — Joel and Ethan Coen may be among the most celebrated filmmakers of their generation, but the Oscar-winning brothers were in a self-deprecating mood at the Lumière Film Festival on Friday, sharing laughs, anecdotes and tributes to the collaborators who have helped bring their films to life.",
+      "summary": "Filmmaker Peter Farrelly surprised attendees by joining LFF director Kristy Matheson on stage at Royal Festival Hall.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/london-film-festival-surprise-movie-i-play-rocky-ippolito-1236733561/",
+      "published_at": "2026-10-16T20:47:52Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d0daa0f0bbd4cb0909",
+      "title": "Michael Forest, Actor in Roger Corman Movies and ‘Star Trek,’ Dies at 97",
+      "category": "Entertainment",
+      "summary": "He starred in ‘Beast From Haunted Cave,’ ‘Ski Troop Attack’ and ‘Atlas’ for the B-movie maven but also did lots of Shakespeare on the stage and films overseas.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/michael-forest-dead-roger-corman-star-trek-dick-van-dyke-1236733987/",
+      "published_at": "2026-10-16T20:47:48Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "445a4d94b583907c67",
+      "title": "\"Father of PlayStation\" Says Game Ownership Is a \"Mentality\" - IGN Daily Fix",
+      "category": "Gaming",
+      "summary": "In today's Daily Fix: Ken Kutaragi, the \"Father of PlayStation,\" is backing Sony in their move to kill physical game discs. Sony made the announcement earlier this year, but won't go into effect for another few years.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=PJwGID_Mnek",
+      "published_at": "2026-10-16T20:46:21Z",
+      "image_url": "https://i.ytimg.com/vi/PJwGID_Mnek/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "PJwGID_Mnek",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "aaacf8b42854fd97a7",
+      "title": "'Washington Post' photographer recounts Israeli settler attack",
+      "category": "World",
+      "summary": "Washington Post freelance photographer Heidi Levine was attacked by Israeli settlers in the West Bank. Levine speaks with NPR's Scott Detrow about the attack.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/16/nx-s1-6005083/washington-post-photographer-recounts-israeli-settler-attack",
+      "published_at": "2026-10-16T20:45:56Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5683f87323fccae04b",
+      "title": "‘I Play Rocky’ Surprise Screens at London Film Festival",
+      "category": "Entertainment",
+      "summary": "London Film Festival’s surprise film on Friday night was “I Play Rocky,” Peter Farrelly’s biographical drama about the beginnings of Sylvester Stallone’s beloved boxing franchise.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/i-play-rocky-surprise-movie-london-film-festival-1236914385/",
+      "published_at": "2026-10-16T20:32:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/I-Play-Rocky_HERO.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "013ef906b088dde1eb",
+      "title": "The Best Horror Movies of 2026 (So Far), Ranked: ‘Obsession,’ ‘Resident Evil,’ ‘Backrooms’ and More",
+      "category": "Entertainment",
+      "summary": "2026 has already been a wild year for horror, from low-budget box office hits (“Backrooms,” “Obsession”) to sequels the world could have lived without (“Scream 7,” “The Strangers – Chapter 3”). In a year loaded with scary movies, many of them were good-to-great, a welcome surprise that kept multiplexes busy.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/lists/best-horror-movies-2026-ranked/",
+      "published_at": "2026-10-16T20:23:42Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/07/mcdhepr-k3006-mcdback-ec092-mcdreev-sp044-mcdobse-uc035-1000x667-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "0ff5eac39558d4e5b0",
+      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+      "category": "Science",
+      "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his career more than four decades ago.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+      "published_at": "2026-10-16T20:14:39Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "70cd091b7cf98b98ce",
+      "title": "Selma Blair Speaks Out on Plane Arrest: “Did Not Intend to Harm Anyone”",
+      "category": "Entertainment",
+      "summary": "The actress, who's lined up a number of gigs as her MS is in remission and she comes back from a 2024 social media scandal, pleaded not guilty after she allegedly assaulted two flight attendants on her trip from L.A. to New York earlier this week.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/selma-blair-rep-statement-plane-arrest-assault-1236733957/",
+      "published_at": "2026-10-16T20:06:40Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "be37e236c473378318",
+      "title": "Smygehuk Fyr in Smygehuk, Sweden",
+      "category": "Travel",
+      "summary": "This pot-riveted iron lighthouse served as a light beacon for the Swedish coast from 1883 until 1973, to be later restored and re-lit in April 2001. It's tower is open to visitors and has a beautiful view from the top. The lighthouse keeper service spaces have been converted into a boutique restaurant and hostel.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Atlas Obscura",
+      "source_url": "https://www.atlasobscura.com/places/smygehuk-fyr",
+      "published_at": "2026-10-16T20:00:00Z",
+      "image_url": "https://img.atlasobscura.com/a200OK9xDHwKJNP4woCQMOmrt1TKtt02x5qZBiZCsXw/rs:fill:300:200:1/g:ce/c:1536:1024:nowe:0:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80ZTIz/Mzc0MS05MWEyLTQx/ZmMtOTEyMS0xMWY3/MzJlYWRkOTI4YTk0/ZTdiYzhjMzJkNDdj/ZGVfV2hhdHNBcHAg/SW1hZ2UgMjAyNi0w/OS0yMSBhdCAxNS41/Mi41NygxKS5qcGVn.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "4a87c936036af499ca",
+      "title": "7 Movies Finished by Second Directors: From ‘Batman 2’ to ‘Spartacus’",
+      "category": "Entertainment",
+      "summary": "Hollywood is a business of people. Yesterday, the industry got a reminder of that when Warner Bros. and DC Studios announced that Steven Soderbergh will help director Matt Reeves finish production on “The Batman Part II” while Reeves deals with a family matter. “Just to be clear, I am not leaving ‘The Batman Part II,'” […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/lists/movies-finished-by-second-director-justice-league-batman-2/",
+      "published_at": "2026-10-16T19:49:17Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDBATM_WB059.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "a9481441a041410a64",
+      "title": "New York’s Plaza Hotel to Close in 2027 for at Least Four Years",
+      "category": "Entertainment",
+      "summary": "The historic hotel next to Central Park, featured in 'Home Alone 2: Lost in New York' and 'Eloise at the Plaza,' is shutting down for renovations.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/real-estate/new-york-plaza-hotel-close-2027-four-years-renovations-1236733620/",
+      "published_at": "2026-10-16T19:47:13Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "994afd4f8aaf9b75f1",
+      "title": "Castlevania: Belmont's Curse - How to Defeat Mammon (The Miser)",
+      "category": "Entertainment",
+      "summary": "With the exception of The Shadow and The Dark Lord, one of the hardest bosses in Castlevania: Belmont’s Curse is Mammon, aka “the Miser”. Some may already have a hard time finding the three eyeballs to unlock his fleshy gate, and we’ve got a guide for that if you need it.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=744Dx_BrG5E",
+      "published_at": "2026-10-16T19:46:55Z",
+      "image_url": "https://i.ytimg.com/vi/744Dx_BrG5E/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "744Dx_BrG5E",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c613d185708f472da7",
+      "title": "Trump denies limiting Ukraine access to Starlink network",
+      "category": "World",
+      "summary": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T19:33:48Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a95/live/08a3c460-c990-11f1-adc3-01d8629f0470.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "0173eef278c56764d3",
+      "title": "‘True Detective’ Season 5: Antonio Banderas Joins Nicolas Cage as Series Set to Film in 2027",
+      "category": "Entertainment",
+      "summary": "Antonio Banderas has joined Nicolas Cage in “True Detective” Season 5. The duo will headline the next installment of the HBO anthology series, which is set to begin production in 2027.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/true-detective-season-5-antonio-banderas-nicolas-cage-1236914353/",
+      "published_at": "2026-10-16T19:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-12.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "71ca9e2603948e7991",
+      "title": "‘True Detective’ Season 5 Officially Casts Nicolas Cage — and Antonio Banderas",
+      "category": "Entertainment",
+      "summary": "The new season of the HBO series is set to begin filming in 2027.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/true-detective-season-5-nicolas-cage-antonio-banderas-1236733868/",
+      "published_at": "2026-10-16T19:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3d900b2e5c30762b6e",
+      "title": "Selma Blair’s Rep Speaks Out After Actress’ Arrest and Plane Incident: ‘Selma Did Not Intend to Harm Anyone’",
+      "category": "Entertainment",
+      "summary": "Selma Blair’s spokesperson has spoken out after the actress was charged with second-degree assault following a violent incident on a Delta flight on Sunday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/selma-blair-rep-speaks-out-arrest-plane-incident-1236909381/",
+      "published_at": "2026-10-16T19:15:45Z",
+      "image_url": "https://variety.com/wp-content/uploads/2024/10/MAB_7086.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fffc0d76d17172bb7c",
+      "title": "Selma Blair’s Rep Speaks Out After Actress’ Arrest and Plane Incident: ‘Selma Did Not Intend to Harm Anyone’",
+      "category": "Entertainment",
+      "summary": "Selma Blair’s spokesperson has spoken out after the actress was charged with second-degree assault following a violent incident on a Delta flight on Sunday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/film/news/selma-blair-rep-speaks-out-arrest-plane-incident-1236909381/",
+      "published_at": "2026-10-16T19:15:45Z",
+      "image_url": "https://variety.com/wp-content/uploads/2024/10/MAB_7086.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2a00110ad1d1135e66",
+      "title": "Josh Brolin Talks the Personal Side of ‘Whalefall’ and the “Undeniable” Script for ‘Sicario 3’",
+      "category": "Entertainment",
+      "summary": "The actor also talks about passing on 'Lanterns' (he's watched it and loves it) and reflects on the cancelation of 'Outer Range': \"you had gold.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/josh-brolin-whalefall-sicario-3-1236733418/",
+      "published_at": "2026-10-16T19:05:59Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2d7ed6a745df43cd10",
+      "title": "Slam Tank - Official Demo Trailer",
+      "category": "Entertainment",
+      "summary": "Take a look at the Demo Trailer for Slam Tank, an action beat 'em up game developed by Next Stage Inc. Players will embody a lone tank on an epic assault of high-flying proportions. Leap, parry, and slam as a heavy tank against an enemy AI army.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=UzaW9sNQngY",
+      "published_at": "2026-10-16T19:00:21Z",
+      "image_url": "https://i.ytimg.com/vi/UzaW9sNQngY/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "UzaW9sNQngY",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "332abbbf7e2b5cfee7",
+      "title": "How to get the DLC weapons in Fire Emblem Fortune's Weave",
+      "category": "Gaming",
+      "summary": "Fire Emblem Fortune's Weave's DLC weapons are powerful, if fragile, additions to your armory. Here's how to get Fortune's Weave's DLC weapons",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-dlc-weapons-how-to-get/",
+      "published_at": "2026-10-16T18:47:07Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/fortunes-weave-classic-fire-emblem.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "2a139478d35b11b6a3",
+      "title": "'Well-known' man asks court to stop publication of sexual offence allegation",
+      "category": "Entertainment",
+      "summary": "The unnamed individual asks London's High Court to prevent the publication of \"serious allegations\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/c674pz3l0e73o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T18:46:14Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f7c/live/e1c76d70-c961-11f1-a6e6-417671ef62cb.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "19b6b13f45d9e09992",
+      "title": "Austin Abrams and Josh Brolin Debut ‘Whalefall,’ ‘Clayface’ Arrives and This Week’s Best Events",
+      "category": "Entertainment",
+      "summary": "Inside this week's biggest Hollywood premieres, parties and openings.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/gallery/whalefall-clayface-red-capet-events-1236727214/",
+      "published_at": "2026-10-16T18:45:35Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "09c9aee82590c78f19",
+      "title": "Kate Berlant on Her HBO Special ‘Parmesan,’ the Joke That Made a Man Flip Her Off and Her Next Project With John Early",
+      "category": "Entertainment",
+      "summary": "There’s a throughline in Kate Berlant’s new HBO special “Parmesan,” and it’s not cheese. “My addiction? My phone,” the comedian says at the beginning of the hour. With slapstick style and performative haughtiness, Berlant yearns for a time before cellphones in the special, out Oct. 16.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/kate-berlant-hbo-special-parmesan-1236913499/",
+      "published_at": "2026-10-16T18:39:40Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Kate-Berlant_Emilio-Madrid_001_10.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "440ed9ec5bbf2b230e",
+      "title": "Diddy Moved to New Prison Days After Being Hospitalized for Alleged Head Injury",
+      "category": "Music",
+      "summary": "Sean ‘Diddy’ Combs has been transferred from his New Jersey prison to a new one in Pennsylvania, officials and his spokesperson confirmed on Friday, days after he was hospitalized for an alleged head injury. Combs, 56, was serving out his 50-month sentence at FCI Fort Dix in New Jersey when he was rushed to the […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/diddy-moved-to-new-prison-hospitalized-alleged-head-injury-1236914289/",
+      "published_at": "2026-10-16T18:38:35Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/06/GettyImages-927399630-e1751495592427.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "b0e1f8f25496a2bfed",
+      "title": "8 VIFF Films That Deserve a Closer Look",
+      "category": "Entertainment",
+      "summary": "The 45th Vancouver International Film Festival (VIFF) featured some high-profile titles, including Jesse Eisenberg’s “The Debut,” which has been generating awards buzz for star Julianne Moore, and Martin McDonagh’s closing-night black comedy “Wild Horse Nine,” starring John Malkovich and Sam Rockwell.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/global/viff-films-deserve-closer-look-matthew-rankin-john-turturro-1236914031/",
+      "published_at": "2026-10-16T18:22:28Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/LadiesAndGentlemenBrianMulroney_LoneliestManInTown_OnlyLivingPickpocketInNewYork_VIFF_2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "dd0a2a8f7408a7cc3f",
+      "title": "GTA 6 Recaptures What Made GTA’s Best DLC So Great",
+      "category": "Gaming",
+      "summary": "Vice City's lavish clubs, high-speed getaways, and over-the-top heists recall GTA's most extravagant era.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/gta-6-ballad-of-gay-tony/",
+      "published_at": "2026-10-16T18:00:18Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/lucia_caminos_10.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e48a844541fc20f53c",
+      "title": "Beyond These Stars - Official Version 1.0 Launch Trailer",
+      "category": "Entertainment",
+      "summary": "Version 1.0 of Beyond These Stars is available now on Xbox on PC, Xbox Series X/S, and PC (Steam, Epic Games Store, and GOG). Watch the launch trailer for Beyond These Stars, a strategy city-building sim game where you build a city on the back of a Space Whale and learn to coexist as you journey through the stars.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=b3twxJKgLDo",
+      "published_at": "2026-10-16T18:00:11Z",
+      "image_url": "https://i.ytimg.com/vi/b3twxJKgLDo/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "b3twxJKgLDo",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8f1a0e6792d5af7b0c",
+      "title": "Commercial Signage on the Façade of Gruta 77 in Madrid, Spain",
+      "category": "Travel",
+      "summary": "For nearly three decades, Gruta 77 has been a haven for Madrid’s rock and roll faithful. Right in the heart of Carabanchel, this legendary concert venue and rehearsal space has given punk rockers, and other musical misfits a place to gather, play loud, and keep the underground alive.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Atlas Obscura",
+      "source_url": "https://www.atlasobscura.com/places/commercial-signage-on-the-facade-of-gruta-77",
+      "published_at": "2026-10-16T18:00:00Z",
+      "image_url": "https://img.atlasobscura.com/mB3nPzPEK45L9_ucHsMPbTUciC4sSNKHpI_nZJLAmd4/rs:fill:300:200:1/g:ce/c:3045:2030:nowe:755:500/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wMWMy/MzU4YS1mN2RkLTQ1/NDItOTdlMi0zZjg5/ODIxMjJiMDIzMTFj/ZDExMzU4M2IwYmU5/MmNfSU1HXzkwNzQu/anBlZw.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "a6a66004dd32a42ff2",
+      "title": "‘Michael’ to Receive Musical Tribute at 2026 Gotham Film Awards",
+      "category": "Entertainment",
+      "summary": "The 36th Annual Gotham Film Awards Ceremony will present the cast and creative team behind “Michael” with the Gotham Musical Tribute.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/awards/news/michael-gotham-musical-tribute-1236914181/",
+      "published_at": "2026-10-16T18:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/04/001-mkt-001-cin-v0037-cnpt-1002.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9dea485d7c02af277b",
+      "title": "‘The Julia Set,’ Starring Chase Infiniti, Lands at Sony Pictures Classics Following TIFF Premiere",
+      "category": "Entertainment",
+      "summary": "Sony Pictures Classics has acquired rights to Niki Byrne’s “The Julia Set,” starring Chase Infiniti, following the film’s world premiere at TIFF. The film, written and directed by Byrne, was one of the festival’s breakouts, thanks in large part to Infiniti’s commanding performance.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/the-julia-set-chase-infiniti-sony-pictures-classics-tiff-1236914143/",
+      "published_at": "2026-10-16T18:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/the_julia_set_01.webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "87a4de3501c6f9533d",
+      "title": "The Avalanches Create Another Sample-delic Pop Masterpiece With ‘No Bad Memories’: Album Review",
+      "category": "Music",
+      "summary": "Without overstating the case, when the Avalanches’ debut album “Since I Lost You” arrived out of a clear blue sky (to anyone outside of their native Australia, anyway) in 2000, its impact was like the arrival of the Beastie Boys’ “Paul’s Boutique” eleven years earlier: a mind-melting leap forward in the art of sampling, a […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/reviews/avalanches-no-bad-memories-album-review-1236914225/",
+      "published_at": "2026-10-16T17:58:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/albumcovertreatment-15-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "3b71eab382544d776d",
+      "title": "The MIX Fall Showcase 2026",
+      "category": "Entertainment",
+      "summary": "Join The MIX for some indie lovin with the Fall Showcase where there are over 60 games represented through exclusive trailers, gameplay demos, giveaways, and featured guest presenters. #IGN",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=IcCH794Br9s",
+      "published_at": "2026-10-16T17:54:37Z",
+      "image_url": "https://i.ytimg.com/vi/IcCH794Br9s/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "IcCH794Br9s",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6ea09b7896c3746528",
+      "title": "Joel and Ethan Coen Reflect on Their Careers, Streaming and the Future of Movie Theaters at Lumière Festival: Watching Films on iPhones Is ‘Very Disheartening’",
+      "category": "Entertainment",
+      "summary": "LYON, France — Joel and Ethan Coen have embraced the streaming boom, working with Netflix and Apple TV+, but they remain staunch defenders of movie theaters.",
       "summary_status": "publisher_excerpt",
       "source_name": "Variety Film",
       "source_url": "https://variety.com/2026/film/global/joel-coen-ethan-coen-lumiere-award-winners-1236914195/",
@@ -63,6 +607,23 @@
       "source_url": "https://variety.com/2026/tv/news/emilio-sakraya-fourth-actor-xaden-riorson-1236914182/",
       "published_at": "2026-10-16T17:42:14Z",
       "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2248275728-e1792091399675.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "86cd6077a13078486c",
+      "title": "Sean 'Diddy' Combs moved to low-security facility in Pennsylvania",
+      "category": "Entertainment",
+      "summary": "The decision to move the rap mogul while he is serving out his 50-month sentence was made with 'safety and security in mind'.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmwy4qnyjg4zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T17:36:18Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2447/live/f8aa0720-c982-11f1-b646-2b044167639a.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -131,6 +692,23 @@
       "source_url": "https://www.hollywoodreporter.com/movies/movie-news/one-night-out-rory-culkin-oona-roche-orion-1236733515/",
       "published_at": "2026-10-16T17:21:06Z",
       "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "a2e49675737e7582e1",
+      "title": "Dame Judi Dench joins Archers Birmingham campaign",
+      "category": "Entertainment",
+      "summary": "The cast have described plans to leave Birmingham as similar \"to Corrie leaving the north-west.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw98zj4jn6ryo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T17:18:19Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e18/live/5ff1c6f0-c985-11f1-b646-2b044167639a.png",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -1703,6 +2281,23 @@
       ]
     },
     {
+      "id": "1513c02fd699f9c0d3",
+      "title": "Street Fighter movie is 'made by fans for fans' - but can it KO the critics?",
+      "category": "Entertainment",
+      "summary": "Cast members Noah Centineo, Andrew Koji and Callina Liang discuss the latest video game adaptation.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cj040z4ngnz1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T12:06:04Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5371/live/c6e78510-c959-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
       "id": "9ad86fda0efc19e5e3",
       "title": "Record of Lodoss War: The Crown of the Covenant Novel Series Resumes",
       "category": "Anime",
@@ -2893,23 +3488,6 @@
       ]
     },
     {
-      "id": "3b71eab382544d776d",
-      "title": "The MIX Fall Showcase 2026",
-      "category": "Entertainment",
-      "summary": "Join The MIX for some indie lovin with the Fall Showcase where there are over 60 games represented through exclusive trailers, gameplay demos, giveaways, and featured guest presenters. #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=IcCH794Br9s",
-      "published_at": "2026-10-15T23:32:52Z",
-      "image_url": "https://i.ytimg.com/vi/IcCH794Br9s/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "IcCH794Br9s",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "ee7682e210c3559ca1",
       "title": "Porn showing choking or incest to be banned from early November, government says",
       "category": "Entertainment",
@@ -3029,23 +3607,6 @@
       ]
     },
     {
-      "id": "2c5333a2b14994ffbc",
-      "title": "‘Connections’ answers and hints for today, October 16",
-      "category": "Music",
-      "summary": "Here are hints, groups and answers for 'Connections' #1223 The post ‘Connections’ answers and hints for today, October 16 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
-      "published_at": "2026-10-15T23:00:27Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "0684fd9e363048c737",
       "title": "📖 Explore custom voice narration with Gemini 3.8 Flash TTS",
       "category": "AI & Tech",
@@ -3060,176 +3621,6 @@
       "youtube_channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
       "topics": [
         "AI & Tech"
-      ]
-    },
-    {
-      "id": "82c04a1405d8c602dc",
-      "title": "Globle answer today – here’s the answer and hints for October 16",
-      "category": "Music",
-      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 16 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
-      "published_at": "2026-10-15T23:00:17Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "468f1a19c428ae0e24",
-      "title": "Framed answer today – here’s the solution for October 16",
-      "category": "Music",
-      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 16 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
-      "published_at": "2026-10-15T23:00:09Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "fd38119b797dc1b69d",
-      "title": "Where to Watch ‘Grey’s Anatomy’ Season 23 Premiere",
-      "category": "Entertainment",
-      "summary": "The latest season of the long-running medical drama airs tonight (Thursday, Oct. 15) at 10:00 p.m. ET.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-greys-anatomy-season-23-premiere-online-free-1236733205/",
-      "published_at": "2026-10-15T22:55:08Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "1701da34aabd979058",
-      "title": "Allison Williams Talks ‘Girls’ (Before That Big Reveal), Eczema and Acting With Quentin Tarantino",
-      "category": "Entertainment",
-      "summary": "The actress opens up to The Hollywood Reporter about a new partnership and what it felt like to see Lena Dunham's HBO hit land on The New York Times' top 100 TV shows of the 21st century: \"It stopped me in my tracks.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/alison-williams-girls-reboot-hbo-quentin-tarantino-1236733181/",
-      "published_at": "2026-10-15T22:54:33Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "9d9a744013ae96818f",
-      "title": "Letters with 'suspicious substances' sent to US senators and election offices",
-      "category": "World",
-      "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T22:46:49Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9974/live/7783af20-c8c4-11f1-95b2-9f12d414946d.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "8b65313c1c2d2b7bfd",
-      "title": "Jenna Ortega Says She Hopes ‘Klara and the Sun’ Encourages People to ‘Put Down the Computers and Phones’ as Dystopian Film World Premieres in London",
-      "category": "Entertainment",
-      "summary": "Jenna Ortega hopes that her new film, the dystopian sci-fi “Klara and the Sun,” can remind people to live in the moment in the age of AI and all-consuming technology. “I think we gotta put our focus on one another and put down the computers and phones,” the star told Variety on the red carpet […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/festivals/jenna-ortega-klara-and-the-sun-put-down-phones-london-premiere-1236912808/",
-      "published_at": "2026-10-15T22:43:11Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/jenna-ortega-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "43bef8d2f5a06cafad",
-      "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-      "category": "World",
-      "summary": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T22:37:21Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4526/live/ca62a180-c8ea-11f1-8e7c-9b1d04b5a9dd.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "f3590db17f489c798d",
-      "title": "Steven Soderbergh to Help Finish ‘The Batman 2’ Filming After Matt Reeves Stepped Away for Family Matter",
-      "category": "Entertainment",
-      "summary": "Steven Soderbergh is stepping in to help complete “The Batman Part II” while director Matt Reeves is on hiatus dealing with a personal matter, Variety has confirmed.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/steven-soderbergh-finish-batman-2-matt-reeves-stepped-away-1236913552/",
-      "published_at": "2026-10-15T22:33:01Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/mcdbatm-wb058-john-lennon-the-last-interview-photocall-the-7-1000x667-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "35f94e598e17e23a8f",
-      "title": "Streaming Ratings: ‘Wonka’s The Golden Ticket’ Claims Top Spot",
-      "category": "Entertainment",
-      "summary": "'East of Eden' also has a solid opening week for Netflix.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/streaming-ratings-sept-28-oct-4-2026-1236733201/",
-      "published_at": "2026-10-15T22:23:05Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "32b8c546f23ae0bda5",
-      "title": "‘The Batman Part II’: Steven Soderbergh to Work with Matt Reeves to Complete Filming",
-      "category": "Entertainment",
-      "summary": "Reeves stepped away to deal with a family situation, and will not be on set as production resumes.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/the-batman-2-steven-soderbergh-replacing-matt-reeves-1236732936/",
-      "published_at": "2026-10-15T22:23:01Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -3262,91 +3653,6 @@
       "media_type": "video",
       "video_id": "6jHq4CMBbDk",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f819c49543bf08d19d",
-      "title": "Welp, all of you RuneScape folks who hate Reignited have gotten your wish, as the controversial MMO rejig has been cancelled",
-      "category": "Gaming",
-      "summary": "Welp, that was short lived. Earlier this month, Jagex made some big RuneScape announcements, namely that they're making a fourth version of the MMO (aptly, currently called RuneScape 4 ), but also the arrival of RuneScape Reignited, a new character type that would come with its own, new economy.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/welp-all-of-you-runescape-folks-who-hate-reignited-have-gotten-your-wish-as-the-controversial-mmo-rejig-has-been-cancelled",
-      "published_at": "2026-10-15T21:51:05Z",
-      "image_url": "https://assetsio.gnwcdn.com/runescape-2026-roadmap-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "ebaabfb6762de79d07",
-      "title": "Bela Bajaria Out at Netflix, Peter Rice Replaces Her as CCO",
-      "category": "Entertainment",
-      "summary": "The exec has been with the streamer since 2016, with her exit coming as the company sheds 1,000 employees.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/news/general-news/bela-bajaria-out-netflix-1236733291/",
-      "published_at": "2026-10-15T21:41:20Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "21bde77e2b6d24fb7e",
-      "title": "‘Fourth Wing’ Series: Esther McGregor and Emilio Sakraya Cast as Violet and Xaden",
-      "category": "Entertainment",
-      "summary": "The Prime Video show is based on Rebecca Yarros‘ bestselling fantasy novels.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/fourth-wing-violet-xaden-esther-mcgregor-emilio-sakraya-1236733258/",
-      "published_at": "2026-10-15T21:37:59Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "251598c32748f39533",
-      "title": "Netflix Shocker: Bela Bajaria Leaving After 10 Years Amid Layoffs, Peter Rice to Replace as Chief Content Officer",
-      "category": "Entertainment",
-      "summary": "In a major executive shake-up, Bela Bajaria is out at Netflix after 10 years at the streamer, most recently serving as its chief content officer. She will be replaced by former Disney and Fox executive Peter Rice, as first reported by Puck.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/netflix-bela-bajaria-leaving-layoffs-1236913504/",
-      "published_at": "2026-10-15T21:37:29Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/disney-s-sneakerella-premiere-1000x667-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "21c05e1c96ad14bca7",
-      "title": "Taylor Sheridan’s ‘Frisco King’ Starring Samuel L. Jackson Sets Release Date (TV News Roundup)",
-      "category": "Entertainment",
-      "summary": "Samuel L. Jackson is the new returning king in town in Taylor Sheridan’s “Frisco King,” where he reprises his role of Russell Lee Washington Jr.. The New Orleans gangster establishes a new kingdom in Frisco, Texas, where he discovers a hustler running his business amid the suburban town.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/tv-news-roundup-week-of-oct-12-1236909160/",
-      "published_at": "2026-10-15T21:31:29Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/FriscoKing_101_EM_0420_00139_RT.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -3386,40 +3692,6 @@
       ]
     },
     {
-      "id": "b64c667cafd7c9248e",
-      "title": "How to unlock fast travel in Castlevania: Belmont's Curse",
-      "category": "Gaming",
-      "summary": "Castlevania Belmont's Curse fast travel is locked behind a significant amount of progress. Here's when you can fast travel in Belmont's Curse.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/castlevania-belmonts-curse-fast-travel/",
-      "published_at": "2026-10-15T21:10:40Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/castlevania-belmonts-curse-fast-travel.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "fc8e6e2185817dbf0c",
-      "title": "6 Fire Emblem Fortune's Weave Characters Who Need to Be in the Next Smash Bros Game",
-      "category": "Gaming",
-      "summary": "It's inevitable we'll see Fire Emblem Fortune's Weave characters in the next Smash Bros game. Hopefully, some of these make the cut",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fire-emblem-fortunes-weave-characters-next-smash-bros/",
-      "published_at": "2026-10-15T21:00:17Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/fire-emblem-fortunes-weave-review.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "45f1449660cb7c9815",
       "title": "Castlevania: Belmont’s Curse - How to Solve the Secret Organ Melody",
       "category": "Entertainment",
@@ -3451,108 +3723,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "fe1b4d43c887e796cd",
-      "title": "‘Fourth Wing’ TV Series Casts Esther McGregor and Emilio Sakraya as Violet Sorrengail and Xaden Riorson",
-      "category": "Entertainment",
-      "summary": "“Fourth Wing,” Amazon Prime Video’s TV adaptation of Rebecca Yarros’ bestselling romantasy series, has found its leads. Esther McGregor has been cast in the role of Violet Sorrengail while Emilio Sakraya will play Xaden Riorson, Variety has learned. Amazon declined comment.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/fourth-wing-tv-series-xaden-riorson-emilio-sakraya-1236905893/",
-      "published_at": "2026-10-15T21:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/we-were-liars-premiere-2025-tribeca-festival-53rd-internatio-1000x667-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "dd863733a640cf25a4",
-      "title": "Selma Blair Is Accused of Assaulting Four People. Can Her Career Survive Another Scandal?",
-      "category": "Entertainment",
-      "summary": "The 54-year-old is being backed by feature film collaborators amid the latest turmoil: \"My heart hurts for her right now, and I want to support her anyway I can, as well as all involved in this very sad incident.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/news/general-news/selma-blair-airplane-assault-case-history-apology-career-1236730613/",
-      "published_at": "2026-10-15T20:56:09Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c2281dc6bafb95d104",
-      "title": "London housing project wins top architecture award",
-      "category": "Entertainment",
-      "summary": "Lion Green Road in Coulsdon was recognised for the way it responds to its surroundings.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq8jzgl7zz9po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T20:36:32Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/036f/live/a0a66fe0-c87f-11f1-a2e8-f71844f8002e.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "949b7f4fce37ec5fa3",
-      "title": "Denis Villeneuve Chose to Direct New James Bond Movie After ‘Dune 3’ Because ‘I Need a Powerful Rocket to Pull Me Away From Arrakis’",
-      "category": "Entertainment",
-      "summary": "Denis Villeneuve recently told Empire that he returned to “Dune” for a third and final chapter so he can be “severe with the material,” and that his upcoming James Bond movie will be the “very powerful rocket” he needs to “pull me away from Arrakis.” “I said, ‘Maybe it’s a good idea to go back […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/denis-villeneuve-james-bond-dune-3-1236913390/",
-      "published_at": "2026-10-15T20:34:20Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/03/zendaya-dune-3-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "ea2f376574158c1eb6",
-      "title": "Oscars Predictions 2027: Where the Race Stands After ‘Artificial’ NYFF Premiere and Andrew Garfield’s Supporting Actor Push",
-      "category": "Entertainment",
-      "summary": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards editor Clayton Davis.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/lists/2027-oscars-predictions/",
-      "published_at": "2026-10-15T20:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDARTI_EC022.webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "03397f738ce2eed7a3",
-      "title": "Ahead of Call of Duty: Modern Warfare 4's launch next week, unionised Activision testers have voted to authorise a strike",
-      "category": "Gaming",
-      "summary": "Call of Duty testers have voted to authorise a union strike. The union, formed back in March of 2024, is made up of almost 600 quality assurance workers at Activision, and plan to strike if conditions at the publisher don't change. Read more",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/ahead-of-call-of-duty-modern-warfare-4s-launch-next-week-unionised-activision-testers-have-voted-to-authorise-a-strike",
-      "published_at": "2026-10-15T20:27:22Z",
-      "image_url": "https://assetsio.gnwcdn.com/call-of-duty-modern-warfare-4-south-korea-fire.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -3653,108 +3823,6 @@
       "media_type": "video",
       "video_id": "lwWfNNA-Zxc",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c9bc208040adee5977",
-      "title": "The Most Shocking Thing About ‘You Can See Everything’: Nathan Fielder’s Sympathy for the Devil",
-      "category": "Entertainment",
-      "summary": "Ever since the first trailer went up for “You Can See Everything,” if not since word of the movie got up, schadenfreude lovers have been rubbing their hands with glee at the prospect of Elizabeth Holmes getting more of what’s coming to her. Especially knowing that Holmes and her husband Billy Evans actually sought out […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/columns/you-can-see-everything-commentary-sympathy-elizabeth-holmes-1236913357/",
-      "published_at": "2026-10-15T20:08:28Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-15-Oct-2026-12-24-PM-2078.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "94a462e7b7b1c3a0e2",
-      "title": "Skydance’s Market Value Is Currently Less Than Half What Warner Bros. Discovery and Paramount Combined Were Worth",
-      "category": "Entertainment",
-      "summary": "David Ellison’s freshly formed Skydance Corp. is off to a rocky start on Wall Street. He won Warner Bros. Discovery after a yearlong battle. But investors, at this point, appear to believe he wildly overpaid for the deal — that the newly merged company, dubbed Skydance Corp., is worth nowhere near the $78 billion in […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/skydance-market-cap-less-than-half-warner-bros-discovery-paramount-1236913334/",
-      "published_at": "2026-10-15T20:03:50Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/09/David-Ellison.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "a563d56cd3ee1edae1",
-      "title": "Skydance’s Market Value Is Currently Less Than Half What Warner Bros. Discovery and Paramount Combined Were Worth",
-      "category": "Entertainment",
-      "summary": "David Ellison’s freshly formed Skydance Corp. is off to a rocky start on Wall Street. He won Warner Bros. Discovery after a yearlong battle. But investors, at this point, appear to believe he wildly overpaid for the deal — that the newly merged company, dubbed Skydance Corp., is worth nowhere near the $78 billion in […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/news/skydance-market-cap-less-than-half-warner-bros-discovery-paramount-1236913334/",
-      "published_at": "2026-10-15T20:03:50Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/09/David-Ellison.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "3e83b94a290b53b533",
-      "title": "Abandoned Agricultural Mill in Śmiałowice, Poland",
-      "category": "Travel",
-      "summary": "Tucked away in the Polish countryside stands an impressive early 20th-century agricultural mill complex that looks more like a grand estate than a heavy industrial facility.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Atlas Obscura",
-      "source_url": "https://www.atlasobscura.com/places/abandoned-agricultural-mill-in-poland",
-      "published_at": "2026-10-15T20:00:00Z",
-      "image_url": "https://img.atlasobscura.com/tdwvMYNcc4LjDkVK2xqs9wHwInenaOBqX7QMaGTL5vo/rs:fill:300:200:1/g:ce/c:4189:2793:nowe:632:18/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xNDVh/YjViYi05ZWYyLTRi/YTctOGZmMC1iZTAx/Nzg3MWQyNTdlNGYw/ZGIzZDJiMTc5YzZl/MGNfQmV6TmF6d3lf/UGFub3JhbWEtMS5q/cGc.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "c80ee7c5f724b16992",
-      "title": "With ‘Obsession,’ Is the Golden Globes’ Comedy Race the New Home for Category Fraud?",
-      "category": "Entertainment",
-      "summary": "“Category fraud” is having a crossover moment. It happens every year, in awards cycles for both film and television.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/awards/obsession-golden-globes-comedy-category-fraud-1236913141/",
-      "published_at": "2026-10-15T20:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/Obsession.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b9731e0356bf2f8dc2",
-      "title": "Fandango Orders ‘Bad Girls Club: Unfinished Business’ as the Versant-Owned Streamer Gets Into Original Programming",
-      "category": "Entertainment",
-      "summary": "Fandango, which became part of Versant Media when NBCUniversal split off most of its cable and digital offerings at the start of the year, is getting into the original programming business — starting with a revival of “Bad Girls Club.” As part of Fandango’s AVOD streaming platform, the service has ordered two episodes of the […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/fandango-bad-girls-club-unfinished-business-first-original-1236913395/",
-      "published_at": "2026-10-15T20:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Bad-Girls.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -5712,74 +5780,6 @@
       "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
       "topics": [
         "Discover"
-      ]
-    },
-    {
-      "id": "1dfd0ba03331ce9699",
-      "title": "Clingy Parakeet Wants To Be Attached To Her Mom 24/7 | The Dodo",
-      "category": "Animals",
-      "summary": "Personal space simply does not exist when you’re Olive 😭 Olive isn’t interested in giving her mom Heather an inch of personal space, whether she’s cuddling into her clothes or following her everywhere she goes.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "The Dodo · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=rTU4GZQfvuA",
-      "published_at": "2026-10-12T17:00:07Z",
-      "image_url": "https://i.ytimg.com/vi/rTU4GZQfvuA/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "rTU4GZQfvuA",
-      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
-      "topics": [
-        "Animals"
-      ]
-    },
-    {
-      "id": "357865862e2b60cdcf",
-      "title": "MobLand's back on Paramount+! Meet the vehicular star of season 2: the Aston Martin DBX S #sponsored",
-      "category": "Entertainment",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=1Gl1NnwFZdA",
-      "published_at": "2026-10-12T16:40:14Z",
-      "image_url": "https://i.ytimg.com/vi/1Gl1NnwFZdA/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "1Gl1NnwFZdA",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "592d895cf34bb16b44",
-      "title": "Dragon's Dogma 2: Dark Arisen - Official 'Burn The Sky' Music Video | IGN Fall Fan Fest 2026",
-      "category": "Entertainment",
-      "summary": "Check out the music video for \"Burn The Sky,\" by Casey Edwards & Ollie Swift, a new music track from the Dragon's Dogma 2: Dark Arisen expansion for the action RPG! In Dragon's Dogma 2: Dark Arisen, the fantasy world has been expanded with new tales and encounters.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=ajzyG3r-QlI",
-      "published_at": "2026-10-12T16:30:25Z",
-      "image_url": "https://i.ytimg.com/vi/ajzyG3r-QlI/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "ajzyG3r-QlI",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "8020758708af864fa3",
-      "title": "Biohazard Exclusive Teaser Trailer: Chandler Riggs' Resident Evil 7 Fan Film (2026)",
-      "category": "Entertainment",
-      "summary": "Ethan Winters, while searching for his missing wife, finds himself trapped by the Baker family - a deadly, unstoppable family driven to violence under the influence of a mysterious infection.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=cYrDu9GBxn8",
-      "published_at": "2026-10-12T16:00:28Z",
-      "image_url": "https://i.ytimg.com/vi/cYrDu9GBxn8/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "cYrDu9GBxn8",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
       ]
     }
   ],
