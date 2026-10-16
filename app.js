@@ -603,6 +603,8 @@ function playReelFromGesture(index){
   const previous=reelPlaybackStates.get(index)||{};
   reelPlaybackStates.set(index,{...previous,muted:!reelSoundOn,paused:false});
   hideReelPlayFallback(index);
+  document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-video-ready','true');
+  hideReelLoading(index);
   syncReelSoundIcon();
 }
 async function toggleOrbitFullscreen(){
@@ -683,6 +685,8 @@ function resumeCachedReel(index){
   const media=document.getElementById('reel-media-'+index),frame=media?.querySelector('iframe');
   if(!frame)return false;
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
+  const cachedCard=document.querySelector('.reel[data-reel-index="'+index+'"]');
+  if(cachedCard?.getAttribute?.('data-video-ready')!=='true')watchReelLoading(index);
   media?.removeAttribute('data-prewarmed');
   revealReelAfterIframeLoad(index,frame);
   applyReelVolume(index);
@@ -710,6 +714,7 @@ function resetReelPlayer(index){
   const player=reelYoutubePlayers.get(index);
   try{player?.destroy?.()}catch{}
   if(p&&media&&media.querySelector('iframe'))media.innerHTML=reelPoster(p,index);
+  hideReelLoading(index);
   media?.removeAttribute('data-prewarmed');
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.removeAttribute('data-video-ready');
   reelYoutubePlayers.delete(index);reelExternalMetrics.delete(index);reelPlaybackStates.delete(index);reelPendingSeeks.delete(index);
@@ -845,6 +850,7 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
   if(frame)revealReelAfterIframeLoad(index,frame);
+  watchReelLoading(index);
   reelUserConfirmedSound=false;
   if(frame&&p.platform==='youtube')attachYoutubePlayer(index,frame);
   if(frame&&p.platform==='tiktok')applyReelVolume(index);
@@ -859,7 +865,7 @@ function setActiveReel(index){
   if(index<0||index>=clips.length||index===reelActiveIndex)return;
   const previous=reelActiveIndex;
   reelActiveIndex=index;
-  if(previous>=0)suspendReelPlayer(previous); // pause without dropping timestamp or iframe
+  if(previous>=0){hideReelLoading(previous);suspendReelPlayer(previous)} // keep timestamp
   reelNativeControls=false;reelUserConfirmedSound=false;updatePlayerControlMode();
   reelSeen.add(clipIdentity(clips[index]));
   const key=clipIdentity(clips[index]);
@@ -919,12 +925,15 @@ function attachYoutubePlayer(index,frame){
           try{event.target.pauseVideo?.()}catch{}
         }
         if(event.data===1&&index===reelActiveIndex){
+          hideReelLoading(index);
           tryReelPendingSeek(index,event.target);
           document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-video-ready','true');
           hideReelPlayFallback(index);
         }
+        if(event.data===3&&index===reelActiveIndex)watchReelLoading(index,true);
+        if((event.data===2||event.data===0)&&index===reelActiveIndex)hideReelLoading(index);
       },onAutoplayBlocked(){
-        if(tab==='Reels'&&index===reelActiveIndex)showReelPlayFallback(index);
+        if(tab==='Reels'&&index===reelActiveIndex){hideReelLoading(index);showReelPlayFallback(index)}
       }}});
     }catch(err){console.debug('YouTube player API failed',err)}
   }).catch(err=>console.debug('YouTube API unavailable',err));
@@ -1169,6 +1178,7 @@ function stopReels(){
   reelGesture=null;reelScrollSettling=false;
   clearTimeout(reelSnapTimer);reelSnapTimer=null;
   clearTimeout(reelPrewarmTimer);reelPrewarmTimer=null;
+  for(const index of [...reelLoadTimers.keys()])clearReelLoadTimers(index);
   reelBaseIndex=0;
   reelRefillPromise=null;
 }
