@@ -794,7 +794,7 @@ function revealReelAfterIframeLoad(index,frame){
    return;
  }
  // Frame HTML loading is NOT evidence of playable video. Do not expose black.
- setTimeout(()=>{
+ const fallbackTimer=setTimeout(()=>{
    if(index!==reelActiveIndex||tab!=='Reels')return;
    const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
    const current=document.getElementById('reel-media-'+index)?.querySelector('iframe');
@@ -804,6 +804,7 @@ function revealReelAfterIframeLoad(index,frame){
      showReelPlayFallback(index);
    }
  },6500);
+ reelLoadTimers.get(index)?.push(fallbackTimer);
 }
 
 function prewarmNextReel(index){
@@ -856,8 +857,8 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   reelPlaybackStates.set(index,{paused:false,muted:Boolean(mutedPlayback),autoplayMuted:Boolean(mutedPlayback)});
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
-  if(frame)revealReelAfterIframeLoad(index,frame);
   watchReelLoading(index);
+  if(frame)revealReelAfterIframeLoad(index,frame);
   reelUserConfirmedSound=false;
   if(frame&&p.platform==='youtube')attachYoutubePlayer(index,frame);
   if(frame&&p.platform==='tiktok')applyReelVolume(index);
