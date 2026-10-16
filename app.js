@@ -671,6 +671,7 @@ function resumeCachedReel(index){
   if(!frame)return false;
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   media?.removeAttribute('data-prewarmed');
+  revealReelAfterIframeLoad(index,frame);
   applyReelVolume(index);
   const player=reelYoutubePlayers.get(index);
   try{if(player?.playVideo)player.playVideo();else sendYoutubeCommand(frame,'playVideo')}catch{}
@@ -724,9 +725,23 @@ function reelEmbedMarkup(p,autoplay,mutedPlayback){
     '" title="'+escape(p.title)+'" loading="eager" referrerpolicy="strict-origin-when-cross-origin" '+
     'allow="autoplay; encrypted-media; picture-in-picture"></iframe>';
 }
+function revealReelAfterIframeLoad(index,frame){
+  // YouTube's iframe API can be unavailable even when the embed itself works.
+  // Do not leave a playing embed permanently hidden behind a thumbnail.
+  setTimeout(()=>{
+    if(tab!=='Reels'||index!==reelActiveIndex)return;
+    const card=document.querySelector('.reel[data-reel-index="'+index+'"]');
+    const current=document.getElementById('reel-media-'+index)?.querySelector('iframe');
+    if(!card||frame!==current)return;
+    const manual=card.querySelector('.reel-start-fallback');
+    if(manual&&manual.hidden===false)return; // autoplay is blocked: show Orbit Play
+    card.setAttribute('data-video-ready','true');
+  },2800);
+}
 function prewarmNextReel(index){
   if(tab!=='Reels'||index!==reelActiveIndex)return;
   const next=index+1,p=reelItems()[next];
+  if(navigator.connection?.saveData)return; // respect reduced data usage
   if(!p||p.platform!=='youtube')return;
   const media=document.getElementById('reel-media-'+next);
   if(!media||media.querySelector('iframe'))return;
@@ -766,6 +781,7 @@ function startReel(index,mutedPlayback=!reelSoundOn){
   reelPlaybackStates.set(index,{paused:false,muted:Boolean(mutedPlayback),autoplayMuted:Boolean(mutedPlayback)});
   document.querySelector('.reel[data-reel-index="'+index+'"]')?.setAttribute('data-playing','true');
   const frame=media.querySelector('iframe');
+  if(frame)revealReelAfterIframeLoad(index,frame);
   reelUserConfirmedSound=false;
   if(frame&&p.platform==='youtube')attachYoutubePlayer(index,frame);
   if(frame&&p.platform==='tiktok')applyReelVolume(index);
@@ -1071,6 +1087,9 @@ function stopReels(){
   for(const card of document.querySelectorAll('.reel[data-playing]')){
     const index=Number(card.dataset.reelIndex);
     if(Number.isFinite(index))resetReelPlayer(index);
+  }
+  for(const player of reelYoutubePlayers.values()){
+    try{player?.destroy?.()}catch{}
   }
   document.querySelectorAll('.reel-frame').forEach(f=>f.remove());
   document.querySelectorAll('.reel[data-playing]').forEach(card=>card.removeAttribute('data-playing'));
