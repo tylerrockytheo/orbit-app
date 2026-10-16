@@ -1225,7 +1225,7 @@ function reelGestureEnd(event){
   let target=g.baseIndex;
   if(Math.abs(dy)>threshold||(fast&&Math.abs(dy)>27))
     target+=dy<0?1:-1;
-  if(target<reelBaseIndex&&g.baseIndex===reelBaseIndex&&dy>108&&Math.abs(dx)<80){
+  if(target<reelBaseIndex&&reelBaseIndex===0&&g.baseIndex===0&&dy>108&&Math.abs(dx)<80){
     reelScrollTo(g.baseIndex,true);reelScrollSettling=false;
     refreshReels(); // pull down at the beginning refreshes without leaving Reels
     return;
