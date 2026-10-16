@@ -363,3 +363,16 @@ body.feed-immersive-mode{overflow:hidden!important}
   font-size:13px;font-weight:850;box-shadow:0 4px 16px #0007
 }
 .reel.native-controls .reel-loading{display:none!important}
+
+/* A provider iframe that has loaded must expose its own buttons and ad controls.
+   Retain the first-party thumbnail only during HTML bootstrap, not indefinitely
+   through YouTube's provider-owned pre-roll. The load badge stays nonblocking. */
+.reel[data-provider="youtube"][data-iframe-loaded="true"] .reel-frame{
+  opacity:1!important;pointer-events:auto!important;
+}
+.reel[data-provider="youtube"][data-iframe-loaded="true"] .reel-poster{
+  visibility:hidden;pointer-events:none;
+}
+.reel[data-provider="youtube"][data-iframe-loaded="true"] .reel-tap-surface{
+  pointer-events:auto;
+}
