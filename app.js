@@ -21,7 +21,7 @@ let reelsReturnTab='Home', reelActiveIndex=-1, reelsStarted=false, reelsObserver
 let reelSoundNoticeTimer=null,ytApiPromise=null,reelProgressTimer=null,reelScrubbing=false,reelNativeControls=false;
 let recentWatched=read('orbit_watched_reels_v1',[]);if(!Array.isArray(recentWatched))recentWatched=[];
 let reelsRefreshing=false,reelPullStart=null,reelReplayMode=false;
-let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0,reelPrewarmTimer=null;
+let reelGesture=null,reelScrollSettling=false,reelSnapTimer=null,reelWheelLast=0,reelSuppressTapUntil=0,reelPrewarmTimer=null,reelGestureScroller=null;
 const reelPlaybackStates=new Map();
 const reelYoutubePlayers=new Map(),reelExternalMetrics=new Map();
 let reelResumePositions=read('orbit_reel_positions_v1',{});
@@ -1061,6 +1061,7 @@ function mountReels(){
   if(!scroll)return;
   const cards=[...scroll.querySelectorAll('.reel')];
   if(!cards.length)return;
+  bindReelGestures(scroll);
   reelActiveIndex=-1;
   reelsObserver=new IntersectionObserver(entries=>{
     if(reelGesture||reelScrollSettling)return;
@@ -1075,6 +1076,7 @@ function mountReels(){
   reelRefreshTimer=setInterval(()=>{if(tab==='Reels')maybeRefreshReelCatalog()},90000);
 }
 function stopReels(){
+  unbindReelGestures();
   if(reelActiveIndex>=0){
     rememberReelTime(reelActiveIndex,true);
     reelReturnClip=clipIdentity(reelItems()[reelActiveIndex]||{});
@@ -1230,17 +1232,34 @@ function reelGestureEnd(event){
   }
   reelJump(Math.max(reelBaseIndex,target));
 }
-document.addEventListener('touchstart',reelGestureStart,{passive:true});
-document.addEventListener('touchmove',reelGestureMove,{passive:false});
-document.addEventListener('touchend',reelGestureEnd,{passive:true});
-document.addEventListener('touchcancel',()=>{reelGesture=null;reelScrollSettling=false},{passive:true});
-document.addEventListener('wheel',event=>{
-  if(tab!=='Reels'||!event.target.closest?.('#reels-scroll')||event.target.closest?.('.reel-progress'))return;
+function reelGestureCancel(){reelGesture=null;reelScrollSettling=false}
+function reelWheel(event){
+  if(tab!=='Reels'||event.target.closest?.('.reel-progress'))return;
   event.preventDefault?.();
   if(Math.abs(event.deltaY)<7||Date.now()-reelWheelLast<260)return;
   reelWheelLast=Date.now();
   reelJump(reelActiveIndex+(event.deltaY>0?1:-1));
-},{passive:false});
+}
+function bindReelGestures(scroller){
+  if(reelGestureScroller===scroller)return;
+  unbindReelGestures();
+  reelGestureScroller=scroller;
+  scroller.addEventListener?.('touchstart',reelGestureStart,{passive:true});
+  scroller.addEventListener?.('touchmove',reelGestureMove,{passive:false});
+  scroller.addEventListener?.('touchend',reelGestureEnd,{passive:true});
+  scroller.addEventListener?.('touchcancel',reelGestureCancel,{passive:true});
+  scroller.addEventListener?.('wheel',reelWheel,{passive:false});
+}
+function unbindReelGestures(){
+  const scroller=reelGestureScroller;
+  if(!scroller)return;
+  scroller.removeEventListener?.('touchstart',reelGestureStart);
+  scroller.removeEventListener?.('touchmove',reelGestureMove);
+  scroller.removeEventListener?.('touchend',reelGestureEnd);
+  scroller.removeEventListener?.('touchcancel',reelGestureCancel);
+  scroller.removeEventListener?.('wheel',reelWheel);
+  reelGestureScroller=null;
+}
 document.addEventListener('keydown',event=>{
   if(tab!=='Reels'||event.target.closest?.('input,textarea,select'))return;
   if(event.key==='ArrowDown'||event.key==='PageDown'){event.preventDefault?.();reelJump(reelActiveIndex+1)}
