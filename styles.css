@@ -284,3 +284,30 @@ body.reels-mode{background:#05060a;overflow:hidden}
   font-weight:750;font-size:12px;padding:10px 15px;border-radius:28px;white-space:normal;
   box-shadow:0 4px 16px #0008;pointer-events:auto;touch-action:manipulation}
 .feed-playback-hint button:disabled{opacity:.67;pointer-events:none}
+
+/* V27 — keep YouTube's Skip Ad region unblocked and make Orbit own fullscreen. */
+.feed-expand{
+  position:absolute;right:10px;top:10px;z-index:5;
+  min-width:37px;min-height:37px;display:grid;place-items:center;
+  padding:5px 9px;border:1px solid #ffffff7a;border-radius:13px;
+  background:#10131ab8;color:#fff;font-size:24px;line-height:1;
+  box-shadow:0 2px 13px #0007;touch-action:manipulation;
+}
+.feed-expand:focus-visible,.feed-sound:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.media-wrap:fullscreen,.media-wrap:-webkit-full-screen,
+.media-wrap.feed-immersive-fullscreen{
+  inset:0!important;position:fixed!important;z-index:110!important;
+  width:100vw!important;height:100dvh!important;max-width:none!important;
+  background:#000!important;display:flex!important;align-items:center!important;
+  justify-content:center!important;overflow:hidden!important;
+}
+.media-wrap:fullscreen .feed-autoplay-frame,.media-wrap:-webkit-full-screen .feed-autoplay-frame,
+.media-wrap.feed-immersive-fullscreen .feed-autoplay-frame{
+  display:block;width:min(100vw,177.778dvh);height:auto;max-height:100dvh;
+  aspect-ratio:16/9;flex:none;border:0;background:#000;
+}
+.media-wrap:fullscreen .feed-expand,
+.media-wrap.feed-immersive-fullscreen .feed-expand{top:calc(10px + env(safe-area-inset-top));right:12px}
+.media-wrap:fullscreen .feed-sound,
+.media-wrap.feed-immersive-fullscreen .feed-sound{left:12px;right:auto;bottom:calc(18px + env(safe-area-inset-bottom))}
+body.feed-immersive-mode{overflow:hidden!important}
