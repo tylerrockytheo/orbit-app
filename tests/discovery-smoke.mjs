@@ -3,13 +3,13 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 
 function harness(initial={},href='https://orbit.example/',blocked=false,betaOpen=false){
- const storage=new Map(Object.entries(initial).map(([k,v])=>[k,JSON.stringify(v)]));const listeners=[];let dialog=null,applied=null,filter=null,paused=0;
- const noop=()=>{};const makeNode=()=>({innerHTML:'',scrollTop:0,setAttribute:noop,focus:noop,querySelector:()=>null,querySelectorAll:()=>[],addEventListener:noop,showModal:noop,close:noop,contains:()=>true,getAttribute:()=>null,remove(){dialog=null}});
- const document={activeElement:{focus:noop},body:{classList:{add:noop,remove:noop},appendChild(n){dialog=n}},createElement:makeNode,getElementById:()=>null,addEventListener(type,handler){if(type==='click')listeners.push(handler)}};
- const window={OrbitBeta:{isOpen:()=>betaOpen},OrbitFeed:{preferences:()=>({weights:{Music:10,Gaming:10,Travel:10},muted:[]}),pause:()=>paused++,refresh:noop,applyTopics(t){applied=[...t]},filter(t){filter=t},open:noop}};
+ const storage=new Map(Object.entries(initial).map(([k,v])=>[k,JSON.stringify(v)]));const listeners=[],submits=[];let dialog=null,applied=null,filter=null,paused=0,lookups=[];
+ const noop=()=>{};const input={value:'',focus:noop},statusNode={textContent:''};const makeNode=()=>({innerHTML:'',scrollTop:0,setAttribute:noop,focus:noop,querySelector:s=>s==='#custom-interest'?input:s==='#custom-interest-status'?statusNode:null,querySelectorAll:()=>[],addEventListener:noop,showModal:noop,close:noop,contains:()=>true,getAttribute:()=>null,remove(){dialog=null}});
+ const document={activeElement:{focus:noop},body:{classList:{add:noop,remove:noop},appendChild(n){dialog=n}},createElement:makeNode,getElementById:()=>null,addEventListener(type,handler){if(type==='click')listeners.push(handler);if(type==='submit')submits.push(handler)}};
+ const window={OrbitInterestEngine:{load:q=>lookups.push([...q]),states:()=>[]},OrbitBeta:{isOpen:()=>betaOpen},OrbitFeed:{preferences:()=>({weights:{Music:10,Gaming:10,Travel:10},muted:[]}),pause:()=>paused++,refresh:noop,applyTopics(t){applied=[...t]},filter(t){filter=t},open:noop}};
  const ctx=vm.createContext({document,window,location:{href},localStorage:{getItem:k=>storage.get(k)||null,setItem(k,v){if(blocked)throw Error('Storage blocked');storage.set(k,v)},removeItem:k=>storage.delete(k)},URL,Date,console,setTimeout:()=>1});
  new vm.Script(fs.readFileSync(new URL('../discovery.js',import.meta.url),'utf8')).runInContext(ctx);
- return {api:window.OrbitDiscovery,storage,get html(){return dialog?.innerHTML||''},get applied(){return applied},get filter(){return filter},get paused(){return paused},click(dataset){const b={dataset,getAttribute:()=>null};for(const f of listeners)f({target:{closest:()=>b}})}};
+ return {api:window.OrbitDiscovery,storage,get lookups(){return lookups},get customStatus(){return statusNode.textContent},addInterest(value){input.value=value;for(const f of submits)f({target:{id:'custom-interest-form'},preventDefault:noop});input.value=''},get html(){return dialog?.innerHTML||''},get applied(){return applied},get filter(){return filter},get paused(){return paused},click(dataset){const b={dataset,getAttribute:()=>null};for(const f of listeners)f({target:{closest:()=>b}})}};
 }
 const app=harness();
 assert.equal(app.api.isOpen(),true,'fresh guests get optional setup');
@@ -39,3 +39,12 @@ const tester=harness({},'https://orbit.example/?test=1',false,true);assert.equal
 const legacy=harness({'orbit_weights_v2':{Music:20}});assert.equal(legacy.api.isOpen(),false,'existing profiles keep their feed');
 const denied=harness({},'https://orbit.example/',true);denied.click({setupNext:''});denied.click({setupNext:''});denied.click({setupNext:''});denied.click({setupNext:''});assert.equal(denied.applied,null,'failed storage cannot claim successful saving');assert.equal(denied.api.isOpen(),true);
 console.log('Discovery tests passed: review-before-save, cancellation, private storage, ranking, escaping, guests and shared links');
+
+const typed=harness();assert.equal(typed.api.topics().includes('Dragon Ball'),false);assert.equal(typed.api.topics().includes('Entertainment'),false);assert.ok(typed.api.topics().includes('Film & TV'));assert.ok(typed.api.topics().includes('Food & Cooking'));assert.match(typed.html,/custom-interest-form/);
+typed.addInterest('  ceramics  ');typed.addInterest('CERAMICS');assert.match(typed.customStatus,/already selected/);assert.deepEqual(JSON.parse(typed.storage.get('orbit_setup_draft_v1')).custom,['ceramics']);assert.equal(typed.lookups.length,0,'typing must not send provider requests');
+typed.click({setupNext:''});typed.click({setupNext:''});typed.click({setupNext:''});assert.match(typed.html,/Wikipedia/);typed.click({setupNext:''});
+assert.equal(typed.lookups.length,1,'external lookup starts after explicit review/save');assert.deepEqual(typed.lookups[0],['ceramics']);assert.equal(JSON.parse(typed.storage.get('orbit_discovery_v1')).lookupConsent,true);
+assert.equal(typed.api.isSpace('ceramics'),true);assert.equal(typed.api.matches({title:'Ceramic glaze',interest_queries:['ceramics']},'ceramics'),true);assert.ok(typed.api.score({title:'Ceramic glaze',category:'Knowledge',media_type:'article',interest_queries:['ceramics']})>typed.api.score({title:'Unrelated',category:'Gaming',media_type:'article'}));
+typed.api.start();typed.click({removeInterest:'0'});typed.click({setupDismiss:''});assert.deepEqual(JSON.parse(typed.storage.get('orbit_discovery_v1')).custom,['ceramics'],'cancelled removal cannot alter saved interests');
+const migration=harness({'orbit_discovery_v1':{complete:true,topics:['Dragon Ball','Entertainment','AI & Tech'],details:[]}});assert.match(migration.api.settings(),/Dragon Ball/);assert.match(migration.api.settings(),/Film &amp; TV/);assert.equal(migration.lookups.length,0,'legacy profiles have no external lookup consent');
+console.log('Typed interests passed: universal areas, deduplication, save-before-search, relevance, cancellation and legacy migration');
