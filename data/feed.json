@@ -1,7 +1,364 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T19:11:41.690691Z",
+  "generated_at": "2026-10-17T21:30:32.243372Z",
   "posts": [
+    {
+      "id": "1b8601b0719fba83d2",
+      "title": "Student protests widen into greater social unrest in France",
+      "category": "World",
+      "summary": "Hundreds of protests took place in cities across France. Most of them were peaceful but some turned chaotic and violent.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/17/nx-s1-6006735/student-protests-widen-into-greater-social-unrest-in-france",
+      "published_at": "2026-10-17T21:18:52Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "9b44bb3fbd85f3e579",
+      "title": "The state of the State Department in the wake of the Kimberly Guilfoyle scandal",
+      "category": "World",
+      "summary": "NPR's Joel Rose talks with James B. Story, former U.S. Ambassador to Venezuela, about the state of the State Department in the wake of the Kimberly Guilfoyle scandal.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/17/nx-s1-6001729/the-state-of-the-state-department-in-the-wake-of-the-kimberly-guilfoyle-scandal",
+      "published_at": "2026-10-17T21:18:50Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "ef14d2489d9cc9fe5c",
+      "title": "Harry Styles Debuts Unreleased Song at MSG to Honor Liam Payne on Second Death Anniversary",
+      "category": "Entertainment",
+      "summary": "The pair were former bandmates of One Direction from 2010 to 2016.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-news/harry-styles-unreleased-song-honor-liam-payne-anniversary-1236734395/",
+      "published_at": "2026-10-17T21:07:57Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "d3af92be747fac9bd6",
+      "title": "Nyra and the Garden of Moros - Official Gameplay Trailer | The MIX Fall Game Showcase 2026",
+      "category": "Gaming",
+      "summary": "Don't miss the Gameplay Trailer for Nyra and the Garden of Moros, a third-person exploration adventure game developed by Resting Relic. Players will explore a melancholic open world to retrieve the seals of the Keepers and stop the corruption from spreading further.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=QIa8YAm7ceI",
+      "published_at": "2026-10-17T21:01:22Z",
+      "image_url": "https://i.ytimg.com/vi/QIa8YAm7ceI/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "QIa8YAm7ceI",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "527330265ce1c2787d",
+      "title": "Pokémon Go Minior Shower schedule",
+      "category": "Gaming",
+      "summary": "Here's when the next Minior Shower is in Pokémon Go. This is when you'll be able to find the meteor Pokémon, Minior.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pokemon-go-minior-shower-schedule-how-to-find-shiny/",
+      "published_at": "2026-10-17T21:01:18Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/jlee_261012_1001_pogo_minior.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "de443f412d4ace36ad",
+      "title": "Donkey Finally Meets Another Donkey After 10 Years Alone | The Dodo",
+      "category": "Animals",
+      "summary": "Jack waited almost 10 years for a friend just like him 🥹💗 After spending nearly a decade without another donkey by his side, Jack arrived at Rewild Refuge Farm Sanctuary and finally got the chance to make a friend.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=QV3ATZSupaQ",
+      "published_at": "2026-10-17T21:00:37Z",
+      "image_url": "https://i.ytimg.com/vi/QV3ATZSupaQ/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "QV3ATZSupaQ",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "0adfb056bb919924bf",
+      "title": "Nivalis Nights - Official Gameplay Launch Trailer | The MIX Fall Game Showcase 2026",
+      "category": "Gaming",
+      "summary": "Watch the Gameplay Launch Trailer for Nivalis Nights, a cyberpunk life management game developed by Ion Lands. Players will design societies to their exact specification with establishing apartments, growing businesses, and managing a cyberpunk city. Nivalis Nights is available now on PC (Steam). #ign #gaming",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=JA9BnMIZ8Ls",
+      "published_at": "2026-10-17T20:58:46Z",
+      "image_url": "https://i.ytimg.com/vi/JA9BnMIZ8Ls/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "JA9BnMIZ8Ls",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "1dc136ef3ef53e4800",
+      "title": "Anti-government protesters battle with police in Albania",
+      "category": "World",
+      "summary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T20:53:00Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b85/live/bbc9c4f0-ca6b-11f1-b2e2-233efb1fd43c.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "14edf938c6dddf53d6",
+      "title": "Violent clashes, looting and buildings ablaze as hundreds arrested after France protests",
+      "category": "World",
+      "summary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T20:52:17Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6ac/live/03c510f0-ca5a-11f1-852c-2b93a8fc4799.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e5022ee2405ee564be",
+      "title": "Paul Bettany Says He and Johnny Depp ‘Hadn’t Spoken’ in Years When Their Texts Were Read During Libel Trial: ‘I Was Being Painted As This Close Friend’",
+      "category": "Entertainment",
+      "summary": "Paul Bettany opened up in a recent interview with The Times about the public’s misconception of his relationship with Johnny Depp after text messages between the two actors were used in court during Depp’s libel lawsuit against The Sun. “I hadn’t spoken to Johnny in years when that happened and I haven’t spoken to him […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/paul-bettany-johnny-depp-hadnt-spoken-in-years-libel-trial-1236915108/",
+      "published_at": "2026-10-17T20:48:39Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/rome-film-fest-2026-paramount-pictures-at-cinemacon-2026-clo-1000x667-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e40815b61981fdea4f",
+      "title": "‘Klara and the Sun’ Review: There’s No Life — Intelligent, Artificial or Otherwise — in Taika Waititi’s Calamitous Android Fantasy",
+      "category": "Entertainment",
+      "summary": "Adapting a solemnly complex, questioning novel as a cockeyed child’s-eye comedy worked once before for Taika Waititi — which is to say that “Jojo Rabbit,” his crass, mawkish “anti-hate satire” about a Hitler Youth member’s personal and political awakening, won him an Oscar and grossed nearly $100 million, in spite of its…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/klara-and-the-sun-review-1236914992/",
+      "published_at": "2026-10-17T20:45:01Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/06/Klara-and-the-Sun.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "bbea242ba857ea40d8",
+      "title": "Ari Emanuel Pitches Brother Rahm as Centrist Democratic President and Says He Isn’t Too Worried About AI: “It Doesn’t Have Taste”",
+      "category": "Entertainment",
+      "summary": "In a conversation with Tina Brown in London, the super-agent discussed his memoirs, why the UFC was his hardest deal and how live sports can provide \"common ground\" in a politically divided world.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/business/business-news/ari-emanuel-pitches-brother-rahm-president-ai-has-no-taste-1236734288/",
+      "published_at": "2026-10-17T20:44:15Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "774dc68e5d4c5beb2c",
+      "title": "Black & White 3 doesn't sound like it's ever going to happen, but good ole overpromising Peter Molyneux may have let slip about a remaster of the original",
+      "category": "Gaming",
+      "summary": "Peter Molyneux feels like a man who can never die. He's just sort of always been there, and seems like he always will be, making some kind of game where you can hypothetically do what you want, never quite living up to expectations. But hey, he's Peter Molyneux, what else would you expect?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/black-white-3-doesnt-sound-like-its-ever-going-to-happen-but-good-ole-overpromising-peter-molyneux-may-have-let-slip-about-a-remaster-of-the-original",
+      "published_at": "2026-10-17T20:29:12Z",
+      "image_url": "https://assetsio.gnwcdn.com/black-and-white_irNHIDY.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e9a8318c2aeafef926",
+      "title": "Bernie Taupin on writing the lyrics to “Rocket Man” #eltonjohn #bernietaupin",
+      "category": "Music",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Rick Beato · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=yRM7aX48mpg",
+      "published_at": "2026-10-17T20:14:08Z",
+      "image_url": "https://i.ytimg.com/vi/yRM7aX48mpg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "yRM7aX48mpg",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "0c691de8c2f88eebfe",
+      "title": "5 Years Later, One Game’s Blood Sacrifice Mechanic Still Haunts Me",
+      "category": "Gaming",
+      "summary": "Five years on, Inscryption’s blood sacrifice mechanic, from one squirrel to a pair of pliers, still shows how little convincing it takes.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/inscryption-retrospective-blood-sacrifice/",
+      "published_at": "2026-10-17T20:00:19Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23110148/inscryption_board.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "9a12bb1548f31c50f9",
+      "title": "Carrot Top Breaks Silence After Suicide Attempt and Hospitalization as Comedian Preps Return to Stage",
+      "category": "Entertainment",
+      "summary": "“I’m truly overwhelmed by the outpouring of love, support, prayers, and well wishes I’ve received over the past couple of weeks,\" wrote Scott Thompson, who will be back on stage at Luxor Las Vegas Oct. 19.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/carrot-top-suicide-attempt-hospitalization-luxor-residency-1236734402/",
+      "published_at": "2026-10-17T19:41:21Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "85841378849b386466",
+      "title": "‘Dancing With the Stars’ Pulls Val Chmerkovskiy After ‘Inappropriate’ Carrie Ann Inaba Slap Joke: ‘The Well-Being’ of Our Staff Is ‘Non-Negotiable’",
+      "category": "Entertainment",
+      "summary": "“Dancing With the Stars” is benching Val Chmerkovskiy after his recent joke about judge Carrie Ann Inaba. “The well-being of everyone who works on ‘Dancing with the Stars’ is non-negotiable.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/dancing-with-the-stars-pulls-val-chmerkovskiy-carrie-ann-inaba-slap-joke-1236915031/",
+      "published_at": "2026-10-17T19:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/183834_CW104412-e1792265097336.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "41b51122d500c185df",
+      "title": "Val Chmerkovskiy Ousted From Next ‘DWTS’ Episode Amid Will Smith Oscars Slap Reference, Jenna Dewan to Dance With Alan Bersten",
+      "category": "Entertainment",
+      "summary": "“The well-being of everyone who works on 'Dancing With the Stars' is non-negotiable. Val’s social media post was inappropriate and does not reflect the values or standards expected of anyone connected with the show. As a result, he will not participate in next week’s show,\" BBC Studios said in a statement.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/val-booted-dwts-will-smith-oscars-slap-jenna-dewan-alan-bersten-1236734379/",
+      "published_at": "2026-10-17T19:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7e173dc356568cacf1",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "category": "World",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T19:19:19Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "260eb6599b1e8f1f27",
+      "title": "At least 17 dead in crush at Hindu festival event in India",
+      "category": "World",
+      "summary": "Many more have been injured at an event in the Indian city of Kolkata to mark a Hindu festival.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T19:19:16Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60d0/live/caaed220-ca5d-11f1-852c-2b93a8fc4799.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e97441be9e7bbc79b4",
+      "title": "Fast-moving California wildfire burns homes as people are ordered to leave",
+      "category": "Science",
+      "summary": "Fanned by the fierce Santa Ana winds, the Norte Fire is one of 13 burning across the state.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6vgjnk8nw2wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T19:13:21Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d1/live/5c4e9f00-c9c6-11f1-9624-cbdaf8e49de5.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
     {
       "id": "8c41c59ad0a7891279",
       "title": "RimWorld meets Moebius-esque roguelite colony sim Trailblazers: Into The March welcomes you aboard its hulking landships with a chonky-sounding demo",
@@ -17,6 +374,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Gaming"
+      ]
+    },
+    {
+      "id": "7a89a1cf7ed43b2e7d",
+      "title": "Do you tip in Paris? #paris",
+      "category": "Travel",
+      "summary": "What is tipping etiquette when you visit Paris, France? Well service is included on the bill, but you can always leave a bit extra if the service was really good.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Wolters World · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=ivO1xGLweww",
+      "published_at": "2026-10-17T19:00:39Z",
+      "image_url": "https://i.ytimg.com/vi/ivO1xGLweww/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "ivO1xGLweww",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
+      "topics": [
+        "Travel"
       ]
     },
     {
@@ -102,6 +476,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "85eada14cf03f8e602",
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "category": "World",
+      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T18:38:57Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15c7/live/4f318350-ca52-11f1-852c-2b93a8fc4799.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
       ]
     },
     {
@@ -1227,23 +1618,6 @@
       ]
     },
     {
-      "id": "7e173dc356568cacf1",
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "category": "World",
-      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T11:56:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "d8ccbd5a001a7a576e",
       "title": "‘Trust Me, I’m a Doctor’ Review: Kal Penn and Abbie Cornish Star in a Minor Sidebar to the Anna Nicole Smith Story",
       "category": "Entertainment",
@@ -1950,23 +2324,6 @@
       "source_url": "https://www.bbc.co.uk/weather/articles/ck5yn68mj88vo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-17T01:53:34Z",
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3e5/live/af595230-c971-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "e97441be9e7bbc79b4",
-      "title": "Fast-moving California wildfire burns homes as people are ordered to leave",
-      "category": "Science",
-      "summary": "Fanned by the fierce Santa Ana winds, the Norte Fire is one of 13 burning across the state.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6vgjnk8nw2wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T01:36:39Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d1/live/5c4e9f00-c9c6-11f1-9624-cbdaf8e49de5.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -3403,28 +3760,11 @@
       ]
     },
     {
-      "id": "955ec21960199e9cdc",
-      "title": "DC Studios’ James Gunn and Peter Safran Recall Detailing Long-Term Plans to New Boss David Ellison",
-      "category": "Entertainment",
-      "summary": "\"We really took him into the tent and talked about where we see it going over the next number of years so he's got a really good sense of what we want to do,\" explained DC Studios' chief Peter Safran.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/dc-studios-james-gunn-peter-safran-david-ellison-skydance-1236733532/",
-      "published_at": "2026-10-16T17:31:54Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "050959ae8c52bb3322",
       "title": "It’s hilarious listening to Matchbox Twenty with the band! #matchboxtwenty",
       "category": "Music",
-      "summary": null,
-      "summary_status": "unavailable",
+      "summary": "See full interview here: https://youtu.be/qr8XxWzeInc?is=2VDnp605lT9APmCl",
+      "summary_status": "publisher_excerpt",
       "source_name": "Rick Beato · YouTube",
       "source_url": "https://www.youtube.com/watch?v=4jU1oVAA6bE",
       "published_at": "2026-10-16T17:23:39Z",
@@ -3434,57 +3774,6 @@
       "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
       "topics": [
         "Music"
-      ]
-    },
-    {
-      "id": "1533bba1a82c761dff",
-      "title": "Mark Pucci, Longtime Music Publicist and Blues Advocate, Dies at 79",
-      "category": "Entertainment",
-      "summary": "His clients included Johnny Cash, Roy Orbison, The Allman Brothers Band, Taj Mahal, Lynyrd Skynyrd and Delbert McClinton.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/music/music-news/mark-pucci-dead-music-publicist-blues-advocate-1236733643/",
-      "published_at": "2026-10-16T17:21:22Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "cc1492f38dd157900a",
-      "title": "Rory Culkin and More Join Aldis Hodge-Wunmi Mosaku Thriller ‘One Night Out’ for Orion (Exclusive)",
-      "category": "Entertainment",
-      "summary": "Oona Roche, Hattie Hoskins and Mark Lane III have also boarded director George Tillman Jr.'s feature.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/one-night-out-rory-culkin-oona-roche-orion-1236733515/",
-      "published_at": "2026-10-16T17:21:06Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "a2e49675737e7582e1",
-      "title": "Dame Judi Dench joins Archers Birmingham campaign",
-      "category": "Entertainment",
-      "summary": "The cast have described plans to leave Birmingham as similar \"to Corrie leaving the north-west.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw98zj4jn6ryo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T17:18:19Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e18/live/5ff1c6f0-c985-11f1-b646-2b044167639a.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -3587,210 +3876,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "9e872080d97e3a2b59",
-      "title": "Julie Plec YA Tennis Drama ‘Rally’ Ordered to Series at Prime Video; Pro Andre Agassi to Executive Produce",
-      "category": "Entertainment",
-      "summary": "Julie Plec and Andre Agassi are diving into the world of competitive tennis. “Rally” has been picked up to series at Prime Video. The drama is produced by Universal Television, a division of Universal Studio Group, in association with Entertainment 360 and Amazon MGM Studios.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/julie-plec-tennis-drama-rally-prime-video-1236913803/",
-      "published_at": "2026-10-16T17:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Rally.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5673b83a9066b8348d",
-      "title": "LaRoyce Hawkins Opens Up About His Final ‘Chicago P.D.’ Episode as Kevin Atwater",
-      "category": "Entertainment",
-      "summary": "After saying goodbye to an era, the Chicago-area native reflects on his journey while discussing his departure and the fan reaction to his exit after 14 seasons.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/laroyce-hawkins-chicago-pd-exit-interview-1236733625/",
-      "published_at": "2026-10-16T16:59:10Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "3d59f72d9ee8068c9d",
-      "title": "‘Whalefall’ Director Brian Duffield on Using Josh Brolin’s Heartbeat For the Whale: ‘Make It Feel as Personal as Possible’",
-      "category": "Entertainment",
-      "summary": "Josh Brolin can now add a different kind of role to his resume. In addition to starring as Mitt Gardiner, the late father of Austin Abrams’ character Jay, aspects of the actor were also used to create the appearance of the sperm whale that traps Jay inside its body for the majority of the film. […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/whalefall-josh-brolin-heartbeat-whale-1236913536/",
-      "published_at": "2026-10-16T16:52:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/06/WHF-TP-086899_V3.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "df03342b5001bcd7cf",
-      "title": "We have reached a new threshold in genAI gloom, with a game dev cancelling a demo for fear of copycats ripping them off before release",
-      "category": "Gaming",
-      "summary": "In what I suspect is the start of a trend, assuming it isn't one already, the creators of Drunken Goddess Reflux have yanked a planned public demo partly because they're concerned about people using generative AI to clone their game and release a copy before they even launch. Read more",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/we-have-reached-a-new-threshold-in-genai-gloom-with-a-game-dev-cancelling-a-demo-for-fear-of-copycats-ripping-them-off-before-release",
-      "published_at": "2026-10-16T16:50:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/Drunken-Goddess-Reflex.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "687ef5458c45c6bf0e",
-      "title": "Hello, Molly? The $15 Million Bird Kelly Clarkson Coveted Finally Breaks Her Silence (Exclusive)",
-      "category": "Entertainment",
-      "summary": "As the showdown between the pop star and the Brooklyn toy store continues, the costly contraption at the center of the scandal would like to get something off its (wooden) chest.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/kelly-clarkson-art-of-play-bird-molly-speaks-out-1236733601/",
-      "published_at": "2026-10-16T16:46:31Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "8702ee7cd5fb895416",
-      "title": "Seth Rogen Watched Curry Barker’s Next Movie, Says It’s “Even Better” Than ‘Obsession’",
-      "category": "Entertainment",
-      "summary": "'The Studio' star gives a glowing review to Barker's upcoming 'Anything But Ghosts.'",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/seth-rogen-curry-barker-anything-but-ghosts-obsession-1236733632/",
-      "published_at": "2026-10-16T16:46:17Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "8af41e7beed4c2fe2b",
-      "title": "Ruaridh Mollica on Joining ‘VisionQuest’ and the ‘Honor’ of Being a Bisexual Actor Playing a Bisexual Character in the MCU: ‘I Feel So Seen’",
-      "category": "Entertainment",
-      "summary": "Anyone who waited by the stage door at London’s Trafalgar Theatre last year may well have unwittingly been offered a major clue about a development within the Marvel Cinematic Universe.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/ruaridh-mollica-visionquest-bisexual-character-mcu-1236913831/",
-      "published_at": "2026-10-16T16:42:23Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300356317.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "185a216f9bd72bbfad",
-      "title": "From Heartthrob to Daddy: Josh Hartnett on the Joy of Playing Fathers, Why ‘Below’ Had a Perfect Ending and Why It Was ‘Refreshing’ to Not Have a Love Story",
-      "category": "Entertainment",
-      "summary": "SPOILER ALERT: This article contains spoilers for the first season of “Below,” now streaming on Netflix. Josh Hartnett is having an A-list fall, but he’s mostly focused on making sure he’s on time for school pickup. I’m catching the actor via Zoom in between errands at his house in England, where he lives with his […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/features/josh-hartnett-netflix-below-ending-love-interest-1236912714/",
-      "published_at": "2026-10-16T16:37:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/TCDBELO_ZX006.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "109591162a2e35a3dd",
-      "title": "Yang Li-kuo’s ‘The Dull-Ice Flower’ Set for U.S.-U.K. Release as London-Based Distributor Radiance Films Picks Up Eight Taiwanese Classics",
-      "category": "Entertainment",
-      "summary": "London-based Radiance Films has acquired eight Taiwanese classics from the Taiwan Film and Audiovisual Institute (TFAI), including works by acclaimed directors Hou Hsiao-hsien and Tsai Ming-liang, for theatrical and home entertainment releases in 2027.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/hou-hsiao-hsien-tsai-ming-liang-films-radiance-1236913905/",
-      "published_at": "2026-10-16T16:35:09Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Courtesy-of-Taiwan-Film-and-Audiovisual-Institute.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "39885f18948c0597d5",
-      "title": "\"We were wrong\": Wardogs devs end Season 2's team-specific cash and XP bonus experiment after a single, tumultuous day",
-      "category": "Gaming",
-      "summary": "Season 2 of Wardogs , the multiplayer sandbox FPS currently blasting and/or politely driving its way through early access, introduced an un usual \"social experiment\" when it launched yesterday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/we-were-wrong-wardogs-devs-end-season-2s-team-specific-cash-and-xp-bonus-experiment-after-a-single-tumultuous-day",
-      "published_at": "2026-10-16T16:30:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/Wardogs-screenshot-(4).jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "afb9482ef6a8ca13c7",
-      "title": "‘Gaydar’ Host Anania to Launch Variety Show on Tubi (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Anania, the host of viral social media series “Gaydar,” is heading to television. The actor, producer and social media creator is launching a late-night variety program on Tubi titled “The Anania Show,” which she will host and executive produce alongside Keisha Zollar, Morgan DeFiore and Hannah Ceisler. Streaming on Nov.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/gaydar-host-anania-the-anania-show-tubi-1236914124/",
-      "published_at": "2026-10-16T16:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Anania-Show-e1792166465440.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c39166199d7b190a97",
-      "title": "Artemis II Heat Shield After Splashdown",
-      "category": "Science",
-      "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-      "published_at": "2026-10-16T16:28:01Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -5692,91 +5777,6 @@
       "image_url": "https://i.ytimg.com/vi/CcZ1pUtALlg/hqdefault.jpg",
       "media_type": "video",
       "video_id": "CcZ1pUtALlg",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "4e885566925cb0b24e",
-      "title": "VisionQuest - Official Deletion I'm Aware Clip (2026) Paul Bettany, James Spader, Emily Hampshire",
-      "category": "Entertainment",
-      "summary": "Don't miss the 'Deletion I'm Aware' Clip for VisionQuest, the next installment in the Marvel Cinematic Universe distributed by Marvel Studios and Disney. Take a look at Ultron being escorted by Dummy and You in VisionQuest, streaming a two-episode premiere on Disney+ on October 14. #ign #mcu #marvel",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=ldbAj5hGxeo",
-      "published_at": "2026-10-13T17:30:39Z",
-      "image_url": "https://i.ytimg.com/vi/ldbAj5hGxeo/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "ldbAj5hGxeo",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "a0e5dd5915c298fd67",
-      "title": "Safety & Public Transportation - Not One of Brazil's Better Points for Tourists",
-      "category": "Travel",
-      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UCFr3sz2t3bDp6Cux08B93KQ/join #brazil #visitbrazil #travel Copyright Mark Wolters 2026 We receive a small percentage of sales from links on our videos from companies such as Amazon, Bookings, Expedia, Get Your Guide, and others.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Wolters World · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=WDQ59Jy8hnY",
-      "published_at": "2026-10-13T17:00:25Z",
-      "image_url": "https://i.ytimg.com/vi/WDQ59Jy8hnY/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "WDQ59Jy8hnY",
-      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "d8cc8f780b2d8671f8",
-      "title": "Grieving Foster Dog Is Afraid Of Everyone Except One Person | The Dodo",
-      "category": "Animals",
-      "summary": "After losing all her puppies and spending 5 months learning to trust again, Sally is finally ready for someone to choose her 🥹❤️ Sally came to Dodo editor Monica with so much stacked against her: a fearful black pittie mix grieving the loss of her entire litter.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "The Dodo · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=2DGZjd4JsZ0",
-      "published_at": "2026-10-13T17:00:01Z",
-      "image_url": "https://i.ytimg.com/vi/2DGZjd4JsZ0/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "2DGZjd4JsZ0",
-      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
-      "topics": [
-        "Animals"
-      ]
-    },
-    {
-      "id": "2985f60d820b88792f",
-      "title": "Total War: Shogun 2 Complete Edition - Official Launch Trailer",
-      "category": "Entertainment",
-      "summary": "Total War: Shogun 2 - Complete Edition is available now on PC. Watch the Total War: Shogun 2 - Complete Edition launch trailer for this strategy game.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=dQdr2bX3VQc",
-      "published_at": "2026-10-13T15:56:04Z",
-      "image_url": "https://i.ytimg.com/vi/dQdr2bX3VQc/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "dQdr2bX3VQc",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6ae06977b9ea8a87a3",
-      "title": "Metro 2039 - Official Pre-Order Trailer",
-      "category": "Entertainment",
-      "summary": "Check out the Pre-Order Trailer for Metro 2039, the upcoming installment in the first-person action horror series developed by 4A Games. Players will descend into the metro once more to face the horrors below, inspired by the Metro Book Trilogy by Dmitry Glukhovsky.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=EymNWjDCuPg",
-      "published_at": "2026-10-13T15:34:40Z",
-      "image_url": "https://i.ytimg.com/vi/EymNWjDCuPg/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "EymNWjDCuPg",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
