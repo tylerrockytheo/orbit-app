@@ -64,6 +64,12 @@ jobs:
         run: node tests/feed-mix.mjs
       - name: Verify public article discovery
         run: node tests/interest-engine.mjs
+      - name: Probe live public article provider
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        env:
+          ORBIT_LIVE_PROBE: '1'
+        run: node tests/interest-engine.mjs
       - name: Verify private onboarding and discovery
         run: node tests/discovery-smoke.mjs
       - name: Verify guest mode and account safety

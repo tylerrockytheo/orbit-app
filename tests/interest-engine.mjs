@@ -15,3 +15,11 @@ const empty=harness(()=>({ok:true,json:async()=>({query:{pages:{}}})}));await em
 let release;const race=harness(()=>new Promise(r=>{release=r}));const old=race.api.load(['old interest']);await Promise.resolve();await race.api.load([]);release(ok());await old;assert.equal(race.renders.at(-1).length,0,'stale requests cannot restore removed interests');
 assert.equal(app.api.queryList(['x','https://example.com','  Ceramic  ','ceramic']).length,1);
 console.log('Interest discovery passed: external query construction, cache, provenance, safe links, deduplication, empty/failure states and stale request isolation.');
+
+if(process.env.ORBIT_LIVE_PROBE==='1'){
+ const live=harness((url,options)=>fetch(url,options));
+ await live.api.load(['ceramics']);
+ const result=live.renders.at(-1);
+ assert.ok(result.length>0,'Public Wikipedia lookup did not return an article; inspect provider availability.');
+ console.log('Live public lookup returned:',result.map(p=>p.title).join(' | '));
+}
