@@ -1,7 +1,364 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T01:28:29.765513Z",
+  "generated_at": "2026-10-17T06:03:37.581716Z",
   "posts": [
+    {
+      "id": "9ee8866b9174f76877",
+      "title": "‘Renoir’ Producers Join Asia-Europe Co-Production Panel at Tokyo Market as Japanese Accelerator Atmovie Global Track Partners With Ties That Bind",
+      "category": "Entertainment",
+      "summary": "Producers behind Hayakawa Chie’s Cannes competition title “Renoir” are among the speakers at a session on Asia-Europe co-production at Tokyo’s TIFFCOM market on Oct. 30, as Japanese accelerator Atmovie Global Track formalizes a partnership with Europe-based workshop Ties That Bind.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/renoir-producers-asia-europe-co-production-panel-tiffcom-1236914637/",
+      "published_at": "2026-10-17T05:37:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Atmovie-track-tokyo-panel.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2686e78e139a2d84bb",
+      "title": "Comikey Adds Mato Kauta's The Wolf King's Bride Manga",
+      "category": "Anime",
+      "summary": "Hakusensha serialized shōjo manga from 2009 to 2018",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/comikey-adds-mato-kauta-the-wolf-king-bride-manga/.242933",
+      "published_at": "2026-10-17T05:31:42Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "6cd4eb2d57ea64b21a",
+      "title": "Katie Zacharia leaving White House role less than five days into job",
+      "category": "World",
+      "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T05:20:40Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8455/live/c34abe60-c99d-11f1-8844-b58b162b44d4.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "0b05be1e3f5d568871",
+      "title": "Avian flu and costs among reasons for loss of captive birds at Castle Espie",
+      "category": "Science",
+      "summary": "Difficulties in transporting animals since Brexit has contributed to the decline in the number of captive birds.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6m24e1ln130o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T05:10:33Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f584/live/ad66ed10-c9ea-11f1-bb2b-7517a3677781.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "3551c9701b8c21abd1",
+      "title": "Peow2 Licenses Jyoshikohei, Alien 9, Phantom Core Manga",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/peow2-licenses-jyoshikohei-alien-9-phantom-core-manga/.242932",
+      "published_at": "2026-10-17T05:08:19Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "7e173dc356568cacf1",
+      "title": "Trump waives several Russia sanctions as new US law takes effect",
+      "category": "World",
+      "summary": "Trump says parts of a new law that aims to punish Moscow for its war against Ukraine are against US national interests.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T05:02:50Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "1a6332e3633cdeaea4",
+      "title": "Miley Cyrus Tearfully Pays Tribute to Dolly Parton With “Jolene” Performance at Hollywood Bowl: “Me and Dolly, We Are Eternal”",
+      "category": "Entertainment",
+      "summary": "The singer told the crowd that one of the things that inspired her to play the venue was the memory of the only time she was able to sit and enjoy a Parton show at the Hollywood Bowl.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-news/miley-cyrus-dolly-parton-hollywood-bowl-jolene-watch-1236734264/",
+      "published_at": "2026-10-17T04:48:51Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "72249ff3f5b5c5c56e",
+      "title": "APOD: 2026 October 17 – 3D 67P",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+      "published_at": "2026-10-17T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "ae60b2e64d4f008616",
+      "title": "Event Habitat Dex and Pokédex list in Pokémon Pokopia",
+      "category": "Gaming",
+      "summary": "Here are all the limited-time event habitats and Pokémon in Pokémon Pokopia and what you need to make them.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pokemon-pokopia-event-habitat-dex-pokedex-list-requirements-unlock/",
+      "published_at": "2026-10-17T04:01:19Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/obs64_2026-04-28_14-23-15.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "0b5291722bd8d6087e",
+      "title": "Pokémon Pokopia event schedule",
+      "category": "Gaming",
+      "summary": "Our guide lists all the known limited-time events for Pokémon Pokopia, so you can find these event items and Pokémon.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pokemon-pokopia-event-schedule-holiday-dates/",
+      "published_at": "2026-10-17T04:01:19Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/obs64_2026-03-31_14-18-22.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "182bf4edf0cbec893c",
+      "title": "Pokémon Pokopia 'Pumpkaboo's Sweet Surprises' event guide",
+      "category": "Gaming",
+      "summary": "In this guide, you find all the information to complete Pokémon Pokopia's \"Pumpkaboo's Sweet Surprises\" Halloween event.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/pokemon-pokopia-pumpkaboos-sweet-surprises-gourgeist-habitats-items/",
+      "published_at": "2026-10-17T04:01:18Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/pokopia_guide_pumpkaboo_lead.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "f8e0e11f9df7c1121f",
+      "title": "Japan Actors Union Develops Guidelines for Generative AI Use",
+      "category": "Anime",
+      "summary": "Dragon Ball cast members discuss how generative AI affects them in press conference",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-16/japan-actors-union-develops-guidelines-for-generative-ai-use/.242861",
+      "published_at": "2026-10-17T03:59:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "8a628f4c8e6edba157",
+      "title": "Miley Cyrus Setlist: Every Song Played at ‘Bass Persuades – Live at the Hollywood Bowl’",
+      "category": "Music",
+      "summary": "Miley Cyrus kicked off her “Miley: Bass Persuades – Live at the Hollywood Bowl” shows on Friday night at the famed Los Angeles venue, giving her first headlining performance in years. The pop star, who is going mononomously as just Miley for this era, announced this pair of Friday and Sunday shows in early September […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/miley-cyrus-setlist-hollywood-bowl-los-angeles-1236914492/",
+      "published_at": "2026-10-17T03:37:30Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/05/GettyImages-1986457825.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2624b5cb258a30a394",
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "category": "World",
+      "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T03:11:10Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e513ccc1c05ae01d4b",
+      "title": "Viz Media Licenses Jojolion, His Sweet Solace, Under Doctor, More Manga for Summer 2027",
+      "category": "Anime",
+      "summary": "Someone Hertz, Belladonna's Lover, Bus for Two manga; more works slated for next summer",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-16/viz-media-licenses-jojolion-his-sweet-solace-under-doctor-more-manga-for-summer-2027/.242929",
+      "published_at": "2026-10-17T02:58:10Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "cf19f108c3192fdfae",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "category": "World",
+      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T02:33:09Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "cba0706556c59895c1",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "category": "Science",
+      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T02:33:09Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "c7eb9458821661db7c",
+      "title": "Jacob Elordi Thought He Was Having a Mental Breakdown Until He Saw a John Cassavetes Film: “Made Me Feel a Lot Less Insane and Alone”",
+      "category": "Entertainment",
+      "summary": "The Oscar-nominated actor and Cartier ambassador joined Oscar-winning filmmaker Sean Baker and moderator Kim Morgan for a Cartier Cinema Club event at Santa Monica's Aero Theatre on Friday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/jacob-elordi-interview-cartier-john-cassavetes-film-sean-baker-1236734149/",
+      "published_at": "2026-10-17T01:56:04Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6bfeb407291cdae2b8",
+      "title": "Why hasn't the UK had any named storms yet?",
+      "category": "Science",
+      "summary": "So far this autumn wet and windy weather patterns have been steered away from the UK. When could we see that change?",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/weather/articles/ck5yn68mj88vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T01:53:34Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3e5/live/af595230-c971-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "e97441be9e7bbc79b4",
+      "title": "Evacuation orders as fast-moving California wildfire burns homes",
+      "category": "Science",
+      "summary": "Fanned by the fierce Santa Ana winds, the Norte Fire is one of 13 burning across the state.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6vgjnk8nw2wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T01:36:39Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d1/live/5c4e9f00-c9c6-11f1-9624-cbdaf8e49de5.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "0a62a922e4331138eb",
+      "title": "Miranda's tears, joy and dance moves steal show as deadly boredom sets in on The Celebrity Traitors",
+      "category": "Entertainment",
+      "summary": "Miranda Hart became emotional and spoke about her health problems as more action unfolded on Friday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq70pre80gwko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T01:34:52Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e183/live/2c8eab40-c9bf-11f1-ae9f-bf0ab88aba90.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "14af3585a274d8ec46",
       "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
@@ -666,6 +1023,23 @@
       ]
     },
     {
+      "id": "b28accf0c86b758ae1",
+      "title": "For Ella Langley, Winsomeness Wins the Night, Just Like It’s Won the Year for Her, in a Stellar Turn at L.A.’s Greek: Concert Review",
+      "category": "Music",
+      "summary": "Somehow, the word mania still seems wrong to apply to anything about Ella Langley, whose entire appeal is predicated on a kind of laid-back country modesty. But by any commercial standard, if the term fits, wear it. As you know — unless you’re one of those people who likes to brag on socials about being […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/concert-reviews/ella-langley-concert-review-greek-theatre-tour-1236914594/",
+      "published_at": "2026-10-16T21:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/nice-smile-sign-P1010770-rotated-e1792200545595.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "e4a285c1072d072880",
       "title": "Timothy Busfield Indictment on Child Sex Abuse Charges Thrown Out by Judge",
       "category": "Entertainment",
@@ -680,23 +1054,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "6cd4eb2d57ea64b21a",
-      "title": "Katie Zacharia leaving her White House role less than five days on the job",
-      "category": "World",
-      "summary": "Her public debut as White House press secretary on Tuesday ended with a flurry of media criticism about her credentials and preparedness.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T21:05:05Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8455/live/c34abe60-c99d-11f1-8844-b58b162b44d4.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -3386,363 +3743,6 @@
       ]
     },
     {
-      "id": "c7631db2d0a09ea2aa",
-      "title": "Russia's view amid Ukraine's strikes and Zelenskyy's growing rift with the U.S.",
-      "category": "World",
-      "summary": "Russian authorities say Ukraine struck a major oil refinery southeast of Moscow Thursday. The strike was in response to Russia's attacks on Ukrainian energy infrastructure.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/16/nx-s1-6004281/russias-view-amid-ukraines-strikes-and-zelenskyys-growing-rift-with-the-u-s",
-      "published_at": "2026-10-16T08:51:17Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "5339e9bae46f8261ca",
-      "title": "How Putin may react to the rift between the U.S. and Ukraine",
-      "category": "World",
-      "summary": "Journalist and Russia analyst Julia Ioffe lays out how Vladimir Putin might be trying to exploit the current divide between the U.S. and Ukraine over striking Russian oil refineries.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/16/nx-s1-6003665/how-putin-may-react-to-the-rift-between-the-u-s-and-ukraine",
-      "published_at": "2026-10-16T08:50:29Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ef14461d357fc3ea73",
-      "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-      "category": "World",
-      "summary": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T08:45:54Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e303/live/46a76390-c939-11f1-bcc7-a3638a736ce9.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "76c38c874263ad8589",
-      "title": "Singapore Media Festival Launches Creator Summit as Asia TV Forum Adds AI Zone, Microdrama Focus",
-      "category": "Entertainment",
-      "summary": "The Singapore Media Festival will add a dedicated creator economy event to its lineup this year, launching the Asia Creator Summit alongside the long-running Asia TV Forum & Market when its next edition takes place Dec. 1–5. The festival is hosted by Singapore’s Infocomm Media Development Authority (IMDA).",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/markets-festivals/singapore-media-festival-asia-creator-summit-ai-zone-atf-1236913825/",
-      "published_at": "2026-10-16T08:36:57Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Singapore-Media-Festival-logo.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "7c59237a78dc4f719f",
-      "title": "Wound & Bandage TV Anime Reveals Main Cast, January 9 Debut in Teaser Video",
-      "category": "Anime",
-      "summary": "Hisako Kanemoto, Chikahiro Kobayashi star in anime",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-16/wound-and-bandage-tv-anime-reveals-main-cast-january-9-debut-in-teaser-video/.242890",
-      "published_at": "2026-10-16T08:34:54Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "b227bcf00243c9e5ff",
-      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-      "category": "World",
-      "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T08:27:16Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d2/live/c1615dd0-c901-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ec9f1ea581b1c2c719",
-      "title": "CD Projekt is in \"a really dangerous place\", says Anthem's executive producer, pointing to ballooning costs of making games of that scope and quality",
-      "category": "Gaming",
-      "summary": "\"The triple-A industry has become over-specialised, specialised to the point of hyper-fragility,\" Mark Darrah states in a foreboding interview found deep in the pages of the Summer Eternal Anthology, recently covered by Edwin .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/cd-projekt-is-in-a-really-dangerous-place-says-anthems-executive-producer-pointing-to-ballooning-costs-of-making-games-of-that-scope-and-quality",
-      "published_at": "2026-10-16T08:15:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/witcher-4-cyberpunk-2-hadar-updates-cd-projekt-financials-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "95309a4612ef9033a5",
-      "title": "Magical Sisters Lulutto Lilly Anime Reveals 2 More Cast Members",
-      "category": "Anime",
-      "summary": "Hirofumi Nojima, Shōgo Yano join cast starting in 15th episode",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-16/magical-sisters-lulutto-lilly-anime-reveals-2-more-cast-members/.242886",
-      "published_at": "2026-10-16T08:04:15Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "82711091a8b0ea34fd",
-      "title": "Busan Takeaways: Record Crowds Meet a Political Storm as Asia’s Producers Close Ranks",
-      "category": "Entertainment",
-      "summary": "The Busan International Film Festival drew its largest film audience in more than a decade at its 31st edition, which ran Oct. 6–15, while a political firestorm over a Korean box office hit and an Iranian director’s war speech kept politics in the spotlight.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/markets-festivals/busan-film-festival-2026-takeaways-record-crowds-political-storm-1236913812/",
-      "published_at": "2026-10-16T07:44:36Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Majid-Majidi-Busan.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "aed616ab8232a18e52",
-      "title": "‘Norm: The Tale of Norm Macdonald’ Review: Judd Apatow’s Latest Comedy Doc Sends Viewers Down a Laugh-Filled Rabbit Hole",
-      "category": "Entertainment",
-      "summary": "The Netflix film skips traditional talking heads for a more archival approach to the 'Saturday Night Live' and 'Dirty Work' comedy legend.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/norm-the-tale-of-norm-macdonald-review-judd-apatow-netflix-1236733208/",
-      "published_at": "2026-10-16T07:01:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "3260890823f0b66792",
-      "title": "Chrissi – ‘I Hate You Don’t Leave Me !’ review: a layered look at love, loss and self-doubt",
-      "category": "Music",
-      "summary": "On her debut album, the Essex-born singer reevaluates life after hitting rock bottom, confronting heartbreak and insecurities with a wink and a smile The post Chrissi – ‘I Hate You Don’t Leave Me !’ review: a layered look at love, loss and self-doubt appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/reviews/album/chrissi-i-hate-you-dont-leave-me-review-3973169?utm_source=rss&utm_medium=rss&utm_campaign=chrissi-i-hate-you-dont-leave-me-review",
-      "published_at": "2026-10-16T07:00:14Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Chrissi-Credit-Lily-West-Squish.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "164945eab82ad5c257",
-      "title": "‘Norm: The Tale of Norm Macdonald’: Five Biggest Takeaways, From the ‘SNL’ Firing to Concealing His Cancer Diagnosis",
-      "category": "Entertainment",
-      "summary": "Norm Macdonald wasn’t for everyone. Armed with a deadpan delivery, devil-may-care attitude and cracker-barrel charm, the Canadian comic got his start writing for “Roseanne” before earning acclaim as the host of SNL’s Weekend Update, where his unrelenting ridicule of O.J.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/lists/norm-tale-norm-macdonald-netflix-snl-cancer-metoo/",
-      "published_at": "2026-10-16T07:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Norm__The_Tale_of_Norm_Macdonald_n_00_48_23_20.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "68c63fd4514001dc61",
-      "title": "Serielizados Program: Steven Moffat, Ferran Adrià and Rodrigo Sorogoyen Bring Star Creator Power to Barcelona",
-      "category": "Entertainment",
-      "summary": "Carmen Machi, Rodrigo Sorogoyen, Hagai Levi, Steven Moffat, Sue Vertue, Victoria Martín, Ferran Adrià. All will bring star power to Barcelona’s leading series festival Serielizados which is set to kick-off Oct.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/serielizados-program-steven-moffat-ferran-adria-1236913188/",
-      "published_at": "2026-10-16T06:32:19Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/In-Vitro-3Cat.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "13c73cdef6f687a381",
-      "title": "Magical DoReMi, Star Detective Precure! Anime Get Crossover Episode on October 25",
-      "category": "Anime",
-      "summary": "Crossover episode will be anime's 39th episode",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-16/magical-doremi-star-detective-precure-anime-get-crossover-episode-on-october-25/.242871",
-      "published_at": "2026-10-16T06:29:05Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "188903e285304c8142",
-      "title": "‘Avatar: Fire and Ash’ Composer and More Speak Out About AI at Ghent’s WSA Film Music Days: ‘We Must Continue to Defend Our Art’",
-      "category": "Entertainment",
-      "summary": "At a recent World Soundtrack Awards industry panel, composer Simon Franglen struck a common chord when talking about his work on “Avatar: Fire and Ash.” “We had hundreds of musicians in a room, pouring their emotion out in that precise second,” he recalled. “How can that ever be replicated by AI?” This year’s WSA Film […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/artisans/festivals/avatar-ai-ghent-wsa-film-music-days-1236910224/",
-      "published_at": "2026-10-16T06:28:01Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-13-Oct-2026-06-25-PM-8696.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5508f2bc72a0b0c02d",
-      "title": "‘Avatar: Fire and Ash’ Composer and More Speak Out About AI at Ghent’s WSA Film Music Days: ‘We Must Continue to Defend Our Art’",
-      "category": "Entertainment",
-      "summary": "At a recent World Soundtrack Awards industry panel, composer Simon Franglen struck a common chord when talking about his work on “Avatar: Fire and Ash.” “We had hundreds of musicians in a room, pouring their emotion out in that precise second,” he recalled. “How can that ever be replicated by AI?” This year’s WSA Film […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/artisans/festivals/avatar-ai-ghent-wsa-film-music-days-1236910224/",
-      "published_at": "2026-10-16T06:28:01Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-13-Oct-2026-06-25-PM-8696.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f1939d80a1e2eb2d3b",
-      "title": "‘Avatar: Fire and Ash’ Composer and More Speak Out About AI at Ghent’s WSA Film Music Days: ‘We Must Continue to Defend Our Art’",
-      "category": "Music",
-      "summary": "At a recent World Soundtrack Awards industry panel, composer Simon Franglen struck a common chord when talking about his work on “Avatar: Fire and Ash.” “We had hundreds of musicians in a room, pouring their emotion out in that precise second,” he recalled. “How can that ever be replicated by AI?” This year’s WSA Film […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/artisans/festivals/avatar-ai-ghent-wsa-film-music-days-1236910224/",
-      "published_at": "2026-10-16T06:28:01Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-13-Oct-2026-06-25-PM-8696.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "ab47c23096d29a38b9",
-      "title": "Nawazuddin Siddiqui to Star as Delhi Street Detective in ‘Kabootar’ (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Indian thespian Nawazuddin Siddiqui is attached to lead “Kabootar,” the debut feature from writer-director Ishan Sharma, produced by Nikhil Chaudhary of MDC Filmworks.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/nawazuddin-siddiqui-delhi-street-detective-kabootar-1236913102/",
-      "published_at": "2026-10-16T05:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Nawazuddin-Siddiqui1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "2197d746084f671822",
-      "title": "'People call them pervert glasses': Blind users fear backlash over smart tech",
-      "category": "Entertainment",
-      "summary": "Concerns about the use of smart glasses are having an affect on visually-impaired users.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq2d6e56n85go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T05:23:00Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42cb/live/1cc1fab0-c8b0-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "85d4e856d294d1f5eb",
-      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-      "category": "World",
-      "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T05:00:17Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/139a/live/0f24b0c0-c8b3-11f1-bc2e-018d645d8d21.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "130f8ddea4246a3389",
-      "title": "Interview: Chrono Trigger Lead Programmer on Directing His Own Time Travel JRPG, Eternal Anima",
-      "category": "Anime",
-      "summary": "Director Katsuhisa Higuchi reached out to his old coworkers from Square and gathered other JRPG veterans to make his new retro-inspired adventure.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/convention/2026/tokyo-game-show/interview-chrono-trigger-lead-programmer-on-directing-his-own-time-travel-jrpg-eternal-anima/.242869",
-      "published_at": "2026-10-16T04:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
       "id": "4dd53e8ad7d673354a",
       "title": "GTA 6's composers have a history with Rockstar",
       "category": "Entertainment",
@@ -5861,8 +5861,8 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
