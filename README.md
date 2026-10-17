@@ -8,6 +8,16 @@ A private personalised feed. Likes are private recommendation signals; there are
 - News: GitHub Actions collects open RSS/Atom metadata approximately hourly into `data/feed.json` (public repo). The browser fetches the latest committed data via GitHub raw, with a Pages mirror and the existing Cloudflare Worker as fallbacks.
 - Backend: Cloudflare Worker `https://orbit-api.tyler-r-theo.workers.dev/feed` remains a fallback while the static content pipeline matures.
 
+## V35 — universal areas and typed interests
+
+The setup now separates optional starter areas (Film & TV, Food & Cooking, Sport, Art & Design and other comparable areas) from user-defined subjects. Dragon Ball is no longer a suggested area, Entertainment is replaced, and Discover is not treated as an interest. Existing selected Dragon Ball interests migrate to custom subjects rather than being discarded.
+
+Users can enter up to 12 specific interests, remove them, review them, and save before any external lookup occurs. Typed interests affect ranking and have their own Home filters. Pending text is added when Continue is tapped, so pressing Add is not required to preserve it. Existing source-category sliders were removed from You; onboarding is now the single interest editor.
+
+Public article lookup currently uses Wikipedia's read-only API to retrieve real introductions and canonical source links, beyond Orbit's fixed source catalog. Background reads are explicitly labelled, with source attribution and CC BY-SA licence links; they have no invented publication date or image. Queries use no credentials and omit referrers. Up to two requests run concurrently, with timeouts, a bounded one-day browser cache, retries and per-interest no-match/unavailable states. Removing an interest removes its discoveries. Old profiles do not initiate searches until explicitly saving the new review screen.
+
+**Limit:** This is not live publisher-news or arbitrary video discovery. The existing Cloudflare service requires sign-in to deploy that capability; the cancelled sign-in was not retried. No paid service or new infrastructure was enabled. Provider availability still depends on the public API.
+
 ## V34 — first tester round
 
 Invite testers with `https://tylerrockytheo.github.io/orbit-app/?test=1`. First-time invitees see a brief introduction, honest feature limits, optional interest setup and a guest browse path. Normal visits and shared-post routes retain their existing behaviour. Feedback is reachable from the header and You.
