@@ -1,7 +1,109 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:20:36.971784Z",
+  "generated_at": "2026-10-18T01:12:15.054289Z",
   "posts": [
+    {
+      "id": "7e173dc356568cacf1",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "category": "World",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T01:10:25Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "a2a00a938f546ebd56",
+      "title": "GTA: San Andreas’ Bigfoot myth is a classic urban legend",
+      "category": "Gaming",
+      "summary": "The myth of the Bigfoot in GTA San Andreas might have been debunked, but it will live forever as the symbol of an exciting time in gaming.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/gta-san-andreas-bigfoot-myth/",
+      "published_at": "2026-10-18T01:00:18Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22947291/GTA_Trilogy___Definitive_Edition___San_Andreas___Screen_3.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "4354e2aa2d8a2ced78",
+      "title": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
+      "category": "Entertainment",
+      "summary": "Quentin Tarantino has long said he’ll be retiring after his 10th feature film, but fans shouldn’t worry yet. While the “Pulp Fiction” director confirmed he’d finished penning the script for his final project, he won’t be getting much further with it until his newly opened play, “The Popinjay Cavalier,” closes.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/quentin-tarantino-confirms-script-for-tenth-film-1236915169/",
+      "published_at": "2026-10-17T23:59:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/08/GettyImages-2214901521.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "85eada14cf03f8e602",
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "category": "World",
+      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T23:52:38Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15c7/live/4f318350-ca52-11f1-852c-2b93a8fc4799.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "40c49183942cad4b8c",
+      "title": "Gene Schwam, Hollywood Publicist to Elvis Presley, Judy Garland and Julie Andrews, Dies at 96",
+      "category": "Entertainment",
+      "summary": "Schwam died Friday in Los Angeles following a brief illness.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/gene-schwam-dead-publicist-elvis-judy-garland-julie-andrews-1236734445/",
+      "published_at": "2026-10-17T23:35:28Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c4d6fff8f882478239",
+      "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+      "category": "Entertainment",
+      "summary": "James McAvoy has starred in films including “Speak No Evil,” “Atonement” and “X-Men: First Class,” but he recently revealed the “only” film he still consistently receives residuals from is M.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/",
+      "published_at": "2026-10-17T23:21:55Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDSPLI_EC087.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "3ec1e206885875f31c",
       "title": "Miley Cyrus Returns to the Stage With Emotional and Cathartic Hollywood Bowl Show",
@@ -37,6 +139,40 @@
       ]
     },
     {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1937 on October 18",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1937 on October 18 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-17T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 18",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1225 The post ‘Connections’ answers and hints for today, October 18 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-17T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "d7472691b32ffc3bfb",
       "title": "8 Most Disappointing Switch Games, Ranked",
       "category": "Gaming",
@@ -54,6 +190,23 @@
       ]
     },
     {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 18",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 18 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-17T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "bab6f3a123b7486add",
       "title": "Don't Miss the Main Sights in Paris! Pre-Book Tickets! #paris",
       "category": "Travel",
@@ -68,6 +221,23 @@
       "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 18",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 18 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-17T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -445,23 +615,6 @@
       ]
     },
     {
-      "id": "7e173dc356568cacf1",
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "category": "World",
-      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T19:19:19Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "260eb6599b1e8f1f27",
       "title": "At least 17 dead in crush at Hindu festival event in India",
       "category": "World",
@@ -615,27 +768,10 @@
       ]
     },
     {
-      "id": "85eada14cf03f8e602",
-      "title": "European diplomats attacked by Israeli settlers in West Bank",
-      "category": "World",
-      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T18:38:57Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15c7/live/4f318350-ca52-11f1-852c-2b93a8fc4799.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "1b8b68991e5faba5a9",
-      "title": "‘Musk’ TikTok Account Permanently Suspended Ahead of Documentary’s Wide Release",
+      "title": "‘Musk’ TikTok Ad Account Permanently Suspended Ahead of Documentary’s Wide Release",
       "category": "Entertainment",
-      "summary": "TikTok permanently suspended the “Musk” ad account on Friday ahead of the documentary’s wide release, Variety can confirm.",
+      "summary": "TikTok permanently suspended the “Musk” advertisement account on Friday ahead of the documentary’s wide release, Variety can confirm.",
       "summary_status": "publisher_excerpt",
       "source_name": "Variety Film",
       "source_url": "https://variety.com/2026/film/news/musk-documentary-tiktok-account-permanently-suspended-1236914995/",
@@ -2051,7 +2187,7 @@
       "source_name": "Variety Music",
       "source_url": "https://variety.com/2026/music/news/miley-cyrus-bass-persuades-hollywood-bowl-concert-review-1236914661/",
       "published_at": "2026-10-17T07:53:16Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/05/Chateau-Performance-MC_0223.jpg",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/KM_13103_PI0K3hf3.jpeg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -2825,40 +2961,6 @@
       ]
     },
     {
-      "id": "6d9105482cf85b0c99",
-      "title": "Today’s Wordle answer and hints for #1936 on October 17",
-      "category": "Music",
-      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1936 on October 17 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-      "published_at": "2026-10-16T23:01:34Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "2c5333a2b14994ffbc",
-      "title": "‘Connections’ answers and hints for today, October 17",
-      "category": "Music",
-      "summary": "Here are hints, groups and answers for 'Connections' #1224 The post ‘Connections’ answers and hints for today, October 17 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
-      "published_at": "2026-10-16T23:00:27Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "165539bdf739aa00dd",
       "title": "Castlevania Belmont's Curse - Best Weapons Types (And How to Use Them)",
       "category": "Entertainment",
@@ -2873,40 +2975,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "82c04a1405d8c602dc",
-      "title": "Globle answer today – here’s the answer and hints for October 17",
-      "category": "Music",
-      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 17 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
-      "published_at": "2026-10-16T23:00:17Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "468f1a19c428ae0e24",
-      "title": "Framed answer today – here’s the solution for October 17",
-      "category": "Music",
-      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 17 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
-      "published_at": "2026-10-16T23:00:09Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -3723,74 +3791,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "8f1a0e6792d5af7b0c",
-      "title": "Commercial Signage on the Façade of Gruta 77 in Madrid, Spain",
-      "category": "Travel",
-      "summary": "For nearly three decades, Gruta 77 has been a haven for Madrid’s rock and roll faithful. Right in the heart of Carabanchel, this legendary concert venue and rehearsal space has given punk rockers, and other musical misfits a place to gather, play loud, and keep the underground alive.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Atlas Obscura",
-      "source_url": "https://www.atlasobscura.com/places/commercial-signage-on-the-facade-of-gruta-77",
-      "published_at": "2026-10-16T18:00:00Z",
-      "image_url": "https://img.atlasobscura.com/mB3nPzPEK45L9_ucHsMPbTUciC4sSNKHpI_nZJLAmd4/rs:fill:300:200:1/g:ce/c:3045:2030:nowe:755:500/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wMWMy/MzU4YS1mN2RkLTQ1/NDItOTdlMi0zZjg5/ODIxMjJiMDIzMTFj/ZDExMzU4M2IwYmU5/MmNfSU1HXzkwNzQu/anBlZw.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "a6a66004dd32a42ff2",
-      "title": "‘Michael’ to Receive Musical Tribute at 2026 Gotham Film Awards",
-      "category": "Entertainment",
-      "summary": "The 36th Annual Gotham Film Awards Ceremony will present the cast and creative team behind “Michael” with the Gotham Musical Tribute.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/awards/news/michael-gotham-musical-tribute-1236914181/",
-      "published_at": "2026-10-16T18:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/04/001-mkt-001-cin-v0037-cnpt-1002.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "9dea485d7c02af277b",
-      "title": "‘The Julia Set,’ Starring Chase Infiniti, Lands at Sony Pictures Classics Following TIFF Premiere",
-      "category": "Entertainment",
-      "summary": "Sony Pictures Classics has acquired rights to Niki Byrne’s “The Julia Set,” starring Chase Infiniti, following the film’s world premiere at TIFF. The film, written and directed by Byrne, was one of the festival’s breakouts, thanks in large part to Infiniti’s commanding performance.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/the-julia-set-chase-infiniti-sony-pictures-classics-tiff-1236914143/",
-      "published_at": "2026-10-16T18:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/the_julia_set_01.webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "87a4de3501c6f9533d",
-      "title": "The Avalanches Create Another Sample-delic Pop Masterpiece With ‘No Bad Memories’: Album Review",
-      "category": "Music",
-      "summary": "Without overstating the case, when the Avalanches’ debut album “Since I Lost You” arrived out of a clear blue sky (to anyone outside of their native Australia, anyway) in 2000, its impact was like the arrival of the Beastie Boys’ “Paul’s Boutique” eleven years earlier: a mind-melting leap forward in the art of sampling, a […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/reviews/avalanches-no-bad-memories-album-review-1236914225/",
-      "published_at": "2026-10-16T17:58:19Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/albumcovertreatment-15-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -5806,8 +5806,8 @@
     },
     {
       "name": "NASA",
-      "items": 9,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Atlas Obscura",
