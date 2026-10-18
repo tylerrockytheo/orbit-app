@@ -1,7 +1,279 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T17:25:06.065580Z",
+  "generated_at": "2026-10-18T19:35:08.569277Z",
   "posts": [
+    {
+      "id": "e5a4f051b0c1e3b46f",
+      "title": "Young Miko Gets Flirty With L.A. During Her Late Checkout Tour",
+      "category": "Entertainment",
+      "summary": "The Puerto Rican rapper and singer performed her sophomore album, 'Do Not Disturb,' as well as several other hits to a sold-out crowd at Inglewood’s Intuit Dome Saturday night.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-news/young-miko-la-concert-late-checkout-tour-highlights-1236734751/",
+      "published_at": "2026-10-18T19:34:06Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "06b2e16bbad48f220d",
+      "title": "Jesse Eisenberg Says He ‘Couldn’t Get Movie Studio Parts Anymore’ After Winning A Razzie For ‘Batman v Superman’: ‘The Industry Did Not Want Me to Be in a Superhero Movie’",
+      "category": "Entertainment",
+      "summary": "Jesse Eisenberg has said he was frozen out of studio movies after winning a Razzie for Zack Snyder’s “Batman v Superman: Dawn of Justice.” The Razzies — short for Golden Raspberry Awards — are a tongue-in-cheek ceremony that “honor” the supposedly worst films of the year.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/global/jesse-eisenberg-razzie-batman-v-superman-1236915876/",
+      "published_at": "2026-10-18T19:27:18Z",
+      "image_url": "https://variety.com/wp-content/uploads/2015/03/jesse-eisenberg-lex-luthor.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "a0170a216acd75c27b",
+      "title": "Fuel leak spreads more than two miles along River Taff",
+      "category": "Science",
+      "summary": "Public Health Wales advises people living nearby to shut their doors and windows due to the smell.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c8vgxnp5w6vzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T19:20:57Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e744/live/ac9b0fb0-cae9-11f1-bc2e-018d645d8d21.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "effa9d2ada3fa44f44",
+      "title": "‘Capturing Bigfoot’ Review: An Astounding Documentary Uncovers the Truth",
+      "category": "Entertainment",
+      "summary": "\"Capturing Bigfoot\" is an amazing documentary about the legend of Bigfoot — about how it was born, how it took hold, and how that iconic piece of film footage came to be. It’s a documentary that answers all the questions and solves all the mysteries.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+      "published_at": "2026-10-18T19:05:42Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/BIGFOOT_4K_Credit-Patterson-Gimlin-1.jpeg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f0fdec9901a274dd10",
+      "title": "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development",
+      "category": "Gaming",
+      "summary": "Bigger than the ones in Elden Ring, for what it's worth.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/dark-souls/dark-souls-2-dataminer-shows-off-massive-prototype-coliseum-level-from-early-development/",
+      "published_at": "2026-10-18T18:48:42Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/zaWM99pyEfhLiBr3FV5MsP-1920-80.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "467aeb4e457c66fa3e",
+      "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+      "category": "Gaming",
+      "summary": "Claude, finish drafting my single-use ray gun which can only vaporize $999 million worth of stuff and/or 49 people.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
+      "published_at": "2026-10-18T18:44:11Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/yLUJefzpgZfJpEoPzUUMXU-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "a4ae33a3d784cefaa3",
+      "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+      "category": "World",
+      "summary": "Ukrainian President Volodymyr Zelenskyy has said he believes the U.S. government is behind his military's loss of normal access to the key satellite communications service used by the Ukrainian military.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+      "published_at": "2026-10-18T18:38:49Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "6f2f46711fa71102e7",
+      "title": "The Darkside Detective: Backside of the Moon - Official Game Trailer | Cozy After Dark Showcase 2026",
+      "category": "Gaming",
+      "summary": "Check out the Gameplay Trailer for The Darkside Detective: Backside of the Moon, a 2D point-and-click adventure game developed by Spooky Doorway. Players will take on six unsettling mysteries as Detective McQueen and Officer Dooley, who are primed and ready to solve each case one at a time.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=5K9NbU273dg",
+      "published_at": "2026-10-18T18:15:21Z",
+      "image_url": "https://i.ytimg.com/vi/5K9NbU273dg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "5K9NbU273dg",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "d6b01c66bd51af8c41",
+      "title": "Cindy Crawford, Kaia Gerber Break Their Silence on Presley Gerber’s Death: “A Sweet, Beautiful Soul”",
+      "category": "Entertainment",
+      "summary": "Crawford's son Presley died in September at age 27.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/cindy-crawford-tribute-son-presley-gerber-dead-1236734874/",
+      "published_at": "2026-10-18T18:08:13Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c28e12d02e2fad003c",
+      "title": "Taylor Swift Fires Up Academy Gala With Four Songs in Her First Band Performance Since the Eras Tour",
+      "category": "Entertainment",
+      "summary": "Taylor Swift got some of the old gang back together for her first full-band performance since the Eras Tour, delivering a four-song set to a black-tie audience Saturday night at the Academy Museum 6th Annual Gala.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
+      "published_at": "2026-10-18T18:05:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300770690.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8296202d34208b7e26",
+      "title": "Taylor Swift Fires Up Academy Gala With Four Songs in Her First Band Performance Since the Eras Tour",
+      "category": "Music",
+      "summary": "Taylor Swift got some of the old gang back together for her first full-band performance since the Eras Tour, delivering a four-song set to a black-tie audience Saturday night at the Academy Museum 6th Annual Gala.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
+      "published_at": "2026-10-18T18:05:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300770690.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "b415a21cf9c530a1ef",
+      "title": "Woodstock Film Festival Names Jessica Edwards as Executive Director",
+      "category": "Entertainment",
+      "summary": "Jessica Edwards has been named the new executive director of the Woodstock Film Festival, the organization announced Sunday as the 27th annual festival came to a close. Edwards will take over the role from Meira Blaustein, the festival’s co-founder.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/woodstock-film-festival-jessica-edwards-executive-director-1236915828/",
+      "published_at": "2026-10-18T18:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Jessica_Edwards_photo_by_Sara_Fox.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3398ced93353bae474",
+      "title": "Aran Murphy on Playing an Angry Young Man in ‘Youth’ and ‘War’ — and His Father Cillian’s Influence",
+      "category": "Entertainment",
+      "summary": "Aran Murphy is having quite a month, as he co-stars on not one, but two HBO shows — “Youth” and “War” — and plays one of the leads of Taika Waititi’s dystopian film “Klara and the Sun,” set to be released on Oct. 23. But if you think you’ve seen the 19-year-old actor before, it […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/aran-murphy-youth-war-and-cillian-murphy-influence-1236909378/",
+      "published_at": "2026-10-18T18:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/aran-murphy-Youth.solo_.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fdac7620e7ba229a70",
+      "title": "Charli xcx Brings Out Chappell Roan for ‘Boom Clap’ at Los Angeles Concert",
+      "category": "Music",
+      "summary": "As anyone who’s seen her in concert knows, Charli xcx is usually laser-focused on her current material and rarely looks back for more than a couple of songs. But she made an exception on Saturday night at the Kia Forum in Los Angeles, when she performed her 2014 breakthrough hit “Boom Clap” (for the first […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/chappell-roan-charli-xcx-boom-clap-los-angeles-1236915831/",
+      "published_at": "2026-10-18T17:53:29Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-18-at-1.50.21-PM-e1792345934562.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "0013bd62cd0fd74861",
+      "title": "CBS News Correspondent Jan Crawford Apologizes for Post on Abdul El-Sayed That Sparked Social-Media Ire",
+      "category": "Entertainment",
+      "summary": "CBS News veteran Jan Crawford usually has the delicate task of covering the U.S. Supreme Court and the ways in which its decisions affect American lives and policies. On Sunday, however, Crawford was the one being judged. Crawford, who joined CBS News in 2009, posted a note following a town hall meeting held Saturday night […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/cbs-news-jan-crawford-apologizes-abdul-el-sayed-post-1236915791/",
+      "published_at": "2026-10-18T17:51:35Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/headshot-600-jan-crawford.webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3c7f4a2fbe530c21ef",
+      "title": "Tom the Postgirl - Official Release Date Trailer | Cozy After Dark Showcase 2026",
+      "category": "Entertainment",
+      "summary": "Get a look at the Release Date Trailer for Tom the Postgirl, a hand-drawn dark fantasy game developed by Oopsie Daisies and ARTE France. Players will embody Tom making her delivery rounds to peculiar residents across town. Tom the Postgirl is launching on October 29 for Nintendo Switch and PC (Steam). #ign #gaming",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=0BTHQbnSfqM",
+      "published_at": "2026-10-18T17:45:56Z",
+      "image_url": "https://i.ytimg.com/vi/0BTHQbnSfqM/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "0BTHQbnSfqM",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "0c63d19b4517bf8b91",
       "title": "Jaime Pressly Defends ‘Mom’ Co-Stars as ‘Beautifully Flawed’ After Creator Chuck Lorre Revealed His ‘Reluctance to Hire’ Anna Faris",
@@ -323,23 +595,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "a0170a216acd75c27b",
-      "title": "Fuel leak spreads more than two miles along River Taff",
-      "category": "Science",
-      "summary": "Public Health Wales advises people living nearby to shut their doors and windows due to the smell.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/c8vgxnp5w6vzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T15:11:09Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e744/live/ac9b0fb0-cae9-11f1-bc2e-018d645d8d21.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -1041,9 +1296,9 @@
     },
     {
       "id": "bfdccf65cb8bc9be95",
-      "title": "Major fire breaks out in Alberta after deadly incident at military base",
+      "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
       "category": "World",
-      "summary": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+      "summary": "Canadian Prime Minister Mark Carney described the incident as one of the worst peacetime tragedies for Canada's military on domestic soil.",
       "summary_status": "publisher_excerpt",
       "source_name": "NPR World",
       "source_url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
@@ -2486,7 +2741,7 @@
     },
     {
       "id": "74d1b691bcba4fee56",
-      "title": "French police arrest 1,800 after violent clashes and looting mar protests",
+      "title": "France's Macron vows to hold accountable those who 'sought to bring down the Republic'",
       "category": "World",
       "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
       "summary_status": "publisher_excerpt",
@@ -3417,227 +3672,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "3fa8ac20e927443d4a",
-      "title": "Miley Cyrus Embraces Being the Anti-Pop Pop Star With Her First ‘Bass Persuades’ Show at Hollywood Bowl: Concert Review",
-      "category": "Music",
-      "summary": "After she descended from a B-stage in the middle of the stands at the Hollywood Bowl on Friday night, Miley Cyrus sat hunched over on the main stage, visibly sapped by the 200-foot trek back to the spotlight. “You guys gave me so much energy, but you also took a little energy out of me, […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/miley-cyrus-bass-persuades-hollywood-bowl-concert-review-1236914661/",
-      "published_at": "2026-10-17T07:53:16Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/KM_13103_PI0K3hf3.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "2077bc179f2be71ed3",
-      "title": "Stranger Than Heaven Game Streams Story Trailer for 1st Act 'Kokura'",
-      "category": "Anime",
-      "summary": "Game launches on January 15 for Xbox Series X|S, PlayStation 5, PC via Steam",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/stranger-than-heaven-game-streams-story-trailer-for-1st-act-kokura/.242936",
-      "published_at": "2026-10-17T07:45:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "0a8c40cc71bfb00f8d",
-      "title": "What are we all playing this weekend?",
-      "category": "Gaming",
-      "summary": "Saturday's are for having your mind read. Or, at least, this Saturday is because I'm seeing Derren Brown's new show.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-404",
-      "published_at": "2026-10-17T07:00:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/weekend-magic.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "27f94aee7c5eefc15f",
-      "title": "Bleach: Thousand-Year Blood War - The Calamity Anime Streams 'Last' Promo Video",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/bleach-thousand-year-blood-war-the-calamity-anime-streams-last-promo-video/.242935",
-      "published_at": "2026-10-17T06:51:02Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "a7975fae4cd00ad4f5",
-      "title": "OceanVeil to Add 19 Anime Titles from Media Blasters",
-      "category": "Anime",
-      "summary": "Magical Witch Punie-chan, CODE-E, EIken, Gakuen Heaven , more to stream on service",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/oceanveil-to-add-19-anime-titles-from-media-blasters/.242934",
-      "published_at": "2026-10-17T05:54:28Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "9ee8866b9174f76877",
-      "title": "‘Renoir’ Producers Join Asia-Europe Co-Production Panel at Tokyo Market as Japanese Accelerator Atmovie Global Track Partners With Ties That Bind",
-      "category": "Entertainment",
-      "summary": "Producers behind Hayakawa Chie’s Cannes competition title “Renoir” are among the speakers at a session on Asia-Europe co-production at Tokyo’s TIFFCOM market on Oct. 30, as Japanese accelerator Atmovie Global Track formalizes a partnership with Europe-based workshop Ties That Bind.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/markets-festivals/renoir-producers-asia-europe-co-production-panel-tiffcom-1236914637/",
-      "published_at": "2026-10-17T05:37:19Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Atmovie-track-tokyo-panel.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "2686e78e139a2d84bb",
-      "title": "Comikey Adds Mato Kauta's The Wolf King's Bride Manga",
-      "category": "Anime",
-      "summary": "Hakusensha serialized shōjo manga from 2009 to 2018",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/comikey-adds-mato-kauta-the-wolf-king-bride-manga/.242933",
-      "published_at": "2026-10-17T05:31:42Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "0b05be1e3f5d568871",
-      "title": "Avian flu and costs among reasons for loss of captive birds at Castle Espie",
-      "category": "Science",
-      "summary": "Difficulties in transporting animals since Brexit has contributed to the decline in the number of captive birds.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6m24e1ln130o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T05:10:33Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f584/live/ad66ed10-c9ea-11f1-bb2b-7517a3677781.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "3551c9701b8c21abd1",
-      "title": "Peow2 Licenses Jyoshikohei, Alien 9, Phantom Core Manga",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/peow2-licenses-jyoshikohei-alien-9-phantom-core-manga/.242932",
-      "published_at": "2026-10-17T05:08:19Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "48cd0c175c72ddc74f",
-      "title": "Pope's health should not be taken 'for granted', says top Vatican diplomat",
-      "category": "World",
-      "summary": "Archbishop Paul Gallagher tells the BBC there was no sign of the Pope's ill health prior to his operation this week.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6kg53zrexdeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T05:01:40Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e95/live/6651a140-c96d-11f1-a6e6-417671ef62cb.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "1a6332e3633cdeaea4",
-      "title": "Miley Cyrus Tearfully Pays Tribute to Dolly Parton With “Jolene” Performance at Hollywood Bowl: “Me and Dolly, We Are Eternal”",
-      "category": "Entertainment",
-      "summary": "The singer told the crowd that one of the things that inspired her to play the venue was the memory of the only time she was able to sit and enjoy a Parton show at the Hollywood Bowl.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/music/music-news/miley-cyrus-dolly-parton-hollywood-bowl-jolene-watch-1236734264/",
-      "published_at": "2026-10-17T04:48:51Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "72249ff3f5b5c5c56e",
-      "title": "APOD: 2026 October 17 – 3D 67P",
-      "category": "Science",
-      "summary": "APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
-      "published_at": "2026-10-17T04:05:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "ae60b2e64d4f008616",
-      "title": "Event Habitat Dex and Pokédex list in Pokémon Pokopia",
-      "category": "Gaming",
-      "summary": "Here are all the limited-time event habitats and Pokémon in Pokémon Pokopia and what you need to make them.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/pokemon-pokopia-event-habitat-dex-pokedex-list-requirements-unlock/",
-      "published_at": "2026-10-17T04:01:19Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/obs64_2026-04-28_14-23-15.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -5746,40 +5780,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Gaming"
-      ]
-    },
-    {
-      "id": "66a2b182ab37e35637",
-      "title": "Grand Theft Auto's popularity has come a long way since GTA 3! #gta #gta3 #ign #gaming #ign30",
-      "category": "Gaming",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=5bS8sZR5Lm8",
-      "published_at": "2026-10-13T23:31:34Z",
-      "image_url": "https://i.ytimg.com/vi/5bS8sZR5Lm8/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "5bS8sZR5Lm8",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "5aeb7611945d891517",
-      "title": "Taylor Momsen on singing with Soundgarden #grunge #soundgarden",
-      "category": "Music",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Rick Beato · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=I-UKOBHzErE",
-      "published_at": "2026-10-13T23:03:50Z",
-      "image_url": "https://i.ytimg.com/vi/I-UKOBHzErE/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "I-UKOBHzErE",
-      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
-      "topics": [
-        "Music"
       ]
     }
   ],
