@@ -1,7 +1,262 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T19:35:08.569277Z",
+  "generated_at": "2026-10-18T21:47:51.702758Z",
   "posts": [
+    {
+      "id": "ab1e5e94c0de169524",
+      "title": "What we know so far about deadly fire at Canadian military base",
+      "category": "World",
+      "summary": "At least four people are confirmed to have died after a huge fire swept through the base.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T21:37:56Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d82/live/7fedb8b0-cb1a-11f1-a9ef-8b4e735f71f0.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "14a437c03a0059f483",
+      "title": "Inside Chicago's battle against the synthetic drugs flooding the US",
+      "category": "World",
+      "summary": "A new wave of synthetic drugs is sweeping across the United States, raising fear of a worsening drug crisis. The BBC's Quentin Sommerville reports from the frontlines in South Side, Chicago, where communities are battling the crisis.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/videos/c84g166kz003o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T21:00:22Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2040/live/43727360-cb12-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "103192066c77030d0b",
+      "title": "Political rivals implicated under Pakistan's anti-terror law",
+      "category": "World",
+      "summary": "Pakistan's political showdown continues as more opposition figures are implicated under Pakistan's anti-terror law.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/18/nx-s1-6004833/political-rivals-implicated-under-pakistans-anti-terror-law",
+      "published_at": "2026-10-18T21:00:11Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "321fed0cd2366c6bbf",
+      "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+      "category": "World",
+      "summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+      "published_at": "2026-10-18T21:00:08Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "c5f2486e2ce70639aa",
+      "title": "Two Sloths Get Stranded Dangerously Close To Power Lines | The Dodo",
+      "category": "Animals",
+      "summary": "Also: unbearably cute 🥹💚 Fundación Chuwie told us how they rescued two sloths who had gotten dangerously close to power lines. Their team carefully brought both animals to safety and helped them get back into the trees where they belong.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=OZUEwLaLayg",
+      "published_at": "2026-10-18T21:00:04Z",
+      "image_url": "https://i.ytimg.com/vi/OZUEwLaLayg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "OZUEwLaLayg",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "f0e4dcfefda1022619",
+      "title": "Julianne Moore Says ‘The Debut’ Is ‘One of the Best Scripts I’ve Ever Read’ as Jesse Eisenberg’s Musical Comedy Closes London Film Festival on a High Note",
+      "category": "Entertainment",
+      "summary": "“The Debut” ended London Film Festival on a high note Sunday night as director Jesse Eisenberg and star Julianne Moore gushed over each other to a packed audience at the Royal Festival Hall. “I mean, this movie stars my favorite person, Julianne Moore,” Eisenberg began as the duo came onstage to introduce the musical comedy. […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/julianne-moore-jesse-eisenberg-the-debut-london-premiere-1236915637/",
+      "published_at": "2026-10-18T20:40:12Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/the-debut-1000.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "640b81eb7ec503e1fc",
+      "title": "I Finally Learned THIS Steely Dan Song",
+      "category": "Music",
+      "summary": "In today's livestream I talk about a Steely Dan song, that I've always wanted to learn. 🎉 Get My Musicianship Bundle For Just $59: The Beato Book Interactive + my rebuilt Ear Training Method, plus Music Theory for Songwriters → https://rickbeato.com/s/steely-dan Ends Tuesday, October 20th at 11:59pm ET",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rick Beato · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=6lwjlYYqizk",
+      "published_at": "2026-10-18T20:33:40Z",
+      "image_url": "https://i.ytimg.com/vi/6lwjlYYqizk/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "6lwjlYYqizk",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "b8b800279175eaf2ec",
+      "title": "Macron calls for 'calm and order' after riots across France",
+      "category": "World",
+      "summary": "French President Emmanuel Macron gives a national address after widespread disorder and as some looting continued in Paris.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T20:33:21Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3671/live/56f97410-cb35-11f1-9e57-a506a0943bb2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "b4c51b082370e1b8cf",
+      "title": "I Finally Learned THIS Steely Dan Song",
+      "category": "Music",
+      "summary": "In today's livestream I talk about a Steely Dan song, that I've always wanted to learn. 🎉 Get My Musicianship Bundle For Just $59: The Beato Book Interactive + my rebuilt Ear Training Method, plus Music Theory for Songwriters → https://rickbeato.com/s/steely-dan Ends Tuesday, October 20th at 11:59pm ET",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rick Beato · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=VrkaYtFfZHA",
+      "published_at": "2026-10-18T20:32:03Z",
+      "image_url": "https://i.ytimg.com/vi/VrkaYtFfZHA/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "VrkaYtFfZHA",
+      "youtube_channel_id": "UCJquYOG5EL82sKTfH9aMA9Q",
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "5f2f84b5a01a237999",
+      "title": "Joe Manganiello Says Ben Affleck’s Scrapped Batman Film Would Have Seen Deathstroke ‘Dismantle Batman’s Entire Life’ and Kill Commissioner Gordon",
+      "category": "Entertainment",
+      "summary": "Joe Manganiello, who was set to reprise the role of Deathstroke in Ben Affleck’s scrapped Batman film, is telling all about what would have happened had the superhero film made it to theaters.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/joe-manganiello-ben-afflecks-batman-film-deathstroke-1236915997/",
+      "published_at": "2026-10-18T20:12:37Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1388071981.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7879d64d50a08a9d59",
+      "title": "New Steam Game is Basically Kiki’s Delivery Service in Video Game Form",
+      "category": "Gaming",
+      "summary": "The Witch's Bakery is a new cozy game where play as a witch healing people's emotions through the power of magic bread.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/the-witchs-bakery-recommendation-steam-switch-ps5-xbox/",
+      "published_at": "2026-10-18T20:00:18Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-witch-s-bakery-trailer-screen.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "4aae78fd845cf8fbbf",
+      "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
+      "category": "World",
+      "summary": "Presley Gerber's death in September is being investigated as a suspected overdose.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwzrd6123jyyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T19:53:27Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e6f/live/104d6ec0-cb23-11f1-862d-eb45b1209086.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "ae431576c71c04246c",
+      "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
+      "category": "Entertainment",
+      "summary": "Presley Gerber's death in September is being investigated as a suspected overdose.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwzrd6123jyyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T19:53:27Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e6f/live/104d6ec0-cb23-11f1-862d-eb45b1209086.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7c05fab7a48537847f",
+      "title": "Taylor Swift’s ‘The Life of a Showgirl’ Spends 15th Week at No. 1 on Albums Chart",
+      "category": "Music",
+      "summary": "Taylor Swift holds steady at No. 1 on the Billboard 200 as “The Life of a Showgirl” spends a 15th non-consecutive week atop the chart.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/taylor-swift-the-life-of-a-showgirl-15th-week-no-1-chart-1236915983/",
+      "published_at": "2026-10-18T19:49:28Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GF2_8744-e1792352715384.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "4f0211f81d3f5ea4b6",
+      "title": "Betty McGuire, ‘Growing Pains’ Actress, Dies at 100",
+      "category": "Entertainment",
+      "summary": "Betty McGuire, the actress best known for her role as grandmother Kate Malone on the ABC sitcom “Growing Pains, died Oct. 8 at the Motion Picture & Television Fund’s Wasserman Campus in Woodland Hills, Calif., of natural causes. She was 100. Keith Gerchak, McGuire’s POA, confirmed her death.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/people-news/betty-mcguire-dead-growing-pains-1236915890/",
+      "published_at": "2026-10-18T19:38:44Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Betty-McGuire-Headshot.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "e5a4f051b0c1e3b46f",
       "title": "Young Miko Gets Flirty With L.A. During Her Late Checkout Tour",
@@ -21,7 +276,7 @@
     },
     {
       "id": "06b2e16bbad48f220d",
-      "title": "Jesse Eisenberg Says He ‘Couldn’t Get Movie Studio Parts Anymore’ After Winning A Razzie For ‘Batman v Superman’: ‘The Industry Did Not Want Me to Be in a Superhero Movie’",
+      "title": "Jesse Eisenberg Says He ‘Couldn’t Get Movie Studio Parts Anymore’ After Winning a Razzie for ‘Batman v Superman’: ‘The Industry Did Not Want Me to Be in a Superhero Movie’",
       "category": "Entertainment",
       "summary": "Jesse Eisenberg has said he was frozen out of studio movies after winning a Razzie for Zack Snyder’s “Batman v Superman: Dawn of Justice.” The Razzies — short for Golden Raspberry Awards — are a tongue-in-cheek ceremony that “honor” the supposedly worst films of the year.",
       "summary_status": "publisher_excerpt",
@@ -34,6 +289,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "497bd8eb7890c9c2e0",
+      "title": "Dude Perfect Faked It! 😳",
+      "category": "Comedy",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Dude Perfect · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=Nm--XKKth5I",
+      "published_at": "2026-10-18T19:26:57Z",
+      "image_url": "https://i.ytimg.com/vi/Nm--XKKth5I/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "Nm--XKKth5I",
+      "youtube_channel_id": "UCRijo3ddMTht_IHyNSNXpNQ",
+      "topics": [
+        "Comedy"
       ]
     },
     {
@@ -119,6 +391,23 @@
       "youtube_channel_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "1b8b68991e5faba5a9",
+      "title": "‘Musk’ TikTok Ad Account Temporarily Suspended Ahead of Documentary’s Wide Release",
+      "category": "Entertainment",
+      "summary": "TikTok temporarily suspended the “Musk” advertisement account on Friday ahead of the documentary’s wide release, Variety can confirm. The ad account’s ability to advertise on the platform was then restored on Sunday “after an error,” per a spokesperson for the company.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/musk-documentary-tiktok-account-permanently-suspended-1236914995/",
+      "published_at": "2026-10-18T18:36:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/Musk.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
       ]
     },
     {
@@ -497,7 +786,7 @@
     },
     {
       "id": "611a1f85bfb55c6bde",
-      "title": "R.J. Mitte’s Mother Opens Up About His Tragic Passing to Help Other Families (While Clarifying Speculation About His Finances, Career and Fiancé)",
+      "title": "R.J. Mitte’s Mother Opens Up About His Tragic Passing to Help Other Families (While Clarifying Speculation About His Finances, Career and Fiancée)",
       "category": "Entertainment",
       "summary": "\"I’m taking one step at a time,\" Dyna Mitte said hours after her son's Celebration of Life ceremony. She opened up on his childhood, recent issues and his true legacy. \"He was the light of my life.\"",
       "summary_status": "publisher_excerpt",
@@ -2281,23 +2570,6 @@
       ]
     },
     {
-      "id": "1b8b68991e5faba5a9",
-      "title": "‘Musk’ TikTok Ad Account Permanently Suspended Ahead of Documentary’s Wide Release",
-      "category": "Entertainment",
-      "summary": "TikTok permanently suspended the “Musk” advertisement account on Friday ahead of the documentary’s wide release, Variety can confirm.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/musk-documentary-tiktok-account-permanently-suspended-1236914995/",
-      "published_at": "2026-10-17T18:36:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/08/Musk.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "7a35a738c1da8b3874",
       "title": "How ‘Whalefall’ Production Designer Ramsey Avery Built the Creature’s Stomach Using Mattress Foam and Silicone Bits",
       "category": "Entertainment",
@@ -3468,210 +3740,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "58e9a9368d0aa78595",
-      "title": "Decades after apartheid, South Africans seek justice for crimes of the past",
-      "category": "World",
-      "summary": "More than three decades after the end of apartheid, families of victims of some of the worst crimes of South Africa's past are still fighting for justice. As survivors and perpetrators grow older, a new wave of legal efforts is seeking truth, accountability and reparations before it's too late.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/17/nx-s1-5987671/south-africa-justice-sharpeville-apartheid",
-      "published_at": "2026-10-17T11:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "db308428f39ac7f010",
-      "title": "Rare pink diamond goes on display in France 100 years after amateur heist",
-      "category": "World",
-      "summary": "The French royal jewel will be on public display for the first time since it was found hidden in an apple after a 1926 theft.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c61m4zkx47vlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T10:46:41Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37cc/live/14013ec0-ca01-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "9eb8237d909244a971",
-      "title": "Taylor Swift Heroine Clara Bow’s Breakout Movie ‘It’ Leads Carlotta Films, Artcraft Pictures French Distribution Deal of Hollywood Classics",
-      "category": "Entertainment",
-      "summary": "LYON, France — “It,” the 1927 breakout movie of silent film star Clara Bow, to whom Taylor Swift paid tribute in a song named after her in “The Tortured Poets Department,” leads a deal between French classic film distributor Carlotta Films and U.S. restoration company Artcraft Pictures.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/taylor-swift-heroine-clara-bow-it-in-carlotta-artcraft-deal-1236914724/",
-      "published_at": "2026-10-17T10:37:17Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Clara-Bow-in-It.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "14af3585a274d8ec46",
-      "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
-      "category": "World",
-      "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T09:58:17Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "994efc2e4b16e53537",
-      "title": "Watch Metallica share pro-shot footage of ‘…And Justice For All’ and ‘The Call Of Ktulu’ at Las Vegas Sphere residency",
-      "category": "Music",
-      "summary": "The ‘Life Burns Faster’ residency opened earlier this month The post Watch Metallica share pro-shot footage of ‘…And Justice For All’ and ‘The Call Of Ktulu’ at Las Vegas Sphere residency appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/watch-metallica-share-pro-shot-footage-of-and-justice-for-all-and-the-call-of-ktulu-at-las-vegas-sphere-residency-3973419?utm_source=rss&utm_medium=rss&utm_campaign=watch-metallica-share-pro-shot-footage-of-and-justice-for-all-and-the-call-of-ktulu-at-las-vegas-sphere-residency",
-      "published_at": "2026-10-17T09:56:05Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/2026_metallica_getty_2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "feb6965109e4d9d711",
-      "title": "Aikatsu Stars 10th Anniversary Film's Trailer Unveils Theme Song, January 22 Debut",
-      "category": "Anime",
-      "summary": "Yume & company invited to \"Venus Jamboree\" with world's top idols",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/aikatsu-stars-10th-anniversary-film-trailer-unveils-theme-song-january-22-debut/.242937",
-      "published_at": "2026-10-17T09:31:32Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "0e6c815d31957b9151",
-      "title": "Coen Brothers Bring Laughs to Lumière Award Ceremony as Javier Bardem Recalls ‘No Country for Old Men’: ‘They Gave Me One Masterpiece’",
-      "category": "Entertainment",
-      "summary": "To the sound of the Gipsy Kings’ Spanish-language rendition of “Hotel California,” Joel and Ethan Coen took the stage at Lyon’s Lumière Film Festival on Friday evening to receive the Lumière Award, celebrating four decades of filmmaking with a characteristically irreverent tribute to the inventors of cinema.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/coen-brothers-profane-thank-you-lumiere-award-1236914700/",
-      "published_at": "2026-10-17T09:20:02Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Joel-and-Ethan-Coen-Accept-Lumiere-Award.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6cd4eb2d57ea64b21a",
-      "title": "Katie Zacharia leaving White House role less than five days into job",
-      "category": "World",
-      "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T09:14:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8455/live/c34abe60-c99d-11f1-8844-b58b162b44d4.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "d084c59e6e9996197b",
-      "title": "Liam Gallagher says Fontaines D.C. “are not good enough” to open for Oasis on their ‘Live ’27’ tour",
-      "category": "Music",
-      "summary": "The Irish band launched their new album ‘Dopamine Chamber’ yesterday (October 16) The post Liam Gallagher says Fontaines D.C. “are not good enough” to open for Oasis on their ‘Live ’27’ tour appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour-3973414?utm_source=rss&utm_medium=rss&utm_campaign=liam-gallagher-says-fontaines-d-c-are-not-good-enough-to-open-for-oasis-on-their-live-27-tour",
-      "published_at": "2026-10-17T09:07:26Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/2027_oasis_fontainesdc_bigbrotherrecordings_andyfordnme_2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "216d1c268dd7a459f1",
-      "title": "Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital",
-      "category": "World",
-      "summary": "Patients travel miles to be treated at public hospitals in Delhi. Those in need get financial aid for their care. But for overnight accommodations, families are often on their own — and on the street.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/17/g-s1-147874/hospital-diagnosis-patients-india-sidewalk",
-      "published_at": "2026-10-17T09:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "0891189f613a1a727b",
-      "title": "Harry Styles pays tribute to Liam Payne on anniversary of One Direction star’s death with moving new song ‘What Is Enough’",
-      "category": "Music",
-      "summary": "“There are so many people in my life, friends and people that I’ve worked with that I wouldn’t have been able to do this without.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/harry-styles-pays-tribute-to-liam-payne-on-anniversary-of-one-direction-stars-death-with-moving-new-song-what-is-enough-3973408?utm_source=rss&utm_medium=rss&utm_campaign=harry-styles-pays-tribute-to-liam-payne-on-anniversary-of-one-direction-stars-death-with-moving-new-song-what-is-enough",
-      "published_at": "2026-10-17T08:00:57Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/2027_harrystyles_liampayne_getty_2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "52fc74bb0bcf977718",
-      "title": "‘Perfect Road’ Is a Doc That Follows a Nomadic Cyclist Pursuing Grueling Challenges – and Freedom",
-      "category": "Entertainment",
-      "summary": "Adam and Christian Bonke's documentary and character study, screening at the London Film Festival, is a road trip full of mountain vistas and other nature – and existential questions.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/perfect-road-doc-film-nomadic-cyclist-freedom-lff-2026-1236730750/",
-      "published_at": "2026-10-17T08:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -5712,74 +5780,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "64963b38b358d37d7e",
-      "title": "Eric Andre tweeted \"I wish Chun Li was real\" back in 2010 and the rest is HERstory. #streetfighter",
-      "category": "Entertainment",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=v11Ox6iH-sg",
-      "published_at": "2026-10-14T00:56:01Z",
-      "image_url": "https://i.ytimg.com/vi/v11Ox6iH-sg/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "v11Ox6iH-sg",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "eb934bf850f8978451",
-      "title": "Marvel Champions: The Card Game - Official Fear No Evil Expansion Trailer",
-      "category": "Gaming",
-      "summary": "Check out the trailer for the new expansion for Marvel Champions: The Card Game, Fear No Evil!",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=Tt_1X7UrgAQ",
-      "published_at": "2026-10-14T00:32:05Z",
-      "image_url": "https://i.ytimg.com/vi/Tt_1X7UrgAQ/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "Tt_1X7UrgAQ",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "c828413bda1116df54",
-      "title": "Star Wars: Unlimited Homeworlds - Official Release Trailer",
-      "category": "Entertainment",
-      "summary": "Check out the trailer for Star Wars: Unlimited - Homeworlds! Hold your ground! Jump into epic battles and fight your way through invading enemy forces in Homeworlds, the epic ninth set of Star Wars™: Unlimited!",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=SMHvkWTb7Dw",
-      "published_at": "2026-10-13T23:55:33Z",
-      "image_url": "https://i.ytimg.com/vi/SMHvkWTb7Dw/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "SMHvkWTb7Dw",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f166a032dd6e87d3ae",
-      "title": "God of War Laufey Collector Box does not come with the game, only physical merch! #godofwar #laufey",
-      "category": "Gaming",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=yOOMfgZ217E",
-      "published_at": "2026-10-13T23:50:59Z",
-      "image_url": "https://i.ytimg.com/vi/yOOMfgZ217E/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "yOOMfgZ217E",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
       ]
     }
   ],
