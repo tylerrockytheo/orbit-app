@@ -1,7 +1,398 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T01:48:18.040945Z",
+  "generated_at": "2026-10-19T06:56:56.708965Z",
   "posts": [
+    {
+      "id": "13463aef94ac9fdd44",
+      "title": "Korea Box Office: Anime Sensation ‘Chiikawa’ Dominates Weekend",
+      "category": "Entertainment",
+      "summary": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” tightened its grip on the South Korean box office over the weekend of Oct. 16–18, commanding more than 42% of nationwide ticket revenue in its third frame.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/box-office/korea-box-office-anime-sensation-chiikawa-whalefall-street-fighter-1236916187/",
+      "published_at": "2026-10-19T06:45:48Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Chiikawa-the-Movie-The-Secret-of-Mermaid-Island.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ac8ff07457ff1bf40e",
+      "title": "Bomb threat forces Israel to Austria flight into emergency landing",
+      "category": "World",
+      "summary": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T06:29:55Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f91d/live/31ebfb00-cb5a-11f1-97b1-010e9e08360f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "9ed7a634c7581d8ad3",
+      "title": "China Box Office: ‘Resident Evil’ Retains Top Spot Over Quiet Post-Holiday Frame as Local Titles Wind Down",
+      "category": "Entertainment",
+      "summary": "Constantin Film and Sony Pictures’ horror reboot “Resident Evil” held onto first place at the mainland China box office during the Oct. 16–18 frame, pulling in RMB62.5 million ($9.3 million) in its second full weekend, according to data from Artisan Gateway.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/box-office/china-box-office-resident-evil-quiet-post-holiday-frame-1236916180/",
+      "published_at": "2026-10-19T06:01:17Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/MCDREEV_SP022_84f074.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "bf906c0066b826db3f",
+      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+      "category": "World",
+      "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T06:00:18Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "f1a3b3d95ddf06ebe0",
+      "title": "Tiger Shroff Shooting: Three Suspects Held as Film Bodies Say Gangsters Want to ‘Terrorize’ Bollywood",
+      "category": "Entertainment",
+      "summary": "Three suspects in Sunday’s shooting at Bollywood action star Tiger Shroff’s car have been taken into custody in Kota, in the northwestern state of Rajasthan, according to local media. Reports differ on whether the men have been formally arrested or only detained.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/tiger-shroff-shooting-1236916181/",
+      "published_at": "2026-10-19T05:48:55Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Tiger-Shroff.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "307e08ea997ba99db9",
+      "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
+      "category": "World",
+      "summary": "Trump said in a post on social media that Netanyahu \"has been a Great Warrior Prime Minister, and an even greater Partner for Peace in combatting the Islamic Republic of Iran.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
+      "published_at": "2026-10-19T05:35:39Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "6a5858ef34de302bd0",
+      "title": "Australian Greens senator denies claims of misconduct towards women",
+      "category": "World",
+      "summary": "Jordon Steele-John says the timing of the claims is motivated by \"nasty political games\" within the Greens.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmpdgj8z8v2do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T04:54:25Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff2/live/f7cb4020-cb54-11f1-9097-8b5edc27827e.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e2baa9d232af8fb069",
+      "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+      "category": "World",
+      "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T04:30:59Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87fa/live/537946d0-cb5d-11f1-a1ba-9502012907ad.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "6dbc99995b8a60986e",
+      "title": "France's government under pressure after weekend of widespread violence",
+      "category": "World",
+      "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T04:16:46Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4190/live/1ce2e400-cb80-11f1-bba6-c7bcff195158.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "724ccc0fdba6b5616e",
+      "title": "New Live-Action Street Fighter Film Opens at #1 in the U.S., Earns US$51 Million Globally",
+      "category": "Anime",
+      "summary": "Film earned estimated US$31 million in the U.S., US$20.1 million in 65 markets overseas",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-19/new-live-action-street-fighter-film-opens-at-no.1-in-the-u.s-earns-usd51-million-globally/.242960",
+      "published_at": "2026-10-19T04:07:25Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "85b3fbef3a36cabe41",
+      "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+      "published_at": "2026-10-19T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "bc9b6ca4fdf72eaf80",
+      "title": "Autumn Paints Poland’s Bieszczady Mountains",
+      "category": "Science",
+      "summary": "Fall color covers the forested slopes of Bieszczady National Park, while patches of polonina, a type of high-mountain meadow, have turned tan.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
+      "published_at": "2026-10-19T04:01:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "571cce5bce644b1d0b",
+      "title": "‘Other Desert Cities’ Theater Review: Julia Louis-Dreyfus, Ed Harris and Allison Janney Fail to Make a Once-Timely Play Relevant Again",
+      "category": "Entertainment",
+      "summary": "Lily Rabe and Joe Keery also star in the Broadway revival of Jon Robin Baitz’s lauded 2011 play about politics, family and regret.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/arts/other-desert-cities-theater-review-julia-louis-dreyfus-1236734079/",
+      "published_at": "2026-10-19T04:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "aa902ad93d5409467a",
+      "title": "Anime Studio Felix Film Edits Job Listing That Encouraged Generative AI",
+      "category": "Anime",
+      "summary": "Felix Film has not decided to use \"generative AI for images in the studio, but we are studying its potential future use”",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-18/anime-studio-felix-film-edits-job-listing-that-encouraged-generative-ai/.242957",
+      "published_at": "2026-10-19T03:59:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "3495ef9d1f794054c8",
+      "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+      "category": "World",
+      "summary": "Prosecutors say Paul Mackenzie lured the latest victims to their deaths by writing notes from his prison cell.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T03:44:02Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8068/live/34a82040-c956-11f1-8879-9d9deeb686e1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "b7175964194bc624c8",
+      "title": "Tsugumi Project Anime Reveals 1st 3 Cast Members",
+      "category": "Anime",
+      "summary": "Masaaki Mizunaka, Haruki Ishiya, Misaki Watada cast in TV anime",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-18/tsugumi-project-anime-reveals-1st-3-cast-members/.242967",
+      "published_at": "2026-10-19T03:43:44Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "2aa8dca5bf6e9fa13d",
+      "title": "Six Key Points That Explain ‘You Can See Everything’",
+      "category": "Entertainment",
+      "summary": "Now that you’ve seen something, let us explain the other things.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/you-can-see-everything-key-points-1236735112/",
+      "published_at": "2026-10-19T03:09:37Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5c58c960912e498dcb",
+      "title": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
+      "category": "Gaming",
+      "summary": "All the interesting Steam facts for the week ending October 18.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
+      "published_at": "2026-10-19T03:00:45Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1920-80.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "53f7173049f4b249b6",
+      "title": "10 NES Games That Are Still Worth Playing From Start to Finish",
+      "category": "Gaming",
+      "summary": "From start to finish, these 10 NES games reward every second of the time you invest in them, even decades after the fact.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-nes-games/",
+      "published_at": "2026-10-19T02:34:47Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6823649/nes-classic-trailer-screencap_1920.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "278a9d71d12c0b6efc",
+      "title": "9 Best DLCs That Were Even Better Than the Base Game",
+      "category": "Gaming",
+      "summary": "From Hell weddings to alien hive-minds, these nine DLCs took a hard swerve away from the games they built off.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-dlcs-video-games/",
+      "published_at": "2026-10-19T02:24:58Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23377462/The_Witcher_3_Wild_Hunt_Hearts_of_Stone_Nobody_puts_Geralt_in_a_corner_RGB.jpeg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "7428f3dd44b9a0386f",
+      "title": "10 Near-Perfect PS4 Games Nobody Played",
+      "category": "Gaming",
+      "summary": "The PlayStation 4 started strong and is still going, but there are 10 terrific games too many players overlooked along the way.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-underrated-ps4-games/",
+      "published_at": "2026-10-19T02:01:27Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/anthony-rlvi1td5bm4-unsplash.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "8bba6ec1fec374a722",
+      "title": "BBC visits wildfire front in haze-choked Indonesia",
+      "category": "Science",
+      "summary": "The BBC is in central Kalimantan, where a toxic haze fuelled by wildfires is choking millions of residents.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/videos/cm9wzye55j4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T01:57:02Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/174e/live/b716c350-cb5f-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "0dbe3790aaabfd2389",
+      "title": "Bollywood actor Tiger Shroff survives shooting in Mumbai",
+      "category": "World",
+      "summary": "Video published by several news outlets shows gunmen firing multiple shots at a car while it is moving past a crowd.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6jdmy872r7vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T01:50:48Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a585/live/c0af3490-cb61-11f1-a812-d3be2dbc962d.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
     {
       "id": "1b39a9536645f9afe8",
       "title": "Love Live! Hasu no Sora Jōgakuin School Idol Club TV Anime Unveils 7-Episode Run, January 10 Debut",
@@ -3199,40 +3590,6 @@
       ]
     },
     {
-      "id": "83f442842c5094741a",
-      "title": "The 8 Best Castlevania Games, Ranked",
-      "category": "Gaming",
-      "summary": "The finest Castlevania games of all time come from multiple decades. Together, they built a franchise that is better than ever.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/best-castlevania-games-ranked/",
-      "published_at": "2026-10-17T16:01:19Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/castlevania-dracula-adaptations-bram-stoker.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "1a243aa8fcd869998e",
-      "title": "D&D’s Arcana Unleashed Officially Fixes One of the Game’s Most Frustrating Problems",
-      "category": "Gaming",
-      "summary": "One of the most eye-catching new systems in Arcana Unleashed outlines how to let magic items grow with your players.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/dnd-arcana-unleashed-evolving-magic-items/",
-      "published_at": "2026-10-17T16:01:19Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/341927.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "8ebd2ff7ef9a3913c5",
       "title": "Lose 150 Lbs Together, Win $250,000",
       "category": "Entertainment",
@@ -3247,23 +3604,6 @@
       "youtube_channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "699e999615a67c00f6",
-      "title": "Octopath Traveler 1 & 2 Game Review",
-      "category": "Anime",
-      "summary": "Square Enix’s experimental RPGs Octopath Traveler I and II are now on Nintendo Switch 2, but is the short-story format and split narrative style all it’s cracked up to be?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/game/nintendo-switch-2/octopath-traveler-1-and-2/.242702",
-      "published_at": "2026-10-17T16:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
       ]
     },
     {
@@ -3284,91 +3624,6 @@
       ]
     },
     {
-      "id": "d7db83f2d874a94831",
-      "title": "Oh dear, half a year after launching Samson, Swedish developer Liquid Swords have filed for bankruptcy",
-      "category": "Gaming",
-      "summary": "Earlier this year, Swedish developer Liquid Swords released Samson , a GTA-ish, open world beat 'em up about dealing with debt, driving sturdy but battered cars, and saving your sister. It wasn't received all that well, including by us, notably because it was quite broken .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/oh-dear-half-a-year-after-launching-samson-swedish-developer-liquid-swords-have-filed-for-bankruptcy",
-      "published_at": "2026-10-17T15:58:54Z",
-      "image_url": "https://assetsio.gnwcdn.com/samson-liquid-swords-debt-racer-brawler-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "74d1b691bcba4fee56",
-      "title": "France's Macron vows to hold accountable those who 'sought to bring down the Republic'",
-      "category": "World",
-      "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-      "published_at": "2026-10-17T15:57:40Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "424962c9bc5225d9a1",
-      "title": "Law Roach Wants to Try Acting: ‘If I’m Terrible at It, at Least I Tried’",
-      "category": "Entertainment",
-      "summary": "Law Roach is ready for an even bigger close-up. The celebrity stylist, whose clients include Zendaya, Kim Kardashian and Celine Dion, says he’s “absolutely” ready to try some acting. “When a director sees something for me,” Roach told me Thursday night at the InStyle Imagemaker Awards. “I want to try everything.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/columns/law-roach-act-1236914231/",
-      "published_at": "2026-10-17T15:56:32Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2299883348-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "1674d1b667d5bc9585",
-      "title": "Law Roach Wants to Try Acting: ‘If I’m Terrible at It, at Least I Tried’",
-      "category": "Entertainment",
-      "summary": "Law Roach is ready for an even bigger close-up. The celebrity stylist, whose clients include Zendaya, Kim Kardashian and Celine Dion, says he’s “absolutely” ready to try some acting. “When a director sees something for me,” Roach told me Thursday night at the InStyle Imagemaker Awards. “I want to try everything.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/columns/law-roach-act-1236914231/",
-      "published_at": "2026-10-17T15:56:32Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2299883348-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "1d1deed4848497b822",
-      "title": "Box Office: ‘Street Fighter’ Scores $13 Million Debut as ‘You Can See Everything’ Opens at No. 2 With $5.5 Million on Friday",
-      "category": "Entertainment",
-      "summary": "“Street Fighter” punched its way to the top of the box office in a new-release-filled weekend, battling fellow openers “Sense and Sensibility,” “Whalefall” and “You Can See Everything.” The Paramount Pictures movie generated $13 million from 3,575 North American theaters on Friday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/box-office/box-office-street-fighter-you-can-see-everything-whalefall-1236914827/",
-      "published_at": "2026-10-17T15:43:57Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDSTFI_PA038.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "14a0113b209fd74e63",
       "title": "No Rest for the Wicked - Official Class System: 1.0 Launch Preview Video",
       "category": "Entertainment",
@@ -3381,57 +3636,6 @@
       "media_type": "video",
       "video_id": "ZpGljdX1s2U",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "4861dadcf471111cdf",
-      "title": "US Representative Introduces Plan To Preserve Digital Game Ownership",
-      "category": "Gaming",
-      "summary": "Representative Ritchie Torres will introduce the Power to the Players Act bill, which essentially grants players ownership of their digital games.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/power-to-the-players-act-ritchie-torres/",
-      "published_at": "2026-10-17T15:30:47Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/marvel-s-wolverine-demon-mask.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "fb3d10cab34439ac70",
-      "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
-      "category": "World",
-      "summary": "The Pope left Rome's Gemelli Hospital Saturday, days after surgery for lung cancer removed the lower lobe of his right lung. He is currently scheduled to travel to Latin America in November.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
-      "published_at": "2026-10-17T15:10:14Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "747d870f33370aa5dc",
-      "title": "TikTok “Permanently Suspends” the ‘Musk’ Film Account, Raising Suppression Fears (Exclusive)",
-      "category": "Entertainment",
-      "summary": "Move comes just as Alex Gibney doc film expands to nearly 500 screens. Distributor Bleecker Street says it is appealing.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/news/politics-news/musk-movie-tiktok-banned-theaters-showtimes-1236734308/",
-      "published_at": "2026-10-17T15:02:09Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -3468,210 +3672,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "94f9fa3db0ec3bae1d",
-      "title": "‘You Can See Everything’: That Shocking, Meta Twist With [SPOILER] Explained in Elizabeth Holmes Doc",
-      "category": "Entertainment",
-      "summary": "SPOILER ALERT: This article contains major spoilers for “You Can See Everything,” now playing in theaters. About halfway through Nathan Fielder and Lance Oppenheim’s Elizabeth Holmes documentary “You Can See Everything,” the film’s shock value ratchets up yet again.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/you-can-see-everything-amanda-seyfried-elizabeth-holmes-1236914390/",
-      "published_at": "2026-10-17T15:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/You-Can-See-everything.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "0b47437759f032c109",
-      "title": "50 Cent Opens Up About Diddy’s Secret Smear Campaign Against Him, Why He Won’t Work With Courtney Kemp Again and Learning His Mom Was Gay: ‘I’m Not Ashamed of That in Any Way’",
-      "category": "Entertainment",
-      "summary": "50 Cent is having trouble logging in to our Zoom. Multiple links have been sent his way — three, by my count — to no avail. The imbroglio is excusable given the early hour and the number of different directions he’s currently being pulled, with 40 projects spread across 12 different networks, not to mention […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/features/50-cent-diddy-trump-street-fighter-courtney-kemp-power-gay-mom-1236914411/",
-      "published_at": "2026-10-17T15:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2271573549.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "008509d6aab053b537",
-      "title": "Patrick Brammall Is Poised to Join the Ranks of Australia’s Great Exports",
-      "category": "Entertainment",
-      "summary": "With 'Colin From Accounts' now behind him, the actor-writer the collaboration with his wife became a sleeper hit, upping his game with roles in 'The Devil Wears Prada 2' and 'Last Seen' and auditioning with his hands tied.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/patrick-brammall-interview-ending-colin-from-accounts-1236734137/",
-      "published_at": "2026-10-17T15:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "934a76699a87b50351",
-      "title": "Tennessee vs. Alabama: Where to Watch the 2026 Rivalry Game Online",
-      "category": "Entertainment",
-      "summary": "As is tradition, one of the biggest rivalries in college football history will unfold on the Third Saturday in October.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/watch-tennessee-vs-alabama-football-game-free-streams-2026-1236733716/",
-      "published_at": "2026-10-17T15:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "fe341866b711acac98",
-      "title": "‘Simpsons’ Bosses Tease How They Want Show to Go Out at THR’s Most Powerful People in Animation Breakfast",
-      "category": "Entertainment",
-      "summary": "Matt Groening and Matt Selman sat down for a keynote conversation at the event, which also featured a chat with 'Tangles' stars Abbi Jacobson and Samira Wiley.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/news/general-news/simpsons-bosses-show-go-out-powerful-animation-breakfast-1236733896/",
-      "published_at": "2026-10-17T15:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "a262f761946b164eff",
-      "title": "50 Cent Opens Up About Diddy’s Secret Smear Campaign Against Him, Why He Won’t Work With Courtney Kemp Again and Learning His Mom Was Gay: ‘I’m Not Ashamed of That in Any Way’",
-      "category": "Music",
-      "summary": "50 Cent is having trouble logging in to our Zoom. Multiple links have been sent his way — three, by my count — to no avail. The imbroglio is excusable given the early hour and the number of different directions he’s currently being pulled, with 40 projects spread across 12 different networks, not to mention […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/film/features/50-cent-diddy-trump-street-fighter-courtney-kemp-power-gay-mom-1236914411/",
-      "published_at": "2026-10-17T15:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2271573549.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "e646243b36fb570d81",
-      "title": "Star Wars Zero Company Finally Makes Starting A New Campaign Worth It",
-      "category": "Gaming",
-      "summary": "There has never been a better time to play Star Wars Zero Company following the release of Patch 1.2 on PC, PlayStation 5, and Xbox Series X",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/star-wars-zero-company-second-patch-reaction/",
-      "published_at": "2026-10-17T14:54:09Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/felshi-main_a15c4c25.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "0959bfaf9f29a6515c",
-      "title": "Analogue Brings Back Its Perfect SNES And Sega Genesis Replacements",
-      "category": "Gaming",
-      "summary": "Analogue's Super Nt and Mega Sg models are back with significant improvements, making these consoles the best way to enjoy retro games.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/analogue-super-nt-mega-sg-return/",
-      "published_at": "2026-10-17T14:34:21Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/super-nt-analogue.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6004ea5e2eea158768",
-      "title": "2026 Has Been a Surprisingly Excellent Year for Shooters",
-      "category": "Gaming",
-      "summary": "Developers big and small have made 2026 one of the best years for shooting games in recent memory.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/2026-year-in-shooters/",
-      "published_at": "2026-10-17T14:30:19Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/wardogs-interview-respect-time.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "b6be35c9c86e8415e4",
-      "title": "Mahershala Ali Cries Recalling ‘Moonlight’ Scene, Keeps Quiet on ‘Spider-Verse’ at London Talk: ‘I’ve Got to Be Careful’",
-      "category": "Entertainment",
-      "summary": "Mahershala Ali broke down in tears on stage at the BFI London Film Festival on Saturday as he recalled the young boy at the heart of “Moonlight.” The Barry Jenkins drama won him one of his two Oscars and recently marked its 10th anniversary. During a Screen Talk hosted by Amon Warmann, Ali was discussing […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/festivals/mahershala-ali-cries-moonlight-scene-spider-verse-1236914806/",
-      "published_at": "2026-10-17T14:28:04Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Mahershala-Ali.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c6eb409752abb3585e",
-      "title": "Mahershala Ali Put His Two Oscars Into a Cabinet: “I Felt a Sense of Accomplishment, Not Fulfillment”",
-      "category": "Entertainment",
-      "summary": "In London, the star also discussed playing people who \"haven’t been seen,\" nearly going crazy on 'True Detective,' police brutality and how 'Green Book' made him feel like a \"golden boy,\" followed by vitriol.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/mahershala-ali-two-oscars-in-cabinet-london-green-book-1236734282/",
-      "published_at": "2026-10-17T14:25:17Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "234848b5ba31c2f633",
-      "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
-      "category": "World",
-      "summary": "Zelenskyy described the move as unfortunate, adding it would encourage Russia to continue its assault. Trump told Congress that the pause was in the national interest but gave no further details.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
-      "published_at": "2026-10-17T14:25:10Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -5867,57 +5867,57 @@
     {
       "name": "Google Developers · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Ryan Trahan · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
