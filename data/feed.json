@@ -1,10 +1,129 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T23:42:43.660802Z",
+  "generated_at": "2026-10-19T01:48:18.040945Z",
   "posts": [
     {
+      "id": "1b39a9536645f9afe8",
+      "title": "Love Live! Hasu no Sora Jōgakuin School Idol Club TV Anime Unveils 7-Episode Run, January 10 Debut",
+      "category": "Anime",
+      "summary": "New visuals for 106th class characters also unveiled",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-18/love-live-hasu-no-sora-jogakuin-school-idol-club-tv-anime-unveils-7-episode-run-january-10-debut/.242958",
+      "published_at": "2026-10-19T01:09:46Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "c135044b0e9f740212",
+      "title": "Victoria’s Secret Fashion Show: See Red Carpet and Backstage Photos of Models, Megan Thee Stallion and Kobe Bryant’s Daughter",
+      "category": "Entertainment",
+      "summary": "The fashion brand brought its iconic runway show to Sony Pictures Studios in L.A. where stars Nicole Kidman, Tate McRae, Victoria Monét, Tinashe, Law Roach and Dylan Sprouse watched models like Gigi Hadid, Anok Yai, Alex Consani, Adriana Lima and Alessandra Ambrosio strut their stuff.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/gallery/victorias-secret-fashion-show-2026-red-carpet-backstage-photos-models-1236735003/",
+      "published_at": "2026-10-19T00:48:58Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c2d92987ceb916488b",
+      "title": "Inde Navarrette on Meeting Pamela Anderson, Hosting ‘SNL’ and X-Men Stunt Training",
+      "category": "Entertainment",
+      "summary": "“Obsession” star Inde Navarrette had quite the busy weekend, going from the Academy Museum Gala on Saturday to the Newport Beach Film Festival on Sunday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/inde-navarrette-hosting-snl-x-men-stunt-training-1236916105/",
+      "published_at": "2026-10-19T00:40:41Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300360108.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3be1b1edcefb3a4f1e",
+      "title": "‘The Simpsons’ Surprise: Apu Is Heard for the First Time in Nearly a Decade, as Sunil Malhotra Takes Over for Hank Azaria (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "SPOILER ALERT: This article contains major spoilers for the Oct. 18 episode of “The Simpsons,” “The Revengening,” which aired Sunday night on Fox. “The Simpsons” has pulled off its own October surprise: Apu Nahasapeemapetilon is back.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/the-simpsons-apu-new-voice-sunil-malhotra-hank-azaria-1236915177/",
+      "published_at": "2026-10-19T00:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Apu-Sunil-Malhotra.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "799695211b1fcb0cc2",
+      "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "category": "World",
+      "summary": "Two men tell of the work they say they have been doing to support Ukrainian intelligence during the war.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T00:06:25Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9f8/live/f9937b60-c943-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5437dcc6dc9a95bc59",
+      "title": "“Less Red Carpet, More Love of Cinema”: The Warsaw Film Festival Wants to Be a Destination for Discovery",
+      "category": "Entertainment",
+      "summary": "Festival director Joanna Szymańska-Szcześniak and program director Bartek Pulcyn see more room for growth without the glitz and glam: \"Our focus is firmly on the quality of the films.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/warsaw-film-festival-wiff-focus-on-cinema-love-discovery-1236733189/",
+      "published_at": "2026-10-19T00:03:18Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "372cbc48c808aa63d2",
+      "title": "Katseye Says They’re ‘So Proud’ of Sophia Ahead of Her Return to the Group: ‘She’s Our Sister’",
+      "category": "Music",
+      "summary": "Katseye is excited to welcome Sophia Laforteza back to the group after a brief hiatus. Members Lara Raj, Daniela Avanzini, Megan Skiendiel and Yoonchae Jeung shared their support for their “sister” on the carpet at the Victoria’s Secret Fashion Show on Sunday. “We are so happy that she’s coming back,” Raj told E!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/katseye-sophia-return-1236916064/",
+      "published_at": "2026-10-18T23:47:38Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/05/GF1_1830.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "eca074e28298747115",
-      "title": "Taika Waititi Confirms His ‘Star Wars’ Movie Has Been ‘Put on Ice’ Indefinitely",
+      "title": "Taika Waititi Confirms His ‘Star Wars’ Movie Has Been Put ‘on Ice’ Indefinitely",
       "category": "Entertainment",
       "summary": "Taika Waititi’s “Star Wars” movie, which has been in development since 2020, is officially on hold, the director confirmed while promoting his latest film “Klara and the Sun.” “I hate to break this to you, but we’re going to actually put it on ice and we’re working on a different thing together,” Waititi told Inverse […]",
       "summary_status": "publisher_excerpt",
@@ -17,6 +136,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Entertainment"
+      ]
+    },
+    {
+      "id": "aecf35002da373f61e",
+      "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "category": "World",
+      "summary": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T23:28:45Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29eb/live/c667f2d0-c96f-11f1-80fc-ab418b149008.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
       ]
     },
     {
@@ -38,7 +174,7 @@
     },
     {
       "id": "d33ff4cecb20f9fc23",
-      "title": "Jason Sudeikis Hopes to Continue ‘Ted Lasso,’ Says Coverage of His Split From Olivia Wilde Missed a ‘Million Little Things’: ‘It’s Always More Complicated’",
+      "title": "Jason Sudeikis Hopes to Continue ‘Ted Lasso’ for Season 5, Says Coverage of Split From Olivia Wilde Missed a ‘Million Little Things’: ‘It’s Always More Complicated’",
       "category": "Entertainment",
       "summary": "Jason Sudeikis opened up on a recent episode of “Talk Easy with Sam Fragoso,” discussing his hopes for “Ted Lasso” Season 5, how the show “saved” him from “self-harm” and what the public got wrong about his closely followed 2020 split from ex Olivia Wilde. Sudeikis and Fragoso talked “Ted Lasso” up top, as the […]",
       "summary_status": "publisher_excerpt",
@@ -71,6 +207,23 @@
       ]
     },
     {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1938 on October 19",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1938 on October 19 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-18T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "7ddb60cfc3c14ce1e5",
       "title": "Mission set to blast off for Mars to grab a piece of its moon",
       "category": "Science",
@@ -85,6 +238,57 @@
       "youtube_channel_id": null,
       "topics": [
         "Science"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 19",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1226 The post ‘Connections’ answers and hints for today, October 19 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-18T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 19",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 19 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-18T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 19",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 19 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-18T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -2111,40 +2315,6 @@
       ]
     },
     {
-      "id": "6d9105482cf85b0c99",
-      "title": "Today’s Wordle answer and hints for #1937 on October 18",
-      "category": "Music",
-      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1937 on October 18 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-      "published_at": "2026-10-17T23:01:34Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "2c5333a2b14994ffbc",
-      "title": "‘Connections’ answers and hints for today, October 18",
-      "category": "Music",
-      "summary": "Here are hints, groups and answers for 'Connections' #1225 The post ‘Connections’ answers and hints for today, October 18 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
-      "published_at": "2026-10-17T23:00:27Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "d7472691b32ffc3bfb",
       "title": "8 Most Disappointing Switch Games, Ranked",
       "category": "Gaming",
@@ -2162,23 +2332,6 @@
       ]
     },
     {
-      "id": "82c04a1405d8c602dc",
-      "title": "Globle answer today – here’s the answer and hints for October 18",
-      "category": "Music",
-      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 18 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
-      "published_at": "2026-10-17T23:00:17Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "bab6f3a123b7486add",
       "title": "Don't Miss the Main Sights in Paris! Pre-Book Tickets! #paris",
       "category": "Travel",
@@ -2193,23 +2346,6 @@
       "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
-      ]
-    },
-    {
-      "id": "468f1a19c428ae0e24",
-      "title": "Framed answer today – here’s the solution for October 18",
-      "category": "Music",
-      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 18 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
-      "published_at": "2026-10-17T23:00:09Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -3539,74 +3675,6 @@
       ]
     },
     {
-      "id": "4b6728a671d89d8bdb",
-      "title": "Japan's Video Game Rankings, October 5-11",
-      "category": "Anime",
-      "summary": "Kingdom Hearts Collection Switch 2 version debuts at #1, Ace Combat 8 ranks at #3",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/japan-video-game-rankings-october-5-11/.242888",
-      "published_at": "2026-10-17T14:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "d1f4a81497fe8ebcc7",
-      "title": "‘The Angry Birds Movie 3’ Unpacked by VFX Supervisor, Including Red’s Redesign and Character-Effects Automation: ’He’s Similar by Choice’",
-      "category": "Entertainment",
-      "summary": "The red-feathered hero of “The Angry Birds Movie 3” looks reassuringly familiar, but DNEG Animation had to rebuild much of him to bring the franchise back to theaters.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/the-angry-birds-movie-3-red-redesign-character-automation-1236914681/",
-      "published_at": "2026-10-17T13:56:06Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Angry-Birds-Movie-3.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "dd91a06db30dac9939",
-      "title": "Pope discharged from hospital days after lung cancer surgery",
-      "category": "World",
-      "summary": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T13:51:36Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c6c/live/9aad8f70-ca31-11f1-9ab2-b325ce61f9d2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "b1d7a1c93fb08acc6a",
-      "title": "Early Modern Warfare 4 Consensus Unanimous That It Features On Of The Best COD Campaigns Ever",
-      "category": "Gaming",
-      "summary": "People are finally playing the Call of Duty: Modern Warfare 4 campaign and absolutely loving it",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/modern-warfare-4-campaign-early-reactions/",
-      "published_at": "2026-10-17T13:27:21Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/modern-warfare-4-details-header.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "1237febb17fb9bc022",
       "title": "David Dastmalchian: Raúl Juliá's M. Bison in Street Fighter Is The Best Video Game Movie Performance",
       "category": "Gaming",
@@ -3638,74 +3706,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "aa152ebd9c9248303d",
-      "title": "Bringing the 'Art of Manga' to the Brooklyn Museum",
-      "category": "Anime",
-      "summary": "Curator Rousmaniere said, “What Brooklyn has done is really highlighted each of the artists in their own individual fashion, really beautifully spacing it out, and I think it's the most immersive format they could have done.”",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/feature/2026-10-17/bringing-the-art-of-manga-to-the-brooklyn-museum/.242455",
-      "published_at": "2026-10-17T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "69ea37f45cd72ee25b",
-      "title": "Joel Coen Talks Studio Consolidation, Says ‘Competition Is What Produces Opportunities for Different Kinds of Movies’ and Teases Reunion Film With Brother Ethan",
-      "category": "Entertainment",
-      "summary": "The Coen brothers could be heading back to their hometown in Minneapolis for a reunion movie eight years after their last joint film, “The Ballad of Buster Scruggs.” While at Lyon’s Lumière Film Festival, where they received a career tribute, Joel and Ethan Coen revealed they have several projects in the pipeline set in…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/joel-coen-on-studio-consolidation-competition-1236914741/",
-      "published_at": "2026-10-17T12:52:17Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/06/Coen-brothers.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "9e3d1462c920178fa7",
-      "title": "Joe Keery On Making His Broadway Debut and Balancing Music and Acting Post-‘Stranger Things’",
-      "category": "Entertainment",
-      "summary": "Keery is appearing on stage with Julia Louis-Dreyfus, Allison Janney, Ed Harris and Lily Rabe.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/lifestyle/arts/joe-keery-broadway-debut-stranger-things-1236733706/",
-      "published_at": "2026-10-17T12:45:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "65e156beacb75f57cd",
-      "title": "We Are Aliens Film Wins Sitges Film Festival's Anima't Award",
-      "category": "Anime",
-      "summary": "Kōhei Kadowaki is youngest Japanese director to win award in Spain's Catalonia",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-17/we-are-aliens-film-wins-sitges-film-festival-animat-award/.242938",
-      "published_at": "2026-10-17T12:16:17Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
       ]
     },
     {
@@ -5861,13 +5861,13 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Rick Beato · YouTube",
@@ -5876,8 +5876,8 @@
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Wolters World · YouTube",
@@ -5911,8 +5911,8 @@
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Mark Rober · YouTube",
@@ -5921,8 +5921,8 @@
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dragon Ball Official (curated)",
