@@ -1,7 +1,466 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T02:08:49.781897Z",
+  "generated_at": "2026-10-20T07:40:07.440511Z",
   "posts": [
+    {
+      "id": "dc7d330c7a30e3dbbe",
+      "title": "AI Could ‘Absolutely’ Replace Human Actors, CEO of Generative AI Startup Runway Says at Italy’s View Conference: ‘It’s Already Happening in a Way’",
+      "category": "Entertainment",
+      "summary": "Durng a fireside chat entitled “Every Pixel Will Be Generated” at Turin’s View Conference, an audience member asked Cristóbal Valenzuela, the co-CEO of generative AI startup Runway, whether AI could eventually replace human actors. “Yeah, absolutely.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/tv/global/ai-could-replace-actors-runway-ceo-cristobal-valenzuela-1236916525/",
+      "published_at": "2026-10-20T07:39:21Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Cristobal_Valenzuela.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "40221ac5b43c9165b2",
+      "title": "AI Could ‘Absolutely’ Replace Human Actors, CEO of Generative AI Startup Runway Says at Italy’s View Conference: ‘It’s Already Happening in a Way’",
+      "category": "Entertainment",
+      "summary": "Durng a fireside chat entitled “Every Pixel Will Be Generated” at Turin’s View Conference, an audience member asked Cristóbal Valenzuela, the co-CEO of generative AI startup Runway, whether AI could eventually replace human actors. “Yeah, absolutely.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/ai-could-replace-actors-runway-ceo-cristobal-valenzuela-1236916525/",
+      "published_at": "2026-10-20T07:39:21Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Cristobal_Valenzuela.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "82b1c23e781a93a883",
+      "title": "‘Lex Julia’ Is a Post-#MeToo Suspense Drama Unfolding on an Island (Exclusive Tallinn Trailer)",
+      "category": "Entertainment",
+      "summary": "Laura Hyppönen's film with Rea Lest, Christian Hillborg and Jessica Grabowsky, which will also screen at Mar del Plata, explores the conflicting experiences of a rape victim, the alleged perpetrator and his wife.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/tallinn-2026-poff-film-trailer-lex-julia-rape-survivor-metoo-1236735425/",
+      "published_at": "2026-10-20T07:20:11Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1505480484f76745c1",
+      "title": "French cities calm overnight after curfews imposed to quell violence, PM says",
+      "category": "World",
+      "summary": "Sébastien Lecornu said new curfews for Tuesday night would be decided where necessary.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T06:35:57Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1f5/live/422c9320-cc55-11f1-9b08-37acac6be953.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "fd795925d18acc5d68",
+      "title": "Orionid meteor shower to peak in UK skies this week",
+      "category": "Science",
+      "summary": "Clear skies permitting, skygazers could be able to spot as many as 10-20 meteors per hour as the shower peaks this week.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/weather/articles/cm17knj9kpv8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T06:31:04Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d801/live/ecdce820-cbdc-11f1-b139-f77a8b036d06.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "abc0169a92d3bf2f6b",
+      "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+      "category": "World",
+      "summary": "Voters in Canada's oil-rich Alberta province overwhelmingly backed remaining in Canada, with early referendum results Tuesday delivering a boost to Prime Minister Carney's push for national unity.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
+      "published_at": "2026-10-20T06:02:40Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "3e6f09caa5e1ec613d",
+      "title": "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+      "category": "Gaming",
+      "summary": "From the Springlands to Veilwater Basin, these are my favorite places to build.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/survival-crafting/enshrouded-base-locations/",
+      "published_at": "2026-10-20T05:36:16Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/aDmtDjSv4HJBnYeMAxpqad-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "3969ed63091684424b",
+      "title": "Human-AI Indian Music Label Raagverse Launches With ‘Janaa Hai Toh Jao’ (EXCLUSIVE)",
+      "category": "Music",
+      "summary": "Raagverse, a new Indian music label that pairs human songwriting with AI production tools, will release its first album, “Janaa Hai Toh Jao,” on Oct. 20. The label is the latest venture from Amita Madhvani, CEO of Equinox Virtual, which she co-founded with Ram Madhvani. Equinox Virtual is the arm of Equinox Films and Ram […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/human-ai-music-label-raagverse-launches-janaa-hai-toh-jao-1236916309/",
+      "published_at": "2026-10-20T05:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Raagverse.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "f8eeadb141cb3820b0",
+      "title": "Northern Ireland needs 'courage and leadership' to tackle climate change",
+      "category": "Science",
+      "summary": "The new chair of the Climate Change Committee is spending two days in Northern Ireland on a fact-finding mission.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cxzd6j5q0g7eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T05:27:15Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76f3/live/165a2440-b877-11ef-a72c-55cc49f950c5.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "044f41bf35cbbe6d30",
+      "title": "Locals honoured in Notting Hill Frieze exhibition",
+      "category": "Entertainment",
+      "summary": "London street artist Endless's new installation, Endless Frieze, includes buildings and street scenes.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/crx23nxk8733o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T05:14:45Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3256/live/6d83b120-cbf1-11f1-bd6b-397ab98949f6.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "46dacab598c8989980",
+      "title": "'Alice Cooper is a character, like Jekyll and Hyde'",
+      "category": "Entertainment",
+      "summary": "Alice Cooper reflects on faith, fame and addiction ahead of his Wolverhampton book tour appearance.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/c59vz78kvgv9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T05:09:13Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9ed/live/5a4c64d0-cbd3-11f1-8825-01bdb552361e.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "01cbcc6d9afb9e1806",
+      "title": "Cygames Cancels Uma Musume: Pretty Derby Franchise's U.S. Concerts Due to Visa Issues",
+      "category": "Anime",
+      "summary": "Staff could not obtain U.S. visas for L.A. concerts slated for October 22-23",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-20/cygames-cancels-uma-musume-pretty-derby-franchise-u.s-concerts-due-to-visa-issues/.243012",
+      "published_at": "2026-10-20T05:05:14Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "4d0f40e080d70e7cbb",
+      "title": "Rantzen felt 'deprived of choice' over her own death",
+      "category": "Entertainment",
+      "summary": "A note written by Dame Esther Rantzen is released by her family following a private funeral.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cky93njxlwjjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T05:01:51Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06a8/live/c8687080-b181-11ef-97e6-3bd47a1e90d7.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "19023e76df51b36e6e",
+      "title": "Anurag Kashyap and Vasan Bala Present Mumbai Cab Thriller ‘Aakhri Ride’ for Halloween Release (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Indian filmmakers Anurag Kashyap and Vasan Bala have come on board to present “Aakhri Ride,” a short thriller set over a single Halloween night in Mumbai, which will release worldwide on Oct. 31. The film will go out on Oh Short Flips, a YouTube channel curated by Kashyap. Vijesh Rajan and Yashoda Parthasarthy wrote and […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/anurag-kashyap-vasan-bala-mumbai-cab-thriller-aakhri-ride-1236915547/",
+      "published_at": "2026-10-20T04:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Aakhri-Ride.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7da9909a7444de6000",
+      "title": "Pierrot Films Animates Yona of the Dawn Anime's Sequel",
+      "category": "Anime",
+      "summary": "Anime sequel announced when manga ended last December",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-20/pierrot-films-animates-yona-of-the-dawn-anime-sequel/.243008",
+      "published_at": "2026-10-20T04:14:46Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "7548cfde3a4b31c886",
+      "title": "Jon Stewart Jokes Skydance Has ‘Pulled Our Renewal’ Before Slamming JD Vance, Trump and Emmanuel Macron",
+      "category": "Entertainment",
+      "summary": "Jon Stewart was back behind the desk of “The Daily Show” Monday night and went all in on Vice President JD Vance, President Donald Trump and French President Emmanuel Macron — but not before cracking a joke about his recent renewal. Kicking off the show, Stewart introduced guest David Corn, “who you know the Native […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/jon-stewart-jokes-skydance-has-pulled-our-renewal-j-d-vance-1236917177/",
+      "published_at": "2026-10-20T04:06:35Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-8.56.05-PM.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "70baf970b461dc2c69",
+      "title": "APOD: 2026 October 20 – An Anticrepuscular Rainbow Fan",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 20 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
+      "published_at": "2026-10-20T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "144e056538e8a1f7fe",
+      "title": "Ann Hornaday, Longtime Washington Post Film Critic, Dies at 66",
+      "category": "Entertainment",
+      "summary": "Hornaday was the author of the 2017 book 'Talking Pictures: How to Watch Movies.'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/ann-hornaday-washington-post-film-critic-dead-at-66-1236735969/",
+      "published_at": "2026-10-20T04:01:41Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "dc59e3c1214539a8f3",
+      "title": "The Human Fingerprint on Earth’s Water Cycle",
+      "category": "Science",
+      "summary": "Human activities have become intertwined with how water is distributed across the continents. A new study brings their effects into sharper focus.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+      "published_at": "2026-10-20T04:01:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "1c9a14c5e2587affea",
+      "title": "Madoka Magia x Witch on the Holy Night Crossover Art Unveiled",
+      "category": "Anime",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-19/madoka-magia-x-witch-on-the-holy-night-crossover-art-unveiled/.242836",
+      "published_at": "2026-10-20T03:59:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "3241adc63a0605f8c8",
+      "title": "Mariah Carey $20 Million Defamation Lawsuit Over Memoir Dismissed",
+      "category": "Entertainment",
+      "summary": "Morgan Carey first filed his lawsuit in 2021 over his sister's bestselling memoir 'The Meaning of Mariah Carey.'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/music/music-news/mariah-carey-brother-defamation-lawsuit-dismissed-1236735960/",
+      "published_at": "2026-10-20T03:22:51Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9388e7020b073f380d",
+      "title": "Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure",
+      "category": "World",
+      "summary": "The man testified that he snatched Peachy from its enclosure at the Flamingo hotel and casino after drinking 30 to 40 beers, but did not mean any harm.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T03:10:39Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f1e/live/5b9b0010-cc2f-11f1-aeea-f9fa95687445.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "3e045ccf1e8c0c4316",
+      "title": "Haruhi Suzumiya's Real-Life School Opens to Public 1 Last Time",
+      "category": "Anime",
+      "summary": "\"North High School\" gets new name after merger with another school next spring",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-19/haruhi-suzumiya-real-life-school-opens-to-public-1-last-time/.242966",
+      "published_at": "2026-10-20T03:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "1c6236f9b5ee4306a9",
+      "title": "Judi Dench Says Panned ‘Cats’ Film Was a ‘Waste’ of Andrew Lloyd Webber’s ‘Goodwill and Talent’: ‘Oh God, I Can’t Bear It’",
+      "category": "Entertainment",
+      "summary": "Judi Dench, who played Old Deuteronomy in Tom Hooper’s “Cats,” is reflecting on the universally panned film in her forthcoming memoir, “Is It Too Late to Make a Run For It?” Released in 2019, the film adapted Andrew Lloyd Webber’s hugely successful musical of the same name. But despite its stacked cast — which also […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/judi-dench-says-cats-film-was-a-waste-of-goodwill-talent-1236917065/",
+      "published_at": "2026-10-20T02:53:11Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDCATS_UV008.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "f04eec5eb97c8e2e16",
+      "title": "Seventh day of violent clashes between Albanian protesters and police",
+      "category": "World",
+      "summary": "Almost 300 people have been injured, more than half of them police, as violent anti-government demonstrations show no sign of easing.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-20T02:45:05Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b732/live/2812da60-cc20-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "0aee445ee3a3c18adb",
+      "title": "Final Fantasy 9: Denouement Officially Announced",
+      "category": "Gaming",
+      "summary": "This 1,000-piece Final Fantasy 9 puzzle shows the party at the Iifa Tree. It’s $39.99 in the US and £32.99 in the UK, with UK pre-orders open",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-9-denouement-puzzle/",
+      "published_at": "2026-10-20T02:35:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/final-fantasy-9-iifa-tree.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "3a1ee5cbb55cded63f",
+      "title": "Why Daisy Edgar-Jones Listened to Dolly Parton to Prep for ‘Sense and Sensibility’",
+      "category": "Entertainment",
+      "summary": "Daisy Edgar-Jones is no stranger to starring in a book-to-screen adaptation. She knows how to please hardcore fans while offering a fresh take on the material.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/daisy-edgar-jones-sense-and-sensibility-dolly-parton-1236917040/",
+      "published_at": "2026-10-20T02:24:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MAB_2717.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "f6f60cd21ff86eb674",
       "title": "Why ‘Office Space’ Actor Richard Riehle Was the Quintessential Actor’s Actor (Guest Column)",
@@ -208,7 +667,7 @@
     },
     {
       "id": "8170b7677e5996ce48",
-      "title": "Why Netflix Fired Dan Lin (and the Truth About His Tension With Greta Gerwig Over ‘Narnia’)",
+      "title": "Why Netflix Fired Dan Lin",
       "category": "Entertainment",
       "summary": "“Everyone is collateral damage.” That’s how one top Netflix insider summarized another bloody Monday at the streamer, which saw Dan Lin ousted as the company’s head of film.",
       "summary_status": "publisher_excerpt",
@@ -1261,6 +1720,23 @@
       ]
     },
     {
+      "id": "15f2087e1db1294b9d",
+      "title": "Mission blasts off for Mars to grab a piece of its moon",
+      "category": "World",
+      "summary": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T19:45:46Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f0e/live/0a4e2af0-cbff-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
       "id": "b480550a731a71a677",
       "title": "‘Sense and Sensibility’ Screenwriter on Book-to-Screen Changes and Why Jane Austen Is So Adaptable: ‘She’s Almost Like Shakespeare’",
       "category": "Entertainment",
@@ -2146,7 +2622,7 @@
     },
     {
       "id": "988c448c47728d9671",
-      "title": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
+      "title": "Obama blasts federal probe of Ilhan Omar as 'so appalling'",
       "category": "World",
       "summary": "Obama says federal agents' search of the Democrat's home was an effort to intimidate a Trump critic.",
       "summary_status": "publisher_excerpt",
@@ -3131,108 +3607,6 @@
       ]
     },
     {
-      "id": "06f8bb9a5c1d1315c5",
-      "title": "Caos Cine, a New Mexican Distributor, Launches at Morelia Fest With ‘The Huntress,’ Picked Up From Edher Campos and Gabriela Maire’s Zafiro (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "A new player is in town. Upstart Mexican distributor Caos Cine, founded by Regina Serratos and Eduardo Diaz Casanova, has launched at the Morelia Film Festival (FICM) with its first pickup, “The Huntress.” The debut feature of Susanne Andrews Correa marks its Mexican premiere Oct. 19 at the fest, where it competes.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/caos-new-mexican-distrib-the-huntress-pickup-zafiro-1236915176/",
-      "published_at": "2026-10-19T13:25:07Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/TheHuntress-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "2c4bc1854b7ceb53d9",
-      "title": "Caos Cine, a New Mexican Distributor, Launches at Morelia Fest With ‘The Huntress,’ Picked Up From Edher Campos and Gabriela Maire’s Zafiro (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "A new player is in town. Upstart Mexican distributor Caos Cine, founded by Regina Serratos and Eduardo Diaz Casanova, has launched at the Morelia Film Festival (FICM) with its first pickup, “The Huntress.” The debut feature of Susanne Andrews Correa marks its Mexican premiere Oct. 19 at the fest, where it competes.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/global/caos-new-mexican-distrib-the-huntress-pickup-zafiro-1236915176/",
-      "published_at": "2026-10-19T13:25:07Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/TheHuntress-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "0ad23bce710caba16a",
-      "title": "Apu returns to The Simpsons with new voice after race row",
-      "category": "Entertainment",
-      "summary": "The much-loved shopkeeper has been seen but not heard around Springfield for eight years, until now.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cw33x6gzgdm0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T13:22:24Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6990/live/9f2da090-cbb6-11f1-81ef-39e22b578b80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "26154613621bc4bc7a",
-      "title": "Kylie Jenner's debut at Victoria's Secret Fashion Show in $50m bra sparks mixed reaction",
-      "category": "Entertainment",
-      "summary": "The reality star's surprise appearance on the runway in the diamond encrusted piece has sparked mixed reaction.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmx2wqwxvyxlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T13:16:22Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68b5/live/61a0bf00-cbc0-11f1-81ef-39e22b578b80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c447e4262437cb46b3",
-      "title": "Your Fall 2026 Anime Daily Streaming Reviews",
-      "category": "Anime",
-      "summary": "While the highest-anticipated shows were easy to guess, everything else was a crapshoot.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/site-news/2026-10-19/your-fall-2026-anime-daily-streaming-reviews/.242925",
-      "published_at": "2026-10-19T13:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "cc23b69918d6c949da",
-      "title": "The Irregular at Magic High School Magian Company Tops Oricon's Light Novel Ranking for September",
-      "category": "Anime",
-      "summary": "NISIOISIN's Torimonogatari , Saekisan's The Angel Next Door Spoils Me Rotten rank at #2, #3",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-19/the-irregular-at-magic-high-school-magian-company-tops-oricon-light-novel-ranking-for-september/.242950",
-      "published_at": "2026-10-19T13:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
       "id": "ece53721aa8111f19c",
       "title": "Dog Who Survived Against All Odds Is Ready For A Family | The Dodo",
       "category": "Animals",
@@ -3247,142 +3621,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "24abd7bf7a63fde72d",
-      "title": "This Week in Mobile Games - Our Notes to the Polls",
-      "category": "Anime",
-      "summary": "Josh digs into BanG Dream! Our Notes , the latest mobile game franchise spinoff. Is it worth it, or is it too obviously avaricious?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/this-week-in-mobile-games/2026-10-19/.242649",
-      "published_at": "2026-10-19T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "b35b79fbf3f781a7e7",
-      "title": "Interview: Princess Jellyfish Manga Artist Akiko Higashimura Celebrates 25 Years",
-      "category": "Anime",
-      "summary": "Shojo icon Akiko Higashimura sat down with ANN to talk about her most famous works, her storytelling style, directing live-action projects, business ventures, and BL!?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/interview/2026-10-19/princess-jellyfish-manga-artist-akiko-higashimura-celebrates-25-years/.242847",
-      "published_at": "2026-10-19T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "fd56b4d25381664d3f",
-      "title": "Toon2Tango to Lead Global Licensing and Merchandising for Mediawan Kids & Family Slate, Including Titles Like ‘Astro Boy’ Reboot (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Mediawan Kids & Family, Europe’s leading independent studio for the production and distribution of children’s and family content, and Toon2Tango, the German kids and family entertainment powerhouse, have entered into an exclusive worldwide licensing and merchandising agreement.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/toon2tango-mediawan-kids-family-astro-boy-1236916319/",
-      "published_at": "2026-10-19T13:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Astro-Boy.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "e4d3ff49a910fc37a9",
-      "title": "This week in PC games: build a better zombie in Stupid Never Dies, glue together houses in Cutout Village, and settle brave new worlds in Star Trek: Outposts Unknown",
-      "category": "Gaming",
-      "summary": "Hello all! Welcome to another wonderful week of PC games, and mounting bloodlust. As I type these words, a neighbour has started using a leafblower. I hate leafblowers. They are mutant hairdryers from Hell.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/this-week-in-pc-games-build-a-better-zombie-in-stupid-never-dies-glue-together-houses-in-cutout-village-and-settle-brave-new-worlds-in-star-trek-outposts-unknown",
-      "published_at": "2026-10-19T12:59:48Z",
-      "image_url": "https://assetsio.gnwcdn.com/Stupid-Never-Dies_eU3iMSb.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "d81e0a48d7f849f3db",
-      "title": "Hoshi in the Girls' Garden Tops Oricon's Comic Ranking for September",
-      "category": "Anime",
-      "summary": "Kagurabachi volume 12 ranks at #2, Dandadan volume 25 ranks at #3",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-19/hoshi-in-the-girls-garden-tops-oricon-comic-ranking-for-september/.242956",
-      "published_at": "2026-10-19T12:15:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "0ce7e2b92e3b349a7a",
-      "title": "The National joined by Richard Reed Parry and play ’90-Mile Water Wall’ for first time since 2014 at first full gig in two years",
-      "category": "Music",
-      "summary": "They also brought out contemporary performance and visual artist Ragnar Kjartansson following them collaborating in 2013 The post The National joined by Richard Reed Parry and play ’90-Mile Water Wall’ for first time since 2014 at first full gig in two years appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/the-national-richard-reed-parry-play-90-mile-water-wall-first-time-2014-setlist-footage-3973522?utm_source=rss&utm_medium=rss&utm_campaign=the-national-richard-reed-parry-play-90-mile-water-wall-first-time-2014-setlist-footage",
-      "published_at": "2026-10-19T12:09:57Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/the-national@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "f4741272f4ee8a3835",
-      "title": "Miley Cyrus Fires Back at Criticism of Hollywood Bowl Concert and Considered Not Doing Second Show: ‘It’s Hard for Me to Stand Up Here’",
-      "category": "Music",
-      "summary": "Miley Cyrus has responded to criticism of her comeback Hollywood Bowl show on Friday night, telling the audience at Sunday’s concert that she almost didn’t come on stage. “I’ve never heard that I don’t put my heart into something,” Cyrus said in fan-captured video from the show. “I don’t know if any of you heard […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/miley-cyrus-fires-back-criticism-hollywood-bowl-concert-1236916307/",
-      "published_at": "2026-10-19T12:09:11Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/miley-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "68fb4742174b253c3f",
-      "title": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen",
-      "category": "Gaming",
-      "summary": "It could be smoother but double the frames is nothing to sniff at.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/hardware/ps5-exclusive-demons-souls-remake-not-only-runs-on-pc-now-its-running-at-twice-the-fps-cap-on-an-rtx-5070-with-frame-gen/",
-      "published_at": "2026-10-19T12:01:04Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/xhQmSwMGCL3T3ANrTdHzYb-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -3403,210 +3641,6 @@
       ]
     },
     {
-      "id": "326cfdcb2b25192f5c",
-      "title": "Final Fantasy 7 Revelation Director Makes Announces Big Changes to Hard Mode",
-      "category": "Gaming",
-      "summary": "Final Fantasy 7 remake director Naoki Hamaguchi announces significant improvements to the game's Hard Mode.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/final-fantasy-7-revelation-hard-difficulty-changes-dynamic-mode/",
-      "published_at": "2026-10-19T11:59:07Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/nintendoswitch2_final_fantasy_vii_rebirth_screenshot-4.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "191a806a4a7fd17854",
-      "title": "‘Diddy Kong Racing’ soundtrack getting ‘Revisited’ vinyl release",
-      "category": "Music",
-      "summary": "Featuring 23 remixed tracks from original composer David Wise The post ‘Diddy Kong Racing’ soundtrack getting ‘Revisited’ vinyl release appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/diddy-kong-racing-soundtrack-revisited-vinyl-release-david-wise-3973523?utm_source=rss&utm_medium=rss&utm_campaign=diddy-kong-racing-soundtrack-revisited-vinyl-release-david-wise",
-      "published_at": "2026-10-19T11:56:06Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/RareTreatsDiddyKongRacing_Vinyl_ProductImages_Front_LP_1800x1200.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "7cce03f34ad9a9f7d8",
-      "title": "Personal attacks fire up debate before Brazil's run-off vote",
-      "category": "World",
-      "summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T11:41:24Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/389a/live/fbd9f9b0-cb98-11f1-93a7-b36f3083f4d3.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "b038f633e95718bb27",
-      "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
-      "category": "World",
-      "summary": "A car hit an Australian federal independent lawmaker on Monday, critically injuring her in an apparent deliberate attack, Prime Minister Anthony Albanese said. The driver was arrested.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
-      "published_at": "2026-10-19T11:38:43Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "3b387d1dfd8c3c3d7e",
-      "title": "No publishers wanted Outlast because they'd 'rather invest $50,000 in 10 mobile games' so Red Barrels relied on public investment programs and their own savings instead",
-      "category": "Gaming",
-      "summary": "\"Everything was on the line\" during Outlast's development.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/horror/no-publisher-wanted-outlast-because-theyd-rather-invest-usd50-000-in-10-mobile-games-so-red-barrels-relied-on-public-investment-programs-and-their-own-savings-instead/",
-      "published_at": "2026-10-19T11:34:55Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/wsP8ZYqL3zitGswbKBRwrd-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "82dcf27d49698a2bfd",
-      "title": "Satomi, Nanamori Graduate From Strawberry Prince Group",
-      "category": "Anime",
-      "summary": "Nanamori to continue producer, manager role; Satomi to do solo activities",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-19/satomi-nanamori-graduate-from-strawberry-prince-group/.242969",
-      "published_at": "2026-10-19T11:29:17Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "8390245dac89cd97f8",
-      "title": "Meloni calls emergency meeting after weekend of violent clashes",
-      "category": "World",
-      "summary": "More than 200 people were detained during two days of rioting in the city, Italian media reports.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T11:23:36Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d1/live/3cdb5c00-cba4-11f1-9ee2-f74dfb8e54e5.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "04ab7c2ba254aaaac8",
-      "title": "Life has once again found a way in Athanasia, an \"immersive\" dinosaur FPS that feels like comfort food for Dino Crisis and System Shock players alike",
-      "category": "Gaming",
-      "summary": "Good news, people who figure they are going to die of old age before they get another Dino Crisis ! Good news also, people who can't get enough throwback immersive sims!",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/life-has-once-again-found-a-way-in-athanasia-an-immersive-dinosaur-fps-that-feels-like-comfort-food-for-dino-crisis-and-system-shock-players-alike",
-      "published_at": "2026-10-19T11:17:27Z",
-      "image_url": "https://assetsio.gnwcdn.com/athanasia.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "f0867eaa3df3b6e9e0",
-      "title": "2026 midterms could be the most expensive on record. And, Macron condemns protests",
-      "category": "World",
-      "summary": "More than $15 billion has been raised in this year's midterm elections. And, France's president is condemning the violent protests erupting across the country.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
-      "published_at": "2026-10-19T11:15:43Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "e6f21fea1ada0fc771",
-      "title": "The Kingdoms of Ruin's yoruhashi Launches New Manga on Thursday",
-      "category": "Anime",
-      "summary": "Manga centers on boy Raran, out for revenge against curses",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-19/the-kingdoms-of-ruin-yoruhashi-launches-new-manga-on-thursday/.242961",
-      "published_at": "2026-10-19T11:13:25Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "57f57ae8150813c669",
-      "title": "RTX 5090 not dead, says Nvidia—but it's mysteriously vanished from the company's official marketplace",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/",
-      "published_at": "2026-10-19T11:12:36Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/nZAQu9r9L63cUZYG8y4hsE-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "96f8567b3ba656242a",
-      "title": "‘Crystal Lake’ review: ‘Friday The 13th’ prequel gives Jason’s mum a twisted origin story",
-      "category": "Music",
-      "summary": "The eight-episode series explores the makings of original killer Pamela Voorhees The post ‘Crystal Lake’ review: ‘Friday The 13th’ prequel gives Jason’s mum a twisted origin story appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/reviews/tv-reviews/crystal-lake-review-linda-cardellini-3973387?utm_source=rss&utm_medium=rss&utm_campaign=crystal-lake-review-linda-cardellini",
-      "published_at": "2026-10-19T11:04:12Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Crystal-Lake-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "9211d74fc10c89dcdf",
       "title": "Family Goes Out For Errands And Comes Home With A Dog | The Dodo",
       "category": "Animals",
@@ -3621,40 +3655,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "e97b1e19034b63bf6e",
-      "title": "Bon Jovi announced as first headliner for BST Hyde Park 2027",
-      "category": "Music",
-      "summary": "“It’s a full circle moment to be returning to BST Hyde Park, 14 years after headlining the very first festival” The post Bon Jovi announced as first headliner for BST Hyde Park 2027 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/bon-jovi-for-bst-hyde-park-2027-buy-tickets-3973502?utm_source=rss&utm_medium=rss&utm_campaign=bon-jovi-for-bst-hyde-park-2027-buy-tickets",
-      "published_at": "2026-10-19T11:00:28Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/bon-jovi@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "f6fae1ff46bbe0edbd",
-      "title": "The 7 Best Daily Pokémon Games, Ranked",
-      "category": "Gaming",
-      "summary": "The best Wordle-like Pokémon games that you can play in your browser every day.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/pokemon-games-best-daily-ranked-browser/",
-      "published_at": "2026-10-19T11:00:18Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/charmander-being-very-cute-pokemon.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
