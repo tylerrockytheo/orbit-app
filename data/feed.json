@@ -1,7 +1,1486 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T10:32:14.600594Z",
+  "generated_at": "2026-10-22T15:32:28.581383Z",
   "posts": [
+    {
+      "id": "59395eeb7f8e554092",
+      "title": "‘Wildwood’ Director Travis Knight on Spending 16 Years to Create His Stop-Motion “Masterpiece”",
+      "category": "Entertainment",
+      "summary": "The filmmaker and Nike scion poured untold millions into his critically acclaimed \"grand experiment.\" But he knows the real test is yet to come.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/wildwood-director-travis-knight-films-journey-interview-1236736246/",
+      "published_at": "2026-10-22T15:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9bf36bb3e27b1795a6",
+      "title": "Kacey Musgraves to Release New 16-Song Album, ‘Middle of Nowhere Vol. 2: Tex Mex Tapes’",
+      "category": "Music",
+      "summary": "Kacey Musgraves will release a 16-song album of all-new material titled “Middle of Nowhere Vol. 2: Tex Mex Tapes” on January 15, 2027 via Lost Highway Records — just eight months after the release of Vol. 1. According to the announcement, the album picks up where Vol. 1 left off, “expanding on themes of solitude, […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/kacey-musgraves-middle-of-nowhere-vol-2-tex-mex-tapes-1236921504/",
+      "published_at": "2026-10-22T15:29:26Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/03/KM-Main-Press-credit-Kelly-Christine-Sutton-e1792682947738.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "8f11dbd9dd78bb8a1b",
+      "title": "Sylvester Stallone Defends AI: “It’s Happening, Go With It Or Be Trampled”",
+      "category": "Entertainment",
+      "summary": "The 80-year-old actor says the industry needs to embrace AI usage: \"Here to stay.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/sylvester-stallone-defends-ai-1236738168/",
+      "published_at": "2026-10-22T15:25:37Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4648baf514808b1895",
+      "title": "French weekend protests to be limited to union demos only, says Macron",
+      "category": "World",
+      "summary": "Some cities including Lyon and Nice have banned all protests, and the French president said only authorised demos would be allowed.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T15:22:48Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aab2/live/fa874350-cdfb-11f1-97f7-a7674fb562de.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "8aa10b126a52c1fc73",
+      "title": "How to find and clear compounds in DMZ in Modern Warfare 4",
+      "category": "Gaming",
+      "summary": "This guide explains where all the compound locations in DMZ are and how to clear them in Modern Warfare 4.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/mw4-modern-warfare-4-dmz-compounds-locations-clear/",
+      "published_at": "2026-10-22T15:17:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/modern-warfare-4-dmz-compound-header.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "471427ff3d821b2025",
+      "title": "FIFA Opens Bids for 2030 World Cup U.S. Media Rights — With Option For 2034",
+      "category": "Entertainment",
+      "summary": "The next FIFA World Cup is years away — but one game is already afoot. The international governing body behind the popular global tournament is opening the bidding process for rights to the event for 2030 in the U.S. and Puerto Rico, and will offer an option for interesting parties to also try and secure […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/fifa-world-cup-u-s-media-rights-bidding-2030-2034-1236920483/",
+      "published_at": "2026-10-22T15:15:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/07/GettyImages-2286816861.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "162730cddf698a0c9c",
+      "title": "Weather warning in place ahead of Storm Boelo",
+      "category": "Science",
+      "summary": "A Met Office weather warning is in place from 18:00 BST on Saturday until 15:00 GMT on Sunday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T15:14:38Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d7f/live/0d8bf270-ce10-11f1-9f55-cdc56e9c248c.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "f317c308f075378bd7",
+      "title": "Damaging hail pelts Phoenix in rare storm",
+      "category": "Science",
+      "summary": "Videos from the Arizona capital show people sheltering inside a car as hail smashes the windscreen, while intense downpours covered neighbourhoods in ice.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T15:11:49Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96f3/live/e6483970-ce29-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "bf579525511d8cb0cb",
+      "title": "Where to find the Irokawa Space Center in Forza Horizon 6",
+      "category": "Gaming",
+      "summary": "The Irokawa Space Center is one of the discovery locations in Forza Horizon 6. Here's where you can find it, and earn credit.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/forza-horizon-6-fh6-space-port-location-where-to-find/",
+      "published_at": "2026-10-22T15:01:18Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/irokawa-space-center_fh6.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "bb56ba42261a52559d",
+      "title": "The True Cost of Corporate Dominance in the Music Industry (Guest Post)",
+      "category": "Music",
+      "summary": "Rev. Moose is founder of Marauder, which helps companies, organizations, and government entities develop strategies and in-person events that drive change and foster growth within the independent music sector.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/opinion/corporate-dominance-music-industry-guest-post-1236918871/",
+      "published_at": "2026-10-22T15:00:54Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-21-at-12.33.59-PM-e1792601134627.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "bf37451a29d597ada5",
+      "title": "‘Ali G: Who Iz I?’ Review: Sacha Baron Cohen Brings Back His Cretinous Fake OG Talk-Show Host, Only Now Ali G Is the Film’s ‘Political’ Subject. A Mistake, Innit?",
+      "category": "Entertainment",
+      "summary": "By turning Ali G into the doofus antihero of his own absurdist saga, \"Who Iz I?\" essentially becomes Sacha Baron Cohen’s version of a \"Saturday Night Live\" movie, like \"MacGruber\" or \"Stuart Saves His Family\" or \"A Night at the Roxbury.\" The film has scattered funny moments, but it’s dawdling and cumbersome and far less…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/reviews/ali-g-who-iz-i-review-sacha-baron-cohen-1236918623/",
+      "published_at": "2026-10-22T15:00:39Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/ali-g.webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5f0abe4033bba59d5c",
+      "title": "Final Fantasy Resonance - How to Find and Beat Sephiroth",
+      "category": "Entertainment",
+      "summary": "Final Fantasy Resonance may be putting you through Strife right now… but we have a guide to help. Here is every tip you’ll need to find, beat and unlock Sephiroth’s vision.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=jj9_MItZVIc",
+      "published_at": "2026-10-22T15:00:21Z",
+      "image_url": "https://i.ytimg.com/vi/jj9_MItZVIc/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "jj9_MItZVIc",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4f34e372291701b6a4",
+      "title": "‘Carrie’ Renewed for Second Season at Prime Video",
+      "category": "Entertainment",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/carrie-renewed-season-2-prime-video-1236738163/",
+      "published_at": "2026-10-22T15:00:08Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "6d63ce1926bd3d6a83",
+      "title": "Inside the “Play Labs” Helping Refugee Kids Heal | Erum Mariam | TED",
+      "category": "Discover",
+      "summary": "What does healing look like for a refugee child? That's the question educational leader Erum Mariam asked when her team built the humanitarian \"play labs\": small, welcoming spaces where children displaced from their homes can play and reconnect with what they lost.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "TED · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=j11fPNKe5mY",
+      "published_at": "2026-10-22T15:00:04Z",
+      "image_url": "https://i.ytimg.com/vi/j11fPNKe5mY/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "j11fPNKe5mY",
+      "youtube_channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
+      "topics": [
+        "Discover"
+      ]
+    },
+    {
+      "id": "ec87a8ce224c9907f7",
+      "title": "Rescuer Stops For Kangaroo And Finds Her Baby Still By Her Side | The Dodo",
+      "category": "Animals",
+      "summary": "Little Hope had no idea someone was about to completely change her life ❤️ When Vicky from @VetsForCompassion stopped for a kangaroo who had been hit by a car, she discovered baby Hope still beside her mom.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=ZxhAgixjjEk",
+      "published_at": "2026-10-22T15:00:02Z",
+      "image_url": "https://i.ytimg.com/vi/ZxhAgixjjEk/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "ZxhAgixjjEk",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "2c676d3863018a9ee2",
+      "title": "Exclusive: Nakama Press Licenses Uoto's 100 Meters Manga for Release in 2027",
+      "category": "Anime",
+      "summary": "Nakama Press also licensed Buichi Terasawa's Goku Midnight Eye for release next year",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/exclusive-nakama-press-licenses-uoto-100-meters-manga-for-release-in-2027/.243056",
+      "published_at": "2026-10-22T15:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "ed0795745100b68614",
+      "title": "‘Carrie’ Renewed for Season 2 at Amazon",
+      "category": "Entertainment",
+      "summary": "“Carrie,” Amazon Prime Video’s series adaptation of Stephen King’s famous 1974 novel of the same name, has been renewed for a second season that will go beyond the events of the book. Per the official series description, “Misfit high-schooler Carrie White (Summer H.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/carrie-renewed-season-2-amazon-1236920319/",
+      "published_at": "2026-10-22T15:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/CARR_S1_FG_00094917_Still252_3000.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4aa470142920bb12ce",
+      "title": "‘The Gilded Age’ Team on Paramount Merger Parallels and Going From Budget Cuts to a Season 3 Breakout: ‘You’re Part of a Very Fortunate Minority’",
+      "category": "Entertainment",
+      "summary": "When “The Gilded Age” premiered in 2022, the reception was warm enough. The HBO costume drama marked creator Julian Fellowes’ highly anticipated follow-up to “Downton Abbey,” bringing his eye for aristocratic quirks across the Atlantic and delivering the requisite dose of upstairs-downstairs intrigue.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/features/the-gilded-age-season-4-cast-creator-popularity-1236910185/",
+      "published_at": "2026-10-22T15:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Gilded-Age-2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7bbb5ccb4a2454b03d",
+      "title": "‘Dungeon Crawler Carl’ Comic Book Series Launching in January (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "New achievement! “Dungeon Crawler Carl” is getting a comic series! The popular fantasy, LitRPG books by author Matt Dinniman will receive an ongoing comic book series from Vault Comics. The double-sized, 48-page first issue will launch in comic book stores beginning in January 2027.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/dungeon-crawler-carl-comic-book-series-1236917840/",
+      "published_at": "2026-10-22T15:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/DCC.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "cd788ec63dd59d1f44",
+      "title": "‘Ali G: Who Iz I?’ Review: Sacha Baron Cohen Reprises Iconic Role, Yielding Equal Parts Belly Laughs and Boredom",
+      "category": "Entertainment",
+      "summary": "The comedian brings back the controversial character for his first big-screen appearance since 2002's 'Ali G Indahouse.'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/ali-g-who-iz-i-review-sacha-baron-cohen-1236736219/",
+      "published_at": "2026-10-22T15:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "88a4e5b2407fd891af",
+      "title": "Epic Games Store Makes 2 PC Games Completely Free This Week",
+      "category": "Gaming",
+      "summary": "The Epic Games Store has a selection of free PC games that changes every week. The latest free offerings will be available until Oct. 22.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/epic-games-store-free-games-10-22-2026-download/",
+      "published_at": "2026-10-22T14:56:52Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/sker-ritual-screenshot-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "8d3c3c11ba2cff0c84",
+      "title": "Fontaines D.C. kick off ‘Dopamine Chamber’ arena tour in Lisbon",
+      "category": "Music",
+      "summary": "They aired numerous cuts from their acclaimed new album, as well as some fan favourites and classics The post Fontaines D.C. kick off ‘Dopamine Chamber’ arena tour in Lisbon appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/fontaines-dc-kick-off-dopamine-chamber-arena-tour-in-lisbon-watch-footage-full-setlist-3973857?utm_source=rss&utm_medium=rss&utm_campaign=fontaines-dc-kick-off-dopamine-chamber-arena-tour-in-lisbon-watch-footage-full-setlist",
+      "published_at": "2026-10-22T14:54:43Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/NMEAR_NME-READING-2026-FONTAINES-DC-LIVE-20-CREDIT-ANDY-FORD@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "4d6576147b604a550b",
+      "title": "Xbox reportedly mandate four days a week in office for staff close to Microsoft's Washington HQ, up from three day requirement brought in last year",
+      "category": "Gaming",
+      "summary": "Xbox have reportedly informed staff that, from the start of February 2027, those within commuting distance of Microsoft's Washington base will have to come into the office four days a week.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/xbox-reportedly-mandate-four-days-a-week-in-office-for-staff-close-to-microsofts-washington-hq-up-from-three-day-requirement-brought-in-last-year",
+      "published_at": "2026-10-22T14:53:43Z",
+      "image_url": "https://assetsio.gnwcdn.com/xbox-ceo-activision-blizzard-deal-mixed-answer-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e41c5d6f359c0810ea",
+      "title": "Capcom Confirms Data Breach of Over 11 Million User Accounts",
+      "category": "Anime",
+      "summary": "Third party had unauthorized access to Capcom ID service starting on October 19",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/capcom-confirms-data-breach-of-over-11-million-user-accounts/.243110",
+      "published_at": "2026-10-22T14:51:10Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "410496601fc6e04509",
+      "title": "Wiz Khalifa Signs With 10K Projects (EXCLUSIVE)",
+      "category": "Music",
+      "summary": "Multiplatinum rapper Wiz Khalifa has signed with 10K Projects and will release his new single “The Calm,” via the label this evening. The deal sees Khalifa returning to the Warner Music Group family and reunite with his close friend and former project manager, Marsha St. Hubert, who is now co-president of 10K Projects.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/wiz-khalifa-signs-10k-projects-1236920998/",
+      "published_at": "2026-10-22T14:49:59Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/DSC_3781-e1792680575808.jpeg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "b72be81fa1875be4cb",
+      "title": "We React To The Clayface Trailer",
+      "category": "Entertainment",
+      "summary": "One of DC Comics’ cult favourite villains is taking a starring role on the big screen, and his origin story looks... horrifying. Here's how our HQ reacted to the Clayface trailer. Sponsored by Warner Bros. UK Catch #ClayfaceMovie in cinemas from tomorrow, October 23.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=EXCBjnTiNHg",
+      "published_at": "2026-10-22T14:47:46Z",
+      "image_url": "https://i.ytimg.com/vi/EXCBjnTiNHg/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "EXCBjnTiNHg",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "c5fc2ec68ed38479fb",
+      "title": "Dying Light 2: Stay Human - Official Halloween Showdown 2026 Trailer",
+      "category": "Entertainment",
+      "summary": "The Halloween Showdown 2026 community event comes to Dying Light 2: Stay Human. Check out the latest Dying Light 2: Stay Human trailer to see what to expect from the event for the first-person action game, as you jump into update 1.30, smash through the Halloween Showdown 2026, and claim exclusive season rewards.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=UnmmjDOj3V4",
+      "published_at": "2026-10-22T14:39:29Z",
+      "image_url": "https://i.ytimg.com/vi/UnmmjDOj3V4/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "UnmmjDOj3V4",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ef2d2f8c3df855f922",
+      "title": "James Bond Screen Tests to Happen This Weekend: Finalists Emerge for Next 007 Movie",
+      "category": "Entertainment",
+      "summary": "The marathon to fit into the tux is nearing its end.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/james-bond-screen-tests-callum-turner-jack-lowden-1236728317/",
+      "published_at": "2026-10-22T14:39:14Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "77d0a3fbda6e1d77e4",
+      "title": "'Dragon Ball Xenoverse 3' Officially Delayed and Fans Are Delighted",
+      "category": "Gaming",
+      "summary": "'Dragon Ball Xenoverse 3' is coming out in the second half of 2027 as its developers respond to fan feedback.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/dragon-ball-xenoverse-3-delay-gameplay-updates/",
+      "published_at": "2026-10-22T14:36:38Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ss_11bc628f3a0b190462f31de5d77c8646b7d37247-1920x1080.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "b8b92bbe2ed97d6d6c",
+      "title": "Big Brother fans still not happy as housemate called out on behaviour",
+      "category": "Entertainment",
+      "summary": "Ofcom received thousands of complaints related to Omar El Mayer's behaviour in the Big Brother house.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cv36941yn1e9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T14:30:48Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b43c/live/a3205d70-cd49-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "15db59381bd32c3d6e",
+      "title": "Suikoden: The Anime ‒ Episodes 1-3",
+      "category": "Anime",
+      "summary": "Most critical of all is that the Suikoden anime reminds me of anime and gaming from the days of yore.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/review/suikoden-the-anime/episodes-1-3/.243091",
+      "published_at": "2026-10-22T14:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "f9c3ea29dc8366392c",
+      "title": "‘Obsession’ Star Inde Navarrette Says Gen Z Wants Films ‘Where We’re Not Being Sold. We Are Tired of Ads in Movies and Product Placement’",
+      "category": "Entertainment",
+      "summary": "“Obsession” breakout Inde Navarrette appeared on “The Kyle Buchanan Show” and offered up her advice to Hollywood on how to keep Gen Z audiences interested in going to movie theaters.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/inde-navarrette-gen-z-movies-without-ads-product-placement-1236919665/",
+      "published_at": "2026-10-22T14:28:59Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/P108QRPF.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2467c8f3ad4f7faf82",
+      "title": "Europa Universalis 5: Patch 1.4 Rio Salado - Official Trailer",
+      "category": "Entertainment",
+      "summary": "Check out the latest trailer for Europa Universalis 5 to see what to expect with Patch 1.4: Rio Salado, which brings the latest destination of the Grand Voyage update roadmap. The Patch 1.4 update brings fresh strategic depth to your campaigns, centering on historical trade and exploration.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=lZiD22iq_K8",
+      "published_at": "2026-10-22T14:27:00Z",
+      "image_url": "https://i.ytimg.com/vi/lZiD22iq_K8/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "lZiD22iq_K8",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5887a521dbd109080d",
+      "title": "Aamir Khan Tears Up About His Family, Shares Updates on ‘3 Idiots 2,’ ‘Andaz Apna Apna 2’ at Singapore Film Fest",
+      "category": "Entertainment",
+      "summary": "Aamir Khan broke down onstage at the Singapore International Film Festival on Thursday as he recalled realizing, during the COVID-19 lockdown, that three decades of nonstop work had cost him years with his family.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/aamir-khan-tears-up-3-idiots-2-andaz-apna-apna-2-updates-1236920409/",
+      "published_at": "2026-10-22T14:22:24Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Aamir-Khan.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "42453154bc1b6a18c2",
+      "title": "World War Z - Official Viral State Update Announcement Trailer",
+      "category": "Entertainment",
+      "summary": "Neon lights, rays of sunshine, and palm trees leading to a beach paradise... if only it weren't for the waves of Zekes! Check out the latest World War Z trailer for the third-person action zombie shooter game to see what to expect from the upcoming Viral State update, where you'll take on the undead in Miami, Florida.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=RM1cQGlNN1I",
+      "published_at": "2026-10-22T14:16:55Z",
+      "image_url": "https://i.ytimg.com/vi/RM1cQGlNN1I/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "RM1cQGlNN1I",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "05b60b64e2becd7f24",
+      "title": "Nintendo Switch 2 Suffers Major Exploit in Latest AI-Assisted Hack",
+      "category": "Gaming",
+      "summary": "Nintendo Switch 2 gets jailbroken by AI after the PlayStation 5 suffered the same fate",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/nintendo-switch-2-ai-jailbreak-mario-kart-world/",
+      "published_at": "2026-10-22T14:11:00Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/switch-2-third-party-partner-games-february-direct.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "d5ce4e9b814d748602",
+      "title": "Comcast Plans Major Layoffs as It Preps for NBCU Spin-Off, Sees $1 Billion-Plus Restructuring Charge in Q4",
+      "category": "Entertainment",
+      "summary": "Comcast is gearing up for significant job cuts in its cable and telecom business in the coming weeks, as the media conglomerate restructures ahead the expected spin-off of NBCUniversal in 2027.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/comcast-layoffs-nbcuniversal-spin-off-1-billion-restructuring-charge-1236920356/",
+      "published_at": "2026-10-22T14:10:13Z",
+      "image_url": "https://variety.com/wp-content/uploads/2024/05/Comcast-Cable.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "aeccbe96e76f835488",
+      "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
+      "category": "World",
+      "summary": "The teacher said she could not help children because she was badly injured by the attacker.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqvgrmzdzgr7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T14:09:54Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cfa/live/29484c90-ce22-11f1-906e-e3128518d85d.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "fd8b045cc38cd632a3",
+      "title": "YouTuber arrested after popular Indian finance influencer's suicide",
+      "category": "World",
+      "summary": "V Harish, who ran the hugely popular Instagram account \"Finance with Harish\", was found dead on Tuesday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckx2d0ej7w7do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T14:08:10Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2457/live/95e759e0-ce18-11f1-bbba-c577fd901ff7.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e7abbb7c72eb45fdf9",
+      "title": "First Death Marker on the Trail of Death in Rochester, Indiana",
+      "category": "Travel",
+      "summary": "The first death during the forced removal and march was that of a child on September 5, 1838. This is a small portion of the tragic story of greed, western expansion, and lies that became known as the Potawatomi Trail of Death.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Atlas Obscura",
+      "source_url": "https://www.atlasobscura.com/places/first-death-marker-on-the-trail-of-death",
+      "published_at": "2026-10-22T14:00:00Z",
+      "image_url": "https://img.atlasobscura.com/io8CyxHMqgffKukZjuJu7oRlnCwnzxp2oPr6LmzLJvw/rs:fill:300:200:1/g:ce/c:1089:726:nowe:1386:571/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8yNzE0/MmUwNi1mN2Y1LTQ5/OWUtODk2Ny03OGIw/ZWUzMmNkMzJlNzdj/NGNiZDJlZGY5MTI2/YWFfSU1HXzY0MjMu/SlBH.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "387e7f6db65f436878",
+      "title": "This Week in Anime - The Legacy of Sayo Yamamoto",
+      "category": "Anime",
+      "summary": "Now that Coop has finally watched Yuri!!! on Ice , they and Sylvia dive into Sayo Yamamoto 's series.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-10-22/.243060",
+      "published_at": "2026-10-22T14:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "4f2bb78d68a4e1d0ad",
+      "title": "Lego Unveils Daft Punk Set Based on 2007 ‘Alive’ Tour, Short Film Collab Set to ‘Human After All’",
+      "category": "Music",
+      "summary": "Fans of both Daft Punk and Lego are about to get lucky. The electronic music duo and the toy brick brand have partnered for a new multi-platform collaboration spanning product, content and brand experiences. The partnership includes a Lego set based on the stage design from Daft Punk’s 2007 “Alive” tour, submitted on the toy […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/global/daft-punk-lego-set-alive-tour-1236918620/",
+      "published_at": "2026-10-22T14:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-14.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "45597cb818a6ba3167",
+      "title": "Chuck Lorre Talks David Ellison Optimism, Scientology and the Perks (Really!) of Working for Roseanne Barr",
+      "category": "Entertainment",
+      "summary": "A week after publishing memoir 'Sitcom,' the comedy writer reveals hopes for Warner Bros' new ownership and skirts the 'Roseanne' writing credit debate by saying all were better for working there — even if \"it might have crushed their soul in the process.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/chuck-lorre-interview-david-ellison-roseanne-barr-1236737584/",
+      "published_at": "2026-10-22T14:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8aa798bef50b424c6f",
+      "title": "First human case of Shamonda virus detected in France, officials say",
+      "category": "World",
+      "summary": "The disease, which usually affects cattle, has been identified in a patient who died in early October.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T13:53:32Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f518/live/9a1112f0-ce03-11f1-8991-296181d7e3de.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5426327d3a9de8e43f",
+      "title": "First human case of Shamonda virus detected in France, officials say",
+      "category": "Science",
+      "summary": "The disease, which usually affects cattle, has been identified in a patient who died in early October.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T13:53:32Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f518/live/9a1112f0-ce03-11f1-8991-296181d7e3de.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "6d3d9d564873dbcd3f",
+      "title": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates",
+      "category": "World",
+      "summary": "The Iguazú Falls span more than a mile across both countries. A rain-soaked October, which scientists link to the Super El Niño, has sent near-record volumes of water surging over the towering cliffs.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino",
+      "published_at": "2026-10-22T13:50:55Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "a06e75767baa8b8eb8",
+      "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+      "category": "World",
+      "summary": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T13:46:33Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e3c/live/e7d9d390-cdf5-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "f37674b6e6a8223a94",
+      "title": "Ben Silverman Still Doesn’t Want a Job — But He’s Busier Than Ever",
+      "category": "Entertainment",
+      "summary": "He walked away from NBC with a stomachache and never looked back. Now his indie shop is juggling Fox’s ‘Best Medicine,’ a Ben Stiller-Benicio Del Toro comedy and a buzzy doc on Sam Bankman-Fried.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/business/business-news/ben-silverman-propagate-tv-docs-1236737224/",
+      "published_at": "2026-10-22T13:45:45Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5730b1d228d8d72038",
+      "title": "Final Fantasy Resonance - Official Launch Trailer",
+      "category": "Entertainment",
+      "summary": "Final Fantasy Resonance is available now on Nintendo Switch 2, Nintendo Switch, PlayStation 5 (PS5), Xbox Series X|S, Xbox on PC, and Steam. Watch the launch trailer for Final Fantasy Resonance, an RPG and the first Final Fantasy in HD-2D.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=87dXioPasqE",
+      "published_at": "2026-10-22T13:44:50Z",
+      "image_url": "https://i.ytimg.com/vi/87dXioPasqE/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "87dXioPasqE",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "809ea0754b0986685e",
+      "title": "The Blood of Dawnwalker - Official Update 1.1 Launch Trailer",
+      "category": "Entertainment",
+      "summary": "Don't miss the Update 1.1 Launch Trailer for The Blood of Dawnwalker, the hit vampiric action-adventure RPG developed by Rebel Wolves. Players can get a look at some of the key updates in the latest update, including better targeting, improved enemy attack readability, and over 1100 other fixes and improvements.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=P3ACh3yCQfw",
+      "published_at": "2026-10-22T13:42:04Z",
+      "image_url": "https://i.ytimg.com/vi/P3ACh3yCQfw/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "P3ACh3yCQfw",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "926216eae9962388cf",
+      "title": "How to get electronic sensors in DMZ in Modern Warfare 4",
+      "category": "Gaming",
+      "summary": "This guide explains where to find electronic sensors in Modern Warfare 4's DMZ mode, as they're needed for various upgrades.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/mw4-modern-warfare-4-dmz-electronic-sensors-how-to-get/",
+      "published_at": "2026-10-22T13:41:11Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/modern-warfare-4-electronic-sensors-header.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "4731188efa83d3ac81",
+      "title": "How to increase stash size in DMZ in Modern Warfare 4",
+      "category": "Gaming",
+      "summary": "This guide explains how to upgrade your stash and increase your storage space in DMZ in Modern Warfare 4.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/mw4-modern-warfare-4-dmz-stash-size-increase-upgrade-how-to/",
+      "published_at": "2026-10-22T13:40:54Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/modern-warfare-4-increase-stash-size-header.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "dc8835086194cd0386",
+      "title": "Egyptian Screenwriter Mariam Naoum on the Struggle for Arab Series to Find Buyers: ‘We’re Suffocating Inside’",
+      "category": "Entertainment",
+      "summary": "Seasoned Egyptian screenwriter and producer Mariam Naoum sees no shortage of creative talent in Arab television. The harder question is how to give that talent the time, development and routes to market it needs to thrive and build lasting careers.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/global/el-gouna-cinegouna-series-arab-tv-mariam-naoum-1236919614/",
+      "published_at": "2026-10-22T13:40:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Mariam-Naoum.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8f1c6e9f01f5dcf6cb",
+      "title": "Cyberpunk 2077 - Official Broken Dreams: Edgerunners 2 Update Launch Trailer",
+      "category": "Entertainment",
+      "summary": "Check out the Cyberpunk 2077 Edgerunners 2 Update launch trailer, featuring content inspired by the anime Cyberpunk: Edgerunners 2. In this free Edgerunners 2 update for the sci-fi RPG, take on a new quest that takes place before the anime's story begins.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "IGN · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=EEO63lRC8nw",
+      "published_at": "2026-10-22T13:38:45Z",
+      "image_url": "https://i.ytimg.com/vi/EEO63lRC8nw/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "EEO63lRC8nw",
+      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "52990c5b7bf0d5134e",
+      "title": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to move out",
+      "category": "World",
+      "summary": "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm75p1kxryl5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T13:36:21Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/972d/live/a8e0d8b0-ce1c-11f1-906e-e3128518d85d.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e917ceb2d5e0a86e8b",
+      "title": "\"It just seemed arbitrary, and not very smart\": EA was never a responsible owner for Bioware, but the developer never seemed to learn from their mistakes",
+      "category": "Gaming",
+      "summary": "19 years after buying Bioware, Electronic Arts have closed the veteran RPG developer . But as saddening as this is, bringing an end to series such as Dragon Age and Mass Effect , EA have never had an easy relationship with the studio.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/it-just-seemed-arbitrary-and-not-very-smart-ea-was-never-a-responsible-owner-for-bioware-but-the-developer-never-seemed-to-learn-from-their-mistakes",
+      "published_at": "2026-10-22T13:33:16Z",
+      "image_url": "https://assetsio.gnwcdn.com/dragon-age-remasters-ea-said-no-mark-darrah-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "459be4d5803e2fdd02",
+      "title": "‘GTA 6’ predicted to cause 1.5million Americans to take sick day, costing companies $1billion",
+      "category": "Music",
+      "summary": "The national output is expected to drop by 2 per cent The post ‘GTA 6’ predicted to cause 1.5million Americans to take sick day, costing companies $1billion appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-flu-sick-days-million-release-date-3973856?utm_source=rss&utm_medium=rss&utm_campaign=grand-theft-auto-6-flu-sick-days-million-release-date",
+      "published_at": "2026-10-22T13:33:08Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/09/Grand-Theft-Auto-6-.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "50d36dcb81e7ef8d02",
+      "title": "Xbox Game Pass 2026: what’s new and what’s worth playing?",
+      "category": "Music",
+      "summary": "Subscribers need to check out these titles immediately The post Xbox Game Pass 2026: what’s new and what’s worth playing? appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/features/gaming-features/xbox-game-pass-2026-new-releases-best-titles-co-op-single-player-3924493?utm_source=rss&utm_medium=rss&utm_campaign=xbox-game-pass-2026-new-releases-best-titles-co-op-single-player",
+      "published_at": "2026-10-22T13:30:18Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2025/10/Xbox-Game-Pass-2025.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "572a16ee41a03ef014",
+      "title": "Xbox Officially Confirms Cloud Gaming’s New Pay-As-You-Go Prices",
+      "category": "Gaming",
+      "summary": "In November, Xbox will sell playtime packs that unlock ad-free streaming on Xbox Cloud Gaming beyond Game Pass' time limits.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/xbox-cloud-gaming-playtime-pack-prices/",
+      "published_at": "2026-10-22T13:30:06Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/forza-horizon-6-rainbow-run-speed-trap.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "6337f88e662dfa3877",
+      "title": "Magical Girl Raising Project Restart ‒ Episodes 1-3",
+      "category": "Anime",
+      "summary": "When it comes down to it, Magical Girl Raising Project Restart is built around one thing: unintended consequences.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/review/magical-girl-raising-project-restart/episodes-1-3/.243090",
+      "published_at": "2026-10-22T13:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "a12d3cb11e8476f119",
+      "title": "15 Final Fantasy Resonance beginner's tips to help you protect the crystals",
+      "category": "Gaming",
+      "summary": "To help you prepare to save the world and protect the crystals, we've listed some Final Fantasy Resonance beginner's tips.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-beginners-tips-tricks/",
+      "published_at": "2026-10-22T13:26:53Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ffresonance_guide_beginners_lead.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "d385ee4dee43634966",
+      "title": "Two European women held captive for more than a year in Niger freed in Libya",
+      "category": "World",
+      "summary": "The Swiss government told the BBC that the freed national was on her way back to Switzerland.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T13:22:39Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "21ad9b71090119a5b4",
+      "title": "‘Mass Effect’ sequel cancelled as acclaimed developer BioWare closes",
+      "category": "Music",
+      "summary": "“What generations of BioWare built together is something to celebrate and remember” The post ‘Mass Effect’ sequel cancelled as acclaimed developer BioWare closes appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/gaming-news/mass-effect-sequel-cancelled-bioware-shut-down-lay-offs-3973846?utm_source=rss&utm_medium=rss&utm_campaign=mass-effect-sequel-cancelled-bioware-shut-down-lay-offs",
+      "published_at": "2026-10-22T13:01:21Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Mass-Effect-Legendary-Bioware1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "03493c2f5c7fbb4cd3",
+      "title": "Dumped German Shepherd Keeps Waiting For His Owner To Come Back | The Dodo",
+      "category": "Animals",
+      "summary": "Eva couldn’t leave him there with cars speeding by, so she decided to become the person who stayed ❤️ Once @evazubeck got him to safety, the scared German Shepherd she’d found began to come out of his shell.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=23cRCFUhLI0",
+      "published_at": "2026-10-22T13:00:38Z",
+      "image_url": "https://i.ytimg.com/vi/23cRCFUhLI0/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "23cRCFUhLI0",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "145d232b57a1299c64",
+      "title": "‘Heated Rivalry’ to Release in Movie Theaters, Two Episodes at a Time",
+      "category": "Entertainment",
+      "summary": "Forget about going to the cottage. “Heated Rivalry” fans will be going to movie theaters in November. Almost a year after the queer hockey romance series premiered in the U.S., Regal will release all six episodes in more than 650 theaters nationwide for a limited run Nov. 6-30. “When a series connects with audiences the […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/tv/columns/heated-rivalry-released-movie-theaters-1236916996/",
+      "published_at": "2026-10-22T13:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/12/heated-rivalry-shane-ilya-episode-4-1420x798-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4fc546b981c1bd8b71",
+      "title": "‘Heated Rivalry’ to Release in Movie Theaters, Two Episodes at a Time",
+      "category": "Entertainment",
+      "summary": "Forget about going to the cottage. “Heated Rivalry” fans will be going to movie theaters in November. Almost a year after the queer hockey romance series premiered in the U.S., Regal will release all six episodes in more than 650 theaters nationwide for a limited run Nov. 6-30. “When a series connects with audiences the […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/columns/heated-rivalry-released-movie-theaters-1236916996/",
+      "published_at": "2026-10-22T13:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2025/12/heated-rivalry-shane-ilya-episode-4-1420x798-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ebf75d281e80edbebb",
+      "title": "Talking Heads announce first ever authorised book ‘New Feeling’ featuring unseen archive material",
+      "category": "Music",
+      "summary": "“We pulled out handwritten lyrics, original album sketches, and private photos, some of which haven’t left our archive in over 40 years” The post Talking Heads announce first ever authorised book ‘New Feeling’ featuring unseen archive material appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/talking-heads-announce-first-ever-authorised-book-new-feeling-unseen-archive-material-3973842?utm_source=rss&utm_medium=rss&utm_campaign=talking-heads-announce-first-ever-authorised-book-new-feeling-unseen-archive-material",
+      "published_at": "2026-10-22T12:51:36Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/talking-heads@2000x1270-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "8372a19d5cb8cb801f",
+      "title": "Russell Brand accuser said alleged rape 'really hurt', court hears",
+      "category": "Entertainment",
+      "summary": "The friend of a woman claiming to have been raped by Russell Brand says she said he was \"quite aggressive\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9e8lz4mrg88o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T12:34:36Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c7/live/61652b80-ce03-11f1-8991-296181d7e3de.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fef4fa5f7c58723666",
+      "title": "Reincarnated as a Sword Season 2 ‒ Episodes 1-4",
+      "category": "Anime",
+      "summary": "For all my complaining about other, low-effort isekai, I couldn't then turn around and criticize this one for trying too hard",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episodes-1-4/.243086",
+      "published_at": "2026-10-22T12:30:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "9ccf31bf91f560765d",
+      "title": "The Apothecary Diaries Film's New Trailer Unveils Kenshi Yonezu's Theme Song",
+      "category": "Anime",
+      "summary": "New visual, character chart, details on creator Hyuganatsu's new stories also unveiled",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/the-apothecary-diaries-film-new-trailer-unveils-kenshi-yonezu-theme-song/.243109",
+      "published_at": "2026-10-22T12:29:12Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "062446182a163124cf",
+      "title": "Muv-Luv Alternative's Schwarzesmarken Games Get Steam Release",
+      "category": "Anime",
+      "summary": "Schwarzesmarken Kōketsu no Monshō , Schwarzesmarken Junkyōsha-tachi to launch with planned Japanese, English, Chinese language support",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/muv-luv-alternative-schwarzesmarken-games-get-steam-release/.243107",
+      "published_at": "2026-10-22T12:27:56Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "7c0687f4ca83f9d99c",
+      "title": "Kraftwerk announce two huge UK gigs in run-up to Glastonbury 2027",
+      "category": "Music",
+      "summary": "The electronica icons are playing the outdoor shows just days before the Worthy Farm festival opens its gates The post Kraftwerk announce two huge UK gigs in run-up to Glastonbury 2027 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/kraftwerk-announce-two-huge-uk-gigs-in-run-up-to-glastonbury-2027-buy-tickets-3973836?utm_source=rss&utm_medium=rss&utm_campaign=kraftwerk-announce-two-huge-uk-gigs-in-run-up-to-glastonbury-2027-buy-tickets",
+      "published_at": "2026-10-22T12:11:39Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/kraftwerk@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "5785a31ce8131c7bdb",
+      "title": "The Most Common Ways American Tourists Die Abroad",
+      "category": "Travel",
+      "summary": "Looking at the numbers on what are the biggest reasons why american tourists do not come home from their holidays abroad.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Wolters World · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=KEghXlc48jY",
+      "published_at": "2026-10-22T12:00:34Z",
+      "image_url": "https://i.ytimg.com/vi/KEghXlc48jY/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "KEghXlc48jY",
+      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
+      "topics": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "f900df0742d18f0015",
+      "title": "Resident Evil makers Capcom reveal data breach has affected over 11 million Capcom ID accounts, warn against potential phishing emails",
+      "category": "Gaming",
+      "summary": "Resident Evil , Street Fighter, and Monster Hunter publishers Capcom have revealed that a data breach has seen a third-party gain access to information associated with more than 11 million Capcom ID accounts.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/resident-evil-makers-capcom-reveal-data-breach-has-affected-over-11-million-capcom-id-accounts-warn-against-potential-phishing-emails",
+      "published_at": "2026-10-22T12:00:00Z",
+      "image_url": "https://assetsio.gnwcdn.com/resident-evil-requiem-photo-mode-patch-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "09da65c3645c071b82",
+      "title": "Grandparent hugging consent ad pulled after criticism",
+      "category": "World",
+      "summary": "Jim O'Callaghan described the video as \"inappropriate and demeaning to grandparents\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c83vqn6zwrx0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T11:58:34Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ce2/live/10986490-ce0f-11f1-9f55-cdc56e9c248c.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5a15d51f875615aea5",
+      "title": "Mark Ronson, Jessie Reyez, Jorja Smith and More Celebrate Amy Winehouse for the Musical Genius She Was at ‘Back to Black’ 20th Anniversary Show: Concert Review",
+      "category": "Music",
+      "summary": "At the “Back to Black” 20th anniversary concert in London on Wednesday night, Amy Winehouse’s essence was everywhere. The eager crowd lined up outside was full of winged eyeliner, leopard print, big hair and cigarette smoke; nary a vape in sight.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/global/mark-ronson-amy-winehouse-back-to-black-20-tribute-show-1236919513/",
+      "published_at": "2026-10-22T11:34:37Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Back-To-Black-20-CREDIT_-Samir-Hussein_Universal-Music-Recordings_Amy-Winehouse-Estate-DSC_4212_PqvwW9et.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "b9669c0a9e99f7ac76",
+      "title": "\"We made a very difficult decision\": Australian indie showcase Freeplay reject antisemitism claims after delisting a Jewish sponsor who was allegedly accused of being a \"zionist\"",
+      "category": "Gaming",
+      "summary": "The organisers of Australian independent games showcase Parallels have rejected accusations of \"prejudice\" and say they've received \"violent threats\", after a Jewish developer had her sponsorship of the event refunded. The developer in question is Wren Brier, creative director at Unpacking developers Witch Beam.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Rock Paper Shotgun",
+      "source_url": "https://www.rockpapershotgun.com/we-made-a-very-difficult-decision-australian-indie-showcase-freeplay-reject-antisemitism-claims-after-delisting-a-jewish-sponsor-who-was-allegedly-accused-of-being-a-zionist",
+      "published_at": "2026-10-22T11:30:06Z",
+      "image_url": "https://assetsio.gnwcdn.com/menorah-in-unpacking.png?width=690&quality=85&format=jpg&auto=webp",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "6e1f2eab7b24415a43",
+      "title": "Gyakusatsu Kigen Manga Gets Animated Promotional Video",
+      "category": "Anime",
+      "summary": "Sōma Saitō narrates video storyboarded by My Happy Marriage director Takehiro Kubota",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/gyakusatsu-kigen-manga-gets-animated-promotional-video/.243087",
+      "published_at": "2026-10-22T11:29:03Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "c40e2b1950752d3603",
+      "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
+      "category": "World",
+      "summary": "The U.S. and Israel are planning for a possible post-elections attack on Iran, an anonymous source tells NPR. And, Elon Musk considers merging his companies SpaceX and Tesla.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
+      "published_at": "2026-10-22T11:28:24Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "8332af0e7e6f93e965",
+      "title": "At least four dead after storm brings flooding to southern France",
+      "category": "World",
+      "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T11:23:16Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "c597917ba0ccf076d9",
+      "title": "At least four dead after storm brings flooding to southern France",
+      "category": "Science",
+      "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T11:23:16Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "3fba85fe3ffc05f953",
+      "title": "Watch Mark Ronson, Salaam Remi, Corinne Bailey Rae, Jessie Reyez and more celebrate 20 years of ‘Back To Black’ with Amy Winehouse’s band at London’s Roundhouse",
+      "category": "Music",
+      "summary": "The night also featured performances from FLO, Jorja Smith and more The post Watch Mark Ronson, Salaam Remi, Corinne Bailey Rae, Jessie Reyez and more celebrate 20 years of ‘Back To Black’ with Amy Winehouse’s band at London’s Roundhouse appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse-3973831?utm_source=rss&utm_medium=rss&utm_campaign=watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse",
+      "published_at": "2026-10-22T11:22:06Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/amy-winehouse-roundhouse-gig@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "e9685134f423f62f41",
+      "title": "Bless TV Anime Casts Tarusuke Shingaki; Crunchyroll to Stream Series",
+      "category": "Anime",
+      "summary": "Shingaki voices Hikaru Oya in series debuting in January",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/bless-tv-anime-casts-tarusuke-shingaki-crunchyroll-to-stream-series/.243105",
+      "published_at": "2026-10-22T11:17:25Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "79437be986dbc0204a",
+      "title": "Corgi Always Gets Front-Row Seat To Dolphins Leaping Out Of The Water | The Dodo",
+      "category": "Animals",
+      "summary": "His little butt wiggle says everything about how much he loves these adventures 🥹🐬 For this episode of Ultimate Pet Routine, Dodo editor Tarang shares how Tatiana and her corgi Diamond have made paddleboarding one of their favorite ways to spend time together.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "The Dodo · YouTube",
+      "source_url": "https://www.youtube.com/watch?v=taIaVS4K3b8",
+      "published_at": "2026-10-22T11:00:27Z",
+      "image_url": "https://i.ytimg.com/vi/taIaVS4K3b8/hqdefault.jpg",
+      "media_type": "video",
+      "video_id": "taIaVS4K3b8",
+      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
+      "topics": [
+        "Animals"
+      ]
+    },
+    {
+      "id": "9a58d4718ebc99e864",
+      "title": "Crunchyroll Reveals English Dub Cast, Staff Members, for The World's Strongest Witch Anime",
+      "category": "Anime",
+      "summary": "1st English dub episode streamed on Wednesday",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/crunchyroll-reveals-english-dub-cast-staff-members-for-the-world-strongest-witch-anime/.243103",
+      "published_at": "2026-10-22T10:56:11Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "4c19be633a83de7e3f",
+      "title": "Game Developer enish Announces Is It Wrong to Try to Pick Up Girls in a Dungeon? Frontier Zero Game for Release in 2027",
+      "category": "Anime",
+      "summary": "New game with original story cooperation by creator Fujino Ōmori planned for release on iOS, Android, PC inside, outside Japan",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/game-developer-enish-announces-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-frontier-zero-game-/.243104",
+      "published_at": "2026-10-22T10:35:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "30b7996a06a024e57d",
+      "title": "Two storms in two days as Austen and Boelo target UK",
+      "category": "Science",
+      "summary": "The Met Office has named a new storm, Boelo, which is set to bring another round of stormy weather to the UK over the weekend.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T10:34:17Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2ef/live/525eab10-cdfa-11f1-97f7-a7674fb562de.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
     {
       "id": "63a8b638172bb9fd7e",
       "title": "While EA shuts down BioWare, developers of The Sims, Skate, and Battlefield say they've also lost their jobs",
@@ -20,20 +1499,20 @@
       ]
     },
     {
-      "id": "d385ee4dee43634966",
-      "title": "Two European women held captive for more than a year in Niger freed in Libya",
-      "category": "World",
-      "summary": "The aid workers from Switzerland and Austria are due to fly home on Thursday, reports say.",
+      "id": "d9dcfd2f854a4986ec",
+      "title": "Legendary video game studio BioWare closes after 31 years",
+      "category": "Entertainment",
+      "summary": "The influential studio that made Mass Effect and Dragon Age announces it is closing its doors.",
       "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T10:26:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq8jzrxlkmwmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T10:25:33Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fa8/live/83514c10-cdf9-11f1-9a39-31b474234113.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
       "topics": [
-        "World"
+        "Entertainment"
       ]
     },
     {
@@ -136,23 +1615,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Music"
-      ]
-    },
-    {
-      "id": "30b7996a06a024e57d",
-      "title": "Two storms in two days as Austen and Boelo target UK",
-      "category": "Science",
-      "summary": "The Met Office have named a new storm, Boelo, which is set to bring another round of stormy weather to the UK over the weekend.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T10:05:41Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2ef/live/525eab10-cdfa-11f1-97f7-a7674fb562de.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -374,23 +1836,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Music"
-      ]
-    },
-    {
-      "id": "a06e75767baa8b8eb8",
-      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-      "category": "World",
-      "summary": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T09:14:48Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e3c/live/e7d9d390-cdf5-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
       ]
     },
     {
@@ -667,14 +2112,14 @@
     },
     {
       "id": "f7aa1ab0de491904f0",
-      "title": "Dame Judi Dench: 'I can't do a play, a film or read any more'",
+      "title": "Dame Judi Dench: 'I can't do a play, a film or read anymore'",
       "category": "Entertainment",
-      "summary": "Dame Judi Dench tells BBC Radio 4's Today programme about how her eye condition has affected her life.",
+      "summary": "The actress tells BBC Radio 4's Today programme about how her eye condition has affected her life.",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC Entertainment",
       "source_url": "https://www.bbc.co.uk/news/articles/c6ly09v09lnjo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-22T06:41:29Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef9c/live/78b8e810-cdd8-11f1-a64c-550be9e3c66b.jpg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf0d/live/be73bd80-ce14-11f1-9a39-31b474234113.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -697,6 +2142,23 @@
       "youtube_channel_id": null,
       "topics": [
         "World"
+      ]
+    },
+    {
+      "id": "dfd9e7ca4ff3d609de",
+      "title": "Is the UK set to green-light a huge untapped oil field?",
+      "category": "Science",
+      "summary": "Scotland editor James Cook visits Rosebank - the UK's largest known untapped oilfield - in the North Atlantic.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/videos/cxnv0emj06v1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T06:09:44Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb51/live/794c1ea0-cd9c-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
       ]
     },
     {
@@ -2128,125 +3590,6 @@
       ]
     },
     {
-      "id": "13fd2c2dadb02d7e18",
-      "title": "‘Clayface’ Reviews Roundup: From “a Stroke of Brilliance” to “Messy DC Miss”",
-      "category": "Entertainment",
-      "summary": "Director James Watkins' DC horror film is getting largely positive reviews, though with a fair share of detractors.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-reviews-1236737561/",
-      "published_at": "2026-10-21T20:41:21Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "1617025d2b62e4e1a6",
-      "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
-      "category": "World",
-      "summary": "César Jáuregui Moreno is accused of allowing US agents to join a raid on a suspected drugs lab in April.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T20:19:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0463/live/f6cb33e0-cd86-11f1-b1e7-39558e114359.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "8decd59afac8158f75",
-      "title": "‘La Bola Negra’ Was Personal for Breakout Star Guitarricadelafuente. He’s Still Unpacking Why",
-      "category": "Entertainment",
-      "summary": "The popular Spanish musician makes a beguiling acting debut in the buzzy Oscar contender, and he's already seeing its impact: \"I saw a 16-year-old gay couple holding hands and hugging each other and crying.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/la-bola-negra-guitarricadelafuente-feature-1236737319/",
-      "published_at": "2026-10-21T20:14:47Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "7be4877eda70d2ffce",
-      "title": "Major Skyrim Update Officially Comes to 'Elder Scrolls Online'",
-      "category": "Gaming",
-      "summary": "The Elder Scrolls Online launches Echoes of Skyrim, a new season with free DLC, solo dungeons and rewards for players across all platforms.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/elder-scrolls-online-skyrim-update-free-dlc/",
-      "published_at": "2026-10-21T20:10:26Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/elder-scrolls-online-skyrim-update-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "f8d38ad62454442abb",
-      "title": "Pope does not need further treatment after lung cancer surgery",
-      "category": "World",
-      "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T20:09:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a09d/live/89f335e0-cd88-11f1-b1e7-39558e114359.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "12117027365307a502",
-      "title": "It gives me great nerdly joy that the Next Fest demo on Steam's 100 most-played games list is a shopkeeping sim",
-      "category": "Gaming",
-      "summary": "(Don't worry, you don't need to be a sim geek to dig it.)",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/sim/it-gives-me-great-nerdly-joy-that-the-next-fest-demo-on-steams-100-most-played-games-list-is-a-shopkeeping-sim/",
-      "published_at": "2026-10-21T20:06:33Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/b6AjivCDopGFgjMiSjx5e7-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "bbbc3ce051334741ae",
-      "title": "8 Fallout 4 Replay Ideas to Make the Commonwealth Feel Brand New",
-      "category": "Gaming",
-      "summary": "Hunt animals for a living, take over Nuka-World as a raider warlord, or never leave one settlement",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fallout-4-replay-ideas/",
-      "published_at": "2026-10-21T20:00:17Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/best-open-world-games-reward-exploration-fallout-4.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
       "id": "c0ef019cb3201674d6",
       "title": "Once Human: Isles of Abyss - Official Launch Trailer",
       "category": "Entertainment",
@@ -2264,108 +3607,6 @@
       ]
     },
     {
-      "id": "2860bfe1c96921940b",
-      "title": "Meet the people moving north to escape increasingly hot summers",
-      "category": "World",
-      "summary": "As climate change fuels hotter summers, some Britons are moving north in search of cooler weather. Could a similar shift be on the horizon in the United States?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/21/nx-s1-5977837/climate-uk-usa-housing",
-      "published_at": "2026-10-21T20:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ab8a5419c6627b3d23",
-      "title": "Hunebed D27 in Borger, Netherlands",
-      "category": "Travel",
-      "summary": "Just a short walk from the Hunebedcentrum in Borger stands D27, the largest dolmen in the Netherlands. At over 22 meters (74 feet) long and more than 5,000 years old, this megalithic monument was already ancient when Stonehenge was still centuries away.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Atlas Obscura",
-      "source_url": "https://www.atlasobscura.com/places/hunebed-d27",
-      "published_at": "2026-10-21T20:00:00Z",
-      "image_url": "https://img.atlasobscura.com/kbv0R5Pmq0eyK2LCXn5MPnF9V2cTxwA0vo_pO9w1ZRo/rs:fill:300:200:1/g:ce/c:2793:1862:nowe:663:1762/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9hMDc1/MmMyOC0zM2FhLTQ5/MzQtYWUwZC1mZTIx/Yjg5ZTZmOThhNDU1/MmIyMTA1MDQ2MWU0/NjVfMjAyNTExMDRf/MTIxMjMyLTg4My5q/cGc.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "027836bcc2edc5c16c",
-      "title": "Nao Emoto Launches Manga of Mokuyōbi ni wa Cocoa o Novel",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/nao-emoto-launches-manga-of-mokuyobi-ni-wa-cocoa-o-novel/.243041",
-      "published_at": "2026-10-21T20:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "44bca9be3ce97303d1",
-      "title": "Everyone gets a free ticket to World of Warcraft: Forever today as Blizzard stress tests the servers ahead of launch day",
-      "category": "Gaming",
-      "summary": "Get a taste of what it's like to compete with hundreds of other players to finish a quest.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/world-of-warcraft/everyone-gets-a-free-ticket-to-world-of-warcraft-forever-today-as-blizzard-stress-tests-the-servers-ahead-of-launch-day/",
-      "published_at": "2026-10-21T19:58:36Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/F2Vr74L9EDyrQyczqYRoie-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "47089e7c80e35f9dd2",
-      "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
-      "category": "World",
-      "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T19:58:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3366/live/1968e1a0-cdb3-11f1-b589-dd497fb417ac.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "d24a8fd0336227ea14",
-      "title": "Websites taken down worldwide as critical cyber-security update issued",
-      "category": "World",
-      "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T19:54:57Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
       "id": "f61f8aa7a8714ed8d0",
       "title": "Clayface Review",
       "category": "Entertainment",
@@ -2380,23 +3621,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "33acdf63821cd89851",
-      "title": "Pupils who designed a badge sent to space meet NASA astronaut",
-      "category": "Science",
-      "summary": "Frank Rubio is set to be in the crew for the Artemis III mission and previously spent a year in space.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq78pzl85nglo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T19:39:38Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d0b/live/5a8407f0-cd86-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -2434,142 +3658,6 @@
       ]
     },
     {
-      "id": "524831be2d69b48d04",
-      "title": "‘ComicView: Rooftop Series’ Renewed for Season 2 at BET (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Keep on laughing: BET’s “ComicView” reboot has been renewed for Season 2. BET has ordered 20 more episodes of the revived stand-up franchise, which premiered in June as “ComicView: Rooftop Series.” Chris “CP” Powell returns as host of the program, which will see 60 comedians performing on a Hollywood rooftop.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/comicview-rooftop-series-renewed-season-2-bet-1236918801/",
-      "published_at": "2026-10-21T19:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/3207245_BET_ComicView_RooftopSeries_S1_-0468bc-e1792595398349.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "50f580ef54ee79e468",
-      "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
-      "category": "World",
-      "summary": "The wife of a diplomat based in Abuja travelled to Kampala for a vacation.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T19:29:40Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bc3/live/125ed250-cd83-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ab6eaaf716a746d521",
-      "title": "Poison Ivy DC Series in the Works at HBO With ‘The Penguin’ Exec Lauren LeFranc",
-      "category": "Entertainment",
-      "summary": "Another Batman villain may be getting their own TV series. A Poison Ivy TV show is in the works at HBO with “The Penguin” showrunner Lauren LeFranc as a producer, Variety has confirmed.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/poison-ivy-tv-show-hbo-dc-penguin-1236919156/",
-      "published_at": "2026-10-21T19:24:59Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/poison-ivy-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "ef233b995f4eb4ec92",
-      "title": "'Fallout 4' Is Officially Making A Comeback A Decade After Release",
-      "category": "Gaming",
-      "summary": "Bethesda is presenting a handful of new post-apocalyptic RPG experiences for Fallout 4 while fans wait for The Elder Scrolls 6",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fallout-4-dlc-expansion-fever-dreams-fathomless-command-overdrive-what-are/",
-      "published_at": "2026-10-21T19:23:32Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19753782/Screen_Shot_2020_02_28_at_10.14.59_AM.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "66b77ee5e3183b94af",
-      "title": "Anna Marsh on How Canal+ Group’s M&A Activity Helps ‘Challenge the Status Quo’ and Why ‘There’s Just No Room for Error’ in Fast-Moving Business",
-      "category": "Entertainment",
-      "summary": "After a busy year that’s seen the Canal+ Group complete a wave of acquisitions across two continents, Anna Marsh, the CEO of Studiocanal and the deputy CEO and chief content officer for Canal+, insisted such moves have been instrumental in strengthening the position of the French media giant at a time of unprecedented industry…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/canal-anna-marsh-acquisitions-challenge-status-quo-1236919006/",
-      "published_at": "2026-10-21T19:17:41Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/12/Anna-Marsh_-c-Benjamin-Decoin-CANAL-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "09034a7ac1d65566b2",
-      "title": "Diablo: Unbound Officially Announced for 2027 Release",
-      "category": "Gaming",
-      "summary": "Blizzard Entertainment and Glass Cannon Unplugged reveal Diablo: Unbound, a new dungeon battler board game, as part of Spiel Essen 2026.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/diablo-unbound-announcement-blizzard-glass-cannon-games/",
-      "published_at": "2026-10-21T19:14:05Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/diablo-unbound-cover.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "3eaeaaffd163a898ed",
-      "title": "Brandi Carlile to Receive Humanitarian Honor at National Arts & Entertainment Journalism Awards",
-      "category": "Music",
-      "summary": "Brandi Carlile will be the recipient of the Los Angeles Press Club’s annual Visionary Award for Humanitarian Work, to be given out at the National Arts and Entertainment Journalism Awards Gala in December, the organization has announced. Carlile’s honor will be part of the dinner and awards show that takes place Dec.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/brandi-carlile-humanitarian-honor-los-angeles-press-club-1236919076/",
-      "published_at": "2026-10-21T19:10:12Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300068004-e1792607357672.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "f658370ca130b1f09f",
-      "title": "Kenan Thompson Says Shane Gillis ‘SNL’ Monologue Backlash ‘Overshadowed’ the Episode and ‘We Would Have to Have a Real Chat’ If He Hosts Again",
-      "category": "Entertainment",
-      "summary": "“Saturday Night Live” veteran Kenan Thompson weighed in on Shane Gillis’ controversial monologue, which sparked social media outrage due to a joke about women dressing like “whores” at the gym. “I know Shane, and I don’t know him to be a mean person, necessarily,” Thompson said at the Axios Media Trends Live summit. “But if […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/kenan-thompson-shane-gillis-snl-monologue-1236919039/",
-      "published_at": "2026-10-21T19:07:29Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-15.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "4a62ffe20cbd2d8275",
       "title": "Warhammer 40,000: Dawn of War 4 - Official Game Overview Trailer",
       "category": "Gaming",
@@ -2604,346 +3692,6 @@
       ]
     },
     {
-      "id": "cb2ed501f383ee4530",
-      "title": "Rin Shimokawa's 'Godmother' Manga from Young Magazine US Starts Seralization on November 18",
-      "category": "Anime",
-      "summary": "Original 1-shot debuted in special Young Magazine US English issue",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/rin-shimokawa-godmother-manga-from-young-magazine-us-starts-seralization-on-november-18/.243046",
-      "published_at": "2026-10-21T19:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "9c4675e163bb491f50",
-      "title": "California Tried to Jumpstart the Film Economy. Production Keeps Falling.",
-      "category": "Entertainment",
-      "summary": "California’s $750 million bet on Hollywood has not reversed the overall decline in production, according to data released Wednesday by FilmLA. Instead, production levels fell 3.7% in the third quarter — even as the share of projects receiving state subsidies continued to rise.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/california-film-credit-filmla-report-q3-1236918175/",
-      "published_at": "2026-10-21T19:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/05/GettyImages-1971567915.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b1794d9fed9f960cb0",
-      "title": "‘Clayface’ Review: DC Comics Horror Movie Is Good, Gross Fun, With No Franchise Homework Required",
-      "category": "Entertainment",
-      "summary": "We are now three movies into the so-called DC Universe — branding that so far doesn’t appear to have cut through to any but the most devoted of nerds. Last year’s “Superman” reboot was respectable enough, this summer’s “Supergirl” a bit less so, but the prospect of a larger story world connecting them hardly sets […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/clayface-review-1236918659/",
-      "published_at": "2026-10-21T19:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDCLAY_WB009-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "12c400ae17b1cd87c9",
-      "title": "Tom Cruise to Be Honored With AFI Life Achievement Award in 2027",
-      "category": "Entertainment",
-      "summary": "Tom Cruise has been selected to receive the 52nd AFI Life Achievement Award. The American Film Institute will honor him at a gala tribute at the Dolby Theater in Hollywood on April 24, 2027. Considered the highest honor for a career in film, the AFI Life Achievement Award is given to a single honoree each […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/tom-cruise-afi-life-achievement-award-2027-1236919013/",
-      "published_at": "2026-10-21T19:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/P105JBB5.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "aa004513f8888fd693",
-      "title": "‘Chicago Med’ Season 12 Premiere Hits 8.8 Million Viewers in Seven Days as Dick Wolf’s One Chicago Franchise Leads NBC Lineup (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Dick Wolf’s One Chicago franchise — comprised of “Chicago Med,” “Chicago Fire” and “Chicago P.D.” — returned to NBC on Oct. 7 with a bang, ranking as NBC’s top three shows of the season thus far when accounting for seven days of viewership. “Chicago Med” led the pack, reaching 8.8 million viewers across all platforms in […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/chicago-med-season-12-premiere-ratings-1236918818/",
-      "published_at": "2026-10-21T19:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/NUP_211437_01322.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "624ff56c2688a0bbc0",
-      "title": "California Tried to Jumpstart the Film Economy. Production Keeps Falling.",
-      "category": "Entertainment",
-      "summary": "California’s $750 million bet on Hollywood has not reversed the overall decline in production, according to data released Wednesday by FilmLA. Instead, production levels fell 3.7% in the third quarter — even as the share of projects receiving state subsidies continued to rise.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/news/california-film-credit-filmla-report-q3-1236918175/",
-      "published_at": "2026-10-21T19:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/05/GettyImages-1971567915.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5a003bff98a02382d6",
-      "title": "Will ‘You Can See Everything’ Beat DC’s ‘Clayface’ at the Box Office?",
-      "category": "Entertainment",
-      "summary": "Just a week ago, “Clayface” was expected to easily top the box office, with opening weekend projections of $25 million to $35 million from 3,400 North American theaters. (Rivals suggest a slightly softer debut around $22 million to $28 million). Now, Warner Bros.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/box-office/you-can-see-everything-could-beat-clayface-box-office-1236917465/",
-      "published_at": "2026-10-21T18:54:08Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDCLAY_WB019.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "d87658b7490d2bc40f",
-      "title": "Fixer in Hollywood Smear Machine Scandal Spoke of Other Clients: Elon Musk, Jake and Logan Paul",
-      "category": "Entertainment",
-      "summary": "Jed Wallace, who's now fighting several legal cases, privately boasted to a billionaire customer that his roster included “world leaders, celebrities, diplomats, high-profile individuals,” explaining, “I have to pick and choose who the fuck I work with.”",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/business/business-news/hoolywood-fixers-clients-elon-musk-smear-machine-1236737401/",
-      "published_at": "2026-10-21T18:45:48Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "b6a5decbaef7c66645",
-      "title": "With BioWare dead, EA lays out its 'next chapter,' and it's pretty much as predicted: Guns and football are fine, and everything else is under the microscope",
-      "category": "Gaming",
-      "summary": "The changes predicted when Saudi Arabia's PIF bought Electronic Arts are coming true.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/gaming-industry/with-bioware-dead-ea-lays-out-its-next-chapter-and-its-pretty-much-as-predicted-guns-and-football-are-fine-and-everything-else-is-under-the-microscope/",
-      "published_at": "2026-10-21T18:41:11Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/o9tP4wjvnzfaShCeWxMMZH-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "de26bfa2864633a7a6",
-      "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
-      "category": "Science",
-      "summary": "Interstellar probes. Lunar drones. Helicopters on Mars. When a group of Caltech graduate students and enthusiasts began conducting rocket-propulsion tests in Pasadena’s Arroyo Seco on Oct. 31, 1936, they had no idea that their work marked the inception of the Jet Propulsion Laboratory.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
-      "published_at": "2026-10-21T18:35:56Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "88d010cab8eb261fce",
-      "title": "Tanner Buchanan, Peyton Elizabeth Lee to Star in ‘Gasoline’ From ‘SLC Punk!’ Director James Merendino (Exclusive)",
-      "category": "Entertainment",
-      "summary": "Elliott Fullam, Finn Douglas and Oscar O'Meara round out the cast for the feature set in the world of 1990s punk rock.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/tanner-buchanan-peyton-elizabeth-lee-to-star-in-gasoline-1236736936/",
-      "published_at": "2026-10-21T18:33:43Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "853573d5257a659da0",
-      "title": "‘Fourth Wing’ Author Rebecca Yarros Praises Violet and Xaden TV Casting; Amazon Confirms Esther McGregor, Emilio Sakraya",
-      "category": "Entertainment",
-      "summary": "“Fourth Wing” author Rebecca Yarros and Amazon’s Prime Video have confirmed last week’s report that the TV adaptation of her bestselling romantasy series had found its leads in Esther McGregor as Violet Sorrengail and Emilio Sakraya as Xaden Riorson.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/fourth-wing-rebecca-yarros-violet-xaden-casting-amazon-1236919071/",
-      "published_at": "2026-10-21T18:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Esther-McGregor-and-Emilio-Sakraya.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "c6c0932dd446d5c3ca",
-      "title": "Fuel leak which killed fish in River Taff stopped",
-      "category": "Science",
-      "summary": "GE Aerospace previously confirmed fuel got into the river while repair work took place nearby.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6y8lvxzp59vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T18:28:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/996f/live/00f5b420-cae5-11f1-9a04-8f1bfcd98c61.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "cb5af6471c7edad749",
-      "title": "Stranger Than Heaven Lead Says the Game Is More Serious Than Past Yakuza Games",
-      "category": "Gaming",
-      "summary": "Stranger Than Heaven director Mikinobu Abe told Polygon the team was more interested in telling a serious story \"rather than actively pursuing comedy\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/stranger-than-heaven-director-comedy-funny/",
-      "published_at": "2026-10-21T18:27:20Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/screenshot-2026-05-06-at-3-53-56-pm.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "3e755e1be94d3ee390",
-      "title": "India 'cockroach' leaders who called on election chief to quit are freed from jail",
-      "category": "World",
-      "summary": "Saurav Das and Ashutosh Ranka were accused of breaking into an unauthorised protest venue in Delhi.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c674p0xepljeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T18:22:28Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c4c/live/6c343880-cd77-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "ccbb167276b873f926",
-      "title": "Sequel to Egyptian Hit ‘Sleepless Nights’ Eyes 2027 Shoot as New Details Revealed (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "“Sleepless Nights 2,” the follow-up to the 2003 relationship drama that became a landmark of contemporary Egyptian cinema, is targeting an April or May 2027 shoot, Variety has exclusively learned.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/sleepless-nights-2-2027-shoot-tamer-habib-karim-el-shenawy-1236918999/",
-      "published_at": "2026-10-21T18:21:39Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Sleepless-Nights-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "3463d68b21c7dc4b4b",
-      "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
-      "category": "World",
-      "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T18:10:42Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce68/live/40f9c020-cd60-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "a50dc1686ea49d2856",
-      "title": "‘Wicker’ Is Less Explicit Than You May Be Expecting: “This Is a Movie to Watch With Your Mom”",
-      "category": "Entertainment",
-      "summary": "\"Our heads are much dirtier than what's on camera,\" says Olivia Colman, who stars alongside Alexander Skarsgård in a romance between a fisherwoman and her wicker husband.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/wicker-less-explicit-expecting-watch-with-mom-1236737392/",
-      "published_at": "2026-10-21T18:05:54Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "7af6021a198e14e86e",
-      "title": "Todd Haynes’ ‘De Noche’ Mexican Co-Producer Península Boards Pimienta Films’ Stop-Motion ‘Insectario’ by Sofia Carrillo (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Mexican production company Península Films & Entertainment has boarded “Insectario,” the debut feature of stop-motion animation wunderkind Sofía Carrillo (“Cerulia”).",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/todd-haynes-de-noche-peninsula-insectario-sofia-carrillo-1236916667/",
-      "published_at": "2026-10-21T18:04:16Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/PHOTO-2026-10-20-16-09-04.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "ae6b7489d392c906e4",
-      "title": "Todd Haynes’ ‘De Noche’ Mexican Co-Producer Península Boards Pimienta Films’ Stop-Motion ‘Insectario’ by Sofia Carrillo (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Mexican production company Península Films & Entertainment has boarded “Insectario,” the debut feature of stop-motion animation wunderkind Sofía Carrillo (“Cerulia”).",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/global/todd-haynes-de-noche-peninsula-insectario-sofia-carrillo-1236916667/",
-      "published_at": "2026-10-21T18:04:16Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/PHOTO-2026-10-20-16-09-04.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "aba6a84f0133d079fa",
       "title": "The Best Upgrades for Each Vehicle - Star Wars: Galactic Racer",
       "category": "Entertainment",
@@ -2958,57 +3706,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "e654a9e10e5c423adf",
-      "title": "Grotta Tanaccia in San Marino, San Marino",
-      "category": "Travel",
-      "summary": "Grotta Tanaccia is an ancient rock niche on the edge of Monte Titano, located just outside the city walls near Montale Tower.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Atlas Obscura",
-      "source_url": "https://www.atlasobscura.com/places/grotta-tanaccia",
-      "published_at": "2026-10-21T18:00:00Z",
-      "image_url": "https://img.atlasobscura.com/3Ur2RCCMXpNqzhJAfJoW1LlulJnHmQkt27CMV95nUpE/rs:fill:300:200:1/g:ce/c:3000:2000:nowe:0:990/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9lMTc5/YWJjMi02NzBhLTRl/MzctYjI1YS1jMGI5/Mjk0ZjQ5Zjk3ODJk/MGJjZDU3YWVjYWMy/NWVfNTY4NDIuanBn.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "45e5da2b253412cef2",
-      "title": "Kid Cudi to Star as Jean-Michel Basquiat in Self-Written and Directed Film ‘Jean’",
-      "category": "Entertainment",
-      "summary": "Kid Cudi has announced that he will star as famed artist Jean-Michel Basquiat in “Jean,” a film that he also wrote and directed. The musician made the announcement on social media, posting images of himself in character and revealing that the film will begin shooting in 2027. “For years people have asked me about playing […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/kid-cudi-to-star-jean-michel-basquiat-film-1236919008/",
-      "published_at": "2026-10-21T17:53:55Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/05/Kid-Cudi.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "4b48c54709c9108616",
-      "title": "Kid Cudi to Star as Jean-Michel Basquiat in Self-Written and Directed Film ‘Jean’",
-      "category": "Music",
-      "summary": "Kid Cudi has announced that he will star as famed artist Jean-Michel Basquiat in “Jean,” a film that he also wrote and directed. The musician made the announcement on social media, posting images of himself in character and revealing that the film will begin shooting in 2027. “For years people have asked me about playing […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/film/news/kid-cudi-to-star-jean-michel-basquiat-film-1236919008/",
-      "published_at": "2026-10-21T17:53:55Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/05/Kid-Cudi.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -3029,57 +3726,6 @@
       ]
     },
     {
-      "id": "a00ede67728611d9ce",
-      "title": "Neon Partners With ‘NAZA’ Filmmakers, Guardian and MK2 to Bring Prize-Winning Doc to Wider Audiences",
-      "category": "Entertainment",
-      "summary": "Neon has joined with The Guardian, MK2, James Wilson and Jonathan Glazer to bring “NAZA” to wider audiences and expand the footprint of the Venice prize-winning documentary. In the U.S., “NAZA” was originally released independently on Sept. 30 in 85 theaters across 30 cities, and has grossed more than $700,000.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/neon-naza-wider-audiences-1236918907/",
-      "published_at": "2026-10-21T17:45:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/NAZA-Still-Low-res-C-The-Guardian.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "68633013be314f1be1",
-      "title": "Ruth Bradley Spills the Tea on That ‘Slow Horses’ Season 6 Finale",
-      "category": "Entertainment",
-      "summary": "In a spoiler-filled interview, the actress delves into Emma Flyte’s journey to becoming her “genuine self,” including her virtuoso performance in episode six.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/tv/tv-features/slow-horses-season-six-finale-ruth-bradley-interview-1236733455/",
-      "published_at": "2026-10-21T17:39:15Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "aa9be4563511bd71d9",
-      "title": "Radio presenter's 'wobbles' over Children in Need cycling challenge",
-      "category": "Entertainment",
-      "summary": "Owain Wyn Evans says the 400-mile challenge doesn't \"feel like a thing I'm able to do\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cwrkylee5px0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T17:38:04Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b21/live/61890410-b9b3-11f1-929f-f1f9c2e672cb.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "7f70ececa9d9cfc7fc",
       "title": "The Lord of the Rings: The Rings of Power Season 3 - Official Trailer (2026)",
       "category": "Entertainment",
@@ -3094,278 +3740,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "59bf5dca4d46e4fff1",
-      "title": "‘The Holiday’ Returning to Theaters for 20th Anniversary",
-      "category": "Entertainment",
-      "summary": "‘Tis the season! “The Holiday” is returning to theaters on Dec. 11 to celebrate the romantic comedy’s 20th anniversary. Starring Cameron Diaz, Jude Law, Kate Winslet and Jack Black, the official logline for the 2006 holiday classic reads: “Iris (Winslet) is in love with a man who is about to marry another woman. Across the […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/the-holiday-returns-theaters-anniversary-1236918954/",
-      "published_at": "2026-10-21T17:34:18Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/01/MCDHOLI_EC017-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "547619e37c0f1e6c35",
-      "title": "Ron Funches Sets Stand-Up Special ‘Eat Cookies & Die’ at Gorilla Comedy+ (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Ron Funches is back with another stand-up comedy special. The comic, actor and fan-favorite from “The Traitors” will debut his new hour, “Eat Cookies & Die,” on the indie comedy streamer Gorilla Comedy+ on Nov. 2. The special will then launch on YouTube on Dec. 1. Funches is in “top form” in “Eat Cookies & […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/ron-funches-comedy-special-eat-cookies-die-1236918020/",
-      "published_at": "2026-10-21T17:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/ronn-e1792529756833.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "dcee987769b28a958e",
-      "title": "Oops! How Danny Trejo Accidentally Made a Pro-ICE Movie",
-      "category": "Entertainment",
-      "summary": "The 82-year-old Mexican American icon unwittingly stepped on a Ben Shapiro culture-war land mine. Here’s what happened",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/danny-trejo-pro-ice-movie-1236736848/",
-      "published_at": "2026-10-21T17:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "e858bbad3f1229deb2",
-      "title": "Is John Travolta Writing a Memoir (Again)?",
-      "category": "Entertainment",
-      "summary": "Rumor has it the 72-year-old star is contemplating an autobiography. But what happened to his never-published first one?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/lifestyle/arts/john-travolta-another-memoir-1236736852/",
-      "published_at": "2026-10-21T17:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "9eaeb12c04f8faf91a",
-      "title": "Amanda Seyfried Would Rather Talk About Emus",
-      "category": "Entertainment",
-      "summary": "The 'Dropout' actress is feeling a bit tongue-tied on red carpets these days — but not for the reasons the internet thinks",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/amanda-seyfried-emus-divorce-holmes-gala-1236736854/",
-      "published_at": "2026-10-21T17:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "868cdcb2b9222188c5",
-      "title": "J.K. Rowling Claims Trans Activism in the 21st Century Is ‘Elitist,’ Pens Essay Defending Her Views: They ‘Haven’t Changed’ Despite ‘Death, Rape and Torture Threats’",
-      "category": "Entertainment",
-      "summary": "J.K. Rowling has written a new essay about her political views, noting they have not changed despite the harassment and death threats she has received. “It’s been six years since I wrote my essay explaining why I chose to speak up on the issue of trans activism and the risk I believe it poses to […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/jk-rowling-defends-trans-views-essay-activism-elitist-1236918835/",
-      "published_at": "2026-10-21T17:29:42Z",
-      "image_url": "https://variety.com/wp-content/uploads/2023/04/JK-Rowling.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "499c95b1082cdc9228",
-      "title": "Jesse Eisenberg’s ‘The Debut’ Wins Middleburg Film Festival Audience Award",
-      "category": "Entertainment",
-      "summary": "Jesse Eisenberg’s “The Debut” snagged the top prize at the Middleburg Film Festival, which ran Oct. 15-18. Starring Julianne Moore, Eisenberg’s third directorial outing won the audience award at the Virginia festival, which held its 14th edition over the weekend.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/the-debut-middleburg-film-festival-audience-award-1236918937/",
-      "published_at": "2026-10-21T17:25:33Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/09/Julianne-Moore-1-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6de07041aa61b54e99",
-      "title": "Variety’s 10 Screenwriters to Watch on Finding Inspiration in Unlikely Places: ‘You Don’t Have to Just Cite Poetry; You Can Cite a TikTok Account’",
-      "category": "Entertainment",
-      "summary": "Inspiration for a great storyline can come from anywhere — whether that be a classic work of literature or a great pop song. It’s become somewhat of a bit for “Blue Film” writer-director Elliott Tuttle to include a reference to Lana Del Rey’s music in his screenplays. He’d written three (as yet unproduced) screenplays before […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/variety-events/10-screenwriters-to-watch-santa-fe-1236918121/",
-      "published_at": "2026-10-21T17:24:07Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenwriters_Panel-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "24e090d8fae05cdfd6",
-      "title": "Variety’s 10 Screenwriters to Watch on Finding Inspiration in Unlikely Places: ‘You Don’t Have to Just Cite Poetry; You Can Cite a TikTok Account’",
-      "category": "Entertainment",
-      "summary": "Inspiration for a great storyline can come from anywhere — whether that be a classic work of literature or a great pop song. It’s become somewhat of a bit for “Blue Film” writer-director Elliott Tuttle to include a reference to Lana Del Rey’s music in his screenplays. He’d written three (as yet unproduced) screenplays before […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/variety-events/10-screenwriters-to-watch-santa-fe-1236918121/",
-      "published_at": "2026-10-21T17:24:07Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Screenwriters_Panel-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "690f21a2c45268169e",
-      "title": "BioWare Officially Shutting Down and New Mass Effect Canceled",
-      "category": "Gaming",
-      "summary": "Electronic Arts is shutting down Mass Effect and Dragon Age studio BioWare amid mass layoffs at the Madden and Battlefield publisher.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/ea-bioware-closure-mass-efffect-5-canceled/",
-      "published_at": "2026-10-21T17:23:18Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/11/mass-effect-space-opera-games-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "cf0ff098e9b855c1fc",
-      "title": "Lea Michele Returning for ‘Glee’ Reboot as Rachel Berry (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "You can’t rain on her parade. Lea Michele is returning to the role that launched her career in Disney+ and Hulu’s reboot of “Glee,” the Ryan Murphy-created musical dramedy series. Variety has confirmed the news with multiple sources. “She’s in,” one source said.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/lea-michele-glee-reboot-rachel-berry-1236918870/",
-      "published_at": "2026-10-21T17:22:59Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/TCDGLE2_EC010.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "7eabc0ce009bbebeaa",
-      "title": "One Piece Grand Gourmet: A Simulated Feast Game Review",
-      "category": "Anime",
-      "summary": "When you hear One Piece , I bet you think “retro-themed restaurant simulator RPG,” right? No? Well, maybe you should!",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/game/nintendo-switch-nintendo-switch-2-pc-via-steam-ios-and-android/one-piece-grand-gourmet/a-simulated-/.242984",
-      "published_at": "2026-10-21T17:17:47Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "b50cc9460b5b5836aa",
-      "title": "RIP BioWare: EA has shut down the legendary RPG developer",
-      "category": "Gaming",
-      "summary": "Bloomberg also reports that EA is cutting \"around 400 jobs\" across the company.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/",
-      "published_at": "2026-10-21T17:16:53Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/vj466ettjps3vrm8mMDeQe-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "565c773efeac5bcdb4",
-      "title": "NBC Developing New ‘Coach’ Series With ‘Modern Family’ Star Ty Burrell",
-      "category": "Entertainment",
-      "summary": "Ty Burrell is developing a new take on the hit 1990s sitcom “Coach,” along with writers/exec producers Matthew Libman and Daniel Libman (“Happy Endings,” “Mr. Throwback”). The reboot is being eyed as a starring vehicle for Burrell should it go to series, but that hasn’t yet been determined. For now, Burrell is attached as an […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/nbc-coach-series-modern-family-ty-burrell-1236918910/",
-      "published_at": "2026-10-21T17:15:25Z",
-      "image_url": "https://variety.com/wp-content/uploads/2024/03/GettyImages-633064770-e1710436467350.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "ef0242ec3fc1712d0e",
-      "title": "PC gamers can finally play a beloved 2010 PS3 masterpiece",
-      "category": "Gaming",
-      "summary": "A new fan port of God of War 3 finally allows it to run natively on Windows PCs.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/god-of-war-3-fan-pc-port/",
-      "published_at": "2026-10-21T17:01:17Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/13430391/jbareham_181107_ply0818_0156.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "666843f9c8116f5452",
-      "title": "The 15 Best Steam Next Fest Demos to Play Right Now",
-      "category": "Gaming",
-      "summary": "Steam Next Fest is back again, and it features tons of free demos for some promising upcoming games.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/steam-next-fest-demos-best-october-2026/",
-      "published_at": "2026-10-21T17:00:56Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/dumpster-gang-raccoon-group.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -3400,159 +3774,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "a318a462d03b8679bd",
-      "title": "Interview: Adding a New Ending to STEINS;GATE",
-      "category": "Anime",
-      "summary": "STEINS;GATE RE:BOOT Producer Tatsuya Matsubara and Scenario Writer Naotaka Hayashi speak on the game's new ending, it's origins, and other potential additions they decided not to pursue.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/interview/2026-10-21/adding-a-new-ending-to-steins-gate/.242400",
-      "published_at": "2026-10-21T17:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "24213588455babc752",
-      "title": "Family of prison officer killed by IRA receives state apology",
-      "category": "World",
-      "summary": "Brian Stack was crossing a street in Dublin in 1983 when he was shot in the back of the neck and died 18 months later.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T16:58:16Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef0/live/3613e220-cd70-11f1-bbdb-c39c91930f26.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "750b21968536018297",
-      "title": "How Jackdaw ignites row over climate and costs",
-      "category": "Science",
-      "summary": "The UK government approves production from Jackdaw amid intense debate about the project's environmental and economic impact.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/videos/c65ynpx07djvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T16:51:10Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32db/live/1ada51f0-cd71-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "82565f717abc00e7ba",
-      "title": "Nearly $1 million worth of PSA-graded Pokémon and other trading cards have been stolen right outside PSA's headquarters",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/gaming-industry/nearly-usd1-million-worth-of-psa-graded-pokemon-and-other-tcg-have-been-stolen-right-outside-psas-headquarters/",
-      "published_at": "2026-10-21T16:41:42Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/T2hE4VLdRKyxeomMjRTG4Z-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "64f1301cb70dfe633a",
-      "title": "'Cyberpunk 2077' is getting a huge new co-op mod",
-      "category": "Gaming",
-      "summary": "'Cyberpunk 2077' is getting a new co-op mod this week that lets up to eight players team up.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/cyberpunk-2077-co-op-mod-nightcoop/",
-      "published_at": "2026-10-21T16:38:08Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/judy-evelyn-cyberpunk.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "022b7674de93ca59e8",
-      "title": "Magic Knight Rayearth, Sasaki and Peeps 2nd Season Anime Reveal English Dub Debuts, Casts",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/magic-knight-rayearth-sasaki-and-peeps-2nd-season-anime-reveal-english-dub-debuts-casts/.243074",
-      "published_at": "2026-10-21T16:31:44Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "ecb118474a8a9f18a5",
-      "title": "NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama",
-      "category": "Science",
-      "summary": "As part of the agency’s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/",
-      "published_at": "2026-10-21T16:31:11Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "4985fa6c5295711fb3",
-      "title": "New 'Pokémon' Release Reinvents The Series' Most Hated Monster Type",
-      "category": "Gaming",
-      "summary": "Despite beloved monsters like Butterfree and Heracross, Game Freak has struggled with this Pokémon type for 30 years now",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/pokemon-game-release-buglime-what-is-rom-hack-type/",
-      "published_at": "2026-10-21T16:24:37Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/72-butterfree.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "8dba11547a110a94fb",
-      "title": "GOG taken offline for maintenance in wake of PHP security emergency",
-      "category": "Gaming",
-      "summary": "GOG and GOG Galaxy were taken offline following news of critical web vulnerabilities.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/software/security/gog-taken-offline-for-maintenance-in-wake-of-php-security-emergency/",
-      "published_at": "2026-10-21T16:20:08Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/M94SPZyBgjgWeUgfavg5b4-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -5559,227 +5780,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "1237febb17fb9bc022",
-      "title": "David Dastmalchian: Raúl Juliá's M. Bison in Street Fighter Is The Best Video Game Movie Performance",
-      "category": "Gaming",
-      "summary": "Watch the full interview: https://youtu.be/bFcsh7RLtOg 1994's Street Fighter was one of the first-ever video game adaptations, and David Dastmalchian thinks that the performance of the late Raúl Juliá, his M. Bison forerunner, still hasn't been beaten.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=VkeW_6h_FE4",
-      "published_at": "2026-10-17T13:15:23Z",
-      "image_url": "https://i.ytimg.com/vi/VkeW_6h_FE4/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "VkeW_6h_FE4",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "c6e31a3dc856443c6c",
-      "title": "Lonely Blind Horse Finds A Best Friend In A Gentle Giant | The Dodo",
-      "category": "Animals",
-      "summary": "Jake needed a home. Violet needed a friend. The moment this gentle giant arrived, they chose each other ❤️ Violet had been struggling without a horse companion when Melissa at Twilight Springs Horse Sanctuary welcomed Jake, a gentle giant who needed a home.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "The Dodo · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=uWo5fdR-qJ8",
-      "published_at": "2026-10-17T13:00:35Z",
-      "image_url": "https://i.ytimg.com/vi/uWo5fdR-qJ8/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "uWo5fdR-qJ8",
-      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
-      "topics": [
-        "Animals"
-      ]
-    },
-    {
-      "id": "279b1f9d56b14703ca",
-      "title": "Rick Steves' Europe's Cameron Hewitt's Best Travel Advice - Honest Travel Podcast",
-      "category": "Travel",
-      "summary": "This month's Honest Travel Podcast has a special guest, travel guide book author and world traveler Cameron Hewitt who you may know from his numerous co-authorships on various Rick Steve's Europe books.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Wolters World · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=a-CnHPsYiR0",
-      "published_at": "2026-10-17T12:00:15Z",
-      "image_url": "https://i.ytimg.com/vi/a-CnHPsYiR0/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "a-CnHPsYiR0",
-      "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
-      "topics": [
-        "Travel"
-      ]
-    },
-    {
-      "id": "f0813a865db9a1fe5f",
-      "title": "Parents Catch Their Little Girl Befriending A Giant Slug In The Forest | The Dodo",
-      "category": "Animals",
-      "summary": "She talks to every little creature she meets like they’re already old friends 🥹 Atlis has a habit of turning every walk through the woods into a chance to make a new tiny friend.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "The Dodo · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=GCwK5NbdUEw",
-      "published_at": "2026-10-17T11:00:03Z",
-      "image_url": "https://i.ytimg.com/vi/GCwK5NbdUEw/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "GCwK5NbdUEw",
-      "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
-      "topics": [
-        "Animals"
-      ]
-    },
-    {
-      "id": "22edf844d51e8b7d93",
-      "title": "Nathan Fielder & Lance Oppenheim's You Can See Everything is a 10/10 Masterpiece. #ign #review #doc",
-      "category": "Entertainment",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=Vkg33lhGkps",
-      "published_at": "2026-10-17T00:25:28Z",
-      "image_url": "https://i.ytimg.com/vi/Vkg33lhGkps/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "Vkg33lhGkps",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "d1893daf0189d55830",
-      "title": "Would you want to see a Street Fighter x Mortal Kombat crossover? #streetfighter #movie #gaming #ign",
-      "category": "Gaming",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=wBIfhEsctJQ",
-      "published_at": "2026-10-17T00:08:32Z",
-      "image_url": "https://i.ytimg.com/vi/wBIfhEsctJQ/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "wBIfhEsctJQ",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "76d4e66869c059360c",
-      "title": "Castlevania: Belmont’s Curse - How to Fast Travel",
-      "category": "Entertainment",
-      "summary": "Castlevania: Belmont’s Curse has a big map, stretching all across Paris and Dracula’s castle. The good news is that you don’t have to hoof it every time you want to jump between areas. Belmont’s Curse has two methods of fast travel: one comes as part of the story, while the other is a secret.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=PkW8jOylSBM",
-      "published_at": "2026-10-17T00:00:22Z",
-      "image_url": "https://i.ytimg.com/vi/PkW8jOylSBM/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "PkW8jOylSBM",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "51a16f90cf1ec3980e",
-      "title": "Apple and Nintendo have made a Pokémon Beats Pill featuring Pikachu and Mimikyu! #unboxing #pokemon",
-      "category": "Gaming",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=Ai_ZY8Sy7wg",
-      "published_at": "2026-10-16T23:44:44Z",
-      "image_url": "https://i.ytimg.com/vi/Ai_ZY8Sy7wg/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "Ai_ZY8Sy7wg",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "9d949e152212754a6c",
-      "title": "BLEACH: Thousand-Year Blood War Final Part The Calamity - Official Last Trailer",
-      "category": "Entertainment",
-      "summary": "The final battle is almost here. Check out the last trailer for BLEACH: Thousand-Year Blood War Final Part The Calamity. Watch the final English subbed episodes of BLEACH: Thousand-Year Blood War – The Calamity on 10/19 at 8:30AM PT (Ep 49), and 10/26 at 8:30am PT (Ep 50). #IGN #Anime @vizmedia",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=yLHE1RmEg-Y",
-      "published_at": "2026-10-16T23:36:13Z",
-      "image_url": "https://i.ytimg.com/vi/yLHE1RmEg-Y/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "yLHE1RmEg-Y",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "015a6ff378c218be1d",
-      "title": "Tesla CEO Elon Musk showed off a car that he claims can fly... #tesla #flying #car #elonmusk #gaming",
-      "category": "Gaming",
-      "summary": "Subscribe to IGN for more! http://www.youtube.com/user/IGNentertainment?sub_confirmation=1 #IGN",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=FDHpYqmR-RA",
-      "published_at": "2026-10-16T23:12:43Z",
-      "image_url": "https://i.ytimg.com/vi/FDHpYqmR-RA/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "FDHpYqmR-RA",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "165539bdf739aa00dd",
-      "title": "Castlevania Belmont's Curse - Best Weapons Types (And How to Use Them)",
-      "category": "Entertainment",
-      "summary": "There are seven different types of weapons in Castlevania: Belmont's Curse, each with their own pros and cons, and a handful of nuances that you must know in order to bring out the best in them. But which are the best in which situations?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=5hP5zRlDghM",
-      "published_at": "2026-10-16T23:00:20Z",
-      "image_url": "https://i.ytimg.com/vi/5hP5zRlDghM/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "5hP5zRlDghM",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f0b4634765e89c5c11",
-      "title": "When The Boss Has a Second Phase #yuyuhakusho #abridgedseries #parody",
-      "category": "Anime",
-      "summary": "Alt title: Genkai tries really hard to just have Rando and Yusuke kill each other Wanna see all videos early?",
-      "summary_status": "publisher_excerpt",
-      "source_name": "TeamFourStar · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=nKk-DHksrbs",
-      "published_at": "2026-10-16T22:30:38Z",
-      "image_url": "https://i.ytimg.com/vi/nKk-DHksrbs/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "nKk-DHksrbs",
-      "youtube_channel_id": "UCsvazPPlhZlch0-Z3wPByeg",
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "41d4828a44935ada8f",
-      "title": "Call of Duty Modern Warfare 4 - All Campaign Collectible Locations",
-      "category": "Entertainment",
-      "summary": "Looking for every note and supply cache in Call of Duty: Modern Warfare 4's campaign? Look no further. In this guide we show our suggested path for collecting all 58 Notes and 26 Yellow Crates in the single player story mode of Call of Duty MW4.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "IGN · YouTube",
-      "source_url": "https://www.youtube.com/watch?v=Oio1ttHQ17o",
-      "published_at": "2026-10-16T22:00:10Z",
-      "image_url": "https://i.ytimg.com/vi/Oio1ttHQ17o/hqdefault.jpg",
-      "media_type": "video",
-      "video_id": "Oio1ttHQ17o",
-      "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
       ]
     }
   ],
