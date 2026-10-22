@@ -1,7 +1,245 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-21T22:14:46.660862Z",
+  "generated_at": "2026-10-22T00:42:36.870981Z",
   "posts": [
+    {
+      "id": "5c732c63bae0d8b0a2",
+      "title": "Gap and Victoria Beckham Are Running Back Their Sold-Out Collab: How to Shop the Fall Drop Early",
+      "category": "Entertainment",
+      "summary": "The 37-piece fall/winter 2026 collection marks the duo's second limited-edition launch.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/shopping/gap-victoria-beckham-fall-2026-second-collab-release-prices-1236737831/",
+      "published_at": "2026-10-22T00:26:29Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7b0c5e2a4b5430be07",
+      "title": "Citing 'challenges,' AIPAC halts endorsements and direct contributions to candidates",
+      "category": "World",
+      "summary": "The pro-Israel lobbying group and influential political donor announced it would no longer endorse candidates or give directly to campaigns, instead mobilizing its members to give individually.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+      "published_at": "2026-10-22T00:22:48Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "f0e20bc695ec40ecdb",
+      "title": "Iron Maiden’s Nicko McBrain Rejected an Invite to Golf With Trump, Says He Should Be ‘Put in Jail’: ‘I’m Not Amused by the Narcissism’",
+      "category": "Music",
+      "summary": "Nicko McBrain, the long-time drummer for heavy metal band Iron Maiden, recently admitted he’d been invited to play golf with Donald Trump, but turned down the offer because of his staunch anti-MAGA beliefs — and that the president and his “bunch of cronies,” in McBrain’s words, “should be put in jail.” Like Trump, McBrain…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/iron-maidens-nicko-mcbrain-rejected-invite-trump-1236919360/",
+      "published_at": "2026-10-22T00:17:19Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/nicko-mcbrain-portrait-shoot-president-trump-speaks-in-the-o-1000x667-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "066e21fc00267cc85b",
+      "title": "Holy crap, they're making Serious Sam: The Third Encounter",
+      "category": "Gaming",
+      "summary": "I've been waiting a quarter-century for this.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/fps/holy-crap-theyre-making-serious-sam-the-third-encounter/",
+      "published_at": "2026-10-22T00:12:03Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/tkfnHjrqia3q7vTGtgBdz4-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "1dd17556a5951438bf",
+      "title": "Faster to Science: A Letter to the Science Community",
+      "category": "Science",
+      "summary": "NASA Science wants to deliver science faster, so we’re changing how we compete and select missions. On Monday, October 26, we will host a virtual NASA Science Town Hall.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
+      "published_at": "2026-10-22T00:00:16Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "b1c4ba7df13595d131",
+      "title": "Hur Jin-ho Thanks Singapore Festival for Protecting Freedom of Expression as ‘The Assassin(s)’ Opens, SGIFF Chair Boo Junfeng Says: ‘We Refuse to Show Anything That Has Been Censored’",
+      "category": "Entertainment",
+      "summary": "South Korean director Hur Jin-ho thanked the Singapore International Film Festival (SGIFF) for defending freedom of expression as his political thriller “The Assassin(s)” opened the festival’s 37th edition on Wednesday, two weeks after the Korea’s conservative opposition asked SGIFF to pull it.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/hur-jin-ho-thanks-singapore-festival-assassins-opens-1236919346/",
+      "published_at": "2026-10-21T23:29:53Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/SGIFF-2026-opening.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5a3155dd897b96fbaa",
+      "title": "The 10 best alchemy cards in Magic: The Gathering, ranked",
+      "category": "Gaming",
+      "summary": "Alchemy produced some of Magic’s wildest digital-only cards",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/best-alchemy-cards-magic-gathering-mgt/",
+      "published_at": "2026-10-21T22:59:28Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/best-alchemy-cards-in-mtg-arena.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "2cb9c99e183262fb3a",
+      "title": "Vance tells Republicans to 'stop whining' about controversial Ohio attack ad",
+      "category": "World",
+      "summary": "The ad by Ohio Republican Vivek Ramaswamy features his Democratic rival's estranged mother, who she has not seen since her stepfather was charged with sexual abuse in her childhood.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T22:59:18Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fc8/live/64f8e290-cda0-11f1-96a8-11b361e3c25f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "5c9a71a92076c12e9e",
+      "title": "Putin releases American Stephen Hubbard from Russian prison",
+      "category": "World",
+      "summary": "Russian President Vladimir Putin has freed another American, 74-year-old Michigan native Stephen Hubbard, from a Russian prison following a request from President Trump.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NPR World",
+      "source_url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison",
+      "published_at": "2026-10-21T22:39:19Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "cfa0f5f88e4a693fde",
+      "title": "‘Paper Tiger’ Producer Rodrigo Teixeira Set for GLAFF’s First Visionary Award, Presented by Wagner Moura (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Two-time Oscar-nominated producer Rodrigo Teixeira will receive the inaugural Árbol de la Vida Visionary Award at the GuadaLAjara Film Festival (GLAFF), the Los Angeles offshoot of the Guadalajara International Film Festival, on Nov. 6.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/rodrigo-teixeira-glaff-visionary-award-wagner-moura-1236919290/",
+      "published_at": "2026-10-21T22:35:07Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-9.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "52a18a93de8cde61b2",
+      "title": "‘Street Fighter’ Director Kitao Sakurai Built a Career by Embracing the Ridiculous",
+      "category": "Entertainment",
+      "summary": "Sakurai helped launch ‘The Eric Andre Show’ in the 2010s, a building block that has now led to a big-budget video game movie.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/street-fighter-director-kitao-sakurai-ending-sequel-1236737763/",
+      "published_at": "2026-10-21T22:33:51Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "00d63a1044702bd965",
+      "title": "LA Art Show Unveils Plans for 2027 Event",
+      "category": "Entertainment",
+      "summary": "The long-running art show will post up in Los Angeles Convention Center's West Hall for its 32nd run from Jan. 6-10, with works from more than 90 exhibitors, and a new charity partner and ticket platform.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/lifestyle/arts/la-art-show-2027-event-tickets-exhibitor-schedule-1236737771/",
+      "published_at": "2026-10-21T22:32:26Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1a28ed764c35e8f389",
+      "title": "Olivia Cooke on Returning to ‘Slow Horses,’ On-Set Injuries and That Shocking Finale Cliffhanger: ‘I Want a Showdown!’",
+      "category": "Entertainment",
+      "summary": "SPOILER ALERT: The following article contains plot details from “Judgement Day,” the Season 6 finale of “Slow Horses,” now streaming on Apple TV. “Hello, River.” Those two fateful words announced Olivia Cooke’s return to “Slow Horses” after a four-season absence from the Apple TV spy drama.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/slow-horses-season-6-finale-olivia-cooke-interview-1236917817/",
+      "published_at": "2026-10-21T22:30:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Slow_Horses_Photo_060302.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4b950dad720d247f33",
+      "title": "Machinarium AI tribute cops a flogging from studio: 'This looks disgusting and has nothing to do with us or our craft'",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/gaming-industry/machinarium-ai-tribute-cops-a-flogging-from-studio-this-looks-disgusting-and-has-nothing-to-do-with-us-or-our-craft/",
+      "published_at": "2026-10-21T22:26:41Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/QovyvgnTDavqyf4mSEdhu6-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
     {
       "id": "6dbff8ec530c155693",
       "title": "‘Obsession’ Star Inde Navarrette Says Meeting Nikki Scare Actor at Halloween Horror Nights Was “Surreal”",
@@ -227,7 +465,7 @@
       "id": "1bd7b20d6bcdb59083",
       "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
       "category": "World",
-      "summary": "Russia says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
@@ -584,7 +822,7 @@
       "id": "47089e7c80e35f9dd2",
       "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
       "category": "World",
-      "summary": "Russia's President Putin does not feel under pressure right now to end the war.",
+      "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
       "summary_status": "publisher_excerpt",
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
@@ -2828,7 +3066,7 @@
       "id": "beb6f99054b9dc8d09",
       "title": "Israel frees dozens of Americans, including U.S. Congress nominee, after West Bank detention",
       "category": "World",
-      "summary": "Democratic congressional candidate Brad Lander along with about 80 American and Israeli rabbis and activists were helping Palestinian olive harvesters when they were detained by Israeli forces.",
+      "summary": "Democratic congressional candidate Brad Lander along with dozens of American and Israeli rabbis and activists were helping Palestinian olive harvesters when they were detained by Israeli forces.",
       "summary_status": "publisher_excerpt",
       "source_name": "NPR World",
       "source_url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
@@ -3352,125 +3590,6 @@
       ]
     },
     {
-      "id": "1e7089c974c3e1d084",
-      "title": "Daft Punk reportedly turned down ‘GTA 6’ soundtrack offer before Justice said yes",
-      "category": "Music",
-      "summary": "The rumour claims the dance titans were offered an almost unlimited budget to reunite The post Daft Punk reportedly turned down ‘GTA 6’ soundtrack offer before Justice said yes appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/daft-punk-grand-theft-auto-6-soundtrack-reunion-justice-3973742?utm_source=rss&utm_medium=rss&utm_campaign=daft-punk-grand-theft-auto-6-soundtrack-reunion-justice",
-      "published_at": "2026-10-21T11:33:54Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Grand-Theft-Auto-6-lucia.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "8688c5f97da4f9b44d",
-      "title": "80% of Samsung's data center memory is already sold for 2027, meaning yet another double-digit price increase for RAM expected and more likely to come",
-      "category": "Gaming",
-      "summary": "Next year isn't looking so hot for sensibly priced hardware upgrades either…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/hardware/memory/80-percent-of-samsungs-data-center-memory-is-already-sold-for-2027-meaning-yet-another-double-digit-price-increase-for-ram-expected-and-more-likely-to-come/",
-      "published_at": "2026-10-21T11:14:24Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/LanFmJykroZiecWNLtRCh3-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "0aa7ea015f21519f1c",
-      "title": "110 million votes later Nurse Harrow has finally made it into Deadlock, with special thanks to a particularly dedicated player who 'cast exactly 1,000 votes for her'",
-      "category": "Gaming",
-      "summary": "Nurse Harrow voters did, however, prove themselves to be of the most skilled players.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/moba/110-million-votes-later-nurse-harrow-has-finally-made-it-into-deadlock-with-special-thanks-to-a-particularly-dedicated-player-who-cast-exactly-1-000-votes-for-her/",
-      "published_at": "2026-10-21T11:14:04Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/MhL8YnvDkUDeEtfbuvDbq3-1920-80.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "0582f1e4c59ba3ff89",
-      "title": "Italian Content Investment Dropped 7.4% in 2025 Largely Due to Uncertainty Over Domestic Tax Credits, Rome MIA Market Report Says",
-      "category": "Entertainment",
-      "summary": "Investment in content production destined for Italy’s film TV and streaming industries dropped 7.4% to €2 billion ($2.24 billion) in 2025, compared with the previous year, with the scripted sphere suffering most amid uncertainty over government support of the country’s tax credits and the ongoing transition in viewership from…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/italian-content-investment-dropped-uncertainty-tax-credits-1236918479/",
-      "published_at": "2026-10-21T11:05:26Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/08/The-Monster-of-Florence.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "32f5070fc513caaddf",
-      "title": "Italian Content Investment Dropped 7.4% in 2025 Largely Due to Uncertainty Over Domestic Tax Credits, Rome MIA Market Report Says",
-      "category": "Entertainment",
-      "summary": "Investment in content production destined for Italy’s film TV and streaming industries dropped 7.4% to €2 billion ($2.24 billion) in 2025, compared with the previous year, with the scripted sphere suffering most amid uncertainty over government support of the country’s tax credits and the ongoing transition in viewership from…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/film/global/italian-content-investment-dropped-uncertainty-tax-credits-1236918479/",
-      "published_at": "2026-10-21T11:05:26Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/08/The-Monster-of-Florence.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "e76f3ac22d373fa629",
-      "title": "IAMDDB hits back at Israeli government “stealing her identity” by using AI-generated version of her likeness",
-      "category": "Music",
-      "summary": "“I stand for humanity. I stand against the killing and suffering of innocent people. And I stand for every artist's right to decide what their name, face and work are associated with” The post IAMDDB hits back at Israeli government “stealing her identity” by using AI-generated version of her likeness appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/iamddb-hits-back-at-israeli-government-stealing-her-identity-by-using-ai-generated-version-of-her-likeness-3973737?utm_source=rss&utm_medium=rss&utm_campaign=iamddb-hits-back-at-israeli-government-stealing-her-identity-by-using-ai-generated-version-of-her-likeness",
-      "published_at": "2026-10-21T11:04:59Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/iamddb@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "9e9f4f31515a902e7d",
-      "title": "‘When I Existed,’ a Cannes Market Standout, Swooped On for World Sales by M-Appeal and Now Bound for Tallinn Black Nights (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Berlin-based M-Appeal has boarded “When I Existed,” a buzzy, feel-good second-chance drama comedy and Kafkian social satire which proved a standout at the Cannes Market’s Ventana Sur Goes to Cannes showcase, marking an auspicious debut for Uruguay’s Alejandro Damiani and Martin Avdolov.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/when-i-existed-cannes-market-standout-m-appeal-tallinn-1236918550/",
-      "published_at": "2026-10-21T11:04:30Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/When-I-Existed-CYE_low_lighter.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "e0816d7ed2f49ab8f0",
       "title": "Scared Pittie Gets Her Own Princess Diaries Glow-Up | The Dodo",
       "category": "Animals",
@@ -3485,125 +3604,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "43277bd761a2b326a0",
-      "title": "Former U.S. Ambassador to Ukraine on Trump's turn toward Russia",
-      "category": "World",
-      "summary": "NPR's Steve Inskeep asks former U.S. Ambassador to Ukraine John Herbst about President Trump's embrace of Russia as envoy Steve Witkoff heads to Moscow after meeting Ukraine's Volodymyr Zelenskyy.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/21/nx-s1-6009376/former-u-s-ambassador-to-ukraine-on-trumps-turn-toward-russia",
-      "published_at": "2026-10-21T10:56:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "0524553d280dc4f7b4",
-      "title": "Amber warning issued as Storm Austen threatens UK with strong winds and heavy rain",
-      "category": "Science",
-      "summary": "The deep area of low pressure is expected to move close to the south of the UK early on Friday with south-west England set to bear the brunt.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/weather/articles/c6m24ln2j43go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T10:55:32Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee09/live/4eec08b0-cd2d-11f1-bc2e-018d645d8d21.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "fe6c3f90a05a2573b4",
-      "title": "Julia Stiles pays emotional tribute to Heath Ledger with ’10 Things I Hate About You’ cast reunion",
-      "category": "Music",
-      "summary": "Gabrielle Union, Joseph Gordon-Levitt, Andrew Keegan, Susan May Pratt and Larisa Oleynik joined her on ‘Dancing With The Stars’ The post Julia Stiles pays emotional tribute to Heath Ledger with ’10 Things I Hate About You’ cast reunion appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/film/julia-stiles-emotional-tribute-heath-ledger-reunion-10-things-i-hate-about-you-3973732?utm_source=rss&utm_medium=rss&utm_campaign=julia-stiles-emotional-tribute-heath-ledger-reunion-10-things-i-hate-about-you",
-      "published_at": "2026-10-21T10:51:00Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Julie-Stiles-Heath-Ledger-10-Thing.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "221d0ad2264e3c215d",
-      "title": "Author Helen Fielding launches award to find the next Bridget Jones's Diary",
-      "category": "Entertainment",
-      "summary": "The Bridget Jones Prize will go to the author of the funniest 1,000-word diary-style piece of writing.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6wyd53yg9n1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T10:45:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/000d/live/122bf790-cd38-11f1-935f-b9c228680c6f.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "31adf158a4496362e9",
-      "title": "'We expect mass attacks to start within 15 minutes of the release': Web admins braced for emergency PHP updates to plug leaked high-severity holes",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/software/security/we-expect-mass-attacks-to-start-within-15-minutes-of-the-release-web-admins-braced-for-emergency-php-updates-to-plug-leaked-high-severity-holes/",
-      "published_at": "2026-10-21T10:39:05Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/kNCDGE87fMuTymbxurAHYN-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "dae12eaa2eb68671cc",
-      "title": "Further Xbox layoff rounds reportedly planned for this month, November, and January, while a Game Pass overhaul is in the works",
-      "category": "Gaming",
-      "summary": "Further rounds of layoffs as part of Xbox's ongoing efforts to eventually have fed 3200 people into the furnace are reportedly planned to take place during this month, November, and January.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/further-xbox-layoff-rounds-reportedly-planned-for-this-month-november-and-january-while-a-game-pass-overhaul-is-in-the-works",
-      "published_at": "2026-10-21T10:34:44Z",
-      "image_url": "https://assetsio.gnwcdn.com/xbox-layoffs-report-sep-2026-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6421bfb88ec5c479b7",
-      "title": "MNEK cancels tour over lack of ticket sales and high production costs",
-      "category": "Entertainment",
-      "summary": "The Grammy-nominated artist was due to start a run of shows for his latest album Bulldozer!! next month.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cwe8lz018pe1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T10:31:01Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca0b/live/6743e370-cd31-11f1-935f-b9c228680c6f.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -5861,68 +5861,68 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dragon Ball Official (curated)",
