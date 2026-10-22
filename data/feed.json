@@ -1,7 +1,500 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T00:42:36.870981Z",
+  "generated_at": "2026-10-22T05:26:05.146275Z",
   "posts": [
+    {
+      "id": "9473f01bbe060f1865",
+      "title": "NI risks missing 2030 energy goals, says Stormont committee",
+      "category": "Science",
+      "summary": "A committee hears that Northern Ireland could lose out on economic opportunities if action is not accelerated.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/c623d18dl3v0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T05:09:52Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/539f/live/381927c0-adf9-11f0-8597-61689f5d855b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "f740f682ad5fb2e45b",
+      "title": "Chris Pratt Confirms Star-Lord Will Return to the MCU, Says ‘Hard Action’ Has Been Taken to Make It Happen",
+      "category": "Entertainment",
+      "summary": "Good news, “Guardians of the Galaxy” fans. Chris Pratt, who has played superhero Star-Lord across six films, recently confirmed that his character will return to the MCU and that the studio has already taken “hard action” to make it happen.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/chris-pratt-star-lord-mcu-1236919455/",
+      "published_at": "2026-10-22T04:37:15Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MCDGUOF_WD004.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "4b7e105860429fc397",
+      "title": "APOD: 2026 October 22 – The First Green Star, WD J1330+6435",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 22 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+      "published_at": "2026-10-22T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "3afe2254e382cd6790",
+      "title": "No order, no seat: Starbucks China rolls out new store policy",
+      "category": "World",
+      "summary": "Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T04:02:29Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d52a/live/22a66e60-cdc5-11f1-ae0b-3f5d64e6a869.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "715cf00a4d3955dac0",
+      "title": "All party members in Final Fantasy Resonance",
+      "category": "Gaming",
+      "summary": "In this guide, you find the list of all party members you can recruit in Final Fantasy Resonance, when you unlock them, and their roles.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-party-members-location-how-to-unlock/",
+      "published_at": "2026-10-22T04:01:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ffresonance_guide_partymembers_lead.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "6d9299a2ef2325980a",
+      "title": "All unlockable Visions in Final Fantasy Resonance",
+      "category": "Gaming",
+      "summary": "Here's a list of all Visions available in Final Fantasy Resonance, where you can find them, and the prerequisites for unlocking each one.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-visions-locations-how-to-unlock/",
+      "published_at": "2026-10-22T04:01:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ffresonance_guide_visions_lead.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "988a35d31e7a790ddd",
+      "title": "Where to find all ancient equipment in Final Fantasy Resonance",
+      "category": "Gaming",
+      "summary": "Here's where to upgrade ancient equipment into the best weapons in Final Fantasy Resonance, and where to find all the ancient equips.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-ancient-equipment-upgrade-locations/",
+      "published_at": "2026-10-22T04:01:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/jlee_261021_1001_ffr_ancient_0.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "5073864a4600119d08",
+      "title": "How to find Mysidia in Final Fantasy Resonance",
+      "category": "Gaming",
+      "summary": "In this guide, you learn how to find Mysidia in Final Fantasy Resonance, the Magiopolis as well as the exact location where you must use the radar.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-mysidia-location-how-to-find/",
+      "published_at": "2026-10-22T04:01:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ffresonance_guide_mysidia_header.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "75f3e04e8f92fa97a0",
+      "title": "Where to find and use Adamantite in Final Fantasy Resonance",
+      "category": "Gaming",
+      "summary": "Here's where to find Adamantite in Final Fantasy Resonance, which makes some powerful weapons and armor, if you bring it to the right person.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-adamantite-use-locations-weapons/",
+      "published_at": "2026-10-22T04:01:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/jlee_261014_1001_ffr_shard.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "1801a7d29e8233e13b",
+      "title": "How to get Sephiroth's Vision in Final Fantasy Resonance",
+      "category": "Gaming",
+      "summary": "If you want the Sephiroth's Vision in Final Fantasy Resonance, you'll need to take on the One-Winged Angel himself. Here's how to beat him.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/final-fantasy-resonance-sephiroth-vision-where-to-find-boss-fight/",
+      "published_at": "2026-10-22T04:01:17Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/obs64_2026-10-13_11-41-15-copy.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "703fad667a27d1369c",
+      "title": "Fires Char New Guinea",
+      "category": "Science",
+      "summary": "Emissions on both sides of the island are unusually high as human-set fires spread in a landscape parched by drought.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
+      "published_at": "2026-10-22T04:01:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "06c01c6537ce12fd75",
+      "title": "Anime World Offers Condolences After Screen, Voice Actor Hiroshi Tsuchida's Death, Part II",
+      "category": "Anime",
+      "summary": "Creators, artists, & fans came together for their farewells",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-21/anime-world-offers-condolences-after-screen-voice-actor-hiroshi-tsuchida-death-part-ii/.243077",
+      "published_at": "2026-10-22T03:59:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "74862ba962141e1825",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "category": "World",
+      "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T03:48:50Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c55/live/d85b8680-cda9-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "78dbe4349ff3e9350a",
+      "title": "Dolly Parton CMA Tribute: Sabrina Carpenter, Julia Roberts, Oprah and More Remember the Country Icon as the ‘Great Unifier’",
+      "category": "Entertainment",
+      "summary": "Sabrina Carpenter, Julia Roberts and Oprah were among the stars who paid tribute to Dolly Parton during the Country Music Association’s celebration of the late country icon Wednesday night. Oprah, who appeared in a pre-recorded video at the beginning of the broadcast, shared what Dolly meant to her.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/music/news/cmas-celebration-of-dolly-parton-1236919337/",
+      "published_at": "2026-10-22T03:41:08Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/GettyImages-831444328.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "49c8e2fd52e53be4b5",
+      "title": "Dolly Parton CMA Tribute: Sabrina Carpenter, Julia Roberts, Oprah and More Remember the Country Icon as the ‘Great Unifier’",
+      "category": "Music",
+      "summary": "Sabrina Carpenter, Julia Roberts and Oprah were among the stars who paid tribute to Dolly Parton during the Country Music Association’s celebration of the late country icon Wednesday night. Oprah, who appeared in a pre-recorded video at the beginning of the broadcast, shared what Dolly meant to her.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/cmas-celebration-of-dolly-parton-1236919337/",
+      "published_at": "2026-10-22T03:41:08Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/08/GettyImages-831444328.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "15ea972676f16aee19",
+      "title": "The Seven Knights of the Marronnier Kingdom Anime Reveals 4 Cast Members",
+      "category": "Anime",
+      "summary": "Naomi Shindō, Atsushi Ono, Ai Kayano, Yurie Funato voice Country of Long Nights' royalty",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/the-seven-knights-of-the-marronnier-kingdom-anime-reveals-4-cast-members/.243088",
+      "published_at": "2026-10-22T03:38:44Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "7caf5096b41ac6a9ac",
+      "title": "US embassy accuses Canada of election meddling ahead of midterms",
+      "category": "World",
+      "summary": "Prime Minister Mark Carney dismissed the claim, noting that it was the that US initiated trade actions against Canada.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T03:05:28Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2dd2/live/280120d0-cdc5-11f1-ae0b-3f5d64e6a869.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "1d6c6daebb0922a168",
+      "title": "Anime World Offers Condolences After Actor Hiroshi Tsuchida's Death, Part I",
+      "category": "Anime",
+      "summary": "Colleagues remember him from his Super Sentai roots to his prolific voice-acing years",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-21/anime-world-offers-condolences-after-actor-hiroshi-tsuchida-death-part-i/.243070",
+      "published_at": "2026-10-22T03:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "49b2b9b6f458d45e58",
+      "title": "Live-Action My Sister's Boyfriend Film's Trailer Unveils Song by timelesz",
+      "category": "Anime",
+      "summary": "timelesz performs theme song \"Hontō no Koto o Iu to\" for December 4 film",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/live-action-my-sister-boyfriend-film-trailer-unveils-song-by-timelesz/.243083",
+      "published_at": "2026-10-22T02:21:11Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "cfcbc3b41b2598c662",
+      "title": "John Anderson, Country Hall of Famer Whose Hits Included ‘Seminole Wind’ and ‘Swingin’,’ Dies at 71",
+      "category": "Music",
+      "summary": "John Anderson, the country Hall of Famer behind hits like “Seminole Wind” and “Swingin’,” has died. He was 71. Anderson’s death was announced by his family across his social media accounts on Wednesday. No cause of death or further information was noted. “It is with the heaviest of hearts that we share the passing of […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/people-news/john-anderson-dead-seminole-wind-swingin-die-1236919387/",
+      "published_at": "2026-10-22T02:08:03Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2242102363.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "96ea117efaead77ba2",
+      "title": "Why David Krumholtz Was Absent From ’10 Things I Hate About You’ Reunion on ‘DWTS’",
+      "category": "Entertainment",
+      "summary": "Stiles and her pro partner Ezra Sosa danced to “Can't Take My Eyes Off You” to honor Heath Ledger.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/david-krumholtz-absent-10-things-i-hate-about-you-reunion-dwts-1236737892/",
+      "published_at": "2026-10-22T01:49:07Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "fdf0ed1bd572a8a4c2",
+      "title": "‘Petal Dance’ Director Ishikawa Hiroshi Ends 13-Year Feature Hiatus With ‘The Blue We Touch’ (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Japanese filmmaker Ishikawa Hiroshi, whose credits include “Tokyo.sora,” “Su-ki-da.” and “Petal Dance,” is back with his first feature in 13 years.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/markets-festivals/petal-dance-director-blue-we-touch-1236919383/",
+      "published_at": "2026-10-22T01:28:39Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/The-Blue-We-Touch-Ensemble-cast.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1ad91d3a72e63d5d1f",
+      "title": "The next Mass Effect would have had 'a level of autonomy and choice that no other game has been able to match', according to BioWare veteran",
+      "category": "Gaming",
+      "summary": "BioWare had paid attention to Larian and CD Projekt.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/mass-effect/the-next-mass-effect-would-have-had-a-level-of-autonomy-and-choice-that-no-other-game-has-been-able-to-match-according-to-bioware-veteran/",
+      "published_at": "2026-10-22T01:14:40Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/yYFhk42HeexHNWqBH5hkhQ-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "41119fd5d534b3dd5b",
+      "title": "Can you identify the horror game by its horrors?",
+      "category": "Gaming",
+      "summary": null,
+      "summary_status": "unavailable",
+      "source_name": "PC Gamer",
+      "source_url": "https://www.pcgamer.com/games/can-you-identify-the-horror-game-by-its-horrors/",
+      "published_at": "2026-10-22T01:09:04Z",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/WqTtWUVFSZDsa3PBmb4qG8-1920-80.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "7897709cc50c2c9a9c",
+      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+      "category": "World",
+      "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T01:07:34Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6998/live/cec97250-cdb1-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "8bb85daf1e4540660e",
+      "title": "Ranbir Kapoor, Yash Epic ‘Ramayana: Part One’ Sets Pay-Per-View Release on JioHotstar After Theatrical Run",
+      "category": "Entertainment",
+      "summary": "Nitesh Tiwari’s “Ramayana: Part One,” starring Ranbir Kapoor and Yash, will be available to buy on demand from streamer JioHotstar in India after its theatrical run. The deal between JioHotstar and Prime Focus Studios will see the film sold as a separate on-demand purchase on the platform.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/ranbir-kapoor-yash-ramayana-jiohotstar-pay-per-view-release-1236919377/",
+      "published_at": "2026-10-22T01:05:09Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Ramayana.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8315ceba5ce265e3cc",
+      "title": "DM My Rep! The Top Lawyers, Managers and Agents Driving the Creator Economy",
+      "category": "Entertainment",
+      "summary": "MrBeast, Ms. Rachel and the world’s top creators rely on these power players to propel their careers beyond phone screens.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/business/digital/top-lawyers-managers-agents-representing-creators-1236736394/",
+      "published_at": "2026-10-22T01:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "5504f1f21cafb9282b",
+      "title": "Cygames to Reimburse Travel, Lodging for Canceled Uma Musume Concerts",
+      "category": "Anime",
+      "summary": "Cygames to cover cancellation fees for those who planned to go, expenses who already left to LA",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/cygames-to-reimburse-travel-lodging-for-canceled-uma-musume-concerts/.243082",
+      "published_at": "2026-10-22T00:55:21Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "d17e0f14df8001b9a5",
+      "title": "Vietnamese Whodunit ‘Karaoke Murder’ Sets Record With Same-Weekend Opening on Four Continents (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Vietnamese whodunit “Karaoke Murder” will open in cinemas across North America, Europe, Australia and Asia on the same weekend, a first for a film from Vietnam, according to its backers. The film, titled “Án Mạng Karaoke” in Vietnamese, will bow nationwide at home on Oct. 30.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/vietnamese-whodunit-karaoke-murder-four-continent-release-1236919373/",
+      "published_at": "2026-10-22T00:49:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Karaoke-Murder.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "5c732c63bae0d8b0a2",
       "title": "Gap and Victoria Beckham Are Running Back Their Sold-Out Collab: How to Shop the Fall Drop Early",
@@ -21,9 +514,9 @@
     },
     {
       "id": "7b0c5e2a4b5430be07",
-      "title": "Citing 'challenges,' AIPAC halts endorsements and direct contributions to candidates",
+      "title": "AIPAC halts endorsements and direct contributions to candidates",
       "category": "World",
-      "summary": "The pro-Israel lobbying group and influential political donor announced it would no longer endorse candidates or give directly to campaigns, instead mobilizing its members to give individually.",
+      "summary": "The pro-Israel lobbying group and influential political funder announced it would no longer endorse candidates or give directly to campaigns. AIPAC's affiliated super PAC, though, will continue.",
       "summary_status": "publisher_excerpt",
       "source_name": "NPR World",
       "source_url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
@@ -105,6 +598,74 @@
       ]
     },
     {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1941 on October 22",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1941 on October 22 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-21T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 22",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1229 The post ‘Connections’ answers and hints for today, October 22 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-21T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 22",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 22 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-21T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 22",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 22 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-21T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "5a3155dd897b96fbaa",
       "title": "The 10 best alchemy cards in Magic: The Gathering, ranked",
       "category": "Gaming",
@@ -131,6 +692,23 @@
       "source_url": "https://www.bbc.co.uk/news/articles/cm98zn3l2rn7o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-21T22:59:18Z",
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fc8/live/64f8e290-cda0-11f1-96a8-11b361e3c25f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "ace515d34f0cb379fa",
+      "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+      "category": "World",
+      "summary": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T22:54:58Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5a8/live/221cd660-cda1-11f1-96a8-11b361e3c25f.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -238,6 +816,23 @@
       "youtube_channel_id": null,
       "topics": [
         "Gaming"
+      ]
+    },
+    {
+      "id": "313facd232dee58965",
+      "title": "New Mexico sues Epstein lawyer and accountant, accusing them of hiding his sex crimes",
+      "category": "World",
+      "summary": "Both men have denied having any knowledge of Epstein's crimes and their attorney rejected the lawsuit as \"categorically false\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqx287g8714lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T22:20:22Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c97/live/152c9c80-cd7c-11f1-a428-3f9d1bf6cc8b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
       ]
     },
     {
@@ -827,7 +1422,24 @@
       "source_name": "BBC World",
       "source_url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-21T19:58:06Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b522/live/adcfbb20-cd86-11f1-a64c-550be9e3c66b.jpg",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3366/live/1968e1a0-cdb3-11f1-b589-dd497fb417ac.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "d24a8fd0336227ea14",
+      "title": "Websites taken down worldwide as critical cyber-security update issued",
+      "category": "World",
+      "summary": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-21T19:54:57Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -2876,108 +3488,6 @@
       ]
     },
     {
-      "id": "9e942898a38fdab5aa",
-      "title": "Empire Founder Ghazi Launches Supply Chain, New Rights Management/ Distribution Company for Independent Music",
-      "category": "Music",
-      "summary": "Ghazi, founder of the indie label and distribution giant Empire, has announced the launch of his newest company, Supply Chain, an independent B2B cloud-based distribution company for the global music industry, which encapsulates technology, distribution, operations, and commercial connectivity.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/news/empire-ghazi-launches-supply-chain-rights-management-distribution-1236917997/",
-      "published_at": "2026-10-21T14:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Ghazi-Headshot-e1792528578713.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "0184ed75ec732a8446",
-      "title": "The Emancipation of Charli D’Amelio: How the TikTok Queen Took Back Her Life",
-      "category": "Entertainment",
-      "summary": "She’s been the platform's biggest female star since she was 15, and has the battle scars to prove it. Now she’s breaking free from her family’s control — and taking her 160 million followers with her.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/business/digital/charli-damelio-interview-life-tiktok-career-1236736245/",
-      "published_at": "2026-10-21T14:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "89bbbb18c1d3c85744",
-      "title": "Sharjah Film Festival Unveils Lineup With ‘Gohan,’ ‘Monster Mia,’ Emirati Talent",
-      "category": "Entertainment",
-      "summary": "The Sharjah Intl. Film Festival for Children and Youth will bring films from Thailand, Brazil, India, Italy and across the Arab world to the UAE for its 13th edition, with a lineup featuring international festival titles, emerging filmmakers and Emirati talent. Running Oct. 26-Oct.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/sharjah-film-festival-2026-gohan-monster-mia-lineup-1236918583/",
-      "published_at": "2026-10-21T13:51:19Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/10/Monster-Mia.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5f59a46c4cbbcd8d3b",
-      "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-      "category": "World",
-      "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T13:49:50Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a22e/live/83914ac0-8497-11ef-bf4c-1f355eb87d3c.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "22525cf2903755ea10",
-      "title": "Woman told Russell Brand he 'treated her like an animal', court hears",
-      "category": "Entertainment",
-      "summary": "The comedian and actor is on trial for charges including rape and sexual assault, which he denies.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmje5k3q9ello?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T13:47:51Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eca/live/945eab00-cd3c-11f1-8177-0f8bd59b54c4.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "e78baa8cf1f2cb1f99",
-      "title": "How Jackdaw ignites row over climate and costs",
-      "category": "Science",
-      "summary": "How Jackdaw ignites arguments over climate and costs",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/videos/c6n9r7gvngx8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T13:46:34Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8623/live/0da602d0-cd4f-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
       "id": "00a46b4ff40593e0b3",
       "title": "Second Stone: 22 Minutes of Gorgeous Action RPG Gameplay",
       "category": "Gaming",
@@ -3007,142 +3517,6 @@
       "media_type": "video",
       "video_id": "zN1VnQX0A7k",
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "7fd680fd00d1bc880d",
-      "title": "Konami Has Staged the Biggest Unlikely Gaming Comeback of 2026",
-      "category": "Gaming",
-      "summary": "After nearly a decade of struggle, Konami has seemingly cracked the code to keeping old franchises relevant.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/konami-comeback-2026/",
-      "published_at": "2026-10-21T13:30:17Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/castlevania-belmonts-curse-header-2.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "495b0e0e4c34b23fb3",
-      "title": "Nia Liston: The Merciless Maiden ‒ Episodes 1-3",
-      "category": "Anime",
-      "summary": "I do not think this is going to be for everyone, but if you’re curious enough about the title to read this review, you should definitely check it out.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episodes-1-3/.243059",
-      "published_at": "2026-10-21T13:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "c94b5f7338e3c89250",
-      "title": "Young Audiences Want to Redefine Modern Storytelling, New Study Shows",
-      "category": "Entertainment",
-      "summary": "Begone the days of 30-year-olds playing high schoolers! Gen Z and Gen Alpha want to see themselves depicted accurately on screen. A study from the Center for Scholars & Storytellers at UCLA found that young viewers are often not consulted about what they want to see on screen — even in projects about and for […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/news/young-audiences-redefine-modern-storytelling-ucla-study-1236918129/",
-      "published_at": "2026-10-21T13:30:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/mcdobse-uc010-mcdback-ec089-mcdobse-uc005-1000x667-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "beb6f99054b9dc8d09",
-      "title": "Israel frees dozens of Americans, including U.S. Congress nominee, after West Bank detention",
-      "category": "World",
-      "summary": "Democratic congressional candidate Brad Lander along with dozens of American and Israeli rabbis and activists were helping Palestinian olive harvesters when they were detained by Israeli forces.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
-      "published_at": "2026-10-21T13:28:04Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "44536115f7a16cf1d4",
-      "title": "Sharon Osbourne says ‘Back To The Beginning’ was a celebration of “people who have been considered the bastards of the music industry for so long”",
-      "category": "Music",
-      "summary": "She also opened up about how Ozzy Osbourne was “praying that his lungs would work” on the day, and why she didn’t tell Jason Momoa he would be hosting the event until the last minute The post Sharon Osbourne says ‘Back To The Beginning’ was a celebration of “people who have been considered the bastards of the music industry for…",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/sharon-osbourne-back-to-the-beginning-celebrated-bastards-of-music-industry-jason-momoa-ozzy-health-3973752?utm_source=rss&utm_medium=rss&utm_campaign=sharon-osbourne-back-to-the-beginning-celebrated-bastards-of-music-industry-jason-momoa-ozzy-health",
-      "published_at": "2026-10-21T13:08:47Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/sharon-osbourne@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "ed64b22ff2b47f0894",
-      "title": "Magic: The Gathering Is Officially Hasbro's Biggest Profit-Maker",
-      "category": "Gaming",
-      "summary": "Wizards of the Coast's Magic: The Gathering is now responsible for 90% of Hasbro's profits, according to a new financial report.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/magic-mtg-hasbro-profits-90-percent-organized-play/",
-      "published_at": "2026-10-21T13:07:50Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/01/mtg_planes_multiverse.jpeg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "fd97c62a54a4000ceb",
-      "title": "Obsession Fans Are Not Happy with Nikki Freeman's Fortnite Skin",
-      "category": "Gaming",
-      "summary": "Nikki from Obsession now has her own skin in Fortnite, which caused some turmoil among gamers and movie fans.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/fortnite-obsession-nikki-freeman-skin-controversy/",
-      "published_at": "2026-10-21T13:04:31Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/nikki-freeman-obsession.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "a3096902b34ae1d1e3",
-      "title": "Disney and Netflix Are Courting Creators. YouTube Is Playing Hardball to Keep Them",
-      "category": "Entertainment",
-      "summary": "The studios are offering rich deals to grow engagement on their platforms. The Google-owned video giant is punching back with its own offers — and threats.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/business/business-news/disney-and-netflix-are-courting-creators-youtube-is-playing-hardball-to-keep-them-1236737199/",
-      "published_at": "2026-10-21T13:01:09Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
       "topics": [
         "Entertainment"
       ]
@@ -3199,278 +3573,6 @@
       ]
     },
     {
-      "id": "da900a44cc4b314f59",
-      "title": "Steins;Gate and Beyond: The Complete Science Adventure Series Anime Timeline",
-      "category": "Anime",
-      "summary": "It can be confusing figuring out when all these anime take place—especially once time travel is brought into the equation.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/feature/2026-10-21/steins-gate-and-beyond-the-complete-science-adventure-series-anime-timeline/.240948",
-      "published_at": "2026-10-21T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "1506e718156806326d",
-      "title": "Jake Tapper Sketches Work Outside CNN: Graphic Novel Probes Life of ‘Butcher’ Klaus Barbie",
-      "category": "Entertainment",
-      "summary": "Many of the stories, interviews and analyses Jake Tapper presents to his followers on CNN rely heavily on moving pictures, courtesy of his employer. A new project from the anchor and author will substitute still images — that Tapper drew himself. Tapper has spent the past three years working on a graphic novel, and much […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/jake-tapper-cnn-graphic-novel-the-butcher-klaus-barbie-1236918541/",
-      "published_at": "2026-10-21T13:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/JakeTapperbyElliottODonovan4-e1792579267791.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "2db4e8f79c3e4737b8",
-      "title": "Sacha Baron Cohen Gets Real About Backlash, Death Threats and Resurrecting Ali G",
-      "category": "Entertainment",
-      "summary": "With his OG character back and outrage already brewing, the comedy provocateur talks cancel culture, boycotts and putting his money — and his life — on the line for a laugh.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/sacha-baron-cohen-interview-backlash-ali-g-1236736244/",
-      "published_at": "2026-10-21T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "77900d58689db11fa8",
-      "title": "Interscope Unveils Exec Promotions Following Shake Up",
-      "category": "Entertainment",
-      "summary": "Michelle An has been named IGA's president and chief creative officer, while Laura Carter and Ramon Alvarez-Smikle have been named co-presidents of Urban.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/music/music-industry-news/interscope-announces-promotions-following-shakeup-1236736558/",
-      "published_at": "2026-10-21T13:00:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "5421aa8e7372dd08d8",
-      "title": "A-DO Manga to End on November 18",
-      "category": "Anime",
-      "summary": "Jaku Amano to publish final chapter in Monthly Young Magazine's December issue",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/a-do-manga-to-end-on-november-18/.243043",
-      "published_at": "2026-10-21T12:53:49Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "35451efb1f3211aec8",
-      "title": "Firefly Wedding's Oreko Tachibana Launches New Manga in Winter",
-      "category": "Anime",
-      "summary": "Tachibana's Firefly Wedding manga ended in February, inspires ongoing TV anime",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/firefly-wedding-oreko-tachibana-launches-new-manga-in-winter/.243042",
-      "published_at": "2026-10-21T12:47:52Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "8f24287c97ec68b4ae",
-      "title": "Nigeria confirms Ebola case linked to East Africa",
-      "category": "World",
-      "summary": "The female patient, who sources have told the BBC is not Nigerian, is in isolation and in an Abuja hospital.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T12:39:34Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20ac/live/3b3288b0-cd3e-11f1-bc2e-018d645d8d21.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "3f510a3d539161c413",
-      "title": "Orient's Shinobu Ohtaka Launches New Manga",
-      "category": "Anime",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/orient-shinobu-ohtaka-launches-new-manga/.243047",
-      "published_at": "2026-10-21T12:34:42Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "5a865230214835c9b5",
-      "title": "Go! Go! Loser Ranger! Manga Goes on Hiatus Again Due to Creator's Health",
-      "category": "Anime",
-      "summary": "Manga only recently returned from 2-month hiatus last month",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-21/go-go-loser-ranger-manga-goes-on-hiatus-again-due-to-creator-health/.243058",
-      "published_at": "2026-10-21T12:30:24Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "abe8672f7999999e16",
-      "title": "A Certain Dark Item ‒ Episodes 1-2",
-      "category": "Anime",
-      "summary": "These girls aren't heroes; they're antivillains—i.e., bad guys doing evil things who just happen to be doing net-positive good in the process.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/a-certain-dark-item/episodes-1-2/.243045",
-      "published_at": "2026-10-21T12:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "142eb3bf982204e64a",
-      "title": "\"I want room to make a wrong turn\": Following Samson dev's bankruptcy, its founder is considering how AI might factor into new studio plans",
-      "category": "Gaming",
-      "summary": "Over the weekend, Swedish reports revealed that Samson studio Liquid Swords have gone bankrupt less than a year after releasing their debut crimebrawler. Founder and former Just Cause lead Christofer Sundberg subsequently confirmed that Liquid Swords are headed for closure.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/i-want-room-to-make-a-wrong-turn-following-samson-devs-bankruptcy-its-founder-is-considering-how-ai-might-factor-into-new-studio-plans",
-      "published_at": "2026-10-21T12:30:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/the-maw-samson-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "c7f28fc9c6965a36a6",
-      "title": "John C. Reilly, Penny Lane Board Short Doc ‘Stalin Boys’ as Executive Producers (Exclusive)",
-      "category": "Entertainment",
-      "summary": "Reilly hopes the short film will remind people \"that big lives always start small, and even tiny dusty towns in the middle of nowhere can produce people who can shape a brighter future for us all.\"",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/penny-lane-john-c-reilly-board-short-doc-film-stalin-boys-1236736733/",
-      "published_at": "2026-10-21T12:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f9c9cc24bfcee1b05c",
-      "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
-      "category": "Science",
-      "summary": "From orbit, today’s space-based laser instruments measure Earth’s forests and terrain one narrow line at a time. Between those lines are enormous gaps that include millions of acres of land scientists never directly measure.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NASA",
-      "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
-      "published_at": "2026-10-21T12:17:58Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "966c10128dec685927",
-      "title": "Dawn of War 4 clearly loves the Warhammer 40K strategy games that came before, but it misses that they loved to reinvent themselves",
-      "category": "Gaming",
-      "summary": "I may have set my expectations for Dawn of War 4 too high, but it's a series that, to my mind, never retreads the same ground. It's therefore been disappointing to feel, having played it across two its campaigns that this long-awaited sequel may have taken too few risks - or been too reverent of the games that came before.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/dawn-of-war-4-clearly-loves-the-warhammer-40k-strategy-games-that-came-before-but-it-misses-that-they-loved-to-reinvent-themselves",
-      "published_at": "2026-10-21T12:12:24Z",
-      "image_url": "https://assetsio.gnwcdn.com/Dawn-of-War-4_0007_Layer-14.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "56a1399e8e9026bcb2",
-      "title": "Netflix Stock Deflates to Two-Year Low. What Will It Take to Revive Revenue Growth?",
-      "category": "Entertainment",
-      "summary": "Shares of Netflix hit a two-year low after the streamer’s Q3 2026 earnings report revealed an ongoing softening in top-line growth and a miss on advertising revenue for the full year.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/netflix-stock-falls-two-year-low-after-earnings-report-1236918535/",
-      "published_at": "2026-10-21T12:06:57Z",
-      "image_url": "https://variety.com/wp-content/uploads/2024/06/Netflix-LA-Building.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6268d4292b4d9642e9",
-      "title": "Xbox’s new console could cost $1800, new report claims",
-      "category": "Music",
-      "summary": "Project Helix is reportedly set to launch in 2028 The post Xbox’s new console could cost $1800, new report claims appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/xbox-new-console-project-helix-cost-release-date-handheld-3973749?utm_source=rss&utm_medium=rss&utm_campaign=xbox-new-console-project-helix-cost-release-date-handheld",
-      "published_at": "2026-10-21T12:06:56Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Xbox-promo-2026.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "3ce90f27934d4c1f53",
       "title": "Warhammer 40,000: Dawn of War 4 – Detailed Impressions of the Necron & AdMech Factions | IGN Preview",
       "category": "Entertainment",
@@ -3485,108 +3587,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "c69edc57883b6fa0f5",
-      "title": "I've played 2 of Dawn of War 4's campaigns, and they're everything I hoped they'd be",
-      "category": "Gaming",
-      "summary": null,
-      "summary_status": "unavailable",
-      "source_name": "PC Gamer",
-      "source_url": "https://www.pcgamer.com/games/rts/ive-played-2-of-dawn-of-war-4s-campaigns-and-theyre-everything-i-hoped-theyd-be/",
-      "published_at": "2026-10-21T12:00:00Z",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/ZTpJJQQrDJ2Fd5TCpTkEzU-1920-80.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "73e8d0349f7cd349c5",
-      "title": "‘Glee’ Reboot Officially Set at Disney+ and Hulu",
-      "category": "Entertainment",
-      "summary": "To quote Finn Hudson, “The show must go all over the place, or something.” He was right: “Glee” is back. Disney+ and Hulu have greenlit a reboot of Ryan Murphy’s famous (and infamous) musical dramedy series. “Glee” premiered on Fox in 2009 concluded in 2015 after six seasons of following a group of show choir […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/news/glee-reboot-disney-hulu-1236918160/",
-      "published_at": "2026-10-21T12:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/TCDGLEE_EC025-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "852394157e38322f44",
-      "title": "How much gas could Jackdaw provide? And will it cut your energy bills?",
-      "category": "Science",
-      "summary": "BBC Verify looks at what the Jackdaw decision means for bills, energy security and the environment.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq4g13pplyzzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T11:57:49Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4da/live/ee815af0-cd3d-11f1-bc2e-018d645d8d21.png",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "962658e141fc04a89b",
-      "title": "Irish weather warning ahead of Storm Austen",
-      "category": "Science",
-      "summary": "The Republic of Ireland's weather service warns of potential of flooding and travel disruption.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/ck98z6e4l725o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-21T11:48:46Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee6b/live/e3c1caa0-cd42-11f1-8177-0f8bd59b54c4.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "8078a038a737ecf459",
-      "title": "DOJ's noncitizen voter list is unreliable, officials say. And, U.S. pollution rises",
-      "category": "World",
-      "summary": "The Justice Department's \"likely\" noncitizen voter list in California is \"unreliable,\" according to officials. And, the United Nations reports a major increase in U.S. climate pollution.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/21/g-s1-149068/up-first-newsletter-california-voter-roll-united-nations-emissions-us-crimes-ukraine-russia",
-      "published_at": "2026-10-21T11:46:59Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "27d291fae53c41f755",
-      "title": "\"AI is a technofascist, anti-human and anti-art project\", says creator of lefty tech satire Future? No Thanks!, before explaining why he used it anyway",
-      "category": "Gaming",
-      "summary": "Prominent capital-p Political game developer and left-wing academic Paulo \"Molleindustria\" Pedercini has revealed that he used generative AI tools for aspects of recent ecosocialist satire Future? No Thanks! .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/ai-is-a-technofascist-anti-human-and-anti-art-project-says-creator-of-lefty-tech-satire-future-no-thanks-before-explaining-why-he-used-it-anyway",
-      "published_at": "2026-10-21T11:42:31Z",
-      "image_url": "https://assetsio.gnwcdn.com/futurenothanks_XVnmkEK.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -5892,7 +5892,7 @@
     {
       "name": "Dude Perfect · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "How Ridiculous · YouTube",
@@ -5901,8 +5901,8 @@
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "items": 8,
+      "error": null
     },
     {
       "name": "MrBeast Gaming · YouTube",
