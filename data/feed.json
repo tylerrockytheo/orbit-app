@@ -1,7 +1,313 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T22:40:06.660330Z",
+  "generated_at": "2026-10-23T00:59:55.740423Z",
   "posts": [
+    {
+      "id": "7407e651b7f2408972",
+      "title": "‘Clayface’ Aims to Give DC Studios a Box Office Win as ‘You Can See Everything’ Stays Strong",
+      "category": "Entertainment",
+      "summary": "Also debuting this weekend are 'Wildwood,' 'Klara and the Sun,' 'Wicker' and 'Ali G: Who Iz I?'",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-box-office-you-can-see-everything-wildwood-klara-1236738669/",
+      "published_at": "2026-10-23T00:52:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "7f55c1f6f254ae01d5",
+      "title": "Looksmaxxing Influencer Clavicular Pleads Not Guilty to Rape Charge",
+      "category": "Entertainment",
+      "summary": "The manosphere influencer, whose real name is Braden Peters, faces charges related to raping a teenager in Massachusetts.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/looksmaxxing-clavicular-pleads-not-guilty-rape-charge-1236738752/",
+      "published_at": "2026-10-23T00:48:25Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "be4869d0e68da4b624",
+      "title": "Peter Chan Rules Out AI-Generated Content, Says Feature Films Will Survive the Rise of Vertical Dramas",
+      "category": "Entertainment",
+      "summary": "Acclaimed Asian filmmaker Peter Chan Ho-sun, director of “Comrades: Almost a Love Story” and “The Warlords,” said he will probably use AI in his filmmaking but “definitely not AIGC,” or AI-generated content, and that the two-hour feature will hold its ground against short-form and vertical dramas, at least in his lifetime.…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/festivals/peter-chan-rules-out-ai-generated-content-feature-films-survival-1236922012/",
+      "published_at": "2026-10-23T00:27:55Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/Peter-Chan.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8f9450b755bb6c9348",
+      "title": "‘Ebenezer’ Creates a Real Venmo Profile for Scrooge, Which Hands Out Money and Accepts It, Too",
+      "category": "Entertainment",
+      "summary": "The surly miser Ebenezer Scrooge is no longer just a fictional character haunting the holidays — he’s on Venmo. To promote Ti West’s upcoming adaptation of the notorious character in the film “Ebenezer,” starring Johnny Depp in the titular role, the team created a Venmo account for Ebenezer Scrooge.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/ebenezer-venmo-real-johnny-depp-scrooge-movie-1236921820/",
+      "published_at": "2026-10-23T00:15:34Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/07/EBZR-02234R.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "3c444a7c41bd86e6cf",
+      "title": "Raye wins the Mercury Prize with This Music May Contain Hope",
+      "category": "Entertainment",
+      "summary": "The pop star beat artists like Paul McCartney, Suede and Jade Thirlwall to lift the £25,000 prize.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T00:14:08Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8744/live/0f29cde0-ce66-11f1-ab75-d744dbb6f3f7.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "1d39234643891d1660",
+      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "category": "World",
+      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T00:10:46Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "7782d9bd63cd2e96d1",
+      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "category": "Entertainment",
+      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T00:10:46Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "ea2f376574158c1eb6",
+      "title": "Oscars Predictions 2027: Is ‘You Can See Everything’ the Film That Can Take Down ‘The Odyssey’?",
+      "category": "Entertainment",
+      "summary": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards editor Clayton Davis.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/lists/2027-oscars-predictions/",
+      "published_at": "2026-10-23T00:10:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/09/You-Can-See-everything.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "9915764f33fc4ff919",
+      "title": "Amber warning in place as Storm Austen hits parts of UK",
+      "category": "Science",
+      "summary": "Disruption to travel is likely as the season's first named storm brings a swathe of powerful winds to south-west England on Friday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/weather/articles/cq8ezy256e42o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T00:08:43Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2e2/live/63d08560-ce33-11f1-a86f-f78305ec9987.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "960e54ca6f4cea3e08",
+      "title": "Raye on the “best birthday present” of her Mercury Prize win: “I just feel seriously seen”",
+      "category": "Music",
+      "summary": "Check out what Raye had to say in the winners room about perseverance, mental health and staying independent after she scored Mercury Prize gold for 'This Music May Contain Hope' The post Raye on the “best birthday present” of her Mercury Prize win: “I just feel seriously seen” appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/raye-mercury-prize-interview-winners-room-music-hope-birthday-royal-albert-hall-3973906?utm_source=rss&utm_medium=rss&utm_campaign=raye-mercury-prize-interview-winners-room-music-hope-birthday-royal-albert-hall",
+      "published_at": "2026-10-23T00:03:04Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/RAYE_MERCURY_1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "adec2dfcd2b9063487",
+      "title": "Michael Gray, Star of ‘Shazam!’ TV Series, Dies at 75",
+      "category": "Entertainment",
+      "summary": "Michael Gray, the star of the 1970s “Shazam!” television series, died on Friday in Palm Desert from natural causes. He was 75. Gray first got his break in television in 1972 when he was cast in NBC’s “The Little People” alongside Brian Keith and Shelly Fabares. Early in his career, he held several supporting roles […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/people-news/michael-gray-dead-shazam-1236921937/",
+      "published_at": "2026-10-22T23:37:46Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1326039.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "22322315d66b6c7082",
+      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+      "category": "World",
+      "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T23:16:16Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6bf/live/fa5ffcb0-ce31-11f1-bc2e-018d645d8d21.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "6e9d1975873185d405",
+      "title": "Grid operator says lights will stay on this winter after concerns",
+      "category": "Science",
+      "summary": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T23:04:38Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "3c10bc57cd9adee734",
+      "title": "8 Cyberpunk 2077 Replay Ideas to Make Night City Feel Brand New",
+      "category": "Gaming",
+      "summary": "From a dual-revolver cowboy to a netrunner who never fires a gun, these eight Cyberpunk 2077 replay ideas make Night City feel new again",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Polygon Gaming",
+      "source_url": "https://www.polygon.com/cyberpunk-2077-replay-ideas/",
+      "published_at": "2026-10-22T23:00:19Z",
+      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22172943/lelfskpwy4slftl3qdeb__1_.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "b12bb184a456eef453",
+      "title": "CBS Premiere Week Multiplatform Ratings See Big Year-Over-Year Increases (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "CBS kicked off its fall 2026 TV season the week of Oct. 4 with a strong performance for its new and returning series, according to Nielsen live+7 multiplatform data. Per that data, CBS’ premiere week averaged 8.63 million viewers — up 14% from its premiere week in 2025 (the week of Oct. 12). Leading the […]",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety TV",
+      "source_url": "https://variety.com/2026/tv/news/cbs-premiere-week-multiplatform-ratings-increases-1236921862/",
+      "published_at": "2026-10-22T23:00:00Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/3215983_YMAR_S2_0978bc.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "738dd6bacc8bdfa8d0",
+      "title": "Michael Gray, Former Teen Idol and Star of ‘Shazam!,’ Dies at 75",
+      "category": "Entertainment",
+      "summary": "After dating Marcia on ‘The Brady Bunch,’ he spent three seasons turning into Captain Marvel on Saturday mornings.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/michael-gray-dead-shazam-1236738709/",
+      "published_at": "2026-10-22T22:59:26Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "8a9c39800524fa91f9",
+      "title": "Raye wins the Mercury Prize 2026: “Hope is just something that we all need. Music is medicine”",
+      "category": "Music",
+      "summary": "The ceremony took place in Newcastle tonight (Thursday October 22) with 'This Music May Contain Hope' beating records by the likes of Olivia Dean, Jade, Suede and more The post Raye wins the Mercury Prize 2026: “Hope is just something that we all need. Music is medicine” appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/news/music/mercury-prize-2026-winner-announced-raye-speech-performance-watch-3973848?utm_source=rss&utm_medium=rss&utm_campaign=mercury-prize-2026-winner-announced-raye-speech-performance-watch",
+      "published_at": "2026-10-22T22:30:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/RAYE_MERCURY_3.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "fd1c65534c7a7c3143",
+      "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+      "category": "World",
+      "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T22:27:53Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
     {
       "id": "913e521e2bf7c352da",
       "title": "Streaming Ratings: ‘Carrie’ Has a Bloody Good Opening Week",
@@ -157,7 +463,7 @@
     },
     {
       "id": "8c78e4c3e0fac7c7bd",
-      "title": "Trump says Musk has restored Ukraine's access after Starlink row",
+      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
       "category": "World",
       "summary": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
       "summary_status": "publisher_excerpt",
@@ -1462,40 +1768,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Music"
-      ]
-    },
-    {
-      "id": "1d39234643891d1660",
-      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "category": "World",
-      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T17:14:04Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "7782d9bd63cd2e96d1",
-      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "category": "Entertainment",
-      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T17:14:04Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -3335,159 +3607,6 @@
       ]
     },
     {
-      "id": "09da65c3645c071b82",
-      "title": "Grandparent hugging consent ad pulled after criticism",
-      "category": "World",
-      "summary": "Jim O'Callaghan described the video as \"inappropriate and demeaning to grandparents\".",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/c83vqn6zwrx0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T11:58:34Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ce2/live/10986490-ce0f-11f1-9f55-cdc56e9c248c.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "5a15d51f875615aea5",
-      "title": "Mark Ronson, Jessie Reyez, Jorja Smith and More Celebrate Amy Winehouse for the Musical Genius She Was at ‘Back to Black’ 20th Anniversary Show: Concert Review",
-      "category": "Music",
-      "summary": "At the “Back to Black” 20th anniversary concert in London on Wednesday night, Amy Winehouse’s essence was everywhere. The eager crowd lined up outside was full of winged eyeliner, leopard print, big hair and cigarette smoke; nary a vape in sight.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Music",
-      "source_url": "https://variety.com/2026/music/global/mark-ronson-amy-winehouse-back-to-black-20-tribute-show-1236919513/",
-      "published_at": "2026-10-22T11:34:37Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Back-To-Black-20-CREDIT_-Samir-Hussein_Universal-Music-Recordings_Amy-Winehouse-Estate-DSC_4212_PqvwW9et.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "b9669c0a9e99f7ac76",
-      "title": "\"We made a very difficult decision\": Australian indie showcase Freeplay reject antisemitism claims after delisting a Jewish sponsor who was allegedly accused of being a \"zionist\"",
-      "category": "Gaming",
-      "summary": "The organisers of Australian independent games showcase Parallels have rejected accusations of \"prejudice\" and say they've received \"violent threats\", after a Jewish developer had her sponsorship of the event refunded. The developer in question is Wren Brier, creative director at Unpacking developers Witch Beam.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/we-made-a-very-difficult-decision-australian-indie-showcase-freeplay-reject-antisemitism-claims-after-delisting-a-jewish-sponsor-who-was-allegedly-accused-of-being-a-zionist",
-      "published_at": "2026-10-22T11:30:06Z",
-      "image_url": "https://assetsio.gnwcdn.com/menorah-in-unpacking.png?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6e1f2eab7b24415a43",
-      "title": "Gyakusatsu Kigen Manga Gets Animated Promotional Video",
-      "category": "Anime",
-      "summary": "Sōma Saitō narrates video storyboarded by My Happy Marriage director Takehiro Kubota",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/gyakusatsu-kigen-manga-gets-animated-promotional-video/.243087",
-      "published_at": "2026-10-22T11:29:03Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "c40e2b1950752d3603",
-      "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
-      "category": "World",
-      "summary": "The U.S. and Israel are planning for a possible post-elections attack on Iran, an anonymous source tells NPR. And, Elon Musk considers merging his companies SpaceX and Tesla.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
-      "published_at": "2026-10-22T11:28:24Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "8332af0e7e6f93e965",
-      "title": "At least four dead after storm brings flooding to southern France",
-      "category": "World",
-      "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T11:23:16Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "c597917ba0ccf076d9",
-      "title": "At least four dead after storm brings flooding to southern France",
-      "category": "Science",
-      "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T11:23:16Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba84/live/388ad750-cdf9-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "3fba85fe3ffc05f953",
-      "title": "Watch Mark Ronson, Salaam Remi, Corinne Bailey Rae, Jessie Reyez and more celebrate 20 years of ‘Back To Black’ with Amy Winehouse’s band at London’s Roundhouse",
-      "category": "Music",
-      "summary": "The night also featured performances from FLO, Jorja Smith and more The post Watch Mark Ronson, Salaam Remi, Corinne Bailey Rae, Jessie Reyez and more celebrate 20 years of ‘Back To Black’ with Amy Winehouse’s band at London’s Roundhouse appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse-3973831?utm_source=rss&utm_medium=rss&utm_campaign=watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse",
-      "published_at": "2026-10-22T11:22:06Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/amy-winehouse-roundhouse-gig@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "e9685134f423f62f41",
-      "title": "Bless TV Anime Casts Tarusuke Shingaki; Crunchyroll to Stream Series",
-      "category": "Anime",
-      "summary": "Shingaki voices Hikaru Oya in series debuting in January",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/bless-tv-anime-casts-tarusuke-shingaki-crunchyroll-to-stream-series/.243105",
-      "published_at": "2026-10-22T11:17:25Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
       "id": "79437be986dbc0204a",
       "title": "Corgi Always Gets Front-Row Seat To Dolphins Leaping Out Of The Water | The Dodo",
       "category": "Animals",
@@ -3502,125 +3621,6 @@
       "youtube_channel_id": "UCINb0wqPz-A0dV9nARjJlOQ",
       "topics": [
         "Animals"
-      ]
-    },
-    {
-      "id": "9a58d4718ebc99e864",
-      "title": "Crunchyroll Reveals English Dub Cast, Staff Members, for The World's Strongest Witch Anime",
-      "category": "Anime",
-      "summary": "1st English dub episode streamed on Wednesday",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/crunchyroll-reveals-english-dub-cast-staff-members-for-the-world-strongest-witch-anime/.243103",
-      "published_at": "2026-10-22T10:56:11Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "4c19be633a83de7e3f",
-      "title": "Game Developer enish Announces Is It Wrong to Try to Pick Up Girls in a Dungeon? Frontier Zero Game for Release in 2027",
-      "category": "Anime",
-      "summary": "New game with original story cooperation by creator Fujino Ōmori planned for release on iOS, Android, PC inside, outside Japan",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/game-developer-enish-announces-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-frontier-zero-game-/.243104",
-      "published_at": "2026-10-22T10:35:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "30b7996a06a024e57d",
-      "title": "Two storms in two days as Austen and Boelo target UK",
-      "category": "Science",
-      "summary": "The Met Office has named a new storm, Boelo, which is set to bring another round of stormy weather to the UK over the weekend.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/weather/articles/ckx2qpy2d13ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T10:34:17Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2ef/live/525eab10-cdfa-11f1-97f7-a7674fb562de.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
-      ]
-    },
-    {
-      "id": "63a8b638172bb9fd7e",
-      "title": "While EA shuts down BioWare, developers of The Sims, Skate, and Battlefield say they've also lost their jobs",
-      "category": "Gaming",
-      "summary": "Apparently the cliché \"when it rains, it pours\" also applies to corporate feculence. In addition to shutting down storied RPG makers BioWare , EA are reportedly cutting staff at The Sims developers Maxis, as well as Skate studio Full Circle and Battlefield 6 co-devs Ripple Effect. Read more",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/while-ea-shuts-down-bioware-developers-of-the-sims-skate-and-battlefield-say-theyve-also-lost-their-jobs",
-      "published_at": "2026-10-22T10:30:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/the-sims-4_0002_Layer-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "d9dcfd2f854a4986ec",
-      "title": "Legendary video game studio BioWare closes after 31 years",
-      "category": "Entertainment",
-      "summary": "The influential studio that made Mass Effect and Dragon Age announces it is closing its doors.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq8jzrxlkmwmo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T10:25:33Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fa8/live/83514c10-cdf9-11f1-9a39-31b474234113.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "6198ab744bb3756f22",
-      "title": "‘Galileo,’ Toplining Elio Germano, Boarded by Fandango, Kicking Off Sales at Rome’s MIA Market (EXCLUSIVE)",
-      "category": "Entertainment",
-      "summary": "Fandango Sales has taken all international rights to “Galileo,” a new film from Italo-Brit director Roan Johnson (“Rider”), toplining Italian A-list actor Elio Germano as pioneering scientist Galileo Galilei, who famously stood trial before the Roman inquisition.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/film/global/galileo-elio-germano-fandango-rome-mia-market-1236918891/",
-      "published_at": "2026-10-22T10:24:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/galileo_gg10-63-1-1000.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "f9597bcb79263f4a4f",
-      "title": "Spotify Hits 306M Premium Subs, Says It “Actually Stands to Thrive” in the Age of AI Agents",
-      "category": "Entertainment",
-      "summary": "The audio streaming giant reported its third-quarter results.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/business/business-news/spotify-q3-2026-earnings-report-subscribers-ai-agent-age-1236737263/",
-      "published_at": "2026-10-22T10:23:44Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
       ]
     },
     {
@@ -5861,68 +5861,68 @@
     },
     {
       "name": "IGN · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Google Developers · YouTube",
-      "items": 7,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Rick Beato · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TED · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Wolters World · YouTube",
-      "items": 6,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "The Dodo · YouTube",
-      "items": 12,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dude Perfect · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "How Ridiculous · YouTube",
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "MrBeast Gaming · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Ryan Trahan · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Mark Rober · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "TeamFourStar · YouTube",
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Dragon Ball Official (curated)",
