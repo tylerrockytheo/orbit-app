@@ -1,7 +1,313 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T00:59:55.740423Z",
+  "generated_at": "2026-10-23T05:54:50.916291Z",
   "posts": [
+    {
+      "id": "e9d7641644f62c33c6",
+      "title": "Matilda celebrates 15 years as West End success story",
+      "category": "Entertainment",
+      "summary": "The musical is seen by more than 12 million people worldwide after starting in Stratford-upon-Avon.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/c84g1zxeg9r4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T05:19:28Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b29/live/6a80edc0-cd78-11f1-a428-3f9d1bf6cc8b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "22714b971aee698b9d",
+      "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+      "category": "World",
+      "summary": "The quake hit a mountainous, sparsely-populated area in what China calls the Tibet Autonomous Region.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T05:16:37Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9bb/live/35523df0-ce6f-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "c0139c6a400678b130",
+      "title": "Heavy rain warning as Storm Austen sweeps across Scotland",
+      "category": "Science",
+      "summary": "The Met Office has issued a yellow warning for rain across Scotland on Friday, followed by a wind warning on Saturday.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwkgjz3dpyj6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T05:12:55Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222f/live/188b1970-ce2f-11f1-9f18-490cec60aa0f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "8d142eede42656d44a",
+      "title": "What books had people turning pages and turning up the volume this year?",
+      "category": "Entertainment",
+      "summary": "Thrillers, self-help books and Harry Potter were the big winners for readers from Libraries NI data.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqe8rgp8g1k2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T05:12:20Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a66d/live/223f7b50-ce2a-11f1-bc2e-018d645d8d21.png",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e3e563858f2b2cb585",
+      "title": "'Shock' of first England farmer hit by bird flu this season",
+      "category": "Science",
+      "summary": "The first farmer in England hit by bird flu this season tells of the \"emotional roller coaster\" of losing 32,000 hens.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/articles/crpdg235g76no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T05:10:30Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a2a8/live/b87a8580-ce32-11f1-9f18-490cec60aa0f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "12ebe9f9427ea78a4b",
+      "title": "Blue Planet III: Moment octopus escapes death after hunt gone wrong",
+      "category": "Science",
+      "summary": "The sequence is part of the latest Blue Planet series from Sir David Attenborough.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Science",
+      "source_url": "https://www.bbc.co.uk/news/videos/ck240lmvqjyjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T05:05:03Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1339/live/77d8ee10-ce35-11f1-a64c-550be9e3c66b.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "8ec4bb11d37e2e0ae3",
+      "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
+      "category": "World",
+      "summary": "Officials say they both travelled through Entebbe International Airport on 3 October.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T04:54:25Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc0c/live/cdfdf700-ce98-11f1-a6ca-3fa3d92134e2.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "e38524ea9fa4a3c9c6",
+      "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
+      "category": "Science",
+      "summary": "APOD Science APOD APOD: 2026 October 23 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+      "published_at": "2026-10-23T04:05:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "c6399ba93e52914765",
+      "title": "El Niño Then and Now",
+      "category": "Science",
+      "summary": "A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+      "published_at": "2026-10-23T04:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Science"
+      ]
+    },
+    {
+      "id": "31c934eabb8850e7e1",
+      "title": "Biographies of John Williams and Bernard Herrmann Among Honored Works in ASCAP’s Awards for Music Writing and Broadcasts",
+      "category": "Entertainment",
+      "summary": "The winners of annual awards given out by ASCAP for the year’s most outstanding music writing and broadcasts include biographies of film composers John Williams and Bernard Herrmann, as well as a documentary about cult R&B artist Swamp Dogg, liner notes for an archival release from Frank Zappa, Rick Beato’s YouTube podcasts,…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/music/news/ascap-writing-awards-biographies-john-williams-bernard-herrmann-1236922092/",
+      "published_at": "2026-10-23T03:01:11Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-22-Oct-2026-07-24-PM-8956.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "e58189bd8d30445d0d",
+      "title": "Biographies of John Williams and Bernard Herrmann Among Honored Works in ASCAP’s Awards for Music Writing and Broadcasts",
+      "category": "Music",
+      "summary": "The winners of annual awards given out by ASCAP for the year’s most outstanding music writing and broadcasts include biographies of film composers John Williams and Bernard Herrmann, as well as a documentary about cult R&B artist Swamp Dogg, liner notes for an archival release from Frank Zappa, Rick Beato’s YouTube podcasts,…",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Music",
+      "source_url": "https://variety.com/2026/music/news/ascap-writing-awards-biographies-john-williams-bernard-herrmann-1236922092/",
+      "published_at": "2026-10-23T03:01:11Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/MixCollage-22-Oct-2026-07-24-PM-8956.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "7ec67d9cb360611b5a",
+      "title": "Hideo Kojima Reprises Cyberpunk 2077 Character in Edgerunners 2",
+      "category": "Anime",
+      "summary": "Kojima voices Hideyoshi Oshima in video game & anime",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/interest/2026-10-22/hideo-kojima-reprises-cyberpunk-2077-character-in-edgerunners-2/.243062",
+      "published_at": "2026-10-23T03:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "2061906c7b551763ad",
+      "title": "‘Nobody Wants This’ Creator Erin Foster Reacts to Adam Brody Saying He Supports “A Free Palestine”: “It’s Complicated”",
+      "category": "Entertainment",
+      "summary": "In an interview with GQ, the actor previously said of the Israel-Gaza war, “Put me down as thinking it’s a genocide. Put me down as wanting a free Palestine.”",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/nobody-wants-this-erin-foster-adam-brody-support-free-palestine-1236738796/",
+      "published_at": "2026-10-23T02:53:34Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "2be164e506fe2e3c9c",
+      "title": "Richard Gadd, Bill Camp and Ray McKinnon Join Michael Keaton-Directed Western ‘Rode to Ruin’ (EXCLUSIVE)",
+      "category": "Entertainment",
+      "summary": "Emmy Award-winning actor and writer Richard Gadd, multi-Emmy and SAG nominated actor Bill Camp and Oscar-nominated filmmaker and actor Ray McKinnon are joining “Rode to Ruin,” a Western thriller directed by Michael Keaton.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Variety Film",
+      "source_url": "https://variety.com/2026/film/news/richard-gadd-bill-camp-ray-mckinnon-rode-to-ruin-1236922088/",
+      "published_at": "2026-10-23T02:22:45Z",
+      "image_url": "https://variety.com/wp-content/uploads/2026/10/bill-camp-1000x667-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "58911262bda4ab365c",
+      "title": "Frequent Ghibli Collaborator Joe Hisaishi Named LA Philharmonic's Composer-in-Residence",
+      "category": "Anime",
+      "summary": "Orchestra's new post is part of 5-year artistic partnership, involves composing new works",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/frequent-ghibli-collaborator-joe-hisaishi-named-la-philharmonic-composer-in-residence/.243119",
+      "published_at": "2026-10-23T01:56:47Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
+      "id": "1d39234643891d1660",
+      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "category": "World",
+      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC World",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T01:38:44Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "World"
+      ]
+    },
+    {
+      "id": "7782d9bd63cd2e96d1",
+      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "category": "Entertainment",
+      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T01:38:44Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "303ac0b7723f095dd6",
+      "title": "Chrishell Stause Says She Won’t Be Watching ‘Selling Sunset’ Season 10, But Her Lawyers Will Be",
+      "category": "Entertainment",
+      "summary": "\"Don't defame me,\" Stause said. \"I will sue you.\"",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/tv/tv-news/chrishell-stause-not-watch-selling-sunset-season-10-lawyers-will-1236738743/",
+      "published_at": "2026-10-23T01:04:32Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
     {
       "id": "7407e651b7f2408972",
       "title": "‘Clayface’ Aims to Give DC Studios a Box Office Win as ‘You Can See Everything’ Stays Strong",
@@ -57,7 +363,7 @@
       "id": "8f9450b755bb6c9348",
       "title": "‘Ebenezer’ Creates a Real Venmo Profile for Scrooge, Which Hands Out Money and Accepts It, Too",
       "category": "Entertainment",
-      "summary": "The surly miser Ebenezer Scrooge is no longer just a fictional character haunting the holidays — he’s on Venmo. To promote Ti West’s upcoming adaptation of the notorious character in the film “Ebenezer,” starring Johnny Depp in the titular role, the team created a Venmo account for Ebenezer Scrooge.",
+      "summary": "The surly miser Ebenezer Scrooge is no longer just a fictional character haunting the holidays — he’s on Venmo. To promote Ti West’s upcoming adaptation of the notorious character in the film “Ebenezer,” starring Johnny Depp in the titular role, the Paramount promotional team created a Venmo account for Ebenezer Scrooge.",
       "summary_status": "publisher_excerpt",
       "source_name": "Variety Film",
       "source_url": "https://variety.com/2026/film/news/ebenezer-venmo-real-johnny-depp-scrooge-movie-1236921820/",
@@ -80,40 +386,6 @@
       "source_url": "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-23T00:14:08Z",
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8744/live/0f29cde0-ce66-11f1-ab75-d744dbb6f3f7.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "1d39234643891d1660",
-      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "category": "World",
-      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-23T00:10:46Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "7782d9bd63cd2e96d1",
-      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "category": "Entertainment",
-      "summary": "Trump is suing the BBC over an episode of Panorama that edited together two different sections of a speech he gave in 2021.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Entertainment",
-      "source_url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-23T00:10:46Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf5/live/f171dec0-ce3b-11f1-a86f-f78305ec9987.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -224,6 +496,40 @@
       ]
     },
     {
+      "id": "6d9105482cf85b0c99",
+      "title": "Today’s Wordle answer and hints for #1942 on October 23",
+      "category": "Music",
+      "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1942 on October 23 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+      "published_at": "2026-10-22T23:01:34Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "2c5333a2b14994ffbc",
+      "title": "‘Connections’ answers and hints for today, October 23",
+      "category": "Music",
+      "summary": "Here are hints, groups and answers for 'Connections' #1229 The post ‘Connections’ answers and hints for today, October 23 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+      "published_at": "2026-10-22T23:00:27Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2023/12/NYT-Connections-answers-and-hints.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
       "id": "3c10bc57cd9adee734",
       "title": "8 Cyberpunk 2077 Replay Ideas to Make Night City Feel Brand New",
       "category": "Gaming",
@@ -238,6 +544,40 @@
       "youtube_channel_id": null,
       "topics": [
         "Gaming"
+      ]
+    },
+    {
+      "id": "82c04a1405d8c602dc",
+      "title": "Globle answer today – here’s the answer and hints for October 23",
+      "category": "Music",
+      "summary": "Where in the world? The post Globle answer today – here’s the answer and hints for October 23 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991?utm_source=rss&utm_medium=rss&utm_campaign=globle-hint-answer-today",
+      "published_at": "2026-10-22T23:00:17Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2024/01/globle@2000x1270.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
+      ]
+    },
+    {
+      "id": "468f1a19c428ae0e24",
+      "title": "Framed answer today – here’s the solution for October 23",
+      "category": "Music",
+      "summary": "You’ve been framed The post Framed answer today – here’s the solution for October 23 appeared first on NME .",
+      "summary_status": "publisher_excerpt",
+      "source_name": "NME Music",
+      "source_url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
+      "published_at": "2026-10-22T23:00:09Z",
+      "image_url": "https://www.nme.com/wp-content/uploads/2022/03/Framed-header-1.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Music"
       ]
     },
     {
@@ -267,6 +607,23 @@
       "source_url": "https://www.hollywoodreporter.com/tv/tv-news/michael-gray-dead-shazam-1236738709/",
       "published_at": "2026-10-22T22:59:26Z",
       "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "b762ee808fd2824bba",
+      "title": "Celebrity Traitors - paranoia deepens as traitor behaviour splits opinion",
+      "category": "Entertainment",
+      "summary": "The murder in plain sight victim was revealed ahead of another difficult round table.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmqxn3133rdwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T22:48:44Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e13/live/a9afe5b0-ce62-11f1-9b37-f555b2834a71.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -408,23 +765,6 @@
       "youtube_channel_id": null,
       "topics": [
         "Anime"
-      ]
-    },
-    {
-      "id": "c0139c6a400678b130",
-      "title": "Heavy rain warning as Storm Austen sweeps across Scotland",
-      "category": "Science",
-      "summary": "The Met Office has issued a yellow warning for rain across most of central and eastern Scotland on Friday.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC Science",
-      "source_url": "https://www.bbc.co.uk/news/articles/cwkgjz3dpyj6o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T21:59:43Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222f/live/188b1970-ce2f-11f1-9f18-490cec60aa0f.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Science"
       ]
     },
     {
@@ -964,6 +1304,23 @@
       "source_url": "https://variety.com/2026/film/global/morelia-film-festival-black-shine-aftermath-mining-tragedy-1236918375/",
       "published_at": "2026-10-22T20:23:57Z",
       "image_url": "https://variety.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-19.53.43.jpeg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
+      "id": "105a33db4d1a1dfae2",
+      "title": "See the Pokémon cards that made a retired decorator a millionaire",
+      "category": "Entertainment",
+      "summary": "A man from Surrey is now a millionaire after selling a collection of Pokémon cards at auction.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/videos/cmvg9v932z5vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T20:13:24Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab03/live/bd8fd210-ce54-11f1-a166-e30097724580.jpg",
       "media_type": "article",
       "video_id": null,
       "youtube_channel_id": null,
@@ -2706,6 +3063,23 @@
       ]
     },
     {
+      "id": "af1e282f4ff637c413",
+      "title": "Exclusive: Nakama Press Licenses Uoto's 100 Meters, Buichi Terasawa's Goku Midnight Eye Manga for Release in 2027",
+      "category": "Anime",
+      "summary": "Nakama Press also revealed new release date for Samurai Pizza Cats comic",
+      "summary_status": "publisher_excerpt",
+      "source_name": "Anime News Network",
+      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/exclusive-nakama-press-licenses-uoto-100-meters-buichi-terasawa-goku-midnight-eye-manga-for-release-/.243056",
+      "published_at": "2026-10-22T15:00:00Z",
+      "image_url": null,
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Anime"
+      ]
+    },
+    {
       "id": "88a4e5b2407fd891af",
       "title": "Epic Games Store Makes 2 PC Games Completely Free This Week",
       "category": "Gaming",
@@ -3029,6 +3403,23 @@
       ]
     },
     {
+      "id": "70a52deef0dd52a450",
+      "title": "Prime Minister swaps dispatch box for Gogglebox",
+      "category": "Entertainment",
+      "summary": "Andy Burnham is taking part in a Stand Up 2 Cancer Gogglebox special with his friend Steve Rotheram.",
+      "summary_status": "publisher_excerpt",
+      "source_name": "BBC Entertainment",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm3wv9ye603xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T14:07:49Z",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8efd/live/557b9e80-ce26-11f1-9f18-490cec60aa0f.jpg",
+      "media_type": "article",
+      "video_id": null,
+      "youtube_channel_id": null,
+      "topics": [
+        "Entertainment"
+      ]
+    },
+    {
       "id": "e7abbb7c72eb45fdf9",
       "title": "First Death Marker on the Trail of Death in Rochester, Indiana",
       "category": "Travel",
@@ -3131,57 +3522,6 @@
       ]
     },
     {
-      "id": "6d3d9d564873dbcd3f",
-      "title": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates",
-      "category": "World",
-      "summary": "The Iguazú Falls span more than a mile across both countries. A rain-soaked October, which scientists link to the Super El Niño, has sent near-record volumes of water surging over the towering cliffs.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NPR World",
-      "source_url": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino",
-      "published_at": "2026-10-22T13:50:55Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "a06e75767baa8b8eb8",
-      "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-      "category": "World",
-      "summary": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T13:46:33Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e3c/live/e7d9d390-cdf5-11f1-a64c-550be9e3c66b.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "f37674b6e6a8223a94",
-      "title": "Ben Silverman Still Doesn’t Want a Job — But He’s Busier Than Ever",
-      "category": "Entertainment",
-      "summary": "He walked away from NBC with a stomachache and never looked back. Now his indie shop is juggling Fox’s ‘Best Medicine,’ a Ben Stiller-Benicio Del Toro comedy and a buzzy doc on Sam Bankman-Fried.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/business/business-news/ben-silverman-propagate-tv-docs-1236737224/",
-      "published_at": "2026-10-22T13:45:45Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "5730b1d228d8d72038",
       "title": "Final Fantasy Resonance - Official Launch Trailer",
       "category": "Entertainment",
@@ -3216,57 +3556,6 @@
       ]
     },
     {
-      "id": "926216eae9962388cf",
-      "title": "How to get electronic sensors in DMZ in Modern Warfare 4",
-      "category": "Gaming",
-      "summary": "This guide explains where to find electronic sensors in Modern Warfare 4's DMZ mode, as they're needed for various upgrades.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/mw4-modern-warfare-4-dmz-electronic-sensors-how-to-get/",
-      "published_at": "2026-10-22T13:41:11Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/modern-warfare-4-electronic-sensors-header.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "4731188efa83d3ac81",
-      "title": "How to increase stash size in DMZ in Modern Warfare 4",
-      "category": "Gaming",
-      "summary": "This guide explains how to upgrade your stash and increase your storage space in DMZ in Modern Warfare 4.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/mw4-modern-warfare-4-dmz-stash-size-increase-upgrade-how-to/",
-      "published_at": "2026-10-22T13:40:54Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/modern-warfare-4-increase-stash-size-header.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "dc8835086194cd0386",
-      "title": "Egyptian Screenwriter Mariam Naoum on the Struggle for Arab Series to Find Buyers: ‘We’re Suffocating Inside’",
-      "category": "Entertainment",
-      "summary": "Seasoned Egyptian screenwriter and producer Mariam Naoum sees no shortage of creative talent in Arab television. The harder question is how to give that talent the time, development and routes to market it needs to thrive and build lasting careers.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/global/el-gouna-cinegouna-series-arab-tv-mariam-naoum-1236919614/",
-      "published_at": "2026-10-22T13:40:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2026/10/Mariam-Naoum.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
       "id": "8f1c6e9f01f5dcf6cb",
       "title": "Cyberpunk 2077 - Official Broken Dreams: Edgerunners 2 Update Launch Trailer",
       "category": "Entertainment",
@@ -3281,159 +3570,6 @@
       "youtube_channel_id": "UCKy1dAqELo0zrOtPkf0eTMw",
       "topics": [
         "Entertainment"
-      ]
-    },
-    {
-      "id": "52990c5b7bf0d5134e",
-      "title": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to move out",
-      "category": "World",
-      "summary": "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cm75p1kxryl5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T13:36:21Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/972d/live/a8e0d8b0-ce1c-11f1-906e-e3128518d85d.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "e917ceb2d5e0a86e8b",
-      "title": "\"It just seemed arbitrary, and not very smart\": EA was never a responsible owner for Bioware, but the developer never seemed to learn from their mistakes",
-      "category": "Gaming",
-      "summary": "19 years after buying Bioware, Electronic Arts have closed the veteran RPG developer . But as saddening as this is, bringing an end to series such as Dragon Age and Mass Effect , EA have never had an easy relationship with the studio.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/it-just-seemed-arbitrary-and-not-very-smart-ea-was-never-a-responsible-owner-for-bioware-but-the-developer-never-seemed-to-learn-from-their-mistakes",
-      "published_at": "2026-10-22T13:33:16Z",
-      "image_url": "https://assetsio.gnwcdn.com/dragon-age-remasters-ea-said-no-mark-darrah-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "459be4d5803e2fdd02",
-      "title": "‘GTA 6’ predicted to cause 1.5million Americans to take sick day, costing companies $1billion",
-      "category": "Music",
-      "summary": "The national output is expected to drop by 2 per cent The post ‘GTA 6’ predicted to cause 1.5million Americans to take sick day, costing companies $1billion appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-flu-sick-days-million-release-date-3973856?utm_source=rss&utm_medium=rss&utm_campaign=grand-theft-auto-6-flu-sick-days-million-release-date",
-      "published_at": "2026-10-22T13:33:08Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/09/Grand-Theft-Auto-6-.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "50d36dcb81e7ef8d02",
-      "title": "Xbox Game Pass 2026: what’s new and what’s worth playing?",
-      "category": "Music",
-      "summary": "Subscribers need to check out these titles immediately The post Xbox Game Pass 2026: what’s new and what’s worth playing? appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/features/gaming-features/xbox-game-pass-2026-new-releases-best-titles-co-op-single-player-3924493?utm_source=rss&utm_medium=rss&utm_campaign=xbox-game-pass-2026-new-releases-best-titles-co-op-single-player",
-      "published_at": "2026-10-22T13:30:18Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2025/10/Xbox-Game-Pass-2025.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "572a16ee41a03ef014",
-      "title": "Xbox Officially Confirms Cloud Gaming’s New Pay-As-You-Go Prices",
-      "category": "Gaming",
-      "summary": "In November, Xbox will sell playtime packs that unlock ad-free streaming on Xbox Cloud Gaming beyond Game Pass' time limits.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/xbox-cloud-gaming-playtime-pack-prices/",
-      "published_at": "2026-10-22T13:30:06Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/forza-horizon-6-rainbow-run-speed-trap.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "6337f88e662dfa3877",
-      "title": "Magical Girl Raising Project Restart ‒ Episodes 1-3",
-      "category": "Anime",
-      "summary": "When it comes down to it, Magical Girl Raising Project Restart is built around one thing: unintended consequences.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/magical-girl-raising-project-restart/episodes-1-3/.243090",
-      "published_at": "2026-10-22T13:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "a12d3cb11e8476f119",
-      "title": "15 Final Fantasy Resonance beginner's tips to help you protect the crystals",
-      "category": "Gaming",
-      "summary": "To help you prepare to save the world and protect the crystals, we've listed some Final Fantasy Resonance beginner's tips.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Polygon Gaming",
-      "source_url": "https://www.polygon.com/final-fantasy-resonance-beginners-tips-tricks/",
-      "published_at": "2026-10-22T13:26:53Z",
-      "image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/ffresonance_guide_beginners_lead.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
-      ]
-    },
-    {
-      "id": "d385ee4dee43634966",
-      "title": "Two European women held captive for more than a year in Niger freed in Libya",
-      "category": "World",
-      "summary": "The Swiss government told the BBC that the freed national was on her way back to Switzerland.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "BBC World",
-      "source_url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-22T13:22:39Z",
-      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "World"
-      ]
-    },
-    {
-      "id": "21ad9b71090119a5b4",
-      "title": "‘Mass Effect’ sequel cancelled as acclaimed developer BioWare closes",
-      "category": "Music",
-      "summary": "“What generations of BioWare built together is something to celebrate and remember” The post ‘Mass Effect’ sequel cancelled as acclaimed developer BioWare closes appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/gaming-news/mass-effect-sequel-cancelled-bioware-shut-down-lay-offs-3973846?utm_source=rss&utm_medium=rss&utm_campaign=mass-effect-sequel-cancelled-bioware-shut-down-lay-offs",
-      "published_at": "2026-10-22T13:01:21Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/Mass-Effect-Legendary-Bioware1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
       ]
     },
     {
@@ -3454,125 +3590,6 @@
       ]
     },
     {
-      "id": "145d232b57a1299c64",
-      "title": "‘Heated Rivalry’ to Release in Movie Theaters, Two Episodes at a Time",
-      "category": "Entertainment",
-      "summary": "Forget about going to the cottage. “Heated Rivalry” fans will be going to movie theaters in November. Almost a year after the queer hockey romance series premiered in the U.S., Regal will release all six episodes in more than 650 theaters nationwide for a limited run Nov. 6-30. “When a series connects with audiences the […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety Film",
-      "source_url": "https://variety.com/2026/tv/columns/heated-rivalry-released-movie-theaters-1236916996/",
-      "published_at": "2026-10-22T13:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/12/heated-rivalry-shane-ilya-episode-4-1420x798-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "4fc546b981c1bd8b71",
-      "title": "‘Heated Rivalry’ to Release in Movie Theaters, Two Episodes at a Time",
-      "category": "Entertainment",
-      "summary": "Forget about going to the cottage. “Heated Rivalry” fans will be going to movie theaters in November. Almost a year after the queer hockey romance series premiered in the U.S., Regal will release all six episodes in more than 650 theaters nationwide for a limited run Nov. 6-30. “When a series connects with audiences the […]",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Variety TV",
-      "source_url": "https://variety.com/2026/tv/columns/heated-rivalry-released-movie-theaters-1236916996/",
-      "published_at": "2026-10-22T13:00:00Z",
-      "image_url": "https://variety.com/wp-content/uploads/2025/12/heated-rivalry-shane-ilya-episode-4-1420x798-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Entertainment"
-      ]
-    },
-    {
-      "id": "ebf75d281e80edbebb",
-      "title": "Talking Heads announce first ever authorised book ‘New Feeling’ featuring unseen archive material",
-      "category": "Music",
-      "summary": "“We pulled out handwritten lyrics, original album sketches, and private photos, some of which haven’t left our archive in over 40 years” The post Talking Heads announce first ever authorised book ‘New Feeling’ featuring unseen archive material appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/talking-heads-announce-first-ever-authorised-book-new-feeling-unseen-archive-material-3973842?utm_source=rss&utm_medium=rss&utm_campaign=talking-heads-announce-first-ever-authorised-book-new-feeling-unseen-archive-material",
-      "published_at": "2026-10-22T12:51:36Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/talking-heads@2000x1270-1.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
-      "id": "fef4fa5f7c58723666",
-      "title": "Reincarnated as a Sword Season 2 ‒ Episodes 1-4",
-      "category": "Anime",
-      "summary": "For all my complaining about other, low-effort isekai, I couldn't then turn around and criticize this one for trying too hard",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episodes-1-4/.243086",
-      "published_at": "2026-10-22T12:30:00Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "9ccf31bf91f560765d",
-      "title": "The Apothecary Diaries Film's New Trailer Unveils Kenshi Yonezu's Theme Song",
-      "category": "Anime",
-      "summary": "New visual, character chart, details on creator Hyuganatsu's new stories also unveiled",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/the-apothecary-diaries-film-new-trailer-unveils-kenshi-yonezu-theme-song/.243109",
-      "published_at": "2026-10-22T12:29:12Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "062446182a163124cf",
-      "title": "Muv-Luv Alternative's Schwarzesmarken Games Get Steam Release",
-      "category": "Anime",
-      "summary": "Schwarzesmarken Kōketsu no Monshō , Schwarzesmarken Junkyōsha-tachi to launch with planned Japanese, English, Chinese language support",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Anime News Network",
-      "source_url": "https://www.animenewsnetwork.com/news/2026-10-22/muv-luv-alternative-schwarzesmarken-games-get-steam-release/.243107",
-      "published_at": "2026-10-22T12:27:56Z",
-      "image_url": null,
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Anime"
-      ]
-    },
-    {
-      "id": "7c0687f4ca83f9d99c",
-      "title": "Kraftwerk announce two huge UK gigs in run-up to Glastonbury 2027",
-      "category": "Music",
-      "summary": "The electronica icons are playing the outdoor shows just days before the Worthy Farm festival opens its gates The post Kraftwerk announce two huge UK gigs in run-up to Glastonbury 2027 appeared first on NME .",
-      "summary_status": "publisher_excerpt",
-      "source_name": "NME Music",
-      "source_url": "https://www.nme.com/news/music/kraftwerk-announce-two-huge-uk-gigs-in-run-up-to-glastonbury-2027-buy-tickets-3973836?utm_source=rss&utm_medium=rss&utm_campaign=kraftwerk-announce-two-huge-uk-gigs-in-run-up-to-glastonbury-2027-buy-tickets",
-      "published_at": "2026-10-22T12:11:39Z",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/10/kraftwerk@2000x1270.jpg",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Music"
-      ]
-    },
-    {
       "id": "5785a31ce8131c7bdb",
       "title": "The Most Common Ways American Tourists Die Abroad",
       "category": "Travel",
@@ -3587,23 +3604,6 @@
       "youtube_channel_id": "UCFr3sz2t3bDp6Cux08B93KQ",
       "topics": [
         "Travel"
-      ]
-    },
-    {
-      "id": "f900df0742d18f0015",
-      "title": "Resident Evil makers Capcom reveal data breach has affected over 11 million Capcom ID accounts, warn against potential phishing emails",
-      "category": "Gaming",
-      "summary": "Resident Evil , Street Fighter, and Monster Hunter publishers Capcom have revealed that a data breach has seen a third-party gain access to information associated with more than 11 million Capcom ID accounts.",
-      "summary_status": "publisher_excerpt",
-      "source_name": "Rock Paper Shotgun",
-      "source_url": "https://www.rockpapershotgun.com/resident-evil-makers-capcom-reveal-data-breach-has-affected-over-11-million-capcom-id-accounts-warn-against-potential-phishing-emails",
-      "published_at": "2026-10-22T12:00:00Z",
-      "image_url": "https://assetsio.gnwcdn.com/resident-evil-requiem-photo-mode-patch-01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "media_type": "article",
-      "video_id": null,
-      "youtube_channel_id": null,
-      "topics": [
-        "Gaming"
       ]
     },
     {
@@ -5862,7 +5862,7 @@
     {
       "name": "IGN · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Google Developers · YouTube",
@@ -5872,7 +5872,7 @@
     {
       "name": "Rick Beato · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "TED · YouTube",
@@ -5912,7 +5912,7 @@
     {
       "name": "Ryan Trahan · YouTube",
       "items": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "name": "Mark Rober · YouTube",
